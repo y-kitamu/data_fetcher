@@ -127,7 +127,7 @@ class BinanceFetcher:
         intervals = ["1s"]
         for interval in intervals:
             for ticker in self.target_tickers:
-                date = datetime.date.today() - datetime.timedelta(days=1)
+                date = datetime.date.today() - datetime.timedelta(days=2)
                 while True:
                     output_path = self.data_dir / "{date}/{stem}.csv.gz".format(
                         date=date.strftime("%Y%m%d"),
