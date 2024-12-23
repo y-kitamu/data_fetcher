@@ -8,6 +8,7 @@ import shutil
 import gzip
 
 import polars as pl
+from dateutil.relativedelta import relativedelta
 
 from ..session import get_session
 from ..constants import PROJECT_ROOT
@@ -34,6 +35,10 @@ def zip_to_gz(
     work_dir.mkdir(exist_ok=True, parents=True)
     # zipオブジェクトをファイルに保存
     zip_file = work_dir / "tmp.csv.zip"
+    idx = 0
+    while zip_file.exists():
+        zip_file = work_dir / f"{zip_file.stem}_{idx}.zip"
+        idx += 1
     with open(zip_file, "wb") as f:
         _ = f.write(byte_object)
     # zipを解凍し、csvファイル作成
@@ -53,7 +58,7 @@ def zip_to_gz(
 
 
 class BinanceFetcher:
-    _API_ENDPOINT = "https://data.binance.vision/data/spot/daily/"
+    _API_ENDPOINT = "https://data.binance.vision/data/spot/"
     _DATATYPE_HEADERS = {
         "trades": [
             "tradeId",
@@ -92,7 +97,7 @@ class BinanceFetcher:
 
     def __init__(
         self,
-        data_dir: Path = PROJECT_ROOT / "data/tick_data_binance",
+        data_dir: Path = PROJECT_ROOT / f"data/binance",
         target_tickers: list[str] = [],
     ):
         self.data_dir = data_dir
@@ -118,18 +123,42 @@ class BinanceFetcher:
         else:
             self.target_tickers = target_tickers
 
-    def get_output_stem(self, ticker: str, date: datetime.date, data_type: str):
-        date_str = date.strftime("%Y-%m-%d")
+    def get_output_stem(
+        self, ticker: str, date: datetime.date, data_type: str, monthly: bool = False
+    ):
+        date_str = date.strftime("%Y-%m") if monthly else date.strftime("%Y-%m-%d")
         return f"{ticker}-{data_type}-{date_str}"
 
-    def download_all(self):
+    def download_all_trades_monthly(self):
+        """
+        https://data.binance.vision/data/spot/monthly/trades/BTCUSDT/BTCUSDT-trades-2024-11.zip
+        """
+        for ticker in self.target_tickers:
+            for trade_type in ["trades", "aggTrades"]:
+                date = datetime.date.today() - relativedelta(months=1)
+                while True:
+                    output_path = self.data_dir / "tick/{}/{}.csv.gz".format(
+                        date.strftime("%Y%m"),
+                        self.get_output_stem(ticker, date, trade_type, monthly=True),
+                    )
+                    if output_path.exists():
+                        break
+                    df = self.download_ticker(
+                        ticker, date, trade_type, output_path.parent, duration="monthly"
+                    )
+                    if len(df) == 0:
+                        break
+                    date -= relativedelta(months=1)
+            print(ticker)
+
+    def download_all_klines(self):
         # for data_type in self._DATATYPE_HEADERS.keys():
         intervals = ["1s"]
         for interval in intervals:
             for ticker in self.target_tickers:
                 date = datetime.date.today() - datetime.timedelta(days=2)
                 while True:
-                    output_path = self.data_dir / "{date}/{stem}.csv.gz".format(
+                    output_path = self.data_dir / "klines/{date}/{stem}.csv.gz".format(
                         date=date.strftime("%Y%m%d"),
                         stem=self.get_output_stem(ticker, date, interval),
                     )
@@ -172,9 +201,11 @@ class BinanceFetcher:
                 )
             )
         zip_filename = f"{self.get_output_stem(ticker, date, interval)}.zip"
-        target_url = self._API_ENDPOINT + f"klines/{ticker}/{interval}/{zip_filename}"
+        target_url = (
+            self._API_ENDPOINT + f"daily/klines/{ticker}/{interval}/{zip_filename}"
+        )
         if output_dir is None:
-            output_dir = self.data_dir / date.strftime("%Y%m%d")
+            output_dir = self.data_dir / "kilnes" / date.strftime("%Y%m%d")
         output_dir.mkdir(exist_ok=True, parents=True)
         output_path = output_dir / zip_filename.replace(".zip", ".csv.gz")
 
@@ -182,13 +213,14 @@ class BinanceFetcher:
             output_path, target_url, zip_filename, ticker, date, "klines", overwrite
         )
 
-    def download(
+    def download_ticker(
         self,
         ticker: str,
         date: datetime.date,
         data_type: str,
         output_dir: Path | None = None,
         overwrite: bool = False,
+        duration: str = "monthly",
     ) -> pl.DataFrame:
         if data_type not in self._DATATYPE_HEADERS.keys():
             raise RuntimeError(
@@ -196,10 +228,15 @@ class BinanceFetcher:
                     data_type, list(self._DATATYPE_HEADERS.keys())
                 )
             )
-        zip_filename = f"{self.get_output_stem(ticker, date, data_type)}.zip"
-        target_url = self._API_ENDPOINT + f"{data_type}/{ticker}/{zip_filename}"
+        is_monthly = duration == "monthly"
+        zip_filename = (
+            f"{self.get_output_stem(ticker, date, data_type, monthly=is_monthly)}.zip"
+        )
+        target_url = (
+            self._API_ENDPOINT + f"{duration}/{data_type}/{ticker}/{zip_filename}"
+        )
         if output_dir is None:
-            output_dir = self.data_dir / date.strftime("%Y%m%d")
+            output_dir = self.data_dir / "tick" / date.strftime("%Y%m")
         output_dir.mkdir(exist_ok=True, parents=True)
         output_path = output_dir / zip_filename.replace(".zip", ".csv.gz")
         return self.download_impl(
@@ -219,7 +256,7 @@ class BinanceFetcher:
         if overwrite or not output_path.exists():
             response = self.session.get(target_url)
             if response.status_code != 200:
-                print(response.status_code, ticker, date)
+                print(response.status_code, ticker, date, target_url)
                 return pl.DataFrame()
             zip_to_gz(
                 response.content,
@@ -233,4 +270,4 @@ class BinanceFetcher:
 
 if __name__ == "__main__":
     fetcher = BinanceFetcher()
-    fetcher.download_all()
+    fetcher.download_all_trades_monthly()
