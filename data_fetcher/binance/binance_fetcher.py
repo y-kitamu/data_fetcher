@@ -1,17 +1,18 @@
-"""binance_fetcher.py
-"""
+"""binance_fetcher.py"""
 
-import json
-from pathlib import Path
 import datetime
-import shutil
 import gzip
+import json
+import shutil
+from pathlib import Path
+from typing import override
 
 import polars as pl
 from dateutil.relativedelta import relativedelta
 
-from ..session import get_session
+from ..base_fetcher import BaseFetcher
 from ..constants import PROJECT_ROOT
+from ..session import get_session
 
 
 def get_available_tickers() -> list[str]:
@@ -57,7 +58,7 @@ def zip_to_gz(
     csv_path.unlink()
 
 
-class BinanceFetcher:
+class BinanceFetcher(BaseFetcher):
     _API_ENDPOINT = "https://data.binance.vision/data/spot/"
     _DATATYPE_HEADERS = {
         "trades": [
@@ -102,7 +103,7 @@ class BinanceFetcher:
     ):
         self.data_dir = data_dir
         self.work_dir = PROJECT_ROOT / "data/tmp"
-        self.session = get_session()
+        self.session = get_session(cache_file=None)
         self.available_tickers = get_available_tickers()
         if len(target_tickers) == 0:
             self.target_tickers = [
@@ -129,26 +130,28 @@ class BinanceFetcher:
         date_str = date.strftime("%Y-%m") if monthly else date.strftime("%Y-%m-%d")
         return f"{ticker}-{data_type}-{date_str}"
 
-    def download_all_trades_monthly(self):
+    def download_all_trades(self):
         """
         https://data.binance.vision/data/spot/monthly/trades/BTCUSDT/BTCUSDT-trades-2024-11.zip
         """
         for ticker in self.target_tickers:
             for trade_type in ["trades", "aggTrades"]:
-                date = datetime.date.today() - relativedelta(months=1)
+                date = datetime.date.today() - relativedelta(days=2)
                 while True:
                     output_path = self.data_dir / "tick/{}/{}.csv.gz".format(
-                        date.strftime("%Y%m"),
-                        self.get_output_stem(ticker, date, trade_type, monthly=True),
+                        date.strftime("%Y%m%d"),
+                        self.get_output_stem(ticker, date, trade_type, monthly=False),
                     )
                     if output_path.exists():
-                        break
+                        date -= relativedelta(days=1)
+                        continue
                     df = self.download_ticker(
-                        ticker, date, trade_type, output_path.parent, duration="monthly"
+                        ticker, date, trade_type, output_path.parent, duration="daily"
                     )
                     if len(df) == 0:
                         break
-                    date -= relativedelta(months=1)
+                    date -= relativedelta(days=1)
+                    print(output_path)
             print(ticker)
 
     def download_all_klines(self):
@@ -236,7 +239,10 @@ class BinanceFetcher:
             self._API_ENDPOINT + f"{duration}/{data_type}/{ticker}/{zip_filename}"
         )
         if output_dir is None:
-            output_dir = self.data_dir / "tick" / date.strftime("%Y%m")
+            if duration == "monthly":
+                output_dir = self.data_dir / "tick" / date.strftime("%Y%m")
+            else:
+                output_dir = self.data_dir / "tick" / date.strftime("%Y%m%d")
         output_dir.mkdir(exist_ok=True, parents=True)
         output_path = output_dir / zip_filename.replace(".zip", ".csv.gz")
         return self.download_impl(
@@ -267,7 +273,92 @@ class BinanceFetcher:
             )
         return pl.read_csv(output_path)
 
+    @override
+    def fetch_ticker(
+        self,
+        symbol: str,
+        start_date: datetime.datetime | None = None,
+        end_date: datetime.datetime | None = None,
+        timezone_delta: datetime.timedelta = datetime.timedelta(hours=9),
+        aggregate: bool = True,
+    ) -> pl.DataFrame:
+        if symbol not in self.available_tickers:
+            raise ValueError(f"{symbol} is not available")
+
+        if aggregate:
+            ticker_file_list = sorted(
+                self.data_dir.rglob(f"{symbol}-aggTrades-*.csv.gz")
+            )
+        else:
+            ticker_file_list = sorted(self.data_dir.rglob(f"{symbol}-trades-*.csv.gz"))
+
+        if start_date is None:
+            start_date = datetime.datetime(1970, 1, 1)
+        if end_date is None:
+            end_date = datetime.datetime.now()
+
+        dfs = []
+        pre_start_date = start_date - datetime.timedelta(days=1)
+        time_key = "Timestamp" if aggregate else "time"
+        for file_path in ticker_file_list:
+            if "monthly" in file_path.parts:
+                continue
+            date = datetime.datetime.strptime(file_path.parent.name, "%Y%m%d")
+            if pre_start_date.date() <= date.date() <= end_date.date():
+                print(file_path)
+                epoch_unit = "us" if date.date() >= datetime.date(2025, 1, 1) else "ms"
+                df = pl.read_csv(file_path)
+                dfs.append(
+                    df.select(
+                        pl.lit(symbol).alias("symbol"),
+                        pl.when(pl.col("isBuyerMaker"))
+                        .then(pl.lit("BUY"))
+                        .otherwise(pl.lit("SELL"))
+                        .alias("side"),
+                        pl.col("price"),
+                        pl.col("quantity").alias("size"),
+                        pl.from_epoch(pl.col(time_key), epoch_unit)
+                        .alias("datetime")
+                        .dt.cast_time_unit("us")
+                        + timezone_delta,
+                    )
+                )
+
+        if len(dfs) == 0:
+            return pl.DataFrame()
+
+        df = pl.concat(dfs).filter(pl.col("datetime").is_between(start_date, end_date))
+        return df
+
+    @override
+    def fetch_ohlc(
+        self,
+        symbol: str,
+        interval: datetime.timedelta,
+        start_date: datetime.datetime | None = None,
+        end_date: datetime.datetime | None = None,
+        fill_missing_date: bool = False,
+    ) -> pl.DataFrame:
+        if symbol not in self.available_tickers:
+            raise ValueError(f"{symbol} is not available")
+        return super().fetch_ohlc(
+            symbol, interval, start_date, end_date, fill_missing_date
+        )
+
 
 if __name__ == "__main__":
+    import pdb
+    import sys
+    import traceback
+
+    def run_debug(func, *args, **kwargs):
+        """エラーが発生したときにpdbを起動する"""
+        try:
+            return func(*args, **kwargs)
+        except:
+            extype, value, tb = sys.exc_info()
+            traceback.print_exc()
+            pdb.post_mortem(tb)
+
     fetcher = BinanceFetcher()
-    fetcher.download_all_trades_monthly()
+    run_debug(fetcher.download_all_trades)

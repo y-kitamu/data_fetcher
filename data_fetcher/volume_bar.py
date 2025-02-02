@@ -8,7 +8,12 @@ import polars as pl
 
 
 def convert_ticker_to_volume_bar(
-    ticker_df: pl.DataFrame, volume_size: float, last_row: list[Any] | None = None
+    ticker_df: pl.DataFrame,
+    volume_size: float,
+    last_row: list[Any] | None = None,
+    volume_key: str = "size",
+    price_key: str = "price",
+    date_key: str = "datetime",
 ) -> pl.DataFrame:
     """
     tickerデータをvolume barデータに変換する
@@ -38,8 +43,12 @@ def convert_ticker_to_volume_bar(
         cum_volume = last_row[4]
 
     # volume barの作成
-    for row in ticker_df.to_numpy():
-        _, _, volume, price, date = row
+    for idx in range(len(ticker_df)):
+        volume, price, date = (
+            ticker_df[volume_key][idx],
+            ticker_df[price_key][idx],
+            ticker_df[date_key][idx],
+        )
         if cum_volume == 0:  # cum_volume == 0のときは新しいbarを作成
             volume_bar["open"].append(price)
             volume_bar["start_date"].append(date)
@@ -48,7 +57,7 @@ def convert_ticker_to_volume_bar(
         cum_volume += volume
         high = max(high, price)
         low = min(low, price)
-        if cum_volume > volume_size:  # volume_sizeを超えたらbarを閉じる
+        if volume_size - cum_volume < volume_size * 1e-5:  # volume_sizeを超えたらbarを閉じる
             volume_bar["high"].append(high)
             volume_bar["low"].append(low)
             volume_bar["close"].append(price)
@@ -67,9 +76,7 @@ def convert_ticker_to_volume_bar(
     return pl.DataFrame(volume_bar)
 
 
-def create_volume_bar_csv(
-    input_csv_lists: list[Path], volume_size: float, output_dir: Path
-):
+def create_volume_bar_csv(input_csv_lists: list[Path], volume_size: float, output_dir: Path):
     """
     tickerデータをvolume barデータに変換してcsvファイルに保存する
     Args:

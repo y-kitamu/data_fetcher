@@ -1,0 +1,90 @@
+"""base_fetcher.py
+"""
+
+import datetime
+
+import polars as pl
+
+from .volume_bar import convert_ticker_to_volume_bar
+
+
+def convert_timedelta_to_str(interval: datetime.timedelta):
+    interval_str = ""
+    if interval.days > 0:
+        interval_str += f"{interval.days}d"
+    hours = interval.seconds // 3600
+    minutes = (interval.seconds % 3600) // 60
+    seconds = interval.seconds % 60
+    if hours > 0:
+        interval_str += f"{hours}h"
+    if minutes > 0:
+        interval_str += f"{minutes}m"
+    if seconds > 0:
+        interval_str += f"{seconds}s"
+    return interval_str
+
+
+class BaseFetcher:
+
+    def fetch_ticker(
+        self,
+        symbol: str,
+        start_date: datetime.datetime | None = None,
+        end_date: datetime.datetime | None = None,
+        timezone_delta: datetime.timedelta = datetime.timedelta(hours=9),
+    ) -> pl.DataFrame:
+        raise NotImplementedError
+
+    def fetch_ohlc(
+        self,
+        symbol: str,
+        interval: datetime.timedelta,
+        start_date: datetime.datetime | None = None,
+        end_date: datetime.datetime | None = None,
+        fill_missing_date: bool = False,
+    ) -> pl.DataFrame:
+        df = self.fetch_ticker(symbol, start_date, end_date)
+        ohlc_df = (
+            df.group_by_dynamic(
+                pl.col("datetime"), every=convert_timedelta_to_str(interval)
+            )
+            .agg(
+                pl.col("price").first().alias("open"),
+                pl.col("price").max().alias("high"),
+                pl.col("price").min().alias("low"),
+                pl.col("price").last().alias("close"),
+                pl.col("size").sum().alias("volume"),
+            )
+            .sort(pl.col("datetime"))
+        )
+        return ohlc_df
+
+    def fetch_volume_bar(
+        self,
+        symbol: str,
+        volume_size: float,
+        start_date: datetime.datetime | None = None,
+        end_date: datetime.datetime | None = None,
+    ) -> pl.DataFrame:
+        df = self.fetch_ticker(symbol, start_date, end_date)
+        return convert_ticker_to_volume_bar(df, volume_size)
+
+    def fetch_TIB(
+        self, symbol: str, start_date: datetime.datetime, end_date: datetime.datetime
+    ) -> pl.DataFrame:
+        raise NotImplementedError
+
+    def fetch_VIB(
+        self, symbol: str, start_date: datetime.datetime, end_date: datetime.datetime
+    ) -> pl.DataFrame:
+        raise NotImplementedError
+
+    def fetch_TRB(
+        self, symbol: str, start_date: datetime.datetime, end_date: datetime.datetime
+    ) -> pl.DataFrame:
+        raise NotImplementedError
+
+    def fetch_VRB(
+        self, symbol: str, start_date: datetime.datetime, end_date: datetime.datetime
+    ) -> pl.DataFrame:
+        raise NotImplementedError
