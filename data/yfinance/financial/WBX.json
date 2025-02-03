@@ -1,0 +1,55 @@
+{
+    "2022-12-31": {
+        "Diluted Average Shares": 171767144.0,
+        "Basic Average Shares": 171767144.0,
+        "Diluted EPS": -0.252371,
+        "Basic EPS": -0.252371
+    },
+    "2022-06-30": {
+        "Diluted EPS": 0.0,
+        "Total Revenue": NaN,
+        "Gross Profit": NaN,
+        "Operating Income": NaN,
+        "Net Income": NaN
+    },
+    "2021-12-31": {
+        "Diluted EPS": 0.0,
+        "Total Revenue": NaN,
+        "Gross Profit": NaN,
+        "Operating Income": NaN,
+        "EBIT": NaN,
+        "Net Income": NaN
+    },
+    "2021-06-30": {
+        "Diluted EPS": -1.43,
+        "Total Revenue": NaN,
+        "Gross Profit": NaN,
+        "Operating Income": 0,
+        "EBIT": 0,
+        "Net Income": -12
+    },
+    "2021-03-31": {
+        "Diluted EPS": -0.55,
+        "Total Revenue": NaN,
+        "Gross Profit": NaN,
+        "Operating Income": 0,
+        "EBIT": 0,
+        "Net Income": -3
+    },
+    "2020-12-31": {
+        "Diluted EPS": 0.0,
+        "Total Revenue": NaN,
+        "Gross Profit": NaN,
+        "Operating Income": NaN,
+        "EBIT": NaN,
+        "Net Income": NaN
+    },
+    "2019-12-31": {
+        "Diluted EPS": 0.0,
+        "Total Revenue": NaN,
+        "Gross Profit": NaN,
+        "Operating Income": NaN,
+        "EBIT": NaN,
+        "Net Income": NaN
+    }
+}

@@ -1,0 +1,7 @@
+year,month,duration,annoounce_date,is_prediction,total_revenue,operating_income,ordinary_profit,net_income,eps,divident
+2021,3,12,,False,1289,,255,171,5.5,0
+2022,3,12,,False,3065,,380,269,7.2,5.75
+2023,3,12,,False,3884,765,767,327,8.7,6.4
+2024,3,12,,False,4423,822,824,574,15.3,11.5
+2024,12,3,25/01/24,False,1163,314,297,195,5.2,
+2025,3,12,24/12/23,True,4934,1122,1083,755,19.9,15.5

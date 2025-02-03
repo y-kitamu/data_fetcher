@@ -1,0 +1,583 @@
+{
+    "2022-11-30": {
+        "Tax Effect Of Unusual Items": 0.0,
+        "Tax Rate For Calcs": 0.0,
+        "Normalized EBITDA": -2050053.0,
+        "Total Unusual Items": -30115.0,
+        "Total Unusual Items Excluding Goodwill": -30115.0,
+        "Net Income From Continuing Operation Net Minority Interest": -2964910.0,
+        "Reconciled Depreciation": 511598.0,
+        "Reconciled Cost Of Revenue": 268312.0,
+        "EBITDA": -2080168.0,
+        "EBIT": -2591766.0,
+        "Net Interest Income": -245532.0,
+        "Normalized Income": -2934795.0,
+        "Net Income From Continuing And Discontinued Operation": -3153499.0,
+        "Total Expenses": 3220438.0,
+        "Total Operating Income As Reported": -2591766.0,
+        "Diluted Average Shares": 5666476.0,
+        "Basic Average Shares": 5666476.0,
+        "Diluted EPS": -0.55,
+        "Basic EPS": -0.55,
+        "Diluted NI Availto Com Stockholders": -3153499.0,
+        "Net Income Common Stockholders": -3153499.0,
+        "Net Income": -3153499.0,
+        "Minority Interests": 141897.0,
+        "Net Income Including Noncontrolling Interests": -3295396.0,
+        "Net Income Discontinuous Operations": -188589.0,
+        "Net Income Continuous Operations": -3106807.0,
+        "Tax Provision": 0.0,
+        "Pretax Income": -3106807.0,
+        "Other Income Expense": -269509.0,
+        "Other Non Operating Income Expenses": -239394.0,
+        "Special Income Charges": 0.0,
+        "Write Off": 0.0,
+        "Gain On Sale Of Security": -30115.0,
+        "Net Non Operating Interest Income Expense": -245532.0,
+        "Total Other Finance Cost": 245532.0,
+        "Operating Income": -2591766.0,
+        "Operating Expense": 2773285.0,
+        "Provision For Doubtful Accounts": 0.0,
+        "Depreciation Amortization Depletion Income Statement": 332757.0,
+        "Depreciation And Amortization In Income Statement": 332757.0,
+        "Research And Development": 262648.0,
+        "Selling General And Administration": 2177880.0,
+        "Selling And Marketing Expense": 5371.0,
+        "General And Administrative Expense": 2172509.0,
+        "Other Gand A": 622048.0,
+        "Salaries And Wages": 1550461.0,
+        "Gross Profit": 181519.0,
+        "Cost Of Revenue": 447153.0,
+        "Total Revenue": 628672.0,
+        "Operating Revenue": 628672.0
+    },
+    "2022-08-31": {
+        "Tax Effect Of Unusual Items": 0.0,
+        "Tax Rate For Calcs": 0.0,
+        "Normalized EBITDA": -6402584.0,
+        "Total Unusual Items": 1367.0,
+        "Total Unusual Items Excluding Goodwill": 1367.0,
+        "Net Income From Continuing Operation Net Minority Interest": -4465985.0,
+        "Reconciled Depreciation": 393797.0,
+        "Reconciled Cost Of Revenue": 565057.0,
+        "EBITDA": -6401217.0,
+        "EBIT": -6795014.0,
+        "Net Interest Income": -220749.0,
+        "Normalized Income": -4467352.0,
+        "Net Income From Continuing And Discontinued Operation": -9154830.0,
+        "Total Expenses": 7251411.0,
+        "Total Operating Income As Reported": -6795014.0,
+        "Diluted Average Shares": 5677664.0,
+        "Basic Average Shares": 5677664.0,
+        "Diluted EPS": -1.6,
+        "Basic EPS": -1.6,
+        "Diluted NI Availto Com Stockholders": -9154830.0,
+        "Net Income Common Stockholders": -9154830.0,
+        "Net Income": -9154830.0,
+        "Minority Interests": 2678439.0,
+        "Net Income Including Noncontrolling Interests": -11833269.0,
+        "Net Income Discontinuous Operations": -4688845.0,
+        "Net Income Continuous Operations": -7144424.0,
+        "Tax Provision": 0.0,
+        "Pretax Income": -7144424.0,
+        "Other Income Expense": -128661.0,
+        "Other Non Operating Income Expenses": -130028.0,
+        "Special Income Charges": NaN,
+        "Write Off": NaN,
+        "Gain On Sale Of Security": 1367.0,
+        "Net Non Operating Interest Income Expense": -220749.0,
+        "Total Other Finance Cost": 220749.0,
+        "Operating Income": -6795014.0,
+        "Operating Expense": 6686354.0,
+        "Provision For Doubtful Accounts": NaN,
+        "Depreciation Amortization Depletion Income Statement": 393797.0,
+        "Depreciation And Amortization In Income Statement": 393797.0,
+        "Research And Development": 241717.0,
+        "Selling General And Administration": 6050840.0,
+        "Selling And Marketing Expense": 21098.0,
+        "General And Administrative Expense": 6029742.0,
+        "Other Gand A": 4380218.0,
+        "Salaries And Wages": 1649524.0,
+        "Gross Profit": -108660.0,
+        "Cost Of Revenue": 565057.0,
+        "Total Revenue": 456397.0,
+        "Operating Revenue": 456397.0
+    },
+    "2022-05-31": {
+        "Tax Effect Of Unusual Items": 0.0,
+        "Tax Rate For Calcs": 0.0,
+        "Normalized EBITDA": -4037411.0,
+        "Total Unusual Items": -4534.0,
+        "Total Unusual Items Excluding Goodwill": -4534.0,
+        "Net Income From Continuing Operation Net Minority Interest": -4458850.0,
+        "Reconciled Depreciation": 396770.0,
+        "Reconciled Cost Of Revenue": 102967.0,
+        "EBIT": -4438715.0,
+        "Net Interest Income": -165025.0,
+        "Interest Expense": 165025.0,
+        "Normalized Income": -4454316.0,
+        "Net Income From Continuing And Discontinued Operation": -5685382.0,
+        "Total Expenses": 4973025.0,
+        "Total Operating Income As Reported": -4506474.0,
+        "Diluted Average Shares": 5475412.0,
+        "Basic Average Shares": 5475412.0,
+        "Diluted EPS": -1.0,
+        "Basic EPS": -1.0,
+        "Diluted NI Availto Com Stockholders": -5685382.0,
+        "Net Income Common Stockholders": -5685382.0,
+        "Net Income": -5685382.0,
+        "Minority Interests": 144890.0,
+        "Net Income Including Noncontrolling Interests": -5830272.0,
+        "Net Income Discontinuous Operations": -1226532.0,
+        "Net Income Continuous Operations": -4603740.0,
+        "Tax Provision": 0.0,
+        "Pretax Income": -4603740.0,
+        "Other Income Expense": 67759.0,
+        "Other Non Operating Income Expenses": 72293.0,
+        "Special Income Charges": NaN,
+        "Write Off": NaN,
+        "Gain On Sale Of Security": -4534.0,
+        "Net Non Operating Interest Income Expense": -165025.0,
+        "Total Other Finance Cost": NaN,
+        "Interest Expense Non Operating": 165025.0,
+        "Operating Income": -4506474.0,
+        "Operating Expense": 4870058.0,
+        "Provision For Doubtful Accounts": NaN,
+        "Depreciation Amortization Depletion Income Statement": 396770.0,
+        "Depreciation And Amortization In Income Statement": 396770.0,
+        "Research And Development": 279606.0,
+        "Selling General And Administration": 4193682.0,
+        "Selling And Marketing Expense": 28542.0,
+        "General And Administrative Expense": 4165140.0,
+        "Other Gand A": 2303055.0,
+        "Salaries And Wages": 1862085.0,
+        "Gross Profit": 363584.0,
+        "Cost Of Revenue": 102967.0,
+        "Total Revenue": 466551.0,
+        "Operating Revenue": 466551.0
+    },
+    "2022-02-28": {
+        "Diluted EPS": -3.75,
+        "Total Revenue": 7,
+        "Gross Profit": 5,
+        "Operating Income": -9,
+        "EBIT": -7,
+        "Net Income": -20
+    },
+    "2021-11-30": {
+        "Diluted EPS": -2.05,
+        "Total Revenue": 0,
+        "Gross Profit": 0,
+        "Operating Income": -7,
+        "EBIT": -6,
+        "Net Income": -9
+    },
+    "2021-08-31": {
+        "Diluted EPS": -2.0,
+        "Total Revenue": 0,
+        "Gross Profit": 0,
+        "Operating Income": -4,
+        "EBIT": -2,
+        "Net Income": -9
+    },
+    "2021-05-31": {
+        "Diluted EPS": -0.2,
+        "Total Revenue": NaN,
+        "Gross Profit": NaN,
+        "Operating Income": -1,
+        "EBIT": 0,
+        "Net Income": 0
+    },
+    "2021-02-28": {
+        "Diluted EPS": 147.0,
+        "Total Revenue": NaN,
+        "Gross Profit": NaN,
+        "Operating Income": 1,
+        "EBIT": 1,
+        "Net Income": 2
+    },
+    "2020-11-30": {
+        "Diluted EPS": -101.8,
+        "Total Revenue": NaN,
+        "Gross Profit": NaN,
+        "Operating Income": 0,
+        "EBIT": 0,
+        "Net Income": -1
+    },
+    "2020-08-31": {
+        "Diluted EPS": -42.6,
+        "Total Revenue": NaN,
+        "Gross Profit": NaN,
+        "Operating Income": 0,
+        "EBIT": 0,
+        "Net Income": 0
+    },
+    "2020-05-31": {
+        "Diluted EPS": -3.0,
+        "Total Revenue": 0,
+        "Gross Profit": 0,
+        "Operating Income": -1,
+        "EBIT": -1,
+        "Net Income": -2
+    },
+    "2020-02-29": {
+        "Diluted EPS": -1.0,
+        "Total Revenue": 0,
+        "Gross Profit": 0,
+        "Operating Income": -1,
+        "EBIT": -1,
+        "Net Income": -1
+    },
+    "2019-11-30": {
+        "Diluted EPS": -5.0,
+        "Total Revenue": 0,
+        "Gross Profit": 0,
+        "Operating Income": -2,
+        "EBIT": -2,
+        "Net Income": -3
+    },
+    "2019-08-31": {
+        "Diluted EPS": -7.2,
+        "Total Revenue": 0,
+        "Gross Profit": 0,
+        "Operating Income": -1,
+        "EBIT": -1,
+        "Net Income": -4
+    },
+    "2019-05-31": {
+        "Diluted EPS": -2.8,
+        "Total Revenue": 0,
+        "Gross Profit": 0,
+        "Operating Income": -2,
+        "EBIT": -1,
+        "Net Income": -1
+    },
+    "2019-02-28": {
+        "Diluted EPS": 4.2,
+        "Total Revenue": 0,
+        "Gross Profit": 0,
+        "Operating Income": -2,
+        "EBIT": -2,
+        "Net Income": 2
+    },
+    "2018-11-30": {
+        "Diluted EPS": -4.8,
+        "Total Revenue": 0,
+        "Gross Profit": 0,
+        "Operating Income": -2,
+        "EBIT": -1,
+        "Net Income": -2
+    },
+    "2018-08-31": {
+        "Diluted EPS": 12.8,
+        "Total Revenue": 0,
+        "Gross Profit": 0,
+        "Operating Income": -1,
+        "EBIT": -1,
+        "Net Income": 5
+    },
+    "2018-05-31": {
+        "Diluted EPS": -2.2,
+        "Total Revenue": 0,
+        "Gross Profit": 0,
+        "Operating Income": -1,
+        "EBIT": -1,
+        "Net Income": -1
+    },
+    "2018-02-28": {
+        "Diluted EPS": -17.4,
+        "Total Revenue": 0,
+        "Gross Profit": 0,
+        "Operating Income": -4,
+        "EBIT": -4,
+        "Net Income": -6
+    },
+    "2017-11-30": {
+        "Diluted EPS": -4.8,
+        "Total Revenue": 0,
+        "Gross Profit": 0,
+        "Operating Income": -2,
+        "EBIT": -2,
+        "Net Income": -2
+    },
+    "2017-08-31": {
+        "Diluted EPS": -6.4,
+        "Total Revenue": 0,
+        "Gross Profit": 0,
+        "Operating Income": -2,
+        "EBIT": -2,
+        "Net Income": -2
+    },
+    "2017-05-31": {
+        "Diluted EPS": -3.6,
+        "Total Revenue": 0,
+        "Gross Profit": 0,
+        "Operating Income": -1,
+        "EBIT": -1,
+        "Net Income": -1
+    },
+    "2017-02-28": {
+        "Diluted EPS": -15.2,
+        "Total Revenue": 0,
+        "Gross Profit": 0,
+        "Operating Income": -3,
+        "EBIT": -2,
+        "Net Income": -3
+    },
+    "2016-11-30": {
+        "Diluted EPS": -12.0,
+        "Total Revenue": 0,
+        "Gross Profit": 0,
+        "Operating Income": -2,
+        "EBIT": -2,
+        "Net Income": -2
+    },
+    "2016-08-31": {
+        "Diluted EPS": -6.0,
+        "Total Revenue": 0,
+        "Gross Profit": 0,
+        "Operating Income": -1,
+        "EBIT": 0,
+        "Net Income": -1
+    },
+    "2016-05-31": {
+        "Diluted EPS": -8.0,
+        "Total Revenue": 0,
+        "Gross Profit": 0,
+        "Operating Income": -1,
+        "EBIT": -1,
+        "Net Income": -1
+    },
+    "2016-02-29": {
+        "Diluted EPS": 238.5,
+        "Total Revenue": 0,
+        "Gross Profit": 0,
+        "Operating Income": -1,
+        "EBIT": -1,
+        "Net Income": 0
+    },
+    "2015-11-30": {
+        "Diluted EPS": -20.0,
+        "Total Revenue": 0,
+        "Gross Profit": 0,
+        "Operating Income": -1,
+        "EBIT": -1,
+        "Net Income": -1
+    },
+    "2015-08-31": {
+        "Diluted EPS": -77.0,
+        "Total Revenue": 0,
+        "Gross Profit": 0,
+        "Operating Income": -1,
+        "EBIT": -1,
+        "Net Income": -1
+    },
+    "2015-05-31": {
+        "Diluted EPS": -219.5,
+        "Total Revenue": 0,
+        "Gross Profit": 0,
+        "Operating Income": 0,
+        "EBIT": 0,
+        "Net Income": -3
+    },
+    "2015-02-28": {
+        "Diluted EPS": -13.0,
+        "Total Revenue": 0,
+        "Gross Profit": 0,
+        "Operating Income": -1,
+        "EBIT": -1,
+        "Net Income": -5
+    },
+    "2014-11-30": {
+        "Diluted EPS": 43.5,
+        "Total Revenue": 0,
+        "Gross Profit": 0,
+        "Operating Income": -1,
+        "EBIT": -1,
+        "Net Income": 5
+    },
+    "2014-08-31": {
+        "Diluted EPS": -177.0,
+        "Total Revenue": 0,
+        "Gross Profit": 0,
+        "Operating Income": -2,
+        "EBIT": -1,
+        "Net Income": -1
+    },
+    "2014-05-31": {
+        "Diluted EPS": -21.5,
+        "Total Revenue": 0,
+        "Gross Profit": 0,
+        "Operating Income": -2,
+        "EBIT": -1,
+        "Net Income": 0
+    },
+    "2014-02-28": {
+        "Diluted EPS": 125.0,
+        "Total Revenue": 0,
+        "Gross Profit": 0,
+        "Operating Income": -2,
+        "EBIT": -1,
+        "Net Income": 1
+    },
+    "2013-11-30": {
+        "Diluted EPS": NaN,
+        "Total Revenue": 0,
+        "Gross Profit": 0,
+        "Operating Income": -3,
+        "EBIT": -3,
+        "Net Income": -11
+    },
+    "2013-08-31": {
+        "Diluted EPS": -950.0,
+        "Total Revenue": 0,
+        "Gross Profit": 0,
+        "Operating Income": -1,
+        "EBIT": -1,
+        "Net Income": -5
+    },
+    "2013-05-31": {
+        "Diluted EPS": -250.0,
+        "Total Revenue": 0,
+        "Gross Profit": 0,
+        "Operating Income": -1,
+        "EBIT": -1,
+        "Net Income": -1
+    },
+    "2013-02-28": {
+        "Diluted EPS": -125.0,
+        "Total Revenue": 0,
+        "Gross Profit": 0,
+        "Operating Income": -2,
+        "EBIT": -1,
+        "Net Income": -1
+    },
+    "2012-11-30": {
+        "Diluted EPS": -525.0,
+        "Total Revenue": 0,
+        "Gross Profit": 0,
+        "Operating Income": -2,
+        "EBIT": -1,
+        "Net Income": -2
+    },
+    "2012-08-31": {
+        "Diluted EPS": -100.0,
+        "Total Revenue": 0,
+        "Gross Profit": 0,
+        "Operating Income": -1,
+        "EBIT": 0,
+        "Net Income": 0
+    },
+    "2012-05-31": {
+        "Diluted EPS": -675.0,
+        "Total Revenue": 0,
+        "Gross Profit": 0,
+        "Operating Income": -1,
+        "EBIT": 0,
+        "Net Income": -1
+    },
+    "2012-02-29": {
+        "Diluted EPS": NaN,
+        "Total Revenue": 0,
+        "Gross Profit": -1,
+        "Operating Income": -2,
+        "EBIT": 0,
+        "Net Income": -6
+    },
+    "2011-11-30": {
+        "Diluted EPS": NaN,
+        "Total Revenue": 0,
+        "Gross Profit": 0,
+        "Operating Income": -2,
+        "EBIT": 0,
+        "Net Income": -3
+    },
+    "2011-08-31": {
+        "Diluted EPS": NaN,
+        "Total Revenue": 0,
+        "Gross Profit": 0,
+        "Operating Income": -2,
+        "EBIT": 0,
+        "Net Income": 0
+    },
+    "2011-05-31": {
+        "Diluted EPS": NaN,
+        "Total Revenue": 0,
+        "Gross Profit": -1,
+        "Operating Income": -3,
+        "EBIT": -1,
+        "Net Income": -5
+    },
+    "2011-02-28": {
+        "Diluted EPS": NaN,
+        "Total Revenue": 1,
+        "Gross Profit": -2,
+        "Operating Income": -5,
+        "EBIT": -4,
+        "Net Income": -13
+    },
+    "2010-11-30": {
+        "Diluted EPS": -0.13,
+        "Total Revenue": 1,
+        "Gross Profit": -2,
+        "Operating Income": -5,
+        "EBIT": -4,
+        "Net Income": -6
+    },
+    "2010-08-31": {
+        "Diluted EPS": -0.14,
+        "Total Revenue": 1,
+        "Gross Profit": -2,
+        "Operating Income": -5,
+        "EBIT": -4,
+        "Net Income": -5
+    },
+    "2010-05-31": {
+        "Diluted EPS": 0.01,
+        "Total Revenue": 1,
+        "Gross Profit": -2,
+        "Operating Income": -4,
+        "EBIT": -3,
+        "Net Income": 0
+    },
+    "2010-02-28": {
+        "Diluted EPS": -0.21,
+        "Total Revenue": 0,
+        "Gross Profit": -2,
+        "Operating Income": -5,
+        "EBIT": -5,
+        "Net Income": -6
+    },
+    "2009-11-30": {
+        "Diluted EPS": -0.09,
+        "Total Revenue": 1,
+        "Gross Profit": 0,
+        "Operating Income": -2,
+        "EBIT": -2,
+        "Net Income": -3
+    },
+    "2009-08-31": {
+        "Diluted EPS": -0.09,
+        "Total Revenue": 0,
+        "Gross Profit": 0,
+        "Operating Income": -2,
+        "EBIT": -2,
+        "Net Income": -2
+    },
+    "2009-05-31": {
+        "Diluted EPS": -0.05,
+        "Total Revenue": 0,
+        "Gross Profit": 0,
+        "Operating Income": -1,
+        "EBIT": -1,
+        "Net Income": -1
+    },
+    "2009-02-28": {
+        "Diluted EPS": 0.0,
+        "Total Revenue": NaN,
+        "Gross Profit": NaN,
+        "Operating Income": NaN,
+        "EBIT": NaN,
+        "Net Income": NaN
+    }
+}

@@ -1,0 +1,49 @@
+{
+    "2022-06-30": {
+        "Diluted EPS": 0.0,
+        "Total Revenue": NaN,
+        "Gross Profit": NaN,
+        "Operating Income": NaN,
+        "Net Income": NaN
+    },
+    "2019-12-31": {
+        "Diluted EPS": -987.0,
+        "Total Revenue": 65,
+        "Gross Profit": 65,
+        "Operating Income": -448,
+        "EBIT": -448,
+        "Net Income": -416
+    },
+    "2019-09-30": {
+        "Diluted EPS": 0.2,
+        "Total Revenue": 239,
+        "Gross Profit": 239,
+        "Operating Income": -1,
+        "EBIT": -1,
+        "Net Income": 2
+    },
+    "2019-06-30": {
+        "Diluted EPS": 222.8,
+        "Total Revenue": 152,
+        "Gross Profit": 143,
+        "Operating Income": 37,
+        "EBIT": 37,
+        "Net Income": 24
+    },
+    "2019-03-31": {
+        "Diluted EPS": 728.2,
+        "Total Revenue": 179,
+        "Gross Profit": 173,
+        "Operating Income": 73,
+        "EBIT": 74,
+        "Net Income": 78
+    },
+    "2018-12-31": {
+        "Diluted EPS": 0.0,
+        "Total Revenue": NaN,
+        "Gross Profit": NaN,
+        "Operating Income": NaN,
+        "EBIT": NaN,
+        "Net Income": NaN
+    }
+}

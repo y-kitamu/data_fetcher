@@ -1,0 +1,57 @@
+{
+    "2022-06-30": {
+        "Diluted EPS": 0.0,
+        "Total Revenue": NaN,
+        "Gross Profit": NaN,
+        "Operating Income": NaN,
+        "Net Income": NaN
+    },
+    "2021-12-31": {
+        "Diluted EPS": -5.41,
+        "Total Revenue": NaN,
+        "Gross Profit": NaN,
+        "Operating Income": -70,
+        "EBIT": -70,
+        "Net Income": -93
+    },
+    "2021-09-30": {
+        "Diluted EPS": -0.04,
+        "Total Revenue": NaN,
+        "Gross Profit": NaN,
+        "Operating Income": -2,
+        "EBIT": -2,
+        "Net Income": -1
+    },
+    "2021-06-30": {
+        "Diluted EPS": -0.63,
+        "Total Revenue": NaN,
+        "Gross Profit": NaN,
+        "Operating Income": -1,
+        "EBIT": -1,
+        "Net Income": -4
+    },
+    "2021-03-31": {
+        "Diluted EPS": 0.3,
+        "Total Revenue": NaN,
+        "Gross Profit": NaN,
+        "Operating Income": 0,
+        "EBIT": 0,
+        "Net Income": 2
+    },
+    "2020-12-31": {
+        "Diluted EPS": 0.0,
+        "Total Revenue": NaN,
+        "Gross Profit": NaN,
+        "Operating Income": NaN,
+        "EBIT": NaN,
+        "Net Income": NaN
+    },
+    "2019-12-31": {
+        "Diluted EPS": 0.0,
+        "Total Revenue": NaN,
+        "Gross Profit": NaN,
+        "Operating Income": NaN,
+        "EBIT": NaN,
+        "Net Income": NaN
+    }
+}

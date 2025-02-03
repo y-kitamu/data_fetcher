@@ -1,0 +1,5 @@
+year,month,duration,annoounce_date,is_prediction,total_revenue,operating_income,ordinary_profit,net_income,eps,divident
+2024,6,3,24/08/08,False,89800,1355,1054,4083,102.0,
+2024,9,3,24/11/08,False,90257,2043,2279,1523,38.0,
+2025,3,12,24/05/13,True,415000,13000,11000,8000,199.9,140
+2025,3,12,24/11/08,True,370000,8000,7000,8000,199.8,140

@@ -1,0 +1,97 @@
+{
+    "2022-06-30": {
+        "Diluted EPS": 0.0,
+        "Total Revenue": NaN,
+        "Gross Profit": NaN,
+        "Operating Income": NaN,
+        "Net Income": NaN
+    },
+    "2020-12-31": {
+        "Diluted EPS": 0.0,
+        "Total Revenue": NaN,
+        "Gross Profit": NaN,
+        "Operating Income": NaN,
+        "EBIT": NaN,
+        "Net Income": NaN
+    },
+    "2020-06-30": {
+        "Diluted EPS": 0.16,
+        "Total Revenue": 20,
+        "Gross Profit": 14,
+        "Operating Income": 9,
+        "EBIT": 9,
+        "Net Income": 9
+    },
+    "2020-03-31": {
+        "Diluted EPS": 0.06,
+        "Total Revenue": 10,
+        "Gross Profit": 5,
+        "Operating Income": 3,
+        "EBIT": 3,
+        "Net Income": 3
+    },
+    "2019-12-31": {
+        "Diluted EPS": 0.44,
+        "Total Revenue": 34,
+        "Gross Profit": 20,
+        "Operating Income": 17,
+        "EBIT": 17,
+        "Net Income": 16
+    },
+    "2019-09-30": {
+        "Diluted EPS": -0.1,
+        "Total Revenue": NaN,
+        "Gross Profit": NaN,
+        "Operating Income": -1,
+        "EBIT": -1,
+        "Net Income": -1
+    },
+    "2019-06-30": {
+        "Diluted EPS": 0.14,
+        "Total Revenue": 18,
+        "Gross Profit": 8,
+        "Operating Income": 7,
+        "EBIT": 7,
+        "Net Income": 7
+    },
+    "2019-03-31": {
+        "Diluted EPS": 0.09,
+        "Total Revenue": 14,
+        "Gross Profit": 6,
+        "Operating Income": 4,
+        "EBIT": 5,
+        "Net Income": 4
+    },
+    "2018-12-31": {
+        "Diluted EPS": 0.06,
+        "Total Revenue": NaN,
+        "Gross Profit": NaN,
+        "Operating Income": 0,
+        "EBIT": 0,
+        "Net Income": 2
+    },
+    "2018-09-30": {
+        "Diluted EPS": -0.01,
+        "Total Revenue": NaN,
+        "Gross Profit": NaN,
+        "Operating Income": 0,
+        "EBIT": 0,
+        "Net Income": 0
+    },
+    "2018-06-30": {
+        "Diluted EPS": 0.0,
+        "Total Revenue": NaN,
+        "Gross Profit": NaN,
+        "Operating Income": 0,
+        "EBIT": 0,
+        "Net Income": 0
+    },
+    "2018-03-31": {
+        "Diluted EPS": -0.01,
+        "Total Revenue": NaN,
+        "Gross Profit": NaN,
+        "Operating Income": 0,
+        "EBIT": 0,
+        "Net Income": 0
+    }
+}

@@ -1,0 +1,57 @@
+{
+    "2022-12-31": {
+        "Tax Effect Of Unusual Items": 0.0,
+        "Tax Rate For Calcs": 0.17,
+        "Net Income From Continuing Operation Net Minority Interest": 455000.0,
+        "Normalized Income": 455000.0,
+        "Net Income From Continuing And Discontinued Operation": 455000.0,
+        "Diluted NI Availto Com Stockholders": 455000.0,
+        "Net Income Common Stockholders": 455000.0,
+        "Net Income": 455000.0,
+        "Net Income Including Noncontrolling Interests": 455000.0,
+        "Net Income Continuous Operations": 455000.0,
+        "Total Revenue": 5537000.0,
+        "Operating Revenue": 5537000.0
+    },
+    "2022-09-30": {
+        "Tax Effect Of Unusual Items": 0.0,
+        "Tax Rate For Calcs": 0.17,
+        "Net Income From Continuing Operation Net Minority Interest": 590000.0,
+        "Normalized Income": 590000.0,
+        "Net Income From Continuing And Discontinued Operation": 590000.0,
+        "Diluted Average Shares": 4389318.0,
+        "Basic Average Shares": 4389318.0,
+        "Diluted EPS": 0.15,
+        "Basic EPS": 0.15,
+        "Diluted NI Availto Com Stockholders": 590000.0,
+        "Net Income Common Stockholders": 590000.0,
+        "Net Income": 590000.0,
+        "Net Income Including Noncontrolling Interests": 590000.0,
+        "Net Income Continuous Operations": 590000.0,
+        "Total Revenue": 5897000.0,
+        "Operating Revenue": 5897000.0
+    },
+    "2022-06-30": {
+        "Diluted EPS": 0.0,
+        "Total Revenue": NaN,
+        "Gross Profit": NaN,
+        "Operating Income": NaN,
+        "Net Income": NaN
+    },
+    "2021-12-31": {
+        "Diluted EPS": 0.0,
+        "Total Revenue": NaN,
+        "Gross Profit": NaN,
+        "Operating Income": NaN,
+        "EBIT": NaN,
+        "Net Income": NaN
+    },
+    "2021-06-30": {
+        "Diluted EPS": 0.0,
+        "Total Revenue": NaN,
+        "Gross Profit": NaN,
+        "Operating Income": NaN,
+        "EBIT": NaN,
+        "Net Income": NaN
+    }
+}
