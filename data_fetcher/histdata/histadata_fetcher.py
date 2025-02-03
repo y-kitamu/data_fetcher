@@ -7,7 +7,6 @@ from pathlib import Path
 
 import polars as pl
 import requests
-
 from histdata import download_hist_data as dl
 from histdata.api import Platform as P
 from histdata.api import TimeFrame as TF
@@ -25,6 +24,9 @@ class HistDataFetcher(BaseFetcher):
         self.available_tickers = self.get_available_tickers()
         self.target_tickers = [
             "usdjpy",
+            "eurjpy",
+            "nsxusd",
+            "jpxjpy",
         ]
 
     def get_available_tickers(self) -> list[str]:

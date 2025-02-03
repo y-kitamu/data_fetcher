@@ -1,9 +1,4 @@
-"""data.py
-
-Author : Yusuke Kitamura
-Create Date : 2024-03-24 17:27:13
-Copyright (c) 2019- Yusuke Kitamura <ymyk6602@gmail.com>
-"""
+"""data.py"""
 
 import datetime
 from typing import Any
@@ -12,8 +7,8 @@ import polars as pl
 import requests
 from bs4 import BeautifulSoup
 
-from ..util import convert_to_number
 from .io import read_data_csv, read_financial_csv
+from .util import convert_to_number
 
 
 def get_stock_data(
@@ -62,7 +57,9 @@ def get_market_capitalization(
     for table_row in market_cap_table.find_all("tr"):
         tds = table_row.find_all(["th", "td"])
         if len(tds) > 0 and tds[0].text == "時価総額":
-            market_cap = convert_to_number(tds[1].text.replace("兆", "").replace("億", ""))
+            market_cap = convert_to_number(
+                tds[1].text.replace("兆", "").replace("億", "")
+            )
             if market_cap is not None:
                 break
 

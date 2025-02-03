@@ -1,9 +1,4 @@
-"""financial.py
-
-Author : Yusuke Kitamura
-Create Date : 2024-03-23 19:02:41
-Copyright (c) 2019- Yusuke Kitamura <ymyk6602@gmail.com>
-"""
+"""financial.py"""
 
 import csv
 import datetime
@@ -13,7 +8,7 @@ from pathlib import Path
 from bs4 import BeautifulSoup
 from pydantic import BaseModel
 
-from ..util import convert_to_number
+from .util import convert_to_number
 
 
 class FinancialStatement(BaseModel):
@@ -68,7 +63,11 @@ class FinancialStatement(BaseModel):
             self.year,
             self.month,
             self.duration,
-            "" if self.announce_date is None else self.announce_date.strftime("%y/%m/%d"),
+            (
+                ""
+                if self.announce_date is None
+                else self.announce_date.strftime("%y/%m/%d")
+            ),
             self.is_prediction,
             self.total_revenue,
             self.operating_income,
@@ -87,7 +86,9 @@ class FinancialStatement(BaseModel):
             month=int(row[1]),
             duration=int(row[2]),
             announce_date=(
-                None if row[3] == "" else datetime.datetime.strptime(row[3], "%y/%m/%d").date()
+                None
+                if row[3] == ""
+                else datetime.datetime.strptime(row[3], "%y/%m/%d").date()
             ),
             is_prediction=row[4] == "True",
             total_revenue=convert_to_number(row[5]),
@@ -145,7 +146,9 @@ def get_annual_results(soup: BeautifulSoup, code: str):
         return []
     prev_year = -1
     prev_month = -1
-    indices = [headers.index(header.text) for header in table.find("thead").find_all("th")]
+    indices = [
+        headers.index(header.text) for header in table.find("thead").find_all("th")
+    ]
     indices = [idx if idx < indices[0] else idx - 1 for idx in indices[1:]]
 
     results = []
@@ -206,7 +209,9 @@ def get_quarter_results(soup: BeautifulSoup, code: str):
         return []
     regex = re.compile("(\d+)\.(\d+)-(\d+)")
     table = quarter_result_div.find("table")
-    indices = [headers.index(header.text) for header in table.find("thead").find_all("th")]
+    indices = [
+        headers.index(header.text) for header in table.find("thead").find_all("th")
+    ]
     indices = [idx if idx < indices[0] else idx - 1 for idx in indices[1:]]
 
     results = []
@@ -217,7 +222,11 @@ def get_quarter_results(soup: BeautifulSoup, code: str):
         res = regex.search(th.text)
         if res is None:
             continue
-        year, start_month, end_month = int(res.group(1)), int(res.group(2)), int(res.group(3))
+        year, start_month, end_month = (
+            int(res.group(1)),
+            int(res.group(2)),
+            int(res.group(3)),
+        )
         duration = end_month + 1 - start_month
         if duration < 0:
             year += 1

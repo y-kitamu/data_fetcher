@@ -11,13 +11,14 @@ from tqdm import tqdm
 
 import data_fetcher
 
+session = data_fetcher.session.get_session(max_requsets_per_second=2)
+
 
 def fetch_data(symbol: str, date: datetime.date, output_path: Path):
     if date.weekday() >= 5:  # 土日はスキップ
         return
 
     try:
-        session = data_fetcher.session.get_session(max_requsets_per_second=2)
         df = yf.Ticker(symbol, session=session).history(
             interval="1m",
             start=date.strftime("%Y-%m-%d"),

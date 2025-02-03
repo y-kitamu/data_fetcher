@@ -2,7 +2,12 @@
 # PATH=/home/kitamura/.local/bin${PATH:+:${PATH}}
 echo "Start rsync from wsl"
 cd /home/kitamura/work/stock
-rsync -auv wsl:/mnt/d/stock/data/minutes /home/kitamura/work/data_fetcher/data/rakuten/
+# 一ヶ月前からのデータを取得
+month=$(date -d '1 month ago' '+%Y%m')
+rsync -auv wsl:/mnt/d/stock/data/minutes/$month* /home/kitamura/work/data_fetcher/data/rakuten/minutes/
+month=$(date '+%Y%m')
+rsync -auv wsl:/mnt/d/stock/data/minutes/$month* /home/kitamura/work/data_fetcher/data/rakuten/minutes/
+unset month
 echo "Finish rsync from wsl"
 
 #30 6 * * * /home/kitamura/work/stock/scripts/cron_fetch_from_gmo.sh >> /home/kitamura/log.txt 2>&1
