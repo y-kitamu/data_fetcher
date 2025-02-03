@@ -1,7 +1,8 @@
 /cache/
-/data/minutes/
-/data/tick/
-/data/tmp/
+/data/*/minutes/
+/data/*/tick/
+/data/*/tmp/
+/data/*/klines/
 /cert/
 __pycache__/
 *.pyc

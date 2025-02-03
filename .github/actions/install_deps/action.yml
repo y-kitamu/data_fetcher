@@ -1,0 +1,23 @@
+# This workflow will install Python dependencies, run tests and lint with a variety of Python versions
+# For more information see: https://help.github.com/actions/language-and-framework-guides/using-python-with-github-actions
+
+name: "Install dependent python packages"
+
+author: "@y-kitamu"
+jobs:
+runs:
+  using: "Composite"
+  steps:
+    - name: Set up Python ${{ matrix.python-version }}
+      uses: actions/setup-python@v5
+      with:
+        python-version: ${{ matrix.python-version }}
+    - name: Set up chrome
+      run: |
+          sudo wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
+          sudo apt update
+          sudo apt-get install google-chrome-stable
+      shell: bash
+    - name: Install dependencies
+      run: pip install -e .
+      shell: bash
