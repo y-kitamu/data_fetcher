@@ -11,3 +11,4 @@ __pycache__/
 *.csv.gz
 *.cache
 poetry.lock
+/logs/
