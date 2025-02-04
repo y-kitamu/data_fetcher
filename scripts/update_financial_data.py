@@ -17,7 +17,7 @@ from requests import Session
 from requests_cache import CacheMixin, SQLiteCache
 from requests_ratelimiter import LimiterMixin, MemoryQueueBucket
 
-import stock
+import data_fetcher
 
 TICKER_LIST_URL = "https://www.trkd-asia.com/rakutensec/exportcsvus?all=on&vall=on&forwarding=na&target=0&theme=na&returns=na&head_office=na&name=&code=&sector=na&pageNo=&c=us&p=result&r1=on"
 
@@ -41,7 +41,9 @@ def update_ticker_list(ticker_list_path: Path, ticker_list_url: str = TICKER_LIS
             with open(ticker_list_path, "w") as f:
                 f.write(res.text)
         else:
-            stock.logger.error(f"Failed to get ticker list. Status code: {res.status_code}\n{res.text}")
+            data_fetcher.logger.error(
+                f"Failed to get ticker list. Status code: {res.status_code}\n{res.text}"
+            )
     except requests.exceptions.ConnectionError:
         raise ConnectionError("Connection Error. Check your network connection.")
     except requests.exceptions.Timeout:
@@ -61,7 +63,7 @@ def update_financial_data(ticker: str, output_dir: Path):
             with open(output_path, "r") as f:
                 data = json.load(f)
         except:
-            stock.logger.error(f"Failed to load {output_path}.")
+            data_fetcher.logger.error(f"Failed to load {output_path}.")
 
     new_data = yf.Ticker(ticker, session=session).quarterly_financials
     for key, value in new_data.to_dict().items():
@@ -69,10 +71,13 @@ def update_financial_data(ticker: str, output_dir: Path):
 
     with open(output_path, "w") as f:
         json.dump(data, f, indent=4)
-    stock.logger.info(f"Saved {output_path}.")
+    data_fetcher.logger.info(f"Saved {output_path}.")
 
 
-def main(ticker_list_path: Path, output_dir: Path = stock.DATA_DIR / "codes"):
+def main(
+    ticker_list_path: Path,
+    output_dir: Path = data_fetcher.constants.PROJECT_ROOT / "data/yfinance/financial",
+):
     """ """
     update_ticker_list(ticker_list_path=ticker_list_path)
 
@@ -85,16 +90,26 @@ def main(ticker_list_path: Path, output_dir: Path = stock.DATA_DIR / "codes"):
         try:
             update_financial_data(ticker=ticker, output_dir=output_dir)
         except KeyboardInterrupt:
-            stock.logger.exception("Keyboard Interrupt.")
+            data_fetcher.logger.exception("Keyboard Interrupt.")
             break
         except:
-            stock.logger.exception(f"Failed to update financial data. : {ticker}")
+            data_fetcher.logger.exception(
+                f"Failed to update financial data. : {ticker}"
+            )
 
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--ticker_list", type=Path, default=stock.DATA_DIR / "us_stock_codes.csv")
-    parser.add_argument("--output_dir", type=Path, default=stock.DATA_DIR / "codes")
+    parser.add_argument(
+        "--ticker_list",
+        type=Path,
+        default=data_fetcher.constants.PROJECT_ROOT / "data/us_tickers.csv",
+    )
+    parser.add_argument(
+        "--output_dir",
+        type=Path,
+        default=data_fetcher.constants.PROJECT_ROOT / "data/yfinance/financial",
+    )
     args = parser.parse_args()
 
     main(ticker_list_path=args.ticker_list, output_dir=args.output_dir)

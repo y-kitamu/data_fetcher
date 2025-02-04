@@ -9,12 +9,15 @@ from pathlib import Path
 import requests
 from bs4 import BeautifulSoup
 
-import stock
-from stock.kabutan.financial import (FinancialStatement, get_annual_results,
-                                     get_quarter_results)
+import data_fetcher
+from data_fetcher.kabutan.financial import (FinancialStatement,
+                                            get_annual_results,
+                                            get_quarter_results)
 
 
-def get_financial_data(code: str, output_dir: Path = stock.PROJECT_ROOT / "data/financial/"):
+def get_financial_data(
+    code: str, output_dir: Path = data_fetcher.PROJECT_ROOT / "data/kabutan/financial/"
+):
     output_dir.mkdir(exist_ok=True, parents=True)
     output_path = output_dir / "{}.csv".format(code)
 
@@ -33,25 +36,25 @@ def get_financial_data(code: str, output_dir: Path = stock.PROJECT_ROOT / "data/
     results = sorted(set(results))
 
     if num_results == len(results):
-        stock.logger.info(f"Already up to date. Code: {code}")
+        data_fetcher.logger.info(f"Already up to date. Code: {code}")
         return
 
     with open(output_path, "w", encoding="utf-8") as f:
         csv_writer = csv.writer(f, lineterminator="\n")
         csv_writer.writerow(FinancialStatement.get_csv_header())
         csv_writer.writerows([res.to_csv_row() for res in results])
-    stock.logger.info(f"Save to {output_path}. Number : {len(results)}")
+    data_fetcher.logger.info(f"Save to {output_path}. Number : {len(results)}")
 
 
 def main():
-    code_list_csv = stock.PROJECT_ROOT / "data" / "data_j.csv"
+    code_list_csv = data_fetcher.PROJECT_ROOT / "data" / "jp_tickers.csv"
     with open(code_list_csv, "r", encoding="utf-8") as f:
         csv_reader = csv.reader(f)
         next(csv_reader)
         codes = [row[0] for row in csv_reader]
 
     for code in codes:
-        stock.logger.info(f"Code: {code}")
+        data_fetcher.logger.info(f"Code: {code}")
         get_financial_data(code)
         time.sleep(0.5)
 
