@@ -23,8 +23,8 @@ jobs:
     - name: Run
       run: |
         python scripts/update_jp_tickers_list.py
-        python scripts/fetch_data_from_kabutan.py
         python scripts/update_financial_data_jp.py
+        python scripts/fetch_data_from_kabutan.py
         python scripts/divide_stocks_jp.py
     - name: Diff
       id: diff
