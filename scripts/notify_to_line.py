@@ -4,8 +4,9 @@ import datetime
 import uuid
 from pathlib import Path
 
-import data_fetcher
 import requests
+
+import data_fetcher
 
 ACCESS_TOKEN_FILE = (
     data_fetcher.constants.PROJECT_ROOT / "cert" / "line_message_api.txt"
@@ -27,11 +28,11 @@ def get_latest_dates_data_number() -> dict[str, str]:
             dirname = f"{data_src_dir.name}/{data_dir.name}"
             dirs = sorted([p for p in data_dir.glob("20*") if p.is_dir()])
             if len(dirs) == 0:
-                results[dirname] = "No data directory found."
+                # results[dirname] = "No data directory found."
                 continue
             latest_path = dirs[-1]
             if not latest_path.is_dir():
-                results[dirname] = "csv"
+                # results[dirname] = "csv"
                 continue
             num_data = len(list(latest_path.glob("*.csv*")))
             results[dirname] = f"{latest_path.name}, {num_data}"

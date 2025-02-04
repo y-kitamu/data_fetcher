@@ -16,7 +16,8 @@ from data_fetcher.kabutan.financial import (FinancialStatement,
 
 
 def get_financial_data(
-    code: str, output_dir: Path = data_fetcher.PROJECT_ROOT / "data/kabutan/financial/"
+    code: str,
+    output_dir: Path = data_fetcher.constants.PROJECT_ROOT / "data/kabutan/financial/",
 ):
     output_dir.mkdir(exist_ok=True, parents=True)
     output_path = output_dir / "{}.csv".format(code)
