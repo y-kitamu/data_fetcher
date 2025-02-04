@@ -341,9 +341,23 @@ class BinanceFetcher(BaseFetcher):
     ) -> pl.DataFrame:
         if symbol not in self.available_tickers:
             raise ValueError(f"{symbol} is not available")
-        return super().fetch_ohlc(
-            symbol, interval, start_date, end_date, fill_missing_date
-        )
+
+        if start_date is None:
+            start_date = datetime.datetime(1970, 1, 1)
+        if end_date is None:
+            end_date = datetime.datetime.now()
+
+        # file sizeが大きくなるため、10日ごとにデータを取得
+        date = start_date
+        dfs: list[pl.DataFrame] = []
+        while date < end_date:
+            next_date = min(end_date, date + datetime.timedelta(days=10))
+            df = super().fetch_ohlc(symbol, interval, date, next_date)
+            if len(df) > 0:
+                dfs.append(df)
+            date = next_date
+
+        return pl.concat(dfs)
 
 
 if __name__ == "__main__":

@@ -10,3 +10,4 @@ __pycache__/
 *.ipynb_ckpt
 *.csv.gz
 *.cache
+poetry.lock
