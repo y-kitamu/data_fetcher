@@ -116,7 +116,7 @@ def main():
     update_csv("0010", update_rs=True)  # topix
 
     # 個別銘柄
-    codes_csv = data_fetcher.constants.PROJECT_ROOT / "data/daily" / "jp_tickers.csv"
+    codes_csv = data_fetcher.constants.JP_TICKERS_PATH
     with open(codes_csv, "r") as f:
         csv_reader = csv.reader(f)
         next(csv_reader)
