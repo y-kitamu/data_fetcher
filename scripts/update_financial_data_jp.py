@@ -47,7 +47,7 @@ def get_financial_data(
 
 
 def main():
-    code_list_csv = data_fetcher.PROJECT_ROOT / "data" / "jp_tickers.csv"
+    code_list_csv = data_fetcher.constants.JP_TICKERS_PATH
     with open(code_list_csv, "r", encoding="utf-8") as f:
         csv_reader = csv.reader(f)
         next(csv_reader)

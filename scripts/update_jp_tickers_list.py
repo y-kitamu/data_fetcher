@@ -10,8 +10,6 @@ import xlrd
 
 import data_fetcher
 
-STOCK_DATA_LIST = data_fetcher.constants.PROJECT_ROOT / "data" / "jp_tickers.csv"
-
 
 def save_code_list_to_csv(
     output_csv_path: Path,
@@ -33,7 +31,7 @@ def save_code_list_to_csv(
 
 
 def main():
-    save_code_list_to_csv(STOCK_DATA_LIST)
+    save_code_list_to_csv(data_fetcher.constants.JP_TICKERS_PATH)
 
 
 if __name__ == "__main__":

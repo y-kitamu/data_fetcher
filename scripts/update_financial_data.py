@@ -101,9 +101,7 @@ def main(
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument(
-        "--ticker_list",
-        type=Path,
-        default=data_fetcher.constants.PROJECT_ROOT / "data/us_tickers.csv",
+        "--ticker_list", type=Path, default=data_fetcher.constants.US_TICKERS_PATH
     )
     parser.add_argument(
         "--output_dir",
