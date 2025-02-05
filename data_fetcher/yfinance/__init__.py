@@ -1,5 +1,7 @@
 """__init__.py"""
 
+import datetime
+
 import pandas as pd
 import polars as pl
 
@@ -25,7 +27,10 @@ def pd_to_pl(df: pd.DataFrame) -> pl.DataFrame:
     elif "Datetime" in df:
         pdf = pl.DataFrame(
             {
-                "datetime": df["Datetime"].to_list(),
+                "datetime": [
+                    d.astimezone(datetime.timezone.utc)
+                    for d in df["Datetime"].to_list()
+                ],
                 "open": df["Open"],
                 "high": df["High"],
                 "low": df["Low"],
