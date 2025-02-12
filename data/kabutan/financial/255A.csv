@@ -1,3 +1,4 @@
 year,month,duration,annoounce_date,is_prediction,total_revenue,operating_income,ordinary_profit,net_income,eps,divident
 2025,3,12,24/10/01,True,41320,6140,6260,4370,237.8,
 2025,3,12,24/11/12,True,41320,6140,6260,4370,237.8,101
+2025,3,12,25/02/12,True,43190,6280,6670,4110,315.2,107
