@@ -3,4 +3,5 @@ year,month,duration,annoounce_date,is_prediction,total_revenue,operating_income,
 2022,3,12,,False,1636,,-217,-225,-11.8,0
 2023,3,12,,False,2007,330,332,273,14.3,0
 2024,3,12,,False,2251,473,503,431,22.6,0
+2024,12,3,25/02/13,False,651,134,117,108,5.5,
 2025,3,12,24/12/13,True,2693,634,576,455,17.7,0
