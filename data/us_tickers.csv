@@ -446,7 +446,6 @@ BAFN,BAYFIRST FINANCL,ベイファースト・ファイナンシャル,NASDAQ,�
 BAH,BOOZ ALLEN HAMIL,ブーズ・アレン・ハミルトン,NYSE,その他,○
 BAK,BRASKEM SA,ブラスケム,NYSE,石油,○
 BALL,BALL CORP,ボール,NYSE,その他製造,○
-BALY,BALLY CORP,バリーズ・コーポレーション,NYSE,エンターテイメント,○
 BAM,BROOKFIELD AMLTD,ブルックフィールド・アセット・マネジメントLTD,NYSE,金融（証券）,○
 BANC,BANC CALIFORNIA,バンク・オブ・カリフォルニア,NYSE,金融（銀行）,○
 BAND,BANDWIDTH INC,バンドウィドゥス,NASDAQ,ソフトウェア・サービス,○
@@ -1478,7 +1477,6 @@ EYE,NATIONAL VISION,ナショナル・ビジョン・ホールディングス,NA
 EYEN,EYENOVIA INC,アイノビア,NASDAQ,医薬品（バイオテクノロジー）,○
 EYPT,EYEPOINT PHARMA,アイポイント・ファーマシューティカルズ,NASDAQ,医薬品（バイオテクノロジー）,○
 EZA,ISHARES S AFRICA,iシェアーズ MSCI 南アフリカ ETF,NYSE,その他,○
-EZFL,EZFILL HOLDINGS,Ezフィル・ホールディングス,NASDAQ,石油,○
 EZGO,EZGO TECHNOLOGIE,イージーゴー・テクノロジーズ,NASDAQ,その他製造,○
 EZPW,EZCORP INC,イージーコープ,NASDAQ,小売,○
 F,FORD MOTOR CO,フォード・モーター,NYSE,自動車,○
@@ -2711,7 +2709,6 @@ MRK,MERCK & CO.,メルク,NYSE,医薬品,○
 MRKR,MARKER THERA,マーカー・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 MRM,MEDIROM HEALTH,メディロム・ヘルスケア・テクノロジーズ,NASDAQ,ヘルスケア,○
 MRNA,MODERNA INC,モデルナ,NASDAQ,医薬品（バイオテクノロジー）,○
-MRNS,MARINUS PHARMA,マリナス・ファーマシューティカルズ,NASDAQ,医薬品,○
 MRSN,MERSANA THERAPEU,メルサナ・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 MRTN,MARTEN TRANSPORT,マーテン・トランスポート,NASDAQ,運輸,○
 MRUS,MERUS,メルス,NASDAQ,医薬品（バイオテクノロジー）,○
@@ -2963,6 +2960,7 @@ NXST,NEXSTAR MEDIA,ネクスター・メディア・グループ,NASDAQ,その�
 NXT,NEXTRACKER,ネクストラッカー,NASDAQ,電力,○
 NXTC,NEXTCURE INC,ネクストキュア,NASDAQ,医薬品（バイオテクノロジー）,○
 NXTG,FT INDXX NEXTG,ファーストトラスト Indxx ネクストG ETF,NASDAQ,その他,○
+NXXT,EZFILL HOLDINGS,Ezフィル・ホールディングス,NASDAQ,石油,○
 NYT,NEW YORK TIMES,ニューヨーク・タイムズ,NYSE,その他,○
 NYXH,NYXOAH SA,ニクソア,NASDAQ,ヘルスケア,○
 OABI,OMNIAB,オムニアエービー,NASDAQ,医薬品（バイオテクノロジー）,○
@@ -4142,7 +4140,6 @@ TTGT,TECHTARGET INC,テックターゲット,NASDAQ,ソフトウェア・サー�
 TTI,TETRA TECHNO,テトラ・テクノロジーズ,NYSE,石油,○
 TTMI,TTM TECHNOLOGIES,TTMテクノロジーズ,NASDAQ,その他製造,○
 TTNP,TITAN PHARMA,タイタン・ファーマシューティカルズ,NASDAQ,医薬品（バイオテクノロジー）,○
-TTOO,T2 BIOSYSTEMS,T2バイオシステムズ,NASDAQ,ヘルスケア,○
 TTSH,TILE SHOP HLD,タイル・ショップ・ホールディングス,NASDAQ,小売,○
 TTWO,TAKE-TWO INTERAC,テイクツー・インタラクティブ・ソフトウエア,NASDAQ,ソフトウェア・サービス,○
 TU,TELUS CORP,テラス,NYSE,通信サービス,○
