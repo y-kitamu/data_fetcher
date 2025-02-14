@@ -1040,7 +1040,6 @@ CTRN,CITI TRENDS INC,シティ・トレンズ,NASDAQ,小売,○
 CTS,CTS CORPORATION,CTS,NYSE,その他製造,○
 CTSH,COGNIZANT TECH,コグニザント・テクノロジー・ソリューションズ,NASDAQ,ソフトウェア・サービス,○
 CTSO,CYTOSORBENT CORP,サイトソーベンツ,NASDAQ,ヘルスケア,○
-CTV,INNOVID CORP,イノビッド,NYSE,通信機器,○
 CTVA,CORTEVA INC,コルテバ,NYSE,化学,○
 CTXR,CITIUS PHARMACEU,シティアス・ファーマシューティカルズ,NASDAQ,ヘルスケア,○
 CUBI,CUSTOMERS BANCRP,カスタマーズ・バンコープ,NYSE,金融（銀行）,○
@@ -1477,6 +1476,7 @@ EYE,NATIONAL VISION,ナショナル・ビジョン・ホールディングス,NA
 EYEN,EYENOVIA INC,アイノビア,NASDAQ,医薬品（バイオテクノロジー）,○
 EYPT,EYEPOINT PHARMA,アイポイント・ファーマシューティカルズ,NASDAQ,医薬品（バイオテクノロジー）,○
 EZA,ISHARES S AFRICA,iシェアーズ MSCI 南アフリカ ETF,NYSE,その他,○
+EZFL,EZFILL HOLDINGS,Ezフィル・ホールディングス,NASDAQ,石油,○
 EZGO,EZGO TECHNOLOGIE,イージーゴー・テクノロジーズ,NASDAQ,その他製造,○
 EZPW,EZCORP INC,イージーコープ,NASDAQ,小売,○
 F,FORD MOTOR CO,フォード・モーター,NYSE,自動車,○
@@ -2013,7 +2013,6 @@ HXL,HEXCEL CORP,ヘクセル,NYSE,その他製造,○
 HY,HYSTER-YALE INC,ハイスター・エール・インク,NYSE,機械,○
 HYDR,GLBLX HYDROGEN,グローバルＸ 水素テック ETF,NASDAQ,その他,○
 HYEM,V EM HY BOND,ヴァンエック・新興国ハイ・イールド債ETF,NYSE,その他,○
-HYFM,HYDROFARM HD GR,ハイドロファーム・ホールディングス,NASDAQ,その他製造,○
 HYG,ISHARES HI YIELD,iシェアーズ iBoxx 米ドル建てハイイールド社債 ETF,NYSE,その他,○
 HYLN,HYLIION HOLDINGS,ハイリオン・ホールディングス,NYSE,その他製造,○
 HYLS,FT TACTCL HYIELD,ファーストトラスト タクティカル ハイイールドETF,NASDAQ,その他,○
@@ -2960,7 +2959,6 @@ NXST,NEXSTAR MEDIA,ネクスター・メディア・グループ,NASDAQ,その�
 NXT,NEXTRACKER,ネクストラッカー,NASDAQ,電力,○
 NXTC,NEXTCURE INC,ネクストキュア,NASDAQ,医薬品（バイオテクノロジー）,○
 NXTG,FT INDXX NEXTG,ファーストトラスト Indxx ネクストG ETF,NASDAQ,その他,○
-NXXT,EZFILL HOLDINGS,Ezフィル・ホールディングス,NASDAQ,石油,○
 NYT,NEW YORK TIMES,ニューヨーク・タイムズ,NYSE,その他,○
 NYXH,NYXOAH SA,ニクソア,NASDAQ,ヘルスケア,○
 OABI,OMNIAB,オムニアエービー,NASDAQ,医薬品（バイオテクノロジー）,○
@@ -3942,7 +3940,6 @@ TAL,TAL EDUCATION,TALエデュケーション,NYSE,その他,○
 TALK,TALKSPACE INC,トークスペース,NASDAQ,ソフトウェア・サービス,○
 TALO,TALOS ENERGY INC,タロス・エナジー,NYSE,石油,○
 TAN,INV SOLAR ETF,インベスコ ソーラー ETF,NYSE,その他,○
-TANH,TANTECH HLD,タンテック・ホールディングス,NASDAQ,化学,○
 TAOP,TAOPING INC,タオピン,NASDAQ,ソフトウェア・サービス,○
 TAP,MOLSON COORS,モルソン・クアーズ・ビバレッジ,NYSE,飲料,○
 TARA,PROTARA THERAPEU,プロタラ・セラピューティック,NASDAQ,医薬品（バイオテクノロジー）,○
