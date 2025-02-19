@@ -295,7 +295,6 @@ ARCB,ARCBEST CORP,アークベスト,NASDAQ,運輸,○
 ARCO,ARCOS DORADOS,アルコス・ドラドス,NYSE,外食,○
 ARCT,ARCTURUS THERAP,アークトゥルス・セラピューティクス・ホールディングス,NASDAQ,医薬品（バイオテクノロジー）,○
 ARDX,ARDELYX INC,アーデリックス,NASDAQ,医薬品（バイオテクノロジー）,○
-AREC,AMERICAN RESRCES,アメリカン・リソーシズ,NASDAQ,その他製造,○
 AREN,ARENA GROUP,アリーナ・グループ・ホールディングス,NYSE,情報処理サービス,○
 ARES,ARES MANAGEMENT,アレス・マネジメント,NYSE,金融（証券）,○
 ARGX,ARGENX SE,アルジェンX,NASDAQ,医薬品（バイオテクノロジー）,○
@@ -606,6 +605,7 @@ BORR,BORR DRILLING,ボル・ドリリング,NYSE,石油,○
 BOSC,BOS BETTR ONLINE,BOS ベター・オンライン・ソリューション,NASDAQ,ソフトウェア・サービス,○
 BOTZ,GLOBAL X ROBO AI,グローバルX ロボット＆AI・ETF,NASDAQ,その他,○
 BOX,BOX INC.,ボックス,NYSE,ソフトウェア・サービス,○
+BOXL,BOXLIGHT CORP,ボックスライト,NASDAQ,ソフトウェア・サービス,○
 BP,BP PLC ADR,BP,NYSE,石油,○
 BPMC,BLUEPRINT MEDICN,ブループリント・メディスン,NASDAQ,医薬品（バイオテクノロジー）,○
 BPOP,POPULAR INC,ポピュラー,NASDAQ,金融（銀行）,○
@@ -1089,6 +1089,7 @@ CYCC,CYCLACEL PHARMA,サイクラセル・ファーマシューティカルズ,N
 CYCN,CYCLERION THERA,サイクレリオン・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 CYD,CHINA YUCHAI,チャイナユチャイ,NYSE,自動車,○
 CYH,COMMNTY HLTH SYS,コミュニティー・ヘルス・システムズ,NYSE,ヘルスケア,○
+CYN,CYNGN INC,シングン,NASDAQ,ソフトウェア・サービス,○
 CYRX,CRYOPORT INC,クリオポート,NASDAQ,その他,○
 CYTH,CYCLO THERAPE,シクロ・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 CYTK,CYTOKINETICS,サイトカイネティックス,NASDAQ,医薬品（バイオテクノロジー）,○
@@ -1525,6 +1526,7 @@ FDP,FRESH DEL MONTE,フレッシュ・デルモンテ・プロデュース,NYSE,
 FDS,FACTSET RESEARCH,ファクトセット・リサーチ・システムズ,NYSE,ソフトウェア・サービス,○
 FDX,FEDEX CORP.,フェデックス,NYSE,運輸,○
 FE,FIRSTENERGY CORP,ファーストエナジー,NYSE,電力,○
+FEAM,5E ADVANCED MTRL,5Eアドバンスド・マテリアルズ,NASDAQ,専門店,○
 FEIM,FREQUENCY ELECTR,フレクエンシー・エレクトロニクス,NASDAQ,その他製造,○
 FELE,FRANKLIN ELECTRC,フランクリン・エレクトリック,NASDAQ,その他製造,○
 FEMY,FEMASYS INC,フェマシス,NASDAQ,医薬品,○
@@ -1918,6 +1920,7 @@ HHH,HOWARD HUGHES HD,ハワード・ヒューズ・ホールディングス,NYSE
 HHS,HARTE HANKS INC,ハート・ハンクス,NASDAQ,その他,○
 HI,HILLENBRAND INC,ヒレンブランド,NYSE,その他,○
 HIFS,HINGHAM INST SAV,ヒンガム・インスティチューション・フォー・セイビングス,NASDAQ,金融（銀行）,○
+HIG,HARTFORD INSURAN,ハートフォード・インシュアランス,NYSE,金融(保険),○
 HII,HUNTINGTON,ハンティントン・インガルス・インダストリーズ,NYSE,その他製造,○
 HIMS,HIMS HERS HEALTH,ヒムズ・ハーズ・ヘルス,NYSE,ソフトウェア・サービス,○
 HIMX,HIMAX TECHNOLOGS,ハイマックス・テクノロジーズ,NASDAQ,半導体,○
@@ -2593,6 +2596,7 @@ MEC,MAYVILLE ENGNRNG,メイビル・エンジニアリング・カンパニー,N
 MED,MEDIFAST INC,メディファスト,NYSE,ヘルスケア,○
 MEDP,MEDPACE HOLDINGS,メドペース・ホールディングス,NASDAQ,ヘルスケア,○
 MEG,MONTROSE ENVMTAL,モントローズ・エンバイロンメンタル,NYSE,その他,○
+MEGL,MAGIC EMPIRE GLB,マジック・エンパイア・グローバル,NASDAQ,金融（証券）,○
 MEI,METHODE ELECTRO,メソッド・エレクトロニクス,NYSE,その他製造,○
 MEIP,MEI PHARMA INC,MEIファーマ,NASDAQ,医薬品（バイオテクノロジー）,○
 MELI,MERCADOLIBRE INC,メルカドリブレ,NASDAQ,情報処理サービス,○
@@ -2751,6 +2755,7 @@ MTX,MINERALS TECHNO,ミネラルズ・テクノロジーズ,NYSE,化学,○
 MTZ,MASTEC INC,マステック,NYSE,その他,○
 MU,MICRON TECH,マイクロン　テクノロジー,NASDAQ,半導体,○
 MULL,GNS 2X LONG MU,GraniteShares2倍ロングMUデイリーETF,NASDAQ,その他,○
+MULN,MULLEN AUTOMOTIV,ミューレン・オートモーティブ,NASDAQ,ソフトウェア・サービス,○
 MUR,MURPHY OIL CORP,マーフィー・オイル,NYSE,石油,○
 MURA,MURAL ONCOLOGY,ミューラル・オンコロジー,NASDAQ,医療サービス,○
 MUSA,MURPHY USA INC,マーフィーUSA,NYSE,専門店,○
@@ -2955,6 +2960,7 @@ NXST,NEXSTAR MEDIA,ネクスター・メディア・グループ,NASDAQ,その�
 NXT,NEXTRACKER,ネクストラッカー,NASDAQ,電力,○
 NXTC,NEXTCURE INC,ネクストキュア,NASDAQ,医薬品（バイオテクノロジー）,○
 NXTG,FT INDXX NEXTG,ファーストトラスト Indxx ネクストG ETF,NASDAQ,その他,○
+NXXT,NEXTNRG INC,ネクストNRG,NASDAQ,石油,○
 NYT,NEW YORK TIMES,ニューヨーク・タイムズ,NYSE,その他,○
 NYXH,NYXOAH SA,ニクソア,NASDAQ,ヘルスケア,○
 OABI,OMNIAB,オムニアエービー,NASDAQ,医薬品（バイオテクノロジー）,○
@@ -3065,6 +3071,7 @@ OSW,ONESPAWORLD HLD,ワンスパワールド・ホールディングス,NASDAQ,�
 OTEX,OPEN TEXT CORP,オープンテキスト,NASDAQ,ソフトウェア・サービス,○
 OTIS,OTIS WORLDWIDE,オーチス・ワールドワイド,NYSE,機械,○
 OTLK,OUTLOOK THERAPEU,アウトルック・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
+OTLY,OATLY GROUP AB,オートリー・グループAB,NASDAQ,食品,○
 OTRK,ONTRAK INC,オンタラック,NASDAQ,ヘルスケア,○
 OTTR,OTTER TAIL,オッター・テール,NASDAQ,電力,○
 OUST,OUSTER INC,オースター,NASDAQ,半導体,○
@@ -3633,6 +3640,7 @@ SGC,SUPEROR GROUP CO,スーペリア・グループ・オブ・カンパニー�
 SGD,SAFE GREEN DEVEL,セーフ・アンド・グリーン・デベロップメント,NASDAQ,その他製造,○
 SGHC,SGHC LTD,SGHC,NYSE,その他,○
 SGHT,SIGHT SCIENCES,サイト・サイエンシズ,NASDAQ,ヘルスケア,○
+SGI,SOMNIGROUP INTER,ソムニグループ・インターナショナル,NYSE,その他製造,○
 SGLY,SINGULRTY F TECH,シンギュラリティ・フィーチャー・テクノロジー,NASDAQ,その他,○
 SGMA,SIGMAT INTERNTNL,シグマトロン・インターナショナル,NASDAQ,その他製造,○
 SGML,SIGMA LITHIUM,シグマ・リチウム・コーポレーション,NASDAQ,その他,○
