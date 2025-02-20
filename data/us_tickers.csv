@@ -392,7 +392,6 @@ AVDL,AVADEL PHARMA,アバデル・ファーマシューティカルズ,NASDAQ,�
 AVDX,AVIDXCHANGE HLD,アビッドエクスチェンジ・ホールディングス,NASDAQ,ソフトウェア・サービス,○
 AVEM,AVT EMG M EQ ETF,アバンティス・エマージング・マーケッツ・エクイティ・ETF,NYSE,その他,○
 AVGO,BROADCOM INC,ブロードコム,NASDAQ,半導体,○
-AVGR,AVINGER INC,アビンガー,NASDAQ,ヘルスケア,○
 AVIR,ATEA PHARMACEU,アテア・ファーマシューティカルズ,NASDAQ,医薬品（バイオテクノロジー）,○
 AVNS,AVANOS MEDICAL,アバノス・メディカル,NYSE,医療サービス,○
 AVNT,AVIENT CORP,アビエント,NYSE,化学,○
@@ -610,7 +609,6 @@ BP,BP PLC ADR,BP,NYSE,石油,○
 BPMC,BLUEPRINT MEDICN,ブループリント・メディスン,NASDAQ,医薬品（バイオテクノロジー）,○
 BPOP,POPULAR INC,ポピュラー,NASDAQ,金融（銀行）,○
 BPRN,PRINCETON BANC,プリンストン・バンコープ,NASDAQ,金融（銀行）,○
-BPTH,BIOPATH HOLDINGS,バイオパス・ホールディングス,NASDAQ,医薬品（バイオテクノロジー）,○
 BQ,BOQII HOLDING,ボーキー・ホールディング,NYSE,小売,○
 BR,BROADRIDGE FINL,ブロードリッジ・ファイナンシャル・ソリューションズ,NYSE,情報処理サービス,○
 BRAG,BRAGG GAMING GP,ブラグ・ゲーミング・グループ,NASDAQ,エンターテイメント,○
@@ -2771,7 +2769,6 @@ MXL,MAXLINEAR INC,マックスリニア,NASDAQ,半導体,○
 MYE,MYERS INDUSTRIES,マイヤーズ・インダストリーズ,NYSE,その他製造,○
 MYFW,FIRST WEST FINL,ファースト・ウエスタン・ファイナンシャル,NASDAQ,その他,○
 MYGN,MYRIAD GENETICS,ミリアド・ジェネティックス,NASDAQ,医薬品,○
-MYNA,MYNARIC AG,マイナリック,NASDAQ,通信サービス,○
 MYND,MYND AI INC,マインドAI,NYSE,その他,○
 MYNZ,MAINZ BIOMED NV,マインツ・バイオメッドNV,NASDAQ,医薬品（バイオテクノロジー）,○
 MYO,MYOMO INC,マイオモ,NYSE,医療サービス,○
@@ -2784,7 +2781,6 @@ NABL,N-ABLE INC,エヌ・エイブル,NYSE,ソフトウェア・サービス,○
 NAII,NATURAL ALT INTL,ナチュラル・オルタナティブズ・インターナショナル,NASDAQ,医薬品,○
 NAMS,NEWAMSTERDAM PHA,ニューアムステルダム・ファーマ,NASDAQ,医薬品（バイオテクノロジー）,○
 NAOV,NANOVIBRONIX INC,ナノビブロニックス,NASDAQ,ヘルスケア,○
-NARI,INARI MDICAL INC,イナリ・メディカル,NASDAQ,ヘルスケア,○
 NAT,NORDIC ARCN TANK,ノルディック・アメリカン・タンカーズ,NYSE,運輸,○
 NATH,NATHANS FAMOUS,ネーサンズ・フェイマス,NASDAQ,外食,○
 NATL,NCR ATLEOS LLC,エヌ・シー・アール・アトレオス,NYSE,情報処理サービス,○
@@ -2823,6 +2819,7 @@ NEU,NEWMARKET CORP,ニューマーケット,NYSE,化学,○
 NEUE,NEUEHEALTH,ノイエ・ヘルス,NYSE,ヘルスケア,○
 NEWP,NEW PACIFC METAL,ニュー・パシフィック・メタルズ,NYSE,その他,○
 NEXA,NEXA RESOURCES,ネクサ・リソーシズ,NYSE,その他,○
+NEXN,NEXXEN INTER,ネクセン・インターナショナル,NASDAQ,その他,○
 NEXT,NEXTDECADE CORP,ネクストデケード,NASDAQ,ガス・パイプライン,○
 NFBK,NORTHFIELD BANC,ノースフィールド・バンコープ,NASDAQ,金融（銀行）,○
 NFE,NEW FORTRSS ENGY,ニュー・フォートレス・エナジー,NASDAQ,電力,○
