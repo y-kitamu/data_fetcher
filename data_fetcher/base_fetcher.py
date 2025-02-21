@@ -1,5 +1,4 @@
-"""base_fetcher.py
-"""
+"""base_fetcher.py"""
 
 import datetime
 
@@ -42,21 +41,46 @@ class BaseFetcher:
         start_date: datetime.datetime | None = None,
         end_date: datetime.datetime | None = None,
         fill_missing_date: bool = False,
+        fetch_interval: datetime.timedelta | None = None,
     ) -> pl.DataFrame:
-        df = self.fetch_ticker(symbol, start_date, end_date)
-        ohlc_df = (
-            df.group_by_dynamic(
-                pl.col("datetime"), every=convert_timedelta_to_str(interval)
+        if fetch_interval is None:
+            df = self.fetch_ticker(symbol, start_date, end_date)
+            ohlc_df = (
+                df.group_by_dynamic(
+                    pl.col("datetime"), every=convert_timedelta_to_str(interval)
+                )
+                .agg(
+                    pl.col("price").first().alias("open"),
+                    pl.col("price").max().alias("high"),
+                    pl.col("price").min().alias("low"),
+                    pl.col("price").last().alias("close"),
+                    pl.col("size").sum().alias("volume"),
+                )
+                .sort(pl.col("datetime"))
             )
-            .agg(
-                pl.col("price").first().alias("open"),
-                pl.col("price").max().alias("high"),
-                pl.col("price").min().alias("low"),
-                pl.col("price").last().alias("close"),
-                pl.col("size").sum().alias("volume"),
-            )
-            .sort(pl.col("datetime"))
-        )
+        else:
+            if start_date is None:
+                start_date = datetime.datetime(1970, 1, 1)
+            if end_date is None:
+                end_date = datetime.datetime.now()
+
+            date = start_date
+            dfs: list[pl.DataFrame] = []
+            while date < end_date:
+                next_date = min(end_date, date + fetch_interval)
+                df = self.fetch_ohlc(
+                    symbol,
+                    interval,
+                    date,
+                    next_date,
+                    fill_missing_date,
+                    fetch_interval=None,
+                )
+                if len(df) > 0:
+                    dfs.append(df)
+                date = next_date
+
+            ohlc_df = pl.concat(dfs)
         return ohlc_df
 
     def fetch_volume_bar(

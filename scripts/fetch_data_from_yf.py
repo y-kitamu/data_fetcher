@@ -24,6 +24,8 @@ def fetch_data(symbol: str, date: datetime.date, output_path: Path):
             start=date.strftime("%Y-%m-%d"),
             end=(date + datetime.timedelta(days=1)).strftime("%Y-%m-%d"),
         )
+    except KeyboardInterrupt as e:
+        raise e
     except:
         return
 

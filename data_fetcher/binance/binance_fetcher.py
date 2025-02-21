@@ -305,7 +305,7 @@ class BinanceFetcher(BaseFetcher):
                 continue
             date = datetime.datetime.strptime(file_path.parent.name, "%Y%m%d")
             if pre_start_date.date() <= date.date() <= end_date.date():
-                print(file_path)
+                # print(file_path)
                 epoch_unit = "us" if date.date() >= datetime.date(2025, 1, 1) else "ms"
                 df = pl.read_csv(file_path)
                 dfs.append(
@@ -327,7 +327,9 @@ class BinanceFetcher(BaseFetcher):
         if len(dfs) == 0:
             return pl.DataFrame()
 
-        df = pl.concat(dfs).filter(pl.col("datetime").is_between(start_date, end_date))
+        df = pl.concat(dfs).filter(
+            pl.col("datetime").is_between(start_date, end_date, closed="left")
+        )
         return df
 
     @override
@@ -338,26 +340,19 @@ class BinanceFetcher(BaseFetcher):
         start_date: datetime.datetime | None = None,
         end_date: datetime.datetime | None = None,
         fill_missing_date: bool = False,
+        fetch_interval: datetime.timedelta | None = datetime.timedelta(days=10),
     ) -> pl.DataFrame:
         if symbol not in self.available_tickers:
             raise ValueError(f"{symbol} is not available")
 
-        if start_date is None:
-            start_date = datetime.datetime(1970, 1, 1)
-        if end_date is None:
-            end_date = datetime.datetime.now()
-
-        # file sizeが大きくなるため、10日ごとにデータを取得
-        date = start_date
-        dfs: list[pl.DataFrame] = []
-        while date < end_date:
-            next_date = min(end_date, date + datetime.timedelta(days=10))
-            df = super().fetch_ohlc(symbol, interval, date, next_date)
-            if len(df) > 0:
-                dfs.append(df)
-            date = next_date
-
-        return pl.concat(dfs)
+        return super().fetch_ohlc(
+            symbol,
+            interval,
+            start_date,
+            end_date,
+            fill_missing_date,
+            fetch_interval=fetch_interval,
+        )
 
 
 if __name__ == "__main__":

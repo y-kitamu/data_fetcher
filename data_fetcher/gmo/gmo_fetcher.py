@@ -55,7 +55,7 @@ class GMOFethcer(BaseFetcher):
 
     def download_all(self):
         for ticker in tqdm(self.available_tickers):
-            date = datetime.date.today() - datetime.timedelta(days=1)
+            date = datetime.date.today() - datetime.timedelta(days=2)
             while True:
                 output_path = self.data_dir / "{date}/{date}_{ticker}.csv.gz".format(
                     date=date.strftime("%Y%m%d"), ticker=ticker
@@ -131,7 +131,9 @@ class GMOFethcer(BaseFetcher):
         if len(dfs) == 0:
             return pl.DataFrame()
 
-        df = pl.concat(dfs).filter(pl.col("datetime").is_between(start_date, end_date))
+        df = pl.concat(dfs).filter(
+            pl.col("datetime").is_between(start_date, end_date, closed="left")
+        )
         return df
 
     @override

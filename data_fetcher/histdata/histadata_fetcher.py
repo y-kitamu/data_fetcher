@@ -11,7 +11,7 @@ from histdata import download_hist_data as dl
 from histdata.api import Platform as P
 from histdata.api import TimeFrame as TF
 
-from ..base_fetcher import BaseFetcher
+from ..base_fetcher import BaseFetcher, convert_timedelta_to_str
 from ..constants import PROJECT_ROOT
 from ..session import get_session
 
@@ -118,6 +118,8 @@ class HistDataFetcher(BaseFetcher):
             pl.concat(dfs)
             .with_columns(
                 pl.lit(symbol).alias("symbol"),
+                pl.col("volume").alias("size"),
+                ((pl.col("ask") + pl.col("bid")) / 2.0).alias("price"),
                 pl.col("timestamp")
                 .str.to_datetime("%Y%m%d %H%M%S%3f")
                 .alias("datetime")
@@ -126,3 +128,24 @@ class HistDataFetcher(BaseFetcher):
             .filter(pl.col("datetime").is_between(start_date, end_date))
         )
         return df.sort("datetime")
+
+    def fetch_ohlc(
+        self,
+        symbol: str,
+        interval: datetime.timedelta,
+        start_date: datetime.datetime | None = None,
+        end_date: datetime.datetime | None = None,
+        fill_missing_date: bool = False,
+        fetch_interval: datetime.timedelta | None = datetime.timedelta(days=28),
+    ) -> pl.DataFrame:
+        if symbol not in self.target_tickers:
+            raise ValueError(f"Invalid symbol: {symbol}")
+
+        return super().fetch_ohlc(
+            symbol,
+            interval,
+            start_date,
+            end_date,
+            fill_missing_date,
+            fetch_interval=fetch_interval,
+        )
