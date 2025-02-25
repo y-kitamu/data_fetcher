@@ -1980,7 +1980,7 @@ HSII,HEIDRICK&STRUGGL,ハイドリック・アンド・ストラグルズ・イ�
 HSON,HUDSON GLOBAL,ハドソン・グローバル,NASDAQ,その他,○
 HSTM,HEALTHSTREAM INC,ヘルスストリーム,NASDAQ,ソフトウェア・サービス,○
 HSY,HERSHEY CO/THE,ハーシー,NYSE,食品,○
-HTBI,HOMETRUST BANC,ホーム・トラスト・バンクシェアズ,NASDAQ,金融（銀行）,○
+HTB,HOMETRUST BANC,ホーム・トラスト・バンクシェアズ,NYSE,金融（銀行）,○
 HTBK,HERITAGE COMMRCE,ヘリテージ・コマース,NASDAQ,金融（銀行）,○
 HTCR,HEARTCORE ENTER,ハートコア・エンタープライジズ,NASDAQ,ソフトウェア・サービス,○
 HTH,HILLTOP HOLDINGS,ヒルトップ・ホールディングス,NYSE,金融（銀行）,○
@@ -3352,8 +3352,6 @@ QQQM,INV NS100 ETF,インベスコ NASDAQ 100 ETF,NASDAQ,その他,○
 QQQS,INV NS FG200 ETF,インベスコ NASDAQ フューチャー200 ETF,NASDAQ,その他,○
 QRHC,QUEST RESOURCE,クエスト・リソース・ホールディング,NASDAQ,その他,○
 QRMI,GLBLX NDX R MNGD,グローバルX NASDAQ100・リスク管理・インカム ETF,NASDAQ,その他,○
-QRTEA,QURATE RETAIL,キュレート・リテール・インク,NASDAQ,小売,○
-QRTEB,QURATE RETAIL,キュレート・リテール,NASDAQ,小売,○
 QRVO,QORVO INC,クォルボ,NASDAQ,半導体製造,○
 QS,QUANTUMSCAPE CO,クアンタムスケープ,NYSE,その他製造,○
 QSG,QUANTASING GROUP,クアンタシング・グループ,NASDAQ,情報処理サービス,○
@@ -3367,6 +3365,8 @@ QUAD,QUAD GRAPHICS,クォード・グラフィックス,NYSE,ソフトウェア�
 QUBT,QUANTUM COMPUT,クオンタム・コンピューティング,NASDAQ,ソフトウェア・サービス,○
 QUIK,QUICKLOGIC CORP,クイックロジック,NASDAQ,半導体,○
 QURE,UNIQURE BV,ユニキュア,NASDAQ,医薬品（バイオテクノロジー）,○
+QVCGA,QVC GROUP INC,QVCグループ,NASDAQ,小売,○
+QVCGB,QURATE RETAIL,キュレート・リテール,NASDAQ,小売,○
 QYLD,GLX NQ100 CV CLL,グローバルX NASDAQ100・カバード・コール ETF,NASDAQ,その他,○
 QYLG,GLBLX NQ100 CC50,グローバルＸ NASDAQ100・カバード・コール50 ETF,NASDAQ,その他,○
 R,RYDER SYSTEM,ライダー・システム,NYSE,運輸,○
@@ -3904,6 +3904,7 @@ SUZ,SUZANO PAPEL,スザーノ・パペル・エ・セルロース,NYSE,紙・パ
 SVCO,SILVACO GROUP,シルバコ・グループ,NASDAQ,半導体,○
 SVM,SILVERCORP METAL,シルバーコープ・メタルズ,NYSE,その他,○
 SVRA,SAVARA INC,サバラ,NASDAQ,医薬品,○
+SVRE,SAVERONE 2014,セイバーワン2014,NASDAQ,自動車,○
 SVT,SERVOTRONICS INC,サーボトロニクス,NYSE,その他製造,○
 SW,SMURFIT WESTROCK,スマーフィット・ウェストロック,NYSE,その他製造,○
 SWBI,SMITH AND WESSON,スミス&ウェッソン・ブランズ,NASDAQ,その他製造,○
@@ -4468,6 +4469,7 @@ WILC,G WILL FOOD INTL,Gウィリー・フード・インターナショナル,NA
 WIMI,WIMI HOLOGRAM,ウィミ･ホログラム･クラウド,NASDAQ,ソフトウェア・サービス,○
 WINA,WINMARK CORP,ウィンマーク,NASDAQ,小売,○
 WING,WINGSTOP INC.,ウイング・ストップ,NASDAQ,外食,○
+WINT,WINDTREE THERA,ウィンドツリー・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 WIT,WIPRO LTD ADR,ウィプロ,NYSE,ソフトウェア・サービス,○
 WIX,WIX.COM LTD,Wix.com,NASDAQ,ソフトウェア・サービス,○
 WK,WORKIVA INC,ワーキバ,NYSE,ソフトウェア・サービス,○

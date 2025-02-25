@@ -699,7 +699,7 @@
         "Other Income Expense": 6300000.0,
         "Special Income Charges": 4700000.0,
         "Gain On Sale Of Business": 4700000.0,
-        "Impairment Of Capital Assets": NaN,
+        "Impairment Of Capital Assets": 0.0,
         "Gain On Sale Of Security": 1600000.0,
         "Net Non Operating Interest Income Expense": -7800000.0,
         "Interest Expense Non Operating": 7800000.0,
