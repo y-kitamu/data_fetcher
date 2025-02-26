@@ -93,7 +93,6 @@ AEIS,ADVANCED ENERGY,アドバンストエナジーインダストリーズ,NASD
 AEM,AGNICO EAGLE,アグニコ・イーグル・マインズ,NYSE,その他,○
 AEMD,AETHLON MEDICAL,エスロン・メディカル,NASDAQ,ヘルスケア,○
 AEO,AMERICAN EAGLE,アメリカン・イーグル・アウトフィッターズ,NYSE,専門店,○
-AEON,AEON BIOPHARMA,イオン・バイオファーマ,NYSE,医薬品（バイオテクノロジー）,○
 AEP,AMERICAN ELEC,アメリカン・エレクトリック・パワー,NASDAQ,その他製造,○
 AER,AERCAP HOLDINGS,エアキャップ・ホールディングス,NYSE,航空,○
 AES,AES CORPORATION,AES,NYSE,その他製造,○
@@ -3012,7 +3011,6 @@ OMCL,OMNICELL INC,オムニセル,NASDAQ,ソフトウェア・サービス,○
 OMER,OMEROS CORP,オメロス,NASDAQ,医薬品（バイオテクノロジー）,○
 OMEX,ODYSSEY MARINE,オデッセイ・マリーン・エクスプロレーション,NASDAQ,その他,○
 OMF,ONEMAIN HOLDINGS,ワンメイン・ホールディングス,NYSE,金融（銀行）,○
-OMGA,OMEGA THERAPEU,オメガ・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 OMI,OWENS MINOR INC,オーエンズ・アンド・マイナー,NYSE,医療サービス,○
 ON,ON SEMICON CORP,オン・セミコンダクター,NASDAQ,半導体,○
 ONB,OLD NATIONAL BAN,オールド・ナショナル・バンコープ/IN,NASDAQ,金融（銀行）,○
@@ -3366,7 +3364,7 @@ QUBT,QUANTUM COMPUT,クオンタム・コンピューティング,NASDAQ,ソフ�
 QUIK,QUICKLOGIC CORP,クイックロジック,NASDAQ,半導体,○
 QURE,UNIQURE BV,ユニキュア,NASDAQ,医薬品（バイオテクノロジー）,○
 QVCGA,QVC GROUP INC,QVCグループ,NASDAQ,小売,○
-QVCGB,QURATE RETAIL,キュレート・リテール,NASDAQ,小売,○
+QVCGB,QVC GROUP INC-B,QVCグループ クラスB,NASDAQ,小売,○
 QYLD,GLX NQ100 CV CLL,グローバルX NASDAQ100・カバード・コール ETF,NASDAQ,その他,○
 QYLG,GLBLX NQ100 CC50,グローバルＸ NASDAQ100・カバード・コール50 ETF,NASDAQ,その他,○
 R,RYDER SYSTEM,ライダー・システム,NYSE,運輸,○
@@ -4087,7 +4085,7 @@ TRDA,ENTRADA THERAPE,エントラーダ・セラピューティクス,NASDAQ,医
 TREE,LENDING TREE INC,レンディングツリー,NASDAQ,その他,○
 TREX,TREX COMPANY INC,トレックス,NYSE,その他製造,○
 TRGP,TARGA RESOURCES,タルガリソース,NYSE,ガス・パイプライン,○
-TRI,THOMSON REUTERS,トムソン・ロイター,NYSE,その他,○
+TRI,THOMSON REUTERS,トムソン・ロイター,NASDAQ,その他,○
 TRIP,TRIPADVISOR INC.,トリップアドバイザー,NASDAQ,ソフトウェア・サービス,○
 TRMB,TRIMBLE INC,トリンブル,NASDAQ,通信機器,○
 TRMD,TORM PLC,トーム,NASDAQ,運輸,○
