@@ -93,6 +93,7 @@ AEIS,ADVANCED ENERGY,アドバンストエナジーインダストリーズ,NASD
 AEM,AGNICO EAGLE,アグニコ・イーグル・マインズ,NYSE,その他,○
 AEMD,AETHLON MEDICAL,エスロン・メディカル,NASDAQ,ヘルスケア,○
 AEO,AMERICAN EAGLE,アメリカン・イーグル・アウトフィッターズ,NYSE,専門店,○
+AEON,AEON BIOPHARMA,イオン・バイオファーマ,NYSE,医薬品（バイオテクノロジー）,○
 AEP,AMERICAN ELEC,アメリカン・エレクトリック・パワー,NASDAQ,その他製造,○
 AER,AERCAP HOLDINGS,エアキャップ・ホールディングス,NYSE,航空,○
 AES,AES CORPORATION,AES,NYSE,その他製造,○
@@ -278,6 +279,7 @@ APPN,APPIAN CORP,アピアン・コーポレーション,NASDAQ,ソフトウェ�
 APPS,DIGITAL TURBINE,デジタル・タービン,NASDAQ,ソフトウェア・サービス,○
 APRE,APREA THERAPEU,アプレア・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 APT,ALPHA PRO TECH,アルファ・プロ・テック,NYSE,その他製造,○
+APTO,APTOSE BIOSCNCS,アポトース・バイオサイエンシズ,NASDAQ,医薬品（バイオテクノロジー）,○
 APTV,APTIV HOLDINGS,アプティブ・ホールディングス,NYSE,その他製造,○
 APVO,APTEVO THERAPEU,アプテボ・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 APYX,APYX MDICAL CORP,エイピックス・メディカル,NASDAQ,ヘルスケア,○
@@ -1887,7 +1889,6 @@ HCC,WARRIOR MET COAL,ウォリアー・メット・コール,NYSE,その他製�
 HCI,HCI GROUP INC,HCIグループ,NYSE,金融(保険),○
 HCKT,HACKETT GROUP,ハケット・グループ,NASDAQ,ソフトウェア・サービス,○
 HCM,HUTCHMED CHINA,ハチメド・チャイナ,NASDAQ,医薬品（バイオテクノロジー）,○
-HCP,HASHICORP INC,ハシコープ,NASDAQ,ソフトウェア・サービス,○
 HCSG,HEALTHCARE SERVI,ヘルスケア・サービシズ・グループ,NASDAQ,医療サービス,○
 HCTI,HLTHCARE TRIANGL,ヘルスケア・トライアングル,NASDAQ,ソフトウェア・サービス,○
 HCWB,HCW BIOLOGICS,HCWバイオロジクス,NASDAQ,医薬品（バイオテクノロジー）,○
@@ -2325,6 +2326,7 @@ KOS,KOSMOS ENERGY LT,コスモス・エナジー,NYSE,石油,○
 KOSS,KOSS CORP,コス,NASDAQ,その他製造,○
 KPLT,KATAPULT HLD,カタパルト・ホールディングス,NASDAQ,小売,○
 KPRX,KIORA PHARMA,キオラ・ファーマシューティカルズ,NASDAQ,医薬品（バイオテクノロジー）,○
+KPTI,KARYOPHARM THERP,カリオファーム・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 KR,KROGER CO.,クローガー,NYSE,小売,○
 KRKR,36KR HOLDINGS,36KRホールディングス,NASDAQ,ソフトウェア・サービス,○
 KRMA,GBLX CONS CMPNIE,グローバルX ESG経営企業 ETF,NASDAQ,その他,○
@@ -2423,7 +2425,6 @@ LGVN,LONGEVERON INC,ロンジェベロン,NASDAQ,医薬品（バイオテクノ�
 LH,LABCORP HOLDINGS,ラボコープ・ホールディングス,NYSE,医療サービス,○
 LHX,L3HARRIS TECHNOL,L3ハリス・テクノロジーズ,NYSE,通信機器,○
 LI,LI AUTO INC,リー・オート,NASDAQ,自動車,○
-LICY,LI-CYCLE HOLDI,リ・サイクル・ホールディングス,NYSE,電力,○
 LIDR,AEYE INC,エーアイ ,NASDAQ,情報処理サービス,○
 LII,LENNOX INTL,レノックス・インターナショナル,NYSE,その他製造,○
 LILA,LIBERTY LATIN,リバティ・ラテン・アメリカ,NASDAQ,通信サービス,○
