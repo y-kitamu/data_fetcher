@@ -1025,6 +1025,7 @@ CSX,CSX CORP,CSX,NASDAQ,運輸,○
 CTAS,CINTAS CORP,シンタス,NASDAQ,その他製造,○
 CTBI,COMMUNITY TRUST,コミュニティ・トラスト・バンコープ,NASDAQ,金融（銀行）,○
 CTEC,GBLX CLEANTECH,グローバルX クリーンテック ETF,NASDAQ,その他,○
+CTEV,CLARITEV CORP,クラリティブ,NYSE,その他,○
 CTGO,CONTANGO ORE INC,コンタンゴ・オーア,NYSE,その他,○
 CTHR,CHARLS AND COLVR,チャールズ&コルバード,NASDAQ,専門店,○
 CTKB,CYTEK BIOSCIENCE,サイテック・バイオサイエンシズ,NASDAQ,医薬品（バイオテクノロジー）,○
@@ -2111,7 +2112,6 @@ INDI,INDIE SEMICON,インディー・セミコンダクタ,NASDAQ,半導体製�
 INDL,DRX INDIA BL2X,Direxion デイリー MSCI インド株 ブル2倍 ETF,NYSE,その他,○
 INDP,INDAPTUS THERAPE,インダプタス・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 INFA,INFORMATICA INC,インフォマティカ,NYSE,ソフトウェア・サービス,○
-INFN,INFINERA CORP,インフィネラ,NASDAQ,通信機器,○
 INFU,INFUSYSTEM HLDG,インフューシステム・ホールディングス,NYSE,医療サービス,○
 INFY,INFOSYS TECH ADR,インフォシス・テクノロジーズ,NYSE,ソフトウェア・サービス,○
 ING,ING GROUP(ADR),INGグループ,NYSE,金融コングロマリット,○
@@ -2689,7 +2689,6 @@ MP,MP MATERIALS,MPマテリアルズ,NYSE,その他,○
 MPAA,MOTORCAR PRT AMR,モーターカー・パーツ・オブ・アメリカ,NASDAQ,自動車,○
 MPB,MID PENN BANCORP,ミッド・ペン・バンコープ,NASDAQ,金融（銀行）,○
 MPC,MARATHON PETRO,マラソン・ペトロリアム,NYSE,石油,○
-MPLN,MULTIPLAN CORP,マルチプラン,NYSE,その他,○
 MPTI,M-TRON INDST,Mトロン・インダストリーズ,NYSE,その他製造,○
 MPU,MEGA MATRIX INC,メガ・マトリックス・インク,NYSE,ソフトウェア・サービス,○
 MPWR,MONOLITHIC POWER,モノリシック・パワー・システムズ,NASDAQ,半導体,○
@@ -2743,7 +2742,6 @@ MTRN,MATERION CORP,マテリオン,NYSE,化学,○
 MTRX,MATRIX SERVICE,マトリックス・サービス,NASDAQ,石油,○
 MTSI,MACOM TECHNOLOGY,メイコム・テクノロジー・ソリューションズ・ホールディングス,NASDAQ,半導体,○
 MTSR,METSERA,メセラ,NASDAQ,医薬品,○
-MTTR,MATTERPORT INC,マターポート,NASDAQ,ソフトウェア・サービス,○
 MTUS,METALLUS INC,メタルス,NYSE,その他製造,○
 MTVA,METAVIA INC,メタビア,NASDAQ,医薬品（バイオテクノロジー）,○
 MTW,MANITOWOC,マニトウォック,NYSE,機械,○
@@ -3578,6 +3576,7 @@ SBSI,SOUTHSIDE BANC,サウスサイド・バンクシェアーズ,NYSE,金融（
 SBSW,SIBANYESTILL ADR,シバンエ・スティルウォーター,NYSE,その他,○
 SBT,STERLING BANCORP,スターリング・バンコープ,NASDAQ,金融（銀行）,○
 SBUX,STARBUCKS COFFEE,スターバックス,NASDAQ,外食,○
+SCCO,SOUTHERN COPPER,サザン・コッパー,NYSE,その他,○
 SCHL,SCHOLASTIC CORP,スコラスティック,NASDAQ,その他,○
 SCHW,CHARLES SCHWAB,チャールズ・シュワブ,NYSE,金融（証券）,○
 SCI,SERVICE CORP INT,サービス・コーポレーション・インターナショナル,NYSE,その他,○
@@ -3740,6 +3739,7 @@ SNCR,SYNCHRONOSS TECH,シンクロノス・テクノロジーズ,NASDAQ,ソフ�
 SNCY,SUN COUNTRY AIR,サン・カントリー・エアラインズ,NASDAQ,航空,○
 SND,SMART SAND INC,スマート・サンド,NASDAQ,石油,○
 SNDA,SONIDA SENIOR LV,ソニダ・シニア・リビング,NYSE,ヘルスケア,○
+SNDK,SANDISK CORP,サンディスク,NASDAQ,コンピュータ,○
 SNDL,SNDL INC,エス・エヌ・ディー・エル,NASDAQ,医薬品,○
 SNDR,SCHNEIDER NATION,シュナイダー・ナショナル,NYSE,運輸,○
 SNDX,SYNDAX PHARMACEU,シンダックス・ファーマシューティカルズ,NASDAQ,医薬品（バイオテクノロジー）,○
@@ -3949,7 +3949,7 @@ TBLA,TABOOLA COM LTD,タブーラ・ドットコム,NASDAQ,ソフトウェア・
 TBNK,TERRITORIAL BANC,テリトリアル・バンコープ,NASDAQ,金融（銀行）,○
 TBPH,THERAVANCE BIO,テラバンス・バイオファーマ,NASDAQ,医薬品（バイオテクノロジー）,○
 TBRG,TRUBRIDGE INC,トゥルーブリッジ,NASDAQ,ソフトウェア・サービス,○
-TC,TUANCHE LTD,トワンチョー,NASDAQ,ソフトウェア・サービス,○
+TC,TOKEN CAT,トークン・キャット,NASDAQ,ソフトウェア・サービス,○
 TCBI,TEXAS CAPITAL BA,テキサス・キャピタル・バンクシェアズ,NASDAQ,金融（銀行）,○
 TCBK,TRICO BANCSHARES,トリコ・バンクシェアーズ,NASDAQ,金融（銀行）,○
 TCBP,TC BIOPHARM HOLD,TCバイオファーム・ホールディングス,NASDAQ,医薬品（バイオテクノロジー）,○
