@@ -1,13 +1,11 @@
-"""fetch_data_from_gmo.py
-"""
-
-import data_fetcher
-
+"""fetch_data_from_gmo.py"""
 
 import pdb
 import platform
 import sys
 import traceback
+
+import data_fetcher
 
 
 def run_debug(func, *args, **kwargs):
@@ -30,5 +28,5 @@ def debug(func):
 
 
 if __name__ == "__main__":
-    fetcher = data_fetcher.gmo.GMOFethcer()
+    fetcher = data_fetcher.gmo.GMOFetcher()
     run_debug(fetcher.download_all)

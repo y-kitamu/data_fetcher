@@ -30,13 +30,33 @@ def add_maker_fee(df: pl.DataFrame):
     return df
 
 
-class GMOFethcer(BaseFetcher):
+class GMOFetcher(BaseFetcher):
     _API_ENDPOINT = "https://api.coin.z.com"
 
     def __init__(self, data_dir: Path = PROJECT_ROOT / "data" / "gmo" / "tick"):
         self.data_dir = data_dir
         self.available_tickers = self.get_available_tickers()
         self.session = get_session()
+
+    @override
+    def get_latest_date(self, symbol: str) -> datetime.datetime:
+        if symbol not in self.available_tickers:
+            raise ValueError(f"{symbol} is not available")
+
+        ticker_file_list = sorted(self.data_dir.rglob(f"*_{symbol}.csv.gz"))
+        if len(ticker_file_list) == 0:
+            raise ValueError(f"No data for {symbol}")
+        return datetime.datetime.strptime(ticker_file_list[-1].parent.name, "%Y%m%d")
+
+    @override
+    def get_earliest_date(self, symbol: str) -> datetime.datetime:
+        if symbol not in self.available_tickers:
+            raise ValueError(f"{symbol} is not available")
+
+        ticker_file_list = sorted(self.data_dir.rglob(f"*_{symbol}.csv.gz"))
+        if len(ticker_file_list) == 0:
+            raise ValueError(f"No data for {symbol}")
+        return datetime.datetime.strptime(ticker_file_list[0].parent.name, "%Y%m%d")
 
     def get_available_tickers(self) -> list[str]:
         path = "/public/v1/ticker"

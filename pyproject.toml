@@ -6,7 +6,7 @@ authors = ["kitamura <ymyk6602@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.11.9,<3.14"
+python = "^3.12,<3.14"
 requests = "^2.31.0"
 requests-cache = "^1.2.0"
 requests-ratelimiter = "^0.7.0"
@@ -21,6 +21,7 @@ python-dateutil = "^2.9.0.post0"
 histdata = "^1.1"
 xlrd = "^2.0.1"
 yfinance = "0.2.54"
+fastapi = {extras = ["all"], version = "^0.115.11"}
 
 [tool.poetry.group.dev.dependencies]
 watchdog = "^6.0.0"

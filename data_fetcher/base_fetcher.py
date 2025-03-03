@@ -25,6 +25,12 @@ def convert_timedelta_to_str(interval: datetime.timedelta):
 
 class BaseFetcher:
 
+    def get_latest_date(self, symbol: str) -> datetime.datetime:
+        raise NotImplementedError
+
+    def get_earliest_date(self, symbol: str) -> datetime.datetime:
+        raise NotImplementedError
+
     def fetch_ticker(
         self,
         symbol: str,

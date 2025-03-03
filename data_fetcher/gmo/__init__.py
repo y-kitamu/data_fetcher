@@ -1,4 +1,4 @@
 """__init__.py
 """
 
-from .gmo_fetcher import GMOFethcer
+from .gmo_fetcher import GMOFetcher
