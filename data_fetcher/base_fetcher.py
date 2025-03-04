@@ -23,7 +23,22 @@ def convert_timedelta_to_str(interval: datetime.timedelta):
     return interval_str
 
 
+def convert_str_to_timedelta(interval: str) -> datetime.timedelta:
+    if interval[-1] == "m":
+        return datetime.timedelta(minutes=int(interval[:-1]))
+    elif interval[-1] == "h":
+        return datetime.timedelta(hours=int(interval[:-1]))
+    elif interval[-1] == "d":
+        return datetime.timedelta(days=int(interval[:-1]))
+
+    raise ValueError(f"Unknown interval: {interval}")
+
+
 class BaseFetcher:
+
+    @property
+    def available_tickers(self) -> list[str]:
+        raise NotImplementedError
 
     def get_latest_date(self, symbol: str) -> datetime.datetime:
         raise NotImplementedError

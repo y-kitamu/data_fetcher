@@ -4,6 +4,7 @@ import datetime
 import gzip
 import shutil
 from pathlib import Path
+from typing import override
 
 import polars as pl
 import requests
@@ -11,7 +12,7 @@ from histdata import download_hist_data as dl
 from histdata.api import Platform as P
 from histdata.api import TimeFrame as TF
 
-from ..base_fetcher import BaseFetcher, convert_timedelta_to_str
+from ..base_fetcher import BaseFetcher
 from ..constants import PROJECT_ROOT
 from ..session import get_session
 
@@ -21,8 +22,8 @@ class HistDataFetcher(BaseFetcher):
     def __init__(self, data_dir: Path = PROJECT_ROOT / "data" / "histdata" / "tick"):
         self.data_dir = data_dir
         self.session = get_session()
-        self.available_tickers = self.get_available_tickers()
-        self.target_tickers = [
+        self._available_tickers = self.get_available_tickers()
+        self.available_tickers = [
             "usdjpy",
             "eurjpy",
             "nsxusd",
@@ -36,6 +37,26 @@ class HistDataFetcher(BaseFetcher):
         tickers = [row.split(",")[1] for row in res.text.split("\n")[1:] if row != ""]
         return sorted(tickers)
 
+    @override
+    def get_latest_date(self, symbol: str) -> datetime.datetime:
+        if symbol not in self.available_tickers:
+            raise ValueError(f"{symbol} is not available")
+
+        ticker_file_list = sorted(self.data_dir.rglob(f"{symbol}_*.csv.gz"))
+        if len(ticker_file_list) == 0:
+            raise ValueError(f"No data for {symbol}")
+        return datetime.datetime.strptime(ticker_file_list[-1].parent.name, "%Y%m")
+
+    @override
+    def get_earliest_date(self, symbol: str) -> datetime.datetime:
+        if symbol not in self.available_tickers:
+            raise ValueError(f"{symbol} is not available")
+
+        ticker_file_list = sorted(self.data_dir.rglob(f"{symbol}_*.csv.gz"))
+        if len(ticker_file_list) == 0:
+            raise ValueError(f"No data for {symbol}")
+        return datetime.datetime.strptime(ticker_file_list[0].parent.name, "%Y%m")
+
     def get_original_filestem(self, ticker: str, year: int, month: int) -> str:
         return f"DAT_ASCII_{ticker.upper()}_T_{year}{month:02d}"
 
@@ -46,7 +67,7 @@ class HistDataFetcher(BaseFetcher):
         work_dir = self.data_dir / "work"
         work_dir.mkdir(parents=True, exist_ok=True)
 
-        for ticker in self.target_tickers:
+        for ticker in self.available_tickers:
             date = datetime.date.today() - datetime.timedelta(days=31)
             while True:
                 output_dir = self.data_dir / f"{date.year}{date.month:02d}"
@@ -138,7 +159,7 @@ class HistDataFetcher(BaseFetcher):
         fill_missing_date: bool = False,
         fetch_interval: datetime.timedelta | None = datetime.timedelta(days=28),
     ) -> pl.DataFrame:
-        if symbol not in self.target_tickers:
+        if symbol not in self.available_tickers:
             raise ValueError(f"Invalid symbol: {symbol}")
 
         return super().fetch_ohlc(

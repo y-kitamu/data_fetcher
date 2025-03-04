@@ -104,25 +104,45 @@ class BinanceFetcher(BaseFetcher):
         self.data_dir = data_dir
         self.work_dir = PROJECT_ROOT / "data/tmp"
         self.session = get_session(cache_file=None)
-        self.available_tickers = get_available_tickers()
-        if len(target_tickers) == 0:
-            self.target_tickers = [
-                "BTCUSDT",
-                "ETHUSDT",
-                "XRPUSDT",
-                "BNBUSDT",
-                "SOLUSDT",
-                "DOGEUSDT",
-                "ADAUSDT",
-                "TRXUSDT",
-                "AVAXUSDT",
-                "LINKUSDT",
-                "WBTCUSDT",
-                "XLMUSDT",
-                "DOTUSDT",
-            ]
-        else:
-            self.target_tickers = target_tickers
+        # self.available_tickers = get_available_tickers()
+        self.available_tickers = [
+            "BTCUSDT",
+            "ETHUSDT",
+            "XRPUSDT",
+            "BNBUSDT",
+            "SOLUSDT",
+            "DOGEUSDT",
+            "ADAUSDT",
+            "TRXUSDT",
+            "AVAXUSDT",
+            "LINKUSDT",
+            "WBTCUSDT",
+            "XLMUSDT",
+            "DOTUSDT",
+        ]
+        # if len(target_tickers) == 0:
+        # else:
+        #     self.target_tickers = target_tickers
+
+    @override
+    def get_latest_date(self, symbol: str) -> datetime.datetime:
+        if symbol not in self.available_tickers:
+            raise ValueError(f"{symbol} is not available")
+
+        ticker_file_list = sorted(self.data_dir.rglob(f"{symbol}-*.csv.gz"))
+        if len(ticker_file_list) == 0:
+            raise ValueError(f"No data for {symbol}")
+        return datetime.datetime.strptime(ticker_file_list[-1].parent.name, "%Y%m%d")
+
+    @override
+    def get_earliest_date(self, symbol: str) -> datetime.datetime:
+        if symbol not in self.available_tickers:
+            raise ValueError(f"{symbol} is not available")
+
+        ticker_file_list = sorted(self.data_dir.rglob(f"{symbol}-*.csv.gz"))
+        if len(ticker_file_list) == 0:
+            raise ValueError(f"No data for {symbol}")
+        return datetime.datetime.strptime(ticker_file_list[0].parent.name, "%Y%m%d")
 
     def get_output_stem(
         self, ticker: str, date: datetime.date, data_type: str, monthly: bool = False
@@ -134,7 +154,7 @@ class BinanceFetcher(BaseFetcher):
         """
         https://data.binance.vision/data/spot/monthly/trades/BTCUSDT/BTCUSDT-trades-2024-11.zip
         """
-        for ticker in self.target_tickers:
+        for ticker in self.available_tickers:
             for trade_type in ["trades", "aggTrades"]:
                 date = datetime.date.today() - relativedelta(days=2)
                 while True:
@@ -158,7 +178,7 @@ class BinanceFetcher(BaseFetcher):
         # for data_type in self._DATATYPE_HEADERS.keys():
         intervals = ["1s"]
         for interval in intervals:
-            for ticker in self.target_tickers:
+            for ticker in self.available_tickers:
                 date = datetime.date.today() - datetime.timedelta(days=2)
                 while True:
                     output_path = self.data_dir / "klines/{date}/{stem}.csv.gz".format(
