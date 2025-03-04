@@ -787,7 +787,6 @@ CERT,CERTARA INC,サターラ,NASDAQ,医薬品（バイオテクノロジー）,
 CETX,CEMTREX INC,セムトレックス,NASDAQ,その他製造,○
 CEVA,CEVA INC,シーバ,NASDAQ,機械,○
 CF,CF INDUSTRIES HO,CFインダストリーズ・ホールディングス,NYSE,その他,○
-CFB,CROSSFIRST BANK,クロスファースト・バンクシェアズ,NASDAQ,金融（銀行）,○
 CFBK,CF BANKSHARES,CFバンクシェアーズ,NASDAQ,金融（銀行）,○
 CFFI,CF FNANCIAL CORP,C&Fファイナンシャル,NASDAQ,金融（銀行）,○
 CFFN,CAPITOL FEDERAL,キャピトル・フェデラル・ファイナンシャル,NASDAQ,金融（銀行）,○
@@ -1345,7 +1344,6 @@ EMB,ISHARES JPM BND,iシェアーズ J.P.モルガン・米ドル建てエマー
 EMBC,EMBECTA CORP,エンベクタ,NASDAQ,医療サービス,○
 EMBD,GLBLX EMRGIN BND,グローバルＸ 新興国債券 ETF,NYSE,その他,○
 EME,EMCOR GROUP INC,エムコア・グループ,NYSE,その他,○
-EMKR,EMCORE CORP,エムコア,NASDAQ,半導体,○
 EML,THE EASTERN COMP,イースタン・カンパニー,NASDAQ,その他製造,○
 EMLC,V JP EM LC BOND,ヴァンエック・JPモルガン新興国債券（現地通貨建て）ETF,NYSE,その他,○
 EMN,EASTMAN CHEMICAL,イーストマン・ケミカル,NYSE,化学,○
@@ -1628,7 +1626,6 @@ FPXI,FT INTL EQ OPPTY,ファーストトラスト インターナショナル株
 FRAF,FRANKLIN FIN SRV,フランクリン・ファイナンシャル・サービシズ,NASDAQ,金融（銀行）,○
 FRBA,FIRST BANK,ファースト・バンク,NASDAQ,金融（銀行）,○
 FRD,FRIEDMAN INDSTRS,フリードマン・インダストリーズ,NYSE,その他,○
-FREY,FREYR BATTERY IN,フレイ・バッテリー・インク,NYSE,その他製造,○
 FRGE,FORGE GLOBAL HLD,フォージ・グローバル・ホールディングス,NYSE,その他,○
 FRHC,FREEDOM HOLDING,フリーダム・ホールディング,NASDAQ,金融（証券）,○
 FRI,FT SP REIT INDEX,ファーストトラスト S&Pリート指数ファンド,NYSE,その他,○
@@ -2689,7 +2686,6 @@ MP,MP MATERIALS,MPマテリアルズ,NYSE,その他,○
 MPAA,MOTORCAR PRT AMR,モーターカー・パーツ・オブ・アメリカ,NASDAQ,自動車,○
 MPB,MID PENN BANCORP,ミッド・ペン・バンコープ,NASDAQ,金融（銀行）,○
 MPC,MARATHON PETRO,マラソン・ペトロリアム,NYSE,石油,○
-MPTI,M-TRON INDST,Mトロン・インダストリーズ,NYSE,その他製造,○
 MPU,MEGA MATRIX INC,メガ・マトリックス・インク,NYSE,ソフトウェア・サービス,○
 MPWR,MONOLITHIC POWER,モノリシック・パワー・システムズ,NASDAQ,半導体,○
 MPX,MARINE PRODUCTS,マリン・プロダクツ,NYSE,その他製造,○
@@ -3147,7 +3143,6 @@ PET,WAG GROUP,ワグ・グループ,NASDAQ,ソフトウェア・サービス,○
 PETS,PETMED EXPRESS,ペットメド・エクスプレス,NASDAQ,小売,○
 PETZ,TDH HOLDINGS INC,TDHホールディングス,NASDAQ,食品,○
 PFBC,PREFERRED BANK,プリファード・バンク,NASDAQ,金融（銀行）,○
-PFC,PREMIER FIN CORP,プレミア・ファイナンシャル,NASDAQ,金融（銀行）,○
 PFE,PFIZER INC.,ファイザー,NYSE,医薬品,○
 PFF,ISHARES PREFER,iシェアーズ 優先株式 ＆ インカム証券 ETF,NASDAQ,その他,○
 PFFD,GBLX US PREFERRD,グローバルX 米国優先証券 ETF,NYSE,その他,○
@@ -3969,6 +3964,7 @@ TDS,TEL DATA SYSTEMS,テレフォン・アンド・データ・システムズ,N
 TDUP,THREDUP INC,スレッドアップ,NASDAQ,小売,○
 TDW,TIDEWATER INC,タイドウォーター,NYSE,石油,○
 TDY,TELEDYNE TECH,テレダイン・テクノロジーズ,NYSE,通信機器,○
+TE,T1 ENERGY INC,T1エナジー,NYSE,その他製造,○
 TEAM,ATLASSIAN CORP A,アトラシアン　クラスA,NASDAQ,ソフトウェア・サービス,○
 TECH,BIO-TECHNE CORP,バイオテクネ,NASDAQ,医薬品（バイオテクノロジー）,○
 TECK,TECK RESOURCES,テック・リソーシズ,NYSE,その他,○
