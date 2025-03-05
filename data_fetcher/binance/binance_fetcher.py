@@ -42,7 +42,7 @@ def zip_to_gz(
         idx += 1
     with open(zip_file, "wb") as f:
         _ = f.write(byte_object)
-    # zipを解凍し、csvファイル作成
+        # zipを解凍し、csvファイル作成
     shutil.unpack_archive(zip_file, extract_dir=work_dir)
     csv_path = work_dir / zip_filename.replace(".zip", ".csv")
     # headerを付加
@@ -105,7 +105,11 @@ class BinanceFetcher(BaseFetcher):
         self.work_dir = PROJECT_ROOT / "data/tmp"
         self.session = get_session(cache_file=None)
         # self.available_tickers = get_available_tickers()
-        self.available_tickers = [
+
+    @property
+    @override
+    def available_tickers(self) -> list[str]:
+        return [
             "BTCUSDT",
             "ETHUSDT",
             "XRPUSDT",

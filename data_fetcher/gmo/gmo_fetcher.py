@@ -35,8 +35,13 @@ class GMOFetcher(BaseFetcher):
 
     def __init__(self, data_dir: Path = PROJECT_ROOT / "data" / "gmo" / "tick"):
         self.data_dir = data_dir
-        self.available_tickers = self.get_available_tickers()
+        self._available_tickers = self.get_available_tickers()
         self.session = get_session()
+
+    @property
+    @override
+    def available_tickers(self) -> list[str]:
+        return self._available_tickers
 
     @override
     def get_latest_date(self, symbol: str) -> datetime.datetime:

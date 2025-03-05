@@ -19,7 +19,8 @@ class AvailableTickers(BaseModel):
 
 
 class AvailableDates(BaseModel):
-    dates: dict[str, tuple[str, str]] = {}
+    start_dates: dict[str, str] = {}
+    end_dates: dict[str, str] = {}
 
 
 @router.get("/sources/", response_model=AvailableSources)
@@ -39,17 +40,19 @@ def read_available_tickers(source: str):
 
 @router.get("/{source}/tickers/dates", response_model=AvailableDates)
 def read_available_dates(source: str):
-    dates: dict[str, tuple[str, str]] = {}
+    start_dates: dict[str, str] = {}
+    end_dates: dict[str, str] = {}
     try:
         fetcher = get_fetcher(source)
         for ticker in fetcher.available_tickers:
-            dates[ticker] = (
-                fetcher.get_earliest_date(ticker).isoformat(),
-                fetcher.get_latest_date(ticker).isoformat(),
-            )
+            start_dates[ticker] = fetcher.get_earliest_date(ticker).isoformat()
+            end_dates[ticker] = fetcher.get_latest_date(ticker).isoformat()
     except Exception:
         logger.exception(f"Failed to get available dates of source : {source}")
-    return {"dates": dates}
+    return {
+        "start_dates": start_dates,
+        "end_dates": end_dates,
+    }
 
 
 @router.get("/{source}/{ticker}/ohlcv")

@@ -23,7 +23,11 @@ class HistDataFetcher(BaseFetcher):
         self.data_dir = data_dir
         self.session = get_session()
         self._available_tickers = self.get_available_tickers()
-        self.available_tickers = [
+
+    @property
+    @override
+    def available_tickers(self) -> list[str]:
+        return [
             "usdjpy",
             "eurjpy",
             "nsxusd",
