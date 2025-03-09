@@ -9,6 +9,8 @@ from .volume_bar import convert_ticker_to_volume_bar
 
 def convert_timedelta_to_str(interval: datetime.timedelta):
     interval_str = ""
+    # if interval.weeks > 0:
+    #     interval_str += f"{interval.weeks}w"
     if interval.days > 0:
         interval_str += f"{interval.days}d"
     hours = interval.seconds // 3600
@@ -24,13 +26,16 @@ def convert_timedelta_to_str(interval: datetime.timedelta):
 
 
 def convert_str_to_timedelta(interval: str) -> datetime.timedelta:
-    if interval[-1] == "m":
+    if interval[-1] == "s":
+        return datetime.timedelta(seconds=int(interval[:-1]))
+    elif interval[-1] == "m":
         return datetime.timedelta(minutes=int(interval[:-1]))
     elif interval[-1] == "h":
         return datetime.timedelta(hours=int(interval[:-1]))
     elif interval[-1] == "d":
         return datetime.timedelta(days=int(interval[:-1]))
-
+    elif interval[-1] == "w":
+        return datetime.timedelta(weeks=int(interval[:-1]))
     raise ValueError(f"Unknown interval: {interval}")
 
 

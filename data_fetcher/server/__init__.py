@@ -1,10 +1,11 @@
 """__init__.py"""
+import datetime
 
 from fastapi import APIRouter
 from pydantic import BaseModel
 
 from ..base_fetcher import convert_str_to_timedelta
-from ..fetcher import get_available_sources, get_fetcher
+from ..fetcher import convert_str_to_datetime, get_available_sources, get_fetcher, convert_datetime_to_str
 from ..logging import logger
 
 router = APIRouter()
@@ -19,17 +20,22 @@ class AvailableTickers(BaseModel):
 
 
 class AvailableDates(BaseModel):
-    start_dates: dict[str, str] = {}
-    end_dates: dict[str, str] = {}
+    start_date: str | None = None
+    end_date: str | None = None
+
+class Ohlcv(BaseModel):
+    dates: list[str] = []
+    ohlcs: list[list[float]] = []
+    volumes: list[float] = []
 
 
 @router.get("/sources/", response_model=AvailableSources)
-def read_available_sources():
+async def read_available_sources():
     return {"sources": get_available_sources()}
 
 
 @router.get("/{source}/tickers/", response_model=AvailableTickers)
-def read_available_tickers(source: str):
+async def read_available_tickers(source: str):
     tickers = []
     try:
         tickers = get_fetcher(source).available_tickers
@@ -38,37 +44,36 @@ def read_available_tickers(source: str):
     return {"tickers": tickers}
 
 
-@router.get("/{source}/tickers/dates", response_model=AvailableDates)
-def read_available_dates(source: str):
-    start_dates: dict[str, str] = {}
-    end_dates: dict[str, str] = {}
+@router.get("/{source}/{ticker}/dates", response_model=AvailableDates)
+async def read_available_dates(source: str, ticker: str):
+    dates = AvailableDates()
     try:
         fetcher = get_fetcher(source)
-        for ticker in fetcher.available_tickers:
-            start_dates[ticker] = fetcher.get_earliest_date(ticker).isoformat()
-            end_dates[ticker] = fetcher.get_latest_date(ticker).isoformat()
+        dates.start_date = convert_datetime_to_str(fetcher.get_earliest_date(ticker), include_time=False)
+        dates.end_date = convert_datetime_to_str(fetcher.get_latest_date(ticker), include_time=False)
     except Exception:
         logger.exception(f"Failed to get available dates of source : {source}")
-    return {
-        "start_dates": start_dates,
-        "end_dates": end_dates,
-    }
+    return dates
 
 
 @router.get("/{source}/{ticker}/ohlcv")
-def read_ohlcv_data(
-    source: str, ticker: str, start_date: str, end_date: str, interval: str = "1h"
+async def read_ohlcv_data(
+    source: str, ticker: str, start: str, end: str, interval: str = "1h"
 ):
+    data = Ohlcv()
     try:
         interval_dt = convert_str_to_timedelta(interval)
         fetcher = get_fetcher(source)
         df = fetcher.fetch_ohlc(
             symbol=ticker,
-            start_date=start_date,
-            end_date=end_date,
+            start_date=convert_str_to_datetime(start),
+            end_date=convert_str_to_datetime(end),
             interval=interval_dt,
         )
+        data.dates = [convert_datetime_to_str(dt) for dt in df["datetime"].to_list()]
+        data.ohlcs =  df.select("open", "close", "low", "high").to_numpy().tolist()
+        data.volumes = df["volume"].to_list()
     except:
         logger.exception(f"Failed to get fetcher of source : {source}")
 
-    return
+    return data
