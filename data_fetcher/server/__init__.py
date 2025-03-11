@@ -43,7 +43,6 @@ async def read_available_tickers(source: str):
         logger.exception(f"Failed to get available tickers of source : {source}")
     return {"tickers": tickers}
 
-
 @router.get("/{source}/{ticker}/dates", response_model=AvailableDates)
 async def read_available_dates(source: str, ticker: str):
     dates = AvailableDates()
