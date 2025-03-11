@@ -498,7 +498,6 @@ BELFB,BEL FUSE CL B,ベル・ヒューズ・クラスB,NASDAQ,その他製造,�
 BEN,FRANKLIN INC,フランクリン・リソーシズ,NYSE,その他,○
 BEPC,BROOKFIELD RENEW,ブルックフィールド・リニューアブル,NYSE,電力,○
 BERY,BERRY GLOBAL,ベリー・グローバル・グループ,NYSE,その他製造,○
-BEST,BEST INC,ベスト,NYSE,運輸,○
 BF.A,BROWN-FORMAN A,ブラウン・フォーマン　クラスA,NYSE,飲料,○
 BF.B,BROWN-FORMAN B,ブラウン・フォーマン　クラスB,NYSE,飲料,○
 BFAM,BRIGHT HORIZONS,ブライト・ホライズン・ファミリー・ソリューションズ,NYSE,ソフトウェア・サービス,○
@@ -1532,9 +1531,9 @@ FERG,FERGUSON ENTERPR,ファーガソン・エンタープライズ・インク,
 FET,FORUM ERG TECHNO,フォーラム・エナジー・テクノロジーズ,NYSE,石油,○
 FEZ,SPDR EUR STXX 50,SPDR ユーロ・ストックス50 ETF,NYSE,その他,○
 FF,FUTUREFUEL CORP,フューチャーフューエル,NYSE,化学,○
+FFAI,FARADAY FUTURE,ファラデイ・フューチャー・インテリジェント・エレクトリック,NASDAQ,ソフトウェア・サービス,○
 FFBC,1ST FINANCL BANC,ファースト・ファイナンシャル・バンコープ,NASDAQ,金融（銀行）,○
 FFIC,FLUSHING FINANC,フラッシング・ファイナンシャル,NASDAQ,金融（銀行）,○
-FFIE,FARADAY FUTURE,ファラデイ・フューチャー・インテリジェント・エレクトリック,NASDAQ,ソフトウェア・サービス,○
 FFIN,FST FINANCL BANK,ファースト・ファイナンシャル・バンクシェアーズ,NASDAQ,金融（銀行）,○
 FFIV,F5 INC,F5,NASDAQ,ネットワーク,○
 FFNW,FIRST FINANCL NW,ファースト・ファイナンシャル・ノースウェスト,NASDAQ,金融（銀行）,○
@@ -2685,6 +2684,7 @@ MP,MP MATERIALS,MPマテリアルズ,NYSE,その他,○
 MPAA,MOTORCAR PRT AMR,モーターカー・パーツ・オブ・アメリカ,NASDAQ,自動車,○
 MPB,MID PENN BANCORP,ミッド・ペン・バンコープ,NASDAQ,金融（銀行）,○
 MPC,MARATHON PETRO,マラソン・ペトロリアム,NYSE,石油,○
+MPTI,M-TRON INDST,Mトロン・インダストリーズ,NYSE,その他製造,○
 MPU,MEGA MATRIX INC,メガ・マトリックス・インク,NYSE,ソフトウェア・サービス,○
 MPWR,MONOLITHIC POWER,モノリシック・パワー・システムズ,NASDAQ,半導体,○
 MPX,MARINE PRODUCTS,マリン・プロダクツ,NYSE,その他製造,○
@@ -3414,6 +3414,7 @@ REPL,REPLIMUNE GROUP,レプリミューン,NASDAQ,医薬品（バイオテクノ
 REPX,RILEY EXPLRTION,ライリー・エクスプロレーション・パーミアン,NYSE,石油,○
 RERE,ATRENEW INC,ATリニュー,NYSE,その他,○
 RES,RPC INC,RPC,NYSE,石油,○
+RETO,RETO ECOSOLUTION,レト・エコソリューションズ,NASDAQ,その他製造,○
 REVG,REV GROUP INC,REVグループ,NYSE,自動車,○
 REX,REX AMCAN RES CO,REXアメリカン・リソーシズ,NYSE,その他,○
 REYN,REYNOLDS CONSUMR,レイノルズ・コンシューマー・プロダクツ,NASDAQ,その他製造,○
