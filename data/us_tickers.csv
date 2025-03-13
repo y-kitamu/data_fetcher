@@ -135,6 +135,7 @@ AIG,AMERICAN INTER,AIG,NYSE,金融(保険),○
 AIN,ALBANY INTL,アルバニー・インターナショナル,NYSE,機械,○
 AIOT,POWERFLEET INC,パワーフリート,NASDAQ,通信機器,○
 AIP,ARTERIS INC,アルテリス,NASDAQ,半導体,○
+AIPI,REX AI EQ P INCM,REX AI エクイティ・プレミアム・インカムETF,NASDAQ,その他,○
 AIQ,GLX AI TECH ETF,グローバルX AIビッグデータ ETF,NASDAQ,その他,○
 AIR,AAR CORP,AAR,NYSE,航空機・宇宙,○
 AIRG,AIRGAIN INC,エアゲイン,NASDAQ,通信機器,○
@@ -429,7 +430,6 @@ AYTU,AYTU BIOPHARMA,アイトゥ・バイオファーマ,NASDAQ,医薬品,○
 AZEK,THE AZEK CO INC,アゼク,NYSE,その他製造,○
 AZN,ASTRAZENECA ADR,アストラゼネカ,NASDAQ,医薬品,○
 AZO,AUTOZONE INC,オートゾーン,NYSE,小売,○
-AZPN,ASPEN TECHNOLOGY,アスペンテクノロジーインク,NASDAQ,ソフトウェア・サービス,○
 AZTA,AZENTA INC,アゼンタ,NASDAQ,半導体製造,○
 AZUL,AZUL,アズール,NYSE,航空,○
 AZZ,AZZ INC,AZZ,NYSE,その他製造,○
@@ -742,6 +742,7 @@ CCB,COASTAL FINCIAL,コースタル・ファイナンシャル,NASDAQ,金融（�
 CCBG,CAPITAL CITY BNK,キャピタル・シティー・バンク・グループ,NASDAQ,金融（銀行）,○
 CCCC,C4 THERAPEUTICS,C4セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 CCCS,CCC INTEL SOLUT,CCCインテリジェント・ソリューションズ・ホールディングス,NASDAQ,ソフトウェア・サービス,○
+CCEF,CLMS CEF IN ARB,Calamos　CEF インカム&アービトラージ ETF,NYSE,その他,○
 CCEL,CRYO CELL INTL,クライオセル・インターナショナル,NYSE,医療サービス,○
 CCEP,COCA COLA EURPCF,コカ・コーラ・ユーロパシフィック・パートナーズ,NASDAQ,飲料,○
 CCJ,CAMECO CORP,カメコ,NYSE,その他,○
@@ -779,6 +780,7 @@ CENN,CENNTRO INC,セントロ・インク,NASDAQ,その他,○
 CENT,CENTRL GARDN PET,セントラル・ガーデン・アンド・ペット,NASDAQ,その他製造,○
 CENTA,CENTRAL GRDN&PET,セントラル・ガーデン・アンド・ペット,NASDAQ,専門店,○
 CENX,CENTURY ALUMINUM,センチュリー・アルミニウム,NASDAQ,アルミ,○
+CEPI,REX CRYPT EQ PI,REX クリプト・エクイティ・プレミアム・インカムETF,NASDAQ,その他,○
 CEPU,CENTRAL PUERTO,セントラル・プエルト,NYSE,電力,○
 CERS,CERUS CORP,シーラス,NASDAQ,ヘルスケア,○
 CERT,CERTARA INC,サターラ,NASDAQ,医薬品（バイオテクノロジー）,○
@@ -1177,6 +1179,7 @@ DKNG,DRAFTKINGS INC,ドラフト・キングス,NASDAQ,エンターテイメン�
 DKS,DICKS SPORTING,ディックス・スポーティング・グッズ,NYSE,小売,○
 DLB,DOLBY LABO,ドルビー・ラボラトリーズ　,NYSE,その他製造,○
 DLHC,DLH HOLDING CORP,DLHホールディング,NASDAQ,その他,○
+DLLL,GNS 2X LONG DELL,GraniteShares2倍ロングDELLデイリーETF,NASDAQ,その他,○
 DLN,WM L-CAP DIVIDEN,ウィズダムツリー　米国大型株配当ファンド,NYSE,その他,○
 DLO,DLOCAL LTD,ディーローカル,NASDAQ,その他,○
 DLPN,DOLPHIN ENTERT,ドルフィン・エンターテイメント,NASDAQ,その他,○
@@ -1527,6 +1530,7 @@ FELE,FRANKLIN ELECTRC,フランクリン・エレクトリック,NASDAQ,その�
 FEMY,FEMASYS INC,フェマシス,NASDAQ,医薬品,○
 FENC,FENNEC PHARMA,フェネック・ファーマシューティカルズ,NASDAQ,医薬品（バイオテクノロジー）,○
 FENG,PHOENIX NEW MEDI,フェニックス・ニュー・メディア,NYSE,エンターテイメント,○
+FEPI,REX FANG INV PI,REX ファング&イノベーション・エクイティ・プレミアム・インカムETF,NASDAQ,その他,○
 FERG,FERGUSON ENTERPR,ファーガソン・エンタープライズ・インク,NYSE,その他製造,○
 FET,FORUM ERG TECHNO,フォーラム・エナジー・テクノロジーズ,NYSE,石油,○
 FEZ,SPDR EUR STXX 50,SPDR ユーロ・ストックス50 ETF,NYSE,その他,○
@@ -1830,6 +1834,7 @@ GRNT,GR RESOURCES,グラナイト・リッジ・リソース,NYSE,その他,○
 GROW,US GLOBAL INVEST,USグローバル・インベスターズ,NASDAQ,金融（証券）,○
 GROY,GOLD ROYALTY,ゴールド・ロイヤルティ,NYSE,その他,○
 GRPN,GROUPON INC,グルーポン,NASDAQ,その他,○
+GRRR,GORILLA TECHNLGY,ゴリラ・テクノロジー,NASDAQ,ソフトウェア・サービス,○
 GRVY,GRAVITY CO LTD,グラヴィティ,NASDAQ,エンターテイメント,○
 GRWG,GROWGENERATION,グロージェネレーション,NASDAQ,その他,○
 GRYP,GRYPHON DGT MNG,グリフォン・デジタル・マイニング,NASDAQ,ソフトウェア・サービス,○
@@ -2132,6 +2137,7 @@ INTC,INTEL CORP.,インテル,NASDAQ,半導体,○
 INTG,INTERGROUP CORP,インターグループ,NASDAQ,その他,○
 INTT,INTEST CORP,インテスト,NYSE,半導体,○
 INTU,INTUIT INC.,インテュイット,NASDAQ,ソフトウェア・サービス,○
+INTW,GNS 2X LONG INTC,GraniteShares2倍ロングINTCデイリーETF,NASDAQ,その他,○
 INTZ,INTRUSION INC,イントゥルージョン,NASDAQ,ネットワークセキュリティー,○
 INVA,INNOVIVA INC,イノヴィヴァ,NASDAQ,ヘルスケア,○
 INVE,IDENTIV INC,アイデンティブ,NASDAQ,ネットワークセキュリティー,○
@@ -2301,6 +2307,7 @@ KMDA,KAMADA LTD,カマダ,NASDAQ,医薬品（バイオテクノロジー）,○
 KMI,KINDER MORGAN,キンダーモルガン,NYSE,ガス・パイプライン,○
 KMPR,KEMPER CORP,ケンパー,NYSE,金融(保険),○
 KMT,KENNAMETAL INC,ケナメタル,NYSE,その他製造,○
+KMTS,KESTRA MEDICAL,ケストラ・メディカル・テクノロジーズ,NASDAQ,医療サービス,○
 KMX,CARMAX INC,カーマックス,NYSE,小売,○
 KN,KNOWLES CORP,クノールズ,NYSE,通信機器,○
 KNDI,KANDI TECHNOLOGS,カンディ・テクノロジーズ・グループ,NASDAQ,その他製造,○
@@ -3315,6 +3322,7 @@ PYPL,PAYPAL HOLDINGS,ペイパル,NASDAQ,ソフトウェア・サービス,○
 PYXS,PYXIS ONCOLOGY,ピクシス・オンコロジー,NASDAQ,医薬品（バイオテクノロジー）,○
 PZZA,PAPA JOHNS INTL,パパ・ジョンズ・インターナショナル,NASDAQ,外食,○
 QCLN,FT NQ CLEAN ENRG,ファーストトラスト ナスダック クリーンエッジ グリーンエネルギー指数ファンド,NASDAQ,その他,○
+QCML,GNS 2X LONG QCOM,GraniteShares2倍ロングQCOMデイリーETF,NASDAQ,その他,○
 QCOM,QUALCOMM INC.,クアルコム,NASDAQ,通信機器,○
 QCRH,QCR HOLDINGS INC,QCRホールディングス,NASDAQ,金融（銀行）,○
 QD,QUDIAN INC,クディアン,NYSE,情報処理サービス,○
@@ -3588,7 +3596,6 @@ SCYX,SCYNEXIS INC,サイネクシス,NASDAQ,医薬品（バイオテクノロジ
 SD,SANDRIDGE ENERGY,サンドリッジ・エナジー,NYSE,ガス・パイプライン,○
 SDA,SUNCAR TECHNOLOG,サンカー・テクノロジー・グループ,NASDAQ,情報処理サービス,○
 SDGR,SCHRODINGER INC,シュレーディンガー,NASDAQ,ソフトウェア・サービス,○
-SDIG,STRONGHD D MININ,ストロングホールド・デジタル・マイニング,NASDAQ,ソフトウェア・サービス,○
 SDIV,GLX SUPERDVD ETF,グローバルX スーパーディビィデンド-世界株式 ETF,NYSE,その他,○
 SDOT,SADOT GROUP INC,サドット・グループ,NASDAQ,外食,○
 SDOW,PROS DOW30 -3X,プロシェアーズ・ウルトラプロ・ショート・ダウ30,NYSE,その他,○
@@ -3833,6 +3840,7 @@ SRI,STONERIDGE INC,ストーンリッジ,NYSE,その他製造,○
 SRL,SCULLY ROYALTY,スカリー・ロイヤルティー,NYSE,金融（銀行）,○
 SRLN,SPDR BL SNR LOAN,SPDR ブラックストーン・シニア・ローンETF,NYSE,その他,○
 SRM,SRM ENTERTAINMEN,SRMエンタテインメント,NASDAQ,エンターテイメント,○
+SROI,CLMS AK GL SUSEQ,Calamos アデトクンボ・グローバル・サステナブル・エクイティーズETF,NYSE,その他,○
 SRPT,SAREPTA THERAP,サレプタ・セラピューティックス,NASDAQ,医薬品（バイオテクノロジー）,○
 SRRK,SCHOLAR ROCK HLD,スカラー・ロック・ホールディング,NASDAQ,医薬品（バイオテクノロジー）,○
 SRTS,SENSUS HEALTHCAR,センサス・ヘルスケア,NASDAQ,ヘルスケア,○
