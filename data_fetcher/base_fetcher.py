@@ -1,5 +1,4 @@
 """base_fetcher.py"""
-
 import datetime
 
 import polars as pl
@@ -39,6 +38,25 @@ def convert_str_to_timedelta(interval: str) -> datetime.timedelta:
     raise ValueError(f"Unknown interval: {interval}")
 
 
+def convert_tick_to_ohlc(
+    tick_df: pl.DataFrame, interval: datetime.timedelta
+) -> pl.DataFrame:
+    ohlc_df = (
+        tick_df.group_by_dynamic(
+            pl.col("datetime"), every=convert_timedelta_to_str(interval)
+        )
+        .agg(
+            pl.col("price").first().alias("open"),
+            pl.col("price").max().alias("high"),
+            pl.col("price").min().alias("low"),
+            pl.col("price").last().alias("close"),
+            pl.col("size").sum().alias("volume"),
+        )
+        .sort(pl.col("datetime"))
+    )
+    return ohlc_df
+
+
 class BaseFetcher:
 
     @property
@@ -71,19 +89,7 @@ class BaseFetcher:
     ) -> pl.DataFrame:
         if fetch_interval is None:
             df = self.fetch_ticker(symbol, start_date, end_date)
-            ohlc_df = (
-                df.group_by_dynamic(
-                    pl.col("datetime"), every=convert_timedelta_to_str(interval)
-                )
-                .agg(
-                    pl.col("price").first().alias("open"),
-                    pl.col("price").max().alias("high"),
-                    pl.col("price").min().alias("low"),
-                    pl.col("price").last().alias("close"),
-                    pl.col("size").sum().alias("volume"),
-                )
-                .sort(pl.col("datetime"))
-            )
+            ohlc_df = convert_tick_to_ohlc(df, interval)
         else:
             if start_date is None:
                 start_date = datetime.datetime(1970, 1, 1)

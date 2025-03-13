@@ -1,11 +1,18 @@
 """__init__.py"""
+
 import datetime
 
-from fastapi import APIRouter
+import polars as pl
+from fastapi import APIRouter, FastAPI, File, UploadFile, Form
 from pydantic import BaseModel
 
 from ..base_fetcher import convert_str_to_timedelta
-from ..fetcher import convert_str_to_datetime, get_available_sources, get_fetcher, convert_datetime_to_str
+from ..fetcher import (
+    convert_datetime_to_str,
+    convert_str_to_datetime,
+    get_available_sources,
+    get_fetcher,
+)
 from ..logging import logger
 
 router = APIRouter()
@@ -22,6 +29,7 @@ class AvailableTickers(BaseModel):
 class AvailableDates(BaseModel):
     start_date: str | None = None
     end_date: str | None = None
+
 
 class Ohlcv(BaseModel):
     dates: list[str] = []
@@ -43,13 +51,18 @@ async def read_available_tickers(source: str):
         logger.exception(f"Failed to get available tickers of source : {source}")
     return {"tickers": tickers}
 
+
 @router.get("/{source}/{ticker}/dates", response_model=AvailableDates)
 async def read_available_dates(source: str, ticker: str):
     dates = AvailableDates()
     try:
         fetcher = get_fetcher(source)
-        dates.start_date = convert_datetime_to_str(fetcher.get_earliest_date(ticker), include_time=False)
-        dates.end_date = convert_datetime_to_str(fetcher.get_latest_date(ticker), include_time=False)
+        dates.start_date = convert_datetime_to_str(
+            fetcher.get_earliest_date(ticker), include_time=False
+        )
+        dates.end_date = convert_datetime_to_str(
+            fetcher.get_latest_date(ticker), include_time=False
+        )
     except Exception:
         logger.exception(f"Failed to get available dates of source : {source}")
     return dates
@@ -70,9 +83,26 @@ async def read_ohlcv_data(
             interval=interval_dt,
         )
         data.dates = [convert_datetime_to_str(dt) for dt in df["datetime"].to_list()]
-        data.ohlcs =  df.select("open", "close", "low", "high").to_numpy().tolist()
+        data.ohlcs = df.select("open", "close", "low", "high").to_numpy().tolist()
         data.volumes = df["volume"].to_list()
     except:
         logger.exception(f"Failed to get fetcher of source : {source}")
 
     return data
+
+
+@router.post("/upload/ohlcv")
+async def upload_ohlcv(
+    file: bytes = File(),
+):
+    data = Ohlcv()
+    try:
+        df = pl.read_csv(file)
+        data.dates = df["datetime"].to_list()
+        data.ohlcs = df.select("open", "close", "low", "high").to_numpy().tolist()
+        data.volumes = df["volume"].to_list()
+    except:
+        logger.exception("Failed to upload file")
+
+    return data
+    # return await read_ohlcv_data(source, ticker, start, end, interval)

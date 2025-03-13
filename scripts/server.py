@@ -2,10 +2,14 @@
 from pathlib import Path
 import subprocess
 
-from fastapi import FastAPI
+from fastapi import FastAPI, Request, status
 from fastapi.middleware.cors import CORSMiddleware
 
 import data_fetcher
+
+from fastapi.exceptions import RequestValidationError
+from fastapi.responses import JSONResponse
+
 
 app = FastAPI()
 app.include_router(data_fetcher.server.router)
@@ -23,6 +27,13 @@ app.add_middleware(
     # アクセス可能なレスポンスヘッダーを設定（今回は必要ない）
     allow_headers=["*"],
 )
+
+@app.exception_handler(RequestValidationError)
+async def handler(request:Request, exc:RequestValidationError):
+    print(exc)
+    return JSONResponse(content={}, status_code=status.HTTP_422_UNPROCESSABLE_ENTITY)
+
+
 
 def convert_org_to_md(src_org_dir: Path, dst_md_dir: Path):
     dst_md_dir.mkdir(exist_ok=True)
