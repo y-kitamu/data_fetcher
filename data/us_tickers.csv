@@ -18,7 +18,7 @@ ABCL,ABCELLERA BIOLOG,アブセレラ・バイオロジクス,NASDAQ,医薬品,�
 ABEO,ABEONA THERAPE,アベオナ・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 ABEV,AMBEV SA ADR,アンベブ,NYSE,飲料,○
 ABG,ASBURY AUTOMOTIV,アズベリー・オートモーティブ・グループ,NYSE,小売,○
-ABL,ABACUS LIFE INC,アバカス・ライフ,NASDAQ,金融(保険),○
+ABL,ABACUS GLBL MNG,アバカス・グローバル・マネジメント,NASDAQ,金融(保険),○
 ABM,ABM INDUSTRIES,ABMインダストリーズ,NYSE,ソフトウェア・サービス,○
 ABNB,AIRBNB,エアビーアンドビー,NASDAQ,ソフトウェア・サービス,○
 ABOS,ACUMEN PHARMA,アキューメン・ファーマシューティカルズ,NASDAQ,医薬品（バイオテクノロジー）,○
@@ -203,6 +203,7 @@ AMBA,AMBARELLA INC.,アンバレラ,NASDAQ,半導体製造,○
 AMBC,AMBAC FINANCIAL,アンバック・フィナンシャル・グループ,NYSE,金融(保険),○
 AMBI,AMBIPAR EMG RPS,アンビパー・エマージェンシー・レスポンス,NYSE,その他,○
 AMBP,ARDAGH METAL PAC,アルダ・メタル・パッケージング,NYSE,その他製造,○
+AMBR,AMBER INTER HD,アンバー・インターナショナル・ホールディング,NASDAQ,ソフトウェア・サービス,○
 AMC,AMC ENTERTAINMNT,AMCエンターテインメント・ホールディングス,NYSE,エンターテイメント,○
 AMCR,AMCOR LIMITED,アムコア,NYSE,その他製造,○
 AMCX,AMC NETWORKS INC,AMCネットワークス,NASDAQ,エンターテイメント,○
@@ -1046,7 +1047,6 @@ CULP,CULP INC,カルプ,NYSE,その他製造,○
 CURE,DRX HEALTHC BL3X,Direxion デイリー ヘルスケア株 ブル3倍 ETF,NYSE,その他,○
 CURI,CURIOSITYSTREAM,キュリオシティストリーム,NASDAQ,エンターテイメント,○
 CURV,TORRID HOLDINGS,トーリッド・ホールディングス,NYSE,その他製造,○
-CUTR,CUTERA INC,キュテラ,NASDAQ,ヘルスケア,○
 CVAC,CUREVAC N V,キュアバック,NASDAQ,医薬品（バイオテクノロジー）,○
 CVBF,CVB FINANCIAL CO,CVBファイナンシャル,NASDAQ,金融コングロマリット,○
 CVCO,CAVCO INDUSTRIES,カブコ・インダストリーズ,NASDAQ,その他,○
@@ -2038,7 +2038,6 @@ ICE,INTERCONTI EXCHG,インターコンチネンタル・エクスチェンジ,N
 ICFI,ICF INTERNATIONL,ICFインターナショナル,NASDAQ,ソフトウェア・サービス,○
 ICHR,ICHOR HOLDINGS,イコル・ホールディングス,NASDAQ,半導体製造,○
 ICL,ICL GROUP LTD,ICLグループ,NYSE,食品,○
-ICLK,ICLICK INTRACT,アイクリック・インターラクティブ・アジア・グループ,NASDAQ,ソフトウェア・サービス,○
 ICLN,ISHARES CLEAN,iシェアーズ グローバル・クリーンエネルギー ETF,NASDAQ,その他,○
 ICLR,ICON PLC,アイコン,NASDAQ,医薬品（バイオテクノロジー）,○
 ICUI,ICU MEDICAL INC,ICUメディカル,NASDAQ,ヘルスケア,○
@@ -2351,7 +2350,6 @@ KTB,KONTOOR BRANDS,コントール・ブランズ,NYSE,その他製造,○
 KTCC,KEY TRONIC CORP,キー・トロニック,NASDAQ,その他製造,○
 KTOS,KRATOS DEFENSE,クラトス・ディフェンス＆セキュリティー・ソリューションズ,NASDAQ,ソフトウェア・サービス,○
 KTTA,PASITHEA THERAPE,パシテア・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
-KUKE,KUKE MUSIC HD,クケ・ミュージック・ホールディング,NYSE,エンターテイメント,○
 KURA,KURA ONCOLOGY,クラ・オンコロジー,NASDAQ,医薬品（バイオテクノロジー）,○
 KVHI,KVH INDUSTRIES,KVHインダストリーズ,NASDAQ,通信機器,○
 KVUE,KENVUE INC,ケンビュー,NYSE,その他製造,○
