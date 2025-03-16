@@ -1,7 +1,6 @@
 """gmo_fetcher.py
 gmoの過去データを取得する
 """
-
 import datetime
 import io
 from pathlib import Path

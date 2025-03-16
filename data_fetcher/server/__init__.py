@@ -1,9 +1,7 @@
 """__init__.py"""
 
-import datetime
-
 import polars as pl
-from fastapi import APIRouter, FastAPI, File, UploadFile, Form
+from fastapi import APIRouter, File
 from pydantic import BaseModel
 
 from ..base_fetcher import convert_str_to_timedelta
@@ -14,6 +12,7 @@ from ..fetcher import (
     get_fetcher,
 )
 from ..logging import logger
+
 
 router = APIRouter()
 

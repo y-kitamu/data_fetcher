@@ -1,4 +1,5 @@
 """base_fetcher.py"""
+
 import datetime
 
 import polars as pl
@@ -58,7 +59,6 @@ def convert_tick_to_ohlc(
 
 
 class BaseFetcher:
-
     @property
     def available_tickers(self) -> list[str]:
         raise NotImplementedError

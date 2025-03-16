@@ -22,6 +22,7 @@ histdata = "^1.1"
 xlrd = "^2.0.1"
 yfinance = "0.2.54"
 fastapi = {extras = ["all"], version = "^0.115.11"}
+websocket-client = "^1.8.0"
 
 [tool.poetry.group.dev.dependencies]
 watchdog = "^6.0.0"
@@ -32,11 +33,16 @@ black = "^25.1.0"
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
 
-[tool.isort]
-known_local_folder = ["data_fetcher"]
-
 [tool.basedpyright]
 include = ["data_fetcher/**/*.py"]
 exclude = ["data", "**/node_modules", "**/__pycache__"]
 venvPath = ".venv"
 typeCheckingMode = "standard"
+
+
+[tool.ruff.lint]
+select = [
+  "E",   # pycodestyle
+  "F",   # pyflakes
+  "I",   # isort
+]
