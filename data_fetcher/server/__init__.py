@@ -1,7 +1,10 @@
 """__init__.py"""
 
+import io
+import json
+
 import polars as pl
-from fastapi import APIRouter, File
+from fastapi import APIRouter, File, Response
 from pydantic import BaseModel
 
 from ..base_fetcher import convert_str_to_timedelta
@@ -12,7 +15,6 @@ from ..fetcher import (
     get_fetcher,
 )
 from ..logging import logger
-
 
 router = APIRouter()
 
@@ -96,12 +98,16 @@ async def upload_ohlcv(
 ):
     data = Ohlcv()
     try:
-        df = pl.read_csv(file)
+        df = pl.read_csv(io.BytesIO(file))
         data.dates = df["datetime"].to_list()
         data.ohlcs = df.select("open", "close", "low", "high").to_numpy().tolist()
         data.volumes = df["volume"].to_list()
     except:
         logger.exception("Failed to upload file")
 
-    return data
+    # To speed up the process, we are returning Response object.
+    return Response(
+        json.dumps({"dates": data.dates, "ohlcs": data.ohlcs, "volumes": data.volumes}),
+        media_type="application/json",
+    )
     # return await read_ohlcv_data(source, ticker, start, end, interval)
