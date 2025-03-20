@@ -25,6 +25,7 @@ async def compress_csvs(
                         data = f.read()
                     with gzip.open(gz_path, "wb") as f:
                         f.write(data)
+                    csv_path.unlink()
                     data_fetcher.logger.debug(f"Compressed {csv_path} to {gz_path}")
         await asyncio.sleep(60 * 60)
 

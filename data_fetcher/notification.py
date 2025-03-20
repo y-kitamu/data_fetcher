@@ -27,5 +27,5 @@ def notify_to_line(message):
         ("Message sent successfully!")
     else:
         logger.debug("header: {}".format(headers))
-        logger.debugprint("data : {}".format(data))
+        logger.debug("data : {}".format(data))
         logger.debug("{}: {}".format(res.status_code, res.text))
