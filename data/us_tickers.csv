@@ -1,7 +1,6 @@
 ﻿現地コード,銘柄名(English),銘柄名,市場,業種,取扱
 A,AGILENT TECH,アジレント・テクノロジー,NYSE,その他,○
 AA,ALCOA CORP,アルコア,NYSE,アルミ,○
-AADI,AADI BIOSCIENCE,アーディ・バイオサイエンス,NASDAQ,医薬品（バイオテクノロジー）,○
 AAL,AMERICAN AIRLINE,アメリカン・エアーラインズ・グループ,NASDAQ,航空,○
 AAMI,ACADIAN ASSET,アカディアン・アセット・マネジメント,NYSE,その他,○
 AAOI,APPLIED OPTOELEC,アプライド・オプトエレクトロニクス,NASDAQ,その他製造,○
@@ -193,7 +192,6 @@ ALTY,GBLX ALTERN INCM,グローバルX オルタナティブ・インカム ETF,
 ALUR,ALLURION TECHNO,アユリオン・テクノロジーズ,NYSE,医薬品,○
 ALV,AUTOLIV INC,オートリブ,NYSE,その他製造,○
 ALVO,ALVOTECH HLD,アルボテック・ホールディングス,NYSE,その他,○
-ALVR,ALLOVIR INC,アロウィル,NASDAQ,医薬品（バイオテクノロジー）,○
 ALXO,ALX ONCOLOGY HLD,ALXオンコロジー・ホールディングス,NASDAQ,医薬品（バイオテクノロジー）,○
 ALZN,ALZAMEND NEURO,アルザメンド・ニューロ,NASDAQ,医薬品（バイオテクノロジー）,○
 AM,ANTERO MIDSTREAM,アンテロ・ミッドストリーム,NYSE,ガス・パイプライン,○
@@ -372,7 +370,6 @@ ATRC,ATRICURE INC,アトリキュア,NASDAQ,ヘルスケア,○
 ATRO,ASTRONICS CORP,アストロニクス,NASDAQ,航空機・宇宙,○
 ATSG,AIR TRANS SERVCE,エア・トランスポート・サービシズ・グループ,NASDAQ,航空,○
 ATUS,ALTICE USA INC,アルティスUSA,NYSE,通信サービス,○
-ATXI,AVENUE THERAPE,アベニュー・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 ATXS,ASTRIA THERAPE,アストリア・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 ATYR,ATYR PHARMA INC,エータイヤ・ファーマ,NASDAQ,医薬品,○
 AU,ANGLO ASH  NEWCO,アングロゴールド・アシャンティ,NYSE,その他,○
@@ -767,7 +764,6 @@ CDRE,CADRE HOLDING,カードル・ホールディング,NYSE,専門店,○
 CDRO,CODERE ONLINE LB,コデレ・オンライン・ルクセンブルグ,NASDAQ,エンターテイメント,○
 CDTX,CIDARA THERAPEU,シダラ・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 CDW,CDW CORPORATION,CDW,NASDAQ,ソフトウェア・サービス,○
-CDXC,CHROMADEX CORP,クロマデックス,NASDAQ,ヘルスケア,○
 CDXS,CODEXIS INC,コデクシス,NASDAQ,化学,○
 CDZI,CADIZ INC,カディス,NASDAQ,その他,○
 CE,CELANESE CORP,セラニーズ,NYSE,化学,○
@@ -1902,6 +1898,7 @@ HEDJ,WT EUR HEDGED EQ,ウィズダムツリー  欧州株米ドルヘッジ付�
 HEES,H&E EQUIPMENT,H&Eエクイップメント・サービシズ,NASDAQ,ソフトウェア・サービス,○
 HEI,HEICO CORP,ハイコ,NYSE,その他製造,○
 HELE,HELEN OF TROY,ヘレン・オブ・トロイ,NASDAQ,その他製造,○
+HEPA,HEPION PHARMA,ヘピオン・ファ―マシュ―ティカルズ,NASDAQ,医薬品（バイオテクノロジー）,○
 HEPS,DMARKET ELEC SER,Dマーケット・エレクトロニック・サービシズ・アンド・トレーディング,NASDAQ,ソフトウェア・サービス,○
 HERO,GLX VIDEO GM ETF,グローバルX ヒーローズ（ゲーム＆eスポーツ）ETF,NASDAQ,その他,○
 HES,HESS CORP,ヘス,NYSE,石油,○
@@ -2189,7 +2186,6 @@ ITRI,ITRON INC,アイトロン,NASDAQ,ソフトウェア・サービス,○
 ITRM,ITERUM THERAPEU,アイテラム・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 ITRN,ITURAN LC CONTRL,イツーラン・ロケーション・アンド・コントロール,NASDAQ,ネットワークセキュリティー,○
 ITT,ITT INC,ITT,NYSE,機械,○
-ITUB,ITAU UNIBANCO,イタウ・ウニバンコ・ホールディング,NYSE,金融（銀行）,○
 ITW,ILLINOIS TOOL,ITWイリノイ・ツール・ワークス,NYSE,その他製造,○
 IVAC,INTEVAC INC,インテバック,NASDAQ,その他製造,○
 IVOG,VA SP M-CAP400 G,バンガード・S&Pミッドキャップ400グロースETF,NYSE,その他,○
@@ -2298,6 +2294,7 @@ KITT,NAUTICUS ROBOTIC,ノーティカス・ロボティクス,NASDAQ,その他�
 KLAC,KLA CORPORATION,KLAコーポレーション,NASDAQ,半導体,○
 KLG,WK KELLOGG CO,WKケロッグ,NYSE,食品,○
 KLIC,KULICKE SOFFA,キューリッキ・ソファ・インダストリーズ,NASDAQ,半導体,○
+KLRS,KALARIS THERAPE,カラリス・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 KLTR,KALTURA INC,カルトゥーラ,NASDAQ,ソフトウェア・サービス,○
 KLXE,KLX ENE SRVCS HD,KLXエナジー・サービシズ・ホールディングス,NASDAQ,石油,○
 KMB,KIMBERLY CLARK,キンバリークラーク,NYSE,トイレタリー,○
@@ -2774,6 +2771,7 @@ MYTE,MYT NLD PARENT,MYTネザーランド・ペアレント,NYSE,その他,○
 NA,NANO LABS LTD,ナノ・ラボズ,NASDAQ,コンピュータ,○
 NAAS,NAAS TECHNOLOGY,ナース・テクノロジー,NASDAQ,その他,○
 NABL,N-ABLE INC,エヌ・エイブル,NYSE,ソフトウェア・サービス,○
+NAGE,CHROMADEX CORP,クロマデックス,NASDAQ,ヘルスケア,○
 NAII,NATURAL ALT INTL,ナチュラル・オルタナティブズ・インターナショナル,NASDAQ,医薬品,○
 NAMS,NEWAMSTERDAM PHA,ニューアムステルダム・ファーマ,NASDAQ,医薬品（バイオテクノロジー）,○
 NAOV,NANOVIBRONIX INC,ナノビブロニックス,NASDAQ,ヘルスケア,○
@@ -4194,6 +4192,7 @@ ULBI,ULTRALIFE CORP,ウルトラライフ,NASDAQ,その他製造,○
 ULCC,FRONTIER GP HD,フロンティア・グループ・ホールディングス,NASDAQ,航空,○
 ULH,UNIVERSAL LOGCS,ユニバーサル・ロジスティクス・ホールディングス,NASDAQ,運輸,○
 ULTA,ULTA SALON COSME,ULTA,NASDAQ,小売,○
+ULY,URGENTLY INC,アージェントリー,NASDAQ,情報処理サービス,○
 UMBF,UMB FINANCIAL,UMBファイナンシャル,NASDAQ,金融（銀行）,○
 UMC,UNITED MICRO,ユナイテッド・マイクロエレクトロニクス,NYSE,半導体,○
 UNB,UNION BANKSHARES,ユニオン・バンクシェアズ,NASDAQ,金融（銀行）,○
@@ -4460,6 +4459,7 @@ WH,WYNDHAM HOTELS,ウィンダム・ホテルズ・アンド・リゾーツ,NYSE
 WHD,CACTUS INC,カクタス,NYSE,その他製造,○
 WHG,WESTWOOD HOLD,ウエストウッド・ホールディングズ,NYSE,金融（証券）,○
 WHR,WHIRLPOOL CORP,ワールプール,NYSE,その他製造,○
+WHWK,AADI BIOSCIENCE,アーディ・バイオサイエンス,NASDAQ,医薬品（バイオテクノロジー）,○
 WILC,G WILL FOOD INTL,Gウィリー・フード・インターナショナル,NASDAQ,食品,○
 WIMI,WIMI HOLOGRAM,ウィミ･ホログラム･クラウド,NASDAQ,ソフトウェア・サービス,○
 WINA,WINMARK CORP,ウィンマーク,NASDAQ,小売,○
@@ -4471,6 +4471,7 @@ WK,WORKIVA INC,ワーキバ,NYSE,ソフトウェア・サービス,○
 WKC,WORLD KINECT,ワールド・キネクト,NYSE,航空,○
 WKEY,WISEKEY INTL HLD,ワイズキー・インターナショナル・ホールディングス,NASDAQ,ネットワークセキュリティー,○
 WKHS,WORKHORSE GROUP,ワークホース・グループ,NASDAQ,自動車,○
+WKSP,WORKSPORT LTD,ワークスポート,NASDAQ,自動車,○
 WLDN,WILLDAN GROUP,ウィルダン・グループ,NASDAQ,その他製造,○
 WLFC,WILLIS LEASE FIN,ウィリス・リース・ファイナンス,NASDAQ,航空,○
 WLK,WESTLAKE CORP,ウェストレイク,NYSE,化学,○
