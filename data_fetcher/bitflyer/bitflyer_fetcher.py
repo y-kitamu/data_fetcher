@@ -2,6 +2,7 @@
 
 import datetime
 import json
+import time
 
 import requests
 import websocket
@@ -76,9 +77,13 @@ class BitflyerFetcher(BaseFetcher):
         logger.debug(
             f"Websocket closed. status_code: {close_status_code}, msg: {close_msg}"
         )
+        if close_status_code == 1012:  # scheduled maintanance
+            time.sleep(60)
+            self.start_websockes()
 
     def _on_error(self, ws, error):
         logger.error(error)
+        time.sleep(30)
         self.start_websocket()
 
     def _on_message(self, ws, message):

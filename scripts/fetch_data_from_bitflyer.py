@@ -9,11 +9,19 @@ from pathlib import Path
 import data_fetcher
 
 
+def get_is_continue(thread: threading.Thread):
+    def is_continue():
+        return thread.is_alive()
+
+    return is_continue
+
+
 async def compress_csvs(
     data_dir: Path = data_fetcher.constants.PROJECT_ROOT / "data" / "bitflyer" / "tick",
+    check_continue: callable = lambda: True,
 ):
     try:
-        while True:
+        while check_continue():
             current_date = datetime.datetime.now(datetime.timezone.utc).strftime(
                 "%Y%m%d"
             )
@@ -30,7 +38,9 @@ async def compress_csvs(
                             f.write(data)
                         csv_path.unlink()
                         data_fetcher.logger.debug(f"Compressed {csv_path} to {gz_path}")
-            await asyncio.sleep(60 * 60)
+            await asyncio.sleep(60)
+
+        data_fetcher.logger.debug("Finish csv search loop.")
     except:
         data_fetcher.logger.exception("Failed to compress csv files.")
 
@@ -46,8 +56,7 @@ if __name__ == "__main__":
         thread.daemon = True
         thread.start()
 
-        asyncio.run(compress_csvs())
-        data_fetcher.logger.exception("Failed to compress csv files.")
+        asyncio.run(compress_csvs(check_continue=get_is_continue(thread)))
 
         thread.join()
     except:

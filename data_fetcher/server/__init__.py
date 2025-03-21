@@ -108,18 +108,30 @@ async def read_ohlcv_data(
 async def upload_ohlcv(
     file: bytes = File(),
 ):
-    data = Ohlcv()
     try:
         df = pl.read_csv(io.BytesIO(file))
-        data.dates = df["datetime"].to_list()
-        data.ohlcs = df.select("open", "close", "low", "high").to_numpy().tolist()
-        data.volumes = df["volume"].to_list()
+        ticker = "uploaded"
+        data_type = "candlestick"
+        data = (
+            df.select(
+                pl.col("datetime").str.to_datetime().dt.timestamp("ms"),
+                "open",
+                "high",
+                "low",
+                "close",
+                "volume",
+            )
+            .to_numpy()
+            .tolist()
+        )
+        return Response(
+            json.dumps({"ticker": ticker, "dataType": data_type, "data": data}),
+            media_type="application/json",
+        )
     except:
         logger.exception("Failed to upload file")
 
+    return Ohlcv()
+
     # To speed up the process, we are returning Response object.
-    return Response(
-        json.dumps({"dates": data.dates, "ohlcs": data.ohlcs, "volumes": data.volumes}),
-        media_type="application/json",
-    )
     # return await read_ohlcv_data(source, ticker, start, end, interval)
