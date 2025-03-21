@@ -83,7 +83,7 @@ class BitflyerFetcher(BaseFetcher):
 
     def _on_message(self, ws, message):
         message = json.loads(message)["params"]
-        logger.debug(json.dumps(message))
+        # logger.debug(json.dumps(message))
         try:
             channel = message["channel"]
             data = message["message"]

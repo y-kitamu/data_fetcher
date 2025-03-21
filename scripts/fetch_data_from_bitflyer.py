@@ -12,26 +12,35 @@ import data_fetcher
 async def compress_csvs(
     data_dir: Path = data_fetcher.constants.PROJECT_ROOT / "data" / "bitflyer" / "tick",
 ):
-    while True:
-        current_date = datetime.datetime.now(datetime.timezone.utc).strftime("%Y%m%d")
-        for dirpath in data_dir.glob("*"):
-            if not dirpath.is_dir():
-                continue
+    try:
+        while True:
+            current_date = datetime.datetime.now(datetime.timezone.utc).strftime(
+                "%Y%m%d"
+            )
+            for dirpath in data_dir.glob("*"):
+                if not dirpath.is_dir():
+                    continue
 
-            if dirpath.name < current_date:
-                for csv_path in dirpath.glob("*.csv"):
-                    gz_path = csv_path.with_suffix(".csv.gz")
-                    with open(csv_path, "rb") as f:
-                        data = f.read()
-                    with gzip.open(gz_path, "wb") as f:
-                        f.write(data)
-                    csv_path.unlink()
-                    data_fetcher.logger.debug(f"Compressed {csv_path} to {gz_path}")
-        await asyncio.sleep(60 * 60)
+                if dirpath.name < current_date:
+                    for csv_path in dirpath.glob("*.csv"):
+                        gz_path = csv_path.with_suffix(".csv.gz")
+                        with open(csv_path, "rb") as f:
+                            data = f.read()
+                        with gzip.open(gz_path, "wb") as f:
+                            f.write(data)
+                        csv_path.unlink()
+                        data_fetcher.logger.debug(f"Compressed {csv_path} to {gz_path}")
+            await asyncio.sleep(60 * 60)
+    except:
+        data_fetcher.logger.exception("Failed to compress csv files.")
 
 
 if __name__ == "__main__":
+    log_path = data_fetcher.constants.PROJECT_ROOT / "logs" / "bitflyer.log"
     try:
+        log_path.parent.mkdir(exist_ok=True)
+        data_fetcher.logging.enable_logging_to_file(log_path)
+
         fetcher = data_fetcher.bitflyer.BitflyerFetcher()
         thread = threading.Thread(target=fetcher.start_websocket)
         thread.daemon = True
