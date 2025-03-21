@@ -33,9 +33,9 @@ class AvailableDates(BaseModel):
 
 
 class Ohlcv(BaseModel):
-    dates: list[str] = []
-    ohlcs: list[list[float]] = []
-    volumes: list[float] = []
+    ticker: str = ""
+    dataType: str = "candlestick"  # candlestick or tick
+    data: list[list[float]] = []
 
 
 @router.get("/sources/", response_model=AvailableSources)
@@ -83,9 +83,21 @@ async def read_ohlcv_data(
             end_date=convert_str_to_datetime(end),
             interval=interval_dt,
         )
-        data.dates = [convert_datetime_to_str(dt) for dt in df["datetime"].to_list()]
-        data.ohlcs = df.select("open", "close", "low", "high").to_numpy().tolist()
-        data.volumes = df["volume"].to_list()
+        data.ticker = ticker
+        data.dataType = "candlestick"
+        data.data = (
+            df.select(
+                pl.col("datetime").dt.timestamp("ms"),
+                pl.col("open"),
+                pl.col("high"),
+                pl.col("low"),
+                pl.col("close"),
+                pl.col("volume"),
+            )
+            .to_numpy()
+            .tolist()
+        )
+        print(df)
     except:
         logger.exception(f"Failed to get fetcher of source : {source}")
 

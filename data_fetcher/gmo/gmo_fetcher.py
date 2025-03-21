@@ -1,6 +1,7 @@
 """gmo_fetcher.py
 gmoの過去データを取得する
 """
+
 import datetime
 import io
 from pathlib import Path
@@ -209,4 +210,7 @@ class GMOFetcher(BaseFetcher):
     def fetch_VRB(
         self, symbol: str, start_date: datetime.datetime, end_date: datetime.datetime
     ) -> pl.DataFrame:
+        pass
+
+    def start_websocket(self):
         pass
