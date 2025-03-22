@@ -132,11 +132,16 @@ async def upload_ohlcv(
             data_key = data.tickKeys[1:]
 
         print(f"dt_key = {dt_key}, data_key = {data_key}")
-        return_data = (
-            df.select(pl.col(dt_key).str.to_datetime().dt.timestamp("ms"), *data_key)
-            .to_numpy()
-            .tolist()
-        )
+        if df[dt_key].dtype == pl.Int64:
+            return_data = df.select(dt_key, *data_key).to_numpy().tolist()
+        else:
+            return_data = (
+                df.select(
+                    pl.col(dt_key).str.to_datetime().dt.timestamp("ms"), *data_key
+                )
+                .to_numpy()
+                .tolist()
+            )
         return Response(
             json.dumps(
                 {"ticker": "uploaded", "dataType": data.dataType, "data": return_data}
