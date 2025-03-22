@@ -2,9 +2,10 @@
 
 import io
 import json
+from typing import Annotated
 
 import polars as pl
-from fastapi import APIRouter, File, Response
+from fastapi import APIRouter, File, Form, Response
 from pydantic import BaseModel
 
 from ..base_fetcher import convert_str_to_timedelta
@@ -36,6 +37,18 @@ class Ohlcv(BaseModel):
     ticker: str = ""
     dataType: str = "candlestick"  # candlestick or tick
     data: list[list[float]] = []
+
+
+class DataHeader(BaseModel):
+    columns: list[str] = []
+
+
+class UploadData(BaseModel):
+    file: Annotated[bytes, File()]
+    dataType: str
+    tickKeys: list[str]
+    candleKeys: list[str]
+    additionalKeys: list[str] = []
 
 
 @router.get("/sources/", response_model=AvailableSources)
@@ -106,26 +119,28 @@ async def read_ohlcv_data(
 
 @router.post("/upload/ohlcv")
 async def upload_ohlcv(
-    file: bytes = File(),
+    data: Annotated[UploadData, Form()],
 ):
     try:
-        df = pl.read_csv(io.BytesIO(file))
-        ticker = "uploaded"
-        data_type = "candlestick"
-        data = (
-            df.select(
-                pl.col("datetime").str.to_datetime().dt.timestamp("ms"),
-                "open",
-                "high",
-                "low",
-                "close",
-                "volume",
-            )
+        df = pl.read_csv(io.BytesIO(data.file))
+        print(df)
+        if data.dataType == "candlestick":
+            dt_key = data.candleKeys[0]
+            data_key = data.candleKeys[1:]
+        elif data.dataType == "tick":
+            dt_key = data.tickKeys[0]
+            data_key = data.tickKeys[1:]
+
+        print(f"dt_key = {dt_key}, data_key = {data_key}")
+        return_data = (
+            df.select(pl.col(dt_key).str.to_datetime().dt.timestamp("ms"), *data_key)
             .to_numpy()
             .tolist()
         )
         return Response(
-            json.dumps({"ticker": ticker, "dataType": data_type, "data": data}),
+            json.dumps(
+                {"ticker": "uploaded", "dataType": data.dataType, "data": return_data}
+            ),
             media_type="application/json",
         )
     except:
@@ -133,5 +148,16 @@ async def upload_ohlcv(
 
     return Ohlcv()
 
-    # To speed up the process, we are returning Response object.
-    # return await read_ohlcv_data(source, ticker, start, end, interval)
+
+@router.post("/upload/header")
+async def upload_header(
+    file: bytes = File(),
+):
+    header = DataHeader()
+    try:
+        df = pl.read_csv(io.BytesIO(file))
+        header.columns = df.columns
+    except:
+        logger.exception("Failed to upload file")
+
+    return header
