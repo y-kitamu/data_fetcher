@@ -177,7 +177,6 @@ ALLO,ALLOGENE THRPTCS,アロジーン・セラピューティクス,NASDAQ,ヘ�
 ALLT,ALLOT,アロット,NASDAQ,ネットワーク,○
 ALLY,ALLY FINANCIAL,アライ・ファイナンシャル,NYSE,金融（銀行）,○
 ALNT,ALLIENT,アライアント,NASDAQ,その他製造,○
-ALNY,ALNYLAM PHARMACE,アルナイラム・ファーマシューティカルズ,NASDAQ,ヘルスケア,○
 ALOT,ASTRONOVA INC,アストロノバ,NASDAQ,コンピュータ,○
 ALRM,ALARM.COM,アラーム・ドットコム・ホールディングス,NASDAQ,その他製造,○
 ALRS,ALERUS FINCIAL,アレラス・ファイナンシャル,NASDAQ,金融（銀行）,○
@@ -391,12 +390,14 @@ AVDX,AVIDXCHANGE HLD,アビッドエクスチェンジ・ホールディング�
 AVEM,AVT EMG M EQ ETF,アバンティス・エマージング・マーケッツ・エクイティ・ETF,NYSE,その他,○
 AVGO,BROADCOM INC,ブロードコム,NASDAQ,半導体,○
 AVIR,ATEA PHARMACEU,アテア・ファーマシューティカルズ,NASDAQ,医薬品（バイオテクノロジー）,○
+AVL,DRX AVGO BL2X,Direxion デイリー AVGO ブル 2 倍 ETF,NASDAQ,その他,○
 AVNS,AVANOS MEDICAL,アバノス・メディカル,NYSE,医療サービス,○
 AVNT,AVIENT CORP,アビエント,NYSE,化学,○
 AVNW,AVIAT NETWORKS,アビアット・ネットワークス,NASDAQ,通信サービス,○
 AVO,MISSION PRODUCE,ミッション・プロデュース,NASDAQ,食品,○
 AVPT,AVEPOINT INC,アブポイント,NASDAQ,ソフトウェア・サービス,○
 AVR,ANTERIS TECH GLB,アンターリズ・テクノロジーズ・グローバル,NASDAQ,ヘルスケア,○
+AVS,DRX AVGO BR1X,Direxion デイリー AVGO 株 ベア 1 倍 ETF,NASDAQ,その他,○
 AVT,AVNET INC,アヴネット,NASDAQ,小売,○
 AVTE,AEROVATE THERAPE,エアロベート・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 AVTR,AVANTOR INC,アバンター,NYSE,ヘルスケア,○
@@ -2444,6 +2445,7 @@ LKQ,LKQ CORP,LKQ,NASDAQ,自動車,○
 LLY,ELI LILLY & CO.,イーライリリー,NYSE,医薬品,○
 LMAT,LEMAITRE VASCULR,ルメイトレ・バスキュラー,NASDAQ,ヘルスケア,○
 LMB,LIMBACH HOLDINGS,リンバッハ・ホールディングス,NASDAQ,その他,○
+LMBO,DRX CRP IDS BL2X,Direxion デイリー クリプト・インダストリー ブル 2 倍 ETF,NYSE,その他,○
 LMBS,FT LOW DUR OPPTY,ファーストトラスト ローデュレーション オポチュニティーズETF,NASDAQ,その他,○
 LMFA,LM FUNDING AMERC,LMファンディング・アメリカ,NASDAQ,金融（銀行）,○
 LMND,LEMONADE INC,レモネード,NYSE,金融(保険),○
@@ -2601,6 +2603,8 @@ MET,METLIFE INC,メットライフ,NYSE,金融(保険),○
 META,META PLATFORMS,メタ・プラットフォームズ,NASDAQ,ソフトウェア・サービス,○
 METC,RAMACO RESOURCES,ラマコ・リソーシズ,NASDAQ,その他,○
 METCB,RAMACO RESOUR-B,ラマコ・リソーシズ・クラスB,NASDAQ,その他,○
+METD,DRX META BR1X,Direxion デイリー META 株 ベア 1 倍 ETF,NASDAQ,その他,○
+METU,DRX META BL2X,Direxion デイリー META ブル 2 倍 ETF,NASDAQ,その他,○
 MFC,MANULIFE FIN,マニュライフ・ファイナンシャル,NYSE,金融(保険),○
 MFIN,MEDALLION FINANC,メダリオン・ファイナンシャル,NASDAQ,金融（銀行）,○
 MG,MISTRAS GROUP,ミストラス・グループ,NYSE,その他製造,○
@@ -2745,11 +2749,13 @@ MTW,MANITOWOC,マニトウォック,NYSE,機械,○
 MTX,MINERALS TECHNO,ミネラルズ・テクノロジーズ,NYSE,化学,○
 MTZ,MASTEC INC,マステック,NYSE,その他,○
 MU,MICRON TECH,マイクロン　テクノロジー,NASDAQ,半導体,○
+MUD,DRX MU BR1X,Direxion デイリー MU 株 ベア 1 倍 ETF,NASDAQ,その他,○
 MULL,GNS 2X LONG MU,GraniteShares2倍ロングMUデイリーETF,NASDAQ,その他,○
 MULN,MULLEN AUTOMOTIV,ミューレン・オートモーティブ,NASDAQ,ソフトウェア・サービス,○
 MUR,MURPHY OIL CORP,マーフィー・オイル,NYSE,石油,○
 MURA,MURAL ONCOLOGY,ミューラル・オンコロジー,NASDAQ,医療サービス,○
 MUSA,MURPHY USA INC,マーフィーUSA,NYSE,専門店,○
+MUU,DRX MU BL2X,Direxion デイリー MU ブル 2 倍 ETF,NASDAQ,その他,○
 MUX,MCEWEN MINING,マッキュエン・マイニング,NYSE,その他製造,○
 MVBF,MVB FINANCIAL CO,MVBフィナンシャル,NASDAQ,金融（銀行）,○
 MVIS,MICROVISION INC,マイクロビジョン,NASDAQ,その他製造,○
@@ -2821,6 +2827,8 @@ NFG,NATIONAL FUELGAS,ナショナル・フューエル・ガス,NYSE,ガス・�
 NFGC,NEW FOUND GOLD,ニュー・ファウンド・ゴールド,NYSE,その他,○
 NFLX,NETFLIX INC.,ネットフリックス,NASDAQ,エンターテイメント,○
 NFTY,FT INDIA NIFTY50,ファーストトラスト インド株NIFTY50均等加重ETF,NASDAQ,その他,○
+NFXL,DRX NFLX BL2X,Direxion デイリー NFLX ブル 2 倍 ETF,NASDAQ,その他,○
+NFXS,DRX NFLX BR1X,Direxion デイリー NFLX 株 ベア 1 倍 ETF,NASDAQ,その他,○
 NG,NOVAGOLD RESRCS,ノバゴールド・リソーシズ,NYSE,その他,○
 NGD,NEW GOLD,ニュー・ゴールド,NYSE,その他,○
 NGG,NATIONAL GRID,ナショナル・グリッド,NYSE,電力,○
@@ -2998,6 +3006,7 @@ OLMA,OLEMA PHARMACEU,オレマ・ファーマシューティカルズ,NASDAQ,医
 OLN,OLIN CORPORATION,オーリン,NYSE,化学,○
 OLO,OLO INC,オロ,NYSE,ソフトウェア・サービス,○
 OLPX,OLAPLEX HLD,オラプレックス・ホールディングス,NASDAQ,ヘルスケア,○
+OM,OUTSET MEDICAL,アウトセット・メディカル,NASDAQ,ヘルスケア,○
 OMAB,GRUPO AEROPORT,グルポ・エアロポルチュアリオ・デル・セントロ・ノルテ,NASDAQ,航空,○
 OMC,OMNICOM GROUP,オムニコム・グループ,NYSE,その他,○
 OMCL,OMNICELL INC,オムニセル,NASDAQ,ソフトウェア・サービス,○
@@ -3015,7 +3024,6 @@ ONIT,ONITY GROUP INC,オニティ・グループ・インク,NYSE,金融コン�
 ONON,ON HOLDING,オン・ホールディング,NYSE,フットウエア,○
 ONTF,ON24 INC,ON24,NYSE,ソフトウェア・サービス,○
 ONTO,ONTO INNOVATION,アントゥー・イノベーション,NYSE,半導体製造,○
-ONVO,ORGANOVO HD,オルガノボ・ホールディングス,NASDAQ,医薬品（バイオテクノロジー）,○
 OOMA,OOMA INC,ウーマ,NYSE,通信サービス,○
 OP,OCEANPAL,オーシャンパル,NASDAQ,運輸,○
 OPAD,OFFERPAD SOL,オファーパッド・ソリューションズ,NYSE,その他,○
@@ -3336,10 +3344,12 @@ QNRX,QUOIN PHARMAC,クオイン・ファーマシューティカルズ,NASDAQ,�
 QNST,QUINSTREET INC,クインストリート,NASDAQ,ソフトウェア・サービス,○
 QNTM,QUANTUM BIOPHARM,クォンタム・バイオファーマ,NASDAQ,医薬品,○
 QQQ,INVESCO QQQ,インベスコQQQ 信託シリーズ1,NASDAQ,その他,○
+QQQD,DRX M7 BR1X,Direxion デイリー マグニフィセント 7 ベア 1 倍 ETF,NYSE,その他,○
 QQQE,DRX NASDAQ100 EW,Direxion NASDAQ-100 均等型インデックス ETF,NASDAQ,その他,○
 QQQJ,INV NS NG100 ETF,インベスコ NASDAQ ネクスト 100 ETF,NASDAQ,その他,○
 QQQM,INV NS100 ETF,インベスコ NASDAQ 100 ETF,NASDAQ,その他,○
 QQQS,INV NS FG200 ETF,インベスコ NASDAQ フューチャー200 ETF,NASDAQ,その他,○
+QQQU,DRX M7 BL2X,Direxion デイリー マグニフィセント 7 ブル 2 倍 ETF,NYSE,その他,○
 QRHC,QUEST RESOURCE,クエスト・リソース・ホールディング,NASDAQ,その他,○
 QRMI,GLBLX NDX R MNGD,グローバルX NASDAQ100・リスク管理・インカム ETF,NASDAQ,その他,○
 QRVO,QORVO INC,クォルボ,NASDAQ,半導体製造,○
@@ -3406,6 +3416,7 @@ REFR,RESEARCH FRONT,リサーチ・フロンティアーズ,NASDAQ,その他製�
 REGN,REGENERON PHARMA,リジェネロン・ファーマシューティカルズ,NASDAQ,医薬品（バイオテクノロジー）,○
 REI,RING ENERGY INC,リング・エナジー,NYSE,石油,○
 REKR,REKOR SYSTEMS,リコール・システムズ,NASDAQ,ソフトウェア・サービス,○
+REKT,DRX CRP IDS BR1X,Direxion デイリー クリプト・インダストリー株 ベア 1 倍 ETF,NYSE,その他,○
 RELL,RICHARDSON ELCTR,リチャードソン・エレクトロニクス,NASDAQ,その他製造,○
 RELX,RELX PLC,レレックス,NYSE,ソフトウェア・サービス,○
 RELY,REMITLY GLOBAL,レミトリー・グローバル,NASDAQ,金融コングロマリット,○
@@ -4113,6 +4124,8 @@ TSLR,GNS TSLA BL2X,グラナイトシェアーズ2倍ロングTSLAデイリーET
 TSLS,DRX TSLA BR1X,Direxion デイリー TSLA 株 ベア1倍 ETF,NASDAQ,その他,○
 TSM,TAIWAN SEMI ADR,タイワン・セミコンダクター・マニュファクチャリング,NYSE,半導体,○
 TSMU,GNS 2X LONG TSM,GraniteShares2倍ロングTSMデイリーETF,NASDAQ,その他,○
+TSMX,DRX TSM BL2X,Direxion デイリー TSM ブル 2 倍 ETF,NASDAQ,その他,○
+TSMZ,DRX TSM BR1X,Direxion デイリー TSM 株 ベア 1 倍 ETF,NASDAQ,その他,○
 TSN,TYSON FOODS,タイソン・フーズ,NYSE,食品,○
 TSQ,TOWNSQUARE MEDIA,タウンスクエア・メディア,NYSE,エンターテイメント,○
 TSVT,2SEVENTY BIO,2セブンティ・バイオ,NASDAQ,ヘルスケア,○
@@ -4358,7 +4371,6 @@ VRME,VERIFYME INC,ベリファイミー,NASDAQ,ソフトウェア・サービス
 VRN,VEREN INC,ヴェレン・インク,NYSE,石油,○
 VRNA,VERONA PHARMA,ヴェローナ・ファーマ,NASDAQ,医薬品（バイオテクノロジー）,○
 VRNS,VARONIS SYSTEMS,バロニス・システムズ,NASDAQ,ソフトウェア・サービス,○
-VRPX,VIRPAX PHARMA,バーパックス・ファーマシューティカルズ,NASDAQ,医薬品（バイオテクノロジー）,○
 VRRM,VERRA MOBILITY,ヴェラ・モビリティー,NASDAQ,ソフトウェア・サービス,○
 VRSK,VERISK ANALYTICS,ベリスク・アナリティックス,NASDAQ,金融コングロマリット,○
 VRSN,VERISIGN INC.,ベリサイン,NASDAQ,ネットワークセキュリティー,○
@@ -4457,7 +4469,7 @@ WH,WYNDHAM HOTELS,ウィンダム・ホテルズ・アンド・リゾーツ,NYSE
 WHD,CACTUS INC,カクタス,NYSE,その他製造,○
 WHG,WESTWOOD HOLD,ウエストウッド・ホールディングズ,NYSE,金融（証券）,○
 WHR,WHIRLPOOL CORP,ワールプール,NYSE,その他製造,○
-WHWK,AADI BIOSCIENCE,アーディ・バイオサイエンス,NASDAQ,医薬品（バイオテクノロジー）,○
+WHWK,WHITEHAWK THERA,ホワイトホーク・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 WILC,G WILL FOOD INTL,Gウィリー・フード・インターナショナル,NASDAQ,食品,○
 WIMI,WIMI HOLOGRAM,ウィミ･ホログラム･クラウド,NASDAQ,ソフトウェア・サービス,○
 WINA,WINMARK CORP,ウィンマーク,NASDAQ,小売,○
