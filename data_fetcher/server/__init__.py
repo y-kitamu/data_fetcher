@@ -47,7 +47,6 @@ class UploadData(BaseModel):
     file: Annotated[bytes, File()]
     dataType: str
     targetKeys: list[str]
-    additionalKeys: list[str] = []
 
 
 @router.get("/sources/", response_model=AvailableSources)
@@ -124,15 +123,15 @@ async def upload_ohlcv(
         df = pl.read_csv(io.BytesIO(data.file))
         print(df)
         dt_key = data.targetKeys[0]
-        data_key = data.targetKeys[1:]
+        data_key = {f"key{idx}": key for idx, key in enumerate(data.targetKeys[1:])}
 
         print(f"dt_key = {dt_key}, data_key = {data_key}")
         if df[dt_key].dtype == pl.Int64:
-            return_data = df.select(dt_key, *data_key).to_numpy().tolist()
+            return_data = df.select(dt_key, **data_key).to_numpy().tolist()
         else:
             return_data = (
                 df.select(
-                    pl.col(dt_key).str.to_datetime().dt.timestamp("ms"), *data_key
+                    pl.col(dt_key).str.to_datetime().dt.timestamp("ms"), **data_key
                 )
                 .to_numpy()
                 .tolist()
