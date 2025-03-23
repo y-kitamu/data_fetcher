@@ -79,7 +79,7 @@ class BitflyerFetcher(BaseFetcher):
         )
         if close_status_code == 1012:  # scheduled maintanance
             time.sleep(60)
-            self.start_websockes()
+            self.start_websocket()
 
     def _on_error(self, ws, error):
         logger.error(error)

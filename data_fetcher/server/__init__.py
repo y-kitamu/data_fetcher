@@ -46,8 +46,7 @@ class DataHeader(BaseModel):
 class UploadData(BaseModel):
     file: Annotated[bytes, File()]
     dataType: str
-    tickKeys: list[str]
-    candleKeys: list[str]
+    targetKeys: list[str]
     additionalKeys: list[str] = []
 
 
@@ -124,12 +123,8 @@ async def upload_ohlcv(
     try:
         df = pl.read_csv(io.BytesIO(data.file))
         print(df)
-        if data.dataType == "candlestick":
-            dt_key = data.candleKeys[0]
-            data_key = data.candleKeys[1:]
-        elif data.dataType == "tick":
-            dt_key = data.tickKeys[0]
-            data_key = data.tickKeys[1:]
+        dt_key = data.targetKeys[0]
+        data_key = data.targetKeys[1:]
 
         print(f"dt_key = {dt_key}, data_key = {data_key}")
         if df[dt_key].dtype == pl.Int64:
