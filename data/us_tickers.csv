@@ -521,7 +521,6 @@ BHB,BAR HARBOR BANK,バー・ハーバー・バンクシェアーズ,NYSE,金融
 BHC,BAUSCH HEALTH CO,ボシュ･ヘルス・カンパニーズ,NYSE,医薬品（バイオテクノロジー）,○
 BHE,BENCHMARK ELECTR,ベンチマーク・エレクトロニクス,NYSE,その他製造,○
 BHF,BRIGHTHOUSE,ブライトハウス　ファイナンシャル,NASDAQ,金融(保険),○
-BHIL,BENSON HILL INC,ベンソン・ヒル,NASDAQ,食品,○
 BHLB,BERKSHR HLLS BNC,バークシャー・ヒルズ・バンコープ,NYSE,金融（銀行）,○
 BHP,BHP GROUP ADR,BHPグループ,NYSE,電力,○
 BHRB,BH FNCL SERVICES,バーク・アンド・ハーバート・ファイナンシャル・サービス・コーポレーション,NASDAQ,金融（銀行）,○
@@ -1397,7 +1396,7 @@ ERIC,ERICSSON(ADR),LMエリクソン,NASDAQ,通信サービス,○
 ERIE,ERIE INDEMNITY,エリー・インデムニティー,NASDAQ,金融(保険),○
 ERII,ENERGY RECOVERY,エナジー・リカバリー,NASDAQ,その他製造,○
 ERJ,EMBRAER SA ADR,エンブラエル,NYSE,航空機・宇宙,○
-ERNA,ETERNA THERAP,エテルナ・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
+ERNA,ERNEXA THERAP,エルネクサ・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 ERO,ERO COPPER CORP,エロ･カッパー,NYSE,専門店,○
 ERX,DRX ENERGY BL2X,Direxion デイリー エネルギー株 ブル 2倍 ETF,NYSE,その他,○
 ERY,DRX ENERGY BR2X,Direxion デイリー エネルギー株 ベア 2倍 ETF,NYSE,その他,○
@@ -2425,6 +2424,7 @@ LFVN,LIFEVANTAGE,ライフバンテージ,NASDAQ,医薬品,○
 LFWD,LIFEWARD,ライフワード,NASDAQ,医療サービス,○
 LGF.A,LIONS GATE CL A,ライオンズ・ゲート・エンターテインメント　クラスA,NYSE,エンターテイメント,○
 LGF.B,LIONS GATE CL B,ライオンズ・ゲート・エンターテインメント クラスB,NYSE,エンターテイメント,○
+LGHL,LION GROUP,ライオン・グループ・ホールディング,NASDAQ,金融（証券）,○
 LGIH,LGI HOMES INC,LGIホームズ,NASDAQ,その他製造,○
 LGL,LGL GROUP,LGLグループ,NYSE,その他製造,○
 LGMK,LOGICMARK INC,ロジックマーク,NASDAQ,ソフトウェア・サービス,○
