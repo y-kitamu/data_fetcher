@@ -455,11 +455,9 @@
         "Net Income": 29302835000.0,
         "Minority Interests": -25902000.0,
         "Net Income Including Noncontrolling Interests": 29328737000.0,
-        "Net Income From Tax Loss Carryforward": NaN,
         "Net Income Continuous Operations": 29328737000.0,
         "Tax Provision": 17695190000.0,
         "Pretax Income": 47023927000.0,
-        "Other Non Operating Income Expenses": NaN,
         "Special Income Charges": -72000.0,
         "Other Special Charges": 2000.0,
         "Impairment Of Capital Assets": 70000.0,
@@ -478,7 +476,6 @@
         "Salaries And Wages": 76638680000.0,
         "Total Revenue": 212581700000.0,
         "Operating Revenue": 212581700000.0,
-        "Professional Expense And Contract Services Expense": NaN,
         "Other Non Interest Expense": 38728666000.0
     },
     "2023-12-31": {
@@ -504,11 +501,9 @@
         "Net Income": 32763271000.0,
         "Minority Interests": -27004000.0,
         "Net Income Including Noncontrolling Interests": 32790275000.0,
-        "Net Income From Tax Loss Carryforward": NaN,
         "Net Income Continuous Operations": 32790275000.0,
         "Tax Provision": 23411656000.0,
         "Pretax Income": 56201931000.0,
-        "Other Non Operating Income Expenses": NaN,
         "Special Income Charges": -11009228000.0,
         "Other Special Charges": 7016158000.0,
         "Impairment Of Capital Assets": 3993070000.0,
@@ -527,7 +522,6 @@
         "Salaries And Wages": 86380295000.0,
         "Total Revenue": 292497269000.0,
         "Operating Revenue": 292497269000.0,
-        "Professional Expense And Contract Services Expense": NaN,
         "Other Non Interest Expense": 58803823000.0
     },
     "2024-03-31": {
@@ -553,11 +547,9 @@
         "Net Income": 46466832000.0,
         "Minority Interests": -48934000.0,
         "Net Income Including Noncontrolling Interests": 46515766000.0,
-        "Net Income From Tax Loss Carryforward": NaN,
         "Net Income Continuous Operations": 46515766000.0,
         "Tax Provision": 25879647000.0,
         "Pretax Income": 72395413000.0,
-        "Other Non Operating Income Expenses": NaN,
         "Special Income Charges": 201796000.0,
         "Other Special Charges": -201796000.0,
         "Impairment Of Capital Assets": NaN,
@@ -576,7 +568,6 @@
         "Salaries And Wages": 59486605000.0,
         "Total Revenue": 217559301000.0,
         "Operating Revenue": 217559301000.0,
-        "Professional Expense And Contract Services Expense": NaN,
         "Other Non Interest Expense": 53302215000.0
     },
     "2024-06-30": {
@@ -602,11 +593,9 @@
         "Net Income": 17079147000.0,
         "Minority Interests": -9394000.0,
         "Net Income Including Noncontrolling Interests": 17088541000.0,
-        "Net Income From Tax Loss Carryforward": NaN,
         "Net Income Continuous Operations": 17088541000.0,
         "Tax Provision": 13808406000.0,
         "Pretax Income": 30896947000.0,
-        "Other Non Operating Income Expenses": NaN,
         "Special Income Charges": 41886000.0,
         "Other Special Charges": -41886000.0,
         "Impairment Of Capital Assets": 0.0,
@@ -625,7 +614,6 @@
         "Salaries And Wages": 60592729000.0,
         "Total Revenue": 174743777000.0,
         "Operating Revenue": 174743777000.0,
-        "Professional Expense And Contract Services Expense": NaN,
         "Other Non Interest Expense": 41285769000.0
     },
     "2024-09-30": {
@@ -651,11 +639,9 @@
         "Net Income": 8876840000.0,
         "Minority Interests": 1680000.0,
         "Net Income Including Noncontrolling Interests": 8875160000.0,
-        "Net Income From Tax Loss Carryforward": NaN,
         "Net Income Continuous Operations": 8875160000.0,
         "Tax Provision": 1854759000.0,
         "Pretax Income": 10729919000.0,
-        "Other Non Operating Income Expenses": NaN,
         "Special Income Charges": -350846000.0,
         "Other Special Charges": 47015000.0,
         "Impairment Of Capital Assets": 303831000.0,
@@ -674,7 +660,6 @@
         "Salaries And Wages": 69068075000.0,
         "Total Revenue": 161312648000.0,
         "Operating Revenue": 161312648000.0,
-        "Professional Expense And Contract Services Expense": NaN,
         "Other Non Interest Expense": 25130618000.0
     }
 }

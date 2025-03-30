@@ -314,9 +314,6 @@
         "Reconciled Cost Of Revenue": 437397000.0,
         "EBITDA": 1320164000.0,
         "EBIT": 1320164000.0,
-        "Net Interest Income": NaN,
-        "Interest Expense": NaN,
-        "Interest Income": NaN,
         "Normalized Income": 1091465000.0,
         "Net Income From Continuing And Discontinued Operation": 1091465000.0,
         "Total Expenses": 1330251000.0,
@@ -346,8 +343,7 @@
         "Gross Profit": 2213018000.0,
         "Cost Of Revenue": 437397000.0,
         "Total Revenue": 2650415000.0,
-        "Operating Revenue": 2513355000.0,
-        "Other Non Interest Expense": NaN
+        "Operating Revenue": 2513355000.0
     },
     "2023-12-31": {
         "Tax Effect Of Unusual Items": 0.0,
@@ -357,9 +353,6 @@
         "Reconciled Cost Of Revenue": 433489000.0,
         "EBITDA": 1023783000.0,
         "EBIT": 1023783000.0,
-        "Net Interest Income": NaN,
-        "Interest Expense": NaN,
-        "Interest Income": NaN,
         "Normalized Income": 878225000.0,
         "Net Income From Continuing And Discontinued Operation": 878225000.0,
         "Total Expenses": 1349479000.0,
@@ -389,8 +382,7 @@
         "Gross Profit": 1939773000.0,
         "Cost Of Revenue": 433489000.0,
         "Total Revenue": 2373262000.0,
-        "Operating Revenue": 2718072000.0,
-        "Other Non Interest Expense": NaN
+        "Operating Revenue": 2718072000.0
     },
     "2024-03-31": {
         "Tax Effect Of Unusual Items": 0.0,
@@ -400,9 +392,6 @@
         "Reconciled Cost Of Revenue": 470246000.0,
         "EBITDA": 1192727000.0,
         "EBIT": 1192727000.0,
-        "Net Interest Income": NaN,
-        "Interest Expense": NaN,
-        "Interest Income": NaN,
         "Normalized Income": 1038138000.0,
         "Net Income From Continuing And Discontinued Operation": 1038138000.0,
         "Total Expenses": 1399732000.0,
@@ -432,8 +421,7 @@
         "Gross Profit": 2122213000.0,
         "Cost Of Revenue": 470246000.0,
         "Total Revenue": 2592459000.0,
-        "Operating Revenue": 2436273000.0,
-        "Other Non Interest Expense": NaN
+        "Operating Revenue": 2436273000.0
     },
     "2024-06-30": {
         "Tax Effect Of Unusual Items": 0.0,
@@ -443,9 +431,6 @@
         "Reconciled Cost Of Revenue": 574299000.0,
         "EBITDA": 1480307000.0,
         "EBIT": 1480307000.0,
-        "Net Interest Income": NaN,
-        "Interest Expense": NaN,
-        "Interest Income": NaN,
         "Normalized Income": 1212190000.0,
         "Net Income From Continuing And Discontinued Operation": 1212190000.0,
         "Total Expenses": 1648679000.0,
@@ -475,8 +460,7 @@
         "Gross Profit": 2554687000.0,
         "Cost Of Revenue": 574299000.0,
         "Total Revenue": 3128986000.0,
-        "Operating Revenue": 2967954000.0,
-        "Other Non Interest Expense": NaN
+        "Operating Revenue": 2967954000.0
     },
     "2024-09-30": {
         "Tax Effect Of Unusual Items": 0.0,
@@ -486,9 +470,6 @@
         "Reconciled Cost Of Revenue": 624880000.0,
         "EBITDA": 1731307000.0,
         "EBIT": 1731307000.0,
-        "Net Interest Income": NaN,
-        "Interest Expense": NaN,
-        "Interest Income": NaN,
         "Normalized Income": 1321062000.0,
         "Net Income From Continuing And Discontinued Operation": 1321062000.0,
         "Total Expenses": 1704825000.0,
@@ -518,7 +499,6 @@
         "Gross Profit": 2811252000.0,
         "Cost Of Revenue": 624880000.0,
         "Total Revenue": 3436132000.0,
-        "Operating Revenue": 3227671000.0,
-        "Other Non Interest Expense": NaN
+        "Operating Revenue": 3227671000.0
     }
 }

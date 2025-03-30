@@ -678,7 +678,6 @@
         "EBIT": NaN,
         "Net Interest Income": NaN,
         "Interest Expense": NaN,
-        "Interest Income": NaN,
         "Normalized Income": NaN,
         "Net Income From Continuing And Discontinued Operation": NaN,
         "Total Expenses": NaN,
@@ -709,14 +708,10 @@
         "General And Administrative Expense": NaN,
         "Other Gand A": NaN,
         "Rent And Landing Fees": NaN,
-        "Salaries And Wages": NaN,
         "Gross Profit": NaN,
         "Cost Of Revenue": NaN,
         "Total Revenue": NaN,
-        "Operating Revenue": NaN,
-        "Occupancy And Equipment": NaN,
-        "Professional Expense And Contract Services Expense": NaN,
-        "Other Non Interest Expense": NaN
+        "Operating Revenue": NaN
     },
     "2023-12-31": {
         "Tax Effect Of Unusual Items": 0.0,
@@ -729,7 +724,6 @@
         "EBIT": 348202000.0,
         "Net Interest Income": -54415000.0,
         "Interest Expense": 54415000.0,
-        "Interest Income": NaN,
         "Normalized Income": 217555000.0,
         "Net Income From Continuing And Discontinued Operation": 217555000.0,
         "Total Expenses": 2295627000.0,
@@ -760,14 +754,10 @@
         "General And Administrative Expense": 101489000.0,
         "Other Gand A": 39386000.0,
         "Rent And Landing Fees": 62103000.0,
-        "Salaries And Wages": NaN,
         "Gross Profit": 739225000.0,
         "Cost Of Revenue": 1904604000.0,
         "Total Revenue": 2643829000.0,
-        "Operating Revenue": 2576893000.0,
-        "Occupancy And Equipment": NaN,
-        "Professional Expense And Contract Services Expense": NaN,
-        "Other Non Interest Expense": NaN
+        "Operating Revenue": 2576893000.0
     },
     "2024-03-31": {
         "Tax Effect Of Unusual Items": 0.0,
@@ -780,7 +770,6 @@
         "EBIT": 434274000.0,
         "Net Interest Income": -60082000.0,
         "Interest Expense": 60082000.0,
-        "Interest Income": NaN,
         "Normalized Income": 288764000.0,
         "Net Income From Continuing And Discontinued Operation": 288764000.0,
         "Total Expenses": 2398319000.0,
@@ -811,14 +800,10 @@
         "General And Administrative Expense": 99287000.0,
         "Other Gand A": 33023000.0,
         "Rent And Landing Fees": 66264000.0,
-        "Salaries And Wages": NaN,
         "Gross Profit": 794205000.0,
         "Cost Of Revenue": 2038388000.0,
         "Total Revenue": 2832593000.0,
-        "Operating Revenue": 2779933000.0,
-        "Occupancy And Equipment": NaN,
-        "Professional Expense And Contract Services Expense": NaN,
-        "Other Non Interest Expense": NaN
+        "Operating Revenue": 2779933000.0
     },
     "2024-06-30": {
         "Tax Effect Of Unusual Items": 0.0,
@@ -831,7 +816,6 @@
         "EBIT": 394412000.0,
         "Net Interest Income": -64341000.0,
         "Interest Expense": 64341000.0,
-        "Interest Income": NaN,
         "Normalized Income": 243800000.0,
         "Net Income From Continuing And Discontinued Operation": 243800000.0,
         "Total Expenses": 2537357000.0,
@@ -862,14 +846,10 @@
         "General And Administrative Expense": 111035000.0,
         "Other Gand A": 41506000.0,
         "Rent And Landing Fees": 69529000.0,
-        "Salaries And Wages": NaN,
         "Gross Profit": 805758000.0,
         "Cost Of Revenue": 2126011000.0,
         "Total Revenue": 2931769000.0,
-        "Operating Revenue": 2917630000.0,
-        "Occupancy And Equipment": NaN,
-        "Professional Expense And Contract Services Expense": NaN,
-        "Other Non Interest Expense": NaN
+        "Operating Revenue": 2917630000.0
     },
     "2024-09-30": {
         "Tax Effect Of Unusual Items": 0.0,
@@ -882,7 +862,6 @@
         "EBIT": 415127000.0,
         "Net Interest Income": -67779000.0,
         "Interest Expense": 67779000.0,
-        "Interest Income": NaN,
         "Normalized Income": 255303000.0,
         "Net Income From Continuing And Discontinued Operation": 255303000.0,
         "Total Expenses": 2693267000.0,
@@ -913,14 +892,10 @@
         "General And Administrative Expense": 114090000.0,
         "Other Gand A": 44211000.0,
         "Rent And Landing Fees": 69879000.0,
-        "Salaries And Wages": NaN,
         "Gross Profit": 864278000.0,
         "Cost Of Revenue": 2244116000.0,
         "Total Revenue": 3108394000.0,
-        "Operating Revenue": 3064971000.0,
-        "Occupancy And Equipment": NaN,
-        "Professional Expense And Contract Services Expense": NaN,
-        "Other Non Interest Expense": NaN
+        "Operating Revenue": 3064971000.0
     },
     "2024-12-31": {
         "Tax Effect Of Unusual Items": 0.0,
@@ -933,7 +908,6 @@
         "EBIT": 423260000.0,
         "Net Interest Income": -81979000.0,
         "Interest Expense": 81979000.0,
-        "Interest Income": NaN,
         "Normalized Income": 270749000.0,
         "Net Income From Continuing And Discontinued Operation": 270749000.0,
         "Total Expenses": 3089091000.0,
@@ -964,13 +938,9 @@
         "General And Administrative Expense": 126365000.0,
         "Other Gand A": 50827000.0,
         "Rent And Landing Fees": 75538000.0,
-        "Salaries And Wages": NaN,
         "Gross Profit": 905202000.0,
         "Cost Of Revenue": 2607149000.0,
         "Total Revenue": 3512351000.0,
-        "Operating Revenue": 3478409000.0,
-        "Occupancy And Equipment": NaN,
-        "Professional Expense And Contract Services Expense": NaN,
-        "Other Non Interest Expense": NaN
+        "Operating Revenue": 3478409000.0
     }
 }

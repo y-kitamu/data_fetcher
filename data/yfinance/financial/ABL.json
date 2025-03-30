@@ -38,10 +38,8 @@
         "Interest Income Non Operating": 421426.0,
         "Operating Income": 3800790.0,
         "Operating Expense": 14965497.0,
-        "Other Operating Expenses": NaN,
         "Depreciation Amortization Depletion Income Statement": 1682054.0,
         "Depreciation And Amortization In Income Statement": 1682054.0,
-        "Depreciation Income Statement": NaN,
         "Selling General And Administration": 13283443.0,
         "Selling And Marketing Expense": 1929944.0,
         "General And Administrative Expense": 11353499.0,
@@ -50,9 +48,7 @@
         "Gross Profit": 18766287.0,
         "Cost Of Revenue": 2720897.0,
         "Total Revenue": 21487184.0,
-        "Operating Revenue": 21487184.0,
-        "Loss Adjustment Expense": NaN,
-        "Net Policyholder Benefits And Claims": NaN
+        "Operating Revenue": 21487184.0
     },
     "2023-12-31": {
         "Tax Effect Of Unusual Items": -477961.958944,
@@ -93,10 +89,8 @@
         "Interest Income Non Operating": 523481.0,
         "Operating Income": 3162206.0,
         "Operating Expense": 18870871.0,
-        "Other Operating Expenses": NaN,
         "Depreciation Amortization Depletion Income Statement": 1712934.0,
         "Depreciation And Amortization In Income Statement": 1712934.0,
-        "Depreciation Income Statement": NaN,
         "Selling General And Administration": 17157937.0,
         "Selling And Marketing Expense": 1788748.0,
         "General And Administrative Expense": 15369189.0,
@@ -105,9 +99,7 @@
         "Gross Profit": 22033077.0,
         "Cost Of Revenue": 1662470.0,
         "Total Revenue": 23695547.0,
-        "Operating Revenue": 1928621.0,
-        "Loss Adjustment Expense": NaN,
-        "Net Policyholder Benefits And Claims": NaN
+        "Operating Revenue": 1928621.0
     },
     "2023-09-30": {
         "Tax Effect Of Unusual Items": 176105.37,
@@ -148,10 +140,8 @@
         "Interest Income Non Operating": 63826.0,
         "Operating Income": 4518015.0,
         "Operating Expense": 13237958.0,
-        "Other Operating Expenses": NaN,
         "Depreciation Amortization Depletion Income Statement": 1694853.0,
         "Depreciation And Amortization In Income Statement": 1694853.0,
-        "Depreciation Income Statement": NaN,
         "Selling General And Administration": 11543105.0,
         "Selling And Marketing Expense": 1704154.0,
         "General And Administrative Expense": 9838951.0,
@@ -160,9 +150,7 @@
         "Gross Profit": 17755973.0,
         "Cost Of Revenue": 3364957.0,
         "Total Revenue": 21120930.0,
-        "Operating Revenue": 21120930.0,
-        "Loss Adjustment Expense": NaN,
-        "Net Policyholder Benefits And Claims": NaN
+        "Operating Revenue": 21120930.0
     },
     "2023-06-30": {
         "Tax Effect Of Unusual Items": NaN,
@@ -367,10 +355,8 @@
         "Interest Income Non Operating": 639906.0,
         "Operating Income": 7475971.0,
         "Operating Expense": 18856597.0,
-        "Other Operating Expenses": NaN,
         "Depreciation Amortization Depletion Income Statement": 1750452.0,
         "Depreciation And Amortization In Income Statement": 1750452.0,
-        "Depreciation Income Statement": NaN,
         "Selling General And Administration": 17106145.0,
         "Selling And Marketing Expense": 2552801.0,
         "General And Administrative Expense": 14553344.0,
@@ -379,9 +365,7 @@
         "Gross Profit": 26332568.0,
         "Cost Of Revenue": 2743534.0,
         "Total Revenue": 29076102.0,
-        "Operating Revenue": 29076102.0,
-        "Loss Adjustment Expense": NaN,
-        "Net Policyholder Benefits And Claims": NaN
+        "Operating Revenue": 29076102.0
     },
     "2024-09-30": {
         "Tax Effect Of Unusual Items": -381287.7,
@@ -422,10 +406,8 @@
         "Interest Income Non Operating": 609496.0,
         "Operating Income": 6556531.0,
         "Operating Expense": 19403979.0,
-        "Other Operating Expenses": NaN,
         "Depreciation Amortization Depletion Income Statement": 1745279.0,
         "Depreciation And Amortization In Income Statement": 1745279.0,
-        "Depreciation Income Statement": NaN,
         "Selling General And Administration": 17658700.0,
         "Selling And Marketing Expense": 2169197.0,
         "General And Administrative Expense": 15489503.0,
@@ -434,8 +416,6 @@
         "Gross Profit": 25960510.0,
         "Cost Of Revenue": 2187981.0,
         "Total Revenue": 28148491.0,
-        "Operating Revenue": 28148491.0,
-        "Loss Adjustment Expense": NaN,
-        "Net Policyholder Benefits And Claims": NaN
+        "Operating Revenue": 28148491.0
     }
 }
