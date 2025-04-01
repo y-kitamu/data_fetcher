@@ -1009,6 +1009,7 @@ CRVS,CORVUS PHARMACEU,コーバス・ファーマシューティカルズ,NASDAQ
 CRWD,CROWDSTRIKE HLD,クラウドストライク,NASDAQ,ソフトウェア・サービス,○
 CRWL,GNS 2X LONG CRWD,GraniteShares2倍ロングCRWDデイリーETF,NASDAQ,その他,○
 CRWS,CROWN CRAFTS INC,クラウン・クラフツ,NASDAQ,その他製造,○
+CRWV,COREWEAVE,コアウィーブ,NASDAQ,ソフトウェア・サービス,○
 CSAN,COSAN SA,コサン SA,NYSE,その他,○
 CSBR,CHAMPIONS ONCLGY,チャンピオンズ・オンコロジー,NASDAQ,医薬品（バイオテクノロジー）,○
 CSCI,COSCIENS BIOPHAR,コンサインズ・バイオファーマ,NASDAQ,医薬品（バイオテクノロジー）,○
@@ -2200,7 +2201,6 @@ ITRN,ITURAN LC CONTRL,イツーラン・ロケーション・アンド・コン�
 ITT,ITT INC,ITT,NYSE,機械,○
 ITUB,ITAU UNIBANCO,イタウ・ウニバンコ・ホールディング,NYSE,金融（銀行）,○
 ITW,ILLINOIS TOOL,ITWイリノイ・ツール・ワークス,NYSE,その他製造,○
-IVAC,INTEVAC INC,インテバック,NASDAQ,その他製造,○
 IVOG,VA SP M-CAP400 G,バンガード・S&Pミッドキャップ400グロースETF,NYSE,その他,○
 IVOO,VA SP M-CAP400,バンガード・S&Pミッドキャップ400 ETF,NYSE,その他,○
 IVOV,VA SP M-CAP400 V,バンガード・S&Pミッドキャップ400バリューETF,NYSE,その他,○
@@ -2258,6 +2258,7 @@ JNUG,DRX JR GOLD BL2X,Direxion デイリー ジュニア・ゴールド・マイ
 JOBY,JOBY AVIATION,ジョビー・アビエーション,NYSE,その他,○
 JOE,THE ST JOE CMPNY,セント・ジョー,NYSE,その他,○
 JOUT,JOHNSON OUTDOOR,ジョンソン・アウトドアーズ,NASDAQ,その他製造,○
+JOYY,JOYY INC,ジェイオーワイワイ,NASDAQ,ネットワーク,○
 JPM,JP MORGAN CHASE,JPモルガン・チェース,NYSE,金融（銀行）,○
 JPST,JPM ULST INC ETF,JPモルガン・ウルトラショート・インカムETF,NYSE,その他,○
 JRSH,JERASH HOLDINGS,ジェラシュ・ホールディングスUS,NASDAQ,その他製造,○
@@ -2452,7 +2453,6 @@ LITM,SNOW LAKE RESRCS,スノー・レーク・リソーシズ,NASDAQ,その他,�
 LIVE,LIVE VENTURES,ライブ・ベンチャーズ,NASDAQ,ソフトウェア・サービス,○
 LIVN,LIVANOVA PLC,リワノワ,NASDAQ,ヘルスケア,○
 LIXT,LIXTE BIOTECH HD,リクステ・バイオテクノロジー・ホールディングス,NASDAQ,ヘルスケア,○
-LKCO,LUOKUNG TECHNO,ルオカン・テクノロジー,NASDAQ,ソフトウェア・サービス,○
 LKFN,LAKELAND FIN CO,レイクランド・ファイナンシャル,NASDAQ,金融（銀行）,○
 LKQ,LKQ CORP,LKQ,NASDAQ,自動車,○
 LLY,ELI LILLY & CO.,イーライリリー,NYSE,医薬品,○
@@ -2600,7 +2600,6 @@ MDU,MDU RESOURCES,MDUリソーシズ・グループ,NYSE,その他,○
 MDWD,MEDIWOUND LTD,メディウーンド,NASDAQ,医薬品,○
 MDXG,MIMEDX GROUP INC,ミメディックス・グループ,NASDAQ,医薬品（バイオテクノロジー）,○
 MDXH,MDXHEALTH SA,MDxヘルス,NASDAQ,ヘルスケア,○
-ME,23ANDME HOLDING,23アンドミー・ホールディング,NASDAQ,ヘルスケア,○
 MEC,MAYVILLE ENGNRNG,メイビル・エンジニアリング・カンパニー,NYSE,その他製造,○
 MED,MEDIFAST INC,メディファスト,NYSE,ヘルスケア,○
 MEDP,MEDPACE HOLDINGS,メドペース・ホールディングス,NASDAQ,ヘルスケア,○
@@ -3682,7 +3681,7 @@ SHIP,SEANERGY MARTIME,シナジー・マリタイム・ホールディングス,
 SHLD,GLX DF TECH ETF,グローバルX 防衛テック ETF,NYSE,その他,○
 SHLS,SHOALS TECHNO,ショールズ・テクノロジーズ,NASDAQ,電力,○
 SHOO,STEVEN MADDEN,スティーブン・マッデン,NASDAQ,フットウエア,○
-SHOP,SHOPIFY,ショッピファイ,NYSE,ネットワーク,○
+SHOP,SHOPIFY,ショッピファイ,NASDAQ,ネットワーク,○
 SHOT,SAFETY SHOT,セーフティ・ショット,NASDAQ,医薬品,○
 SHV,ISHARES SHORT TR,iシェアーズ 米国短期国債 ETF,NASDAQ,その他,○
 SHW,SHERWIN WILLIAMS,シャーウィン・ウィリアムズ,NYSE,専門店,○
@@ -4631,7 +4630,6 @@ YSG,YATSEN HOLDING,ヤッセン・ホールディングス,NYSE,小売,○
 YTRA,YATRA ONLINE,ヤトラ・オンライン,NASDAQ,ソフトウェア・サービス,○
 YUM,YUM BRANDS INC,ヤム・ブランズ,NYSE,外食,○
 YUMC,YUM CHINA HLD,ヤム・チャイナ,NYSE,外食,○
-YY,JOYY INC,ジェイオーワイワイ,NASDAQ,ネットワーク,○
 YYY,AMPLIFY H INCOME,アンプリファイ・ハイ・インカム・ETF,NYSE,その他,○
 Z,ZILLOW GROUP C,ジロー グループ クラスC,NASDAQ,その他,○
 ZBH,ZIMMER BIOMET,ジンマー・バイオメット・ホールディングス,NYSE,その他製造,○
