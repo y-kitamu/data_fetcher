@@ -1288,7 +1288,6 @@ EDBL,EDIBLE GARDEN AG,エディブル・ガーデン,NASDAQ,食品,○
 EDC,DRX DL EMGS BL3X,Direxion デイリー 新興国株 ブル3倍 ETF,NYSE,その他,○
 EDIT,EDITAS MEDICINE,エディタス・メディシン,NASDAQ,医薬品（バイオテクノロジー）,○
 EDN,EMPRESA DISTRIBU,エンプレサ・ディストリブイドラ・イ・コメルシアリザドーラ・ノルテ,NYSE,電力,○
-EDOC,GLX TELEMEDICINE,グローバルX e ドック (遠隔医療&デジタルヘルス) ETF,NASDAQ,その他,○
 EDRY,EURODRY LTD,ユ―ロドライ,NASDAQ,運輸,○
 EDSA,EDESA BIOTECH,エデサ・バイオテック,NASDAQ,医薬品（バイオテクノロジー）,○
 EDTK,SKILL CRAFTSMAN,スキルフル・クラフツマン・エデュケーション・テクノロジー,NASDAQ,ソフトウェア・サービス,○
@@ -1499,7 +1498,6 @@ FBIO,FORTRESS BIOTECH,フォートレス・バイオテック,NASDAQ,医薬品,�
 FBIZ,FIRST BSNESS FIN,ファーストビジネス・ファイナンシャル・サービシズ,NASDAQ,金融（銀行）,○
 FBK,FB FINANCIAL,FBファイナンシャル,NYSE,金融（銀行）,○
 FBL,GNS META BL2X,グラナイトシェアーズ2倍ロングMETAデイリーETF,NASDAQ,その他,○
-FBMS,FIRST BANCSHARES,ファースト・バンクシェアーズ,NYSE,金融（銀行）,○
 FBNC,FIRST BANCORP,ファースト・バンコープ,NASDAQ,金融（銀行）,○
 FBP,FIRST BANCORP,ファースト・バンコープ,NYSE,金融（銀行）,○
 FBRX,FORTE BIOSCIENCE,フォルテ・バイオサイエンシズ,NASDAQ,医薬品（バイオテクノロジー）,○
@@ -1870,8 +1868,8 @@ GWH,ESS TECH INC,ESSテック,NYSE,その他製造,○
 GWRE,GUIDEWIRE SOFT,ガイドワイア・ソフトウェア,NYSE,ソフトウェア・サービス,○
 GWRS,GLOB WATER RSCES,グローバル・ウォーター・リソーシズ,NASDAQ,その他,○
 GWW,WW GRAINGER INC,W・W・グレインジャー,NYSE,機械,○
+GXDW,GLX DR THMA ETF,グローバルX マルチテーマ成長株 ETF,NASDAQ,その他,○
 GXO,GXO LOGISTICS,GXOロジスティクス,NYSE,運輸,○
-GXTG,GLX THMA GRW ETF,グローバルX マルチテーマ成長株 ETF,NASDAQ,その他,○
 GYRE,GYRE THERAPEUTIC,ジャイア・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 H,HYATT HOTELS A,ハイアット・ホテルズ　クラスA,NYSE,ホテル,○
 HACK,APLFY CYBER ETF,アンプリファイ・サイバー・セキュリティー・ETF,NYSE,その他,○
@@ -1905,6 +1903,7 @@ HDB,HDFC BANK LTD,HDFCバンク,NYSE,金融（銀行）,○
 HDSN,HUDSON TECHNOLOG,ハドソン・テクノロジーズ,NASDAQ,その他製造,○
 HDV,ISHARES HIGH DIV,iシェアーズ　コア米国高配当株 ETF,NYSE,その他,○
 HE,HAWAIIAN ELECTRI,ハワイアン・エレクトリック・インダストリーズ,NYSE,コングロマリット,○
+HEAL,GLX HEALTH TECH,グローバルX ヘルステック ETF,NASDAQ,その他,○
 HEDJ,WT EUR HEDGED EQ,ウィズダムツリー  欧州株米ドルヘッジ付ファンド,NYSE,その他,○
 HEES,H&E EQUIPMENT,H&Eエクイップメント・サービシズ,NASDAQ,ソフトウェア・サービス,○
 HEI,HEICO CORP,ハイコ,NYSE,その他製造,○
@@ -3324,7 +3323,6 @@ PTLO,PORTILLOS INC,ポーティロス,NASDAQ,外食,○
 PTN,PALATIN TECHNLGS,パラティン・テクノロジーズ,NYSE,医薬品（バイオテクノロジー）,○
 PTON,PELOTON INTERACT,ペロトン・インタラクティブ,NASDAQ,ヘルスケア,○
 PTPI,PETROS PHARMA,ペトロス・ファーマシューティカルズ,NASDAQ,医薬品,○
-PTVE,PACTIV EVERGREEN,パクティブ・エバーグリーン,NASDAQ,その他,○
 PUBM,PUBMATIC INC,パブティック,NASDAQ,ソフトウェア・サービス,○
 PUK,PRUDENTIAL PLC,プルデンシャル,NYSE,金融(保険),○
 PULM,PULMATRIX INC,プルマトリックス,NASDAQ,医薬品（バイオテクノロジー）,○
@@ -3587,7 +3585,6 @@ SAND,SANDSTORM GOLD,サンドストーム・ゴールド,NYSE,その他,○
 SANM,SANMINA CORP,サンミナ,NASDAQ,その他製造,○
 SANW,S&W SEED CO,S&Wシード,NASDAQ,食品,○
 SAP,SAP SE(ADR),エスエイピー,NYSE,ソフトウェア・サービス,○
-SASR,SANDY SPRING BNC,サンディ・スプリング・バンコープ,NASDAQ,金融（銀行）,○
 SATL,SATELLOGIC INC,サテロジック,NASDAQ,通信サービス,○
 SATS,ECHOSTAR CORP,エコスター,NASDAQ,通信機器,○
 SAVA,CASSAVA SCIENCES,キャッサバ・サイエンシズ,NASDAQ,医薬品,○
@@ -3603,7 +3600,6 @@ SBLK,STAR BULK CRRIER,スター・バルク・キャリアーズ,NASDAQ,運輸,�
 SBS,CIA SANEAMENTO B,サンパウロ州基礎衛生公社,NYSE,その他,○
 SBSI,SOUTHSIDE BANC,サウスサイド・バンクシェアーズ,NYSE,金融（銀行）,○
 SBSW,SIBANYESTILL ADR,シバンエ・スティルウォーター,NYSE,その他,○
-SBT,STERLING BANCORP,スターリング・バンコープ,NASDAQ,金融（銀行）,○
 SBUX,STARBUCKS COFFEE,スターバックス,NASDAQ,外食,○
 SCCO,SOUTHERN COPPER,サザン・コッパー,NYSE,その他,○
 SCHL,SCHOLASTIC CORP,スコラスティック,NASDAQ,その他,○
@@ -4286,7 +4282,6 @@ VANI,VIVANI MEDICAL,ビバニ・メディカル,NASDAQ,医薬品,○
 VATE,INNOVATE,イノベート,NYSE,通信サービス,○
 VAW,VA MATERIALS,バンガード・米国素材セクターETF,NYSE,その他,○
 VB,VANGUARD SML-CAP,バンガード・スモールキャップETF,NYSE,その他,○
-VBFC,VILLAGE BANK,ビレッジ・バンク・アンド・トラスト・ファイナンシャル,NASDAQ,金融（銀行）,○
 VBK,VA S-CAP GROWTH,バンガード・米国スモールキャップ・グロースETF,NYSE,その他,○
 VBR,VA S-CAP VALUE,バンガード・米国スモールキャップ・バリューETF,NYSE,その他,○
 VBTX,VERITEX HOLDINGS,ベリテックス・ホールディングス,NASDAQ,金融（銀行）,○
@@ -4378,7 +4373,6 @@ VOOV,VA SP500 VALUE,バンガード・S&P500バリューETF,NYSE,その他,○
 VOR,VOR BIOPHARMA,ボー・バイオファーマ,NASDAQ,医薬品,○
 VOT,VA M-CAP GROWTH,バンガード・米国ミッドキャップ・グロースETF,NYSE,その他,○
 VOX,VA COMMUNI SERVE,バンガード・米国通信サービス・セクターETF,NYSE,その他,○
-VOXX,VOXX INTL CORP,VOXXインターナショナル,NASDAQ,その他製造,○
 VOYA,VOYA FINANCIAL,ボヤ・ファイナンシャル,NYSE,金融(保険),○
 VPG,VISHAY PRECISION,ビシェイ・プレシジョン・グループ,NYSE,その他製造,○
 VPL,VA FTSE PACIFIC,バンガード・FTSE・パシフィックETF,NYSE,その他,○
@@ -4519,7 +4513,6 @@ WMT,WALMART,ウォルマート,NYSE,小売,○
 WNC,WABASH NATIONAL,ワバシュ・ナショナル,NYSE,その他製造,○
 WNEB,WEST NEW ENGLAND,ウエスタン・ニュー・イングランド・バンコープ,NASDAQ,金融（銀行）,○
 WNS,WNS HOLDINGS LTD,WNSホールディングス,NYSE,情報処理サービス,○
-WNW,MEIWU TECHNOLOGY,メイウー・テクノロジー,NASDAQ,小売,○
 WOLF,WOLFSPEED,ウルフスピード,NYSE,半導体,○
 WOOD,ISHARES T&F,iシェアーズ グローバル・ティンバー＆フォレストリー ETF,NASDAQ,その他,○
 WOOF,PETCO HEALTH,ペトコ・ヘルス・アンド・ウェルネス・カンパニー,NASDAQ,医療サービス,○
