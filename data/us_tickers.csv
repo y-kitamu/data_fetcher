@@ -277,7 +277,6 @@ APPN,APPIAN CORP,アピアン・コーポレーション,NASDAQ,ソフトウェ�
 APPS,DIGITAL TURBINE,デジタル・タービン,NASDAQ,ソフトウェア・サービス,○
 APRE,APREA THERAPEU,アプレア・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 APT,ALPHA PRO TECH,アルファ・プロ・テック,NYSE,その他製造,○
-APTO,APTOSE BIOSCNCS,アポトース・バイオサイエンシズ,NASDAQ,医薬品（バイオテクノロジー）,○
 APTV,APTIV HOLDINGS,アプティブ・ホールディングス,NYSE,その他製造,○
 APVO,APTEVO THERAPEU,アプテボ・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 APYX,APYX MDICAL CORP,エイピックス・メディカル,NASDAQ,ヘルスケア,○
@@ -1187,7 +1186,6 @@ DLPN,DOLPHIN ENTERT,ドルフィン・エンターテイメント,NASDAQ,その�
 DLTH,DULUTH HOLDINGS,ダルース・ホールディングス,NASDAQ,小売,○
 DLTR,DOLLAR TREE INC,ダラー・ツリー,NASDAQ,小売,○
 DLX,DELUXE CORP,デラックス,NYSE,その他,○
-DM,DESKTOP METAL,デスクトップ・メタル,NYSE,コンピュータ,○
 DMRC,DIGIMARC CORP,デジマーク,NASDAQ,ソフトウェア・サービス,○
 DNA,GINKGO BIOWORKS,ギンコ・バイオワークス・ホールディングス,NYSE,ヘルスケア,○
 DNB,DUN BRADSTREET,ダン・アンド・ブラッドストリート・ホールディングス,NYSE,情報処理サービス,○
@@ -2190,7 +2188,6 @@ ISRG,INTUITIVE SURGIC,インテュイティブ・サージカル,NASDAQ,医療�
 ISSC,INNVTVE SOL SPRT,イノベイティブ・ソリューションズ＆サポート,NASDAQ,その他,○
 ISTR,INVESTAR HLDNG,インベスター・ホールディング,NASDAQ,金融（銀行）,○
 IT,GARTNER INC,ガートナー,NYSE,ソフトウェア・サービス,○
-ITCI,INTRA-CELL THERP,イントラセルラー・セラピーズ,NASDAQ,医薬品（バイオテクノロジー）,○
 ITGR,INTEGER HOLDINGS,インテジャー・ホールディングス,NYSE,ヘルスケア,○
 ITIC,INVESTORS TITLE,インベスターズ・タイトル,NASDAQ,金融(保険),○
 ITOS,ITEOS THERAPEU,アイテオス・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
@@ -3004,7 +3001,7 @@ OFG,OFG BANCORP,OFGバンコープ,NYSE,金融（銀行）,○
 OFIX,ORTHOFIX MEDICAL,オーソフィックス・メディカル,NASDAQ,ヘルスケア,○
 OFLX,OMEGA FLEX INC,オメガ・フレックス,NASDAQ,その他製造,○
 OGE,OGE ENERGY CORP,OGEエナジー,NYSE,その他製造,○
-OGI,ORGANIGRAM HLD,オーガニグラム・ホールディングス,NASDAQ,医薬品,○
+OGI,ORGANIGRAM GLBL,オーガニグラム・グローバル,NASDAQ,医薬品,○
 OGN,ORGANON,オルガノン,NYSE,医薬品,○
 OGS,ONE GAS INC,ONEガス,NYSE,ガス・パイプライン,○
 OI,OWENS-ILLINOIS,オーウェンズ・イリノイ,NYSE,その他製造,○
@@ -3971,7 +3968,6 @@ TBBK,THE BANCORP INC,バンコープ,NASDAQ,金融（銀行）,○
 TBCH,TURTLE BEACH,タートル・ビーチ,NASDAQ,周辺機器,○
 TBI,TRUEBLUE INC,トゥルーブルー,NYSE,ソフトウェア・サービス,○
 TBLA,TABOOLA COM LTD,タブーラ・ドットコム,NASDAQ,ソフトウェア・サービス,○
-TBNK,TERRITORIAL BANC,テリトリアル・バンコープ,NASDAQ,金融（銀行）,○
 TBPH,THERAVANCE BIO,テラバンス・バイオファーマ,NASDAQ,医薬品（バイオテクノロジー）,○
 TBRG,TRUBRIDGE INC,トゥルーブリッジ,NASDAQ,ソフトウェア・サービス,○
 TC,TOKEN CAT,トークン・キャット,NASDAQ,ソフトウェア・サービス,○
@@ -4513,6 +4509,7 @@ WMT,WALMART,ウォルマート,NYSE,小売,○
 WNC,WABASH NATIONAL,ワバシュ・ナショナル,NYSE,その他製造,○
 WNEB,WEST NEW ENGLAND,ウエスタン・ニュー・イングランド・バンコープ,NASDAQ,金融（銀行）,○
 WNS,WNS HOLDINGS LTD,WNSホールディングス,NYSE,情報処理サービス,○
+WNW,MEIWU TECHNOLOGY,メイウー・テクノロジー,NASDAQ,小売,○
 WOLF,WOLFSPEED,ウルフスピード,NYSE,半導体,○
 WOOD,ISHARES T&F,iシェアーズ グローバル・ティンバー＆フォレストリー ETF,NASDAQ,その他,○
 WOOF,PETCO HEALTH,ペトコ・ヘルス・アンド・ウェルネス・カンパニー,NASDAQ,医療サービス,○
