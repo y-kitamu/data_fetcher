@@ -85,7 +85,6 @@ ADVM,ADVERUM BIOTECH,アドベラム・バイオテクノロジーズ,NASDAQ,医
 ADXN,ADDEX THERAPE,アデックス・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 AEE,AMEREN CORP.,アメレン,NYSE,その他製造,○
 AEG,AEGON LTD,エイゴン,NYSE,金融(保険),○
-AEHL,ANTELOPE ENT,アンテロープ・エンタープライズ・ホールディング,NASDAQ,その他製造,○
 AEHR,AEHR TEST SYSTEM,エア・テスト・システムズ,NASDAQ,半導体,○
 AEI,ALSET INC,アルセット,NASDAQ,その他,○
 AEIS,ADVANCED ENERGY,アドバンストエナジーインダストリーズ,NASDAQ,その他製造,○
@@ -331,6 +330,7 @@ ASND,ASCENDIS PHARMA,アセンディス・ファーマ,NASDAQ,医薬品（バイ
 ASNS,ACTELIS NETWORKS,アクテリス・ネットワークス,NASDAQ,通信機器,○
 ASO,ACADEMY SPRT OUT,アカデミー・スポーツ・アウトドアーズ,NASDAQ,小売,○
 ASPN,ASPEN AEROGELS,アスペン・エアロジェルズ,NYSE,小売,○
+ASPS,ALTISOURCE PFLIO,アルティソース・ポートフォリオ・ソリューションズ,NASDAQ,その他,○
 ASR,GRUPO AEROPRTUAR,グルポ・アエロポルタリオ・デル・スレステ,NYSE,航空,○
 ASRT,ASSERTIO HLD,アサーティオ・ホールディングス,NASDAQ,医薬品（バイオテクノロジー）,○
 ASRV,AMERISER FINANCL,アメリサーブ・ファイナンシャル,NASDAQ,金融（銀行）,○
@@ -1656,7 +1656,6 @@ FTCS,FT CAPIT STR ETF,ファーストトラスト キャピタル ストレン�
 FTDR,FRONTDOOR INC,フロントドア,NASDAQ,その他,○
 FTEK,FUEL TECH INC,フュエル・テック,NASDAQ,ソフトウェア・サービス,○
 FTEL,FITELL CORP,フィテル,NASDAQ,小売,○
-FTFT,FUTURE FINTECH,フューチャー・フィンテック・グループ,NASDAQ,ソフトウェア・サービス,○
 FTGC,FT GBL TAC COMMO,ファーストトラスト グローバル タクティカル コモディティ戦略ファンド,NASDAQ,その他,○
 FTGS,FT GRWTH STR ETF,ファーストトラスト グロース ストレングス ETF,NASDAQ,その他,○
 FTHI,FT BUYINCOME ETF,ファーストトラスト バイライトインカム ETF,NASDAQ,その他,○
@@ -2023,6 +2022,7 @@ HYZD,WM IR HEDGED HYB,ウィズダムツリー 米国ハイイールド社債フ
 HZO,MARINEMAX INC,マリンマックス,NYSE,小売,○
 IAC,IAC INC,IACインコーポレーティッド,NASDAQ,その他,○
 IAG,IAMGOLD CORP,イアムゴールド,NYSE,その他,○
+IAGG,ISRS C IAGG BOND,iシェアーズ・コア 世界総合債券市場 ETF,Cboe,その他,○
 IART,INTEGRA LIFESCIE,インテグラ・ライフサイエンシズ・ホールディングス,NASDAQ,ヘルスケア,○
 IAS,INTEGRAL AD SCNC,インテグラル・アド・サイエンス・ホールディング,NASDAQ,コンピュータ,○
 IAU,ISHARES GOLD,iシェアーズ ゴールド・トラスト,NYSE,その他,○
@@ -2648,6 +2648,7 @@ MKC,MCCORMICK AND CO,マコーミック,NYSE,専門店,○
 MKFG,MARKFORGED HOLD,マークフォージド・ホールディング,NYSE,コンピュータ,○
 MKL,MARKEL GROUP,マーケル・グループ,NYSE,金融(保険),○
 MKSI,MKS INSTRUMENTS,MKSインスツルメンツ,NASDAQ,半導体,○
+MKTW,MARKETWISE,マーケットワイズ,NASDAQ,ソフトウェア・サービス,○
 MKTX,MARKETAXESS HLD,マーケットアクセス・ホールディングス,NASDAQ,金融（証券）,○
 ML,MONEYLION INC,マネーライオン,NYSE,ソフトウェア・サービス,○
 MLAB,MESA LABORTRIES,メサ・ラボラトリーズ,NASDAQ,その他製造,○
@@ -2703,6 +2704,7 @@ MPU,MEGA MATRIX INC,メガ・マトリックス・インク,NYSE,ソフトウェ
 MPWR,MONOLITHIC POWER,モノリシック・パワー・システムズ,NASDAQ,半導体,○
 MPX,MARINE PRODUCTS,マリン・プロダクツ,NYSE,その他製造,○
 MQ,MARKETA INC,マルケタ,NASDAQ,金融(カード),○
+MRAL,GNS 2X LONG MARA,GraniteShares2倍ロングMARAデイリーETF,NASDAQ,その他,○
 MRAM,EVERSPIN TECH,エバースピン・テクノロジー,NASDAQ,コンピュータ,○
 MRBK,MERIDIAN CORP,メリディアン,NASDAQ,金融（銀行）,○
 MRC,MRC GLOBAL INC,MRCグローバル,NYSE,その他製造,○
@@ -2769,6 +2771,7 @@ MUU,DRX MU BL2X,Direxion デイリー MU ブル 2 倍 ETF,NASDAQ,その他,○
 MUX,MCEWEN MINING,マッキュエン・マイニング,NYSE,その他製造,○
 MVBF,MVB FINANCIAL CO,MVBフィナンシャル,NASDAQ,金融（銀行）,○
 MVIS,MICROVISION INC,マイクロビジョン,NASDAQ,その他製造,○
+MVLL,GNS 2X LONG MRVL,GraniteShares2倍ロングMRVLデイリーETF,NASDAQ,その他,○
 MVST,MICROVAST HLD,マイクロヴァスト・ホールディングス,NASDAQ,その他製造,○
 MWA,MUELLER WATER,ミューラー・ウォーター・プロダクツ,NYSE,その他製造,○
 MX,MAGNACHIP SEMICN,マグナチップセミコンダクター,NYSE,半導体,○
