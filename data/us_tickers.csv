@@ -85,6 +85,7 @@ ADVM,ADVERUM BIOTECH,アドベラム・バイオテクノロジーズ,NASDAQ,医
 ADXN,ADDEX THERAPE,アデックス・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 AEE,AMEREN CORP.,アメレン,NYSE,その他製造,○
 AEG,AEGON LTD,エイゴン,NYSE,金融(保険),○
+AEHL,ANTELOPE ENT,アンテロープ・エンタープライズ・ホールディング,NASDAQ,その他製造,○
 AEHR,AEHR TEST SYSTEM,エア・テスト・システムズ,NASDAQ,半導体,○
 AEI,ALSET INC,アルセット,NASDAQ,その他,○
 AEIS,ADVANCED ENERGY,アドバンストエナジーインダストリーズ,NASDAQ,その他製造,○
@@ -1656,6 +1657,7 @@ FTCS,FT CAPIT STR ETF,ファーストトラスト キャピタル ストレン�
 FTDR,FRONTDOOR INC,フロントドア,NASDAQ,その他,○
 FTEK,FUEL TECH INC,フュエル・テック,NASDAQ,ソフトウェア・サービス,○
 FTEL,FITELL CORP,フィテル,NASDAQ,小売,○
+FTFT,FUTURE FINTECH,フューチャー・フィンテック・グループ,NASDAQ,ソフトウェア・サービス,○
 FTGC,FT GBL TAC COMMO,ファーストトラスト グローバル タクティカル コモディティ戦略ファンド,NASDAQ,その他,○
 FTGS,FT GRWTH STR ETF,ファーストトラスト グロース ストレングス ETF,NASDAQ,その他,○
 FTHI,FT BUYINCOME ETF,ファーストトラスト バイライトインカム ETF,NASDAQ,その他,○
@@ -2427,7 +2429,6 @@ LGL,LGL GROUP,LGLグループ,NYSE,その他製造,○
 LGMK,LOGICMARK INC,ロジックマーク,NASDAQ,ソフトウェア・サービス,○
 LGND,LIGAND PHARMA,リガンド・ファーマシューティカルズ,NASDAQ,医薬品（バイオテクノロジー）,○
 LGO,LARGO INC,ラルゴ,NASDAQ,電力,○
-LGTY,LOGILITY SC SOL,ロジリティ・サプライチェーン・ソリューションズ,NASDAQ,ソフトウェア・サービス,○
 LGVN,LONGEVERON INC,ロンジェベロン,NASDAQ,医薬品（バイオテクノロジー）,○
 LH,LABCORP HOLDINGS,ラボコープ・ホールディングス,NYSE,医療サービス,○
 LHX,L3HARRIS TECHNOL,L3ハリス・テクノロジーズ,NYSE,通信機器,○
@@ -3650,7 +3651,6 @@ SG,SWEETGREEN INC,スウィートグリーン,NYSE,外食,○
 SGA,SAGA COMMUNICTNS,サガ・コミュニケーションズ,NASDAQ,エンターテイメント,○
 SGBX,SG HOLDINGS,セーフ・アンド・グリーン・ホールディングス,NASDAQ,その他製造,○
 SGC,SUPEROR GROUP CO,スーペリア・グループ・オブ・カンパニーズ,NASDAQ,その他製造,○
-SGD,SAFE GREEN DEVEL,セーフ・アンド・グリーン・デベロップメント,NASDAQ,その他製造,○
 SGHC,SGHC LTD,SGHC,NYSE,その他,○
 SGHT,SIGHT SCIENCES,サイト・サイエンシズ,NASDAQ,ヘルスケア,○
 SGI,SOMNIGROUP INTER,ソムニグループ・インターナショナル,NYSE,その他製造,○
@@ -4096,6 +4096,7 @@ TPL,TEXAS PACI LAND,テキサス・パシフィック・ランド,NYSE,石油,�
 TPR,TAPESTRY,タペストリー,NYSE,その他製造,○
 TPST,TEMPEST THERAPEU,テンペスト・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 TQQQ,PRO ULTRAPRO QQQ,プロシェアーズ・ウルトラプロQQQ,NASDAQ,その他,○
+TR,TOOTSIE ROLL,トッツィー・ロール・インダストリーズ,NYSE,食品,○
 TRAK,REPOSITRAK,リポジトラック,NYSE,ソフトウェア・サービス,○
 TRAW,TRAWS PHARMA INC,トラウズ・ファーマ,NASDAQ,医薬品（バイオテクノロジー）,○
 TRC,TEJON RANCH CO,テジョン・ランチ,NYSE,その他,○
@@ -4389,7 +4390,6 @@ VRSK,VERISK ANALYTICS,ベリスク・アナリティックス,NASDAQ,金融コ�
 VRSN,VERISIGN INC.,ベリサイン,NASDAQ,ネットワークセキュリティー,○
 VRT,VERTIV HOLDINGS,バーティブ・ホールディングス,NYSE,ソフトウェア・サービス,○
 VRTS,VIRT INV PARTNER,バータス・インベストメント・パートナーズ,NYSE,その他,○
-VRTX,VERTEX PHARMA,バーテックス・ファーマシューティカルズ,NASDAQ,医薬品,○
 VS,VERSUS SYSTEMS,バーサス・システムズ,NASDAQ,ソフトウェア・サービス,○
 VSAT,VIASAT INC,ビアサット,NASDAQ,通信機器,○
 VSCO,VICTORIAS SECRET,ヴィクトリアズ・シークレット,NYSE,専門店,○
