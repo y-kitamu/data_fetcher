@@ -30,7 +30,6 @@ AC,ASSOCIAT CAPITAL,アソシエイテッド・キャピタル・グループ,NY
 ACA,ARCOSA INC,アルコサ,NYSE,その他製造,○
 ACAD,ACADIA PHARMA,アカディア・ファーマシューティカルズ,NASDAQ,医薬品（バイオテクノロジー）,○
 ACB,AURORA CANNABIS,オーロラ・カンナビス,NASDAQ,医薬品,○
-ACCD,ACCOLADE INC,アコレイド,NASDAQ,ヘルスケア,○
 ACCO,ACCO BRANDS CORP,エッコー・ブランズ,NYSE,専門店,○
 ACCS,ACCESS NEWSWIRE,アクセス・ニュースワイヤー,NYSE,情報処理サービス,○
 ACDC,PROFRAC HLD,プロフラック,NASDAQ,石油,○
@@ -1630,7 +1629,7 @@ FPX,FT US EQTY OPPTY,ファーストトラスト 米国株式 オポチュニテ
 FPXI,FT INTL EQ OPPTY,ファーストトラスト インターナショナル株式 オポチュニティーズ ETF,NASDAQ,その他,○
 FRAF,FRANKLIN FIN SRV,フランクリン・ファイナンシャル・サービシズ,NASDAQ,金融（銀行）,○
 FRBA,FIRST BANK,ファースト・バンク,NASDAQ,金融（銀行）,○
-FRD,FRIEDMAN INDSTRS,フリードマン・インダストリーズ,NYSE,その他,○
+FRD,FRIEDMAN INDSTRS,フリードマン・インダストリーズ,NASDAQ,その他,○
 FRGE,FORGE GLOBAL HLD,フォージ・グローバル・ホールディングス,NYSE,その他,○
 FRHC,FREEDOM HOLDING,フリーダム・ホールディング,NASDAQ,金融（証券）,○
 FRI,FT SP REIT INDEX,ファーストトラスト S&Pリート指数ファンド,NYSE,その他,○
@@ -3334,7 +3333,6 @@ PWR,QUANTA SERVICES,クアンタ・サービシーズ,NYSE,通信サービス,�
 PX,P10 INC,P10,NYSE,金融（証券）,○
 PXF,INVESCO RAFI DEV,インベスコ  RAFI　先進国市場（米国を除く）ETF,NYSE,その他,○
 PXLW,PIXELWORKS INC,ピクセルワークス,NASDAQ,半導体,○
-PYCR,PAYCOR HCM INC,ペイコーHCM,NASDAQ,ソフトウェア・サービス,○
 PYPD,POLYPID LTD,ポリピッド,NASDAQ,医薬品,○
 PYPL,PAYPAL HOLDINGS,ペイパル,NASDAQ,ソフトウェア・サービス,○
 PYXS,PYXIS ONCOLOGY,ピクシス・オンコロジー,NASDAQ,医薬品（バイオテクノロジー）,○
@@ -3356,7 +3354,6 @@ QLGN,QUALIGEN THERAPE,クアリジェン・セラピューティクス,NASDAQ,�
 QLYS,QUALYS INC,クォリス,NASDAQ,ネットワークセキュリティー,○
 QMCO,QUANTUM CORP,クアンタム,NASDAQ,コンピュータ,○
 QNCX,QUINCE THERA,クインス・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
-QNRX,QUOIN PHARMAC,クオイン・ファーマシューティカルズ,NASDAQ,医薬品（バイオテクノロジー）,○
 QNST,QUINSTREET INC,クインストリート,NASDAQ,ソフトウェア・サービス,○
 QNTM,QUANTUM BIOPHARM,クォンタム・バイオファーマ,NASDAQ,医薬品,○
 QQQ,INVESCO QQQ,インベスコQQQ 信託シリーズ1,NASDAQ,その他,○
@@ -4294,7 +4291,6 @@ VDC,VA CONSUMER STAP,バンガード・米国生活必需品セクターETF,NYSE
 VDE,VA ENERGY,バンガード・米国エネルギー・セクターETF,NYSE,その他,○
 VEA,VA FTSE DVP MKT,バンガード・FTSE先進国市場(除く米国)ETF,NYSE,その他,○
 VECO,VEECO INST,ビーコインスツルメンツ,NASDAQ,半導体,○
-VEEE,TWIN VEE POWER,ツイン・ヴィー・パワーキャッツ,NASDAQ,その他製造,○
 VEEV,VEEVA SYSTEMS A,ヴィーバ・システムズ　クラスA,NYSE,ソフトウェア・サービス,○
 VEL,VELOCITY FINANCL,ベロシティ・ファイナンシャル,NYSE,金融（銀行）,○
 VEON,VEON LTD ADR,ヴェオン,NASDAQ,通信サービス,○
