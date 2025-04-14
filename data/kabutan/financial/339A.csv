@@ -1,6 +1,7 @@
 year,month,duration,annoounce_date,is_prediction,total_revenue,operating_income,ordinary_profit,net_income,eps,divident
 2021,3,12,,False,0,,-168,-167,-20.2,0
 2022,2,11,,False,0,,-152,-73,-7.7,0
+2022,2,12,,False,0,,-152,-73,-7.7,0
 2023,2,12,,False,4780,1190,1071,730,103.3,0
 2023,5,3,,False,1377,382,350,247,35.0,
 2023,8,3,,False,1133,164,143,102,14.4,
@@ -10,4 +11,7 @@ year,month,duration,annoounce_date,is_prediction,total_revenue,operating_income,
 2024,5,3,,False,1544,462,449,322,45.6,
 2024,8,3,,False,1227,192,179,132,18.7,
 2024,11,3,,False,1457,403,387,280,39.6,
+2025,2,3,25/04/14,False,1421,-143,-159,-150,-21.2,
 2025,2,12,25/03/28,True,5625,854,799,576,81.6,0
+2025,2,12,25/04/14,False,5649,914,856,584,82.7,0
+2026,2,12,25/04/14,True,6388,1580,1518,1050,135.0,0
