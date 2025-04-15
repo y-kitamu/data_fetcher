@@ -612,7 +612,7 @@
         "Interest Expense": 0.0,
         "Normalized Income": 110928000.0,
         "Net Income From Continuing And Discontinued Operation": 110928000.0,
-        "Total Expenses": 698822000.0,
+        "Total Expenses": 688097000.0,
         "Diluted Average Shares": 52301676.0,
         "Basic Average Shares": 46189041.0,
         "Diluted EPS": 2.12,
@@ -631,8 +631,8 @@
         "Selling General And Administration": 192728000.0,
         "General And Administrative Expense": 192728000.0,
         "Other Gand A": 192728000.0,
-        "Total Revenue": 838746000.0,
-        "Operating Revenue": 838746000.0
+        "Total Revenue": 828021000.0,
+        "Operating Revenue": 828021000.0
     },
     "2024-03-31": {
         "Tax Effect Of Unusual Items": 0.0,
@@ -705,7 +705,7 @@
         "Interest Expense": NaN,
         "Normalized Income": 159830000.0,
         "Net Income From Continuing And Discontinued Operation": 159830000.0,
-        "Total Expenses": 1025347000.0,
+        "Total Expenses": 1025474000.0,
         "Diluted Average Shares": 52309056.0,
         "Basic Average Shares": 46191601.0,
         "Diluted EPS": 3.06,
@@ -724,8 +724,8 @@
         "Selling General And Administration": 206754000.0,
         "General And Administrative Expense": 206754000.0,
         "Other Gand A": 206754000.0,
-        "Total Revenue": 1226189000.0,
-        "Operating Revenue": 1226189000.0
+        "Total Revenue": 1226316000.0,
+        "Operating Revenue": 1226316000.0
     },
     "2024-12-31": {
         "Tax Effect Of Unusual Items": 0.0,
@@ -736,9 +736,9 @@
         "Interest Expense": NaN,
         "Normalized Income": 152029000.0,
         "Net Income From Continuing And Discontinued Operation": 152029000.0,
-        "Total Expenses": 146767000.0,
-        "Diluted Average Shares": 52310894.0,
-        "Basic Average Shares": 46189060.0,
+        "Total Expenses": 146901000.0,
+        "Diluted Average Shares": 52313436.0,
+        "Basic Average Shares": 46191602.0,
         "Diluted EPS": 2.91,
         "Basic EPS": 3.26,
         "Diluted NI Availto Com Stockholders": 152029000.0,
@@ -755,7 +755,7 @@
         "Selling General And Administration": 201987000.0,
         "General And Administrative Expense": 201987000.0,
         "Other Gand A": 201987000.0,
-        "Total Revenue": 338575000.0,
-        "Operating Revenue": 338575000.0
+        "Total Revenue": 338709000.0,
+        "Operating Revenue": 338709000.0
     }
 }
