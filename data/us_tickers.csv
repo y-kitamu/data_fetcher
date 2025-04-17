@@ -214,7 +214,6 @@ AMP,AMERIPRISE FIN,アメリプライズ・ファイナンシャル,NYSE,金融�
 AMPG,AMPLITECH GROUP,アンプリテック・グループ,NASDAQ,通信機器,○
 AMPH,AMPHASTAR PHARMA,アンファスター・ファーマシューティカルズ,NASDAQ,医薬品,○
 AMPL,AMPLITUDE INC,アンプリチュード,NASDAQ,ソフトウェア・サービス,○
-AMPS,ALTUS POWER INC,アルタス・パワー,NYSE,電力,○
 AMPX,AMPRIUS TECHNOLO,アンプリウス・テクノロジーズ,NYSE,その他製造,○
 AMPY,AMPLIFY ENERGY,アンプリファイ・エナジー,NYSE,石油,○
 AMR,ALPHA METAL RSRC,アルファ・メタラァジカル・リソーシズ,NYSE,その他製造,○
@@ -704,7 +703,6 @@ CAN,CANAAN INC,カナン,NASDAQ,半導体,○
 CANG,CANGO INC,カンゴ,NYSE,その他,○
 CAPR,CAPRICOR THERA,カプリコー・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 CAR,AVIS BUDGET,エイビス・バジェット・グループ ,NASDAQ,運輸,○
-CARA,CARA THERAPEUTCS,カラ・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 CARE,CARTER BANK TRST,カーター・バンク・アンド・トラスト,NASDAQ,金融（銀行）,○
 CARG,CARGURUS INC,カーグルズ,NASDAQ,小売,○
 CARM,CARISMA THERAP,カリスマ・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
@@ -1621,6 +1619,7 @@ FPXI,FT INTL EQ OPPTY,ファーストトラスト インターナショナル株
 FRAF,FRANKLIN FIN SRV,フランクリン・ファイナンシャル・サービシズ,NASDAQ,金融（銀行）,○
 FRBA,FIRST BANK,ファースト・バンク,NASDAQ,金融（銀行）,○
 FRD,FRIEDMAN INDSTRS,フリードマン・インダストリーズ,NASDAQ,その他,○
+FRGE,FORGE GLOBAL HLD,フォージ・グローバル・ホールディングス,NYSE,その他,○
 FRHC,FREEDOM HOLDING,フリーダム・ホールディング,NASDAQ,金融（証券）,○
 FRI,FT SP REIT INDEX,ファーストトラスト S&Pリート指数ファンド,NYSE,その他,○
 FRME,1ST MERCHANTS,ファースト・マーチャンツ,NASDAQ,金融（銀行）,○
@@ -3122,7 +3121,6 @@ PCAR,PACCAR INC,パッカー,NASDAQ,周辺機器,○
 PCB,PCB BANCORP,PCBバンコープ,NASDAQ,金融（銀行）,○
 PCOR,PROCORE TECHNO,プロコア・テクノロジーズ,NYSE,ソフトウェア・サービス,○
 PCRX,PACIRA BIOSCIENC,パシラ・バイオサイエンシズ,NASDAQ,医薬品,○
-PCSA,PROCESSA PHARMA,プロセッサ・ファーマシューティカルズ,NASDAQ,医薬品,○
 PCT,PURECYCLE TECHNO,ピュアサイクル・テクノロジーズ,NASDAQ,その他,○
 PCTY,PAYLOCITY HOLDNG,ペイロシティ・ホールディング,NASDAQ,ソフトウェア・サービス,○
 PCVX,VAXCYTE INC,バックスサイト,NASDAQ,医薬品（バイオテクノロジー）,○
@@ -3907,7 +3905,6 @@ SVRE,SAVERONE 2014,セイバーワン2014,NASDAQ,自動車,○
 SVT,SERVOTRONICS INC,サーボトロニクス,NYSE,その他製造,○
 SW,SMURFIT WESTROCK,スマーフィット・ウェストロック,NYSE,その他製造,○
 SWBI,SMITH AND WESSON,スミス&ウェッソン・ブランズ,NASDAQ,その他製造,○
-SWI,SOLARWINDS CORP,ソーラーウィンズ,NYSE,ソフトウェア・サービス,○
 SWIM,LATHAM GROUP,レイサム・グループ,NASDAQ,その他,○
 SWK,STANLEY BLACK,スタンレー・ブラック＆デッカー,NYSE,その他製造,○
 SWKS,SKYWORKS INC,スカイワークス・ソリューションズ,NASDAQ,半導体製造,○
@@ -3986,7 +3983,6 @@ TERN,TERNS PHARMACEU,ターンズ・ファーマスーティカルス,NASDAQ,医
 TEVA,TEVA PHARM. IND.,テバ・ファーマスーティカル・インダストリーズ,NYSE,医薬品,○
 TEX,TEREX CORP,テレックス,NYSE,機械,○
 TFC,TRUIST FINANCIAL,トゥルーイスト・ファイナンシャル,NYSE,金融（銀行）,○
-TFFP,TFF PHARMACEUTIC,TFFファーマシューティカルズ,NASDAQ,医薬品（バイオテクノロジー）,○
 TFII,TFI INTERNATIONL,TFIインターナショナル,NYSE,運輸,○
 TFIN,TRIUMPH FINANCIA,トライアンフ・フィナンシャル,NASDAQ,金融（銀行）,○
 TFSL,TFS FINANCIAL,TFSファイナンシャル,NASDAQ,金融（銀行）,○
@@ -4140,6 +4136,7 @@ TUR,ISHARES TURKEY,iシェアーズ MSCI トルコ ETF,NASDAQ,その他,○
 TUSK,MAMMOTH ENRG SER,マンモス・エナジー・サービシズ,NASDAQ,石油,○
 TUYA,TUYA INC,ツヤ,NYSE,ソフトウェア・サービス,○
 TV,GRUPO TELEVISA,グルポ・テレビサ,NYSE,通信サービス,○
+TVRD,TVARDI THERAPEU,トバルディ・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 TVTX,TRAVERE THERAPEU,トラウィル・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 TW,TRADEWEB MARKETS,トレードウェブ・マーケッツ,NASDAQ,金融（証券）,○
 TWI,TITAN INTL INC,タイタン・インターナショナル,NYSE,その他製造,○

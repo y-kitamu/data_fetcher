@@ -482,5 +482,11 @@
         "Basic Average Shares": 36362000.0,
         "Diluted EPS": 13.2,
         "Basic EPS": 13.2
+    },
+    "2024-12-31": {
+        "Diluted Average Shares": 36410000.0,
+        "Basic Average Shares": 36362000.0,
+        "Diluted EPS": 6.4,
+        "Basic EPS": 6.4
     }
 }
