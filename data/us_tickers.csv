@@ -557,7 +557,6 @@ BMBL,BUMBLE INC,バンブル,NASDAQ,ソフトウェア・サービス,○
 BMEA,BIOMEA FUSION,バイオメア・フュージョン,NASDAQ,医薬品（バイオテクノロジー）,○
 BMI,BADGER METER INC,バッジャー・メーター,NYSE,その他製造,○
 BMO,BANK OF MONTREAL,バンク・オブ・モントリオール,NYSE,金融（銀行）,○
-BMRA,BIOMERICA INC,バイオメリカ,NASDAQ,ヘルスケア,○
 BMRC,BANK OF MARIN,バンク・オブ・マリン・バンコープ,NASDAQ,金融（銀行）,○
 BMRN,BIOMARIN PHARMAC,バイオマリン・ファーマシューティカル,NASDAQ,医薬品,○
 BMY,BRISTOL-MYERS,ブリストル・マイヤーズ　スクイブ,NYSE,ヘルスケア,○
@@ -776,6 +775,7 @@ CGEN,COMPUGEN LTD,コンピュジェン,NASDAQ,医薬品（バイオテクノロ
 CGNT,COGNYTE SOFTWARE,コグナイト・ソフトウェア,NASDAQ,ソフトウェア・サービス,○
 CGNX,COGNEX,コグネックス,NASDAQ,機械,○
 CGON,CG ONCOLOGY INC,CGオンコロジー,NASDAQ,医薬品（バイオテクノロジー）,○
+CHA,CHAGEE HOLDINGS,チャジー・ホールディングス,NASDAQ,外食,○
 CHAU,DRX CSI 300 BL2X,Direxion デイリー CSI 300 中国A株 ブル2倍 ETF,NYSE,その他,○
 CHCO,CITY HOLDING CO,シティ・ホールディング,NASDAQ,金融（銀行）,○
 CHD,CHURCH AND DWIGH,チャーチ・アンド・ドワイト,NYSE,その他製造,○
@@ -857,7 +857,6 @@ CMPR,CIMPRESS,シンプレス,NASDAQ,ソフトウェア・サービス,○
 CMPS,COMPASS PATHWAYS,コンパス・パスウェイズ,NASDAQ,医薬品,○
 CMPX,COMPASS THERAPE,コンパス・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 CMRE,COSTAMARE INC,コスタマーレ,NYSE,運輸,○
-CMRX,CHIMERIX INC,カイメリックス,NASDAQ,医薬品（バイオテクノロジー）,○
 CMS,CMS ENERGY,CMSエナジー,NYSE,その他製造,○
 CMT,CORE MOLDING TEC,コア・モールディング・テクノロジーズ,NYSE,その他製造,○
 CMTL,COMTECH TELECOM,コムテック・テレコミュニケーションズ,NASDAQ,通信機器,○
@@ -1305,7 +1304,6 @@ EMN,EASTMAN CHEMICAL,イーストマン・ケミカル,NYSE,化学,○
 EMR,EMERSON ELECTRIC,エマソン・エレクトリック,NYSE,その他製造,○
 EMX,EMX ROYALTY CORP,EMXロイヤリティ,NYSE,その他,○
 ENB,ENBRIDGE INC,エンブリッジ,NYSE,ガス・パイプライン,○
-ENFN,ENFUSION INC,エンフュージョン,NYSE,ソフトウェア・サービス,○
 ENFY,ENLIGHTIFY INC,インライティファイ,NYSE,その他製造,○
 ENIC,ENEL CHILE SA,エネル・チリSA,NYSE,電力,○
 ENLV,ENLIVEX THERAPEU,エンライベックス・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
@@ -1546,7 +1544,6 @@ FMNB,FARMERS NTNL BNC,ファーマーズ・ナショナル・バンク,NASDAQ,�
 FMS,FRESENIUS MCL AG,フレゼニウス・メディカル・ケアAG,NYSE,医薬品,○
 FMX,FOMENTO ECONO,フォメント・エコノミコ・メヒカノ,NYSE,飲料,○
 FN,FABRINET,ファブリネット,NYSE,その他製造,○
-FNA,PARAGON 28 INC,パラゴン28,NYSE,ヘルスケア,○
 FNB,FNB CORP,FNB,NYSE,金融（銀行）,○
 FND,FLOOR & DECOR HD,フロア・アンド・デコレ　HD,NYSE,専門店,○
 FNGG,DRX NY FANG BL2X,Direxion デイリー NYSE FANG+ ブル 2 倍 ETF,NYSE,その他,○
@@ -2296,6 +2293,7 @@ KWR,QUAKER HOUGHTON,クエーカー・ホートン,NYSE,化学,○
 KXI,ISHARES CONS STA,iシェアーズ グローバル生活必需品 ETF,NYSE,その他,○
 KXIN,KAIXIN HOLDINGS,カイシン・ホールディングス,NASDAQ,小売,○
 KYMR,KYMERA THERAPEU,キメラ・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
+KZIA,KAZIA THERAPEU,カジア・セラピューティクス,NASDAQ,医薬品,○
 KZR,KEZAR LIFE SCIEN,ケザー・ライフ・サイエンシズ,NASDAQ,医薬品（バイオテクノロジー）,○
 L,LOEWS CORP,ロウズ,NYSE,金融(保険),○
 LAB,STANDARD BIOTOOL,スタンダード・バイオツールズ,NASDAQ,ヘルスケア,○
