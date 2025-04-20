@@ -98,7 +98,7 @@ class BinanceFetcher(BaseFetcher):
 
     def __init__(
         self,
-        data_dir: Path = PROJECT_ROOT / f"data/binance",
+        data_dir: Path = PROJECT_ROOT / "data/binance",
         target_tickers: list[str] = [],
     ):
         self.data_dir = data_dir

@@ -89,6 +89,8 @@ class BaseFetcher:
     ) -> pl.DataFrame:
         if fetch_interval is None:
             df = self.fetch_ticker(symbol, start_date, end_date)
+            if len(df) == 0:
+                return pl.DataFrame()
             ohlc_df = convert_tick_to_ohlc(df, interval)
         else:
             if start_date is None:
