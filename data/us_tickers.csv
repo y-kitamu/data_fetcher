@@ -1490,7 +1490,6 @@ FFEB,FT USEQ BUF FEB,ファーストトラスト Vest 米国株バッファーET
 FFIC,FLUSHING FINANC,フラッシング・ファイナンシャル,NASDAQ,金融（銀行）,○
 FFIN,FST FINANCL BANK,ファースト・ファイナンシャル・バンクシェアーズ,NASDAQ,金融（銀行）,○
 FFIV,F5 INC,F5,NASDAQ,ネットワーク,○
-FFNW,FIRST FINANCL NW,ファースト・ファイナンシャル・ノースウェスト,NASDAQ,金融（銀行）,○
 FFWM,FIRST FOUNDATION,ファースト・ファウンデーション,NYSE,金融（銀行）,○
 FG,F&G ANNUITIELIFE,F&G アニュイティーズ&ライフ,NYSE,金融(保険),○
 FGBI,FRST GUARANT BNC,ファースト・ギャランティー・バンクシェアーズ,NASDAQ,金融（銀行）,○
@@ -3538,6 +3537,7 @@ SFST,STHERN FRST BANC,サザン・ファースト・バンクシェアーズ,NAS
 SG,SWEETGREEN INC,スウィートグリーン,NYSE,外食,○
 SGA,SAGA COMMUNICTNS,サガ・コミュニケーションズ,NASDAQ,エンターテイメント,○
 SGC,SUPEROR GROUP CO,スーペリア・グループ・オブ・カンパニーズ,NASDAQ,その他製造,○
+SGD,SAFE GREEN DEVEL,セーフ・アンド・グリーン・デベロップメント,NASDAQ,その他製造,○
 SGHC,SGHC LTD,SGHC,NYSE,その他,○
 SGHT,SIGHT SCIENCES,サイト・サイエンシズ,NASDAQ,ヘルスケア,○
 SGI,SOMNIGROUP INTER,ソムニグループ・インターナショナル,NYSE,その他製造,○
