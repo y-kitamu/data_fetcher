@@ -1,4 +1,5 @@
-"""RSSからデータを収集するスクリプト"""
+"""RSSからデータを収集するスクリプト
+"""
 
 import csv
 import re
@@ -9,7 +10,7 @@ import polars as pl
 import xlwings as xw
 from tqdm import tqdm
 
-import data_fetcher
+import stock
 
 domestic_market_indices = [
     "N225",
@@ -102,28 +103,28 @@ fx_pairs = [
 ]
 
 
-def fetch_stock_data(
-    code_list: list[str],
-    valid_data_len: int = 302,
-    max_days: int = 8,
-    merge: bool = False,
-):
+def fetch_stock_data(code_list, valid_data_len=302, max_days=8, merge=False):
     """国内株式データを取得"""
-    excel_path = data_fetcher.constants.PROJECT_ROOT / "data" / "rss.xlsx"
+    excel_path = stock.PROJECT_ROOT / "data" / "rss.xlsx"
     wb = xw.Book(excel_path)
     sheet = wb.sheets[0]
 
     data_num = valid_data_len * max_days
     output_root_dir = Path(r"D:\stock\data\minutes")
     if not output_root_dir.exists():
-        output_root_dir = data_fetcher.constants.PROJECT_ROOT / "data/minutes"
+        output_root_dir = stock.PROJECT_ROOT / "data/minutes"
     # output_root_dir.mkdir(exist_ok=True)
 
     re_date = re.compile("[0-9]+/[0-9]+/[0-9]+")
 
     for code in tqdm(code_list):
         sheet["A1"].formula = f'=RssChart(A2:J2,"{code}", "1M", {data_num})'
-        time.sleep(0.5)
+        for _ in range(10):
+            time.sleep(0.5)
+            if sheet["A1"].value[-3:] == "配信中":
+                break
+        else:
+            continue
         data = sheet[f"D3:J{3 + data_num - 1}"].value
 
         cnt = 0
@@ -155,20 +156,18 @@ def fetch_stock_data(
             else:
                 with open(output_path, "w", encoding="utf-8") as f:
                     writer = csv.writer(f, lineterminator="\n")
-                    writer.writerow(
-                        ["date", "minutes", "open", "high", "low", "close", "volume"]
-                    )
+                    writer.writerow(["date", "minutes", "open", "high", "low", "close", "volume"])
                     writer.writerows(day_data)
         # break
 
 
-def merge_data(output_path: Path, data: list[list[str]]):
+def merge_data(output_path, data):
     """ """
     with open(output_path, "r") as f:
         reader = csv.reader(f)
         rows = list(reader)[1:]
 
-    new_data: list[list[str]] = []
+    new_data = []
     for d in data:
         for r in rows:
             if r[0] == d[0] and r[1] == d[1]:
@@ -184,12 +183,10 @@ def merge_data(output_path: Path, data: list[list[str]]):
 
 
 if __name__ == "__main__":
-    data_fetcher.ticker_list.update_jp_ticker_list()
+    stock.data.update_jp_ticker_list()
 
     # 日本株
-    code_list = domestic_market_indices + data_fetcher.ticker_list.get_jp_ticker_list(
-        include_etf=True
-    )
+    code_list = domestic_market_indices + stock.get_code_list(include_etf=True)
     fetch_stock_data(code_list, 332, 8)
 
     # # us

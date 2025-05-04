@@ -276,6 +276,7 @@ ARCB,ARCBEST CORP,アークベスト,NASDAQ,運輸,○
 ARCO,ARCOS DORADOS,アルコス・ドラドス,NYSE,外食,○
 ARCT,ARCTURUS THERAP,アークトゥルス・セラピューティクス・ホールディングス,NASDAQ,医薬品（バイオテクノロジー）,○
 ARDX,ARDELYX INC,アーデリックス,NASDAQ,医薬品（バイオテクノロジー）,○
+AREC,AMERICAN RESRCES,アメリカン・リソーシズ,NASDAQ,その他製造,○
 AREN,ARENA GROUP,アリーナ・グループ・ホールディングス,NYSE,情報処理サービス,○
 ARES,ARES MANAGEMENT,アレス・マネジメント,NYSE,金融（証券）,○
 ARGX,ARGENX SE,アルジェンX,NASDAQ,医薬品（バイオテクノロジー）,○
@@ -380,7 +381,6 @@ AVPT,AVEPOINT INC,アブポイント,NASDAQ,ソフトウェア・サービス,�
 AVR,ANTERIS TECH GLB,アンターリズ・テクノロジーズ・グローバル,NASDAQ,ヘルスケア,○
 AVS,DRX AVGO BR1X,Direxion デイリー AVGO 株 ベア 1 倍 ETF,NASDAQ,その他,○
 AVT,AVNET INC,アヴネット,NASDAQ,小売,○
-AVTE,AEROVATE THERAPE,エアロベート・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 AVTR,AVANTOR INC,アバンター,NYSE,ヘルスケア,○
 AVTX,AVALO THERAPEU,アバロー・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 AVUS,AVT US EQ ETF,アバンティス・US・エクイティ・ETF,NYSE,その他,○
@@ -470,7 +470,6 @@ BDTX,BLACK DMND THERA,ブラック・ダイヤモンド・セラピューティ�
 BDX,BECTON DICKINSON,ベクトン・ディッキンソン,NYSE,ヘルスケア,○
 BE,BLOOM ENERGY,ブルーム・エナジー,NYSE,その他製造,○
 BEAM,BEAM THERAPEUTIC,ビーム・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
-BECN,BEACON ROOFING S,ビーコン・ルーフィング・サプライ,NASDAQ,その他,○
 BEEM,BEAM GLOBAL,ビーム・グローバル,NASDAQ,電力,○
 BEEP,MOBILE INFRASTR,モバイル・インフラストラクチャー,NYSE,その他,○
 BEKE,KE HOLDINGS INC.,KEホールディングス,NYSE,その他,○
@@ -478,7 +477,6 @@ BELFA,BEL FUSE CL A,ベル・ヒューズ・クラスA,NASDAQ,その他製造,�
 BELFB,BEL FUSE CL B,ベル・ヒューズ・クラスB,NASDAQ,その他製造,○
 BEN,FRANKLIN INC,フランクリン・リソーシズ,NYSE,その他,○
 BEPC,BROOKFIELD RENEW,ブルックフィールド・リニューアブル,NYSE,電力,○
-BERY,BERRY GLOBAL,ベリー・グローバル・グループ,NYSE,その他製造,○
 BF.A,BROWN-FORMAN A,ブラウン・フォーマン　クラスA,NYSE,飲料,○
 BF.B,BROWN-FORMAN B,ブラウン・フォーマン　クラスB,NYSE,飲料,○
 BFAM,BRIGHT HORIZONS,ブライト・ホライズン・ファミリー・ソリューションズ,NYSE,ソフトウェア・サービス,○
@@ -557,6 +555,7 @@ BMBL,BUMBLE INC,バンブル,NASDAQ,ソフトウェア・サービス,○
 BMEA,BIOMEA FUSION,バイオメア・フュージョン,NASDAQ,医薬品（バイオテクノロジー）,○
 BMI,BADGER METER INC,バッジャー・メーター,NYSE,その他製造,○
 BMO,BANK OF MONTREAL,バンク・オブ・モントリオール,NYSE,金融（銀行）,○
+BMRA,BIOMERICA INC,バイオメリカ,NASDAQ,ヘルスケア,○
 BMRC,BANK OF MARIN,バンク・オブ・マリン・バンコープ,NASDAQ,金融（銀行）,○
 BMRN,BIOMARIN PHARMAC,バイオマリン・ファーマシューティカル,NASDAQ,医薬品,○
 BMY,BRISTOL-MYERS,ブリストル・マイヤーズ　スクイブ,NYSE,ヘルスケア,○
@@ -990,7 +989,6 @@ CTBI,COMMUNITY TRUST,コミュニティ・トラスト・バンコープ,NASDAQ,
 CTEC,GBLX CLEANTECH,グローバルX クリーンテック ETF,NASDAQ,その他,○
 CTEV,CLARITEV CORP,クラリティブ,NYSE,その他,○
 CTGO,CONTANGO ORE INC,コンタンゴ・オーア,NYSE,その他,○
-CTHR,CHARLS AND COLVR,チャールズ&コルバード,NASDAQ,専門店,○
 CTKB,CYTEK BIOSCIENCE,サイテック・バイオサイエンシズ,NASDAQ,医薬品（バイオテクノロジー）,○
 CTLP,CANTALOUPE,カンタロープ,NASDAQ,ソフトウェア・サービス,○
 CTMX,CYTOMX THERAPEU,サイトムエックス・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
@@ -1488,7 +1486,6 @@ FFEB,FT USEQ BUF FEB,ファーストトラスト Vest 米国株バッファーET
 FFIC,FLUSHING FINANC,フラッシング・ファイナンシャル,NASDAQ,金融（銀行）,○
 FFIN,FST FINANCL BANK,ファースト・ファイナンシャル・バンクシェアーズ,NASDAQ,金融（銀行）,○
 FFIV,F5 INC,F5,NASDAQ,ネットワーク,○
-FFNW,FIRST FINANCL NW,ファースト・ファイナンシャル・ノースウェスト,NASDAQ,金融（銀行）,○
 FFWM,FIRST FOUNDATION,ファースト・ファウンデーション,NYSE,金融（銀行）,○
 FG,F&G ANNUITIELIFE,F&G アニュイティーズ&ライフ,NYSE,金融(保険),○
 FGBI,FRST GUARANT BNC,ファースト・ギャランティー・バンクシェアーズ,NASDAQ,金融（銀行）,○
@@ -1789,7 +1786,6 @@ GTBP,GT BIOPHARMA INC,GTバイオファーマ,NASDAQ,医薬品（バイオテク
 GTE,GRAN TIERRA ENGY,グラン・ティエラ・エナジー,NYSE,石油,○
 GTEC,GREENLAND TECH,グリーンランド・テクノロジーズ・ホールディング,NASDAQ,機械,○
 GTES,GATES INDUSTRIAL,ゲイツ・インダストリアル,NYSE,機械,○
-GTIM,GOOD TIME RESTNT,グッドタイムズ・レストラン,NASDAQ,外食,○
 GTLB,GITLAB INC,ギットラブ,NASDAQ,ソフトウェア・サービス,○
 GTLS,CHART INDUSTRIES,チャート・インダストリーズ,NYSE,ガス・パイプライン,○
 GTN,GRAY MEDIA,グレイ・メディア,NYSE,エンターテイメント,○
@@ -2151,6 +2147,7 @@ JAVA,JPM ACT VAL ETF,JPモルガン・米国バリュー株式・アクティブ
 JAZZ,JAZZ PHARMACEUTI,ジャズ・ファーマシューティカルズ,NASDAQ,医薬品（バイオテクノロジー）,○
 JBHT,HUNT JB TRANSP,JBハント・トランスポート・サービシズ,NASDAQ,運輸,○
 JBI,JANUS INTL GROUP,ジェーナス・インタナショナル・グループ,NYSE,その他製造,○
+JBIO,JADE BIOSCIENCE,ジェイド・バイオサイエンス,NASDAQ,医薬品（バイオテクノロジー）,○
 JBL,JABIL INC,ジェイビル,NYSE,その他製造,○
 JBLU,JETBLUE AIRWAYS,ジェットブルー・エアウェイズ,NASDAQ,航空,○
 JBSS,JOHN B. SANFILIP,ジョンBサンフィリッポ・アンド・サン,NASDAQ,食品,○
@@ -2437,6 +2434,7 @@ LUMN,LUMEN TECHNO,ルーメン・テクノロジーズ,NYSE,通信サービス,�
 LUNG,PULMONX CORP,プルモンクス,NASDAQ,ヘルスケア,○
 LUNR,INTUITIVE MACHIN,インテュイティブ・マシーンズ,NASDAQ,航空機・宇宙,○
 LUV,SOUTHWEST AIR,サウスウエスト・エアライン,NYSE,航空,○
+LUXE,LUXEXPERIENCE,リュクスエクスペリエンス,NYSE,その他,○
 LVO,LIVEONE INC,ライブワン,NASDAQ,エンターテイメント,○
 LVS,LAS VEGAS SANDS,ラスベガス・サンズ,NYSE,ホテル,○
 LVTX,LAVA THERAPE,ラバ・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
@@ -2561,7 +2559,6 @@ MISL,FT INDXX AEROSPC,ファーストトラスト Indxx 航空宇宙・防衛ETF
 MIST,MILESTONE PHARMA,マイルストーン・ファーマシューティカルズ,NASDAQ,医薬品（バイオテクノロジー）,○
 MITK,MITEK SYSTEMS,マイテック・システムズ,NASDAQ,ソフトウェア・サービス,○
 MKC,MCCORMICK AND CO,マコーミック,NYSE,専門店,○
-MKFG,MARKFORGED HOLD,マークフォージド・ホールディング,NYSE,コンピュータ,○
 MKL,MARKEL GROUP,マーケル・グループ,NYSE,金融(保険),○
 MKSI,MKS INSTRUMENTS,MKSインスツルメンツ,NASDAQ,半導体,○
 MKTW,MARKETWISE,マーケットワイズ,NASDAQ,ソフトウェア・サービス,○
@@ -2697,7 +2694,6 @@ MYNZ,MAINZ BIOMED NV,マインツ・バイオメッドNV,NASDAQ,医薬品（バ�
 MYO,MYOMO INC,マイオモ,NYSE,医療サービス,○
 MYPS,PLAYSTUDIOS,プレイスタジオズ,NASDAQ,エンターテイメント,○
 MYRG,MYR GROUP INC,MYRグループ,NASDAQ,その他製造,○
-MYTE,MYT NLD PARENT,MYTネザーランド・ペアレント,NYSE,その他,○
 NA,NANO LABS LTD,ナノ・ラボズ,NASDAQ,コンピュータ,○
 NABL,N-ABLE INC,エヌ・エイブル,NYSE,ソフトウェア・サービス,○
 NAGE,NIAGEN BIOSCIENC,ナイアジェン・バイオサイエンス,NASDAQ,ヘルスケア,○
@@ -2832,7 +2828,6 @@ NTWK,NETSOL TECHNO,ネットソル・テクノロジーズ,NASDAQ,ソフトウ�
 NU,NU HOLDINGS,NUホールディングス,NYSE,金融（銀行）,○
 NUE,NUCOR CORP,ニューコア,NYSE,その他,○
 NUGT,DRX GD MINE BL2X,Direxion デイリー 金鉱株 ブル2倍 ETF,NYSE,その他,○
-NURO,NEUROMETRIX INC,ニューロメトリックス,NASDAQ,ヘルスケア,○
 NUS,NU SKIN ENT INC,ニュー　スキン　エンタープライズ,NYSE,小売,○
 NUTX,NUTEX HEALTH INC,ニューテックス・ヘルス,NASDAQ,ソフトウェア・サービス,○
 NUVB,NUVATION BIO INC,ニューベーション・バイオ,NYSE,医薬品（バイオテクノロジー）,○
@@ -2944,7 +2939,6 @@ ONIT,ONITY GROUP INC,オニティ・グループ・インク,NYSE,金融コン�
 ONON,ON HOLDING,オン・ホールディング,NYSE,フットウエア,○
 ONTF,ON24 INC,ON24,NYSE,ソフトウェア・サービス,○
 ONTO,ONTO INNOVATION,アントゥー・イノベーション,NYSE,半導体製造,○
-ONVO,ORGANOVO HD,オルガノボ・ホールディングス,NASDAQ,医薬品（バイオテクノロジー）,○
 OOMA,OOMA INC,ウーマ,NYSE,通信サービス,○
 OP,OCEANPAL,オーシャンパル,NASDAQ,運輸,○
 OPAD,OFFERPAD SOL,オファーパッド・ソリューションズ,NYSE,その他,○
@@ -3293,6 +3287,7 @@ RBC,RBC BEARINGS INC,RBCベアリングス,NYSE,その他製造,○
 RBCAA,REPUBLIC BANC,リパブリック・バンコープ,NASDAQ,金融（銀行）,○
 RBKB,RHINEBECK BANC,ラインベック・バンコープ,NASDAQ,金融（銀行）,○
 RBLX,ROBLOX CORP,ロブロックス,NYSE,ソフトウェア・サービス,○
+RBNE,ROBIN ENERGY,ロビン・エナジー,NASDAQ,電力,○
 RBOT,VICARIOUS SURGIC,バイカリアス・サージカル,NYSE,ヘルスケア,○
 RBRK,RUBRIK INC,ルーブリック,NYSE,ソフトウェア・サービス,○
 RCAT,RED CAT HOLDINGS,レッド・キャット・ホールディングス,NASDAQ,ソフトウェア・サービス,○
@@ -3485,7 +3480,6 @@ SBS,CIA SANEAMENTO B,サンパウロ州基礎衛生公社,NYSE,その他,○
 SBSI,SOUTHSIDE BANC,サウスサイド・バンクシェアーズ,NYSE,金融（銀行）,○
 SBSW,SIBANYESTILL ADR,シバンエ・スティルウォーター,NYSE,その他,○
 SBUX,STARBUCKS COFFEE,スターバックス,NASDAQ,外食,○
-SCCO,SOUTHERN COPPER,サザン・コッパー,NYSE,その他,○
 SCHL,SCHOLASTIC CORP,スコラスティック,NASDAQ,その他,○
 SCHW,CHARLES SCHWAB,チャールズ・シュワブ,NYSE,金融（証券）,○
 SCI,SERVICE CORP INT,サービス・コーポレーション・インターナショナル,NYSE,その他,○
@@ -3535,6 +3529,7 @@ SFST,STHERN FRST BANC,サザン・ファースト・バンクシェアーズ,NAS
 SG,SWEETGREEN INC,スウィートグリーン,NYSE,外食,○
 SGA,SAGA COMMUNICTNS,サガ・コミュニケーションズ,NASDAQ,エンターテイメント,○
 SGC,SUPEROR GROUP CO,スーペリア・グループ・オブ・カンパニーズ,NASDAQ,その他製造,○
+SGD,SAFE GREEN DEVEL,セーフ・アンド・グリーン・デベロップメント,NASDAQ,その他製造,○
 SGHC,SGHC LTD,SGHC,NYSE,その他,○
 SGHT,SIGHT SCIENCES,サイト・サイエンシズ,NASDAQ,ヘルスケア,○
 SGI,SOMNIGROUP INTER,ソムニグループ・インターナショナル,NYSE,その他製造,○
@@ -4151,7 +4146,6 @@ VCEL,VERICEL CORP,ヴェリセル,NASDAQ,ヘルスケア,○
 VCIT,VA M-TERM CORPBD,バンガード・米国中期社債ETF,NASDAQ,その他,○
 VCLT,VA L-TERM CORPBD,バンガード・米国長期社債ETF,NASDAQ,その他,○
 VCR,VA CONSUMER DISC,バンガード・米国一般消費財・サービス・セクターETF,NYSE,その他,○
-VCSA,VACASA INC,ヴァカーサ,NASDAQ,通信サービス,○
 VCSH,VA S-TERM CORPBD,バンガード・米国短期社債ETF,NASDAQ,その他,○
 VCTR,VICTORY CAPITAL,ビクトリーキャピタル・ホールディングス,NASDAQ,金融（証券）,○
 VCYT,VERACYTE INC,ヴェラサイト,NASDAQ,ヘルスケア,○
@@ -4203,6 +4197,7 @@ VIST,VISTA ENERGY,ビスタ・エナジー,NYSE,石油,○
 VITL,VITAL FARMS INC,バイタル・ファームズ,NASDAQ,食品,○
 VIV,TELEFONCA BRASIL,テレフォニカ・ブラジル,NYSE,通信サービス,○
 VIVK,VIVAKOR INC,ビバコール,NASDAQ,その他,○
+VIVS,VIVOSIM LABS INC,ビーボシム・ラブス,NASDAQ,医薬品（バイオテクノロジー）,○
 VKTX,VIKING THERAPEUT,バイキング・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 VLCN,VOLCON INC,ボルコン,NASDAQ,自動車,○
 VLGEA,VILLAGE SUPMARKT,ビレッジ・スーパーマーケット,NASDAQ,食品,○
@@ -4365,7 +4360,6 @@ WM,WASTE MANAGEMENT,ウェイスト・マネジメント,NYSE,その他製造,�
 WMB,WILLIAMS COS INC,ウィリアムズ・カンパニーズ,NYSE,石油,○
 WMG,WARNER MUSIC,ワーナー・ミュージック・グループ,NASDAQ,エンターテイメント,○
 WMK,WEIS MARKETS INC,ウエイズ・マーケッツ,NYSE,小売,○
-WMPN,WILLIAM PENN BAN,ウィリアム・ペン,NASDAQ,金融（銀行）,○
 WMS,ADVNCED DRAINAGE,アドバンスト・ドレナージ・システム,NYSE,その他製造,○
 WMT,WALMART,ウォルマート,NYSE,小売,○
 WNC,WABASH NATIONAL,ワバシュ・ナショナル,NYSE,その他製造,○
