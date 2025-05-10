@@ -11,7 +11,7 @@ from tqdm import tqdm
 
 import data_fetcher
 
-session = data_fetcher.session.get_session(max_requsets_per_second=2)
+session = data_fetcher.session.get_session(max_requests_per_second=2)
 
 
 def fetch_data(symbol: str, date: datetime.date, output_path: Path):

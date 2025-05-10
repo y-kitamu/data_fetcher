@@ -1,5 +1,4 @@
-"""session.py
-"""
+"""session.py"""
 
 from pathlib import Path
 
@@ -20,16 +19,16 @@ class CachedLimiterSession(CacheMixin, LimiterMixin, Session):
 
 
 def get_session(
-    max_requsets_per_second: int = 10,
+    max_requests_per_second: int = 10,
     cache_file: Path | None = PROJECT_ROOT / "cache/requests.cache",
 ) -> Session:
     if cache_file is None:
         return LimitterSession(
-            limiter=Limiter(RequestRate(max_requsets_per_second, Duration.SECOND))
+            limiter=Limiter(RequestRate(max_requests_per_second, Duration.SECOND))
         )
 
     return CachedLimiterSession(
-        limiter=Limiter(RequestRate(max_requsets_per_second, Duration.SECOND)),
+        limiter=Limiter(RequestRate(max_requests_per_second, Duration.SECOND)),
         bucket_class=MemoryQueueBucket,
         backend=SQLiteCache(cache_file),
     )

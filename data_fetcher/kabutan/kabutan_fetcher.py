@@ -42,24 +42,26 @@ class KabutanFetcher(BaseFetcher):
         etf_list = etf_tickers["コード"].to_list()
         return [ticker for ticker in tickers if ticker not in etf_list]
 
-    @property
     def get_earliest_date(self, symbol: str) -> datetime.datetime:
         csv_path = self.daily_data_dir / f"{symbol}.csv"
         if not csv_path.exists():
             raise FileNotFoundError(f"CSV file {csv_path} does not exist.")
 
         df = pl.read_csv(csv_path)
-        earliest_date = df["date"].min()
+        earliest_date = df["date"].drop_nulls().drop_nans().min()
+        if earliest_date is None:
+            raise ValueError(f"No valid date found in {csv_path}.")
         return datetime.datetime.strptime(earliest_date, "%Y/%m/%d")
 
-    @property
     def get_latest_date(self, symbol: str) -> datetime.datetime:
         csv_path = self.daily_data_dir / f"{symbol}.csv"
         if not csv_path.exists():
             raise FileNotFoundError(f"CSV file {csv_path} does not exist.")
 
         df = pl.read_csv(csv_path)
-        latest_date = df["date"].max()
+        latest_date = df["date"].drop_nulls().drop_nans().max()
+        if latest_date is None:
+            raise ValueError(f"No valid date found in {csv_path}.")
         return datetime.datetime.strptime(latest_date, "%Y/%m/%d")
 
     def get_ticker_symbol_name(self, ticker: str) -> str:
@@ -127,4 +129,8 @@ class KabutanFetcher(BaseFetcher):
             raise RuntimeError(f"File not found {csv_path}.")
 
         df = pl.read_csv(csv_path)
-        return df
+        if len(df) == 0:
+            return df
+        return df.with_columns(
+            pl.col("annoounce_date").str.strptime(pl.Date, format="%y/%m/%d"),
+        )
