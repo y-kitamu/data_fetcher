@@ -1,0 +1,15 @@
+key,start_date,end_date,edinet_key,period,value,announce_date
+net_sales,2015-09-01,2015-11-30,jpcrp_cor:NetSalesSummaryOfBusinessResults,CurrentYTDDuration,2846415000,201601141503
+ordinary_income,2015-09-01,2015-11-30,jpcrp_cor:OrdinaryIncomeLossSummaryOfBusinessResults,CurrentYTDDuration,419034000,201601141503
+net_income,2015-09-01,2015-11-30,jpcrp_cor:NetIncomeLossSummaryOfBusinessResults,CurrentYTDDuration,199639000,201601141503
+comprehensive_income,2015-09-01,2015-11-30,jpcrp_cor:NetIncomeLossSummaryOfBusinessResults,CurrentYTDDuration,199639000,201601141503
+net_asset,2015-09-01,2015-11-30,jpcrp_cor:NetAssetsSummaryOfBusinessResults,CurrentQuarterInstant,1820999000,201601141503
+total_asset,2015-09-01,2015-11-30,jpcrp_cor:TotalAssetsSummaryOfBusinessResults,CurrentQuarterInstant,3434316000,201601141503
+eps,2015-09-01,2015-11-30,jpcrp_cor:BasicEarningsLossPerShareSummaryOfBusinessResults,CurrentYTDDuration,25.25,201601141503
+eps,2015-09-01,2015-11-30,jpcrp_cor:BasicEarningsLossPerShareSummaryOfBusinessResults,CurrentQuarterDuration,2.58,201601141503
+diluted_eps,2015-09-01,2015-11-30,jpcrp_cor:DilutedEarningsPerShareSummaryOfBusinessResults,CurrentYTDDuration,25.12,201601141503
+equity_ratio,2015-09-01,2015-11-30,jpcrp_cor:EquityToAssetRatioSummaryOfBusinessResults,CurrentQuarterInstant,0.527,201601141503
+cost_of_sales,2015-09-01,2015-11-30,jppfs_cor:CostOfSales,CurrentYTDDuration,781798000,201601141503
+gross_profit,2015-09-01,2015-11-30,jppfs_cor:GrossProfit,CurrentYTDDuration,2064616000,201601141503
+operating_income,2015-09-01,2015-11-30,jppfs_cor:OperatingIncome,CurrentYTDDuration,429422000,201601141503
+operating_income,2015-09-01,2015-11-30,jppfs_cor:OperatingIncome,CurrentYTDDuration,429422000,201601141503

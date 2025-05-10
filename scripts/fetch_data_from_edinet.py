@@ -12,7 +12,7 @@ import data_fetcher
 
 api_key = "c528ad6f91db40468bf86c3f080daaff"
 endpoint = "https://api.edinet-fsa.go.jp/api/v2/documents.json"
-session = data_fetcher.session.get_session(max_requests_per_second=1)
+session = data_fetcher.session.get_session(max_requests_per_second=2)
 
 
 target_summary_taxonomy = dict(
@@ -62,14 +62,17 @@ def append_date_period(
     row: [str], start_date: datetime.datetime, end_date: datetime.datetime
 ):
     period_str = row[0]
-    if "Q" not in period_str and "Y" not in period_str:
-        raise ValueError(f"Invalid period string : {period_str}")
-
     split_char = "Q" if "Q" in period_str else "Y"
     delta = 3 if split_char == "Q" else 12
+    if "Q" not in period_str and "Y" not in period_str:
+        if "I" in period_str:
+            split_char = "I"
+            delta = 3
+        else:
+            raise ValueError(f"Invalid period string : {period_str}")
 
     key = period_str.split(split_char)[0]
-    if key == "Current":
+    if key == "Current" or key == "":
         sdate, edate = start_date, end_date
     else:
         delta_month = relativedelta(months=int(key.replace("Prior", "")) * delta)
@@ -240,7 +243,7 @@ def run_all():
     # 10年前から現在までのデータを取得
     output_dir = Path("data/edinet/")
     today = datetime.date.today()
-    start_date = today - datetime.timedelta(days=365 * 10)
+    start_date = today - relativedelta(years=10)
     end_date = today
     date = start_date
     while date < end_date:
@@ -251,3 +254,4 @@ def run_all():
 
 if __name__ == "__main__":
     data_fetcher.debug.run_debug(run_all)
+    today = datetime.date.today() - datetime.timedelta(days=1)
