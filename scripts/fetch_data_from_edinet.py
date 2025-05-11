@@ -7,6 +7,7 @@ from io import BytesIO
 from pathlib import Path
 
 from dateutil.relativedelta import relativedelta
+from requests.exceptions import Timeout
 
 import data_fetcher
 
@@ -14,6 +15,7 @@ api_key = "c528ad6f91db40468bf86c3f080daaff"
 endpoint = "https://api.edinet-fsa.go.jp/api/v2/documents.json"
 session = data_fetcher.session.get_session(max_requests_per_second=2)
 
+timeout = 5.0
 
 target_summary_taxonomy = dict(
     net_sales="jpcrp_cor:NetSalesSummaryOfBusinessResults",
@@ -42,7 +44,12 @@ def get_document(doc_id):
     doc_params = {"type": "5", "Subscription-Key": api_key}
     doc_param_txt = "&".join([f"{key}={value}" for key, value in doc_params.items()])
     url = f"{doc_endpoint}?{doc_param_txt}"
-    res = session.get(url)
+
+    try:
+        res = session.get(url, timeout=timeout)
+    except Timeout:
+        print(f"Failed to get a document of the id : {doc_id}. Retry.")
+        return get_document(doc_id)
 
     # zipファイルからcsvを抜き出す
     filebuffer = BytesIO(res.content)
@@ -65,11 +72,12 @@ def append_date_period(
     split_char = "Q" if "Q" in period_str else "Y"
     delta = 3 if split_char == "Q" else 12
     if "Q" not in period_str and "Y" not in period_str:
-        if "I" in period_str:
+        if "Interium" in period_str:
             split_char = "I"
             delta = 3
         else:
-            raise ValueError(f"Invalid period string : {period_str}")
+            print(f"Invalid period string : {period_str}")
+            return [None, None] + row[1:]
 
     key = period_str.split(split_char)[0]
     if key == "Current" or key == "":
@@ -109,7 +117,13 @@ def get_target_docs_info(target_date: datetime.date):
     }
     params_txt = "&".join([f"{key}={value}" for key, value in params.items()])
     url = f"{endpoint}?{params_txt}"
-    res = session.get(url)
+
+    try:
+        res = session.get(url, timeout=timeout)
+    except Timeout:
+        print("Failed to get document list from the Edinet. Retry.")
+        return get_target_docs_info(target_date)
+
     doc_list = res.json()["results"]
     target_doc_codes = ["120", "130", "140", "150", "160", "170"]
     target_ordinance_codes = ["010"]
@@ -242,9 +256,17 @@ def main(target_date: datetime.date, output_dir: Path):
 def run_all():
     # 10年前から現在までのデータを取得
     output_dir = Path("data/edinet/")
-    today = datetime.date.today()
-    start_date = today - relativedelta(years=10)
-    end_date = today
+    doc_list = update_document_list([], output_dir)
+    if len(doc_list) > 0:
+        # 2016-08-12 10:10
+        start_date = datetime.datetime.strptime(
+            doc_list[-1][3], "%Y-%m-%d %H:%M"
+        ).date()
+    else:
+        today = datetime.date.today()
+        start_date = today - relativedelta(years=10)
+
+    end_date = datetime.date.today()
     date = start_date
     while date < end_date:
         print("Fetching data for date : ", date)
