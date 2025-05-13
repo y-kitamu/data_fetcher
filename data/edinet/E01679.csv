@@ -109,3 +109,14 @@ equity_ratio,2015-07-01,2015-09-30,jpcrp_cor:EquityToAssetRatioSummaryOfBusiness
 cost_of_sales,2015-07-01,2015-09-30,jppfs_cor:CostOfSales,CurrentYTDDuration_NonConsolidatedMember,2323598000,201511131323
 gross_profit,2015-07-01,2015-09-30,jppfs_cor:GrossProfit,CurrentYTDDuration_NonConsolidatedMember,757070000,201511131323
 operating_income,2015-07-01,2015-09-30,jppfs_cor:OperatingIncome,CurrentYTDDuration_NonConsolidatedMember,54749000,201511131323
+net_sales,2015-10-01,2015-12-31,jpcrp_cor:NetSalesSummaryOfBusinessResults,CurrentYTDDuration_NonConsolidatedMember,4641660000,201602121334
+ordinary_income,2015-10-01,2015-12-31,jpcrp_cor:OrdinaryIncomeLossSummaryOfBusinessResults,CurrentYTDDuration_NonConsolidatedMember,17409000,201602121334
+net_income,2015-10-01,2015-12-31,jpcrp_cor:NetIncomeLossSummaryOfBusinessResults,CurrentYTDDuration_NonConsolidatedMember,-2175000,201602121334
+comprehensive_income,2015-10-01,2015-12-31,jpcrp_cor:NetIncomeLossSummaryOfBusinessResults,CurrentYTDDuration_NonConsolidatedMember,-2175000,201602121334
+net_asset,2015-10-01,2015-12-31,jpcrp_cor:NetAssetsSummaryOfBusinessResults,CurrentQuarterInstant_NonConsolidatedMember,1862304000,201602121334
+total_asset,2015-10-01,2015-12-31,jpcrp_cor:TotalAssetsSummaryOfBusinessResults,CurrentQuarterInstant_NonConsolidatedMember,6753383000,201602121334
+eps,2015-10-01,2015-12-31,jpcrp_cor:BasicEarningsLossPerShareSummaryOfBusinessResults,CurrentYTDDuration_NonConsolidatedMember,-0.09,201602121334
+eps,2015-10-01,2015-12-31,jpcrp_cor:BasicEarningsLossPerShareSummaryOfBusinessResults,CurrentQuarterDuration_NonConsolidatedMember,-1.77,201602121334
+cost_of_sales,2015-10-01,2015-12-31,jppfs_cor:CostOfSales,CurrentYTDDuration_NonConsolidatedMember,3545750000,201602121334
+gross_profit,2015-10-01,2015-12-31,jppfs_cor:GrossProfit,CurrentYTDDuration_NonConsolidatedMember,1095910000,201602121334
+operating_income,2015-10-01,2015-12-31,jppfs_cor:OperatingIncome,CurrentYTDDuration_NonConsolidatedMember,53064000,201602121334

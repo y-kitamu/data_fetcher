@@ -1,0 +1,7 @@
+key,start_date,end_date,edinet_key,period,value,announce_date
+ordinary_income,2016-04-01,2016-06-30,jpcrp_cor:OrdinaryIncomeLossSummaryOfBusinessResults,CurrentYTDDuration,23833000000,201608081224
+net_asset,2016-04-01,2016-06-30,jpcrp_cor:NetAssetsSummaryOfBusinessResults,CurrentQuarterInstant,1100929000000,201608081224
+total_asset,2016-04-01,2016-06-30,jpcrp_cor:TotalAssetsSummaryOfBusinessResults,CurrentQuarterInstant,18221993000000,201608081224
+eps,2016-04-01,2016-06-30,jpcrp_cor:BasicEarningsLossPerShareSummaryOfBusinessResults,CurrentYTDDuration,58.66,201608081224
+diluted_eps,2016-04-01,2016-06-30,jpcrp_cor:DilutedEarningsPerShareSummaryOfBusinessResults,CurrentYTDDuration,58.61,201608081224
+equity_ratio,2016-04-01,2016-06-30,jpcrp_cor:EquityToAssetRatioSummaryOfBusinessResults,CurrentQuarterInstant,0.0579,201608081224

@@ -6,32 +6,31 @@ Data is saved in ${PROJECT_ROOT}/data/codes/${ticker}.json.
 
 import argparse
 import csv
-import functools
 import json
+import time
 from pathlib import Path
 
 import requests
 import yfinance as yf
-from pyrate_limiter import Duration, Limiter, RequestRate
-from requests import Session
-from requests_cache import CacheMixin, SQLiteCache
-from requests_ratelimiter import LimiterMixin, MemoryQueueBucket
 
+# from requests import Session
+# from requests_cache import CacheMixin, SQLiteCache
+# from requests_ratelimiter import LimiterMixin, MemoryQueueBucket
 import data_fetcher
 
 TICKER_LIST_URL = "https://www.trkd-asia.com/rakutensec/exportcsvus?all=on&vall=on&forwarding=na&target=0&theme=na&returns=na&head_office=na&name=&code=&sector=na&pageNo=&c=us&p=result&r1=on"
 
 
-class CachedLimiterSession(CacheMixin, LimiterMixin, Session):
-    pass
+# class CachedLimiterSession(CacheMixin, LimiterMixin, Session):
+#     pass
 
 
-session = CachedLimiterSession(
-    limiter=Limiter(RequestRate(1, Duration.SECOND * 0.2)),
-    bucket_class=MemoryQueueBucket,
-    backend=SQLiteCache("yfinance.cache"),
-)
-session.request = functools.partial(session.request, timeout=10)
+# session = CachedLimiterSession(
+#     limiter=Limiter(RequestRate(1, Duration.SECOND * 0.2)),
+#     bucket_class=MemoryQueueBucket,
+#     backend=SQLiteCache("yfinance.cache"),
+# )
+# session.request = functools.partial(session.request, timeout=10)
 
 
 def update_ticker_list(ticker_list_path: Path, ticker_list_url: str = TICKER_LIST_URL):
@@ -65,7 +64,7 @@ def update_financial_data(ticker: str, output_dir: Path):
         except:
             data_fetcher.logger.error(f"Failed to load {output_path}.")
 
-    new_data = yf.Ticker(ticker, session=session).quarterly_financials
+    new_data = yf.Ticker(ticker).quarterly_financials
     for key, value in new_data.to_dict().items():
         data[key.strftime("%Y-%m-%d")] = value
 
@@ -96,6 +95,7 @@ def main(
             data_fetcher.logger.exception(
                 f"Failed to update financial data. : {ticker}"
             )
+        time.sleep(0.7)
 
 
 if __name__ == "__main__":

@@ -123,3 +123,15 @@ number_of_shares,2015-10-01,2015-12-31,jpcrp_cor:TotalNumberOfIssuedSharesSummar
 cost_of_sales,2015-10-01,2015-12-31,jppfs_cor:CostOfSales,CurrentYTDDuration_NonConsolidatedMember,435788000,201602101339
 gross_profit,2015-10-01,2015-12-31,jppfs_cor:GrossProfit,CurrentYTDDuration_NonConsolidatedMember,16389000,201602101339
 operating_income,2015-10-01,2015-12-31,jppfs_cor:OperatingIncome,CurrentYTDDuration_NonConsolidatedMember,-122194000,201602101339
+net_sales,2016-01-01,2016-03-31,jpcrp_cor:NetSalesSummaryOfBusinessResults,CurrentYTDDuration_NonConsolidatedMember,893049000,201605091318
+ordinary_income,2016-01-01,2016-03-31,jpcrp_cor:OrdinaryIncomeLossSummaryOfBusinessResults,CurrentYTDDuration_NonConsolidatedMember,-177930000,201605091318
+net_income,2016-01-01,2016-03-31,jpcrp_cor:NetIncomeLossSummaryOfBusinessResults,CurrentYTDDuration_NonConsolidatedMember,-184531000,201605091318
+comprehensive_income,2016-01-01,2016-03-31,jpcrp_cor:NetIncomeLossSummaryOfBusinessResults,CurrentYTDDuration_NonConsolidatedMember,-184531000,201605091318
+net_asset,2016-01-01,2016-03-31,jpcrp_cor:NetAssetsSummaryOfBusinessResults,CurrentQuarterInstant_NonConsolidatedMember,327475000,201605091318
+total_asset,2016-01-01,2016-03-31,jpcrp_cor:TotalAssetsSummaryOfBusinessResults,CurrentQuarterInstant_NonConsolidatedMember,944179000,201605091318
+eps,2016-01-01,2016-03-31,jpcrp_cor:BasicEarningsLossPerShareSummaryOfBusinessResults,CurrentYTDDuration_NonConsolidatedMember,-35.48,201605091318
+eps,2016-01-01,2016-03-31,jpcrp_cor:BasicEarningsLossPerShareSummaryOfBusinessResults,CurrentQuarterDuration_NonConsolidatedMember,-11.62,201605091318
+equity_ratio,2016-01-01,2016-03-31,jpcrp_cor:EquityToAssetRatioSummaryOfBusinessResults,CurrentQuarterInstant_NonConsolidatedMember,0.347,201605091318
+cost_of_sales,2016-01-01,2016-03-31,jppfs_cor:CostOfSales,CurrentYTDDuration_NonConsolidatedMember,823286000,201605091318
+gross_profit,2016-01-01,2016-03-31,jppfs_cor:GrossProfit,CurrentYTDDuration_NonConsolidatedMember,69763000,201605091318
+operating_income,2016-01-01,2016-03-31,jppfs_cor:OperatingIncome,CurrentYTDDuration_NonConsolidatedMember,-174024000,201605091318
