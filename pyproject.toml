@@ -32,7 +32,7 @@ epc = "^0.0.5"
 orjson = "^3.9.15"
 sexpdata = "^1.0.2"
 six = "^1.16.0"
-setuptools = "^69.2.0"
+setuptools = "^80.4.0"
 paramiko = "^3.4.0"
 rapidfuzz = "^3.6.2"
 
