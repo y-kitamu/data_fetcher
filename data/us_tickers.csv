@@ -552,6 +552,7 @@ BLV,VA L-TERM BOND,バンガード・米国長期債券ETF,NYSE,その他,○
 BLX,BANC LATINOAM CO,バンコ・ラティーノアメリカーノ・デ・コメルシオ・エクステリオ,NYSE,金融（銀行）,○
 BLZE,BACKBLAZE INC,バックブレイズ,NASDAQ,ソフトウェア・サービス,○
 BMA,BANCO MACRO SA,バンコ・マクロ,NYSE,金融（銀行）,○
+BMAX,REX BTC CNV BOND,REX ビットコイン・コーポレート・トレジャリー転換社債ETF,NASDAQ,その他,○
 BMBL,BUMBLE INC,バンブル,NASDAQ,ソフトウェア・サービス,○
 BMEA,BIOMEA FUSION,バイオメア・フュージョン,NASDAQ,医薬品（バイオテクノロジー）,○
 BMI,BADGER METER INC,バッジャー・メーター,NYSE,その他製造,○
@@ -1274,6 +1275,7 @@ EHLD,EUROHOLDINGS,ユーロホールディングス,NASDAQ,運輸,○
 EHTH,EHEALTH INC,eヘルス,NASDAQ,金融(保険),○
 EIDO,ISHRS INDONESIA,iシェアーズ MSCI インドネシア ETF,NYSE,その他,○
 EIG,EMPLOYERS HLD,エンプロイヤーズ・ホールディングス,NYSE,金融(保険),○
+EIPI,FT ENGY INCM ETF,FT エナジー・インカム・パートナーズ・エンハンスト・インカムETF,NYSE,その他,○
 EIX,EDISON INTER,エジソン・インターナショナル,NYSE,電力,○
 EJH,EHOME HOUSE SERV,Eホーム・ハウスホールド・サービス・ホールディングス,NASDAQ,ソフトウェア・サービス,○
 EL,ESTEE LAUDER,エスティ　ローダー,NYSE,ヘルスケア,○
@@ -1300,6 +1302,7 @@ EMBD,GLBLX EMRGIN BND,グローバルＸ 新興国債券 ETF,NYSE,その他,○
 EME,EMCOR GROUP INC,エムコア・グループ,NYSE,その他,○
 EML,THE EASTERN COMP,イースタン・カンパニー,NASDAQ,その他製造,○
 EMLC,V JP EM LC BOND,ヴァンエック・JPモルガン新興国債券（現地通貨建て）ETF,NYSE,その他,○
+EMLP,FT NRTH AM ENGY,ファーストトラスト 北米エネルギー・インフラストラクチャー・ファンド,NYSE,その他,○
 EMN,EASTMAN CHEMICAL,イーストマン・ケミカル,NYSE,化学,○
 EMR,EMERSON ELECTRIC,エマソン・エレクトリック,NYSE,その他製造,○
 EMX,EMX ROYALTY CORP,EMXロイヤリティ,NYSE,その他,○
@@ -2013,6 +2016,7 @@ IINN,INSPIRA TECH OXY,インスピラ・テクノロジーズ・オキシBHN,NAS
 IJH,ISHARESCORE MCAP,iシェアーズ コア S&P 中型株 ETF,NYSE,その他,○
 IJR,ISHARESCORE SCAP,iシェアーズ コア S&P 小型株 ETF,NYSE,その他,○
 IKNA,IKENA ONCOLOGY,イケナ・オンコロジー,NASDAQ,医薬品（バイオテクノロジー）,○
+ILDR,FT INV LEADR ETF,ファーストトラスト イノベーションリーダーズETF,NYSE,その他,○
 ILF,ISHARES LATIN 40,iシェアーズ ラテンアメリカ 40 ETF,NYSE,その他,○
 ILMN,ILLUMINA INC,イルミナ,NASDAQ,医薬品（バイオテクノロジー）,○
 IMAB,I-MAB,アイ・マブ,NASDAQ,医薬品（バイオテクノロジー）,○
@@ -2315,6 +2319,7 @@ LBRT,LIBERTY ENERGY,リバティー・エナジー,NYSE,石油,○
 LBTYA,LIBERTY GLB CL-A,リバティ ・グローバル　クラスA,NASDAQ,通信サービス,○
 LBTYK,LIBERTY GLOBAL,リバティ・グローバル,NASDAQ,通信サービス,○
 LC,LENDING CLUB,レンディングクラブ,NYSE,その他,○
+LCDL,GNS 2X LONG LCID,グラナイトシェアーズ 2倍ロングLCIDデイリーETF,NASDAQ,その他,○
 LCID,LUCID GROUP INC,ルーシッド・グループ,NASDAQ,自動車,○
 LCII,LCI INDUSTRIES,LCIインダストリーズ,NYSE,その他製造,○
 LCNB,LCNB CORP,LCNB,NASDAQ,金融（銀行）,○
@@ -3430,6 +3435,7 @@ RUSHA,RUSH ENTERPRISES,ラッシュ・エンタープライジズ,NASDAQ,小売,
 RUSHB,RUSH ENTERPRISES,ラッシュ・エンタープライジズ,NASDAQ,小売,○
 RVLV,REVOLVE GROUP,リボルブ・グループ,NYSE,小売,○
 RVMD,REVOLUTION MED,レボリューション・メディスンズ,NASDAQ,医薬品（バイオテクノロジー）,○
+RVNL,GNS 2X LONG RIVN,グラナイトシェアーズ 2倍ロングRIVNデイリーETF,NASDAQ,その他,○
 RVP,RETRACTABLE TECH,リトラクタブル・テクノロジーズ,NYSE,医療サービス,○
 RVPH,REVIVA PHARMA HD,レビバ・ファーマシューティカルズ・ホールディングス,NASDAQ,医薬品,○
 RVSB,RIVERVIEW BANC,リバービュー・バンコープ,NASDAQ,金融（銀行）,○
