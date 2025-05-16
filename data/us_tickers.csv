@@ -392,7 +392,6 @@ AWK,AMERICAN WATER W,アメリカンウォーターワークス,NYSE,その他,�
 AWR,AMERICAN WATER,アメリカン・ステーツ・ウォーター,NYSE,ソフトウェア・サービス,○
 AWRE,AWARE INC,アウェア,NASDAQ,ソフトウェア・サービス,○
 AX,AXOS FINANCIAL,アクソス・ファイナンシャル,NYSE,金融（銀行）,○
-AXDX,ACCELERATE DIAGN,アクセレレート・ダイアグノスティクス,NASDAQ,ヘルスケア,○
 AXGN,AXOGEN INC,アクソゲン,NASDAQ,ヘルスケア,○
 AXIL,AXIL BRANDS,アクシル・ブランズ,NYSE,ヘルスケア,○
 AXL,AM AXLE&MANUFACT,アメリカン・アクスル＆マニュファクチャリング・ホールテ,NYSE,自動車,○
@@ -547,7 +546,6 @@ BLND,BLEND LABS INC,ブレンド・ラブス,NYSE,ソフトウェア・サービ
 BLNK,BLINK CHARGING,ブリンク・チャージング,NASDAQ,その他製造,○
 BLRX,BIOLINE RX LTD,バイオラインRX,NASDAQ,医薬品,○
 BLTE,BELITE BIO INC,ビーライト・バイオ,NASDAQ,医薬品（バイオテクノロジー）,○
-BLUE,BLUEBIRD BIO,ブルーバード・バイオ,NASDAQ,医薬品（バイオテクノロジー）,○
 BLV,VA L-TERM BOND,バンガード・米国長期債券ETF,NYSE,その他,○
 BLX,BANC LATINOAM CO,バンコ・ラティーノアメリカーノ・デ・コメルシオ・エクステリオ,NYSE,金融（銀行）,○
 BLZE,BACKBLAZE INC,バックブレイズ,NASDAQ,ソフトウェア・サービス,○
@@ -1097,7 +1095,6 @@ DENN,DENNYS CORP,デニーズ,NASDAQ,外食,○
 DEO,DIAGEO PLC,ディアジオ,NYSE,飲料,○
 DERM,JOURNEY MEDICAL,ジャーニー・メディカル,NASDAQ,医薬品,○
 DES,WM S-CAP DIVIDEN,ウィズダムツリー　米国小型株配当ファンド,NYSE,その他,○
-DESP,DESPEGARCOM CORP,デスペガー・ドット・コム,NYSE,ソフトウェア・サービス,○
 DEW,WT GL HIGH DIV,ウィズダムツリー  世界株 高配当ファンド,NYSE,その他,○
 DFE,WM EUR S-CAP DVD,ウィズダムツリー  欧州小型株配当ファンド,NYSE,その他,○
 DFEN,DRX AERO DF BL3X,Direxion デイリー エアロスペース・アンド・ディフェンス ブル3倍 ETF,NYSE,その他,○
@@ -2365,7 +2362,7 @@ LIN,LINDE PLC,リンデ,NASDAQ,ガス・パイプライン,○
 LINC,LINCOLN EDUCTNAL,リンカーン・エジュケーショナル・サービシーズ,NASDAQ,ソフトウェア・サービス,○
 LIND,LINDBLAD EXPEDIT,リンドブラッド・エクスペディションズ・ホールディングス,NASDAQ,エンターテイメント,○
 LINK,INTERLINK ELECTR,インターリンク・エレクトロニクス,NASDAQ,ソフトウェア・サービス,○
-LION,LIONSGATE STUDIO,ライオンズゲート・ステュディオス,NASDAQ,エンターテイメント,○
+LION,LIONSGATE STUDIO,ライオンズゲート・ステュディオス,NYSE,エンターテイメント,○
 LIQT,LIQTECH INTL INC,リクテック・インターナショナル,NASDAQ,その他製造,○
 LIT,GBLX LIT BATTERY,グローバルX リチウム&バッテリーテック ETF,NYSE,その他,○
 LITE,LUMENTUM,ルメンタム・ホールディングス,NASDAQ,その他製造,○
