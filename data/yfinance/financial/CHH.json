@@ -774,8 +774,8 @@
         "Operating Revenue": NaN
     },
     "2024-03-31": {
-        "Tax Effect Of Unusual Items": -3624874.552328,
-        "Tax Rate For Calcs": 0.228785,
+        "Tax Effect Of Unusual Items": -3628276.0,
+        "Tax Rate For Calcs": 0.229,
         "Normalized EBITDA": 94196000.0,
         "Total Unusual Items": -15844000.0,
         "Total Unusual Items Excluding Goodwill": -15844000.0,
@@ -787,7 +787,7 @@
         "Net Interest Income": -18450000.0,
         "Interest Expense": 20181000.0,
         "Interest Income": 1731000.0,
-        "Normalized Income": 43228125.447672,
+        "Normalized Income": 43224724.0,
         "Net Income From Continuing And Discontinued Operation": 31009000.0,
         "Total Expenses": 255956000.0,
         "Total Operating Income As Reported": 60149000.0,
@@ -974,8 +974,8 @@
         "Operating Revenue": -420432000.0
     },
     "2025-03-31": {
-        "Tax Effect Of Unusual Items": -25226.264181,
-        "Tax Rate For Calcs": 0.254811,
+        "Tax Effect Of Unusual Items": -25245.0,
+        "Tax Rate For Calcs": 0.255,
         "Normalized EBITDA": 99738000.0,
         "Total Unusual Items": -99000.0,
         "Total Unusual Items Excluding Goodwill": -99000.0,
@@ -987,7 +987,7 @@
         "Net Interest Income": -19683000.0,
         "Interest Expense": 21242000.0,
         "Interest Income": 1559000.0,
-        "Normalized Income": 44607773.735819,
+        "Normalized Income": 44607755.0,
         "Net Income From Continuing And Discontinued Operation": 44534000.0,
         "Total Expenses": 252829000.0,
         "Total Operating Income As Reported": 79932000.0,
