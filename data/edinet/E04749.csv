@@ -202,3 +202,17 @@ equity_ratio,2016-04-01,2016-06-30,jpcrp_cor:EquityToAssetRatioSummaryOfBusiness
 equity_ratio,2016-07-01,2016-09-30,jpcrp_cor:EquityToAssetRatioSummaryOfBusinessResults,CurrentQuarterInstant,0.328,201611110902
 operating_income,2015-07-01,2015-09-30,jppfs_cor:OperatingIncome,Prior1YTDDuration,3458539000,201611110902
 operating_income,2016-07-01,2016-09-30,jppfs_cor:OperatingIncome,CurrentYTDDuration,3123842000,201611110902
+ordinary_income,2015-10-01,2015-12-31,jpcrp_cor:OrdinaryIncomeLossSummaryOfBusinessResults,Prior1YTDDuration,7700271000,201702131000
+ordinary_income,2016-10-01,2016-12-31,jpcrp_cor:OrdinaryIncomeLossSummaryOfBusinessResults,CurrentYTDDuration,5648688000,201702131000
+net_asset,2016-07-01,2016-09-30,jpcrp_cor:NetAssetsSummaryOfBusinessResults,Prior1QuarterInstant,50114236000,201702131000
+net_asset,2016-10-01,2016-12-31,jpcrp_cor:NetAssetsSummaryOfBusinessResults,CurrentQuarterInstant,52240607000,201702131000
+total_asset,2016-07-01,2016-09-30,jpcrp_cor:TotalAssetsSummaryOfBusinessResults,Prior1QuarterInstant,153568432000,201702131000
+total_asset,2016-10-01,2016-12-31,jpcrp_cor:TotalAssetsSummaryOfBusinessResults,CurrentQuarterInstant,149390573000,201702131000
+eps,2015-10-01,2015-12-31,jpcrp_cor:BasicEarningsLossPerShareSummaryOfBusinessResults,Prior1YTDDuration,77.97,201702131000
+eps,2016-10-01,2016-12-31,jpcrp_cor:BasicEarningsLossPerShareSummaryOfBusinessResults,CurrentYTDDuration,68.54,201702131000
+eps,2016-07-01,2016-09-30,jpcrp_cor:BasicEarningsLossPerShareSummaryOfBusinessResults,Prior1QuarterDuration,42.41,201702131000
+eps,2016-10-01,2016-12-31,jpcrp_cor:BasicEarningsLossPerShareSummaryOfBusinessResults,CurrentQuarterDuration,35.60,201702131000
+equity_ratio,2016-07-01,2016-09-30,jpcrp_cor:EquityToAssetRatioSummaryOfBusinessResults,Prior1QuarterInstant,0.325,201702131000
+equity_ratio,2016-10-01,2016-12-31,jpcrp_cor:EquityToAssetRatioSummaryOfBusinessResults,CurrentQuarterInstant,0.349,201702131000
+operating_income,2015-10-01,2015-12-31,jppfs_cor:OperatingIncome,Prior1YTDDuration,6458698000,201702131000
+operating_income,2016-10-01,2016-12-31,jppfs_cor:OperatingIncome,CurrentYTDDuration,5727605000,201702131000

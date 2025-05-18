@@ -1,0 +1,12 @@
+key,start_date,end_date,edinet_key,period,value,announce_date
+net_sales,2024-04-01,2024-09-30,jpcrp_cor:NetSalesSummaryOfBusinessResults,CurrentYTDDuration,180057000000,202411140909
+ordinary_income,2024-04-01,2024-09-30,jpcrp_cor:OrdinaryIncomeLossSummaryOfBusinessResults,CurrentYTDDuration,3333000000,202411140909
+net_asset,2024-04-01,2024-09-30,jpcrp_cor:NetAssetsSummaryOfBusinessResults,CurrentQuarterInstant,130255000000,202411140909
+total_asset,2024-04-01,2024-09-30,jpcrp_cor:TotalAssetsSummaryOfBusinessResults,CurrentQuarterInstant,253597000000,202411140909
+eps,2024-04-01,2024-09-30,jpcrp_cor:BasicEarningsLossPerShareSummaryOfBusinessResults,CurrentYTDDuration,140.03,202411140909
+diluted_eps,2024-04-01,2024-09-30,jpcrp_cor:DilutedEarningsPerShareSummaryOfBusinessResults,CurrentYTDDuration,139.92,202411140909
+equity_ratio,2024-04-01,2024-09-30,jpcrp_cor:EquityToAssetRatioSummaryOfBusinessResults,CurrentQuarterInstant,0.514,202411140909
+cost_of_sales,2024-04-01,2024-09-30,jppfs_cor:CostOfSales,CurrentYTDDuration,163414000000,202411140909
+gross_profit,2024-04-01,2024-09-30,jppfs_cor:GrossProfit,CurrentYTDDuration,16643000000,202411140909
+operating_income,2024-04-01,2024-09-30,jppfs_cor:OperatingIncome,CurrentYTDDuration,3398000000,202411140909
+operating_income,2024-04-01,2024-09-30,jppfs_cor:OperatingIncome,CurrentYTDDuration,3398000000,202411140909

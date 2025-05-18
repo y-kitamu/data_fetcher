@@ -13,7 +13,7 @@ import data_fetcher
 
 api_key = "c528ad6f91db40468bf86c3f080daaff"
 endpoint = "https://api.edinet-fsa.go.jp/api/v2/documents.json"
-session = data_fetcher.session.get_session(max_requests_per_second=2)
+session = data_fetcher.session.get_session(max_requests_per_second=5)
 
 timeout = 5.0
 
@@ -49,7 +49,8 @@ def get_document(doc_id):
         res = session.get(url, timeout=timeout)
     except Timeout:
         print(f"Failed to get a document of the id : {doc_id}. Retry.")
-        return get_document(doc_id)
+        # return get_document(doc_id)
+        return []
 
     # zipファイルからcsvを抜き出す
     filebuffer = BytesIO(res.content)
@@ -72,7 +73,7 @@ def append_date_period(
     split_char = "Q" if "Q" in period_str else "Y"
     delta = 3 if split_char == "Q" else 12
     if "Q" not in period_str and "Y" not in period_str:
-        if "Interium" in period_str:
+        if "Interim" in period_str:
             split_char = "I"
             delta = 3
         else:
