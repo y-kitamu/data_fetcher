@@ -846,7 +846,7 @@
         "Operating Revenue": 220406057000.0
     },
     "2024-03-31": {
-        "Tax Effect Of Unusual Items": 0.0,
+        "Tax Effect Of Unusual Items": 9241740681.494213,
         "Tax Rate For Calcs": 0.355998,
         "Normalized EBITDA": 94624491000.0,
         "Total Unusual Items": 25960068000.0,
@@ -856,7 +856,7 @@
         "Reconciled Cost Of Revenue": 79219464000.0,
         "EBITDA": 120584559000.0,
         "EBIT": 97860042000.0,
-        "Net Interest Income": 46541952000.0,
+        "Net Interest Income": 3632739000.0,
         "Interest Expense": 11009397000.0,
         "Interest Income": 16833468000.0,
         "Normalized Income": 39213838681.49421,
@@ -866,8 +866,8 @@
         "Total Operating Income As Reported": 65293199000.0,
         "Diluted Average Shares": 150552212.0,
         "Basic Average Shares": 150552212.0,
-        "Diluted EPS": 371.5,
-        "Basic EPS": 371.5,
+        "Diluted EPS": 579.3,
+        "Basic EPS": 579.3,
         "Diluted NI Availto Com Stockholders": 55932166000.0,
         "Net Income Common Stockholders": 55932166000.0,
         "Net Income": 55932166000.0,

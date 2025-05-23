@@ -332,7 +332,7 @@
         "Other Non Operating Income Expenses": NaN,
         "Special Income Charges": NaN,
         "Restructuring And Mergern Acquisition": NaN,
-        "Gain On Sale Of Security": NaN,
+        "Gain On Sale Of Security": -1800000.0,
         "Net Non Operating Interest Income Expense": NaN,
         "Total Other Finance Cost": 8000.0,
         "Interest Expense Non Operating": NaN,

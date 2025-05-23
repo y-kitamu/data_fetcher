@@ -358,7 +358,7 @@
         "Diluted Average Shares": 173976375.0,
         "Basic Average Shares": 150206893.0,
         "Diluted EPS": 0.03,
-        "Basic EPS": 0.03,
+        "Basic EPS": NaN,
         "Diluted NI Availto Com Stockholders": NaN,
         "Net Income Common Stockholders": NaN,
         "Net Income": NaN,
@@ -396,7 +396,7 @@
         "Total Unusual Items": 3454000.0,
         "Total Unusual Items Excluding Goodwill": 3454000.0,
         "Net Income From Continuing Operation Net Minority Interest": -16890000.0,
-        "Reconciled Depreciation": NaN,
+        "Reconciled Depreciation": 3151000.0,
         "Reconciled Cost Of Revenue": 11560000.0,
         "EBITDA": -13688000.0,
         "EBIT": -16839000.0,
@@ -439,7 +439,7 @@
         "Gross Profit": 10261000.0,
         "Cost Of Revenue": 11560000.0,
         "Total Revenue": 21821000.0,
-        "Operating Revenue": NaN
+        "Operating Revenue": 21821000.0
     },
     "2024-03-31": {
         "Tax Effect Of Unusual Items": 0.0,
@@ -489,14 +489,14 @@
         "Insurance And Claims": 742000.0,
         "Salaries And Wages": 18230000.0,
         "Gross Profit": 11772000.0,
-        "Cost Of Revenue": 9896000.0,
+        "Cost Of Revenue": 10026000.0,
         "Total Revenue": 21668000.0,
         "Operating Revenue": 21668000.0
     },
     "2024-06-30": {
         "Tax Effect Of Unusual Items": 5280870.0,
         "Tax Rate For Calcs": 0.21,
-        "Normalized EBITDA": -17700000.0,
+        "Normalized EBITDA": -17717000.0,
         "Total Unusual Items": 25147000.0,
         "Total Unusual Items Excluding Goodwill": 25147000.0,
         "Net Income From Continuing Operation Net Minority Interest": 3462000.0,
@@ -656,7 +656,7 @@
         "Total Unusual Items": NaN,
         "Total Unusual Items Excluding Goodwill": NaN,
         "Net Income From Continuing Operation Net Minority Interest": NaN,
-        "Reconciled Depreciation": 5530000.0,
+        "Reconciled Depreciation": NaN,
         "Reconciled Cost Of Revenue": NaN,
         "EBITDA": NaN,
         "EBIT": NaN,
@@ -670,7 +670,7 @@
         "Diluted Average Shares": NaN,
         "Basic Average Shares": NaN,
         "Diluted EPS": NaN,
-        "Basic EPS": NaN,
+        "Basic EPS": -0.01,
         "Diluted NI Availto Com Stockholders": NaN,
         "Net Income Common Stockholders": NaN,
         "Net Income": NaN,
@@ -699,6 +699,6 @@
         "Gross Profit": NaN,
         "Cost Of Revenue": NaN,
         "Total Revenue": NaN,
-        "Operating Revenue": 32007000.0
+        "Operating Revenue": NaN
     }
 }

@@ -43,8 +43,8 @@
         "Operating Revenue": 20040051000.0
     },
     "2024-03-31": {
-        "Tax Effect Of Unusual Items": 0.0,
-        "Tax Rate For Calcs": 0.25,
+        "Tax Effect Of Unusual Items": NaN,
+        "Tax Rate For Calcs": NaN,
         "Normalized EBITDA": -1665000000.0,
         "Net Income From Continuing Operation Net Minority Interest": -1982000000.0,
         "Reconciled Cost Of Revenue": 18236000000.0,
@@ -77,7 +77,7 @@
         "Interest Income Non Operating": 78000000.0,
         "Operating Income": -1694000000.0,
         "Operating Expense": 5239000000.0,
-        "Other Operating Expenses": -50525000.0,
+        "Other Operating Expenses": NaN,
         "Research And Development": 2326000000.0,
         "Selling General And Administration": 2913000000.0,
         "Gross Profit": 3545000000.0,
