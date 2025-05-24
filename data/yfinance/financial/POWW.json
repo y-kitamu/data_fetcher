@@ -476,6 +476,7 @@
         "Gross Profit": 8288266.0,
         "Cost Of Revenue": 26084120.0,
         "Total Revenue": 34372386.0,
+        "Excise Taxes": NaN,
         "Operating Revenue": 34372386.0
     },
     "2023-12-31": {
@@ -521,6 +522,7 @@
         "Gross Profit": 10910376.0,
         "Cost Of Revenue": 25096088.0,
         "Total Revenue": 36006464.0,
+        "Excise Taxes": 1498429.0,
         "Operating Revenue": 36006464.0
     },
     "2024-03-31": {
@@ -566,6 +568,7 @@
         "Gross Profit": 9399587.0,
         "Cost Of Revenue": 31021560.0,
         "Total Revenue": 40421147.0,
+        "Excise Taxes": NaN,
         "Operating Revenue": 40421147.0
     },
     "2024-06-30": {
@@ -611,6 +614,53 @@
         "Gross Profit": 9789122.0,
         "Cost Of Revenue": 21164428.0,
         "Total Revenue": 30953550.0,
+        "Excise Taxes": NaN,
         "Operating Revenue": 30953550.0
+    },
+    "2024-12-31": {
+        "Tax Effect Of Unusual Items": NaN,
+        "Tax Rate For Calcs": NaN,
+        "Normalized EBITDA": NaN,
+        "Net Income From Continuing Operation Net Minority Interest": NaN,
+        "Reconciled Depreciation": NaN,
+        "Reconciled Cost Of Revenue": NaN,
+        "EBITDA": NaN,
+        "EBIT": NaN,
+        "Net Interest Income": NaN,
+        "Interest Expense": NaN,
+        "Normalized Income": NaN,
+        "Net Income From Continuing And Discontinued Operation": NaN,
+        "Total Expenses": NaN,
+        "Total Operating Income As Reported": NaN,
+        "Diluted Average Shares": NaN,
+        "Basic Average Shares": NaN,
+        "Diluted EPS": NaN,
+        "Basic EPS": NaN,
+        "Diluted NI Availto Com Stockholders": NaN,
+        "Net Income Common Stockholders": NaN,
+        "Preferred Stock Dividends": NaN,
+        "Net Income": -26128782.0,
+        "Net Income Including Noncontrolling Interests": NaN,
+        "Net Income Continuous Operations": NaN,
+        "Tax Provision": NaN,
+        "Pretax Income": NaN,
+        "Other Income Expense": NaN,
+        "Other Non Operating Income Expenses": NaN,
+        "Net Non Operating Interest Income Expense": NaN,
+        "Interest Expense Non Operating": NaN,
+        "Operating Income": NaN,
+        "Operating Expense": NaN,
+        "Depreciation Amortization Depletion Income Statement": NaN,
+        "Depreciation And Amortization In Income Statement": NaN,
+        "Selling General And Administration": NaN,
+        "Selling And Marketing Expense": NaN,
+        "General And Administrative Expense": NaN,
+        "Other Gand A": NaN,
+        "Salaries And Wages": NaN,
+        "Gross Profit": NaN,
+        "Cost Of Revenue": NaN,
+        "Total Revenue": NaN,
+        "Excise Taxes": NaN,
+        "Operating Revenue": NaN
     }
 }

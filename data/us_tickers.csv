@@ -470,7 +470,7 @@ BDX,BECTON DICKINSON,ベクトン・ディッキンソン,NYSE,ヘルスケア,�
 BE,BLOOM ENERGY,ブルーム・エナジー,NYSE,その他製造,○
 BEAM,BEAM THERAPEUTIC,ビーム・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 BEEM,BEAM GLOBAL,ビーム・グローバル,NASDAQ,電力,○
-BEEP,MOBILE INFRASTR,モバイル・インフラストラクチャー,NYSE,その他,○
+BEEP,MOBILE INFRASTR,モバイル・インフラストラクチャー,NASDAQ,その他,○
 BEKE,KE HOLDINGS INC.,KEホールディングス,NYSE,その他,○
 BELFA,BEL FUSE CL A,ベル・ヒューズ・クラスA,NASDAQ,その他製造,○
 BELFB,BEL FUSE CL B,ベル・ヒューズ・クラスB,NASDAQ,その他製造,○
@@ -3267,7 +3267,6 @@ QUAD,QUAD GRAPHICS,クォード・グラフィックス,NYSE,ソフトウェア�
 QUBT,QUANTUM COMPUT,クオンタム・コンピューティング,NASDAQ,ソフトウェア・サービス,○
 QUIK,QUICKLOGIC CORP,クイックロジック,NASDAQ,半導体,○
 QURE,UNIQURE BV,ユニキュア,NASDAQ,医薬品（バイオテクノロジー）,○
-QVCGB,QVC GROUP INC-B,QVCグループ クラスB,NASDAQ,小売,○
 QYLD,GLX NQ100 CV CLL,グローバルX NASDAQ100・カバード・コール ETF,NASDAQ,その他,○
 QYLG,GLBLX NQ100 CC50,グローバルＸ NASDAQ100・カバード・コール50 ETF,NASDAQ,その他,○
 R,RYDER SYSTEM,ライダー・システム,NYSE,運輸,○
@@ -4182,6 +4181,7 @@ VHT,VA HEALTH CARE,バンガード・米国ヘルスケア・セクターETF,NYS
 VIAV,VIAVI SOLUTIONS,ビアビ・ソリューションズ,NASDAQ,ネットワーク,○
 VICR,VICOR CORP,バイコア,NASDAQ,その他製造,○
 VIG,VNG DIV APR,バンガード・米国増配株式ETF,NYSE,その他,○
+VIGL,VIGIL NEUROSCNC,ヴィジル・ニューロサイエンス,NASDAQ,医薬品（バイオテクノロジー）,○
 VIOG,VA SP S-CAP600 G,バンガード・S&Pスモールキャップ600グロースETF,NYSE,その他,○
 VIOO,VA SP S-CAP600,バンガード・S&Pスモールキャップ600 ETF,NYSE,その他,○
 VIOT,VIOMI TECHNOLOGY,ヴィオミ･テクノロジー,NASDAQ,その他製造,○
