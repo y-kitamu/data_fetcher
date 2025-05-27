@@ -262,7 +262,6 @@ APPN,APPIAN CORP,アピアン・コーポレーション,NASDAQ,ソフトウェ�
 APPS,DIGITAL TURBINE,デジタル・タービン,NASDAQ,ソフトウェア・サービス,○
 APT,ALPHA PRO TECH,アルファ・プロ・テック,NYSE,その他製造,○
 APTV,APTIV HOLDINGS,アプティブ・ホールディングス,NYSE,その他製造,○
-APVO,APTEVO THERAPEU,アプテボ・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 APYX,APYX MDICAL CORP,エイピックス・メディカル,NASDAQ,ヘルスケア,○
 AQB,AQUABOUNTY TECH,アクアバウンティ・テクノロジーズ,NASDAQ,食品,○
 AQMS,AQUA METALS INC,アクア・メタルズ,NASDAQ,その他製造,○
@@ -895,7 +894,6 @@ COGT,COGENT BIOSCIENC,コージェント・バイオサイエンス,NASDAQ,医�
 COHR,COHERENT,コヒレント,NYSE,その他製造,○
 COHU,COHU INC,コヒュー,NASDAQ,半導体,○
 COIN,COINBASE GLOBAL,コインベース,NASDAQ,その他,○
-COKE,COCACOLA CNSLDT,コカ・コーラ・コンソリデーティッド,NASDAQ,飲料,○
 COLB,COLUMBIA BANKING,コロンビア・バンキング・システム,NASDAQ,金融（銀行）,○
 COLL,COLLEGIUM PHARMA,コレギウム・ファーマシューティカル,NASDAQ,医薬品,○
 COLM,COLUMBIA SPORTS,コロンビア・スポーツウエア,NASDAQ,その他製造,○
@@ -1639,7 +1637,6 @@ GAIA,GAIA INC,ガイア,NASDAQ,小売,○
 GAL,SPDR GLOBAL ALLO,SPDR　SSgA グローバル・アロケーション ETF,NYSE,その他,○
 GALT,GALECTIN THERA,ガレクチン・セラピューティクス,NASDAQ,医薬品,○
 GAMB,GAMBLING COM GR,ギャンブリング・ドットコム・グループ,NASDAQ,ソフトウェア・サービス,○
-GAN,GAN LIMITED,ギャン,NASDAQ,エンターテイメント,○
 GANX,GAIN THERAPEU,ゲイン・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 GAP,GAP INC,ギャップ,NYSE,専門店,○
 GASS,STEALTHGAS INC,ステルスガス,NASDAQ,運輸,○
@@ -3267,6 +3264,7 @@ QUAD,QUAD GRAPHICS,クォード・グラフィックス,NYSE,ソフトウェア�
 QUBT,QUANTUM COMPUT,クオンタム・コンピューティング,NASDAQ,ソフトウェア・サービス,○
 QUIK,QUICKLOGIC CORP,クイックロジック,NASDAQ,半導体,○
 QURE,UNIQURE BV,ユニキュア,NASDAQ,医薬品（バイオテクノロジー）,○
+QVCGB,QVC GROUP INC-B,QVCグループ クラスB,NASDAQ,小売,○
 QYLD,GLX NQ100 CV CLL,グローバルX NASDAQ100・カバード・コール ETF,NASDAQ,その他,○
 QYLG,GLBLX NQ100 CC50,グローバルＸ NASDAQ100・カバード・コール50 ETF,NASDAQ,その他,○
 R,RYDER SYSTEM,ライダー・システム,NYSE,運輸,○

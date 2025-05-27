@@ -701,7 +701,7 @@
         "Net Income From Continuing Operation Net Minority Interest": 13379000.0,
         "Reconciled Depreciation": 1782000.0,
         "Reconciled Cost Of Revenue": 44934000.0,
-        "EBITDA": 19485000.0,
+        "EBITDA": NaN,
         "EBIT": 17703000.0,
         "Normalized Income": 14166108.263023,
         "Net Income From Continuing And Discontinued Operation": 13977000.0,
@@ -716,7 +716,7 @@
         "Net Income": 13977000.0,
         "Net Income Including Noncontrolling Interests": 13977000.0,
         "Net Income Discontinuous Operations": 598000.0,
-        "Net Income Continuous Operations": NaN,
+        "Net Income Continuous Operations": 13379000.0,
         "Tax Provision": 8429000.0,
         "Pretax Income": 21808000.0,
         "Other Income Expense": 4105000.0,
@@ -726,7 +726,7 @@
         "Restructuring And Mergern Acquisition": 1283000.0,
         "Operating Income": 17703000.0,
         "Operating Expense": 111232000.0,
-        "Research And Development": NaN,
+        "Research And Development": 37788000.0,
         "Selling General And Administration": 73444000.0,
         "Selling And Marketing Expense": 46203000.0,
         "General And Administrative Expense": 27241000.0,
@@ -734,7 +734,7 @@
         "Gross Profit": 128935000.0,
         "Cost Of Revenue": 44934000.0,
         "Total Revenue": 173869000.0,
-        "Operating Revenue": NaN
+        "Operating Revenue": 173869000.0
     },
     "2024-03-31": {
         "Tax Effect Of Unusual Items": -1223953.720804,
@@ -921,7 +921,7 @@
         "Net Income From Continuing Operation Net Minority Interest": NaN,
         "Reconciled Depreciation": NaN,
         "Reconciled Cost Of Revenue": NaN,
-        "EBITDA": NaN,
+        "EBITDA": 9148000.0,
         "EBIT": NaN,
         "Normalized Income": NaN,
         "Net Income From Continuing And Discontinued Operation": NaN,
@@ -936,7 +936,7 @@
         "Net Income": NaN,
         "Net Income Including Noncontrolling Interests": NaN,
         "Net Income Discontinuous Operations": NaN,
-        "Net Income Continuous Operations": -6267000.0,
+        "Net Income Continuous Operations": NaN,
         "Tax Provision": NaN,
         "Pretax Income": NaN,
         "Other Income Expense": NaN,
@@ -946,7 +946,7 @@
         "Restructuring And Mergern Acquisition": NaN,
         "Operating Income": NaN,
         "Operating Expense": NaN,
-        "Research And Development": 45926000.0,
+        "Research And Development": NaN,
         "Selling General And Administration": NaN,
         "Selling And Marketing Expense": NaN,
         "General And Administrative Expense": NaN,
@@ -954,6 +954,6 @@
         "Gross Profit": NaN,
         "Cost Of Revenue": NaN,
         "Total Revenue": NaN,
-        "Operating Revenue": 188724000.0
+        "Operating Revenue": NaN
     }
 }

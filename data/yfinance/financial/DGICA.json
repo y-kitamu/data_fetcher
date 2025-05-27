@@ -742,7 +742,7 @@
         "EBIT": 29936043.0,
         "Net Interest Income": -269254.0,
         "Interest Expense": 269254.0,
-        "Normalized Income": 24002394.0,
+        "Normalized Income": NaN,
         "Net Income From Continuing And Discontinued Operation": 24002394.0,
         "Total Expenses": 220287301.0,
         "Diluted Average Shares": 34801471.0,

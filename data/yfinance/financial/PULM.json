@@ -562,7 +562,7 @@
         "Normalized Income": -2083000.0,
         "Net Income From Continuing And Discontinued Operation": -2083000.0,
         "Total Expenses": 4427000.0,
-        "Total Operating Income As Reported": -2225000.0,
+        "Total Operating Income As Reported": NaN,
         "Diluted Average Shares": NaN,
         "Basic Average Shares": NaN,
         "Diluted EPS": NaN,
