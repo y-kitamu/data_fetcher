@@ -262,6 +262,7 @@ APPN,APPIAN CORP,アピアン・コーポレーション,NASDAQ,ソフトウェ�
 APPS,DIGITAL TURBINE,デジタル・タービン,NASDAQ,ソフトウェア・サービス,○
 APT,ALPHA PRO TECH,アルファ・プロ・テック,NYSE,その他製造,○
 APTV,APTIV HOLDINGS,アプティブ・ホールディングス,NYSE,その他製造,○
+APVO,APTEVO THERAPEU,アプテボ・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 APYX,APYX MDICAL CORP,エイピックス・メディカル,NASDAQ,ヘルスケア,○
 AQB,AQUABOUNTY TECH,アクアバウンティ・テクノロジーズ,NASDAQ,食品,○
 AQMS,AQUA METALS INC,アクア・メタルズ,NASDAQ,その他製造,○
@@ -894,6 +895,7 @@ COGT,COGENT BIOSCIENC,コージェント・バイオサイエンス,NASDAQ,医�
 COHR,COHERENT,コヒレント,NYSE,その他製造,○
 COHU,COHU INC,コヒュー,NASDAQ,半導体,○
 COIN,COINBASE GLOBAL,コインベース,NASDAQ,その他,○
+COKE,COCACOLA CNSLDT,コカ・コーラ・コンソリデーティッド,NASDAQ,飲料,○
 COLB,COLUMBIA BANKING,コロンビア・バンキング・システム,NASDAQ,金融（銀行）,○
 COLL,COLLEGIUM PHARMA,コレギウム・ファーマシューティカル,NASDAQ,医薬品,○
 COLM,COLUMBIA SPORTS,コロンビア・スポーツウエア,NASDAQ,その他製造,○
@@ -3358,7 +3360,7 @@ RIO,RIO TINTO (ADR),リオ・ティント,NYSE,アルミ,○
 RIOT,RIOT PLATFORMS,ライオット・プラットフォームズ,NASDAQ,その他,○
 RIVN,RIVIAN ATMOTIVE,リヴィアン・オートモーティブ,NASDAQ,自動車,○
 RJF,RAYMOND JAMES FI,レイモンド・ジェームズ・ファイナンシャル,NYSE,金融コングロマリット,○
-RKLB,ROCKET LAB USA,ロケット・ラボUSA,NASDAQ,その他,○
+RKLB,ROCKET LAB,ロケット・ラボ,NASDAQ,その他,○
 RKT,ROCKET COMPANIES,ロケット・カンパニーズ,NYSE,ソフトウェア・サービス,○
 RL,RALPH LAUREN,ラルフローレン,NYSE,その他,○
 RLAY,RELAY THERAPEUT,リレー・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○

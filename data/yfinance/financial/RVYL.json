@@ -745,7 +745,7 @@
         "EBITDA": -25660000.0,
         "EBIT": -26314000.0,
         "Net Interest Income": -3538000.0,
-        "Interest Expense": NaN,
+        "Interest Expense": 3538000.0,
         "Normalized Income": -32018290.0,
         "Net Income From Continuing And Discontinued Operation": -30003000.0,
         "Total Expenses": 25081000.0,

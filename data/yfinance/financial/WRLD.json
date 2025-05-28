@@ -625,13 +625,13 @@
         "Occupancy And Equipment": 12428506.0
     },
     "2023-12-31": {
-        "Tax Effect Of Unusual Items": 0.0,
-        "Tax Rate For Calcs": 0.146189,
+        "Tax Effect Of Unusual Items": NaN,
+        "Tax Rate For Calcs": NaN,
         "Net Income From Continuing Operation Net Minority Interest": 16664818.0,
         "Reconciled Depreciation": 2758033.0,
         "Net Interest Income": 106975181.0,
         "Interest Expense": 11689924.0,
-        "Interest Income": NaN,
+        "Interest Income": 118665105.0,
         "Normalized Income": 16664818.0,
         "Net Income From Continuing And Discontinued Operation": 16664818.0,
         "Diluted Average Shares": 6073299.0,
@@ -795,13 +795,13 @@
         "Occupancy And Equipment": 12293093.0
     },
     "2025-03-31": {
-        "Tax Effect Of Unusual Items": NaN,
-        "Tax Rate For Calcs": NaN,
+        "Tax Effect Of Unusual Items": 0.0,
+        "Tax Rate For Calcs": 0.196672,
         "Net Income From Continuing Operation Net Minority Interest": NaN,
         "Reconciled Depreciation": NaN,
         "Net Interest Income": NaN,
         "Interest Expense": NaN,
-        "Interest Income": 117633756.0,
+        "Interest Income": NaN,
         "Normalized Income": NaN,
         "Net Income From Continuing And Discontinued Operation": NaN,
         "Diluted Average Shares": NaN,

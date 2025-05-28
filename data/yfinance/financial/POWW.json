@@ -474,8 +474,9 @@
         "Other Gand A": 7855624.0,
         "Salaries And Wages": 5590035.0,
         "Gross Profit": 8288266.0,
-        "Cost Of Revenue": 26095941.0,
+        "Cost Of Revenue": 26084120.0,
         "Total Revenue": 34372386.0,
+        "Excise Taxes": NaN,
         "Operating Revenue": 34372386.0
     },
     "2023-12-31": {
@@ -497,7 +498,7 @@
         "Basic Average Shares": 118447154.0,
         "Diluted EPS": -0.02,
         "Basic EPS": -0.02,
-        "Diluted NI Availto Com Stockholders": -3188417.0,
+        "Diluted NI Availto Com Stockholders": -2426628.0,
         "Net Income Common Stockholders": -2426628.0,
         "Preferred Stock Dividends": 782639.0,
         "Net Income": -1643989.0,
@@ -510,7 +511,7 @@
         "Net Non Operating Interest Income Expense": -193046.0,
         "Interest Expense Non Operating": 193046.0,
         "Operating Income": -1920753.0,
-        "Operating Expense": 13475052.0,
+        "Operating Expense": 12831129.0,
         "Depreciation Amortization Depletion Income Statement": 3401156.0,
         "Depreciation And Amortization In Income Statement": 3401156.0,
         "Selling General And Administration": 9429973.0,
@@ -521,6 +522,7 @@
         "Gross Profit": 10910376.0,
         "Cost Of Revenue": 25096088.0,
         "Total Revenue": 36006464.0,
+        "Excise Taxes": 1498429.0,
         "Operating Revenue": 36006464.0
     },
     "2024-03-31": {
@@ -566,6 +568,7 @@
         "Gross Profit": 9399587.0,
         "Cost Of Revenue": 31021560.0,
         "Total Revenue": 40421147.0,
+        "Excise Taxes": NaN,
         "Operating Revenue": 40421147.0
     },
     "2024-06-30": {
@@ -611,6 +614,7 @@
         "Gross Profit": 9789122.0,
         "Cost Of Revenue": 21164428.0,
         "Total Revenue": 30953550.0,
+        "Excise Taxes": NaN,
         "Operating Revenue": 30953550.0
     },
     "2024-12-31": {
@@ -651,11 +655,12 @@
         "Selling General And Administration": NaN,
         "Selling And Marketing Expense": NaN,
         "General And Administrative Expense": NaN,
-        "Other Gand A": 25977011.0,
+        "Other Gand A": NaN,
         "Salaries And Wages": NaN,
         "Gross Profit": NaN,
         "Cost Of Revenue": NaN,
         "Total Revenue": NaN,
+        "Excise Taxes": NaN,
         "Operating Revenue": NaN
     }
 }

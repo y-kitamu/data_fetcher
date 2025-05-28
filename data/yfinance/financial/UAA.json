@@ -689,7 +689,7 @@
     },
     "2023-12-31": {
         "Tax Effect Of Unusual Items": 0.0,
-        "Tax Rate For Calcs": 0.072,
+        "Tax Rate For Calcs": 0.071933,
         "Normalized EBITDA": 105235000.0,
         "Total Unusual Items": 0.0,
         "Total Unusual Items Excluding Goodwill": 0.0,
@@ -726,8 +726,8 @@
         "Operating Expense": 599230000.0,
         "Selling General And Administration": 599230000.0,
         "Gross Profit": 670639000.0,
-        "Cost Of Revenue": 815404000.0,
-        "Total Revenue": 1486043000.0,
+        "Cost Of Revenue": NaN,
+        "Total Revenue": NaN,
         "Operating Revenue": 1486043000.0
     },
     "2024-03-31": {

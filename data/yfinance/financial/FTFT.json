@@ -790,7 +790,7 @@
         "Salaries And Wages": 3468000.0,
         "Gross Profit": 1030033.0,
         "Cost Of Revenue": 2878839.0,
-        "Total Revenue": 3908872.0,
+        "Total Revenue": NaN,
         "Operating Revenue": 4702803.0
     },
     "2024-03-31": {
@@ -800,7 +800,7 @@
         "Total Unusual Items": NaN,
         "Total Unusual Items Excluding Goodwill": NaN,
         "Net Income From Continuing Operation Net Minority Interest": -3972645.0,
-        "Reconciled Depreciation": 41160.0,
+        "Reconciled Depreciation": 81118.0,
         "Reconciled Cost Of Revenue": 3171695.0,
         "EBITDA": -3863732.0,
         "EBIT": -3944850.0,

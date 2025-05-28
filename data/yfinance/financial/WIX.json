@@ -610,7 +610,7 @@
         "Tax Provision": 5320000.0,
         "Pretax Income": 8274000.0,
         "Other Income Expense": 19052000.0,
-        "Other Non Operating Income Expenses": NaN,
+        "Other Non Operating Income Expenses": 44000.0,
         "Special Income Charges": -3103000.0,
         "Write Off": 3103000.0,
         "Net Non Operating Interest Income Expense": -15650000.0,
@@ -621,12 +621,12 @@
         "Research And Development": 125743000.0,
         "Selling General And Administration": 147043000.0,
         "Selling And Marketing Expense": 103642000.0,
-        "General And Administrative Expense": 43401000.0,
+        "General And Administrative Expense": NaN,
         "Other Gand A": 43401000.0,
         "Gross Profit": 277658000.0,
         "Cost Of Revenue": 126113000.0,
         "Total Revenue": 403771000.0,
-        "Operating Revenue": 403771000.0
+        "Operating Revenue": NaN
     },
     "2024-03-31": {
         "Tax Effect Of Unusual Items": 0.0,
@@ -661,7 +661,7 @@
         "Special Income Charges": 0.0,
         "Write Off": 0.0,
         "Net Non Operating Interest Income Expense": 18884000.0,
-        "Total Other Finance Cost": NaN,
+        "Total Other Finance Cost": -18884000.0,
         "Interest Income Non Operating": 18884000.0,
         "Operating Income": 9670000.0,
         "Operating Expense": 272809000.0,
@@ -845,7 +845,7 @@
         "Tax Provision": NaN,
         "Pretax Income": NaN,
         "Other Income Expense": NaN,
-        "Other Non Operating Income Expenses": 64000.0,
+        "Other Non Operating Income Expenses": NaN,
         "Special Income Charges": NaN,
         "Write Off": NaN,
         "Net Non Operating Interest Income Expense": NaN,
@@ -856,11 +856,11 @@
         "Research And Development": NaN,
         "Selling General And Administration": NaN,
         "Selling And Marketing Expense": NaN,
-        "General And Administrative Expense": NaN,
+        "General And Administrative Expense": 45394000.0,
         "Other Gand A": NaN,
         "Gross Profit": NaN,
         "Cost Of Revenue": NaN,
         "Total Revenue": NaN,
-        "Operating Revenue": NaN
+        "Operating Revenue": 473651000.0
     }
 }
