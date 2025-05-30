@@ -1,1 +1,26 @@
-{}
+{
+    "2025-03-31": {
+        "Net Income From Continuing Operation Net Minority Interest": NaN,
+        "EBIT": NaN,
+        "Net Income Common Stockholders": NaN,
+        "Net Income": NaN,
+        "Net Income Continuous Operations": NaN,
+        "Operating Expense": 10178000.0
+    },
+    "2024-06-30": {
+        "Net Income From Continuing Operation Net Minority Interest": NaN,
+        "EBIT": 10658000.0,
+        "Net Income Common Stockholders": NaN,
+        "Net Income": 5643000.0,
+        "Net Income Continuous Operations": 10604000.0,
+        "Operating Expense": NaN
+    },
+    "2024-03-31": {
+        "Net Income From Continuing Operation Net Minority Interest": -11873000.0,
+        "EBIT": NaN,
+        "Net Income Common Stockholders": -11873000.0,
+        "Net Income": NaN,
+        "Net Income Continuous Operations": NaN,
+        "Operating Expense": NaN
+    }
+}

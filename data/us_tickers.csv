@@ -119,8 +119,10 @@ AGS,PLAYAGS INC,プレイAGS,NYSE,エンターテイメント,○
 AGX,ARGAN INC,アルガン,NYSE,電力,○
 AGYS,AGILYSYS INC,アジリシス,NASDAQ,ソフトウェア・サービス,○
 AHCO,ADAPTHEALTH CORP,アダプトヘルス,NASDAQ,医療サービス,○
+AHL,ASPEN INSURANCE,アスペン・インシュアランス・ホールディングス,NYSE,金融(保険),○
 AI,C3 AI,シースリー・エーアイ,NYSE,ソフトウェア・サービス,○
 AIG,AMERICAN INTER,AIG,NYSE,金融(保険),○
+AII,AME INTEG INSURA,アメリカン・インテグリティ・インシュアランス・グループ,NYSE,金融(保険),○
 AIN,ALBANY INTL,アルバニー・インターナショナル,NYSE,機械,○
 AIOT,POWERFLEET INC,パワーフリート,NASDAQ,通信機器,○
 AIP,ARTERIS INC,アルテリス,NASDAQ,半導体,○
@@ -269,6 +271,7 @@ AQMS,AQUA METALS INC,アクア・メタルズ,NASDAQ,その他製造,○
 AQN,ALGONQUIN POWER,アルゴンキン・パワー・アンド・ユーティリティーズ,NYSE,電力,○
 AQST,AQUESTIVE THERA,アクエスティブ・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 AR,ANTERO RESOURCES,アンテロ・リソーシズ,NYSE,石油,○
+ARAI,ARRIVE AI,アライブ AI,NASDAQ,ソフトウェア・サービス,○
 ARAY,ACCURAY,アキュレイ,NASDAQ,ヘルスケア,○
 ARBE,ARBE ROBOTICS,アーブ・ロボティクス,NASDAQ,その他製造,○
 ARCB,ARCBEST CORP,アークベスト,NASDAQ,運輸,○
@@ -315,6 +318,7 @@ ASND,ASCENDIS PHARMA,アセンディス・ファーマ,NASDAQ,医薬品（バイ
 ASNS,ACTELIS NETWORKS,アクテリス・ネットワークス,NASDAQ,通信機器,○
 ASO,ACADEMY SPRT OUT,アカデミー・スポーツ・アウトドアーズ,NASDAQ,小売,○
 ASPN,ASPEN AEROGELS,アスペン・エアロジェルズ,NYSE,小売,○
+ASPS,ALTISOURCE PFLIO,アルティソース・ポートフォリオ・ソリューションズ,NASDAQ,その他,○
 ASR,GRUPO AEROPRTUAR,グルポ・アエロポルタリオ・デル・スレステ,NYSE,航空,○
 ASRT,ASSERTIO HLD,アサーティオ・ホールディングス,NASDAQ,医薬品（バイオテクノロジー）,○
 ASRV,AMERISER FINANCL,アメリサーブ・ファイナンシャル,NASDAQ,金融（銀行）,○
@@ -407,7 +411,6 @@ AZEK,THE AZEK CO INC,アゼク,NYSE,その他製造,○
 AZN,ASTRAZENECA ADR,アストラゼネカ,NASDAQ,医薬品,○
 AZO,AUTOZONE INC,オートゾーン,NYSE,小売,○
 AZTA,AZENTA INC,アゼンタ,NASDAQ,半導体製造,○
-AZUL,AZUL,アズール,NYSE,航空,○
 AZZ,AZZ INC,AZZ,NYSE,その他製造,○
 B,BARRICK MINING,バリック・マイニング,NYSE,その他,○
 BA,BOEING CO,ボーイング,NYSE,航空機・宇宙,○
@@ -1367,6 +1370,7 @@ ETD,ETHAN ALLN INTRI,イーサン・アレン・インテリアズ,NYSE,小売,�
 ETN,EATON CORP PLC,イートン,NYSE,機械,○
 ETNB,89BIO INC,89バイオ,NASDAQ,医薬品（バイオテクノロジー）,○
 ETON,ETON PHARMACEU,イートン・ファーマスーティカルズ,NASDAQ,医薬品,○
+ETOR,ETORO GROUP,イートロ・グループ,NASDAQ,金融コングロマリット,○
 ETR,ENTERGY CORP,エンタージ,NYSE,その他製造,○
 ETSY,ETSY INC,エッツィー,NASDAQ,小売,○
 ETWO,E2OPEN PARENT,E2オープン・ペアレント・ホールディングス,NYSE,ソフトウェア・サービス,○
@@ -1867,6 +1871,7 @@ HLX,HELIX ENERGY,ヘリックス・エナジー・ソリューションズ・グ
 HMN,HORACE MANN EDU,ホレース・マン・エデュケーターズ,NYSE,金融(保険),○
 HMST,HOMESTREET INC,ホームストリート,NASDAQ,金融（銀行）,○
 HMY,HARMONY GOLD LTD,ハーモニー・ゴールド・マイニング,NYSE,その他,○
+HNGE,HINGE HEALTH,ヒンジ・ヘルス,NYSE,医療サービス,○
 HNI,HNI CORPORATION,HNI,NYSE,その他製造,○
 HNRG,HALLADOR ENERGY,ハラドル・エナジー,NASDAQ,石油,○
 HNST,HONEST COMPANY,オネスト・カンパニー,NASDAQ,トイレタリー,○
@@ -2585,6 +2590,7 @@ MNSB,MAINSTREET BANC,メインストリート・バンクシェアーズ,NASDAQ,
 MNSO,MINISO GROUP,ミニソー・グループ・ホールディングス,NYSE,小売,○
 MNST,MONSTER BEVERAGE,モンスタービバレッジ,NASDAQ,飲料,○
 MNTK,MONTAUK RENEWABL,モントーク・リニューアブルズ,NASDAQ,電力,○
+MNTN,MNTN INC,MNTN,NYSE,その他,○
 MNTS,MOMENTUS INC,モメンタス,NASDAQ,航空機・宇宙,○
 MNY,MONEYHERO,マネーヒーロー,NASDAQ,その他,○
 MO,ALTRIA GROUP INC,アルトリア・グループ,NYSE,食品・タバコ,○
@@ -3808,7 +3814,6 @@ SYK,STRYKER CORP,ストライカー,NYSE,その他製造,○
 SYM,SYMBOTIC INC,シンボティック,NASDAQ,その他製造,○
 SYNA,SYNAPTICS INCORP,シナプティクス,NASDAQ,ソフトウェア・サービス,○
 SYRE,SPYRE THERAPEUT,スパイア・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
-SYT,SYLA TECHNOLOGIE,シーラ・テクノロジーズ,NASDAQ,その他,○
 SYY,SYSCO CORP,シスコ,NYSE,その他,○
 T,AT&T INC.,AT&T,NYSE,通信サービス,○
 TAC,TRANSALTA CORP,トランスアルタ,NYSE,電力,○
