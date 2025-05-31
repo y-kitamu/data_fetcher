@@ -809,7 +809,6 @@ CINT,CIT INC,CI&T,NYSE,ソフトウェア・サービス,○
 CIVB,CIVISTA BANCSHAR,シビスタ・バンクシェアーズ,NASDAQ,金融（銀行）,○
 CIVI,CIVITAS RESOURCE,シビタス・リソーシズ,NYSE,石油,○
 CIX,COMPX INTERNATL,コンペックス・インターナショナル,NYSE,機械,○
-CKPT,CHECKPOINT THERA,チェックポイント･セラピューティックス,NASDAQ,医薬品（バイオテクノロジー）,○
 CL,COLGATE,コルゲート・パルモリブ,NYSE,トイレタリー,○
 CLAR,CLARUS CORP,クラルス,NASDAQ,その他製造,○
 CLB,CORE LABORAT INC,コア・ラボラトリーズ・インク,NYSE,石油,○
@@ -1274,7 +1273,6 @@ EIDO,ISHRS INDONESIA,iシェアーズ MSCI インドネシア ETF,NYSE,その他
 EIG,EMPLOYERS HLD,エンプロイヤーズ・ホールディングス,NYSE,金融(保険),○
 EIPI,FT ENGY INCM ETF,FT エナジー・インカム・パートナーズ・エンハンスト・インカムETF,NYSE,その他,○
 EIX,EDISON INTER,エジソン・インターナショナル,NYSE,電力,○
-EJH,EHOME HOUSE SERV,Eホーム・ハウスホールド・サービス・ホールディングス,NASDAQ,ソフトウェア・サービス,○
 EL,ESTEE LAUDER,エスティ　ローダー,NYSE,ヘルスケア,○
 ELA,ENVELA CORP,エンベラ,NYSE,小売,○
 ELAN,ELANCO ANML HLTH,エランコ･アニマル･ヘルス,NYSE,ヘルスケア,○
@@ -2233,7 +2231,7 @@ KLIC,KULICKE SOFFA,キューリッキ・ソファ・インダストリーズ,NAS
 KLRS,KALARIS THERAPE,カラリス・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 KLTR,KALTURA INC,カルトゥーラ,NASDAQ,ソフトウェア・サービス,○
 KLXE,KLX ENE SRVCS HD,KLXエナジー・サービシズ・ホールディングス,NASDAQ,石油,○
-KMB,KIMBERLY CLARK,キンバリークラーク,NYSE,トイレタリー,○
+KMB,KIMBERLY CLARK,キンバリークラーク,NASDAQ,トイレタリー,○
 KMDA,KAMADA LTD,カマダ,NASDAQ,医薬品（バイオテクノロジー）,○
 KMI,KINDER MORGAN,キンダーモルガン,NYSE,ガス・パイプライン,○
 KMPR,KEMPER CORP,ケンパー,NYSE,金融(保険),○
@@ -3286,7 +3284,6 @@ RBBN,RIBBON COMMUNICA,リボン・コミュニケーションズ,NASDAQ,通信�
 RBC,RBC BEARINGS INC,RBCベアリングス,NYSE,その他製造,○
 RBCAA,REPUBLIC BANC,リパブリック・バンコープ,NASDAQ,金融（銀行）,○
 RBKB,RHINEBECK BANC,ラインベック・バンコープ,NASDAQ,金融（銀行）,○
-RBLX,ROBLOX CORP,ロブロックス,NYSE,ソフトウェア・サービス,○
 RBNE,ROBIN ENERGY,ロビン・エナジー,NASDAQ,電力,○
 RBOT,VICARIOUS SURGIC,バイカリアス・サージカル,NYSE,ヘルスケア,○
 RBRK,RUBRIK INC,ルーブリック,NYSE,ソフトウェア・サービス,○
