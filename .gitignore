@@ -4,6 +4,8 @@
 /data/tmp/
 /data/*/klines/
 /data/rakuten/daily
+/data/tdnet/raw/
+/data/tdnet/download/
 /cert/
 __pycache__/
 *.pyc
