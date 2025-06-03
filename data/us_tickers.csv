@@ -1273,6 +1273,7 @@ EIDO,ISHRS INDONESIA,iシェアーズ MSCI インドネシア ETF,NYSE,その他
 EIG,EMPLOYERS HLD,エンプロイヤーズ・ホールディングス,NYSE,金融(保険),○
 EIPI,FT ENGY INCM ETF,FT エナジー・インカム・パートナーズ・エンハンスト・インカムETF,NYSE,その他,○
 EIX,EDISON INTER,エジソン・インターナショナル,NYSE,電力,○
+EJH,EHOME HOUSE SERV,Eホーム・ハウスホールド・サービス・ホールディングス,NASDAQ,ソフトウェア・サービス,○
 EL,ESTEE LAUDER,エスティ　ローダー,NYSE,ヘルスケア,○
 ELA,ENVELA CORP,エンベラ,NYSE,小売,○
 ELAN,ELANCO ANML HLTH,エランコ･アニマル･ヘルス,NYSE,ヘルスケア,○
@@ -1517,7 +1518,6 @@ FL,FOOT LOCKER INC,フット・ロッカー,NYSE,小売,○
 FLEX,FLEX LTD,フレックス,NASDAQ,その他製造,○
 FLG,FLAGSTAR FNL,フラッグスター・ファイナンシャル,NYSE,金融（銀行）,○
 FLGT,FULGENT GENETICS,フルジェント・ジェネティクス,NASDAQ,ヘルスケア,○
-FLIC,FIRST LONG ISLND,ファースト・オブ・ロング・アイランド,NASDAQ,金融（銀行）,○
 FLL,FULL HOUSE RESRT,フル・ハウス・リゾート,NASDAQ,エンターテイメント,○
 FLNC,FLUENCE ENERGY,フルエンス・エナジー,NASDAQ,電力,○
 FLNG,FLEX LNG LTD,フレックスLNG,NYSE,ガス・パイプライン,○
@@ -1830,7 +1830,6 @@ HDV,ISHARES HIGH DIV,iシェアーズ　コア米国高配当株 ETF,NYSE,その
 HE,HAWAIIAN ELECTRI,ハワイアン・エレクトリック・インダストリーズ,NYSE,コングロマリット,○
 HEAL,GLX HEALTH TECH,グローバルX ヘルステック ETF,NASDAQ,その他,○
 HEDJ,WT EUR HEDGED EQ,ウィズダムツリー  欧州株米ドルヘッジ付ファンド,NYSE,その他,○
-HEES,H&E EQUIPMENT,H&Eエクイップメント・サービシズ,NASDAQ,ソフトウェア・サービス,○
 HEI,HEICO CORP,ハイコ,NYSE,その他製造,○
 HELE,HELEN OF TROY,ヘレン・オブ・トロイ,NASDAQ,その他製造,○
 HEPS,DMARKET ELEC SER,Dマーケット・エレクトロニック・サービシズ・アンド・トレーディング,NASDAQ,ソフトウェア・サービス,○
@@ -3785,7 +3784,7 @@ SUP,SUPER IND INTL,スーペリア・インダストリーズ・インターナ�
 SUPN,SUPERNUS PHARMA,スパーナス・ファーマシューティカルズ,NASDAQ,医薬品,○
 SUPV,GRUPO SUPERVIELL,グルポ・スーパービエル,NYSE,金融（銀行）,○
 SURG,SURGEPAYS INC,サージペイズ,NASDAQ,ソフトウェア・サービス,○
-SUSA,ISHARES ESG SELE,iシェアーズ MSCI 米国 ESG セレクト ETF,NYSE,その他,○
+SUSA,ISRS ESG OPTIMIZ,iシェアーズ ESG 最適化 MSCI 米国 ETF,NYSE,その他,○
 SUZ,SUZANO PAPEL,スザーノ・パペル・エ・セルロース,NYSE,紙・パルプ,○
 SVCO,SILVACO GROUP,シルバコ・グループ,NASDAQ,半導体,○
 SVM,SILVERCORP METAL,シルバーコープ・メタルズ,NYSE,その他,○
