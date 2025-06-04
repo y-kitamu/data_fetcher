@@ -815,7 +815,6 @@ CLB,CORE LABORAT INC,コア・ラボラトリーズ・インク,NYSE,石油,○
 CLBK,COLUMBIA FINANC,コロンビア・ファイナンシャル,NASDAQ,金融（銀行）,○
 CLBT,CELLEBRITE DI,セレブライトDI,NASDAQ,ソフトウェア・サービス,○
 CLDX,CELLDEX THERAPEU,セルデックス・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
-CLEU,CH LBERAL EDUCAT,チャイナ・リベラル・エデュケーション・ホールディングス,NASDAQ,ソフトウェア・サービス,○
 CLF,CRELANDAND-CLIFF,クリーブランド・クリフス,NYSE,その他製造,○
 CLFD,CLEARFIELD INC,クリアフィールド,NASDAQ,通信機器,○
 CLGN,COLLPLANT BIO,コルプラント・バイオテクノロジーズ,NASDAQ,医薬品,○
@@ -2217,6 +2216,7 @@ KEYS,KEYSIGHT TECH,キイサイト・テクノロジー,NYSE,周辺機器,○
 KFRC,KFORCE INC,Kフォース,NYSE,ソフトウェア・サービス,○
 KFS,KINGSWAY FIN SRV,キングズウェイ・ファイナンシャル・サービシズ,NYSE,金融(保険),○
 KFY,KORN FERRY,コーン・フェリー,NYSE,ソフトウェア・サービス,○
+KG,KESTREL GROUP,ケストレル・グループ,NASDAQ,金融(保険),○
 KGC,KINROSS GOLD,キンロス・ゴールド,NYSE,その他,○
 KHC,KRAFT HEINZ CO,クラフト・ハインツ,NASDAQ,食品,○
 KIDS,ORTHOPEDIATRICS,オーソピディアトリックス,NASDAQ,ヘルスケア,○
@@ -3283,6 +3283,7 @@ RBBN,RIBBON COMMUNICA,リボン・コミュニケーションズ,NASDAQ,通信�
 RBC,RBC BEARINGS INC,RBCベアリングス,NYSE,その他製造,○
 RBCAA,REPUBLIC BANC,リパブリック・バンコープ,NASDAQ,金融（銀行）,○
 RBKB,RHINEBECK BANC,ラインベック・バンコープ,NASDAQ,金融（銀行）,○
+RBLX,ROBLOX CORP,ロブロックス,NYSE,ソフトウェア・サービス,○
 RBNE,ROBIN ENERGY,ロビン・エナジー,NASDAQ,電力,○
 RBOT,VICARIOUS SURGIC,バイカリアス・サージカル,NYSE,ヘルスケア,○
 RBRK,RUBRIK INC,ルーブリック,NYSE,ソフトウェア・サービス,○
