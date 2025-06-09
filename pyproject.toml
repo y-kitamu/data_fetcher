@@ -24,6 +24,7 @@ yfinance = "0.2.61"
 fastapi = {extras = ["all"], version = "^0.115.11"}
 websocket-client = "^1.8.0"
 arelle-release = "^2.37.12"
+fastexcel = "^0.14.0"
 
 [tool.poetry.group.dev.dependencies]
 watchdog = "^6.0.0"
