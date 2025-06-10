@@ -37,7 +37,6 @@ ACEL,ACCEL ENTMT INC,アクセル・エンターテインメント,NYSE,エン�
 ACET,ADICET BIO INC,アディセット・バイオ,NASDAQ,医薬品（バイオテクノロジー）,○
 ACGL,ARCH CAPITAL,アーチ・キャピタル・グループ,NASDAQ,金融(保険),○
 ACHC,ACADIA HEALTHCAR,アカディア・ヘルスケア,NASDAQ,ヘルスケア,○
-ACHL,ACHILLES THERAPE,アキレス・セラピューティクス,NASDAQ,医薬品,○
 ACHR,ARCHER AVIATION,アーチャー・アビエーション,NYSE,航空機・宇宙,○
 ACHV,ACHIEVE LIFE SC,アチーブ・ライフ・サイエンシズ,NASDAQ,医薬品（バイオテクノロジー）,○
 ACI,ALBERTSONS COMP,アルバートソンズ,NYSE,小売,○
@@ -983,7 +982,7 @@ CSPI,CSP INC,CSP,NASDAQ,ソフトウェア・サービス,○
 CSTE,CAESARSTONE,シーザーストーン,NASDAQ,その他製造,○
 CSTL,CASTLE BIOSCIENC,キャッスル･バイオサイエンシズ,NASDAQ,ヘルスケア,○
 CSV,CARRIAGE SERVICE,キャリエージ・サービス,NYSE,ソフトウェア・サービス,○
-CSWI,CSW INDUSTRIALS,CSWインダストリアルズ,NASDAQ,その他製造,○
+CSW,CSW INDUSTRIALS,CSWインダストリアルズ,NYSE,その他製造,○
 CSX,CSX CORP,CSX,NASDAQ,運輸,○
 CTAS,CINTAS CORP,シンタス,NASDAQ,その他製造,○
 CTBI,COMMUNITY TRUST,コミュニティ・トラスト・バンコープ,NASDAQ,金融（銀行）,○
@@ -2925,6 +2924,7 @@ OM,OUTSET MEDICAL,アウトセット・メディカル,NASDAQ,ヘルスケア,�
 OMAB,GRUPO AEROPORT,グルポ・エアロポルチュアリオ・デル・セントロ・ノルテ,NASDAQ,航空,○
 OMC,OMNICOM GROUP,オムニコム・グループ,NYSE,その他,○
 OMCL,OMNICELL INC,オムニセル,NASDAQ,ソフトウェア・サービス,○
+OMDA,OMADA HEALTH,オマダ・ヘルス,NASDAQ,ヘルスケア,○
 OMER,OMEROS CORP,オメロス,NASDAQ,医薬品（バイオテクノロジー）,○
 OMF,ONEMAIN HOLDINGS,ワンメイン・ホールディングス,NYSE,金融（銀行）,○
 OMI,OWENS MINOR INC,オーエンズ・アンド・マイナー,NYSE,医療サービス,○
