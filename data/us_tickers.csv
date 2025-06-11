@@ -827,7 +827,6 @@ CLOU,GLOBAL X CLOUD,グローバルX クラウド・コンピューティング 
 CLOV,CLOVER HEALTH,クローバー・ヘルス・インベストメント,NASDAQ,ヘルスケア,○
 CLPS,CLPS INC,CLPS,NASDAQ,ソフトウェア・サービス,○
 CLPT,CLEARPOINT NEURO,クリアポイント・ニューロ,NASDAQ,医薬品,○
-CLRO,CLEARONE INC,クリアワン,NASDAQ,その他製造,○
 CLS,CELESTICA INC,セレスティカ,NYSE,ソフトウェア・サービス,○
 CLSD,CLEARSIDE BIOMED,クリアサイド・バイオメディカル,NASDAQ,医薬品（バイオテクノロジー）,○
 CLSK,CLEANSPARK INC,クリーンスパーク,NASDAQ,電力,○
@@ -2876,7 +2875,6 @@ NXXT,NEXTNRG INC,ネクストNRG,NASDAQ,石油,○
 NYT,NEW YORK TIMES,ニューヨーク・タイムズ,NYSE,その他,○
 NYXH,NYXOAH SA,ニクソア,NASDAQ,ヘルスケア,○
 OABI,OMNIAB,オムニアエービー,NASDAQ,医薬品（バイオテクノロジー）,○
-OB,OUTBRAIN INC,アウトブレイン,NASDAQ,ソフトウェア・サービス,○
 OBE,OBSIDIAN ENERGY,オブシディアン・エナジー,NYSE,石油,○
 OBIO,ORCHESTRA BIOMED,オーケストラ・バイオメッド・ホールディングス,NASDAQ,医薬品,○
 OBK,ORIGIN BANCORP,オリジン・バンコープ,NYSE,金融（銀行）,○
@@ -3853,6 +3851,7 @@ TDUP,THREDUP INC,スレッドアップ,NASDAQ,小売,○
 TDW,TIDEWATER INC,タイドウォーター,NYSE,石油,○
 TDY,TELEDYNE TECH,テレダイン・テクノロジーズ,NYSE,通信機器,○
 TE,T1 ENERGY INC,T1エナジー,NYSE,その他製造,○
+TEAD,TEADS HOLDING CO,ティーズ・ホールディング,NASDAQ,ソフトウェア・サービス,○
 TEAM,ATLASSIAN CORP A,アトラシアン　クラスA,NASDAQ,ソフトウェア・サービス,○
 TECH,BIO-TECHNE CORP,バイオテクネ,NASDAQ,医薬品（バイオテクノロジー）,○
 TECK,TECK RESOURCES,テック・リソーシズ,NYSE,その他,○
