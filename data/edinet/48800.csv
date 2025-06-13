@@ -855,3 +855,13 @@ gross_profit,2022-11-01,2023-10-31,jppfs_cor:GrossProfit,Prior1YearDuration_NonC
 gross_profit,2023-11-01,2024-10-31,jppfs_cor:GrossProfit,CurrentYearDuration_NonConsolidatedMember,2417411000,202501311535
 operating_income,2022-11-01,2023-10-31,jppfs_cor:OperatingIncome,Prior1YearDuration_NonConsolidatedMember,1221499000,202501311535
 operating_income,2023-11-01,2024-10-31,jppfs_cor:OperatingIncome,CurrentYearDuration_NonConsolidatedMember,129158000,202501311535
+net_sales,2024-11-01,2025-10-31,jpcrp_cor:NetSalesSummaryOfBusinessResults,CurrentYTDDuration,1820503000,202506121535
+ordinary_income,2024-11-01,2025-10-31,jpcrp_cor:OrdinaryIncomeLossSummaryOfBusinessResults,CurrentYTDDuration,18950000,202506121535
+net_asset,2024-11-01,2025-10-31,jpcrp_cor:NetAssetsSummaryOfBusinessResults,CurrentQuarterInstant,5947642000,202506121535
+total_asset,2024-11-01,2025-10-31,jpcrp_cor:TotalAssetsSummaryOfBusinessResults,CurrentQuarterInstant,6941799000,202506121535
+eps,2024-11-01,2025-10-31,jpcrp_cor:BasicEarningsLossPerShareSummaryOfBusinessResults,CurrentYTDDuration,0.56,202506121535
+diluted_eps,2024-11-01,2025-10-31,jpcrp_cor:DilutedEarningsPerShareSummaryOfBusinessResults,CurrentYTDDuration,0.56,202506121535
+equity_ratio,2024-11-01,2025-10-31,jpcrp_cor:EquityToAssetRatioSummaryOfBusinessResults,CurrentQuarterInstant,0.851,202506121535
+cost_of_sales,2024-11-01,2025-10-31,jppfs_cor:CostOfSales,CurrentYTDDuration,799133000,202506121535
+gross_profit,2024-11-01,2025-10-31,jppfs_cor:GrossProfit,CurrentYTDDuration,1021370000,202506121535
+operating_income,2024-11-01,2025-10-31,jppfs_cor:OperatingIncome,CurrentYTDDuration,17073000,202506121535
