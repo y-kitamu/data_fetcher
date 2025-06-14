@@ -297,7 +297,6 @@ ARQ,ARQ INC,ARQインク,NASDAQ,ガス・パイプライン,○
 ARQQ,ARQIT QUANTUM,アーキット・クオンタム,NASDAQ,ソフトウェア・サービス,○
 ARQT,ARCUTIS BIOTHERA,アークティス・バイオセラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 ARRY,ARRAY TECHNO,アレイ・テクノロジーズ,NASDAQ,電力,○
-ARTL,ARTELO BIOSCIENC,アルテロ・バイオサイエンシズ,NASDAQ,医薬品（バイオテクノロジー）,○
 ARTNA,ARTESIAN RESRCS,アルテシアン・リソーシズ,NASDAQ,その他,○
 ARTW,ARTSWAY MANUFACT,アーツ・ウェイ・マニュファクチャリング,NASDAQ,機械,○
 ARVN,ARVINAS INC,アルビナス,NASDAQ,医薬品（バイオテクノロジー）,○
@@ -743,7 +742,6 @@ CDW,CDW CORPORATION,CDW,NASDAQ,ソフトウェア・サービス,○
 CDXS,CODEXIS INC,コデクシス,NASDAQ,化学,○
 CDZI,CADIZ INC,カディス,NASDAQ,その他,○
 CE,CELANESE CORP,セラニーズ,NYSE,化学,○
-CEAD,CEA INDUSTRIES,CEAインダストリーズ,NASDAQ,その他製造,○
 CECO,CECO ENVRONMNTAL,CECOエンバイロメンタル,NASDAQ,その他,○
 CEG,CONSTELLATN ENE,コンステレーション・エネルギー,NASDAQ,電力,○
 CELC,CELCUITY INC,セルクイティ,NASDAQ,医薬品,○
@@ -794,6 +792,7 @@ CHT,CHUNGHWA LTD,チョンホア・テレコム (中華電信),NYSE,通信サー
 CHTR,CHARTER COMMUNIC,チャーター・コミュニケーションズ,NASDAQ,通信サービス,○
 CHWY,CHEWY INC,チューイー,NYSE,小売,○
 CHX,CHAMPIONX CORP,チャンピオンX・コーポレーション,NASDAQ,機械,○
+CHYM,CHIME FINANCIAL,チャイム・ファイナンシャル,NASDAQ,金融（銀行）,○
 CI,THE CIGNA GROUP,シグナ・グループ,NYSE,医療サービス,○
 CIA,CITIZENS INC,シチズンズ,NYSE,金融(保険),○
 CIB,GRUPO CIBEST,グルポ・シーベスト,NYSE,金融コングロマリット,○
@@ -4133,6 +4132,7 @@ VAL,VALARIS LTD,バラリス,NYSE,石油,○
 VALE,VALE SA,ヴァーレ,NYSE,アルミ,○
 VALU,VALUE LINE INC,バリューライン,NASDAQ,エンターテイメント,○
 VANI,VIVANI MEDICAL,ビバニ・メディカル,NASDAQ,医薬品,○
+VAPE,CEA INDUSTRIES,CEAインダストリーズ,NASDAQ,その他製造,○
 VATE,INNOVATE,イノベート,NYSE,通信サービス,○
 VAW,VA MATERIALS,バンガード・米国素材セクターETF,NYSE,その他,○
 VB,VANGUARD SML-CAP,バンガード・スモールキャップETF,NYSE,その他,○
