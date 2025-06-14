@@ -139,3 +139,10 @@ number_of_shares,2020-11-01,2021-10-31,jpcrp_cor:TotalNumberOfIssuedSharesSummar
 number_of_shares,2023-11-01,2024-10-31,jpcrp_cor:TotalNumberOfIssuedSharesSummaryOfBusinessResults,CurrentYearInstant_NonConsolidatedMember,2025190,202501301434
 operating_income,2022-11-01,2023-10-31,jppfs_cor:OperatingIncome,Prior1YearDuration_NonConsolidatedMember,114662000,202501301434
 operating_income,2023-11-01,2024-10-31,jppfs_cor:OperatingIncome,CurrentYearDuration_NonConsolidatedMember,216807000,202501301434
+ordinary_income,2024-11-01,2025-10-31,jpcrp_cor:OrdinaryIncomeLossSummaryOfBusinessResults,CurrentYTDDuration,29345000,202506131603
+net_asset,2024-11-01,2025-10-31,jpcrp_cor:NetAssetsSummaryOfBusinessResults,CurrentQuarterInstant,758306000,202506131603
+total_asset,2024-11-01,2025-10-31,jpcrp_cor:TotalAssetsSummaryOfBusinessResults,CurrentQuarterInstant,1206837000,202506131603
+eps,2024-11-01,2025-10-31,jpcrp_cor:BasicEarningsLossPerShareSummaryOfBusinessResults,CurrentYTDDuration,18.90,202506131603
+diluted_eps,2024-11-01,2025-10-31,jpcrp_cor:DilutedEarningsPerShareSummaryOfBusinessResults,CurrentYTDDuration,18.64,202506131603
+equity_ratio,2024-11-01,2025-10-31,jpcrp_cor:EquityToAssetRatioSummaryOfBusinessResults,CurrentQuarterInstant,0.628,202506131603
+operating_income,2024-11-01,2025-10-31,jppfs_cor:OperatingIncome,CurrentYTDDuration,29856000,202506131603
