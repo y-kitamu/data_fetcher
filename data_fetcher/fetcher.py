@@ -2,7 +2,7 @@
 
 import datetime
 
-from . import base_fetcher, binance, gmo, histdata
+from . import base_fetcher, binance, gmo, histdata, kabutan
 
 
 def get_fetcher(source: str) -> base_fetcher.BaseFetcher:
@@ -12,12 +12,14 @@ def get_fetcher(source: str) -> base_fetcher.BaseFetcher:
         return binance.binance_fetcher.BinanceFetcher()
     elif source == "histdata":
         return histdata.histdata_fetcher.HistDataFetcher()
+    elif source == "kabutan":
+        return kabutan.KabutanFetcher()
     else:
         raise ValueError(f"Unknown source: {source}")
 
 
 def get_available_sources() -> list[str]:
-    return ["gmo", "binance", "histdata"]
+    return ["gmo", "binance", "histdata", "kabutan"]
 
 
 def convert_str_to_datetime(date_str: str) -> datetime.datetime:
