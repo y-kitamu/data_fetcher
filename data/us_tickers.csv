@@ -2015,6 +2015,7 @@ ILMN,ILLUMINA INC,イルミナ,NASDAQ,医薬品（バイオテクノロジー）
 IMAB,I-MAB,アイ・マブ,NASDAQ,医薬品（バイオテクノロジー）,○
 IMAX,IMAX CORPORATION,アイマックス,NYSE,エンターテイメント,○
 IMCR,IMMUNOCORE HOLD,イムノコア・ホールディングス,NASDAQ,医薬品（バイオテクノロジー）,○
+IMDX,INSIGHT MOLECULR,インサイト・モレキュラー・ダイアグノスティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 IMG,CIMG INC,シーアイエムジー,NASDAQ,飲料,○
 IMKTA,INGLES MARKETS,イングルス・マーケッツ,NASDAQ,小売,○
 IMMR,IMMERSION CORP,イマージョン,NASDAQ,ソフトウェア・サービス,○
@@ -2888,7 +2889,6 @@ OCGN,OCUGEN INC,オキュゲン,NASDAQ,医薬品,○
 OCS,OCULIS HOLDING,オキュリス・ホールディング,NASDAQ,医薬品（バイオテクノロジー）,○
 OCTO,EIGHTCO HOLDINGS,エイトコ・ホールディングス,NASDAQ,金融（証券）,○
 OCUL,OCULAR THERAPEUT,オキュラー・セラピューティクス,NASDAQ,ヘルスケア,○
-OCX,ONCOCYTE CORP,オンコサイト,NASDAQ,医薬品（バイオテクノロジー）,○
 ODC,OIL DRI CO AMER,オイル・ドリ・コーポレーション・オブ・アメリカ,NYSE,化学,○
 ODFL,OLD DOMINION FRE,オールド・ドミニオン・フレイト・ライン,NASDAQ,運輸,○
 ODP,OFFICE DEPOT INC,オフィス・デポ,NASDAQ,小売,○
@@ -3271,6 +3271,7 @@ RACE,FERRARI NV,フェラーリ,NYSE,自動車,○
 RAIL,FREIGHTCAR AMER,フレイトカー・アメリカ,NASDAQ,その他製造,○
 RAMP,LIVERAMP HLD INC,ライブランプ,NYSE,ソフトウェア・サービス,○
 RANI,RANI THERAPEUTIC,ラニ・セラピューティック・ホールディングス,NASDAQ,医薬品（バイオテクノロジー）,○
+RAPT,RAPT THERAPEU,RAPTセラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 RARE,ULTRAGNYX PHARMA,ウルトラジェニックス・ファーマシューティカル,NASDAQ,医薬品（バイオテクノロジー）,○
 RAVE,RAVE RESTAURANT,レイヴ・レストラン・グループ,NASDAQ,外食,○
 RBA,RB GLOBAL,RBグローバル,NYSE,専門店,○
@@ -4399,7 +4400,6 @@ WVVI,WILLAMETTE VINE,ウィラメットバレー・ビンヤーズ,NASDAQ,飲料
 WWD,WOODWARD INC,ウッドワードガバナー,NASDAQ,機械,○
 WWW,WOLVERN WLD WIDE,ウルヴァリン･ワールド･ワイド,NYSE,フットウエア,○
 WYNN,WYNN RESORTS,ウィン・リゾーツ,NASDAQ,ホテル,○
-X,US STEEL,USスチール,NYSE,その他,○
 XBIO,XENETIC BIOSCE,ゼネティック・バイオサイエンシズ,NASDAQ,医薬品（バイオテクノロジー）,○
 XBIT,XBIOTECH INC,Xバイオテック,NASDAQ,医薬品（バイオテクノロジー）,○
 XCUR,EXICURE INC,エクシキュア,NASDAQ,医薬品（バイオテクノロジー）,○
