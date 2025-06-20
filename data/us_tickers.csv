@@ -673,6 +673,7 @@ CADL,CANDEL THERAPEU,キャンデル・セラピューティクス,NASDAQ,医薬
 CAE,CAE INC,CAE,NYSE,航空,○
 CAG,CONAGRA BRANDS,コナグラ・ブランズ,NYSE,食品,○
 CAH,CARDINAL HEALTH,カーディナルヘルス,NYSE,医薬品,○
+CAI,CARIS LIFE SCI,ケアリス・ライフ・サイエンス,NASDAQ,ヘルスケア,○
 CAKE,CHEESECAKE,ザ・チーズケーキ・ファクトリー,NASDAQ,食品,○
 CAL,CALERES INC,カラレス,NYSE,フットウエア,○
 CALC,CALCIMEDICA INC,カルシメディカ,NASDAQ,医薬品（バイオテクノロジー）,○
@@ -3587,6 +3588,7 @@ SKYY,FT CLOUD COMPUT,ファーストトラスト クラウドコンピューテ�
 SLAB,SILICON LABO,シリコン・ラボラトリーズ,NASDAQ,半導体,○
 SLB,SCHLUMBERGER,シュルンベルジェ,NYSE,石油,○
 SLDB,SOLID BIOSCIENCE,ソリッド・バイオサイエンシズ,NASDAQ,医薬品（バイオテクノロジー）,○
+SLDE,SLIDE INSURANCE,スライド・インシュアランス,NASDAQ,金融(保険),○
 SLDP,SOLID POWER INC,ソリッド・パワー,NASDAQ,自動車,○
 SLF,SUN LIFE FINANCI,サン・ライフ・ファイナンシャル,NYSE,金融(保険),○
 SLGN,SILGAN HOLDINGS,シルガン・ホールディングズ,NYSE,その他製造,○
@@ -4076,7 +4078,6 @@ ULY,URGENTLY INC,アージェントリー,NASDAQ,情報処理サービス,○
 UMBF,UMB FINANCIAL,UMBファイナンシャル,NASDAQ,金融（銀行）,○
 UMC,UNITED MICRO,ユナイテッド・マイクロエレクトロニクス,NYSE,半導体,○
 UNB,UNION BANKSHARES,ユニオン・バンクシェアズ,NASDAQ,金融（銀行）,○
-UNCY,UNICYCIVE THERA,ユニサイシブ・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 UNF,UNIFIRST CORP,ユニファースト,NYSE,その他製造,○
 UNFI,UNITED NATURAL F,ユナイテッド・ナチュラルフーズ,NYSE,食品,○
 UNH,UNITED HEALTH,ユナイテッドヘルス・グループ,NYSE,医療サービス,○
@@ -4442,7 +4443,6 @@ XSOE,WT EM EX STATE,ウィズダムツリー新興国株ニューエコノミー
 XTIA,XTI AEROSPACE,XTIエアロスペース,NASDAQ,ソフトウェア・サービス,○
 XTKG,X3 HOLDINGS,X3ホールディングス,NASDAQ,ソフトウェア・サービス,○
 XWEL,XWELL,エクスウェル,NASDAQ,ソフトウェア・サービス,○
-XXII,22ND CENTURY GR,22ndセンチュリー・グループ,NASDAQ,食品・タバコ,○
 XYF,X FINANCIAL,エックス・ファイナンシャル,NYSE,金融（銀行）,○
 XYL,XYLEM INC,ザイレム,NYSE,その他製造,○
 XYLD,GLBLX SP500 CC,グローバルＸ S&P500・カバード・コール ETF,NYSE,その他,○
