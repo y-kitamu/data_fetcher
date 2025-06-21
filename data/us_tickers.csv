@@ -600,7 +600,6 @@ BRKR,BRUKER CORP,ブルカー,NASDAQ,ヘルスケア,○
 BRLT,BRILLIANT EARTH,ブリリアント・アース,NASDAQ,小売,○
 BRNS,BARINTHUS BIOTH,バリンサス・バイオセラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 BRO,BROWN AND BROWN,ブラウン・アンド・ブラウン,NYSE,金融(保険),○
-BROG,BROOGE ENERGY,ブルージ・エネルギー,NASDAQ,ガス・パイプライン,○
 BROS,DUTCH BROS INC,ダッチ・ブロス,NYSE,外食,○
 BRTX,BIORESTORATIVE,バイオレストラティブ・セラピーズ,NASDAQ,医薬品（バイオテクノロジー）,○
 BRY,BERRY CORP,ベリーコーポレーション,NASDAQ,石油,○
@@ -4078,6 +4077,7 @@ ULY,URGENTLY INC,アージェントリー,NASDAQ,情報処理サービス,○
 UMBF,UMB FINANCIAL,UMBファイナンシャル,NASDAQ,金融（銀行）,○
 UMC,UNITED MICRO,ユナイテッド・マイクロエレクトロニクス,NYSE,半導体,○
 UNB,UNION BANKSHARES,ユニオン・バンクシェアズ,NASDAQ,金融（銀行）,○
+UNCY,UNICYCIVE THERA,ユニサイシブ・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 UNF,UNIFIRST CORP,ユニファースト,NYSE,その他製造,○
 UNFI,UNITED NATURAL F,ユナイテッド・ナチュラルフーズ,NYSE,食品,○
 UNH,UNITED HEALTH,ユナイテッドヘルス・グループ,NYSE,医療サービス,○
@@ -4443,6 +4443,7 @@ XSOE,WT EM EX STATE,ウィズダムツリー新興国株ニューエコノミー
 XTIA,XTI AEROSPACE,XTIエアロスペース,NASDAQ,ソフトウェア・サービス,○
 XTKG,X3 HOLDINGS,X3ホールディングス,NASDAQ,ソフトウェア・サービス,○
 XWEL,XWELL,エクスウェル,NASDAQ,ソフトウェア・サービス,○
+XXII,22ND CENTURY GR,22ndセンチュリー・グループ,NASDAQ,食品・タバコ,○
 XYF,X FINANCIAL,エックス・ファイナンシャル,NYSE,金融（銀行）,○
 XYL,XYLEM INC,ザイレム,NYSE,その他製造,○
 XYLD,GLBLX SP500 CC,グローバルＸ S&P500・カバード・コール ETF,NYSE,その他,○
