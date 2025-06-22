@@ -600,7 +600,6 @@ BRKR,BRUKER CORP,ブルカー,NASDAQ,ヘルスケア,○
 BRLT,BRILLIANT EARTH,ブリリアント・アース,NASDAQ,小売,○
 BRNS,BARINTHUS BIOTH,バリンサス・バイオセラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 BRO,BROWN AND BROWN,ブラウン・アンド・ブラウン,NYSE,金融(保険),○
-BROG,BROOGE ENERGY,ブルージ・エネルギー,NASDAQ,ガス・パイプライン,○
 BROS,DUTCH BROS INC,ダッチ・ブロス,NYSE,外食,○
 BRTX,BIORESTORATIVE,バイオレストラティブ・セラピーズ,NASDAQ,医薬品（バイオテクノロジー）,○
 BRY,BERRY CORP,ベリーコーポレーション,NASDAQ,石油,○
@@ -673,6 +672,7 @@ CADL,CANDEL THERAPEU,キャンデル・セラピューティクス,NASDAQ,医薬
 CAE,CAE INC,CAE,NYSE,航空,○
 CAG,CONAGRA BRANDS,コナグラ・ブランズ,NYSE,食品,○
 CAH,CARDINAL HEALTH,カーディナルヘルス,NYSE,医薬品,○
+CAI,CARIS LIFE SCI,ケアリス・ライフ・サイエンス,NASDAQ,ヘルスケア,○
 CAKE,CHEESECAKE,ザ・チーズケーキ・ファクトリー,NASDAQ,食品,○
 CAL,CALERES INC,カラレス,NYSE,フットウエア,○
 CALC,CALCIMEDICA INC,カルシメディカ,NASDAQ,医薬品（バイオテクノロジー）,○
@@ -3587,6 +3587,7 @@ SKYY,FT CLOUD COMPUT,ファーストトラスト クラウドコンピューテ�
 SLAB,SILICON LABO,シリコン・ラボラトリーズ,NASDAQ,半導体,○
 SLB,SCHLUMBERGER,シュルンベルジェ,NYSE,石油,○
 SLDB,SOLID BIOSCIENCE,ソリッド・バイオサイエンシズ,NASDAQ,医薬品（バイオテクノロジー）,○
+SLDE,SLIDE INSURANCE,スライド・インシュアランス,NASDAQ,金融(保険),○
 SLDP,SOLID POWER INC,ソリッド・パワー,NASDAQ,自動車,○
 SLF,SUN LIFE FINANCI,サン・ライフ・ファイナンシャル,NYSE,金融(保険),○
 SLGN,SILGAN HOLDINGS,シルガン・ホールディングズ,NYSE,その他製造,○
