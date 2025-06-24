@@ -2266,7 +2266,6 @@ KRMN,TCFIII SPACECO,TCFIII スペースコ・ホールディングス,NYSE,航�
 KRNT,KORNIT DIGITAL,コーニット・デジタル,NASDAQ,その他製造,○
 KRNY,KEARNY FINANCIAL,カーニー・ファイナンシャル,NASDAQ,金融（銀行）,○
 KRO,KRONOS WORLDWIDE,クロノス・ワールドワイド,NYSE,化学,○
-KRON,KRONOS BIO INC,クロノス・バイオ,NASDAQ,医薬品（バイオテクノロジー）,○
 KROP,GLBLX AGTECH FD,グローバルＸ 農業テック＆フード ETF,NASDAQ,その他,○
 KROS,KEROS THERAPEU,ケロス・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 KRRO,KORRO BIO,コロ・バイオ,NASDAQ,医薬品（バイオテクノロジー）,○
@@ -2778,6 +2777,7 @@ NNI,NELNET INC,ネルネット,NYSE,その他,○
 NNOX,NANO X IMAGING,ナノエックス・イメージング,NASDAQ,ヘルスケア,○
 NOA,NORTH AMRCN CNST,ノース・アメリカン・コンストラクション・グループ,NYSE,石油,○
 NOAH,NOAH HOLDINGS,ノアホールディングス,NYSE,金融コングロマリット,○
+NOBL,PROS SP500 D ARS,プロシェアーズ・S&P 500配当貴族ETF,Cboe,その他,○
 NOC,NORTHROP GRUMMAN,ノースロップ・グラマン,NYSE,航空機・宇宙,○
 NODK,NI HOLDINGS INC,NIホールディングス,NASDAQ,金融(保険),○
 NOG,NOR OIL AND GAS,ノーザン･オイル･アンド･ガス,NYSE,石油,○
@@ -2855,6 +2855,7 @@ NVT,NVENT ELECTRIC,エヌヴェント・エレクトリック,NYSE,機械,○
 NVTS,NAVITAS SEMICON,ナビタス・セミコンダクター,NASDAQ,半導体,○
 NVVE,NUVVE HOLDING,ヌービー・ホールディング,NASDAQ,ソフトウェア・サービス,○
 NVX,NOVONIX LTD,ノボニックス,NASDAQ,その他製造,○
+NVYY,GNS YLDBST NVDA,グラナイトシェアーズイールドブースト・エヌビディアETF,NASDAQ,その他,○
 NWBI,NORTHWST BANCSHR,ノースウェスト・バンクシェアーズ,NASDAQ,金融（銀行）,○
 NWE,NORTHWESTERN EG,ノースウェスタン・エナジー・グループ,NASDAQ,電力,○
 NWFL,NORWOOD FNANCIAL,ノーウッド・ファイナンシャル,NASDAQ,金融（銀行）,○
@@ -3999,6 +4000,7 @@ TSMX,DRX TSM BL2X,Direxion デイリー TSM ブル 2 倍 ETF,NASDAQ,その他,�
 TSMZ,DRX TSM BR1X,Direxion デイリー TSM 株 ベア 1 倍 ETF,NASDAQ,その他,○
 TSN,TYSON FOODS,タイソン・フーズ,NYSE,食品,○
 TSQ,TOWNSQUARE MEDIA,タウンスクエア・メディア,NYSE,エンターテイメント,○
+TSYY,GNS YLDBST TSLA,グラナイトシェアーズイールドブースト・テスラETF,NASDAQ,その他,○
 TT,TRANE TECHNOLOGI,トレイン　テクノロジーズ,NYSE,機械,○
 TTAM,TITAN AMERICA SA,タイタン・アメリカ,NYSE,その他製造,○
 TTAN,SERVICETITAN,サービスタイタン,NASDAQ,ソフトウェア・サービス,○
