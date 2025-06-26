@@ -582,7 +582,7 @@
         "Total Unusual Items Excluding Goodwill": -2200000.0,
         "Net Income From Continuing Operation Net Minority Interest": 15200000.0,
         "Reconciled Depreciation": 6500000.0,
-        "Reconciled Cost Of Revenue": 539600000.0,
+        "Reconciled Cost Of Revenue": 533700000.0,
         "EBITDA": 30900000.0,
         "EBIT": 24400000.0,
         "Net Interest Income": -6500000.0,
@@ -726,7 +726,7 @@
     },
     "2025-01-31": {
         "Tax Effect Of Unusual Items": 0.0,
-        "Tax Rate For Calcs": 0.173,
+        "Tax Rate For Calcs": 0.172727,
         "Normalized EBITDA": 34000000.0,
         "Total Unusual Items": 0.0,
         "Total Unusual Items Excluding Goodwill": 0.0,
