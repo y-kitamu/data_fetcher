@@ -404,7 +404,6 @@ AXSM,AXSOME THERAPEUT,アクサム・セラピューティクス,NASDAQ,医薬�
 AXTA,AXALTA COATING,アクサルタ・コーティング・システムズ,NYSE,化学,○
 AXTI,AXT INC,AXT,NASDAQ,半導体,○
 AYI,ACUITY,アキュイティー,NYSE,その他製造,○
-AYRO,AYRO INC,アイロ,NASDAQ,自動車,○
 AYTU,AYTU BIOPHARMA,アイトゥ・バイオファーマ,NASDAQ,医薬品,○
 AZEK,THE AZEK CO INC,アゼク,NYSE,その他製造,○
 AZN,ASTRAZENECA ADR,アストラゼネカ,NASDAQ,医薬品,○
@@ -1067,6 +1066,7 @@ DATS,DATCHAT INC,ダットチャット,NASDAQ,ソフトウェア・サービス,
 DAVA,ENDAVA LTD,エンダバ,NYSE,ソフトウェア・サービス,○
 DAVE,DAVE INC,デイブ,NASDAQ,金融コングロマリット,○
 DAWN,DAY ONE BIOPHARM,デイ・ワン・バイオファーマシューティカルズ,NASDAQ,医薬品（バイオテクノロジー）,○
+DAX,GLX DAX GERMANY,グローバルX DAX ドイツ株式ETF,NASDAQ,その他,○
 DAY,DAYFORCE INC,デイフォース,NYSE,ソフトウェア・サービス,○
 DB,DEUTSCHE BANK AG,ドイツ銀行,NYSE,金融（銀行）,○
 DBI,DSW INC CLASS A,デザイナー・ブランズ,NYSE,専門店,○
@@ -1205,7 +1205,7 @@ DWTX,DOGWOOD THERAPE,ドッグウッド・セラピューティクス,NASDAQ,医
 DXC,DXC TECHNOLOGY,DXC テクノロジー,NYSE,情報処理サービス,○
 DXCM,DEXCOM INC,デクスコム,NASDAQ,ヘルスケア,○
 DXJ,WT JPN HEDGED EQ,ウィズダムツリー  日本株米ドルヘッジ付ファンド,NYSE,その他,○
-DXJS,WT JP HG SML EQ,ウィズダムツリー  日本小型株米ドルヘッジ付ファンド,NASDAQ,その他,○
+DXJS,WT JP OPPOTUNITI,ウィズダムツリー　日本株　オポチュニティーズ,NASDAQ,その他,○
 DXLG,DESTINATION XL,デスティネーションXLグループ,NASDAQ,小売,○
 DXPE,DXP ENTERPRISES,DXPエンタープライゼズ,NASDAQ,機械,○
 DY,DYCOM INDUSTRIES,ダイコム・インダストリーズ,NYSE,その他製造,○
@@ -2629,6 +2629,7 @@ MSA,MSA SAFETY INC,MSAセーフティー,NYSE,その他製造,○
 MSBI,MIDLAND STS BANC,ミッドランド・ステーツ・バンコープ,NASDAQ,金融（銀行）,○
 MSC,STUDIO CITY INTL,スタジオ・シティ・インターナショナル・ホールディングス,NYSE,エンターテイメント,○
 MSCI,MSCI INC,MSCI,NYSE,金融コングロマリット,○
+MSDD,GNS MSTR 2X SHRT,GraniteShares2倍ショートMSTRデイリーETF,NASDAQ,その他,○
 MSEX,MIDDLESEX WATER,ミドルセックス・ウォーター,NASDAQ,ソフトウェア・サービス,○
 MSFD,DRX MSFT BR1X,Direxion デイリーMSFT株 ベア 1 倍 ETF,NASDAQ,その他,○
 MSFL,GNS MSFT 2X LONG,グラナイトシェアーズ2倍ロングMSFTデイリーETF,NASDAQ,その他,○
@@ -2639,6 +2640,7 @@ MSGM,MOTORSPORT GAMES,モータースポーツ・ゲームス,NASDAQ,ソフト�
 MSGS,MADISON SQ SPORT,マディソン・スクエア・ガーデン・スポーツ,NYSE,エンターテイメント,○
 MSI,MOT SOLUTIONS,モトローラ　ソリューションズ,NYSE,通信機器,○
 MSM,MSC INDUSTRIAL,MSCインダストリアル・ダイレクト,NYSE,機械,○
+MSTP,GNS MSTR 2X LONG,GraniteShares2倍ロングMSTRデイリーETF,NASDAQ,その他,○
 MSTR,MICROSTRATEGY,マイクロストラテジー,NASDAQ,ソフトウェア・サービス,○
 MSTU,REX 2X LONG MSTR,TRex 2倍 ロング MSTR Daily Target ETF,Cboe,その他,○
 MSTZ,REX 2X INVS MSTR,TRex 2倍 インバース MSTR Daily Target ETF,Cboe,その他,○
@@ -2860,7 +2862,7 @@ NWFL,NORWOOD FNANCIAL,ノーウッド・ファイナンシャル,NASDAQ,金融�
 NWG,NATWEST GROUP,ナットウエスト・グループ　,NYSE,金融（銀行）,○
 NWL,NEWELL BRANDS,ニューウェル・ブランズ,NASDAQ,小売,○
 NWN,NORTHWEST NATRAL,ノースウェスト・ナチュラル・ホールディング,NYSE,ガス・パイプライン,○
-NWPX,NORTHWEST PIPE,ノースウエスト・パイプ,NASDAQ,その他製造,○
+NWPX,NWPX INFRASTRUCT,NWPX インフラストラクチャー,NASDAQ,その他製造,○
 NWS,NEWS CORP CL-B,ニューズ・コーポレーション,NASDAQ,その他,○
 NWSA,NEWS CORP A,ニューズ・コーポレーション　クラスA,NASDAQ,エンターテイメント,○
 NX,QUANEX BLD PRDCT,クアネクス・ビルディング・プロダクツ,NYSE,その他製造,○
@@ -3101,7 +3103,7 @@ PL,PLANET LABS PBC,プラネット・ラボスPBC,NYSE,通信サービス,○
 PLAB,PHOTRONICS INC,フォトロニクス,NASDAQ,半導体,○
 PLAY,DAVE&BUSTERS ENT,デイブ＆バスターズ・エンターテインメント,NASDAQ,外食,○
 PLBC,PLUMAS BANCORP,プルマス・バンコープ,NASDAQ,金融（銀行）,○
-PLBY,PLBY GROUP INC,PLBYグループ,NASDAQ,小売,○
+PLBY,PLAYBOY INC,プレイボーイ,NASDAQ,小売,○
 PLCE,CHILDRENS PLACE,チルドレンズ・プレイス,NASDAQ,専門店,○
 PLG,PLATINM GRP METL,プラチナム・グループ・メタルズ,NYSE,その他,○
 PLL,PIEDMONT LITHIUM,ピードモント・リチウム,NASDAQ,その他,○
