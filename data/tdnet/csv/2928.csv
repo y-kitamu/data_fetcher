@@ -1,0 +1,12 @@
+filing_date,code,fiscal_year_end,quarterly_period,net_sales,net_sales_change,revenue,revenue_change,operating_revenue,operating_revenue_change,operating_profit,operating_profit_change,ordinary_profit,ordinary_profit_change,net_income,net_income_of_parent,net_income_change,eps,diluted_eps,roe,roa,operating_profit_to_net_sales,operating_profit_to_revenue,total_assets,net_assets,equity_ratio,bps,owner_equity,operating_cash_flow,investing_cash_flow,financing_cash_flow,cash,dividend_per_share,payout_ratio,commemorative_dividend,extra_dividend,number_of_shares,number_of_treqsury_shares,avg_number_of_shares,is_consolidated,is_forecast,duration,period_start,period_end,period_pos
+2025-05-15,2928,2025-03-31,,,,,,,,1882000000,,,,,264000000,,0.45,0.44,,,,,169526000000,,,,,18518000000,-11621000000,549000000,,,,,,,,,true,false,12,2024-04-01,2025-03-31,0
+2025-05-15,2928,2024-03-31,,,,,,,,-648000000,,,,,-4300000000,,-7.73,-7.73,,,,,157151000000,,,,,9802000000,-13688000000,1036000000,,,,,,,,,true,false,12,2023-04-01,2024-03-31,-1
+2025-05-15,2928,2026-03-31,,,,,,,,11000000000,4.843,,,,2000000000,,3.35,,,,,,,,,,,,,,,,,,,,,,true,true,12,2025-04-01,2026-03-31,1
+2025-05-15,2928,2024-03-31,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.00,,,,556218400,1232,556217170,false,false,12,2023-04-01,2024-03-31,-1
+2025-05-15,2928,2025-03-31,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.00,,,,596664367,1232,589640674,false,false,12,2024-04-01,2025-03-31,0
+2025-05-15,2928,2026-03-31,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.00,,,,,,,false,true,12,2025-04-01,2026-03-31,1
+2025-05-15,29280,2025-03-31,,,,,,,,1882000000,-0.701,,,,264000000,,0.45,,,,,,,,,,,,,,,,,,,,,,true,true,12,2024-04-01,2025-03-31,0
+2025-05-15,29280,2024-03-31,,,,,,,,-648000000,,,,,-4300000000,,-7.73,,,,,,,,,,,,,,,,,,,,,,true,false,12,2023-04-01,2024-03-31,-1
+,29280,2025-03-31,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.00,,,,,,,false,true,12,2024-04-01,2025-03-31,0
+,29280,2025-03-31,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.00,,,,,,,false,false,12,2024-04-01,2025-03-31,0
+,29280,2024-03-31,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.00,,,,,,,false,false,12,2023-04-01,2024-03-31,-1

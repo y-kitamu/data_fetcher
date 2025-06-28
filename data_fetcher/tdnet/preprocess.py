@@ -115,6 +115,8 @@ def preprocess_csv(
                 pl.col("number_of_treqsury_shares_right")
             ),
         )
+    if len(cdf) == 0:
+        cdf = ncdf
 
     # epsを現在の発行済株式総数で計算し直す
     cdf = cdf.sort(pl.col("filing_date")).with_columns(

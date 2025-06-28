@@ -1,0 +1,12 @@
+filing_date,code,fiscal_year_end,quarterly_period,net_sales,net_sales_change,revenue,revenue_change,operating_revenue,operating_revenue_change,operating_profit,operating_profit_change,ordinary_profit,ordinary_profit_change,net_income,net_income_of_parent,net_income_change,eps,diluted_eps,roe,roa,operating_profit_to_net_sales,operating_profit_to_revenue,total_assets,net_assets,equity_ratio,bps,owner_equity,operating_cash_flow,investing_cash_flow,financing_cash_flow,cash,dividend_per_share,payout_ratio,commemorative_dividend,extra_dividend,number_of_shares,number_of_treqsury_shares,avg_number_of_shares,is_consolidated,is_forecast,duration,period_start,period_end,period_pos
+2025-05-13,29740,2025-09-30,,14168000000,-0.039,,,,,-146000000,,-335000000,,,-230000000,,-69.47,,,,,,,,,,,,,,,,,,,,,,true,true,6,2024-10-01,2025-03-31,0
+2025-05-13,29740,2024-09-30,,15315000000,,,,,,-373000000,,-514000000,,,-371000000,,-112.68,,,,,,,,,,,,,,,,,,,,,,true,false,6,2023-10-01,2024-03-31,-1
+2025-05-14,2974,2025-09-30,2,14168000000,-0.075,,,,,-146000000,,-335000000,,,-230000000,,-69.47,,,,,,48313000000,7991000000,0.165,,7991000000,,,,,,,,,,,,true,false,6,2024-10-01,2025-03-31,0
+2025-05-14,2974,2024-09-30,2,15315000000,-0.019,,,,,-373000000,,-514000000,,,-371000000,,-112.68,,,,,,,,,,,,,,,,,,,,,,true,false,6,2023-10-01,2024-03-31,-1
+2025-05-14,2974,2025-09-30,2,39234000000,0.058,,,,,1321000000,0.466,922000000,0.424,,570000000,,172.15,,,,,,,,,,,,,,,,,,,,,,true,true,12,2024-10-01,2025-09-30,0
+2025-05-14,2974,2024-09-30,2,,,,,,,,,,,,,,,,,,,,41675000000,8255000000,0.198,,8255000000,,,,,,,,,,,,true,false,12,2023-10-01,2024-09-30,-1
+2025-05-14,2974,2024-09-30,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,23.00,,,,3312000,,,false,false,12,2023-10-01,2024-09-30,-1
+2025-05-14,2974,2025-09-30,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,12.00,,,,,,,false,false,12,2024-10-01,2025-09-30,0
+2025-05-14,2974,2025-09-30,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,24.00,,,,,,,false,true,12,2024-10-01,2025-09-30,0
+2025-05-14,2974,2025-09-30,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3316500,,3314596,false,false,6,2024-10-01,2025-03-31,0
+2025-05-14,2974,2024-09-30,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3297000,false,false,6,2023-10-01,2024-03-31,-1

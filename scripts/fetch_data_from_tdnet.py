@@ -6,12 +6,14 @@ from pathlib import Path
 import polars as pl
 import tqdm
 from bs4 import BeautifulSoup
+from requests import Session
 
 import data_fetcher
 from data_fetcher.session import get_session
 
 base_url = "https://www.release.tdnet.info/inbs/"
-session = get_session()
+work_dir = data_fetcher.constants.PROJECT_ROOT / "data/tdnet/tmp"
+session: Session = get_session()
 
 
 def download_page_data(soup, output_dir: Path, date: str) -> list[Path]:
@@ -35,10 +37,19 @@ def download_page_data(soup, output_dir: Path, date: str) -> list[Path]:
                 continue
 
             respons = session.get(base_url + zip_path)
-            with open(save_path, "wb") as f:
-                f.write(respons.content)
-            print(f"Downloaded {save_path}.")
-            saved_files.append(save_path)
+            if respons.status_code != 200:
+                print(
+                    f"Failed to download {zip_path}. Status code: {respons.status_code}"
+                )
+                continue
+
+            if len(respons.content) > 0:
+                with open(save_path, "wb") as f:
+                    f.write(respons.content)
+                print(f"Downloaded {save_path}.")
+                saved_files.append(save_path)
+            else:
+                print(f"No content in {zip_path}, skipping.")
     return saved_files
 
 
@@ -57,7 +68,7 @@ def collect_daily_data(date: datetime.date, output_dir: Path) -> list[Path]:
     return saved_files
 
 
-def save_to_csv(zip_path: Path, output_path: Path, work_dir: Path):
+def save_to_csv(zip_path: Path, output_path: Path, work_dir: Path = work_dir):
     """ZIPファイルから決算短信を読み込み、csvに追記する"""
     # work_dir = Path(f"./{zip_path.stem}")
     if work_dir.exists():
@@ -65,7 +76,10 @@ def save_to_csv(zip_path: Path, output_path: Path, work_dir: Path):
     work_dir.mkdir(exist_ok=True)
     shutil.unpack_archive(zip_path, extract_dir=work_dir)
 
-    df = data_fetcher.tdnet.convert.create_df(work_dir)
+    report_date = datetime.datetime.strptime(
+        zip_path.name.split("_")[1], "%Y%m%d"
+    ).date()
+    df = data_fetcher.tdnet.convert.create_df(work_dir, report_date=report_date)
 
     if output_path.exists():
         old_df = pl.read_csv(output_path, infer_schema_length=0)
@@ -86,7 +100,7 @@ def run_directory(
     output_dir.mkdir(exist_ok=True)
     for zip_path in sorted(dir_path.rglob("*.zip")):
         output_path = output_dir / f"{zip_path.parent.name}.csv"
-        save_to_csv(zip_path, output_path, zip_path.parent)
+        save_to_csv(zip_path, output_path, work_dir)
 
 
 def convert_directory(
@@ -116,10 +130,10 @@ def main():
         saved_files = collect_daily_data(date, output_zip_dir)
         for zipfile_path in saved_files:
             output_csv_path = output_csv_dir / f"{zipfile_path.parent.name}.csv"
-            save_to_csv(zipfile_path, output_csv_path, zipfile_path.parent)
+            save_to_csv(zipfile_path, output_csv_path, work_dir)
         date = datetime.timedelta(days=1) + date
 
 
 if __name__ == "__main__":
-    # data_fetcher.debug.run_debug(main)
-    data_fetcher.debug.run_debug(convert_directory)
+    data_fetcher.debug.run_debug(main)
+    # data_fetcher.debug.run_debug(convert_directory)

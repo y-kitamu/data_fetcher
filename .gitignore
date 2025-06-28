@@ -1,9 +1,11 @@
 /cache/
 /data/*/minutes/
 /data/*/tick/
+/data/binance
 /data/tmp/
 /data/*/klines/
 /data/rakuten/daily
+/data/kabutan/news
 /data/tdnet/raw/
 /data/tdnet/download/
 /cert/
