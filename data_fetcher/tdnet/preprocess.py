@@ -95,6 +95,41 @@ def preprocess_csv(
 
     # 連結と非連結のデータを結合してnull値を埋める
     if len(ncdf) > 0:
+        filtered_ncdf = ncdf.filter(
+            (pl.col("is_forecast") == False)
+            & (
+                pl.col("number_of_shares").is_not_null()
+                | pl.col("number_of_treqsury_shares").is_not_null()
+            )
+        )
+        cdf = (
+            cdf.join(
+                filtered_ncdf.select(
+                    pl.col("number_of_shares"),
+                    pl.col("number_of_treqsury_shares"),
+                    pl.col("filing_date"),
+                ),
+                on="filing_date",
+                how="left",
+            )
+            .with_columns(
+                pl.col("number_of_shares").fill_null(pl.col("number_of_shares_right")),
+                pl.col("number_of_treqsury_shares").fill_null(
+                    pl.col("number_of_treqsury_shares_right")
+                ),
+            )
+            .drop("number_of_shares_right", "number_of_treqsury_shares_right")
+        )
+        # 連結に含まれない非連結のデータを連結側に追加
+        filtered_ncdf = filtered_ncdf.filter(
+            ~pl.col("filing_date").is_in(cdf["filing_date"].to_list())
+        )
+        if len(filtered_ncdf) > 0:
+            cdf = pl.concat([cdf, filtered_ncdf])
+        cdf = cdf.sort(pl.col("filing_date"))
+
+    # 連結と非連結のデータを結合してnull値を埋める
+    if len(ncdf) > 0:
         cdf = cdf.join(
             ncdf.filter(
                 (pl.col("is_forecast") == False)
