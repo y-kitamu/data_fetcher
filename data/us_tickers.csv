@@ -404,6 +404,7 @@ AXSM,AXSOME THERAPEUT,アクサム・セラピューティクス,NASDAQ,医薬�
 AXTA,AXALTA COATING,アクサルタ・コーティング・システムズ,NYSE,化学,○
 AXTI,AXT INC,AXT,NASDAQ,半導体,○
 AYI,ACUITY,アキュイティー,NYSE,その他製造,○
+AYRO,AYRO INC,アイロ,NASDAQ,自動車,○
 AYTU,AYTU BIOPHARMA,アイトゥ・バイオファーマ,NASDAQ,医薬品,○
 AZEK,THE AZEK CO INC,アゼク,NYSE,その他製造,○
 AZN,ASTRAZENECA ADR,アストラゼネカ,NASDAQ,医薬品,○
@@ -1872,7 +1873,6 @@ HNRG,HALLADOR ENERGY,ハラドル・エナジー,NASDAQ,石油,○
 HNST,HONEST COMPANY,オネスト・カンパニー,NASDAQ,トイレタリー,○
 HNVR,HANOVER BANCORP,ハノーバー・バンコープ,NASDAQ,金融（銀行）,○
 HOFT,HOOKER FURNISHIN,フッカー・ファーニシングス,NASDAQ,その他製造,○
-HOFV,HALL FAME RESORT,ホール・オブ・フェーム・リゾート・エンターテイメント,NASDAQ,エンターテイメント,○
 HOG,HARLEY-DAVIDSON,ハーレーダビッドソン,NYSE,その他製造,○
 HOLX,HOLOGIC INC,ホロジック,NASDAQ,医療サービス,○
 HOMB,HOME BANCSHARES,ホーム・バンクシェアーズ,NYSE,金融（銀行）,○
@@ -2039,7 +2039,6 @@ INCY,INCYTE CORP,インサイト,NASDAQ,ソフトウェア・サービス,○
 INDB,INDEPENDENT BANK,インディペンデント・バンク,NASDAQ,金融（銀行）,○
 INDI,INDIE SEMICON,インディー・セミコンダクタ,NASDAQ,半導体製造,○
 INDL,DRX INDIA BL2X,Direxion デイリー MSCI インド株 ブル2倍 ETF,NYSE,その他,○
-INDP,INDAPTUS THERAPE,インダプタス・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 INFA,INFORMATICA INC,インフォマティカ,NYSE,ソフトウェア・サービス,○
 INFU,INFUSYSTEM HLDG,インフューシステム・ホールディングス,NYSE,医療サービス,○
 INFY,INFOSYS TECH ADR,インフォシス・テクノロジーズ,NYSE,ソフトウェア・サービス,○
@@ -2151,6 +2150,7 @@ JBL,JABIL INC,ジェイビル,NYSE,その他製造,○
 JBLU,JETBLUE AIRWAYS,ジェットブルー・エアウェイズ,NASDAQ,航空,○
 JBSS,JOHN B. SANFILIP,ジョンBサンフィリッポ・アンド・サン,NASDAQ,食品,○
 JBTM,JBT MAREL CORP,JBT マレル,NYSE,機械,○
+JCAP,JEFFERSON CAPITL,ジェファーソン・キャピタル,NASDAQ,その他,○
 JCI,JOHNSON CONTROLS,ジョンソンコントロールズ,NYSE,その他製造,○
 JCSE,JE CLEANTECH,JEクリーンテック・ホールディングズ,NASDAQ,その他製造,○
 JD,JD.COM INC.,JD.COM（京東商城）,NASDAQ,小売,○
