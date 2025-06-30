@@ -20,7 +20,7 @@ numpy = "^2.2.2"
 python-dateutil = "^2.9.0.post0"
 histdata = "^1.1"
 xlrd = "^2.0.1"
-yfinance = "0.2.63"
+yfinance = "0.2.64"
 fastapi = {extras = ["all"], version = "^0.115.11"}
 websocket-client = "^1.8.0"
 arelle-release = "^2.37.12"
