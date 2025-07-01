@@ -2039,6 +2039,7 @@ INCY,INCYTE CORP,インサイト,NASDAQ,ソフトウェア・サービス,○
 INDB,INDEPENDENT BANK,インディペンデント・バンク,NASDAQ,金融（銀行）,○
 INDI,INDIE SEMICON,インディー・セミコンダクタ,NASDAQ,半導体製造,○
 INDL,DRX INDIA BL2X,Direxion デイリー MSCI インド株 ブル2倍 ETF,NYSE,その他,○
+INDP,INDAPTUS THERAPE,インダプタス・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 INFA,INFORMATICA INC,インフォマティカ,NYSE,ソフトウェア・サービス,○
 INFU,INFUSYSTEM HLDG,インフューシステム・ホールディングス,NYSE,医療サービス,○
 INFY,INFOSYS TECH ADR,インフォシス・テクノロジーズ,NYSE,ソフトウェア・サービス,○
@@ -2451,6 +2452,7 @@ LZB,LA-Z-BOY INC,レイジーボーイ,NYSE,小売,○
 LZM,LIFEZONE METALS,ライフゾーン・メタルズ,NYSE,その他製造,○
 M,MACY'S INC,メーシーズ,NYSE,百貨店,○
 MA,MASTERCARD INC,マスターカード,NYSE,金融(カード),○
+MAAS,MAASE INC,マース,NASDAQ,金融コングロマリット,○
 MAG,MAG SILVER CORP,マグ・シルバー,NYSE,その他,○
 MAGN,MAGNERA CORP,マグネラ・コーポレーション,NYSE,紙・パルプ,○
 MAMA,MAMAS CREATIONS,ママズ・クリエイションズ,NASDAQ,食品,○
@@ -3504,7 +3506,6 @@ SEDG,SOLAREDGE TECH,ソーラーエッジ・テクノロジー,NASDAQ,電力,○
 SEE,SEALED AIR CORP,シールドエアー,NYSE,その他製造,○
 SEED,ORIGIN AGRITECH,オリジン・アグリテック,NASDAQ,化学,○
 SEER,SEER INC,シーア,NASDAQ,医薬品（バイオテクノロジー）,○
-SEG,SEAPORT ENTMT,シーポート・エンターテイメント,NYSE,エンターテイメント,○
 SEI,SOLARIS ENERGY,ソラリス・エナジー・インフラストラクチャー,NYSE,石油,○
 SEIC,SEI INVESTMENTS,SEIインベストメンツ,NASDAQ,情報処理サービス,○
 SEM,SELECT MEDICAL,セレクト・メディカル・ホールディングス,NYSE,ヘルスケア,○
