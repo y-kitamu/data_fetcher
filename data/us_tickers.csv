@@ -600,6 +600,7 @@ BRLT,BRILLIANT EARTH,ブリリアント・アース,NASDAQ,小売,○
 BRNS,BARINTHUS BIOTH,バリンサス・バイオセラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 BRO,BROWN AND BROWN,ブラウン・アンド・ブラウン,NYSE,金融(保険),○
 BROS,DUTCH BROS INC,ダッチ・ブロス,NYSE,外食,○
+BRSL,BRTSTAR LOTTERY,ブライトスター・ロッタリー,NYSE,エンターテイメント,○
 BRTX,BIORESTORATIVE,バイオレストラティブ・セラピーズ,NASDAQ,医薬品（バイオテクノロジー）,○
 BRY,BERRY CORP,ベリーコーポレーション,NASDAQ,石油,○
 BRZE,BRAZE INC,ブレイズ,NASDAQ,ソフトウェア・サービス,○
@@ -1994,7 +1995,6 @@ IGLD,FT GOLD TG INCM,ファーストトラスト Vest ゴールド戦略 ター�
 IGMS,IGM BIOSCIENCES,IGMバイオサイエンシズ,NASDAQ,医薬品（バイオテクノロジー）,○
 IGOV,ISHARES TR BND,iシェアーズ 世界国債（除く米国）ETF,NASDAQ,その他,○
 IGSB,ISHARES STM CPBD,iシェアーズ・トラスト1-5年投資適格債ETF,NASDAQ,その他,○
-IGT,INTL GAME TECH,インターナショナル・ゲーム・テクノロジー,NYSE,エンターテイメント,○
 IH,IHUMAN INC,アイヒューマーン,NYSE,ソフトウェア・サービス,○
 IHG,INTERCONTI HOTEL,インターコンチネンタルホテルズグループ,NYSE,ホテル,○
 IHRT,IHEARTMEDIA INC,アイハートメディア,NASDAQ,通信サービス,○
@@ -2162,6 +2162,7 @@ JG,AURORA MOBILE,オーロラ・モバイル,NASDAQ,ソフトウェア・サー�
 JGLO,JPM GLB SLCT ETF,JPモルガン・グローバル・セレクト株式・アクティブETF,NASDAQ,その他,○
 JGRO,JPM ACT GROW ETF,JPモルガン・米国グロース株式・アクティブETF,NYSE,その他,○
 JHG,JANUS HENDERSON,ジャナス・ヘンダーソン・グループ,NYSE,金融（証券）,○
+JHX,JAMES HRDI INDST,ジェームス・ハーディ・インダストリーズ,NYSE,専門店,○
 JILL,J.JILL INC,ジェイ・ジル,NYSE,小売,○
 JJSF,J&J SNACK FOODS,J&Jスナック・フーズ,NASDAQ,食品,○
 JKHY,JACK HENRY AND A,ジャック・ヘンリー・アンド・アソシエーツ,NASDAQ,ソフトウェア・サービス,○
@@ -3783,7 +3784,6 @@ SVCO,SILVACO GROUP,シルバコ・グループ,NASDAQ,半導体,○
 SVM,SILVERCORP METAL,シルバーコープ・メタルズ,NYSE,その他,○
 SVRA,SAVARA INC,サバラ,NASDAQ,医薬品,○
 SVRE,SAVERONE 2014,セイバーワン2014,NASDAQ,自動車,○
-SVT,SERVOTRONICS INC,サーボトロニクス,NYSE,その他製造,○
 SW,SMURFIT WESTROCK,スマーフィット・ウェストロック,NYSE,その他製造,○
 SWBI,SMITH AND WESSON,スミス&ウェッソン・ブランズ,NASDAQ,その他製造,○
 SWIM,LATHAM GROUP,レイサム・グループ,NASDAQ,その他,○
