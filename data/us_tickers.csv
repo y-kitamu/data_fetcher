@@ -512,6 +512,7 @@ BIPC,BROOKFIELD INFRA,ブルックフィールド・インフラストラクチ�
 BIRD,ALLBIRDS INC,オールバーズ,NASDAQ,その他製造,○
 BITF,BITFARMS LTD CA,ビットファームズ,NASDAQ,ソフトウェア・サービス,○
 BIV,VA M-TERM BOND,バンガード・米国中期債券ETF,NYSE,その他,○
+BIVI,BIOVIE INC,バイオヴィ,NASDAQ,医薬品（バイオテクノロジー）,○
 BJ,BJS WHOLESALE,BJsホールセール・クラブ・ホールディングス,NYSE,小売,○
 BJDX,BLUEJAY DIAGNSTC,ブルージェイ・ダイアグノスティックス,NASDAQ,ヘルスケア,○
 BJRI,BJS RESTAURANTS,ビージェーズ・レストラン,NASDAQ,外食,○
@@ -581,7 +582,6 @@ BP,BP PLC ADR,BP,NYSE,石油,○
 BPMC,BLUEPRINT MEDICN,ブループリント・メディスン,NASDAQ,医薬品（バイオテクノロジー）,○
 BPOP,POPULAR INC,ポピュラー,NASDAQ,金融（銀行）,○
 BPRN,PRINCETON BANC,プリンストン・バンコープ,NASDAQ,金融（銀行）,○
-BQ,BOQII HOLDING,ボーキー・ホールディング,NYSE,小売,○
 BR,BROADRIDGE FINL,ブロードリッジ・ファイナンシャル・ソリューションズ,NYSE,情報処理サービス,○
 BRAG,BRAGG GAMING GP,ブラグ・ゲーミング・グループ,NASDAQ,エンターテイメント,○
 BRBR,BELLRING INTRMDT,ベルリング・インターメディエイト・ホールディングス,NYSE,食品,○
@@ -2669,6 +2669,7 @@ MUR,MURPHY OIL CORP,マーフィー・オイル,NYSE,石油,○
 MURA,MURAL ONCOLOGY,ミューラル・オンコロジー,NASDAQ,医療サービス,○
 MUSA,MURPHY USA INC,マーフィーUSA,NYSE,専門店,○
 MUU,DRX MU BL2X,Direxion デイリー MU ブル 2 倍 ETF,NASDAQ,その他,○
+MUX,MCEWEN INC,マッキュアン,NYSE,その他製造,○
 MVBF,MVB FINANCIAL CO,MVBフィナンシャル,NASDAQ,金融（銀行）,○
 MVIS,MICROVISION INC,マイクロビジョン,NASDAQ,その他製造,○
 MVLL,GNS 2X LONG MRVL,GraniteShares2倍ロングMRVLデイリーETF,NASDAQ,その他,○
@@ -2825,6 +2826,7 @@ NUS,NU SKIN ENT INC,ニュー　スキン　エンタープライズ,NYSE,小売
 NUTX,NUTEX HEALTH INC,ニューテックス・ヘルス,NASDAQ,ソフトウェア・サービス,○
 NUVB,NUVATION BIO INC,ニューベーション・バイオ,NYSE,医薬品（バイオテクノロジー）,○
 NUVL,NUVALENT INC,ニューバレント,NASDAQ,医薬品（バイオテクノロジー）,○
+NUWE,NUWELLIS INC,ヌーウェリス,NASDAQ,ヘルスケア,○
 NVAX,NOVAVAX INC,ノババックス,NASDAQ,医薬品（バイオテクノロジー）,○
 NVCR,NOVOCURE LIMITED,ノボキュア,NASDAQ,ヘルスケア,○
 NVCT,NUVECTIS PHARMA,ヌベクティス・ファーマ,NASDAQ,医薬品（バイオテクノロジー）,○
@@ -4298,7 +4300,6 @@ WBA,WALGREENS BOOTS,ウォルグリーン・ブーツ・アライアンス,NASDA
 WBD,WARNER BROS DISC,ワーナー・ブラザーズ・ディスカバリー,NASDAQ,エンターテイメント,○
 WBS,WEBSTER FINANCIA,ウェブスター・ファイナンシャル,NYSE,金融（銀行）,○
 WBTN,WEBTOON ENTRTAIN,ウェブトゥーン・エンターテインメント,NASDAQ,エンターテイメント,○
-WBX,WALLBOX NV,ウォールボックス,NYSE,その他製造,○
 WCC,WESCO INTERNATIO,ウェスコ・インターナショナル,NYSE,機械,○
 WCN,WASTE CONNECTION,ウエイスト・コネクションズ,NYSE,その他,○
 WD,WALKER & DUNLOP,ウォーカー・ダンロップ,NYSE,金融（銀行）,○
