@@ -21,7 +21,7 @@ python-dateutil = "^2.9.0.post0"
 histdata = "^1.1"
 xlrd = "^2.0.1"
 yfinance = "0.2.64"
-fastapi = {extras = ["all"], version = "^0.115.11"}
+fastapi = {extras = ["all"], version = "^0.116.0"}
 websocket-client = "^1.8.0"
 arelle-release = "^2.37.12"
 fastexcel = "^0.14.0"
