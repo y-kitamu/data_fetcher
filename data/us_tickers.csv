@@ -78,6 +78,7 @@ ADUS,ADDUS HOMECARE,アダス・ホームケア,NASDAQ,ヘルスケア,○
 ADV,ADVANTAGE SOLN,アドバンテージ・ソリューションズ,NASDAQ,ソフトウェア・サービス,○
 ADVM,ADVERUM BIOTECH,アドベラム・バイオテクノロジーズ,NASDAQ,医薬品（バイオテクノロジー）,○
 ADXN,ADDEX THERAPE,アデックス・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
+AEBI,AEBI SCHMIDT,アエビ・シュミット・ホールディング,NASDAQ,機械,○
 AEE,AMEREN CORP.,アメレン,NYSE,その他製造,○
 AEG,AEGON LTD,エイゴン,NYSE,金融(保険),○
 AEHL,ANTELOPE ENT,アンテロープ・エンタープライズ・ホールディング,NASDAQ,その他製造,○
@@ -139,7 +140,6 @@ AKAM,AKAMAI TECH,アカマイ・テクノロジーズ,NASDAQ,ネットワーク,
 AKAN,AKANDA CORP,アカンダ,NASDAQ,医薬品,○
 AKBA,AKEBIA THERAPEU,アケビア・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 AKRO,AKERO THERAPEUT,アケロ･セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
-AKYA,AKOYA BIOSCIENCE,アコヤ・バイオサイエンシズ,NASDAQ,医薬品（バイオテクノロジー）,○
 AL,AIR LEASE,エア・リース・コーポレーション,NYSE,航空機・宇宙,○
 ALAB,ASTERA LABS INC,アステラ・ラブス,NASDAQ,半導体,○
 ALAR,ALARUM TECH,アララム・テクノロジーズ,NASDAQ,ネットワークセキュリティー,○
@@ -1042,6 +1042,7 @@ CXM,SPRINKLR INC,スプリンクラー,NYSE,ソフトウェア・サービス,�
 CXSE,WT CH EX STATE,ウィズダムツリー中国株ニューエコノミーファンド,NASDAQ,その他,○
 CXT,CRANE NXT CO,クレインNXT,NYSE,機械,○
 CYBR,CYBERARK SOFTWAR,サイバーアーク・ソフトウェア,NASDAQ,ソフトウェア・サービス,○
+CYCC,CYCLACEL PHARMA,サイクラセル・ファーマシューティカルズ,NASDAQ,医薬品（バイオテクノロジー）,○
 CYCN,CYCLERION THERA,サイクレリオン・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 CYD,CHINA YUCHAI,チャイナユチャイ,NYSE,自動車,○
 CYH,COMMNTY HLTH SYS,コミュニティー・ヘルス・システムズ,NYSE,ヘルスケア,○
@@ -2414,7 +2415,6 @@ LTBR,LIGHTBRIDGE CORP,ライトブリッジ,NASDAQ,その他,○
 LTH,LIFE TIME GP HLD,ライフ・タイム・グループ・ホールディングス,NYSE,ヘルスケア,○
 LTRN,LANTERN PHARMA,ランタン・ファーマ,NASDAQ,医薬品（バイオテクノロジー）,○
 LTRX,LANTRONIX INC,ラントロニクス,NASDAQ,ネットワーク,○
-LTRY,LOTTERY.COM,ロッタリー・ドット・コム,NASDAQ,エンターテイメント,○
 LU,LUFAX HOLDING,ルファクス,NYSE,ソフトウェア・サービス,○
 LUCD,LUCID DIAGNOSTIC,ルーシッド・ダイアグノスティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 LUCK,LUCKY STRIKE ET,ラッキー・ストライク・エンターテイメント,NYSE,エンターテイメント,○
@@ -2424,6 +2424,7 @@ LUNG,PULMONX CORP,プルモンクス,NASDAQ,ヘルスケア,○
 LUNR,INTUITIVE MACHIN,インテュイティブ・マシーンズ,NASDAQ,航空機・宇宙,○
 LUV,SOUTHWEST AIR,サウスウエスト・エアライン,NYSE,航空,○
 LUXE,LUXEXPERIENCE,リュクスエクスペリエンス,NYSE,その他,○
+LVLU,LULU'S FSHN LNGE,ルルズ・ファッション・ラウンジ・ホールディングス,NASDAQ,その他製造,○
 LVO,LIVEONE INC,ライブワン,NASDAQ,エンターテイメント,○
 LVS,LAS VEGAS SANDS,ラスベガス・サンズ,NYSE,ホテル,○
 LVTX,LAVA THERAPE,ラバ・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
@@ -3503,6 +3504,7 @@ SEDG,SOLAREDGE TECH,ソーラーエッジ・テクノロジー,NASDAQ,電力,○
 SEE,SEALED AIR CORP,シールドエアー,NYSE,その他製造,○
 SEED,ORIGIN AGRITECH,オリジン・アグリテック,NASDAQ,化学,○
 SEER,SEER INC,シーア,NASDAQ,医薬品（バイオテクノロジー）,○
+SEGG,LOTTERY.COM,ロッタリー・ドット・コム,NASDAQ,エンターテイメント,○
 SEI,SOLARIS ENERGY,ソラリス・エナジー・インフラストラクチャー,NYSE,石油,○
 SEIC,SEI INVESTMENTS,SEIインベストメンツ,NASDAQ,情報処理サービス,○
 SEM,SELECT MEDICAL,セレクト・メディカル・ホールディングス,NYSE,ヘルスケア,○
