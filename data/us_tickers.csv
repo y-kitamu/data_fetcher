@@ -194,6 +194,7 @@ AMC,AMC ENTERTAINMNT,AMCエンターテインメント・ホールディング�
 AMCR,AMCOR LIMITED,アムコア,NYSE,その他製造,○
 AMCX,AMC NETWORKS INC,AMCネットワークス,NASDAQ,エンターテイメント,○
 AMD,ADVANCED M D INC,アドバンスト・マイクロ・デバイス(AMD),NASDAQ,半導体,○
+AMDD,DRX AMD BR2X,Direxion デ イ リー AMD株 ベア1倍 ETF,NASDAQ,その他,○
 AMDL,GNS AMD BL2X,グラナイトシェアーズ2倍ロングAMDデイリーETF,NASDAQ,その他,○
 AME,AMETEK INC,アメテック,NYSE,その他製造,○
 AMED,AMEDISYS INC,アメディシス,NASDAQ,ヘルスケア,○
@@ -219,6 +220,7 @@ AMST,AMESITE INC,アメサイト,NASDAQ,ソフトウェア・サービス,○
 AMTB,AMERANT BANCORP,アメラント・バンコープ,NYSE,金融（銀行）,○
 AMTM,AMENTUM HOLDINGS,アメンタム・ホールディングス,NYSE,情報処理サービス,○
 AMTX,AEMETIS INC,アメティス,NASDAQ,電力,○
+AMUU,DRX AMD BL2X,Direxion デ イ リー AMD ブル 2倍 ETF,NASDAQ,その他,○
 AMWD,AMERICAN WOODMRK,アメリカン・ウッドマーク,NASDAQ,その他製造,○
 AMWL,AMERICAN WELL CO,アメリカン・ウェル,NYSE,ヘルスケア,○
 AMX,AMERICA MOVILB,アメリカ・モービル（ADR Sr.B）,NYSE,通信サービス,○
@@ -569,6 +571,8 @@ BNT,BRKFLD WEALTH SL,ブルックフィールド・ウェルス・ソリュー�
 BNTX,BIONTECH SE,バイオエヌテック,NASDAQ,医薬品（バイオテクノロジー）,○
 BOC,BOSTON OMAHA CO,ボストン・オマハ,NYSE,コングロマリット,○
 BODI,BEACHBODY CO INC,ビーチボディ・カンパニー,NYSE,ヘルスケア,○
+BOED,DRX BA BR2X,Direxion デ イ リー BA株 ベア 1倍 ETF,NASDAQ,その他,○
+BOEU,DRX BA BL2X,Direxion デ イ リー BA ブル2倍 ETF,NASDAQ,その他,○
 BOH,BANK OF HAWAII,バンク・オブ・ハワイ,NYSE,金融（銀行）,○
 BOKF,BOK FINANCIAL CO,BOKファイナンシャル　,NASDAQ,金融（銀行）,○
 BOOM,DMC GLOBAL INC,DMCグローバル,NASDAQ,その他製造,○
@@ -593,8 +597,10 @@ BRFH,BARFRESH FOOD GP,バーフレッシュ・フード・グループ,NASDAQ,�
 BRFS,BRF ADR,ビーアールエフ,NYSE,食品,○
 BRID,BRIDGFORD FOODS,ブリッジフォード・フーズ,NASDAQ,食品,○
 BRK.B,BERKSHIRE INC B,バークシャー・ハサウェイ　クラスB,NYSE,金融(保険),○
+BRKD,DRX BRKB BR2X,Direxion デ イ リ ー BRKB株 ベア1倍 ETF,NASDAQ,その他,○
 BRKL,BROOKLINE BANCRP,ブルックリン・バンコープ,NASDAQ,金融（銀行）,○
 BRKR,BRUKER CORP,ブルカー,NASDAQ,ヘルスケア,○
+BRKU,DRX BRKB BL2X,Direxion デ イ リ ー BRKB ブル2倍 ETF,NASDAQ,その他,○
 BRLT,BRILLIANT EARTH,ブリリアント・アース,NASDAQ,小売,○
 BRNS,BARINTHUS BIOTH,バリンサス・バイオセラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 BRO,BROWN AND BROWN,ブラウン・アンド・ブラウン,NYSE,金融(保険),○
@@ -1277,6 +1283,8 @@ ELAN,ELANCO ANML HLTH,エランコ･アニマル･ヘルス,NYSE,ヘルスケ�
 ELD,WT EMG LOCAL DBT,ウィズダムツリー  新興国現地通貨建債券ファンド,NYSE,その他,○
 ELDN,ELEDON PHARMA,エレドン・ファーマシューティカルズ,NASDAQ,医薬品（バイオテクノロジー）,○
 ELF,ELF BEAUTY INC,e.l.f.ビューティー,NYSE,その他製造,○
+ELIL,DRX LLY BL2X,Direxion デ イ リー LLY ブル2倍 ETF,NASDAQ,その他,○
+ELIS,DRX LLY BR2X,Direxion デ イ リー LLY株 ベア1倍 ETF,NASDAQ,その他,○
 ELLO,ELLOMAY CAPITAL,エロメイ・キャピタル,NYSE,電力,○
 ELMD,ELECTROMED INC,エレクトロメッド,NYSE,医療サービス,○
 ELP,COMPA PARANA ENR,パラナ電力,NYSE,電力,○
@@ -1318,7 +1326,6 @@ ENVX,ENOVIX CORP,エノビックス,NASDAQ,その他製造,○
 EOG,EOG RESOURCES,EOGリソーシズ,NYSE,石油,○
 EOLS,EVOLUS INC,エボラス,NASDAQ,ヘルスケア,○
 EOSE,EOS ENERGY ENTER,イオス・エナジー・エンタープライズ,NASDAQ,電力,○
-EP,EMPIRE PETROLEUM,エンパイア・ペトロリアム,NYSE,石油,○
 EPAC,ENERPAC TOOL,エナパック・ツール・グループ,NYSE,その他製造,○
 EPAM,EPAM SYSTEMS INC,EPAMシステムズ,NYSE,ソフトウェア・サービス,○
 EPC,EDGEWELL PERSNAL,エッジウェル・パーソナル・ケア,NYSE,その他製造,○
@@ -2447,6 +2454,7 @@ MA,MASTERCARD INC,マスターカード,NYSE,金融(カード),○
 MAAS,MAASE INC,マース,NASDAQ,金融コングロマリット,○
 MAG,MAG SILVER CORP,マグ・シルバー,NYSE,その他,○
 MAGN,MAGNERA CORP,マグネラ・コーポレーション,NYSE,紙・パルプ,○
+MAGS,RHL MAG 7 ETF,ラウンドヒル マグニフィセント セブン ETF,Cboe,その他,○
 MAMA,MAMAS CREATIONS,ママズ・クリエイションズ,NASDAQ,食品,○
 MAN,MANPOWERGROUP,マンパワーグループ,NYSE,ソフトウェア・サービス,○
 MANH,MANHATTAN ASSOCI,マンハッタン・アソシエイツ,NASDAQ,ソフトウェア・サービス,○
@@ -2994,7 +3002,9 @@ PAG,PENSKE AUTOMOTIV,ペンスキー・オートモーティブ・グループ,N
 PAGP,PLAINS GP HLD,プレーンズGPホールディングス,NASDAQ,石油,○
 PAGS,PAGSEGURO DIGI,パグセグロ・デジタル,NYSE,情報処理サービス,○
 PAHC,PHIBRO ANIMAL,ファイブロ・アニマル・ヘルス,NASDAQ,医薬品,○
+PALD,DRX PANW BR2X,Direxion デ イ リ ー PANW株 ベア1倍 ETF,NASDAQ,その他,○
 PALI,PALISADE BIO INC,パリセード・バイオ,NASDAQ,医薬品（バイオテクノロジー）,○
+PALU,DRX PANW BL2X,Direxion デ イ リー PANW ブル2倍 ETF,NASDAQ,その他,○
 PAM,PAMPA ENERGIA SA,パンパ・エネルヒア,NYSE,電力,○
 PAMT,PAMT CORP,PAMT,NASDAQ,運輸,○
 PANL,PANGAEA LOGSTIC,パンゲア・ロジスティクス・ソリューションズ,NASDAQ,運輸,○
@@ -3109,8 +3119,10 @@ PLOW,DOUGLAS DYNAMICS,ダグラス・ダイナミック,NYSE,機械,○
 PLPC,PREFORMED LI PRD,プリフォームド・ライン・プロダクツ,NASDAQ,通信機器,○
 PLRX,PLIANT THERAPE,プリアント・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 PLSE,PULSE BIOSCIENCE,パルス・バイオサイエンシズ,NASDAQ,ヘルスケア,○
+PLTD,DRX PLTR BR2X,Direxion デ イ リ ー PLTR株 ベア1倍 ETF,NASDAQ,その他,○
 PLTK,PLAYTIKA HOLDING,プレイティカ,NASDAQ,ソフトウェア・サービス,○
 PLTR,PALANTIR TECHNO,パランティア・テクノロジーズ,NASDAQ,ソフトウェア・サービス,○
+PLTU,DRX PLTR BL2X,Direxion デ イ リ ー PLTR ブル2倍 ETF,NASDAQ,その他,○
 PLUG,PLUG POWER INC,プラグパワー,NASDAQ,電力,○
 PLUR,PLURI INC,プルリ,NASDAQ,医薬品（バイオテクノロジー）,○
 PLUS,EPLUS INC,eプラス,NASDAQ,ソフトウェア・サービス,○
@@ -4420,6 +4432,8 @@ XNCR,XENCOR INC,ゼンコー,NASDAQ,医薬品,○
 XNET,XUNLEI LTD,シュンレイ,NASDAQ,ソフトウェア・サービス,○
 XOM,EXXONMOBIL,エクソンモービル,NYSE,石油,○
 XOMA,XOMA ROYALTY COR,ゾーマ・ロイヤルティ・コーポレーション,NASDAQ,医薬品（バイオテクノロジー）,○
+XOMX,DRX XOM BL2X,Direxion デ イ リー XOM ブル 2倍 ETF,NASDAQ,その他,○
+XOMZ,DRX XOM BR2X,Direxion デ イ リー XOM株 ベア1倍 ETF,NASDAQ,その他,○
 XOS,XOS INC,エクソス,NASDAQ,自動車,○
 XP,XP INC,XPインク,NASDAQ,金融（証券）,○
 XPEL,XPEL INC,XPELテクノロジーズ,NASDAQ,自動車,○
