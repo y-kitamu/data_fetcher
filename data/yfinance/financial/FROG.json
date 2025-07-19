@@ -412,8 +412,8 @@
         "Operating Revenue": 97260000.0
     },
     "2024-03-31": {
-        "Tax Effect Of Unusual Items": -2702.481935,
-        "Tax Rate For Calcs": 0.079485,
+        "Tax Effect Of Unusual Items": -2720.0,
+        "Tax Rate For Calcs": 0.08,
         "Normalized EBITDA": -12769000.0,
         "Total Unusual Items": -34000.0,
         "Total Unusual Items Excluding Goodwill": -34000.0,
@@ -624,8 +624,8 @@
         "Net Income From Continuing And Discontinued Operation": -18503000.0,
         "Total Expenses": 144899000.0,
         "Total Operating Income As Reported": -22970000.0,
-        "Diluted Average Shares": 113447099.0,
-        "Basic Average Shares": 113447099.0,
+        "Diluted Average Shares": 113447000.0,
+        "Basic Average Shares": 113447000.0,
         "Diluted EPS": -0.16,
         "Basic EPS": -0.16,
         "Diluted NI Availto Com Stockholders": -18503000.0,
