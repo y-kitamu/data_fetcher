@@ -256,7 +256,7 @@ def main(target_date: datetime.date, output_dir: Path):
 
 def run_all():
     # 10年前から現在までのデータを取得
-    output_dir = Path("data/edinet/")
+    output_dir = Path("data/edinet/financial")
     doc_list = update_document_list([], output_dir)
     if len(doc_list) > 0:
         # 2016-08-12 10:10
@@ -277,4 +277,3 @@ def run_all():
 
 if __name__ == "__main__":
     data_fetcher.debug.run_debug(run_all)
-    today = datetime.date.today() - datetime.timedelta(days=1)

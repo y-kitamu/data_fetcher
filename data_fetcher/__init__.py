@@ -12,6 +12,7 @@ from . import (
     histdata,
     kabutan,
     notification,
+    rakuten,
     session,
     tdnet,
     ticker_list,
@@ -38,4 +39,5 @@ __all__ = [
     "logger",
     "tdnet",
     "utils",
+    "rakuten",
 ]

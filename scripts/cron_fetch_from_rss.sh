@@ -3,6 +3,8 @@
 echo "Start rsync from wsl"
 cd /home/kitamura/work/data_fetcher
 # 一ヶ月前からのデータを取得
+# month=$(date -d '2 month ago' '+%Y%m')
+# rsync -auv wsl:/mnt/d/stock/data/minutes/$month* /home/kitamura/work/data_fetcher/data/rakuten/minutes/
 month=$(date -d '1 month ago' '+%Y%m')
 rsync -auv wsl:/mnt/d/stock/data/minutes/$month* /home/kitamura/work/data_fetcher/data/rakuten/minutes/
 month=$(date '+%Y%m')

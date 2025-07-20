@@ -1,0 +1,10 @@
+filing_date,code,fiscal_year_end,quarterly_period,net_sales,net_sales_change,revenue,revenue_change,operating_revenue,operating_revenue_change,operating_profit,operating_profit_change,ordinary_profit,ordinary_profit_change,net_income,net_income_of_parent,net_income_change,eps,diluted_eps,roe,roa,operating_profit_to_net_sales,operating_profit_to_revenue,total_assets,net_assets,equity_ratio,bps,owner_equity,operating_cash_flow,investing_cash_flow,financing_cash_flow,cash,dividend_per_share,payout_ratio,commemorative_dividend,extra_dividend,number_of_shares,number_of_treqsury_shares,avg_number_of_shares,is_consolidated,is_forecast,duration,period_start,period_end,period_pos
+2025-07-11,6142,2026-02-28,1,4895000000,0.020,,,,,56000000,,80000000,-0.163,,-19000000,,-5.56,,,,,,24560000000,19496000000,0.736,,18087000000,,,,,,,,,,,,true,false,3,2025-03-01,2025-05-31,0
+2025-07-11,6142,2025-02-28,1,4800000000,-0.046,,,,,-77000000,,95000000,-0.670,,55000000,,15.44,,,,,,,,,,,,,,,,,,,,,,true,false,3,2024-03-01,2024-05-31,-1
+2025-07-11,6142,2026-02-28,1,9580000000,-0.042,,,,,-30000000,,110000000,1.301,,120000000,,33.55,,,,,,,,,,,,,,,,,,,,,,true,true,6,2025-03-01,2025-08-31,0
+2025-07-11,6142,2026-02-28,1,18890000000,-0.039,,,,,-100000000,,150000000,0.383,,-40000000,,-11.18,,,,,,,,,,,,,,,,,,,,,,true,true,12,2025-03-01,2026-02-28,0
+2025-07-11,6142,2025-02-28,1,,,,,,,,,,,,,,,,,,,,25115000000,20427000000,0.753,,18918000000,,,,,,,,,,,,true,false,12,2024-03-01,2025-02-28,-1
+2025-07-11,6142,2025-02-28,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,50.00,,,,4306778,730205,,false,false,12,2024-03-01,2025-02-28,-1
+2025-07-11,6142,2026-02-28,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.00,,,,,,,false,true,12,2025-03-01,2026-02-28,0
+2025-07-11,6142,2026-02-28,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4306778,862143,3510616,false,false,3,2025-03-01,2025-05-31,0
+2025-07-11,6142,2025-02-28,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3576776,false,false,3,2024-03-01,2024-05-31,-1

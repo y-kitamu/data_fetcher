@@ -3,9 +3,9 @@
 /data/*/tick/
 /data/binance
 /data/tmp/
-/data/*/klines/
 /data/rakuten/daily
 /data/kabutan/news
+/data/edinet/schedule13/
 /data/tdnet/raw/
 /data/tdnet/download/
 /cert/
@@ -14,5 +14,7 @@ __pycache__/
 *.ipynb_ckpt
 *.csv.gz
 *.cache
+*.zip
+doc_list.csv
 poetry.lock
 /logs/
