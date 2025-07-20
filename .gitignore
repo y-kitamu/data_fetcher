@@ -18,3 +18,4 @@ __pycache__/
 doc_list.csv
 poetry.lock
 /logs/
+uv.lock

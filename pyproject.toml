@@ -1,57 +1,38 @@
-[tool.poetry]
+[project]
 name = "data-fetcher"
 version = "0.1.0"
-description = ""
-authors = ["kitamura <ymyk6602@gmail.com>"]
+description = "Add your description here"
 readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "arelle-release>=2.37.37",
+    "fastapi>=0.116.1",
+    "fastexcel>=0.14.0",
+    "histdata>=1.1",
+    "matplotlib>=3.10.3",
+    "numpy>=2.3.1",
+    "pandas>=2.3.1",
+    "polars>=1.31.0",
+    "pydantic>=2.11.7",
+    "python-dateutil>=2.9.0.post0",
+    "requests>=2.32.4",
+    "requests-cache>=1.2.1",
+    "requests-html>=0.10.0",
+    "requests-ratelimiter>=0.7.0",
+    "websocket-client>=1.8.0",
+    "xlrd>=2.0.2",
+    "yfinance>=0.2.65",
+]
 
-[tool.poetry.dependencies]
-python = "^3.12,<3.14"
-requests = "^2.31.0"
-requests-cache = "^1.2.0"
-requests-ratelimiter = "^0.7.0"
-requests-html = "^0.10.0"
-fake-useragent = "^2.0.3"
-pydantic = "^2.10.6"
-matplotlib = "^3.8.3"
-polars = "^1.21.0"
-pandas = "^2.2.2"
-numpy = "^2.2.2"
-python-dateutil = "^2.9.0.post0"
-histdata = "^1.1"
-xlrd = "^2.0.1"
-yfinance = "0.2.63"
-fastapi = {extras = ["all"], version = "^0.115.11"}
-websocket-client = "^1.8.0"
-arelle-release = "^2.37.12"
-fastexcel = "^0.14.0"
-
-[tool.poetry.group.dev.dependencies]
-watchdog = "^6.0.0"
-isort = "^6.0.0"
-black = "^25.1.0"
-epc = "^0.0.5"
-orjson = "^3.9.15"
-sexpdata = "^1.0.2"
-six = "^1.16.0"
-setuptools = "^80.4.0"
-paramiko = "^3.4.0"
-rapidfuzz = "^3.6.2"
-
-[build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"
-
-[tool.basedpyright]
-include = ["data_fetcher/**/*.py"]
-exclude = ["data", "**/node_modules", "**/__pycache__"]
-venvPath = ".venv"
-typeCheckingMode = "standard"
-
-
-[tool.ruff.lint]
-select = [
-  "E",   # pycodestyle
-  "F",   # pyflakes
-  "I",   # isort
+[dependency-groups]
+dev = [
+    "epc>=0.0.5",
+    "orjson>=3.11.0",
+    "packaging>=25.0",
+    "paramiko>=3.5.1",
+    "rapidfuzz>=3.13.0",
+    "setuptools>=80.9.0",
+    "sexpdata>=1.0.2",
+    "six>=1.17.0",
+    "watchdog>=6.0.0",
 ]
