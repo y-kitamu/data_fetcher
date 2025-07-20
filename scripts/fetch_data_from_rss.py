@@ -10,7 +10,7 @@ import polars as pl
 import xlwings as xw
 from tqdm import tqdm
 
-import stock
+import data_fetcher
 
 domestic_market_indices = [
     "N225",
@@ -105,14 +105,14 @@ fx_pairs = [
 
 def fetch_stock_data(code_list, valid_data_len=302, max_days=8, merge=False):
     """国内株式データを取得"""
-    excel_path = stock.PROJECT_ROOT / "data" / "rss.xlsx"
+    excel_path = data_fetcher.constants.PROJECT_ROOT / "data" / "rss.xlsx"
     wb = xw.Book(excel_path)
     sheet = wb.sheets[0]
 
     data_num = valid_data_len * max_days
     output_root_dir = Path(r"D:\stock\data\minutes")
     if not output_root_dir.exists():
-        output_root_dir = stock.PROJECT_ROOT / "data/minutes"
+        output_root_dir = data_fetcher.constants.PROJECT_ROOT / "data/minutes"
     # output_root_dir.mkdir(exist_ok=True)
 
     re_date = re.compile("[0-9]+/[0-9]+/[0-9]+")
@@ -121,7 +121,8 @@ def fetch_stock_data(code_list, valid_data_len=302, max_days=8, merge=False):
         sheet["A1"].formula = f'=RssChart(A2:J2,"{code}", "1M", {data_num})'
         for _ in range(10):
             time.sleep(0.5)
-            if sheet["A1"].value[-3:] == "配信中":
+            value = sheet["A1"].value
+            if isinstance(value, str) and value[-3:] == "配信中":
                 break
         else:
             continue
@@ -140,8 +141,8 @@ def fetch_stock_data(code_list, valid_data_len=302, max_days=8, merge=False):
             if date is None or re_date.search(date) is None:
                 continue
             day_data = [d for d in data if d[0] == date]
-            if not len(day_data) == valid_data_len and not merge:
-                print("Invalid day data : {} - {}".format(code, date))
+            if len(day_data) < valid_data_len and not merge:
+                print("Invalid day data : {} - {}, length = {}".format(code, date, len(day_data)))
                 continue
             date = date.replace("/", "")
             output_path = (
@@ -183,10 +184,11 @@ def merge_data(output_path, data):
 
 
 if __name__ == "__main__":
-    stock.data.update_jp_ticker_list()
+    #stock.data.update_jp_ticker_list()
+    data_fetcher.ticker_list.update_jp_ticker_list()
 
     # 日本株
-    code_list = domestic_market_indices + stock.get_code_list(include_etf=True)
+    code_list = domestic_market_indices + data_fetcher.ticker_list.get_jp_ticker_list(include_etf=True)
     fetch_stock_data(code_list, 332, 8)
 
     # # us

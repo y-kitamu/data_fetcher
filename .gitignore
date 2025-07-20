@@ -19,3 +19,6 @@ doc_list.csv
 poetry.lock
 /logs/
 uv.lock
+/dist/
+*.egg-info/
+.venv/
