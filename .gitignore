@@ -20,5 +20,6 @@ poetry.lock
 /logs/
 uv.lock
 /dist/
+/build/
 *.egg-info/
 .venv/
