@@ -11,5 +11,5 @@ Param(
 #Power Automate for desktop起動
 Start-Process -FilePath "ms-powerautomate://"
 
-Set-Location C:\Users\kitamura\work\stock
-poetry run python scripts/run_powerautomate.py $flowName
+Set-Location C:\Users\kitamura\work\data_fetcher
+uv run python scripts/run_powerautomate.py $flowName

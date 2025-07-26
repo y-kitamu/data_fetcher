@@ -19,8 +19,10 @@ dependencies = [
     "requests-cache>=1.2.1",
     "requests-html>=0.10.0",
     "requests-ratelimiter>=0.7.0",
+    "uiautomation>=2.0.28",
     "websocket-client>=1.8.0",
     "xlrd>=2.0.2",
+    "xlwings>=0.33.15",
     "yfinance>=0.2.65",
 ]
 

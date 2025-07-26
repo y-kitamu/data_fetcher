@@ -14,6 +14,7 @@ import data_fetcher
 api_key = "c528ad6f91db40468bf86c3f080daaff"
 endpoint = "https://api.edinet-fsa.go.jp/api/v2/documents.json"
 session = data_fetcher.session.get_session(max_requests_per_second=5)
+doc_dir = data_fetcher.constants.PROJECT_ROOT / Path("data/edinet")
 
 timeout = 5.0
 
@@ -256,8 +257,8 @@ def main(target_date: datetime.date, output_dir: Path):
 
 def run_all():
     # 10年前から現在までのデータを取得
-    output_dir = Path("data/edinet/financial")
-    doc_list = update_document_list([], output_dir)
+    output_dir = data_fetcher.constants.PROJECT_ROOT / Path("data/edinet/financial")
+    doc_list = update_document_list([], doc_dir)
     if len(doc_list) > 0:
         # 2016-08-12 10:10
         start_date = datetime.datetime.strptime(
