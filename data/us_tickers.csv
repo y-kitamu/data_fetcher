@@ -507,6 +507,7 @@ BIGC,BIGCOMMERCE HOLD,ビックコマース・ホールディングス,NASDAQ,�
 BIIB,BIOGEN INC,バイオジェン,NASDAQ,医薬品,○
 BILI,BILIBILI INC,ビリビリ,NASDAQ,エンターテイメント,○
 BILL,BILL HOLDINGS,ビル・ホールディングス,NYSE,ソフトウェア・サービス,○
+BINI,BOLLINGER INNOV,ボリンジャー・イノベーションズ,NASDAQ,ソフトウェア・サービス,○
 BIO,BIO-RAD LABO,バイオ・ラッド・ラボラトリーズ,NYSE,ヘルスケア,○
 BIOX,BIOCERES CROP SL,バイオセレス・クロップ・ソリューションズ,NASDAQ,その他,○
 BIPC,BROOKFIELD INFRA,ブルックフィールド・インフラストラクチャー,NYSE,その他,○
@@ -2007,10 +2008,10 @@ IIIV,I3 VERTICALS,i3バーティカルズ,NASDAQ,情報処理サービス,○
 IINN,INSPIRA TECH OXY,インスピラ・テクノロジーズ・オキシBHN,NASDAQ,医療サービス,○
 IJH,ISHARESCORE MCAP,iシェアーズ コア S&P 中型株 ETF,NYSE,その他,○
 IJR,ISHARESCORE SCAP,iシェアーズ コア S&P 小型株 ETF,NYSE,その他,○
-IKNA,IKENA ONCOLOGY,イケナ・オンコロジー,NASDAQ,医薬品（バイオテクノロジー）,○
 ILDR,FT INV LEADR ETF,ファーストトラスト イノベーションリーダーズETF,NYSE,その他,○
 ILF,ISHARES LATIN 40,iシェアーズ ラテンアメリカ 40 ETF,NYSE,その他,○
 ILMN,ILLUMINA INC,イルミナ,NASDAQ,医薬品（バイオテクノロジー）,○
+IMA,IMAGENEBIO INC,イマジンバイオ,NASDAQ,医薬品（バイオテクノロジー）,○
 IMAB,I-MAB,アイ・マブ,NASDAQ,医薬品（バイオテクノロジー）,○
 IMAX,IMAX CORPORATION,アイマックス,NYSE,エンターテイメント,○
 IMCR,IMMUNOCORE HOLD,イムノコア・ホールディングス,NASDAQ,医薬品（バイオテクノロジー）,○
@@ -2020,6 +2021,7 @@ IMKTA,INGLES MARKETS,イングルス・マーケッツ,NASDAQ,小売,○
 IMMR,IMMERSION CORP,イマージョン,NASDAQ,ソフトウェア・サービス,○
 IMMX,IMMIX BIOPHARMA,イミックス・バイオファーマ,NASDAQ,医薬品（バイオテクノロジー）,○
 IMNM,IMMUNOME INC,イムノーム,NASDAQ,医薬品（バイオテクノロジー）,○
+IMNN,IMUNON INC,イムノン,NASDAQ,医療サービス,○
 IMO,IMPERIAL OIL LTD,インペリアル・オイル,NYSE,石油,○
 IMOS,CHIPMOS TECHNO,チップモス・テクノロジーズ,NASDAQ,半導体,○
 IMPP,IMPERIAL PETROLM,インペリアル・ペトロリアム,NASDAQ,運輸,○
@@ -2666,7 +2668,6 @@ MTZ,MASTEC INC,マステック,NYSE,その他,○
 MU,MICRON TECH,マイクロン　テクノロジー,NASDAQ,半導体,○
 MUD,DRX MU BR1X,Direxion デイリー MU 株 ベア 1 倍 ETF,NASDAQ,その他,○
 MULL,GNS 2X LONG MU,GraniteShares2倍ロングMUデイリーETF,NASDAQ,その他,○
-MULN,MULLEN AUTOMOTIV,ミューレン・オートモーティブ,NASDAQ,ソフトウェア・サービス,○
 MUR,MURPHY OIL CORP,マーフィー・オイル,NYSE,石油,○
 MURA,MURAL ONCOLOGY,ミューラル・オンコロジー,NASDAQ,医療サービス,○
 MUSA,MURPHY USA INC,マーフィーUSA,NYSE,専門店,○
@@ -3218,7 +3219,6 @@ PUMP,PROPETRO HOLDING,プロペトロ・ホールディング,NYSE,石油,○
 PVBC,PROVIDENT BANCRP,プロビデント・バンコープ,NASDAQ,金融（銀行）,○
 PVH,PVH CORP,PVHコープ,NYSE,専門店,○
 PVLA,PALVELLA THERA,パルベラ・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
-PWOD,PENNS WOODS BANC,ペンズ・ウッズ・バンコープ,NASDAQ,金融（銀行）,○
 PWP,PERELLA WEINBERG,ペレラ・ワインバーグ・パートナーズ,NASDAQ,金融（銀行）,○
 PWR,QUANTA SERVICES,クアンタ・サービシーズ,NYSE,通信サービス,○
 PX,P10 INC,P10,NYSE,金融（証券）,○
@@ -3534,7 +3534,6 @@ SGD,SAFE GREEN DEVEL,セーフ・アンド・グリーン・デベロップメ�
 SGHC,SGHC LTD,SGHC,NYSE,その他,○
 SGHT,SIGHT SCIENCES,サイト・サイエンシズ,NASDAQ,ヘルスケア,○
 SGI,SOMNIGROUP INTER,ソムニグループ・インターナショナル,NYSE,その他製造,○
-SGMA,SIGMAT INTERNTNL,シグマトロン・インターナショナル,NASDAQ,その他製造,○
 SGML,SIGMA LITHIUM,シグマ・リチウム・コーポレーション,NASDAQ,その他,○
 SGMO,SANGAMO THERAPEU,サンガモ・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 SGRP,SPAR GROUP INC,SPARグループ,NASDAQ,ソフトウェア・サービス,○
