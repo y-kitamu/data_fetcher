@@ -255,7 +255,6 @@ APEI,AMERICAN PUB EDU,アメリカン・パブリック・エデュケーショ�
 APG,API GROUP CORP,エーピーアイ・グループ,NYSE,ソフトウェア・サービス,○
 APH,AMPHENOL CORP CL,アンフェノール,NYSE,その他製造,○
 API,AGORA INC,アゴラ,NASDAQ,ソフトウェア・サービス,○
-APLS,APELLIS PHARMA,アペリス・ファーマシューティカルズ,NASDAQ,医薬品（バイオテクノロジー）,○
 APOG,APOGEE ENTERPRIS,アポジー・エンタープライジズ,NASDAQ,その他製造,○
 APP,APPLOVIN CORP,アップラビン,NASDAQ,ソフトウェア・サービス,○
 APPF,APPFOLIO INC,アップフォリオ,NASDAQ,ソフトウェア・サービス,○
@@ -343,7 +342,6 @@ ATI,ATI INC,エー・ティー・アイ,NYSE,その他製造,○
 ATKR,ATKORE INC,アトコア,NYSE,その他製造,○
 ATLC,ATLANTICUS HLD,アトランティクス・ホールディングス,NASDAQ,金融（銀行）,○
 ATLO,AMES NTNL CORP,エイムズ・ナショナル,NASDAQ,金融（銀行）,○
-ATNF,180 LIFE SCIENCE,180ライフ・サイエンス,NASDAQ,医薬品（バイオテクノロジー）,○
 ATNI,ATN INTRNATIONAL,ATNインターナショナル,NASDAQ,通信サービス,○
 ATNM,ACTINIUM PHARMA,アクチニウム・ファーマシューティカルズ,NYSE,医薬品（バイオテクノロジー）,○
 ATO,ATMOS ENERGY COR,アトモス・エナジー,NYSE,ガス・パイプライン,○
@@ -2220,7 +2218,6 @@ KGC,KINROSS GOLD,キンロス・ゴールド,NYSE,その他,○
 KHC,KRAFT HEINZ CO,クラフト・ハインツ,NASDAQ,食品,○
 KIDS,ORTHOPEDIATRICS,オーソピディアトリックス,NASDAQ,ヘルスケア,○
 KINS,KINGSTONE COS,キングストーン・カンパニーズ,NASDAQ,金融(保険),○
-KIRK,KIRKLAND'S INC,カークランズ,NASDAQ,小売,○
 KITT,NAUTICUS ROBOTIC,ノーティカス・ロボティクス,NASDAQ,その他製造,○
 KLAC,KLA CORPORATION,KLAコーポレーション,NASDAQ,半導体,○
 KLG,WK KELLOGG CO,WKケロッグ,NYSE,食品,○
@@ -3826,6 +3823,7 @@ TATT,TAT TECHNO,TATテクノロジーズ,NASDAQ,その他製造,○
 TAYD,TAYLOR DEVICES,テイラー・デバイセズ,NASDAQ,その他製造,○
 TBBK,THE BANCORP INC,バンコープ,NASDAQ,金融（銀行）,○
 TBCH,TURTLE BEACH,タートル・ビーチ,NASDAQ,周辺機器,○
+TBHC,BRAND HOUSE COLE,ブランド・ハウス・コレクティブ,NASDAQ,小売,○
 TBI,TRUEBLUE INC,トゥルーブルー,NYSE,ソフトウェア・サービス,○
 TBLA,TABOOLA COM LTD,タブーラ・ドットコム,NASDAQ,ソフトウェア・サービス,○
 TBPH,THERAVANCE BIO,テラバンス・バイオファーマ,NASDAQ,医薬品（バイオテクノロジー）,○
