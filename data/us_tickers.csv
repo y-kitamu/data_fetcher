@@ -464,7 +464,6 @@ BCTX,BRIACELL THERAPE,ブライアセル・セラピューティクス,NASDAQ,�
 BCYC,BICYCLE THERAPEU,バイシクル・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 BDC,BELDEN INC,ベルデン,NYSE,その他製造,○
 BDL,FLANIGANS ENTR,フラニガンズ・エンタープライジズ,NYSE,外食,○
-BDRX,BIODEXA PHARMA,バイオデクサ・ファーマシューティカルズ,NASDAQ,医薬品（バイオテクノロジー）,○
 BDSX,BIODESIX INC,バイオデシックス,NASDAQ,医薬品（バイオテクノロジー）,○
 BDTX,BLACK DMND THERA,ブラック・ダイヤモンド・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 BDX,BECTON DICKINSON,ベクトン・ディッキンソン,NYSE,ヘルスケア,○
@@ -1304,6 +1303,7 @@ EML,THE EASTERN COMP,イースタン・カンパニー,NASDAQ,その他製造,�
 EMLC,V JP EM LC BOND,ヴァンエック・JPモルガン新興国債券（現地通貨建て）ETF,NYSE,その他,○
 EMLP,FT NRTH AM ENGY,ファーストトラスト 北米エネルギー・インフラストラクチャー・ファンド,NYSE,その他,○
 EMN,EASTMAN CHEMICAL,イーストマン・ケミカル,NYSE,化学,○
+EMPD,EMPERY DIGITAL,エンペリー・デジタル,NASDAQ,自動車,○
 EMR,EMERSON ELECTRIC,エマソン・エレクトリック,NYSE,その他製造,○
 EMX,EMX ROYALTY CORP,EMXロイヤリティ,NYSE,その他,○
 ENB,ENBRIDGE INC,エンブリッジ,NYSE,ガス・パイプライン,○
@@ -3453,7 +3453,6 @@ SA,SEABRIDGE GOLD,シーブリッジ・ゴールド,NYSE,その他,○
 SABR,SABRE CORP,セイバー,NASDAQ,ソフトウェア・サービス,○
 SABS,SAB BIOTHERAPE,SABバイオセラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 SAFT,SAFETY INSURANCE,セーフティー・インシュアランス・グループ,NASDAQ,金融(保険),○
-SAGE,SAGE THERAPEUT,セージ・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 SAH,SONIC AUTOMOTIVE,ソニック・オートモーティブ,NYSE,小売,○
 SAIA,SAIA INC,サイア,NASDAQ,運輸,○
 SAIC,SCIENCE APP INTL,サイエンス・アプリケーションズ・インターナショナル,NASDAQ,ソフトウェア・サービス,○
@@ -4195,7 +4194,6 @@ VIV,TELEFONCA BRASIL,テレフォニカ・ブラジル,NYSE,通信サービス,�
 VIVK,VIVAKOR INC,ビバコール,NASDAQ,その他,○
 VIVS,VIVOSIM LABS INC,ビーボシム・ラブス,NASDAQ,医薬品（バイオテクノロジー）,○
 VKTX,VIKING THERAPEUT,バイキング・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
-VLCN,VOLCON INC,ボルコン,NASDAQ,自動車,○
 VLGEA,VILLAGE SUPMARKT,ビレッジ・スーパーマーケット,NASDAQ,食品,○
 VLN,VALENS SEMICON,バレンス・セミコンダクター,NYSE,半導体,○
 VLO,VALERO ENERGY CO,バレロ・エナジー,NYSE,石油,○
