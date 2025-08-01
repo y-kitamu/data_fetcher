@@ -1,7 +1,9 @@
 import argparse
+import datetime
 import time
 
 import uiautomation as auto
+from loguru import logger
 
 
 def run_flow(flow_name: str, wait_until_finish: bool = False):
@@ -47,9 +49,19 @@ def run_flow(flow_name: str, wait_until_finish: bool = False):
 
 
 if __name__ == "__main__":
+    date_str = datetime.datetime.now().strftime("%Y%m%d")
+    logger.add(
+        f"logs/run_powerautomate_{date_str}.log",
+        format="[{time:YYYY-MM-DD HH:mm:ss} {level} {file} at line {line}] {message}",
+        level="DEBUG",
+    )
+    logger.debug("Starting Power Automate flow...")
+
     parser = argparse.ArgumentParser()
     parser.add_argument("FlowName")
 
     args = parser.parse_args()
 
     run_flow(args.FlowName)
+
+    logger.debug("Power Automate flow finished.")

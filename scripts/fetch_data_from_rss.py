@@ -1,13 +1,13 @@
-"""RSSからデータを収集するスクリプト
-"""
+"""RSSからデータを収集するスクリプト"""
 
 import csv
+import datetime
 import re
 import time
 from pathlib import Path
 
-import polars as pl
 import xlwings as xw
+from loguru import logger
 from tqdm import tqdm
 
 import data_fetcher
@@ -142,7 +142,11 @@ def fetch_stock_data(code_list, valid_data_len=302, max_days=8, merge=False):
                 continue
             day_data = [d for d in data if d[0] == date]
             if len(day_data) < valid_data_len and not merge:
-                print("Invalid day data : {} - {}, length = {}".format(code, date, len(day_data)))
+                print(
+                    "Invalid day data : {} - {}, length = {}".format(
+                        code, date, len(day_data)
+                    )
+                )
                 continue
             date = date.replace("/", "")
             output_path = (
@@ -157,7 +161,9 @@ def fetch_stock_data(code_list, valid_data_len=302, max_days=8, merge=False):
             else:
                 with open(output_path, "w", encoding="utf-8") as f:
                     writer = csv.writer(f, lineterminator="\n")
-                    writer.writerow(["date", "minutes", "open", "high", "low", "close", "volume"])
+                    writer.writerow(
+                        ["date", "minutes", "open", "high", "low", "close", "volume"]
+                    )
                     writer.writerows(day_data)
         # break
 
@@ -184,11 +190,21 @@ def merge_data(output_path, data):
 
 
 if __name__ == "__main__":
-    #stock.data.update_jp_ticker_list()
+    date_str = datetime.datetime.now().strftime("%Y%m%d")
+    logger.add(
+        f"logs/run_powerautomate_{date_str}.log",
+        format="[{time:YYYY-MM-DD HH:mm:ss} {level} {file} at line {line}] {message}",
+        level="DEBUG",
+    )
+    logger.debug("Starting data fetch from RSS...")
+
+    # stock.data.update_jp_ticker_list()
     data_fetcher.ticker_list.update_jp_ticker_list()
 
     # 日本株
-    code_list = domestic_market_indices + data_fetcher.ticker_list.get_jp_ticker_list(include_etf=True)
+    code_list = domestic_market_indices + data_fetcher.ticker_list.get_jp_ticker_list(
+        include_etf=True
+    )
     fetch_stock_data(code_list, 332, 8)
 
     # # us
@@ -202,3 +218,5 @@ if __name__ == "__main__":
     # fx
     code_list = fx_pairs
     fetch_stock_data(code_list, 3000, 1, merge=True)
+
+    logger.debug("Data fetch from RSS completed.")
