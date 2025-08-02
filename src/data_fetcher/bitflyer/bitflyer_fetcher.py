@@ -6,10 +6,10 @@ import time
 
 import requests
 import websocket
+from loguru import logger
 
 from ..base_fetcher import BaseFetcher
 from ..constants import PROJECT_ROOT
-from ..logging import logger
 
 
 def get_available_tickers():

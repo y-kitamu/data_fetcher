@@ -7,9 +7,9 @@ import polars as pl
 import requests
 import xlrd
 from fake_useragent import UserAgent
+from loguru import logger
 
 from .constants import PROJECT_ROOT
-from .logging import logger
 
 
 def update_us_ticker_list(output_path: Path = PROJECT_ROOT / "data" / "us_tickers.csv"):
@@ -30,9 +30,7 @@ def update_us_ticker_list(output_path: Path = PROJECT_ROOT / "data" / "us_ticker
 def update_jp_ticker_list(
     output_path: Path = PROJECT_ROOT / "data" / "jp_tickers.csv",
 ):
-    source_url: str = (
-        "https://www.jpx.co.jp/markets/statistics-equities/misc/tvdivq0000001vg2-att/data_j.xls"
-    )
+    source_url: str = "https://www.jpx.co.jp/markets/statistics-equities/misc/tvdivq0000001vg2-att/data_j.xls"
     res = requests.get(source_url)
     workbook = xlrd.open_workbook(file_contents=res.content)
     sheets = workbook.sheets()

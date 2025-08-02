@@ -1,5 +1,9 @@
 """__init__.py"""
 
+import sys
+
+from loguru import logger
+
 from . import (
     base_fetcher,
     binance,
@@ -19,7 +23,14 @@ from . import (
     utils,
     yfinance,
 )
-from .logging import logger
+
+logger.remove()
+logger.add(
+    sys.stdout,
+    format="[{time:YYYY-MM-DD HH:mm:ss} {level} {file.path} at line {line}] {message}",
+    level="DEBUG",
+)
+logger.debug("data_fetcher package initialized")
 
 __all__ = [
     "binance",
@@ -36,7 +47,6 @@ __all__ = [
     "ticker_list",
     "yfinance",
     "notification",
-    "logger",
     "tdnet",
     "utils",
     "rakuten",

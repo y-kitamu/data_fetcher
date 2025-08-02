@@ -8,10 +8,11 @@ from pathlib import Path
 import polars as pl
 import yfinance as yf
 from tqdm import tqdm
+from loguru import logger
 
 import data_fetcher
 
-session = data_fetcher.session.get_session(max_requests_per_second=1)
+# session = data_fetcher.session.get_session(max_requests_per_second=1)
 
 
 def fetch_data(symbol: str, date: datetime.date, output_path: Path):
@@ -19,7 +20,7 @@ def fetch_data(symbol: str, date: datetime.date, output_path: Path):
         return
 
     try:
-        df = yf.Ticker(symbol, session=session).history(
+        df = yf.Ticker(symbol).history(
             interval="1m",
             start=date.strftime("%Y-%m-%d"),
             end=(date + datetime.timedelta(days=1)).strftime("%Y-%m-%d"),
@@ -27,6 +28,7 @@ def fetch_data(symbol: str, date: datetime.date, output_path: Path):
     except KeyboardInterrupt as e:
         raise e
     except:
+        logger.exception(f"Failed to fetch data for {symbol} on {date}. Skipping.")
         return
 
     if len(df) > 0:

@@ -6,6 +6,8 @@ import gzip
 import threading
 from pathlib import Path
 
+from loguru import logger
+
 import data_fetcher
 
 
@@ -49,7 +51,12 @@ if __name__ == "__main__":
     log_path = data_fetcher.constants.PROJECT_ROOT / "logs" / "bitflyer.log"
     try:
         log_path.parent.mkdir(exist_ok=True)
-        data_fetcher.logging.enable_logging_to_file(log_path)
+        logger.add(
+            log_path,
+            rotation="30 MB",
+            format="[{time:YYYY-MM-DD HH:mm:ss} {level} {file} at line {line}] {message}",
+            level="DEBUG",
+        )
 
         fetcher = data_fetcher.bitflyer.BitflyerFetcher()
         thread = threading.Thread(target=fetcher.start_websocket)

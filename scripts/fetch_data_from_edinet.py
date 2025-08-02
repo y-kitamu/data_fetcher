@@ -199,7 +199,7 @@ def main(target_date: datetime.date, output_dir: Path):
         "announce_date",
     ]
     target_docs = get_target_docs_info(target_date)
-    doc_list = update_document_list(target_docs, output_dir)
+    doc_list = update_document_list(target_docs, doc_dir)
 
     for doc in target_docs:
         doc_id = doc["docID"]

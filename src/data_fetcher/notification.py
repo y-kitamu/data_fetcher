@@ -3,9 +3,9 @@
 import uuid
 
 import requests
+from loguru import logger
 
 from .constants import PROJECT_ROOT
-from .logging import logger
 
 LINE_ACCESS_TOKEN_FILE = PROJECT_ROOT / "cert" / "line_message_api.txt"
 LINE_ENDPOINT = "https://api.line.me/v2/bot/message/broadcast"
