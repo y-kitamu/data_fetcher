@@ -464,6 +464,7 @@ BCTX,BRIACELL THERAPE,ブライアセル・セラピューティクス,NASDAQ,�
 BCYC,BICYCLE THERAPEU,バイシクル・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 BDC,BELDEN INC,ベルデン,NYSE,その他製造,○
 BDL,FLANIGANS ENTR,フラニガンズ・エンタープライジズ,NYSE,外食,○
+BDRX,BIODEXA PHARMA,バイオデクサ・ファーマシューティカルズ,NASDAQ,医薬品（バイオテクノロジー）,○
 BDSX,BIODESIX INC,バイオデシックス,NASDAQ,医薬品（バイオテクノロジー）,○
 BDTX,BLACK DMND THERA,ブラック・ダイヤモンド・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 BDX,BECTON DICKINSON,ベクトン・ディッキンソン,NYSE,ヘルスケア,○
@@ -502,7 +503,6 @@ BHP,BHP GROUP ADR,BHPグループ,NYSE,電力,○
 BHRB,BH FNCL SERVICES,バーク・アンド・ハーバート・ファイナンシャル・サービス・コーポレーション,NASDAQ,金融（銀行）,○
 BHVN,BIOHAVEN,バイオヘブン,NYSE,医薬品（バイオテクノロジー）,○
 BIDU,BAIDU INC,バイドゥ,NASDAQ,ソフトウェア・サービス,○
-BIGC,BIGCOMMERCE HOLD,ビックコマース・ホールディングス,NASDAQ,ソフトウェア・サービス,○
 BIIB,BIOGEN INC,バイオジェン,NASDAQ,医薬品,○
 BILI,BILIBILI INC,ビリビリ,NASDAQ,エンターテイメント,○
 BILL,BILL HOLDINGS,ビル・ホールディングス,NYSE,ソフトウェア・サービス,○
@@ -857,6 +857,7 @@ CMPO,COMPOSECURE INC,コンポセキュア,NASDAQ,ソフトウェア・サービ
 CMPR,CIMPRESS,シンプレス,NASDAQ,ソフトウェア・サービス,○
 CMPS,COMPASS PATHWAYS,コンパス・パスウェイズ,NASDAQ,医薬品,○
 CMPX,COMPASS THERAPE,コンパス・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
+CMRC,COMMERCE.COM INC,コマース・ドット・コム,NASDAQ,ソフトウェア・サービス,○
 CMRE,COSTAMARE INC,コスタマーレ,NYSE,運輸,○
 CMS,CMS ENERGY,CMSエナジー,NYSE,その他製造,○
 CMT,CORE MOLDING TEC,コア・モールディング・テクノロジーズ,NYSE,その他製造,○
@@ -1497,6 +1498,7 @@ FI,FISERV INC,ファイサーブ,NYSE,情報処理サービス,○
 FIBK,FIRST INTERSTATE,ファースト・インターステート・バンクシステム,NASDAQ,金融（銀行）,○
 FICO,FAIR ISAAC CORP,フェア・アイザック,NYSE,ソフトウェア・サービス,○
 FID,FT SP INT D ARST,ファーストトラスト S&Pインターナショナル配当貴族ETF,NASDAQ,その他,○
+FIG,FIGMA INC,フィグマ,NYSE,ソフトウェア・サービス,○
 FIGS,FIGS INC,フィグス,NYSE,ソフトウェア・サービス,○
 FINV,FINVOLUTION GP,フィンボリューション・グループ,NYSE,金融（銀行）,○
 FINW,FINWISE BANCORP,フィンワイス・バンコープ,NASDAQ,金融（銀行）,○
@@ -3554,6 +3556,7 @@ SHOP,SHOPIFY,ショッピファイ,NASDAQ,ネットワーク,○
 SHV,ISHARES SHORT TR,iシェアーズ 米国短期国債 ETF,NASDAQ,その他,○
 SHW,SHERWIN WILLIAMS,シャーウィン・ウィリアムズ,NYSE,専門店,○
 SHY,ISHARES 1-3YR TR,iシェアーズ 米国国債 1-3年 ETF,NASDAQ,その他,○
+SI,SHOULDER INNOVAT,ショルダー・イノベーションズ,NYSE,医療サービス,○
 SIBN,SI-BONE INC,SIボーン,NASDAQ,ヘルスケア,○
 SID,CIA SIDERURGICA,コンパニア・シデルルジカ・ナシオナル,NYSE,その他,○
 SIDU,SIDUS SPACE INC,サイダス・スペース,NASDAQ,航空機・宇宙,○
