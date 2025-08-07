@@ -1238,3 +1238,16 @@ gross_profit,2023-01-01,2023-12-31,jppfs_cor:GrossProfit,Prior1YearDuration_NonC
 gross_profit,2024-01-01,2024-12-31,jppfs_cor:GrossProfit,CurrentYearDuration_NonConsolidatedMember,2388497000,202503261439
 operating_income,2023-01-01,2023-12-31,jppfs_cor:OperatingIncome,Prior1YearDuration_NonConsolidatedMember,773138000,202503261439
 operating_income,2024-01-01,2024-12-31,jppfs_cor:OperatingIncome,CurrentYearDuration_NonConsolidatedMember,845912000,202503261439
+net_sales,2025-01-01,2025-06-30,jpcrp_cor:NetSalesSummaryOfBusinessResults,CurrentYTDDuration,4680259000,202508061504
+ordinary_income,2025-01-01,2025-06-30,jpcrp_cor:OrdinaryIncomeLossSummaryOfBusinessResults,CurrentYTDDuration,924783000,202508061504
+net_income,2024-01-01,2024-06-30,jpcrp_cor:NetIncomeLossSummaryOfBusinessResults,Prior1YTDDuration_NonConsolidatedMember,669164000,202508061504
+net_income,2024-01-01,2024-06-30,jpcrp_cor:NetIncomeLossSummaryOfBusinessResults,Prior1YearDuration_NonConsolidatedMember,650181000,202508061504
+comprehensive_income,2024-01-01,2024-06-30,jpcrp_cor:NetIncomeLossSummaryOfBusinessResults,Prior1YTDDuration_NonConsolidatedMember,669164000,202508061504
+comprehensive_income,2024-01-01,2024-06-30,jpcrp_cor:NetIncomeLossSummaryOfBusinessResults,Prior1YearDuration_NonConsolidatedMember,650181000,202508061504
+net_asset,2025-01-01,2025-06-30,jpcrp_cor:NetAssetsSummaryOfBusinessResults,CurrentQuarterInstant,7662524000,202508061504
+total_asset,2025-01-01,2025-06-30,jpcrp_cor:TotalAssetsSummaryOfBusinessResults,CurrentQuarterInstant,11564950000,202508061504
+eps,2025-01-01,2025-06-30,jpcrp_cor:BasicEarningsLossPerShareSummaryOfBusinessResults,CurrentYTDDuration,97.24,202508061504
+equity_ratio,2025-01-01,2025-06-30,jpcrp_cor:EquityToAssetRatioSummaryOfBusinessResults,CurrentQuarterInstant,0.663,202508061504
+gross_profit,2025-01-01,2025-06-30,jppfs_cor:GrossProfit,CurrentYTDDuration,1864481000,202508061504
+operating_income,2025-01-01,2025-06-30,jppfs_cor:OperatingIncome,CurrentYTDDuration,926347000,202508061504
+operating_income,2025-01-01,2025-06-30,jppfs_cor:OperatingIncome,CurrentYTDDuration,926347000,202508061504
