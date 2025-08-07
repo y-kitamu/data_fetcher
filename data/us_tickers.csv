@@ -560,6 +560,7 @@ BMRC,BANK OF MARIN,バンク・オブ・マリン・バンコープ,NASDAQ,金�
 BMRN,BIOMARIN PHARMAC,バイオマリン・ファーマシューティカル,NASDAQ,医薬品,○
 BMY,BRISTOL-MYERS,ブリストル・マイヤーズ　スクイブ,NYSE,ヘルスケア,○
 BN,BROOKFIELD CORP,ブルックフィールド・コーポレーション,NYSE,金融（証券）,○
+BNC,CEA INDUSTRIES,CEAインダストリーズ,NASDAQ,その他製造,○
 BND,VA TOTAL BOND,バンガード・米国トータル債券市場ETF,NASDAQ,その他,○
 BNDX,VA TTL INTL BOND,バンガード・トータル・インターナショナル債券ETF（米ドルヘッジあり）,NASDAQ,その他,○
 BNED,BARNES NOBLE EDU,バーンズ・アンド・ノーブル・エデュケーション,NYSE,ソフトウェア・サービス,○
@@ -2972,6 +2973,7 @@ OSIS,OSI SYSTEMS INC,OSIシステムズ,NASDAQ,その他製造,○
 OSK,OSHKOSH CORP,オシュコシュ,NYSE,自動車,○
 OSPN,ONESPAN INC,ワンスパン,NASDAQ,ネットワークセキュリティー,○
 OSS,ONE STOP SYSTEMS,ワン・ストップ・システムズ,NASDAQ,通信サービス,○
+OST,OSTIN TECHNOLOGY,オスティン・テクノロジー・グループ,NASDAQ,その他製造,○
 OSUR,ORASURE TECHNO,オラシュア・テクノロジーズ,NASDAQ,ヘルスケア,○
 OSW,ONESPAWORLD HLD,ワンスパワールド・ホールディングス,NASDAQ,ソフトウェア・サービス,○
 OTEX,OPEN TEXT CORP,オープンテキスト,NASDAQ,ソフトウェア・サービス,○
@@ -3420,6 +3422,7 @@ RSVR,RESERVOIR MEDIA,レザボア・メディア,NASDAQ,エンターテイメン
 RTH,V RETAIL,ヴァンエック・小売ETF,NASDAQ,その他,○
 RTO,RENTOKIL INITIAL,レントキル・イニシャルPLC,NYSE,その他,○
 RTX,RTX CORPORATION,RTXコーポレーション,NYSE,コングロマリット,○
+RUBI,RUBICO INC,ルビコ,NASDAQ,運輸,○
 RUM,RUMBLE INC,ランブル,NASDAQ,その他,○
 RUN,SUNRUN INC,サンラン,NASDAQ,電力,○
 RUSHA,RUSH ENTERPRISES,ラッシュ・エンタープライジズ,NASDAQ,小売,○
@@ -3500,7 +3503,6 @@ SDVD,FT SMID RDIV ACV,ファーストトラスト Vest 中小型株増配アチ�
 SDVY,FT SMID CAP ETF,ファーストトラスト 中小型増配アチーバーズETF,NASDAQ,その他,○
 SDY,SPDR SP DIVIDEND,SPDR S&P 米国高配当株式 ETF,NYSE,その他,○
 SE,SEA LIMITED,シー,NYSE,ソフトウェア・サービス,○
-SEAT,VIVID SEATS INC,ヴィヴィッド・シーツ,NASDAQ,ソフトウェア・サービス,○
 SEB,SEABOARD CORP,シーボード,NYSE,食品,○
 SEDG,SOLAREDGE TECH,ソーラーエッジ・テクノロジー,NASDAQ,電力,○
 SEE,SEALED AIR CORP,シールドエアー,NYSE,その他製造,○
@@ -4130,7 +4132,6 @@ VAL,VALARIS LTD,バラリス,NYSE,石油,○
 VALE,VALE SA,ヴァーレ,NYSE,アルミ,○
 VALU,VALUE LINE INC,バリューライン,NASDAQ,エンターテイメント,○
 VANI,VIVANI MEDICAL,ビバニ・メディカル,NASDAQ,医薬品,○
-VAPE,CEA INDUSTRIES,CEAインダストリーズ,NASDAQ,その他製造,○
 VATE,INNOVATE,イノベート,NYSE,通信サービス,○
 VAW,VA MATERIALS,バンガード・米国素材セクターETF,NYSE,その他,○
 VB,VANGUARD SML-CAP,バンガード・スモールキャップETF,NYSE,その他,○

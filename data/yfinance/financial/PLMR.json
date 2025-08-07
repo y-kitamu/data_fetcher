@@ -371,7 +371,7 @@
     },
     "2024-06-30": {
         "Tax Effect Of Unusual Items": 0.0,
-        "Tax Rate For Calcs": 0.229,
+        "Tax Rate For Calcs": 0.229071,
         "Net Income From Continuing Operation Net Minority Interest": 25729000.0,
         "EBIT": 33599000.0,
         "Net Interest Income": -225000.0,
@@ -458,7 +458,7 @@
     },
     "2025-03-31": {
         "Tax Effect Of Unusual Items": 0.0,
-        "Tax Rate For Calcs": 0.200901,
+        "Tax Rate For Calcs": 0.21,
         "Net Income From Continuing Operation Net Minority Interest": 42922000.0,
         "EBIT": 53798000.0,
         "Net Interest Income": -85000.0,
@@ -484,5 +484,34 @@
         "Operating Revenue": 174633000.0,
         "Loss Adjustment Expense": 38743000.0,
         "Net Policyholder Benefits And Claims": 38743000.0
+    },
+    "2025-06-30": {
+        "Tax Effect Of Unusual Items": 0.0,
+        "Tax Rate For Calcs": 0.222979,
+        "Net Income From Continuing Operation Net Minority Interest": 46528000.0,
+        "EBIT": 59966000.0,
+        "Net Interest Income": -86000.0,
+        "Interest Expense": 86000.0,
+        "Interest Income": 13586000.0,
+        "Normalized Income": 46528000.0,
+        "Net Income From Continuing And Discontinued Operation": 46528000.0,
+        "Total Expenses": 141145000.0,
+        "Diluted Average Shares": 27628733.0,
+        "Basic Average Shares": 26756095.0,
+        "Diluted EPS": 1.68,
+        "Basic EPS": 1.74,
+        "Diluted NI Availto Com Stockholders": 46528000.0,
+        "Net Income Common Stockholders": 46528000.0,
+        "Net Income": 46528000.0,
+        "Net Income Including Noncontrolling Interests": 46528000.0,
+        "Net Income Continuous Operations": 46528000.0,
+        "Tax Provision": 13352000.0,
+        "Pretax Income": 59880000.0,
+        "Net Non Operating Interest Income Expense": -86000.0,
+        "Interest Expense Non Operating": 86000.0,
+        "Total Revenue": 201025000.0,
+        "Operating Revenue": 201025000.0,
+        "Loss Adjustment Expense": 46183000.0,
+        "Net Policyholder Benefits And Claims": 46183000.0
     }
 }
