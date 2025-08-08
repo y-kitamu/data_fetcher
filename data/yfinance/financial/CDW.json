@@ -641,7 +641,7 @@
     },
     "2024-06-30": {
         "Tax Effect Of Unusual Items": 0.0,
-        "Tax Rate For Calcs": 0.26,
+        "Tax Rate For Calcs": 0.259679,
         "Normalized EBITDA": 501400000.0,
         "Net Income From Continuing Operation Net Minority Interest": 281100000.0,
         "Reconciled Depreciation": 69400000.0,
@@ -675,7 +675,7 @@
         "Gross Profit": 1183100000.0,
         "Cost Of Revenue": 4240300000.0,
         "Total Revenue": 5423400000.0,
-        "Operating Revenue": 4821400000.0
+        "Operating Revenue": 5395900000.0
     },
     "2024-09-30": {
         "Tax Effect Of Unusual Items": 0.0,
@@ -755,7 +755,7 @@
     },
     "2025-03-31": {
         "Tax Effect Of Unusual Items": 0.0,
-        "Tax Rate For Calcs": 0.260197,
+        "Tax Rate For Calcs": 0.26,
         "Normalized EBITDA": 436000000.0,
         "Net Income From Continuing Operation Net Minority Interest": 224900000.0,
         "Reconciled Depreciation": 74900000.0,
@@ -790,5 +790,43 @@
         "Cost Of Revenue": 4076800000.0,
         "Total Revenue": 5199100000.0,
         "Operating Revenue": 5171900000.0
+    },
+    "2025-06-30": {
+        "Tax Effect Of Unusual Items": 0.0,
+        "Tax Rate For Calcs": 0.256783,
+        "Normalized EBITDA": 495000000.0,
+        "Net Income From Continuing Operation Net Minority Interest": 271200000.0,
+        "Reconciled Depreciation": 73300000.0,
+        "Reconciled Cost Of Revenue": 4735400000.0,
+        "EBITDA": 495000000.0,
+        "EBIT": 421700000.0,
+        "Net Interest Income": -56800000.0,
+        "Interest Expense": 56800000.0,
+        "Normalized Income": 271200000.0,
+        "Net Income From Continuing And Discontinued Operation": 271200000.0,
+        "Total Expenses": 5556400000.0,
+        "Total Operating Income As Reported": 420200000.0,
+        "Diluted Average Shares": 132400000.0,
+        "Basic Average Shares": 131600000.0,
+        "Diluted EPS": 2.05,
+        "Basic EPS": 2.06,
+        "Diluted NI Availto Com Stockholders": 271200000.0,
+        "Net Income Common Stockholders": 271200000.0,
+        "Net Income": 271200000.0,
+        "Net Income Including Noncontrolling Interests": 271200000.0,
+        "Net Income Continuous Operations": 271200000.0,
+        "Tax Provision": 93700000.0,
+        "Pretax Income": 364900000.0,
+        "Other Income Expense": 1500000.0,
+        "Other Non Operating Income Expenses": 1500000.0,
+        "Net Non Operating Interest Income Expense": -56800000.0,
+        "Interest Expense Non Operating": 56800000.0,
+        "Operating Income": 420200000.0,
+        "Operating Expense": 821000000.0,
+        "Selling General And Administration": 821000000.0,
+        "Gross Profit": 1241200000.0,
+        "Cost Of Revenue": 4735400000.0,
+        "Total Revenue": 5976600000.0,
+        "Operating Revenue": 5947400000.0
     }
 }

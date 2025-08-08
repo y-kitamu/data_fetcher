@@ -2023,7 +2023,6 @@ IMKTA,INGLES MARKETS,イングルス・マーケッツ,NASDAQ,小売,○
 IMMR,IMMERSION CORP,イマージョン,NASDAQ,ソフトウェア・サービス,○
 IMMX,IMMIX BIOPHARMA,イミックス・バイオファーマ,NASDAQ,医薬品（バイオテクノロジー）,○
 IMNM,IMMUNOME INC,イムノーム,NASDAQ,医薬品（バイオテクノロジー）,○
-IMNN,IMUNON INC,イムノン,NASDAQ,医療サービス,○
 IMO,IMPERIAL OIL LTD,インペリアル・オイル,NYSE,石油,○
 IMOS,CHIPMOS TECHNO,チップモス・テクノロジーズ,NASDAQ,半導体,○
 IMPP,IMPERIAL PETROLM,インペリアル・ペトロリアム,NASDAQ,運輸,○
@@ -3008,8 +3007,6 @@ PAMT,PAMT CORP,PAMT,NASDAQ,運輸,○
 PANL,PANGAEA LOGSTIC,パンゲア・ロジスティクス・ソリューションズ,NASDAQ,運輸,○
 PANW,PALO ALTO,パロ アルト ネットワークス,NASDAQ,ネットワークセキュリティー,○
 PAR,PAR TECHNOLOGY,PARテクノロジー,NYSE,ソフトウェア・サービス,○
-PARA,PARAMOUNT GLOBAL,パラマウント・グローバル,NASDAQ,エンターテイメント,○
-PARAA,PARAMOUNT GLOBAL,パラマウント・グローバル,NASDAQ,エンターテイメント,○
 PARR,PAR PACIFIC HLD,パー・パシフィック・ホールディングス,NYSE,石油,○
 PATH,UIPATH INC,ユーアイパス,NYSE,ソフトウェア・サービス,○
 PATK,PATRICK INDUSTRI,パトリック・インダストリーズ,NASDAQ,その他製造,○
@@ -3503,6 +3500,7 @@ SDVD,FT SMID RDIV ACV,ファーストトラスト Vest 中小型株増配アチ�
 SDVY,FT SMID CAP ETF,ファーストトラスト 中小型増配アチーバーズETF,NASDAQ,その他,○
 SDY,SPDR SP DIVIDEND,SPDR S&P 米国高配当株式 ETF,NYSE,その他,○
 SE,SEA LIMITED,シー,NYSE,ソフトウェア・サービス,○
+SEAT,VIVID SEATS INC,ヴィヴィッド・シーツ,NASDAQ,ソフトウェア・サービス,○
 SEB,SEABOARD CORP,シーボード,NYSE,食品,○
 SEDG,SOLAREDGE TECH,ソーラーエッジ・テクノロジー,NASDAQ,電力,○
 SEE,SEALED AIR CORP,シールドエアー,NYSE,その他製造,○
@@ -3745,7 +3743,6 @@ SSTK,SHUTTERSTOCK,シャッターストック,NYSE,ソフトウェア・サー�
 SSYS,STRATASYS LTD,ストラタシス,NASDAQ,コンピュータ,○
 ST,SENSATA TECHNO,センサータ・テクノロジーズ,NYSE,その他,○
 STAA,STAAR SURGICAL,スターサージカル,NASDAQ,ヘルスケア,○
-STAF,STAFFING 360 SLS,スタッフィング・360・ソリュ―ションズ,NASDAQ,ソフトウェア・サービス,○
 STBA,S&T BANCORP INC,S&Tバンコープ,NASDAQ,金融（銀行）,○
 STC,STEWART INFO SRV,スチュワート・インフォメーション・サービシーズ,NYSE,金融(保険),○
 STE,STERIS PUBLIC,ステリス,NYSE,ヘルスケア,○
@@ -3892,6 +3889,7 @@ THRD,THIRD HARMO BIO,サード・ハーモニック・バイオ,NASDAQ,医薬品
 THRM,GENTHERM INCORP,ジェンサーム,NASDAQ,周辺機器,○
 THRY,THRYV HLD,スライブ・ホールディングス,NASDAQ,ソフトウェア・サービス,○
 THS,TREEHOUSE FOODS,ツリーハウス・フーズ,NYSE,食品,○
+TIC,ACUREN CORP,アキュレン,NYSE,その他,○
 TIGO,MILLICOM INTRNTN,ミリコム・インターナショナル・セルラー,NASDAQ,通信サービス,○
 TIGR,UP FINTECH HLD,アップ・フィンテック・ホールディング,NASDAQ,金融（証券）,○
 TIL,INSTIL BIO INC,インスティル・バイオ,NASDAQ,医薬品（バイオテクノロジー）,○
