@@ -1912,6 +1912,7 @@ HSY,HERSHEY CO/THE,ハーシー,NYSE,食品,○
 HTB,HOMETRUST BANC,ホーム・トラスト・バンクシェアズ,NYSE,金融（銀行）,○
 HTBK,HERITAGE COMMRCE,ヘリテージ・コマース,NASDAQ,金融（銀行）,○
 HTCR,HEARTCORE ENTER,ハートコア・エンタープライジズ,NASDAQ,ソフトウェア・サービス,○
+HTFL,HEARTFLOW,ハートフロー,NASDAQ,医療サービス,○
 HTH,HILLTOP HOLDINGS,ヒルトップ・ホールディングス,NYSE,金融（銀行）,○
 HTHT,H WORLD GROUP,エッチ・ワールド・グループ,NASDAQ,ホテル,○
 HTLD,HEARTLAND EXPRSS,ハートランド・エクスプレス,NASDAQ,運輸,○
@@ -2696,6 +2697,7 @@ NABL,N-ABLE INC,エヌ・エイブル,NYSE,ソフトウェア・サービス,○
 NAGE,NIAGEN BIOSCIENC,ナイアジェン・バイオサイエンス,NASDAQ,ヘルスケア,○
 NAII,NATURAL ALT INTL,ナチュラル・オルタナティブズ・インターナショナル,NASDAQ,医薬品,○
 NAMS,NEWAMSTERDAM PHA,ニューアムステルダム・ファーマ,NASDAQ,医薬品（バイオテクノロジー）,○
+NAOV,NANOVIBRONIX INC,ナノビブロニックス,NASDAQ,ヘルスケア,○
 NAT,NORDIC ARCN TANK,ノルディック・アメリカン・タンカーズ,NYSE,運輸,○
 NATH,NATHANS FAMOUS,ネーサンズ・フェイマス,NASDAQ,外食,○
 NATL,NCR ATLEOS LLC,エヌ・シー・アール・アトレオス,NYSE,情報処理サービス,○
@@ -3193,6 +3195,7 @@ PRU,PRUDENTIAL FIN,プルデンシャル・ファイナンシャル,NYSE,金融(
 PRVA,PRIVIA HEALTH GP,プリビア・ヘルス・グループ,NASDAQ,ソフトウェア・サービス,○
 PSFE,PAYSAFE LTD,ペイセーフ,NYSE,その他,○
 PSK,SPDR ICE PRF SEC,SPDR ICE優先証券ETF,NYSE,その他,○
+PSKY,PARAMNT SKYDANCE,パラマウント・スカイダンス,NASDAQ,エンターテイメント,○
 PSMT,PRICESMART INC,プライススマート,NASDAQ,小売,○
 PSN,PARSONS CORP,パーソンズ,NYSE,ソフトウェア・サービス,○
 PSNL,PERSONALIS INC,パーソナリス,NASDAQ,ヘルスケア,○
@@ -3208,6 +3211,7 @@ PTEN,PATTERSON-UTI,パターソンUTIエナジー,NASDAQ,石油,○
 PTGX,PROTAGONIST THRP,プロタゴニスト・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 PTIR,GNS PLTR 2X LONG,グラナイトシェアーズ2倍ロングPLTRデイリーETF,NASDAQ,その他,○
 PTLO,PORTILLOS INC,ポーティロス,NASDAQ,外食,○
+PTNTD,PALATIN TECHNLGS,パラティン・テクノロジーズ,NASDAQ,医薬品（バイオテクノロジー）,○
 PTON,PELOTON INTERACT,ペロトン・インタラクティブ,NASDAQ,ヘルスケア,○
 PUBM,PUBMATIC INC,パブティック,NASDAQ,ソフトウェア・サービス,○
 PUK,PRUDENTIAL PLC,プルデンシャル,NYSE,金融(保険),○
@@ -3304,6 +3308,7 @@ RDI,READING INTL INC,リーディング・インターナショナル,NASDAQ,エ
 RDIB,READING INTL,リーディング・インターナショナル,NASDAQ,エンターテイメント,○
 RDN,RADIAN GROUP INC,ラディアン・グループ,NYSE,金融(保険),○
 RDNT,RADNET INC,ラドネット,NASDAQ,ヘルスケア,○
+RDNW,RIDENOW GROUP,ライドナウ・グループ,NASDAQ,ソフトウェア・サービス,○
 RDTL,GNS 2X LONG RDDT,GraniteShares2倍ロングRDDTデイリーETF,NASDAQ,その他,○
 RDVI,FT R DIV ACHVRS,ファーストトラスト Vest 増配アチーバーズ ターゲットインカムETF,Cboe,その他,○
 RDVT,RED VIOLET INC,レッド・バイオレット,NASDAQ,ソフトウェア・サービス,○
@@ -3369,7 +3374,6 @@ RLY,SPDR MA REAL RTN,SPDR SSgA マルチ・アセット・リアル・リター�
 RM,REGIONAL MANAGE,リージョナル・マネジメント,NYSE,金融（銀行）,○
 RMAX,RE/MAX HOLDINGS,RE/MAXホールディングス,NYSE,ソフトウェア・サービス,○
 RMBI,RICHMOND MUTL BC,リッチモンド・ミューチュアル・バンコーポレーション,NASDAQ,金融（銀行）,○
-RMBL,RUMBLEON INC,ランブルオン,NASDAQ,ソフトウェア・サービス,○
 RMBS,RAMBUS INC.,ラムバス,NASDAQ,半導体,○
 RMCF,RCKY MTAIN CHOCO,ロッキー・マウンテン・チョコレート・ファクトリー,NASDAQ,食品,○
 RMD,RESMED INC,レスメド,NYSE,ヘルスケア,○
