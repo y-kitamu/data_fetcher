@@ -198,7 +198,6 @@ AMD,ADVANCED M D INC,アドバンスト・マイクロ・デバイス(AMD),NASDA
 AMDD,DRX AMD BR2X,Direxion デ イ リー AMD株 ベア1倍 ETF,NASDAQ,その他,○
 AMDL,GNS AMD BL2X,グラナイトシェアーズ2倍ロングAMDデイリーETF,NASDAQ,その他,○
 AME,AMETEK INC,アメテック,NYSE,その他製造,○
-AMED,AMEDISYS INC,アメディシス,NASDAQ,ヘルスケア,○
 AMG,AFFILIATED MANAG,アフィリエーテッド・マネジャーズ・グループ,NYSE,金融コングロマリット,○
 AMGN,AMGEN INC,アムジェン,NASDAQ,医薬品,○
 AMKR,AMKOR TECHNOLOGY,アムコー・テクノロジー,NASDAQ,半導体,○
@@ -909,7 +908,6 @@ COM,DRX AUSP COM ETF,Direxion オースピス・ブロード・コモディテ�
 COMM,COMMSCOPE HLD,コムスコープ・ホールディング,NASDAQ,通信機器,○
 COMP,COMPASS INC,コンパス,NYSE,ソフトウェア・サービス,○
 CON,CONCENTRA GROUP,コンセントラ・グループ・ホールディングス・ペアレント,NYSE,ヘルスケア,○
-CONI,GNS COIN 2X SHRT,グラナイトシェアーズ2倍ショートCOINデイリーETF,NASDAQ,その他,○
 CONL,GNS COIN BL2X,グラナイトシェアーズ2倍ロングCOINデイリーETF,NASDAQ,その他,○
 COO,COOPER COMPANIES,クーパー,NASDAQ,ヘルスケア,○
 COOK,TRAEGER INC,トレーガ―,NYSE,その他製造,○
@@ -2546,6 +2544,7 @@ MH,MCGRAW HILL,マグロウヒル,NYSE,ソフトウェア・サービス,○
 MHH,MASTECH DIGITAL,マステック・デジタル,NYSE,ソフトウェア・サービス,○
 MHK,MOHAWK INDUSTRIE,モホーク・インダストリーズ,NYSE,その他製造,○
 MHO,M/I HOMES INC,M/Iホームズ,NYSE,その他製造,○
+MIAX,MIAMI INTL HD,マイアミ・インターナショナル・ホールディングス,NYSE,金融（証券）,○
 MIDD,MIDDLEBY CORP,ミドルビー,NASDAQ,その他製造,○
 MILN,GBLX ML CONSUMER,グローバルX ミレニアル世代消費者 ETF,NASDAQ,その他,○
 MIR,MIRION TECHNO,ミリオン・テクノロジーズ,NYSE,その他製造,○
@@ -3073,7 +3072,6 @@ PFS,PROVIDNT FINANCL,プロビデント・ファイナンシャル・サービ�
 PFSI,PENNYMAC FINANCL,ペニーマック・ファイナンシャルサービシズ,NYSE,金融（銀行）,○
 PG,PROCTER&GAMBLE,プロクター・アンド・ギャンブル,NYSE,トイレタリー,○
 PGC,PEAPACK GLADSTNE,ピーパック・グラッドストーン・ファイナンシャル,NASDAQ,金融（銀行）,○
-PGEN,PRECIGEN INC,プレシジェン,NASDAQ,医薬品（バイオテクノロジー）,○
 PGNY,PROGYNY INC,プログニー,NASDAQ,ヘルスケア,○
 PGR,PROGRESSIVE CORP,プログレッシブ,NYSE,金融(保険),○
 PGY,PAGAYA TECHNLGIE,パガヤ・テクノロジーズ,NASDAQ,ソフトウェア・サービス,○
@@ -3480,7 +3478,6 @@ SBS,CIA SANEAMENTO B,サンパウロ州基礎衛生公社,NYSE,その他,○
 SBSI,SOUTHSIDE BANC,サウスサイド・バンクシェアーズ,NYSE,金融（銀行）,○
 SBSW,SIBANYESTILL ADR,シバンエ・スティルウォーター,NYSE,その他,○
 SBUX,STARBUCKS COFFEE,スターバックス,NASDAQ,外食,○
-SCCO,SOUTHERN COPPER,サザン・コッパー,NYSE,その他,○
 SCHL,SCHOLASTIC CORP,スコラスティック,NASDAQ,その他,○
 SCHW,CHARLES SCHWAB,チャールズ・シュワブ,NYSE,金融（証券）,○
 SCI,SERVICE CORP INT,サービス・コーポレーション・インターナショナル,NYSE,その他,○
@@ -4475,6 +4472,7 @@ ZBRA,ZEBRA TECH,ゼブラ・テクノロジーズ,NASDAQ,その他製造,○
 ZD,ZIFF DAVIS INC,ジフ・デイヴィス,NASDAQ,ソフトウェア・サービス,○
 ZDGE,ZEDGE INC,ゼッジ,NYSE,ソフトウェア・サービス,○
 ZENV,ZENVIA INC,ゼンビア,NASDAQ,ソフトウェア・サービス,○
+ZEO,ZEO ENERGY CORP,ゼオ・エナジー,NASDAQ,電力,○
 ZEPP,ZEPP HEALTH CORP,ゼップ・ヘルス,NYSE,通信機器,○
 ZETA,ZETA GLOBAL HD,ゼータ・グローパル・ホールディングス,NYSE,ソフトウェア・サービス,○
 ZEUS,OLYMPIC STEEL,オリンピック・スチール,NASDAQ,その他,○
