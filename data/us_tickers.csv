@@ -343,7 +343,6 @@ ATI,ATI INC,エー・ティー・アイ,NYSE,その他製造,○
 ATKR,ATKORE INC,アトコア,NYSE,その他製造,○
 ATLC,ATLANTICUS HLD,アトランティクス・ホールディングス,NASDAQ,金融（銀行）,○
 ATLO,AMES NTNL CORP,エイムズ・ナショナル,NASDAQ,金融（銀行）,○
-ATNF,180 LIFE SCIENCE,180ライフ・サイエンス,NASDAQ,医薬品（バイオテクノロジー）,○
 ATNI,ATN INTRNATIONAL,ATNインターナショナル,NASDAQ,通信サービス,○
 ATNM,ACTINIUM PHARMA,アクチニウム・ファーマシューティカルズ,NYSE,医薬品（バイオテクノロジー）,○
 ATO,ATMOS ENERGY COR,アトモス・エナジー,NYSE,ガス・パイプライン,○
@@ -908,6 +907,7 @@ COM,DRX AUSP COM ETF,Direxion オースピス・ブロード・コモディテ�
 COMM,COMMSCOPE HLD,コムスコープ・ホールディング,NASDAQ,通信機器,○
 COMP,COMPASS INC,コンパス,NYSE,ソフトウェア・サービス,○
 CON,CONCENTRA GROUP,コンセントラ・グループ・ホールディングス・ペアレント,NYSE,ヘルスケア,○
+CONI,GNS COIN 2X SHRT,グラナイトシェアーズ2倍ショートCOINデイリーETF,NASDAQ,その他,○
 CONL,GNS COIN BL2X,グラナイトシェアーズ2倍ロングCOINデイリーETF,NASDAQ,その他,○
 COO,COOPER COMPANIES,クーパー,NASDAQ,ヘルスケア,○
 COOK,TRAEGER INC,トレーガ―,NYSE,その他製造,○
@@ -1368,6 +1368,7 @@ ESQ,ESQUIRE FINANCL,エスクワイア・ファイナンシャル・ホールデ
 ESTA,ESTABLISH LABS,エスタブリッシュメント・ラボズ・ホールディングス,NASDAQ,ヘルスケア,○
 ESTC,ELASTIC NV,エラスティック,NYSE,ソフトウェア・サービス,○
 ETD,ETHAN ALLN INTRI,イーサン・アレン・インテリアズ,NYSE,小売,○
+ETHZ,ETHZILLA CORP,イーサジラ,NASDAQ,医薬品（バイオテクノロジー）,○
 ETN,EATON CORP PLC,イートン,NYSE,機械,○
 ETNB,89BIO INC,89バイオ,NASDAQ,医薬品（バイオテクノロジー）,○
 ETON,ETON PHARMACEU,イートン・ファーマスーティカルズ,NASDAQ,医薬品,○
@@ -1645,7 +1646,6 @@ GAP,GAP INC,ギャップ,NYSE,専門店,○
 GASS,STEALTHGAS INC,ステルスガス,NASDAQ,運輸,○
 GATX,GATX CORPORATION,ガテックス,NYSE,その他,○
 GAU,GALIANO GOLD,ガリアーノ・ゴールド,NYSE,その他,○
-GB,GLOBAL BLUE GR,グローバル・ブルー・グループ・ホールディング,NYSE,その他,○
 GBCI,GLACIER BANCORP,グレーシャー・バンコープ,NYSE,金融（銀行）,○
 GBTG,GLBL BSNSS TRAVL,グローバル・ビジネス・トラベル・グループ,NYSE,その他,○
 GBX,GREENBRIER CMPNS,グリーンブライアー・カンパニーズ,NYSE,その他製造,○
@@ -2980,7 +2980,6 @@ OTEX,OPEN TEXT CORP,オープンテキスト,NASDAQ,ソフトウェア・サー�
 OTIS,OTIS WORLDWIDE,オーチス・ワールドワイド,NYSE,機械,○
 OTLK,OUTLOOK THERAPEU,アウトルック・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 OTLY,OATLY GROUP AB,オートリー・グループAB,NASDAQ,食品,○
-OTRK,ONTRAK INC,オンタラック,NASDAQ,ヘルスケア,○
 OTTR,OTTER TAIL,オッター・テール,NASDAQ,電力,○
 OUST,OUSTER INC,オースター,NASDAQ,半導体,○
 OVBC,OHIO VALLEY BANC,オハイオ・バレー・バンク,NASDAQ,金融（銀行）,○
@@ -3072,6 +3071,7 @@ PFS,PROVIDNT FINANCL,プロビデント・ファイナンシャル・サービ�
 PFSI,PENNYMAC FINANCL,ペニーマック・ファイナンシャルサービシズ,NYSE,金融（銀行）,○
 PG,PROCTER&GAMBLE,プロクター・アンド・ギャンブル,NYSE,トイレタリー,○
 PGC,PEAPACK GLADSTNE,ピーパック・グラッドストーン・ファイナンシャル,NASDAQ,金融（銀行）,○
+PGEN,PRECIGEN INC,プレシジェン,NASDAQ,医薬品（バイオテクノロジー）,○
 PGNY,PROGYNY INC,プログニー,NASDAQ,ヘルスケア,○
 PGR,PROGRESSIVE CORP,プログレッシブ,NYSE,金融(保険),○
 PGY,PAGAYA TECHNLGIE,パガヤ・テクノロジーズ,NASDAQ,ソフトウェア・サービス,○
@@ -3209,7 +3209,6 @@ PTEN,PATTERSON-UTI,パターソンUTIエナジー,NASDAQ,石油,○
 PTGX,PROTAGONIST THRP,プロタゴニスト・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 PTIR,GNS PLTR 2X LONG,グラナイトシェアーズ2倍ロングPLTRデイリーETF,NASDAQ,その他,○
 PTLO,PORTILLOS INC,ポーティロス,NASDAQ,外食,○
-PTNTD,PALATIN TECHNLGS,パラティン・テクノロジーズ,NASDAQ,医薬品（バイオテクノロジー）,○
 PTON,PELOTON INTERACT,ペロトン・インタラクティブ,NASDAQ,ヘルスケア,○
 PUBM,PUBMATIC INC,パブティック,NASDAQ,ソフトウェア・サービス,○
 PUK,PRUDENTIAL PLC,プルデンシャル,NYSE,金融(保険),○
@@ -3644,7 +3643,6 @@ SNN,SMITH & NEPHEW,スミス・アンド・ネフュー,NYSE,医療サービス,
 SNOA,SONOMA PHARMA,ソノマ・ファーマシューティカルズ,NASDAQ,医薬品,○
 SNOW,SNOWFLAKE INC,スノーフレーク,NYSE,ソフトウェア・サービス,○
 SNPS,SYNOPSYS INC,シノプシス,NASDAQ,その他,○
-SNRE,SUNRISE COMM AG,サンライズ・コミュニケーションズ,NASDAQ,通信サービス,○
 SNT,SENSTAR TECHNO,センスター・テクノロジーズ,NASDAQ,ネットワークセキュリティー,○
 SNTG,SENTAGE HOLDINGS,センテージ・ホールディングス,NASDAQ,金融（銀行）,○
 SNV,SYNOVUS FINANCIA,シノバス・ファイナンシャル,NYSE,金融（銀行）,○
