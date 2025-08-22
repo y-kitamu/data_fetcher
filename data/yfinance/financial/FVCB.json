@@ -581,7 +581,7 @@
     },
     "2024-06-30": {
         "Tax Effect Of Unusual Items": 0.0,
-        "Tax Rate For Calcs": 0.222,
+        "Tax Rate For Calcs": 0.221764,
         "Total Unusual Items": NaN,
         "Total Unusual Items Excluding Goodwill": NaN,
         "Net Income From Continuing Operation Net Minority Interest": 4155000.0,
@@ -696,7 +696,7 @@
         "General And Administrative Expense": 5091000.0,
         "Insurance And Claims": 240000.0,
         "Salaries And Wages": 4851000.0,
-        "Total Revenue": 14344000.0,
+        "Total Revenue": 17334000.0,
         "Operating Revenue": 14344000.0,
         "Occupancy And Equipment": 525000.0,
         "Professional Expense And Contract Services Expense": NaN,

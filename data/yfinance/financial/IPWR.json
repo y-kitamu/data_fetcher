@@ -623,7 +623,7 @@
         "Interest Income": 223948.0,
         "Normalized Income": -2662065.0,
         "Net Income From Continuing And Discontinued Operation": -2662065.0,
-        "Total Expenses": 2886013.0,
+        "Total Expenses": 2887344.0,
         "Total Operating Income As Reported": -2886013.0,
         "Diluted Average Shares": 8514581.0,
         "Basic Average Shares": 8514581.0,
@@ -639,7 +639,7 @@
         "Total Other Finance Cost": NaN,
         "Interest Income Non Operating": 223948.0,
         "Operating Income": -2886013.0,
-        "Operating Expense": 2868539.0,
+        "Operating Expense": 2869870.0,
         "Other Operating Expenses": -1331.0,
         "Research And Development": 1562747.0,
         "Selling General And Administration": 1307123.0,
@@ -649,7 +649,7 @@
         "Gross Profit": -16143.0,
         "Cost Of Revenue": 17474.0,
         "Total Revenue": 0.0,
-        "Operating Revenue": 0.0
+        "Operating Revenue": 1331.0
     },
     "2024-09-30": {
         "Tax Effect Of Unusual Items": 0.0,
@@ -664,7 +664,7 @@
         "Interest Income": NaN,
         "Normalized Income": -2690348.0,
         "Net Income From Continuing And Discontinued Operation": -2690348.0,
-        "Total Expenses": 2899631.0,
+        "Total Expenses": 2900185.0,
         "Total Operating Income As Reported": -2899631.0,
         "Diluted Average Shares": 8767251.0,
         "Basic Average Shares": 8767251.0,
@@ -680,7 +680,7 @@
         "Total Other Finance Cost": -209283.0,
         "Interest Income Non Operating": NaN,
         "Operating Income": -2899631.0,
-        "Operating Expense": 2898120.0,
+        "Operating Expense": 2898674.0,
         "Other Operating Expenses": -554.0,
         "Research And Development": 1684063.0,
         "Selling General And Administration": 1214611.0,
@@ -689,7 +689,7 @@
         "Other Gand A": 893969.0,
         "Gross Profit": -1511.0,
         "Cost Of Revenue": 1511.0,
-        "Total Revenue": 0.0,
+        "Total Revenue": 554.0,
         "Operating Revenue": 554.0
     },
     "2024-12-31": {
@@ -705,7 +705,7 @@
         "Interest Income": NaN,
         "Normalized Income": -2595774.0,
         "Net Income From Continuing And Discontinued Operation": -2595774.0,
-        "Total Expenses": 2844612.0,
+        "Total Expenses": 2763988.0,
         "Total Operating Income As Reported": -2758580.0,
         "Diluted Average Shares": 9043901.0,
         "Basic Average Shares": 9043901.0,
@@ -721,7 +721,7 @@
         "Total Other Finance Cost": NaN,
         "Interest Income Non Operating": NaN,
         "Operating Income": -2758580.0,
-        "Operating Expense": 2838686.0,
+        "Operating Expense": 2758062.0,
         "Other Operating Expenses": NaN,
         "Research And Development": 1593515.0,
         "Selling General And Administration": 1164547.0,
@@ -730,7 +730,7 @@
         "Other Gand A": 913495.0,
         "Gross Profit": -518.0,
         "Cost Of Revenue": 5926.0,
-        "Total Revenue": 86032.0,
+        "Total Revenue": 5408.0,
         "Operating Revenue": 86032.0
     },
     "2023-12-31": {

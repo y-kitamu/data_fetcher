@@ -111,6 +111,7 @@ AGG,ISHARESCORE BOND,iシェアーズ　コア米国総合債券ETF,NYSE,その�
 AGGY,WM ENHANCED AGGB,ウィズダムツリー 米国債券ファンド（利回り強化型）,NYSE,その他,○
 AGI,ALAMOS GOLD INC,アラモス・ゴールド,NYSE,その他,○
 AGIO,AGIOS PHARMA,アジオス・ファーマシューティカルズ,NASDAQ,医薬品（バイオテクノロジー）,○
+AGIX,KRS AI TECH ETF,KraneShaers AI テクノロジーETF,NASDAQ,その他,○
 AGL,AGILON HEALTH,アジロン・ヘルス,NYSE,ソフトウェア・サービス,○
 AGM,FED AGRICULTURAL,フェデラル・アグリカルチャラル・モーゲージ,NYSE,金融（銀行）,○
 AGO,ASSURED GUARANTY,アシュアード･ギャランティー,NYSE,金融(保険),○
@@ -373,6 +374,7 @@ AVDL,AVADEL PHARMA,アバデル・ファーマシューティカルズ,NASDAQ,�
 AVDX,AVIDXCHANGE HLD,アビッドエクスチェンジ・ホールディングス,NASDAQ,ソフトウェア・サービス,○
 AVEM,AVT EMG M EQ ETF,アバンティス・エマージング・マーケッツ・エクイティ・ETF,NYSE,その他,○
 AVGO,BROADCOM INC,ブロードコム,NASDAQ,半導体,○
+AVGU,GNS 2X LONG AVGO,GraniteShares2倍ロングAVGOデイリーETF,NASDAQ,その他,○
 AVIR,ATEA PHARMACEU,アテア・ファーマシューティカルズ,NASDAQ,医薬品（バイオテクノロジー）,○
 AVL,DRX AVGO BL2X,Direxion デイリー AVGO ブル 2 倍 ETF,NASDAQ,その他,○
 AVNS,AVANOS MEDICAL,アバノス・メディカル,NYSE,医療サービス,○
@@ -427,6 +429,7 @@ BAND,BANDWIDTH INC,バンドウィドゥス,NASDAQ,ソフトウェア・サー�
 BANF,BANCFIRST CORP,バンクファースト,NASDAQ,金融（銀行）,○
 BANR,BANNER CORP,バナー,NASDAQ,金融（銀行）,○
 BAP,CREDICORP LTD,クレディコープ,NYSE,金融（銀行）,○
+BAR,GNS GOLD TRUST,グラナイトシェアーズ・ゴールド・トラスト,NYSE,その他,○
 BARK,BARK INC,バーク,NYSE,専門店,○
 BASE,COUCHBASE INC,カウチベース,NASDAQ,通信サービス,○
 BATL,BATTALION OIL,バタリオン・オイル,NYSE,石油,○
@@ -2106,6 +2109,7 @@ IRTC,IRHYTHM TECH,アイリズム・テクノロジーズ,NASDAQ,ヘルスケア
 IRWD,IRONWOOD PHARMA,アイアンウッド・ファーマシューティカルズ,NASDAQ,医薬品,○
 ISPC,ISPECIMEN INC,iスペシメン,NASDAQ,ソフトウェア・サービス,○
 ISPO,INSPIRATO INC,インスピラート,NASDAQ,ソフトウェア・サービス,○
+ISPY,PROS SP500H INCM,プロシェアーズ S&P500 ハイ・インカム ETF,Cboe,その他,○
 ISRG,INTUITIVE SURGIC,インテュイティブ・サージカル,NASDAQ,医療サービス,○
 ISSC,INNVTVE SOL SPRT,イノベイティブ・ソリューションズ＆サポート,NASDAQ,その他,○
 ISTR,INVESTAR HLDNG,インベスター・ホールディング,NASDAQ,金融（銀行）,○
@@ -2119,6 +2123,7 @@ ITRN,ITURAN LC CONTRL,イツーラン・ロケーション・アンド・コン�
 ITT,ITT INC,ITT,NYSE,機械,○
 ITUB,ITAU UNIBANCO,イタウ・ウニバンコ・ホールディング,NYSE,金融（銀行）,○
 ITW,ILLINOIS TOOL,ITWイリノイ・ツール・ワークス,NYSE,その他製造,○
+ITWO,PROS RSSL H INCM,プロシェアーズ・ラッセル 2000 ハイ・インカムETF,Cboe,その他,○
 IVOG,VA SP M-CAP400 G,バンガード・S&Pミッドキャップ400グロースETF,NYSE,その他,○
 IVOO,VA SP M-CAP400,バンガード・S&Pミッドキャップ400 ETF,NYSE,その他,○
 IVOV,VA SP M-CAP400 V,バンガード・S&Pミッドキャップ400バリューETF,NYSE,その他,○
@@ -2197,6 +2202,7 @@ KALV,KALVISTA PHARMA,カルビスタ・ファーマシューティカルズ,NASD
 KAR,OPENLANE,オープンレーン,NYSE,小売,○
 KARO,KAROOOOO,カルー,NASDAQ,ソフトウェア・サービス,○
 KB,KB FINANCIAL,KBフィナンシャル・グループ,NYSE,金融コングロマリット,○
+KBAB,KRS 2X LONG BABA,KraneShares 2x ロング BABA デイリーETF,NASDAQ,その他,○
 KBH,KB HOME,KBホーム,NYSE,その他,○
 KBR,KBR INC,KBR,NYSE,その他製造,○
 KC,KINGSOFT CLOUD,キングソフト・クラウド・ホールディングス,NASDAQ,ソフトウェア・サービス,○
@@ -2223,6 +2229,7 @@ KITT,NAUTICUS ROBOTIC,ノーティカス・ロボティクス,NASDAQ,その他�
 KLAC,KLA CORPORATION,KLAコーポレーション,NASDAQ,半導体,○
 KLG,WK KELLOGG CO,WKケロッグ,NYSE,食品,○
 KLIC,KULICKE SOFFA,キューリッキ・ソファ・インダストリーズ,NASDAQ,半導体,○
+KLIP,KRS KWEB COVERED,KraneShares KWEBカバード・コール戦略 ETF,NYSE,その他,○
 KLRS,KALARIS THERAPE,カラリス・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 KLTR,KALTURA INC,カルトゥーラ,NASDAQ,ソフトウェア・サービス,○
 KLXE,KLX ENE SRVCS HD,KLXエナジー・サービシズ・ホールディングス,NASDAQ,石油,○
@@ -2251,6 +2258,7 @@ KOPN,KOPIN CORP,コピン,NASDAQ,その他製造,○
 KORE,KORE GROUP HLD,コア・グループ・ホールディングス,NYSE,ソフトウェア・サービス,○
 KOS,KOSMOS ENERGY LT,コスモス・エナジー,NYSE,石油,○
 KOSS,KOSS CORP,コス,NASDAQ,その他製造,○
+KPDD,KRS 2X LONG PDD,KraneShares 2x ロング PDD デイリーETF,NASDAQ,その他,○
 KPLT,KATAPULT HLD,カタパルト・ホールディングス,NASDAQ,小売,○
 KPRX,KIORA PHARMA,キオラ・ファーマシューティカルズ,NASDAQ,医薬品（バイオテクノロジー）,○
 KPTI,KARYOPHARM THERP,カリオファーム・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
@@ -2280,6 +2288,7 @@ KVHI,KVH INDUSTRIES,KVHインダストリーズ,NASDAQ,通信機器,○
 KVUE,KENVUE INC,ケンビュー,NYSE,その他製造,○
 KVYO,KLAVIYO INC,クラビヨ,NYSE,情報処理サービス,○
 KW,KENNEDY-WILSON,ケネディ・ウィルソン・ホールディングス,NYSE,その他,○
+KWEB,KRS CSI CH NET,KraneShares CSI チャイナ・インターネットETF,NYSE,その他,○
 KWR,QUAKER HOUGHTON,クエーカー・ホートン,NYSE,化学,○
 KXI,ISHARES CONS STA,iシェアーズ グローバル生活必需品 ETF,NYSE,その他,○
 KXIN,KAIXIN HOLDINGS,カイシン・ホールディングス,NASDAQ,小売,○
@@ -2788,6 +2797,7 @@ NOTV,INOTIV INC,イノティブ,NASDAQ,ヘルスケア,○
 NOV,NOV INC,NOV,NYSE,石油,○
 NOVT,NOVANTA INC,ノバンタ,NASDAQ,その他製造,○
 NOW,SERVICENOW INC,サービスナウ,NYSE,ソフトウェア・サービス,○
+NOWL,GNS 2X LONG NOW,GraniteShares2倍ロングNOWデイリーETF,NASDAQ,その他,○
 NPB,NORTHPOINTE BANC,ノースポイント・バンクシェアーズ,NYSE,金融（銀行）,○
 NPCE,NEUROPACE INC,ニューロペース,NASDAQ,医薬品,○
 NPK,NATIONAL PRESTO,ナショナル・プレスト・インダストリーズ,NYSE,航空機・宇宙,○
@@ -3039,6 +3049,7 @@ PCVX,VAXCYTE INC,バックスサイト,NASDAQ,医薬品（バイオテクノロ�
 PCYO,PURE CYCLE CORP,ピュア・サイクル,NASDAQ,その他,○
 PD,PAGERDUTY INC,ページャーデューティー,NYSE,ソフトウェア・サービス,○
 PDD,PDD HOLDINGS INC,PDDホールディングス,NASDAQ,小売,○
+PDDL,GNS 2X LONG PDD,GraniteShares2倍ロングPDDデイリーETF,NASDAQ,その他,○
 PDEX,PRO DEX INC,プロ・デックス,NASDAQ,その他製造,○
 PDFS,PDF SOLUTIONS,PDFソリューション,NASDAQ,ソフトウェア・サービス,○
 PDLB,PDL COMUNTY BANC,PDLコミュニティ・バンコープ,NASDAQ,金融(カード),○
@@ -3495,6 +3506,7 @@ SDIV,GLX SUPERDVD ETF,グローバルX スーパーディビィデンド-世界�
 SDOT,SADOT GROUP INC,サドット・グループ,NASDAQ,外食,○
 SDOW,PROS DOW30 -3X,プロシェアーズ・ウルトラプロ・ショート・ダウ30,NYSE,その他,○
 SDRL,SEADRILL LTD,シードリル,NYSE,石油,○
+SDS,PROS U SHT SP500,プロシェアーズ・ウルトラショート S&P500,NYSE,その他,○
 SDVD,FT SMID RDIV ACV,ファーストトラスト Vest 中小型株増配アチーバーズ ターゲットインカムETF,Cboe,その他,○
 SDVY,FT SMID CAP ETF,ファーストトラスト 中小型増配アチーバーズETF,NASDAQ,その他,○
 SDY,SPDR SP DIVIDEND,SPDR S&P 米国高配当株式 ETF,NYSE,その他,○
@@ -3734,6 +3746,7 @@ SSBI,SUMMIT STATE BNK,サミット・ステート・バンク,NASDAQ,金融（�
 SSD,SIMPSON MANUFCTR,シンプソン・マニュファクチャリング,NYSE,その他製造,○
 SSL,SASOL LTD ADR,サソル,NYSE,石油,○
 SSNC,SS&C TECHNOLGIES,SS&Cテクノロジーズ・ホールディングス,NASDAQ,ソフトウェア・サービス,○
+SSO,PROS ULTRA SP500,プロシェアーズ・ウルトラ S&P500,NYSE,その他,○
 SSP,E.W. SCRIPPS,E.W.スクリップス,NASDAQ,エンターテイメント,○
 SSRM,SSR MINING INC,SSR マイニング,NASDAQ,その他,○
 SSTI,SOUNDTHINKING,サウンド・シンキング,NASDAQ,その他,○
@@ -3985,6 +3998,8 @@ TSLA,TESLA INC,テスラ,NASDAQ,自動車,○
 TSLL,DRX TSLA BL2X,Direxion デイリー TSLA ブル2倍株式,NASDAQ,その他,○
 TSLR,GNS TSLA BL2X,グラナイトシェアーズ2倍ロングTSLAデイリーETF,NASDAQ,その他,○
 TSLS,DRX TSLA BR1X,Direxion デイリー TSLA 株 ベア1倍 ETF,NASDAQ,その他,○
+TSLT,REX 2X LONG TSLA,T-REX 2X・ロング・テスラ・デイリーターゲット ETF,Cboe,その他,○
+TSLZ,REX 2X INVS TSLA,T-REX 2X・インバース・テスラ・デイリーターゲット ETF,Cboe,その他,○
 TSM,TAIWAN SEMI ADR,タイワン・セミコンダクター・マニュファクチャリング,NYSE,半導体,○
 TSMU,GNS 2X LONG TSM,GraniteShares2倍ロングTSMデイリーETF,NASDAQ,その他,○
 TSMX,DRX TSM BL2X,Direxion デイリー TSM ブル 2 倍 ETF,NASDAQ,その他,○
@@ -4097,6 +4112,7 @@ UROY,URANIUM ROYALTY,ウラニウム・ロイヤルティ,NASDAQ,その他製造
 USAU,US GOLD CORP,USゴールド,NASDAQ,専門店,○
 USB,U.S. BANCORP,USバンコープ,NYSE,金融（銀行）,○
 USCB,USCB FINANCIAL,USCBファイナンシャル・ホールディングス,NASDAQ,金融（銀行）,○
+USD,PROS ULT SEMICON,プロシェアーズ・ウルトラ・セミコンダクターズ,NYSE,その他,○
 USEA,UNITED MARITIME,ユナイテッド・マリタイム・コーポレーション,NASDAQ,運輸,○
 USEG,US ENERGY CORP,USエナジー,NASDAQ,石油,○
 USFD,US FOODS HOLDING,USフーズ・ホールディング,NYSE,食品,○
@@ -4329,7 +4345,6 @@ WILC,G WILL FOOD INTL,Gウィリー・フード・インターナショナル,NA
 WIMI,WIMI HOLOGRAM,ウィミ･ホログラム･クラウド,NASDAQ,ソフトウェア・サービス,○
 WINA,WINMARK CORP,ウィンマーク,NASDAQ,小売,○
 WING,WINGSTOP INC.,ウイング・ストップ,NASDAQ,外食,○
-WINT,WINDTREE THERA,ウィンドツリー・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 WIT,WIPRO LTD ADR,ウィプロ,NYSE,ソフトウェア・サービス,○
 WIX,WIX.COM LTD,Wix.com,NASDAQ,ソフトウェア・サービス,○
 WK,WORKIVA INC,ワーキバ,NYSE,ソフトウェア・サービス,○

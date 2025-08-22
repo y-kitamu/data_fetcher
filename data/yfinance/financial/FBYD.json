@@ -235,7 +235,7 @@
         "Total Operating Income As Reported": -3522000.0,
         "Diluted Average Shares": 12079960.0,
         "Basic Average Shares": 12010729.0,
-        "Diluted EPS": 0.008333,
+        "Diluted EPS": 0.0,
         "Basic EPS": 0.1,
         "Diluted NI Availto Com Stockholders": 60000.0,
         "Average Dilution Earnings": -1174000.0,
@@ -268,7 +268,7 @@
         "Gross Profit": 1798000.0,
         "Cost Of Revenue": 0.0,
         "Total Revenue": 1798000.0,
-        "Operating Revenue": 0.0
+        "Operating Revenue": 1798000.0
     },
     "2024-09-30": {
         "Tax Effect Of Unusual Items": 0.0,
@@ -504,7 +504,7 @@
         "Net Interest Income": -1329000.0,
         "Interest Expense": 1332000.0,
         "Interest Income": 3000.0,
-        "Normalized Income": -5793738.415915,
+        "Normalized Income": -5794000.0,
         "Net Income From Continuing And Discontinued Operation": -3677000.0,
         "Total Expenses": 6526000.0,
         "Total Operating Income As Reported": -6339000.0,
