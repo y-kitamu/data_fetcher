@@ -4,6 +4,7 @@ import asyncio
 import datetime
 import gzip
 import threading
+import time
 from pathlib import Path
 
 from loguru import logger
@@ -50,22 +51,33 @@ async def compress_csvs(
 if __name__ == "__main__":
     log_path = data_fetcher.constants.PROJECT_ROOT / "logs" / "bitflyer.log"
     try:
-        log_path.parent.mkdir(exist_ok=True)
-        logger.add(
-            log_path,
-            rotation="30 MB",
-            format="[{time:YYYY-MM-DD HH:mm:ss} {level} {file} at line {line}] {message}",
-            level="DEBUG",
-        )
+        while True:
+            try:
+                log_path.parent.mkdir(exist_ok=True)
+                logger.add(
+                    log_path,
+                    rotation="30 MB",
+                    format="[{time:YYYY-MM-DD HH:mm:ss} {level} {file} at line {line}] {message}",
+                    level="DEBUG",
+                )
 
-        fetcher = data_fetcher.bitflyer.BitflyerFetcher()
-        thread = threading.Thread(target=fetcher.start_websocket)
-        thread.daemon = True
-        thread.start()
+                fetcher = data_fetcher.bitflyer.BitflyerFetcher()
+                thread = threading.Thread(target=fetcher.start_websocket)
+                thread.daemon = True
+                thread.start()
 
-        asyncio.run(compress_csvs(check_continue=get_is_continue(thread)))
+                asyncio.run(compress_csvs(check_continue=get_is_continue(thread)))
 
-        thread.join()
-    except:
-        data_fetcher.logger.exception("Failed to fetch data from bitflyer.")
+                thread.join()
+            except Exception:
+                data_fetcher.logger.exception("Failed to fetch data from bitflyer.")
+            finally:
+                if thread.is_alive():
+                    thread.join(timeout=5)
+
+            logger.debug("Restarting fetcher...")
+            time.sleep(5)
+    except Exception:
+        data_fetcher.logger.exception("Bitflyer fetcher stopped unexpectedly.")
+
     data_fetcher.notification.notify_to_line("Bitflyer fetcher stopped.")
