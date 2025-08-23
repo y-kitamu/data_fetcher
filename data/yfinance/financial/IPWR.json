@@ -648,7 +648,7 @@
         "Other Gand A": 947384.0,
         "Gross Profit": -16143.0,
         "Cost Of Revenue": 17474.0,
-        "Total Revenue": 0.0,
+        "Total Revenue": 1331.0,
         "Operating Revenue": 1331.0
     },
     "2024-09-30": {
@@ -687,7 +687,7 @@
         "Selling And Marketing Expense": 320642.0,
         "General And Administrative Expense": 893969.0,
         "Other Gand A": 893969.0,
-        "Gross Profit": -1511.0,
+        "Gross Profit": -957.0,
         "Cost Of Revenue": 1511.0,
         "Total Revenue": 554.0,
         "Operating Revenue": 554.0
@@ -731,7 +731,7 @@
         "Gross Profit": -518.0,
         "Cost Of Revenue": 5926.0,
         "Total Revenue": 5408.0,
-        "Operating Revenue": 86032.0
+        "Operating Revenue": 5408.0
     },
     "2023-12-31": {
         "Tax Effect Of Unusual Items": 0.0,

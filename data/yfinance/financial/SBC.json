@@ -8,7 +8,7 @@
         "Net Income From Continuing Operation Net Minority Interest": 2832894.0,
         "Reconciled Depreciation": 1018359.0,
         "Reconciled Cost Of Revenue": 9845793.0,
-        "EBITDA": 13113317.0,
+        "EBITDA": 14131676.0,
         "EBIT": 13113317.0,
         "Net Interest Income": 2484.0,
         "Interest Expense": 5466.0,
@@ -279,7 +279,7 @@
         "Operating Revenue": 44420537.0
     },
     "2025-03-31": {
-        "Tax Effect Of Unusual Items": 2769567.203371,
+        "Tax Effect Of Unusual Items": 2769901.9046,
         "Tax Rate For Calcs": 0.3167,
         "Normalized EBITDA": 23339780.0,
         "Total Unusual Items": 8746138.0,
