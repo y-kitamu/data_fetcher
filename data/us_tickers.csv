@@ -436,6 +436,7 @@ BAX,BAXTER INTER INC,バクスター　インターナショナル,NYSE,医療�
 BB,BLACKBERRY LTD,ブラックベリー,NYSE,コンピュータ,○
 BBAI,BIGBEAR.AI HLD,ビッグベアーAIホールディングス,NYSE,ソフトウェア・サービス,○
 BBAR,BANCO BBVA ARG,バンコBBVAアルゼンチン,NYSE,金融（銀行）,○
+BBBY,BED BATH BEYOND,ベッド・バス・アンド・ビヨンド,NYSE,小売,○
 BBCP,CONCRETE PUMPING,コンクリート・ポンピング・ホールディングス,NASDAQ,その他製造,○
 BBD,BANCO BRADESCO,バンコ・ブラデスコ,NYSE,金融（銀行）,○
 BBDO,BANCO BRADESCO,ブラデスコ銀行,NYSE,金融（銀行）,○
@@ -534,7 +535,6 @@ BL,BLACKLINE INC,ブラックライン,NASDAQ,ソフトウェア・サービス,
 BLBD,BLUE BIRD CORP,ブルー・バード,NASDAQ,自動車,○
 BLCO,BAUSCH AND LOMB,ボシュロム,NYSE,医療サービス,○
 BLD,TOPBUILD CORP,トップビルド・コープ,NYSE,その他,○
-BLDE,BLADE AIR MOBL,ブレード・エア・モビリティ,NASDAQ,運輸,○
 BLDP,BALLARD PWR SYS,バラード・パワー・システムズ,NASDAQ,その他製造,○
 BLDR,BUILDERS 1SOURCE,ビルダーズ・ファースト・ソース,NYSE,その他製造,○
 BLFS,BIOLIFE SOLUTION,バイオライフ・ソリューションズ,NASDAQ,ヘルスケア,○
@@ -658,7 +658,6 @@ BY,BYLINE BANCORP,バイライン・バンコープ,NYSE,金融（銀行）,○
 BYD,BOYD GAMING,ボイド・ゲーミング,NYSE,エンターテイメント,○
 BYFC,BROADWAY FINCIAL,ブロードウェイ・フィナンシャル,NASDAQ,金融（銀行）,○
 BYND,BEYOND MEAT INC,ビヨンド・ミート,NASDAQ,食品,○
-BYON,BEYOND INC,ビヨンド,NYSE,小売,○
 BYRN,BYRNA TECHNOLOGI,ブルナ・テクノロジーズ,NASDAQ,その他製造,○
 BYSI,BEYONDSPRING,ビヨンドスプリング,NASDAQ,医薬品（バイオテクノロジー）,○
 BZ,KANZHUN LTD,カンジュン,NASDAQ,ソフトウェア・サービス,○
@@ -1176,6 +1175,7 @@ DQ,DAQO NEW ENERGY,ダコ・ニューエナジー,NYSE,化学,○
 DRCT,DIRECT DIGITAL,ダイレクト・デジタル・ホールディングス,NASDAQ,ソフトウェア・サービス,○
 DRD,DRDGOLD LTD-ADR,DRDゴールド,NYSE,その他,○
 DRI,DARDEN RESTAURAN,ダーデン・レストランツ,NYSE,外食,○
+DRIO,DARIOHEALTH CORP,ダリオヘルス,NASDAQ,ソフトウェア・サービス,○
 DRIP,DRX OIL GAS BR2X,Direxion デイリー S&P 石油 ・ガス採掘・生産 ベア2倍 ETF,NYSE,その他,○
 DRIV,GBLX AUTONM ETF,グローバルX 自動運転&EV ETF,NASDAQ,その他,○
 DRN,DRX DL RE BL3X,Direxion デイリー リアルエステート ブル3倍 ETF,NYSE,その他,○
@@ -1217,7 +1217,6 @@ DY,DYCOM INDUSTRIES,ダイコム・インダストリーズ,NYSE,その他製造
 DYAI,DYADIC INTL,ダイアディック・インターナショナル,NASDAQ,ヘルスケア,○
 DYN,DYNE THERAPEUTIC,ダイン・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 EA,ELECTRONIC ARTS,エレクトロニック・アーツ,NASDAQ,通信機器,○
-EAF,GRAFTECH INTL,グラフテック・インターナショナル,NYSE,機械,○
 EAT,BRINKER INTERNAT,ブリンカー・インターナショナル,NYSE,外食,○
 EB,EVENTBRITE INC,イベントブライト,NYSE,ソフトウェア・サービス,○
 EBAY,EBAY. INC,イーベイ,NASDAQ,ソフトウェア・サービス,○
@@ -2114,7 +2113,6 @@ ISTR,INVESTAR HLDNG,インベスター・ホールディング,NASDAQ,金融（�
 IT,GARTNER INC,ガートナー,NYSE,ソフトウェア・サービス,○
 ITGR,INTEGER HOLDINGS,インテジャー・ホールディングス,NYSE,ヘルスケア,○
 ITIC,INVESTORS TITLE,インベスターズ・タイトル,NASDAQ,金融(保険),○
-ITOS,ITEOS THERAPEU,アイテオス・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 ITRI,ITRON INC,アイトロン,NASDAQ,ソフトウェア・サービス,○
 ITRM,ITERUM THERAPEU,アイテラム・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 ITRN,ITURAN LC CONTRL,イツーラン・ロケーション・アンド・コントロール,NASDAQ,ネットワークセキュリティー,○
@@ -2596,7 +2594,6 @@ MO,ALTRIA GROUP INC,アルトリア・グループ,NYSE,食品・タバコ,○
 MOAT,V WIDE MOAT,ヴァンエック・モーニングスター・ワイド・モートETF,Cboe,その他,○
 MOD,MODINE MANUFACTR,モーディン・マニュファクチャリング,NYSE,その他製造,○
 MODG,TOPGOLF CALLAWAY,トップゴルフ・キャロウェイ・ブランズ,NYSE,専門店,○
-MODV,MODIVCARE INC,モディブケア,NASDAQ,ヘルスケア,○
 MOFG,MIDWESTONE FNCAL,ミッドウエストワン・ファイナンシャル・グループ,NASDAQ,金融（銀行）,○
 MOGO,MOGO INC,モゴ,NASDAQ,医薬品,○
 MOGU,MOGU INC,モグ,NYSE,小売,○
@@ -3516,7 +3513,6 @@ SEDG,SOLAREDGE TECH,ソーラーエッジ・テクノロジー,NASDAQ,電力,○
 SEE,SEALED AIR CORP,シールドエアー,NYSE,その他製造,○
 SEED,ORIGIN AGRITECH,オリジン・アグリテック,NASDAQ,化学,○
 SEER,SEER INC,シーア,NASDAQ,医薬品（バイオテクノロジー）,○
-SEGG,LOTTERY.COM,ロッタリー・ドット・コム,NASDAQ,エンターテイメント,○
 SEI,SOLARIS ENERGY,ソラリス・エナジー・インフラストラクチャー,NYSE,石油,○
 SEIC,SEI INVESTMENTS,SEIインベストメンツ,NASDAQ,情報処理サービス,○
 SEM,SELECT MEDICAL,セレクト・メディカル・ホールディングス,NYSE,ヘルスケア,○
@@ -3739,6 +3735,7 @@ SRLN,SPDR BL SNR LOAN,SPDR ブラックストーン・シニア・ローンETF,N
 SROI,CLMS AK GL SUSEQ,Calamos アデトクンボ・グローバル・サステナブル・エクイティーズETF,NYSE,その他,○
 SRPT,SAREPTA THERAP,サレプタ・セラピューティックス,NASDAQ,医薬品（バイオテクノロジー）,○
 SRRK,SCHOLAR ROCK HLD,スカラー・ロック・ホールディング,NASDAQ,医薬品（バイオテクノロジー）,○
+SRTA,STRATA CRTCL MED,ストラタ・クリティカル・メディカル,NASDAQ,運輸,○
 SRTS,SENSUS HEALTHCAR,センサス・ヘルスケア,NASDAQ,ヘルスケア,○
 SSB,SOUTH STATE CORP,サウス・ステート,NYSE,金融（銀行）,○
 SSBI,SUMMIT STATE BNK,サミット・ステート・バンク,NASDAQ,金融（銀行）,○
@@ -3835,7 +3832,6 @@ TBI,TRUEBLUE INC,トゥルーブルー,NYSE,ソフトウェア・サービス,�
 TBLA,TABOOLA COM LTD,タブーラ・ドットコム,NASDAQ,ソフトウェア・サービス,○
 TBPH,THERAVANCE BIO,テラバンス・バイオファーマ,NASDAQ,医薬品（バイオテクノロジー）,○
 TBRG,TRUBRIDGE INC,トゥルーブリッジ,NASDAQ,ソフトウェア・サービス,○
-TC,TOKEN CAT,トークン・キャット,NASDAQ,ソフトウェア・サービス,○
 TCBI,TEXAS CAPITAL BA,テキサス・キャピタル・バンクシェアズ,NASDAQ,金融（銀行）,○
 TCBK,TRICO BANCSHARES,トリコ・バンクシェアーズ,NASDAQ,金融（銀行）,○
 TCBX,3RD COAST BNCSHR,サード・コースト・バンクシェアーズ,NASDAQ,金融（銀行）,○
