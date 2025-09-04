@@ -571,7 +571,7 @@ BNS,BANK OF NOVA SC,バンク・オブ・ノバスコシア,NYSE,金融（銀行
 BNT,BRKFLD WEALTH SL,ブルックフィールド・ウェルス・ソリューションズ,NYSE,金融(保険),○
 BNTX,BIONTECH SE,バイオエヌテック,NASDAQ,医薬品（バイオテクノロジー）,○
 BOC,BOSTON OMAHA CO,ボストン・オマハ,NYSE,コングロマリット,○
-BODI,BEACHBODY CO INC,ビーチボディ・カンパニー,NYSE,ヘルスケア,○
+BODI,BEACHBODY CO INC,ビーチボディ・カンパニー,NASDAQ,ヘルスケア,○
 BOED,DRX BA BR2X,Direxion デ イ リー BA株 ベア 1倍 ETF,NASDAQ,その他,○
 BOEU,DRX BA BL2X,Direxion デ イ リー BA ブル2倍 ETF,NASDAQ,その他,○
 BOH,BANK OF HAWAII,バンク・オブ・ハワイ,NYSE,金融（銀行）,○
@@ -2310,6 +2310,7 @@ LBRT,LIBERTY ENERGY,リバティー・エナジー,NYSE,石油,○
 LBTYA,LIBERTY GLB CL-A,リバティ ・グローバル　クラスA,NASDAQ,通信サービス,○
 LBTYK,LIBERTY GLOBAL,リバティ・グローバル,NASDAQ,通信サービス,○
 LC,LENDING CLUB,レンディングクラブ,NYSE,その他,○
+LCDL,GNS 2X LONG LCID,グラナイトシェアーズ 2倍ロングLCIDデイリーETF,NASDAQ,その他,○
 LCID,LUCID GROUP INC,ルーシッド・グループ,NASDAQ,自動車,○
 LCII,LCI INDUSTRIES,LCIインダストリーズ,NYSE,その他製造,○
 LCNB,LCNB CORP,LCNB,NASDAQ,金融（銀行）,○
@@ -3926,6 +3927,7 @@ TNA,DRX DL SCAP BL3X,Direxion デイリー 米国小型株 ブル3倍 ETF,NYSE,�
 TNC,TENNANT COMPANY,テナントカンパニー,NYSE,機械,○
 TNDM,TANDEM DIABETES,タンデム・ダイアベティス・ケア,NASDAQ,ヘルスケア,○
 TNET,TRINET GROUP INC,トライネット・グループ,NYSE,ソフトウェア・サービス,○
+TNFA,TNF PHARMACEUTIC,TNFファーマシューティカルズ,NASDAQ,医薬品,○
 TNGX,TANGO THERAPE,タンゴ・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 TNK,TEEKAY TANKERS,ティーケイ・タンカーズ,NYSE,運輸,○
 TNL,TRAVEL LEISURE,トラベル・レージャー,NYSE,ホテル,○
