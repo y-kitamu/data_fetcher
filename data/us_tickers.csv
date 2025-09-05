@@ -347,6 +347,7 @@ ATNI,ATN INTRNATIONAL,ATNインターナショナル,NASDAQ,通信サービス,�
 ATNM,ACTINIUM PHARMA,アクチニウム・ファーマシューティカルズ,NYSE,医薬品（バイオテクノロジー）,○
 ATO,ATMOS ENERGY COR,アトモス・エナジー,NYSE,ガス・パイプライン,○
 ATOM,ATOMERA INC,アトメラ,NASDAQ,半導体,○
+ATON,ALPHATON CAPITAL,AlphaTON キャピタル,NASDAQ,医薬品（バイオテクノロジー）,○
 ATOS,ATOSSA THERAPEU,アトッサ・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 ATR,APTAR GROUP INC,アプターグループ,NYSE,その他製造,○
 ATRA,ATARA BIOTHERAPE,アタラ・バイオセラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
@@ -976,7 +977,6 @@ CRWS,CROWN CRAFTS INC,クラウン・クラフツ,NASDAQ,その他製造,○
 CRWV,COREWEAVE,コアウィーブ,NASDAQ,ソフトウェア・サービス,○
 CSAN,COSAN SA,コサン SA,NYSE,その他,○
 CSBR,CHAMPIONS ONCLGY,チャンピオンズ・オンコロジー,NASDAQ,医薬品（バイオテクノロジー）,○
-CSCI,COSCIENS BIOPHAR,コンサインズ・バイオファーマ,NASDAQ,医薬品（バイオテクノロジー）,○
 CSCO,CISCO SYSTEMS,シスコシステムズ,NASDAQ,ネットワーク,○
 CSGP,COSTAR GROUP,コスター・グループ,NASDAQ,ソフトウェア・サービス,○
 CSGS,CSG SYSTEMS INTL,CSGシステムズ・インターナショナル,NASDAQ,情報処理サービス,○
@@ -2449,7 +2449,6 @@ LZM,LIFEZONE METALS,ライフゾーン・メタルズ,NYSE,その他製造,○
 M,MACY'S INC,メーシーズ,NYSE,百貨店,○
 MA,MASTERCARD INC,マスターカード,NYSE,金融(カード),○
 MAAS,MAASE INC,マース,NASDAQ,金融コングロマリット,○
-MAG,MAG SILVER CORP,マグ・シルバー,NYSE,その他,○
 MAGN,MAGNERA CORP,マグネラ・コーポレーション,NYSE,紙・パルプ,○
 MAGS,RHL MAG 7 ETF,ラウンドヒル マグニフィセント セブン ETF,Cboe,その他,○
 MAMA,MAMAS CREATIONS,ママズ・クリエイションズ,NASDAQ,食品,○
@@ -3186,7 +3185,6 @@ PRSO,PERASO INC,ペラソ,NASDAQ,半導体,○
 PRSU,PURSUIT ATTRACT,パシュート・アトラクションズ・アンド・ホスピタリティ,NYSE,ソフトウェア・サービス,○
 PRTA,PROTHENA PLC,プロセナ,NASDAQ,医薬品（バイオテクノロジー）,○
 PRTC,PURETECH HEALTH,ピュア・テック・ヘルス,NASDAQ,医薬品（バイオテクノロジー）,○
-PRTG,PORTAGE BIOTECH,ポーテージ・バイオテック,NASDAQ,医薬品（バイオテクノロジー）,○
 PRTH,PRIORITY TECHNO,プライオリティー・テクノロジー・ホールディングス,NASDAQ,その他,○
 PRTS,CARPARTS.COM INC,カー・パーツ・ドット・コム,NASDAQ,自動車,○
 PRU,PRUDENTIAL FIN,プルデンシャル・ファイナンシャル,NYSE,金融(保険),○
@@ -3927,7 +3925,6 @@ TNA,DRX DL SCAP BL3X,Direxion デイリー 米国小型株 ブル3倍 ETF,NYSE,�
 TNC,TENNANT COMPANY,テナントカンパニー,NYSE,機械,○
 TNDM,TANDEM DIABETES,タンデム・ダイアベティス・ケア,NASDAQ,ヘルスケア,○
 TNET,TRINET GROUP INC,トライネット・グループ,NYSE,ソフトウェア・サービス,○
-TNFA,TNF PHARMACEUTIC,TNFファーマシューティカルズ,NASDAQ,医薬品,○
 TNGX,TANGO THERAPE,タンゴ・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 TNK,TEEKAY TANKERS,ティーケイ・タンカーズ,NYSE,運輸,○
 TNL,TRAVEL LEISURE,トラベル・レージャー,NYSE,ホテル,○
