@@ -26,7 +26,6 @@ ABT,ABBOTT LABOR,アボットラボラトリーズ,NYSE,医薬品,○
 ABTS,ABITS GROUP,アビッツ・グループ,NASDAQ,ソフトウェア・サービス,○
 ABUS,ARBUTUS BIOPHARM,アービュタス・バイオファーマ,NASDAQ,医薬品（バイオテクノロジー）,○
 ABVC,ABVC BIOPHARMA,ABVCバイオファーマ,NASDAQ,医薬品（バイオテクノロジー）,○
-AC,ASSOCIAT CAPITAL,アソシエイテッド・キャピタル・グループ,NYSE,金融コングロマリット,○
 ACA,ARCOSA INC,アルコサ,NYSE,その他製造,○
 ACAD,ACADIA PHARMA,アカディア・ファーマシューティカルズ,NASDAQ,医薬品（バイオテクノロジー）,○
 ACB,AURORA CANNABIS,オーロラ・カンナビス,NASDAQ,医薬品,○
@@ -1726,7 +1725,6 @@ GMED,GLOBUS MEDICAL,グローバス・メディカル,NYSE,ヘルスケア,○
 GMEU,REX 2X LONG GME,T-REX 2X・ロング・ゲームストップ・デイリーターゲット　ETF,Cboe,その他,○
 GMF,SPDR SP EMG ASIA,SPDR　S&P　アジア・パシフィック新興国株式ETF,NYSE,その他,○
 GMGI,GOLDEN MATRIX GP,ゴールデン・マトリックス・グループ,NASDAQ,ソフトウェア・サービス,○
-GMS,GMS INC,GMS,NYSE,小売,○
 GNE,GENIE ENERGY LTD,ジニー・エナジー,NYSE,電力,○
 GNK,GENCO SHIPPING,ジェンコ・シッピング&トレーディング,NYSE,運輸,○
 GNLX,GENELUX CORP,ジェネラックス・コーポレーション,NASDAQ,医薬品（バイオテクノロジー）,○
@@ -1900,7 +1898,6 @@ HSAI,HESAI GROUP,へーサイ・グループ,NASDAQ,周辺機器,○
 HSBC,HSBC (ADR),HSBCホールディングス,NYSE,金融コングロマリット,○
 HSIC,HENRY SCHEIN INC,ヘンリー・シャイン,NASDAQ,ヘルスケア,○
 HSII,HEIDRICK&STRUGGL,ハイドリック・アンド・ストラグルズ・インターナショナル,NASDAQ,ソフトウェア・サービス,○
-HSON,HUDSON GLOBAL,ハドソン・グローバル,NASDAQ,その他,○
 HSTM,HEALTHSTREAM INC,ヘルスストリーム,NASDAQ,ソフトウェア・サービス,○
 HSY,HERSHEY CO/THE,ハーシー,NYSE,食品,○
 HTB,HOMETRUST BANC,ホーム・トラスト・バンクシェアズ,NYSE,金融（銀行）,○
@@ -2218,7 +2215,6 @@ KGC,KINROSS GOLD,キンロス・ゴールド,NYSE,その他,○
 KHC,KRAFT HEINZ CO,クラフト・ハインツ,NASDAQ,食品,○
 KIDS,ORTHOPEDIATRICS,オーソピディアトリックス,NASDAQ,ヘルスケア,○
 KINS,KINGSTONE COS,キングストーン・カンパニーズ,NASDAQ,金融(保険),○
-KITT,NAUTICUS ROBOTIC,ノーティカス・ロボティクス,NASDAQ,その他製造,○
 KLAC,KLA CORPORATION,KLAコーポレーション,NASDAQ,半導体,○
 KLG,WK KELLOGG CO,WKケロッグ,NYSE,食品,○
 KLIC,KULICKE SOFFA,キューリッキ・ソファ・インダストリーズ,NASDAQ,半導体,○
@@ -2520,7 +2516,6 @@ MESO,MESOBLAST LMITED,メソブラスト,NASDAQ,医薬品（バイオテクノ�
 MET,METLIFE INC,メットライフ,NYSE,金融(保険),○
 META,META PLATFORMS,メタ・プラットフォームズ,NASDAQ,ソフトウェア・サービス,○
 METC,RAMACO RESOURCES,ラマコ・リソーシズ,NASDAQ,その他,○
-METCB,RAMACO RESOUR-B,ラマコ・リソーシズ・クラスB,NASDAQ,その他,○
 METD,DRX META BR1X,Direxion デイリー META 株 ベア 1 倍 ETF,NASDAQ,その他,○
 METU,DRX META BL2X,Direxion デイリー META ブル 2 倍 ETF,NASDAQ,その他,○
 MFC,MANULIFE FIN,マニュライフ・ファイナンシャル,NYSE,金融(保険),○
@@ -3477,6 +3472,7 @@ SBS,CIA SANEAMENTO B,サンパウロ州基礎衛生公社,NYSE,その他,○
 SBSI,SOUTHSIDE BANC,サウスサイド・バンクシェアーズ,NYSE,金融（銀行）,○
 SBSW,SIBANYESTILL ADR,シバンエ・スティルウォーター,NYSE,その他,○
 SBUX,STARBUCKS COFFEE,スターバックス,NASDAQ,外食,○
+SCCO,SOUTHERN COPPER,サザン・コッパー,NYSE,その他,○
 SCHL,SCHOLASTIC CORP,スコラスティック,NASDAQ,その他,○
 SCHW,CHARLES SCHWAB,チャールズ・シュワブ,NYSE,金融（証券）,○
 SCI,SERVICE CORP INT,サービス・コーポレーション・インターナショナル,NYSE,その他,○
@@ -3767,6 +3763,7 @@ STOK,STOKE THERAPEUT,ストーク･セラピューティクス,NASDAQ,医薬品
 STRA,STRATEGIC EDUCTN,ストラテジック・エデュケーション,NASDAQ,ソフトウェア・サービス,○
 STRL,STERLING INFRA,スターリング・インフラストラクチャー,NASDAQ,その他,○
 STRO,SUTRO BIOPHARMA,ストゥロ・バイオファーマ,NASDAQ,医薬品（バイオテクノロジー）,○
+STRR,STAR EQUITY HLD,スター・エクイティ・ホールディングス,NASDAQ,その他,○
 STRS,STRATUS PROPERTI,ストラタス・プロパティーズ,NASDAQ,その他,○
 STRT,STRATTEC SECRITY,ストラテック・セキュリティ,NASDAQ,その他製造,○
 STRZ,STARZ ENTERTAIN,スターズ・エンターテイメント,NASDAQ,エンターテイメント,○
