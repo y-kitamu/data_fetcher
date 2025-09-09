@@ -1510,7 +1510,6 @@ FIX,COMFRT SYSTM USA,コンフォート・システムズUSA,NYSE,ソフトウ�
 FIXD,FT SMTH FIXD INC,ファーストトラスト Smith オポチュニスティック債券ETF,NASDAQ,その他,○
 FIZZ,NATIONL BEVERAGE,ナショナル・ビバリッジ,NASDAQ,食品,○
 FKWL,FRANKLN WIRELESS,フランクリン・ワイヤレス,NASDAQ,通信機器,○
-FL,FOOT LOCKER INC,フット・ロッカー,NYSE,小売,○
 FLEX,FLEX LTD,フレックス,NASDAQ,その他製造,○
 FLG,FLAGSTAR FNL,フラッグスター・ファイナンシャル,NYSE,金融（銀行）,○
 FLGT,FULGENT GENETICS,フルジェント・ジェネティクス,NASDAQ,ヘルスケア,○
@@ -2215,6 +2214,7 @@ KGC,KINROSS GOLD,キンロス・ゴールド,NYSE,その他,○
 KHC,KRAFT HEINZ CO,クラフト・ハインツ,NASDAQ,食品,○
 KIDS,ORTHOPEDIATRICS,オーソピディアトリックス,NASDAQ,ヘルスケア,○
 KINS,KINGSTONE COS,キングストーン・カンパニーズ,NASDAQ,金融(保険),○
+KITT,NAUTICUS ROBOTIC,ノーティカス・ロボティクス,NASDAQ,その他製造,○
 KLAC,KLA CORPORATION,KLAコーポレーション,NASDAQ,半導体,○
 KLG,WK KELLOGG CO,WKケロッグ,NYSE,食品,○
 KLIC,KULICKE SOFFA,キューリッキ・ソファ・インダストリーズ,NASDAQ,半導体,○
@@ -3661,7 +3661,6 @@ SONN,SONNET BIOTHERAP,ソネット・バイオセラピューティクス・ホ�
 SONO,SONOS INC,ソノス,NASDAQ,その他製造,○
 SOPA,SOCIETY PASS INC,ソサエティ・パス,NASDAQ,ソフトウェア・サービス,○
 SOPH,SOPHIA GENETICS,ソフィア・ジェネティクス,NASDAQ,ソフトウェア・サービス,○
-SOS,SOS LTD,SOS LTD,NYSE,ソフトウェア・サービス,○
 SOTK,SONOTEK CORP,ソノテック,NASDAQ,その他製造,○
 SOUN,SOUNDHOUND AI,サウンドハウンド・エーアイ,NASDAQ,ソフトウェア・サービス,○
 SOXL,DRX SEMICON BL3X,Direxion デイリー 半導体株 ブル 3倍 ETF,NYSE,その他,○
