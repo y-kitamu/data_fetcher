@@ -1175,7 +1175,6 @@ DRIO,DARIOHEALTH CORP,ダリオヘルス,NASDAQ,ソフトウェア・サービ�
 DRIP,DRX OIL GAS BR2X,Direxion デイリー S&P 石油 ・ガス採掘・生産 ベア2倍 ETF,NYSE,その他,○
 DRIV,GBLX AUTONM ETF,グローバルX 自動運転&EV ETF,NASDAQ,その他,○
 DRN,DRX DL RE BL3X,Direxion デイリー リアルエステート ブル3倍 ETF,NYSE,その他,○
-DRRX,DURECT CORP,デュレクト,NASDAQ,医薬品（バイオテクノロジー）,○
 DRS,LEONARDO DRS INC,レオナルドDRS,NASDAQ,情報処理サービス,○
 DRTS,ALPHA TAU MEDIC,アルファ・タウ・メディカル,NASDAQ,医療サービス,○
 DRV,DRX DL RE BR3X,Direxion デイリー リアルエステート ベア3倍 ETF,NYSE,その他,○
@@ -2217,6 +2216,7 @@ KIDS,ORTHOPEDIATRICS,オーソピディアトリックス,NASDAQ,ヘルスケア
 KINS,KINGSTONE COS,キングストーン・カンパニーズ,NASDAQ,金融(保険),○
 KITT,NAUTICUS ROBOTIC,ノーティカス・ロボティクス,NASDAQ,その他製造,○
 KLAC,KLA CORPORATION,KLAコーポレーション,NASDAQ,半導体,○
+KLAR,KLARNA GROUP,クラーナ・グループ,NYSE,ソフトウェア・サービス,○
 KLG,WK KELLOGG CO,WKケロッグ,NYSE,食品,○
 KLIC,KULICKE SOFFA,キューリッキ・ソファ・インダストリーズ,NASDAQ,半導体,○
 KLIP,KRS KWEB COVERED,KraneShares KWEBカバード・コール戦略 ETF,NYSE,その他,○
@@ -2357,6 +2357,7 @@ LION,LIONSGATE STUDIO,ライオンズゲート・ステュディオス,NYSE,エ�
 LIQT,LIQTECH INTL INC,リクテック・インターナショナル,NASDAQ,その他製造,○
 LIT,GBLX LIT BATTERY,グローバルX リチウム&バッテリーテック ETF,NYSE,その他,○
 LITE,LUMENTUM,ルメンタム・ホールディングス,NASDAQ,その他製造,○
+LITS,LITE STRATEGY,ライト・ストラテジー,NASDAQ,医薬品（バイオテクノロジー）,○
 LIVE,LIVE VENTURES,ライブ・ベンチャーズ,NASDAQ,ソフトウェア・サービス,○
 LIVN,LIVANOVA PLC,リワノワ,NASDAQ,ヘルスケア,○
 LIXT,LIXTE BIOTECH HD,リクステ・バイオテクノロジー・ホールディングス,NASDAQ,ヘルスケア,○
@@ -2508,7 +2509,6 @@ MEDP,MEDPACE HOLDINGS,メドペース・ホールディングス,NASDAQ,ヘル�
 MEG,MONTROSE ENVMTAL,モントローズ・エンバイロンメンタル,NYSE,その他,○
 MEGL,MAGIC EMPIRE GLB,マジック・エンパイア・グローバル,NASDAQ,金融（証券）,○
 MEI,METHODE ELECTRO,メソッド・エレクトロニクス,NYSE,その他製造,○
-MEIP,MEI PHARMA INC,MEIファーマ,NASDAQ,医薬品（バイオテクノロジー）,○
 MELI,MERCADOLIBRE INC,メルカドリブレ,NASDAQ,情報処理サービス,○
 MEOH,METHANEX CORP,メサネックス,NASDAQ,化学,○
 MERC,MERCER INTL,マーサー・インターナショナル,NASDAQ,紙・パルプ,○
@@ -2886,7 +2886,6 @@ OCFT,ONECNCT FIN TECH,ワンコネクト・フィナンシャル・テクノロ�
 OCG,ORIENTAL CULTURE,オリエンタル・カルチャー・ホールディングス,NASDAQ,ソフトウェア・サービス,○
 OCGN,OCUGEN INC,オキュゲン,NASDAQ,医薬品,○
 OCS,OCULIS HOLDING,オキュリス・ホールディング,NASDAQ,医薬品（バイオテクノロジー）,○
-OCTO,EIGHTCO HOLDINGS,エイトコ・ホールディングス,NASDAQ,金融（証券）,○
 OCUL,OCULAR THERAPEUT,オキュラー・セラピューティクス,NASDAQ,ヘルスケア,○
 ODC,OIL DRI CO AMER,オイル・ドリ・コーポレーション・オブ・アメリカ,NYSE,化学,○
 ODFL,OLD DOMINION FRE,オールド・ドミニオン・フレイト・ライン,NASDAQ,運輸,○
@@ -2952,6 +2951,7 @@ OPRX,OPTIMIZERX CORP,オプティマイズRX,NASDAQ,医薬品,○
 OPY,OPPENHEIMER HOLD,オッペンハイマー・ホールディングス,NYSE,金融（証券）,○
 OR,OR ROYALTIES INC,OR ロイヤルティーズ,NYSE,その他,○
 ORA,ORMAT TECHNOLOGI,オーマット・テクノロジーズ,NYSE,電力,○
+ORBS,EIGHTCO HOLDINGS,エイトコ・ホールディングス,NASDAQ,金融（証券）,○
 ORCL,ORACLE CORP.,オラクル,NYSE,ソフトウェア・サービス,○
 ORGN,ORIGIN MATERIALS,オリジン・マティアリアルズ,NASDAQ,その他,○
 ORGO,ORGANOGENESIS,オーガノジェネシス・ホールディングス,NASDAQ,医薬品（バイオテクノロジー）,○
@@ -3751,6 +3751,7 @@ STEP,STEPSTONE GROUP,ステップストーン・グループ,NASDAQ,金融（証
 STG,SUNLANDS TECHNO,サンランズ・テクノロジー・グループ,NYSE,ソフトウェア・サービス,○
 STGW,STAGWELL INC,スタッグウェル,NASDAQ,ソフトウェア・サービス,○
 STIM,NEURONETICS INC,ニューロネティクス,NASDAQ,ヘルスケア,○
+STKH,STEAKHOLDER FOOD,ステーキホルダー・フーズ,NASDAQ,食品,○
 STKL,SUNOPTA INC,サンオプタ,NASDAQ,食品,○
 STKS,ONE GROUP HOSPTL,ワン・グループ・ホスピタリティ,NASDAQ,外食,○
 STLA,STELLANTIS,ステランティス,NYSE,自動車,○
