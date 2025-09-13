@@ -634,6 +634,7 @@ BUD,ANHEUSER INBEV,アンハイザー・ブッシュ・インベブ,NYSE,飲料,
 BUFD,FT VST LD DP BUF,ファーストトラスト Vest ラダー ディープバッファーETF,Cboe,その他,○
 BUFR,FT VST LAD BUFFR,ファーストトラスト Vest ラダー バッファーETF,Cboe,その他,○
 BUG,GLX CYBERSEC ETF,グローバルX サイバーセキュリティ ETF,NASDAQ,その他,○
+BULU,REX 2X LONG BULL,T-REX 2X・ロング・BULL・デイリーターゲットETF,Cboe,その他,○
 BUR,BURFORD CAPITAL,バーフォード・キャピタル,NYSE,金融コングロマリット,○
 BURL,BURLINGTON,バーリントン・ストアーズ,NYSE,小売,○
 BUSE,FIRST BUSEY CORP,ファースト・ビューシー,NASDAQ,金融（銀行）,○
@@ -736,6 +737,7 @@ CCRN,CROSS CTR HEALTH,クロス・カントリー・ヘルスケア,NASDAQ,ヘ�
 CCS,CENTURY COMMUNIT,センチュリー・コミュニティーズ,NYSE,その他製造,○
 CCSI,CONSENSUS CLD SL,コンセンサス・クラウド・ソリューションズ,NASDAQ,ソフトウェア・サービス,○
 CCU,COMPANIA CERVECE,コンパニア・セルベセリアス・ウニダス,NYSE,飲料,○
+CCUP,REX 2X LONG CRCL,T-REX 2X・ロング・CRCL・デイリーターゲットETF,Cboe,その他,○
 CDE,COEUR MINING,コーマイニング,NYSE,その他,○
 CDLX,CARDLYTICS INC,カードリティックス,NASDAQ,ソフトウェア・サービス,○
 CDNA,CAREDX INC,ケアDx,NASDAQ,ヘルスケア,○
@@ -919,6 +921,7 @@ CORZ,CORE SCIENTIFIC,コア・サイエンティフィック,NASDAQ,ソフトウ
 COST,COSTCO WHOLESALE,コストコホールセール,NASDAQ,小売,○
 COTY,COTY INC A,コティ　クラスA,NYSE,その他製造,○
 COUR,COURSERA INC,コーセラ,NYSE,その他,○
+COYY,GNS YLDBST COIN,GraniteShares イールドブースト COIN ETF,NASDAQ,その他,○
 CP,CAN PACIFIC KC,カナディアン・パシフィック・カンザス・シティ,NYSE,運輸,○
 CPA,COPA HOLDINGS SA,コパ・ホールディングス,NYSE,運輸,○
 CPAY,CORPAY INC,コーペイ,NYSE,ソフトウェア・サービス,○
@@ -973,6 +976,7 @@ CRVS,CORVUS PHARMACEU,コーバス・ファーマシューティカルズ,NASDAQ
 CRWD,CROWDSTRIKE HLD,クラウドストライク,NASDAQ,ソフトウェア・サービス,○
 CRWL,GNS 2X LONG CRWD,GraniteShares2倍ロングCRWDデイリーETF,NASDAQ,その他,○
 CRWS,CROWN CRAFTS INC,クラウン・クラフツ,NASDAQ,その他製造,○
+CRWU,REX 2X LONG CRWV,T-REX 2X・ロング・CRWV・デイリーターゲットETF,Cboe,その他,○
 CRWV,COREWEAVE,コアウィーブ,NASDAQ,ソフトウェア・サービス,○
 CSAN,COSAN SA,コサン SA,NYSE,その他,○
 CSBR,CHAMPIONS ONCLGY,チャンピオンズ・オンコロジー,NASDAQ,医薬品（バイオテクノロジー）,○
@@ -1289,7 +1293,7 @@ ELTX,ELICIO THERAP,エリシオ・セラピューティクス,NASDAQ,医薬品�
 ELUT,ELUTIA INC,エルティア,NASDAQ,医薬品（バイオテクノロジー）,○
 ELV,ELEVANCE HEALTH,エレバンス・ヘルス,NYSE,医療サービス,○
 ELVN,ENLIVEN THERAPEU,エンライブン・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
-ELVR,ELEVRALITHIUM,エレベラ・リチウム,NASDAQ,その他,○
+ELVR,SAYONA MINING,サヨナ・マイニング,NASDAQ,その他,○
 ELWS,EARLYWORKS,アーリーワークス,NASDAQ,情報処理サービス,○
 EM,SMART SHARE GLBL,スマート・シェア・グローバル,NASDAQ,電力,○
 EMB,ISHARES JPM BND,iシェアーズ J.P.モルガン・米ドル建てエマージング・マーケット債券 ETF,NASDAQ,その他,○
@@ -1495,6 +1499,7 @@ FIBK,FIRST INTERSTATE,ファースト・インターステート・バンクシ�
 FICO,FAIR ISAAC CORP,フェア・アイザック,NYSE,ソフトウェア・サービス,○
 FID,FT SP INT D ARST,ファーストトラスト S&Pインターナショナル配当貴族ETF,NASDAQ,その他,○
 FIG,FIGMA INC,フィグマ,NYSE,ソフトウェア・サービス,○
+FIGR,FT INTERMEDIATE,FT インターメディエイト,NASDAQ,ソフトウェア・サービス,○
 FIGS,FIGS INC,フィグス,NYSE,ソフトウェア・サービス,○
 FINV,FINVOLUTION GP,フィンボリューション・グループ,NYSE,金融（銀行）,○
 FINW,FINWISE BANCORP,フィンワイス・バンコープ,NASDAQ,金融（銀行）,○
@@ -1717,6 +1722,7 @@ GLSI,GRNWICH LIFESCI,グリニッジ・ライフサイエンシズ,NASDAQ,医薬
 GLTO,GALECTO INC,ガレクト,NASDAQ,医薬品（バイオテクノロジー）,○
 GLUE,MONTE ROSA THERA,モンテ・ローザ・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 GLW,CORNING INC,コーニング,NYSE,通信機器,○
+GLXU,REX 2X LONG GLXY,T-REX 2X・ロング・GLXY・デイリーターゲットETF,Cboe,その他,○
 GM,GENERAL MOTORS,ゼネラル・モーターズ,NYSE,自動車,○
 GMAB,GENMAB,ジェンマブ,NASDAQ,医薬品（バイオテクノロジー）,○
 GME,GAMESTOP CORP,ゲームストップ,NYSE,コンピュータ,○
@@ -2914,7 +2920,6 @@ OLED,UNIVERSALDISPLAY,ユニバーサル・ディスプレイ,NASDAQ,その他�
 OLLI,OLLIES OUTLET,オリーズ･バーゲン・アウトレット・ホールディングス,NASDAQ,小売,○
 OLMA,OLEMA PHARMACEU,オレマ・ファーマシューティカルズ,NASDAQ,医薬品（バイオテクノロジー）,○
 OLN,OLIN CORPORATION,オーリン,NYSE,化学,○
-OLO,OLO INC,オロ,NYSE,ソフトウェア・サービス,○
 OLPX,OLAPLEX HLD,オラプレックス・ホールディングス,NASDAQ,ヘルスケア,○
 OM,OUTSET MEDICAL,アウトセット・メディカル,NASDAQ,ヘルスケア,○
 OMAB,GRUPO AEROPORT,グルポ・エアロポルチュアリオ・デル・セントロ・ノルテ,NASDAQ,航空,○
@@ -3575,7 +3580,6 @@ SKIL,SKILLSOFT CORP,スキルソフト,NYSE,ソフトウェア・サービス,�
 SKIN,BEAUTY HEALTH CO,ビューティー・ヘルス,NASDAQ,ヘルスケア,○
 SKLZ,SKILLZ INC,スキルズ,NYSE,ソフトウェア・サービス,○
 SKM,SK TELECOM CO,SKテレコム,NYSE,通信サービス,○
-SKX,SKECHERS USA INC,スケッチャーズUSA,NYSE,専門店,○
 SKY,CHAMPION HOMES,チャンピオン・ホームズ,NYSE,その他製造,○
 SKYH,SKY HARBOUR GRP,スカイ・ハーバー・グループ,NYSE,航空,○
 SKYT,SKYWATER TECHNO,スカイウォーター・テクノロジー,NASDAQ,半導体,○
@@ -3621,6 +3625,7 @@ SMRT,SMARTRENT INC,スマートレント,NYSE,ソフトウェア・サービス,
 SMSI,SMITH MICRO SOFT,スミス・マイクロ・ソフトウエア,NASDAQ,ソフトウェア・サービス,○
 SMTC,SEMTECH CORP,セムテック,NASDAQ,半導体,○
 SMTI,SANARA MEDTECH,サナラ・メドテック,NASDAQ,ヘルスケア,○
+SMUP,REX 2X LONG SMR,T-REX 2X・ロング・SMR・デイリーター ゲットETF,Cboe,その他,○
 SMWB,SIMILARWEB LTD,シミラーウェブ,NYSE,ソフトウェア・サービス,○
 SNA,SNAP-ON INCORP,スナップオン,NYSE,その他製造,○
 SNAP,SNAP INC,スナップ,NYSE,ソフトウェア・サービス,○
