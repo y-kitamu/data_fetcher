@@ -1,0 +1,15 @@
+# selenium for web scraping
+# docker container上でchromeのプロファイルを指定する方法（毎回ログイン認証を回避する）
+# https://zenn.dev/stockdatalab/articles/20250819_tech_sbilogin
+name: "data_fetcher"
+
+services:
+  selenium:
+    image: selenium/standalone-chrome:latest
+    hostname: "selenium"
+    ports:
+      - 4444:4444
+      - 7900:7900
+    volumes:
+      - ../:/home/seluser/work/
+    restart: always
