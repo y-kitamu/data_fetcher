@@ -8,6 +8,7 @@
 /data/edinet/schedule13/
 /data/tdnet/raw/
 /data/tdnet/download/
+/data/sbi/
 /cert/
 __pycache__/
 *.pyc
