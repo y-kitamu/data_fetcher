@@ -401,8 +401,8 @@
     "2024-06-30": {
         "Tax Effect Of Unusual Items": 0.0,
         "Tax Rate For Calcs": 0.155771,
-        "Total Unusual Items": -6263000.0,
-        "Total Unusual Items Excluding Goodwill": -6263000.0,
+        "Total Unusual Items": 0.0,
+        "Total Unusual Items Excluding Goodwill": 0.0,
         "Net Income From Continuing Operation Net Minority Interest": 37583000.0,
         "Reconciled Depreciation": 9873000.0,
         "Net Interest Income": 7572000.0,
@@ -422,8 +422,8 @@
         "Net Income Continuous Operations": 37591000.0,
         "Tax Provision": 6936000.0,
         "Pretax Income": 44527000.0,
-        "Special Income Charges": -6263000.0,
-        "Restructuring And Mergern Acquisition": 6263000.0,
+        "Special Income Charges": 0.0,
+        "Restructuring And Mergern Acquisition": 0.0,
         "Gain On Sale Of Security": -2152000.0,
         "Depreciation Amortization Depletion Income Statement": 3970000.0,
         "Depreciation And Amortization In Income Statement": 3970000.0,
@@ -435,7 +435,7 @@
         "Total Revenue": 285685000.0,
         "Operating Revenue": 285685000.0,
         "Occupancy And Equipment": 20348000.0,
-        "Professional Expense And Contract Services Expense": 12075000.0,
+        "Professional Expense And Contract Services Expense": 0.0,
         "Other Non Interest Expense": -496000.0
     },
     "2024-09-30": {
@@ -559,16 +559,16 @@
         "Other Non Interest Expense": 15614000.0
     },
     "2025-06-30": {
-        "Tax Effect Of Unusual Items": -188613.474832,
+        "Tax Effect Of Unusual Items": -589805.861162,
         "Tax Rate For Calcs": 0.091471,
-        "Total Unusual Items": -2062000.0,
-        "Total Unusual Items Excluding Goodwill": -2062000.0,
+        "Total Unusual Items": -6448000.0,
+        "Total Unusual Items Excluding Goodwill": -6448000.0,
         "Net Income From Continuing Operation Net Minority Interest": 18661000.0,
         "Reconciled Depreciation": 8804000.0,
         "Net Interest Income": 9751000.0,
         "Interest Expense": 28963000.0,
         "Interest Income": 38714000.0,
-        "Normalized Income": 20534386.525168,
+        "Normalized Income": 24519194.138838,
         "Net Income From Continuing And Discontinued Operation": 18661000.0,
         "Diluted Average Shares": 62622000.0,
         "Basic Average Shares": 62168000.0,
@@ -582,8 +582,8 @@
         "Net Income Continuous Operations": 18663000.0,
         "Tax Provision": 1879000.0,
         "Pretax Income": 20542000.0,
-        "Special Income Charges": -2062000.0,
-        "Restructuring And Mergern Acquisition": 2062000.0,
+        "Special Income Charges": -6448000.0,
+        "Restructuring And Mergern Acquisition": 6448000.0,
         "Gain On Sale Of Security": -5416000.0,
         "Depreciation Amortization Depletion Income Statement": 3611000.0,
         "Depreciation And Amortization In Income Statement": 3611000.0,
@@ -595,7 +595,7 @@
         "Total Revenue": 290317000.0,
         "Operating Revenue": 290317000.0,
         "Occupancy And Equipment": 12433000.0,
-        "Professional Expense And Contract Services Expense": 17919000.0,
+        "Professional Expense And Contract Services Expense": 13533000.0,
         "Other Non Interest Expense": 19467000.0
     }
 }

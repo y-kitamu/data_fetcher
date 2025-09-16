@@ -591,6 +591,7 @@ BRAG,BRAGG GAMING GP,ブラグ・ゲーミング・グループ,NASDAQ,エンタ
 BRBR,BELLRING INTRMDT,ベルリング・インターメディエイト・ホールディングス,NYSE,食品,○
 BRBS,BLUE RIDGE BANK,ブルー・リッジ・バンクシェアーズ,NYSE,金融（銀行）,○
 BRC,BRADY CORP,ブレイディ,NYSE,ソフトウェア・サービス,○
+BRCB,BLACK ROCK COFFE,ブラック・ロック・コーヒー・バー,NASDAQ,飲料,○
 BRCC,BRC INC,BRC,NYSE,その他,○
 BRF,V BRAZIL S-CAP,ヴァンエック・ブラジル小型株ETF,NYSE,その他,○
 BRFH,BARFRESH FOOD GP,バーフレッシュ・フード・グループ,NASDAQ,食品,○
@@ -1668,6 +1669,7 @@ GE,GE AEROSPACE,GEエアロスペース,NYSE,コングロマリット,○
 GEF,GREIF INC,グライフ,NYSE,その他製造,○
 GEG,GREAT ELM CAPITA,グレート・エルム・キャピタル・グループ,NASDAQ,ソフトウェア・サービス,○
 GEHC,GE HEALTHCA TECH,GEヘルスケア・テクノロジーズ,NASDAQ,その他製造,○
+GEMI,GEMINI SPACE STA,ジェミニ・スペース・ステーション,NASDAQ,航空機・宇宙,○
 GEN,GEN DIGITAL,ジェン・デジタル,NASDAQ,ネットワーク,○
 GENC,GENCOR INDSTRIES,ジェンコール・インダストリーズ,NYSE,その他製造,○
 GENI,GENIUS SPORTS,ジニアス・スポーツ,NYSE,エンターテイメント,○
@@ -2345,6 +2347,7 @@ LFWD,LIFEWARD,ライフワード,NASDAQ,医療サービス,○
 LGHL,LION GROUP,ライオン・グループ・ホールディング,NASDAQ,金融（証券）,○
 LGIH,LGI HOMES INC,LGIホームズ,NASDAQ,その他製造,○
 LGL,LGL GROUP,LGLグループ,NYSE,その他製造,○
+LGN,LEGENCE CORP,レジェンス,NASDAQ,その他,○
 LGND,LIGAND PHARMA,リガンド・ファーマシューティカルズ,NASDAQ,医薬品（バイオテクノロジー）,○
 LGO,LARGO INC,ラルゴ,NASDAQ,電力,○
 LGVN,LONGEVERON INC,ロンジェベロン,NASDAQ,医薬品（バイオテクノロジー）,○
@@ -2974,7 +2977,6 @@ OSIS,OSI SYSTEMS INC,OSIシステムズ,NASDAQ,その他製造,○
 OSK,OSHKOSH CORP,オシュコシュ,NYSE,自動車,○
 OSPN,ONESPAN INC,ワンスパン,NASDAQ,ネットワークセキュリティー,○
 OSS,ONE STOP SYSTEMS,ワン・ストップ・システムズ,NASDAQ,通信サービス,○
-OST,OSTIN TECHNOLOGY,オスティン・テクノロジー・グループ,NASDAQ,その他製造,○
 OSUR,ORASURE TECHNO,オラシュア・テクノロジーズ,NASDAQ,ヘルスケア,○
 OSW,ONESPAWORLD HLD,ワンスパワールド・ホールディングス,NASDAQ,ソフトウェア・サービス,○
 OTEX,OPEN TEXT CORP,オープンテキスト,NASDAQ,ソフトウェア・サービス,○
@@ -4176,6 +4178,7 @@ VGT,VA INFORM TECH,バンガード・米国情報技術セクターETF,NYSE,そ�
 VHC,VIRNETX HOLDINGS,バーネットX・ホールディングス,NYSE,ソフトウェア・サービス,○
 VHI,VALHI INC,バルヒ,NYSE,化学,○
 VHT,VA HEALTH CARE,バンガード・米国ヘルスケア・セクターETF,NYSE,その他,○
+VIA,VIA TRANSPORT,ヴィア・トランスポーテーション,NYSE,ソフトウェア・サービス,○
 VIAV,VIAVI SOLUTIONS,ビアビ・ソリューションズ,NASDAQ,ネットワーク,○
 VICR,VICOR CORP,バイコア,NASDAQ,その他製造,○
 VIG,VNG DIV APR,バンガード・米国増配株式ETF,NYSE,その他,○

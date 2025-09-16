@@ -322,7 +322,7 @@
         "Salaries And Wages": 218415000.0,
         "Total Revenue": 1661026000.0,
         "Operating Revenue": 1661026000.0,
-        "Other Non Interest Expense": 93980000.0
+        "Other Non Interest Expense": 92400000.0
     },
     "2024-03-31": {
         "Tax Effect Of Unusual Items": 4062495.196507,
@@ -363,7 +363,7 @@
         "Salaries And Wages": 220308000.0,
         "Total Revenue": 1432394000.0,
         "Operating Revenue": 1432394000.0,
-        "Other Non Interest Expense": 12707000.0
+        "Other Non Interest Expense": 18321000.0
     },
     "2024-06-30": {
         "Tax Effect Of Unusual Items": 4907053.479028,
@@ -404,7 +404,7 @@
         "Salaries And Wages": 231778000.0,
         "Total Revenue": 1668249000.0,
         "Operating Revenue": 1668249000.0,
-        "Other Non Interest Expense": 15439000.0
+        "Other Non Interest Expense": 17922000.0
     },
     "2024-09-30": {
         "Tax Effect Of Unusual Items": -5131260.563502,
@@ -445,7 +445,7 @@
         "Salaries And Wages": 248289000.0,
         "Total Revenue": 1637181000.0,
         "Operating Revenue": 1637181000.0,
-        "Other Non Interest Expense": 18062000.0
+        "Other Non Interest Expense": 17828000.0
     },
     "2024-12-31": {
         "Tax Effect Of Unusual Items": -3629184.966191,
@@ -486,6 +486,6 @@
         "Salaries And Wages": 201955000.0,
         "Total Revenue": 1797202000.0,
         "Operating Revenue": 1797202000.0,
-        "Other Non Interest Expense": 98929000.0
+        "Other Non Interest Expense": 120356000.0
     }
 }
