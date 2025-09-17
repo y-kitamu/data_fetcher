@@ -774,7 +774,7 @@
     },
     "2024-06-30": {
         "Tax Effect Of Unusual Items": 0.0,
-        "Tax Rate For Calcs": 0.260648,
+        "Tax Rate For Calcs": 0.261,
         "Normalized EBITDA": 210500000.0,
         "Total Unusual Items": NaN,
         "Total Unusual Items Excluding Goodwill": NaN,
@@ -950,7 +950,7 @@
     },
     "2025-06-30": {
         "Tax Effect Of Unusual Items": 0.0,
-        "Tax Rate For Calcs": 0.260169,
+        "Tax Rate For Calcs": 0.26,
         "Normalized EBITDA": 230362000.0,
         "Total Unusual Items": NaN,
         "Total Unusual Items Excluding Goodwill": NaN,
