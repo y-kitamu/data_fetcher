@@ -1092,6 +1092,7 @@ DDD,3D SYSTEMS CORP,スリーディー・システムズ,NYSE,コンピュータ
 DDI,DOUBLEDOWN INTRC,ダブルダウン・インタラクティブ,NASDAQ,エンターテイメント,○
 DDL,DINGDONG CAYMAN,ディンドン・ケイマン,NYSE,ソフトウェア・サービス,○
 DDOG,DATADOG INC,データドッグ,NASDAQ,ソフトウェア・サービス,○
+DDS,DILLARDS INC CL,ディラーズ,NYSE,百貨店,○
 DE,DEERE,ディアー,NYSE,機械,○
 DECK,DECKERS OUTDOOR,デッカーズ・アウトドア,NYSE,その他製造,○
 DELL,DELL TECHNOLGY-C,デル・テクノロジーズ クラスC,NYSE,コンピュータ,○
@@ -2828,6 +2829,7 @@ NTRA,NATERA INC,ナテラ,NASDAQ,ヘルスケア,○
 NTRB,NUTRIBAND INC,ニュートリバンド,NASDAQ,医薬品,○
 NTRP,NEXTTRIP INC,ネクストトリップ,NASDAQ,ソフトウェア・サービス,○
 NTRS,NORTHERN TRUST,ノーザン・トラスト,NASDAQ,金融（銀行）,○
+NTSK,NETSKOPE INC,ネットスコープ,NASDAQ,ネットワークセキュリティー,○
 NTWK,NETSOL TECHNO,ネットソル・テクノロジーズ,NASDAQ,ソフトウェア・サービス,○
 NU,NU HOLDINGS,NUホールディングス,NYSE,金融（銀行）,○
 NUE,NUCOR CORP,ニューコア,NYSE,その他,○
@@ -4224,7 +4226,6 @@ VONV,VA RUSSELL1000 V,バンガード・ラッセル1000バリュー株ETF,NASDA
 VOO,VANGUARD SP 500,バンガード・S&P 500 ETF,NYSE,その他,○
 VOOG,VA SP500 GROWTH,バンガード・S&P500グロースETF,NYSE,その他,○
 VOOV,VA SP500 VALUE,バンガード・S&P500バリューETF,NYSE,その他,○
-VOR,VOR BIOPHARMA,ボー・バイオファーマ,NASDAQ,医薬品,○
 VOT,VA M-CAP GROWTH,バンガード・米国ミッドキャップ・グロースETF,NYSE,その他,○
 VOX,VA COMMUNI SERVE,バンガード・米国通信サービス・セクターETF,NYSE,その他,○
 VOYA,VOYA FINANCIAL,ボヤ・ファイナンシャル,NYSE,金融(保険),○
