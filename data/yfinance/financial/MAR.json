@@ -816,8 +816,8 @@
         "Operating Revenue": 1544000000.0
     },
     "2024-06-30": {
-        "Tax Effect Of Unusual Items": -2061538.461538,
-        "Tax Rate For Calcs": 0.257692,
+        "Tax Effect Of Unusual Items": -2064000.0,
+        "Tax Rate For Calcs": 0.258,
         "Normalized EBITDA": 1345000000.0,
         "Total Unusual Items": -8000000.0,
         "Total Unusual Items Excluding Goodwill": -8000000.0,
@@ -829,7 +829,7 @@
         "Net Interest Income": -164000000.0,
         "Interest Expense": 173000000.0,
         "Interest Income": 9000000.0,
-        "Normalized Income": 777938461.538462,
+        "Normalized Income": 777936000.0,
         "Net Income From Continuing And Discontinued Operation": 772000000.0,
         "Total Expenses": 5236000000.0,
         "Total Operating Income As Reported": 1195000000.0,
@@ -882,7 +882,7 @@
         "Net Income From Continuing And Discontinued Operation": 584000000.0,
         "Total Expenses": 5302000000.0,
         "Total Operating Income As Reported": 944000000.0,
-        "Diluted Average Shares": 281500000.0,
+        "Diluted Average Shares": 282400000.0,
         "Basic Average Shares": 281500000.0,
         "Diluted EPS": 2.07,
         "Basic EPS": 2.08,
@@ -1012,8 +1012,8 @@
         "Operating Revenue": 1608000000.0
     },
     "2025-06-30": {
-        "Tax Effect Of Unusual Items": -2208728.652751,
-        "Tax Rate For Calcs": 0.276091,
+        "Tax Effect Of Unusual Items": -2208000.0,
+        "Tax Rate For Calcs": 0.276,
         "Normalized EBITDA": 1408000000.0,
         "Total Unusual Items": -8000000.0,
         "Total Unusual Items Excluding Goodwill": -8000000.0,
@@ -1025,7 +1025,7 @@
         "Net Interest Income": -191000000.0,
         "Interest Expense": 203000000.0,
         "Interest Income": 12000000.0,
-        "Normalized Income": 768791271.347249,
+        "Normalized Income": 768792000.0,
         "Net Income From Continuing And Discontinued Operation": 763000000.0,
         "Total Expenses": 5500000000.0,
         "Total Operating Income As Reported": 1236000000.0,

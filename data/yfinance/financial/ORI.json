@@ -682,7 +682,7 @@
         "Diluted NI Availto Com Stockholders": 91800000.0,
         "Net Income Common Stockholders": 91800000.0,
         "Net Income": 91800000.0,
-        "Minority Interests": NaN,
+        "Minority Interests": 0.0,
         "Net Income Including Noncontrolling Interests": 91900000.0,
         "Net Income Continuous Operations": 91900000.0,
         "Tax Provision": 21400000.0,
@@ -795,7 +795,7 @@
     },
     "2025-06-30": {
         "Tax Effect Of Unusual Items": 0.0,
-        "Tax Rate For Calcs": 0.19877,
+        "Tax Rate For Calcs": 0.199,
         "Net Income From Continuing Operation Net Minority Interest": 204400000.0,
         "EBIT": 277700000.0,
         "Net Interest Income": -17600000.0,

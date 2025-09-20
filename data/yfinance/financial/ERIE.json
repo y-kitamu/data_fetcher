@@ -676,7 +676,7 @@
     },
     "2024-06-30": {
         "Tax Effect Of Unusual Items": 0.0,
-        "Tax Rate For Calcs": 0.209447,
+        "Tax Rate For Calcs": 0.209,
         "Net Income From Continuing Operation Net Minority Interest": 163903000.0,
         "EBIT": NaN,
         "Net Interest Income": NaN,
@@ -812,7 +812,7 @@
     },
     "2025-06-30": {
         "Tax Effect Of Unusual Items": 0.0,
-        "Tax Rate For Calcs": 0.208664,
+        "Tax Rate For Calcs": 0.209,
         "Net Income From Continuing Operation Net Minority Interest": 174685000.0,
         "EBIT": NaN,
         "Net Interest Income": NaN,

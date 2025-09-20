@@ -495,7 +495,7 @@
         "Net Income Common Stockholders": -41279000.0,
         "Preferred Stock Dividends": 1920000.0,
         "Net Income": -39359000.0,
-        "Minority Interests": NaN,
+        "Minority Interests": 0.0,
         "Net Income Including Noncontrolling Interests": -39359000.0,
         "Net Income Continuous Operations": -39359000.0,
         "Tax Provision": 1901000.0,
