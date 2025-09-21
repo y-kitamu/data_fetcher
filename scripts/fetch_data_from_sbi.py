@@ -13,7 +13,7 @@ import data_fetcher
 
 command_executor = "http://localhost:4444/wd/hub"
 download_dir = data_fetcher.constants.PROJECT_ROOT / "data" / "Downloads"
-dst_dir = data_fetcher.constants.PROJECT_ROOT / "data" / "sbi"
+dst_dir = data_fetcher.constants.PROJECT_ROOT / "data" / "sbi" / "tick"
 
 
 def get_chrome_options():
