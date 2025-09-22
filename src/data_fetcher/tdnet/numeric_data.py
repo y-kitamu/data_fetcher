@@ -132,8 +132,9 @@ def _collect_numeric_data_impl(
                 document=document,
                 element=element[0],
                 period=res.group(1),
-                consolidated=res.group(3),
-                forecast=res.group(4),
+                quarter=res.group(3)[1:],
+                consolidated=res.group(4)[1:],
+                forecast=res.group(6)[1:],
                 value=numeric.value,
             )
         )

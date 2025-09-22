@@ -1,8 +1,10 @@
 """constants.py"""
 
 from ...constants import PROJECT_ROOT
+from . import taxonomy_group
 from .schema import Document, DocumentType, NumericData, TaxonomyElement
 
+zip_root_dir = PROJECT_ROOT / "data/tdnet/raw"
 excel_path = PROJECT_ROOT / "data/tdnet/項目リスト_事業会社.xlsx"
 
 report_styles = [

@@ -47,6 +47,7 @@ class NumericData(BaseModel):
     document: Document
     element: TaxonomyElement
     period: str
+    quarter: str
     consolidated: str
     forecast: str
     value: float
