@@ -955,7 +955,6 @@ CREX,CREATIV REALITIE,クリエイティブ・リアリティーズ,NASDAQ,ソ�
 CRGY,CRESCENT ENERGY,クレセント・エナジー,NYSE,石油,○
 CRH,CRH PUBLIC NEWCO,CRH,NYSE,その他製造,○
 CRI,CARTERS INC,カーターズ,NYSE,専門店,○
-CRIS,CURIS INC,キューリス,NASDAQ,医薬品,○
 CRK,COMSTOCK RESRCES,コムストック・リソーシズ,NYSE,石油,○
 CRL,CHARLS RIVER LAB,チャールズリバー・ラボラトリーズ・インターナショナル,NYSE,ヘルスケア,○
 CRM,SALESFORCE,セールスフォース,NYSE,ソフトウェア・サービス,○
@@ -2394,7 +2393,6 @@ LOAR,LOAR HOLDING,ロアー・ホールディングス,NYSE,航空機・宇宙,�
 LOB,LIVE OAK BANCSHR,ライブ・オーク・バンクシェアーズ,NYSE,金融（銀行）,○
 LOCL,LOCAL BOUNTI,ローカル・バウンティ,NYSE,食品,○
 LOCO,EL POLLO LOCO,エル・ポヨ・ロコ,NASDAQ,外食,○
-LOGI,LOGITECH INTL,ロジテック・インターナショナル,NASDAQ,コンピュータ,○
 LOMA,LOMA NEGRA COMP,ロマ・ネグラ・コンパニーア・インダストリアル・アルゼンチン,NYSE,その他製造,○
 LOOP,LOOP INDUSTRIES,ループ・インダストリーズ,NASDAQ,その他製造,○
 LOPE,GRAND CANYON EDU,グランド・キャニオン・エデュケーション,NASDAQ,ソフトウェア・サービス,○
@@ -3212,6 +3210,7 @@ PTGX,PROTAGONIST THRP,プロタゴニスト・セラピューティクス,NASDAQ
 PTIR,GNS PLTR 2X LONG,グラナイトシェアーズ2倍ロングPLTRデイリーETF,NASDAQ,その他,○
 PTLO,PORTILLOS INC,ポーティロス,NASDAQ,外食,○
 PTON,PELOTON INTERACT,ペロトン・インタラクティブ,NASDAQ,ヘルスケア,○
+PTRN,PATTERN GROUP,パターン・グループ,NASDAQ,ソフトウェア・サービス,○
 PUBM,PUBMATIC INC,パブティック,NASDAQ,ソフトウェア・サービス,○
 PUK,PRUDENTIAL PLC,プルデンシャル,NYSE,金融(保険),○
 PULM,PULMATRIX INC,プルマトリックス,NASDAQ,医薬品（バイオテクノロジー）,○
@@ -3242,7 +3241,6 @@ QIPT,QUIPT HOME MED,クイプト・ホーム・メディカル,NASDAQ,ヘルス�
 QLD,PROS QQQ 2X,プロシェアーズ・ウルトラQQQ,NYSE,その他,○
 QLGN,QUALIGEN THERAPE,クアリジェン・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 QLYS,QUALYS INC,クォリス,NASDAQ,ネットワークセキュリティー,○
-QMCO,QUANTUM CORP,クアンタム,NASDAQ,コンピュータ,○
 QNCX,QUINCE THERA,クインス・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 QNRX,QUOIN PHARMAC,クオイン・ファーマシューティカルズ,NASDAQ,医薬品（バイオテクノロジー）,○
 QNST,QUINSTREET INC,クインストリート,NASDAQ,ソフトウェア・サービス,○
@@ -3709,7 +3707,6 @@ SPT,SPROUT SOCIAL,スプラウトソーシャル,NASDAQ,ソフトウェア・サ
 SPTI,SPDR I-TERM ETF,SPDR ポートフォリオ米国中期国債ETF,NYSE,その他,○
 SPTL,SPDR L-TRM TR,SPDR ポートフォリオ米国長期国債ETF,NYSE,その他,○
 SPTM,SPDR SP1500 COMP,SPDR ポートフォリオS&P 1500コンポジット・ストック・マーケットETF,NYSE,その他,○
-SPTN,SPARTANNASH,スパルタンナッシュ,NASDAQ,小売,○
 SPTS,SPDR S-TRM TR,SPDR ポートフォリオ米国短期国債ETF,NYSE,その他,○
 SPUU,DRX SP500 BL2X,Direxion デイリー S&P 500 ブル 2 倍 ETF,NYSE,その他,○
 SPWH,SPORTS WAREHOUSE,スポーツマンズ・ウエアハウス・ホールディングス,NASDAQ,小売,○
@@ -4226,6 +4223,7 @@ VONV,VA RUSSELL1000 V,バンガード・ラッセル1000バリュー株ETF,NASDA
 VOO,VANGUARD SP 500,バンガード・S&P 500 ETF,NYSE,その他,○
 VOOG,VA SP500 GROWTH,バンガード・S&P500グロースETF,NYSE,その他,○
 VOOV,VA SP500 VALUE,バンガード・S&P500バリューETF,NYSE,その他,○
+VOR,VOR BIOPHARMA,ボー・バイオファーマ,NASDAQ,医薬品,○
 VOT,VA M-CAP GROWTH,バンガード・米国ミッドキャップ・グロースETF,NYSE,その他,○
 VOX,VA COMMUNI SERVE,バンガード・米国通信サービス・セクターETF,NYSE,その他,○
 VOYA,VOYA FINANCIAL,ボヤ・ファイナンシャル,NYSE,金融(保険),○
