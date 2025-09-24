@@ -595,7 +595,6 @@ BRCB,BLACK ROCK COFFE,ブラック・ロック・コーヒー・バー,NASDAQ,�
 BRCC,BRC INC,BRC,NYSE,その他,○
 BRF,V BRAZIL S-CAP,ヴァンエック・ブラジル小型株ETF,NYSE,その他,○
 BRFH,BARFRESH FOOD GP,バーフレッシュ・フード・グループ,NASDAQ,食品,○
-BRFS,BRF ADR,ビーアールエフ,NYSE,食品,○
 BRID,BRIDGFORD FOODS,ブリッジフォード・フーズ,NASDAQ,食品,○
 BRK.B,BERKSHIRE INC B,バークシャー・ハサウェイ　クラスB,NYSE,金融(保険),○
 BRKD,DRX BRKB BR2X,Direxion デ イ リ ー BRKB株 ベア1倍 ETF,NASDAQ,その他,○
@@ -856,7 +855,7 @@ CMG,CHIPOTLE MEXICAN,チポトレ・メキシカン・グリル,NYSE,飲料,○
 CMI,CUMMINS INC,カミンズ,NYSE,機械,○
 CMMB,CHEMOMAB THERAPE,ケモマブ・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 CMP,COMPASS MINERALS,コンパス・ミネラルズ・インターナショナル,NYSE,その他製造,○
-CMPO,COMPOSECURE INC,コンポセキュア,NASDAQ,ソフトウェア・サービス,○
+CMPO,COMPOSECURE INC,コンポセキュア,NYSE,ソフトウェア・サービス,○
 CMPR,CIMPRESS,シンプレス,NASDAQ,ソフトウェア・サービス,○
 CMPS,COMPASS PATHWAYS,コンパス・パスウェイズ,NASDAQ,医薬品,○
 CMPX,COMPASS THERAPE,コンパス・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
@@ -1598,7 +1597,6 @@ FTCI,FTC SOLAR INC,FTCソーラー,NASDAQ,電力,○
 FTCS,FT CAPIT STR ETF,ファーストトラスト キャピタル ストレングス ETF,NASDAQ,その他,○
 FTDR,FRONTDOOR INC,フロントドア,NASDAQ,その他,○
 FTEK,FUEL TECH INC,フュエル・テック,NASDAQ,ソフトウェア・サービス,○
-FTEL,FITELL CORP,フィテル,NASDAQ,小売,○
 FTFT,FUTURE FINTECH,フューチャー・フィンテック・グループ,NASDAQ,ソフトウェア・サービス,○
 FTGC,FT GBL TAC COMMO,ファーストトラスト グローバル タクティカル コモディティ戦略ファンド,NASDAQ,その他,○
 FTGS,FT GRWTH STR ETF,ファーストトラスト グロース ストレングス ETF,NASDAQ,その他,○
@@ -2393,6 +2391,7 @@ LOAR,LOAR HOLDING,ロアー・ホールディングス,NYSE,航空機・宇宙,�
 LOB,LIVE OAK BANCSHR,ライブ・オーク・バンクシェアーズ,NYSE,金融（銀行）,○
 LOCL,LOCAL BOUNTI,ローカル・バウンティ,NYSE,食品,○
 LOCO,EL POLLO LOCO,エル・ポヨ・ロコ,NASDAQ,外食,○
+LOGI,LOGITECH INTL,ロジテック・インターナショナル,NASDAQ,コンピュータ,○
 LOMA,LOMA NEGRA COMP,ロマ・ネグラ・コンパニーア・インダストリアル・アルゼンチン,NYSE,その他製造,○
 LOOP,LOOP INDUSTRIES,ループ・インダストリーズ,NASDAQ,その他製造,○
 LOPE,GRAND CANYON EDU,グランド・キャニオン・エデュケーション,NASDAQ,ソフトウェア・サービス,○
@@ -2524,6 +2523,7 @@ MESO,MESOBLAST LMITED,メソブラスト,NASDAQ,医薬品（バイオテクノ�
 MET,METLIFE INC,メットライフ,NYSE,金融(保険),○
 META,META PLATFORMS,メタ・プラットフォームズ,NASDAQ,ソフトウェア・サービス,○
 METC,RAMACO RESOURCES,ラマコ・リソーシズ,NASDAQ,その他,○
+METCB,RAMACO RESOUR-B,ラマコ・リソーシズ・クラスB,NASDAQ,その他,○
 METD,DRX META BR1X,Direxion デイリー META 株 ベア 1 倍 ETF,NASDAQ,その他,○
 METU,DRX META BL2X,Direxion デイリー META ブル 2 倍 ETF,NASDAQ,その他,○
 MFC,MANULIFE FIN,マニュライフ・ファイナンシャル,NYSE,金融(保険),○
@@ -3350,7 +3350,7 @@ RGS,REGIS CORP,リージス,NASDAQ,専門店,○
 RGTI,RIGETTI COMPUTIN,リゲッティ・コンピューティング,NASDAQ,その他,○
 RH,RH,RH,NYSE,小売,○
 RHI,ROBERT HALF INC,ロバート・ハーフ,NYSE,その他,○
-RHLD,RESOLUTE HLD MNG,リゾルート・ホールディングス・マネジメント,NASDAQ,金融（証券）,○
+RHLD,RESOLUTE HLD MNG,リゾルート・ホールディングス・マネジメント,NYSE,金融（証券）,○
 RICK,RCI HOSPITALITY,RCIホスピタリティ・ホールディングス,NASDAQ,エンターテイメント,○
 RIG,TRANSOCEAN LTD,トランスオーシャン,NYSE,石油,○
 RIGL,RIGEL PHARMA,リジェル・ファーマシューティカルズ,NASDAQ,医薬品（バイオテクノロジー）,○
@@ -4174,7 +4174,7 @@ VGK,VA FTSE EUROPE,バンガード・FTSE・ヨーロッパETF,NYSE,その他,�
 VGLT,VA LTERM TRESURY,バンガード・米国長期国債ETF,NASDAQ,その他,○
 VGSH,VA STERM TRESURY,バンガード・米国短期国債ETF,NASDAQ,その他,○
 VGT,VA INFORM TECH,バンガード・米国情報技術セクターETF,NYSE,その他,○
-VHC,VIRNETX HOLDINGS,バーネットX・ホールディングス,NYSE,ソフトウェア・サービス,○
+VHC,VIRNETX HOLDINGS,バーネットX・ホールディングス,NASDAQ,ソフトウェア・サービス,○
 VHI,VALHI INC,バルヒ,NYSE,化学,○
 VHT,VA HEALTH CARE,バンガード・米国ヘルスケア・セクターETF,NYSE,その他,○
 VIA,VIA TRANSPORT,ヴィア・トランスポーテーション,NYSE,ソフトウェア・サービス,○
