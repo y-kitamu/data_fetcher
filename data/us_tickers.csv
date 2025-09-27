@@ -432,6 +432,7 @@ BARK,BARK INC,バーク,NYSE,専門店,○
 BATL,BATTALION OIL,バタリオン・オイル,NYSE,石油,○
 BAX,BAXTER INTER INC,バクスター　インターナショナル,NYSE,医療サービス,○
 BB,BLACKBERRY LTD,ブラックベリー,NYSE,コンピュータ,○
+BBAG,JPM BB US AG BND,JPモルガン・ベータビルダーズ・米国総合債券市場ETF,NYSE,その他,○
 BBAI,BIGBEAR.AI HLD,ビッグベアーAIホールディングス,NYSE,ソフトウェア・サービス,○
 BBAR,BANCO BBVA ARG,バンコBBVAアルゼンチン,NYSE,金融（銀行）,○
 BBBY,BED BATH BEYOND,ベッド・バス・アンド・ビヨンド,NYSE,小売,○
@@ -634,6 +635,7 @@ BUFD,FT VST LD DP BUF,ファーストトラスト Vest ラダー ディープバ
 BUFR,FT VST LAD BUFFR,ファーストトラスト Vest ラダー バッファーETF,Cboe,その他,○
 BUG,GLX CYBERSEC ETF,グローバルX サイバーセキュリティ ETF,NASDAQ,その他,○
 BULU,REX 2X LONG BULL,T-REX 2X・ロング・BULL・デイリーターゲットETF,Cboe,その他,○
+BULX,GNS 2X LONG BULL,GraniteShares2倍ロングBULLデイリーETF,NASDAQ,その他,○
 BUR,BURFORD CAPITAL,バーフォード・キャピタル,NYSE,金融コングロマリット,○
 BURL,BURLINGTON,バーリントン・ストアーズ,NYSE,小売,○
 BUSE,FIRST BUSEY CORP,ファースト・ビューシー,NASDAQ,金融（銀行）,○
@@ -961,7 +963,6 @@ CRML,CRITICAL METALS,クリティカル・メタルズ,NASDAQ,その他,○
 CRMT,AMERICAS CAR-MRT,アメリカズ・カーマート,NASDAQ,小売,○
 CRNC,CERENCE INC,セレンス・インク,NASDAQ,ソフトウェア・サービス,○
 CRNT,CERAGON NETWORKS,セラゴン・ネットワークス,NASDAQ,通信機器,○
-CRNX,CRINETICS PHARMA,クリネティック・ファーマシューティカルズ,NASDAQ,医薬品（バイオテクノロジー）,○
 CRON,CRONOS GROUP INC,クロノス・グループ,NASDAQ,医薬品,○
 CROX,CROCS INC,クロックス,NASDAQ,フットウエア,○
 CRS,CARPENTER TECH,カーペンター・テクノロジー,NYSE,その他,○
@@ -1291,7 +1292,7 @@ ELTX,ELICIO THERAP,エリシオ・セラピューティクス,NASDAQ,医薬品�
 ELUT,ELUTIA INC,エルティア,NASDAQ,医薬品（バイオテクノロジー）,○
 ELV,ELEVANCE HEALTH,エレバンス・ヘルス,NYSE,医療サービス,○
 ELVN,ENLIVEN THERAPEU,エンライブン・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
-ELVR,SAYONA MINING,サヨナ・マイニング,NASDAQ,その他,○
+ELVR,ELEVRA LITHIUM,エレブラ・リチウム,NASDAQ,その他,○
 ELWS,EARLYWORKS,アーリーワークス,NASDAQ,情報処理サービス,○
 EM,SMART SHARE GLBL,スマート・シェア・グローバル,NASDAQ,電力,○
 EMB,ISHARES JPM BND,iシェアーズ J.P.モルガン・米ドル建てエマージング・マーケット債券 ETF,NASDAQ,その他,○
@@ -1372,6 +1373,7 @@ ETNB,89BIO INC,89バイオ,NASDAQ,医薬品（バイオテクノロジー）,○
 ETON,ETON PHARMACEU,イートン・ファーマスーティカルズ,NASDAQ,医薬品,○
 ETOR,ETORO GROUP,イートロ・グループ,NASDAQ,金融コングロマリット,○
 ETR,ENTERGY CORP,エンタージ,NYSE,その他製造,○
+ETRL,GNS 2X LONG ETOR,GraniteShares2倍ロングETORデイリーETF,NASDAQ,その他,○
 ETSY,ETSY INC,エッツィー,NASDAQ,小売,○
 EUDG,WM EU Q-DIV GROW,ウィズダムツリー　欧州株クオリティ配当成長ファンド,NYSE,その他,○
 EVAX,EVAXION,エバクシオン,NASDAQ,医薬品（バイオテクノロジー）,○
@@ -2221,7 +2223,6 @@ KINS,KINGSTONE COS,キングストーン・カンパニーズ,NASDAQ,金融(保�
 KITT,NAUTICUS ROBOTIC,ノーティカス・ロボティクス,NASDAQ,その他製造,○
 KLAC,KLA CORPORATION,KLAコーポレーション,NASDAQ,半導体,○
 KLAR,KLARNA GROUP,クラーナ・グループ,NYSE,ソフトウェア・サービス,○
-KLG,WK KELLOGG CO,WKケロッグ,NYSE,食品,○
 KLIC,KULICKE SOFFA,キューリッキ・ソファ・インダストリーズ,NASDAQ,半導体,○
 KLIP,KRS KWEB COVERED,KraneShares KWEBカバード・コール戦略 ETF,NYSE,その他,○
 KLRS,KALARIS THERAPE,カラリス・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
@@ -2430,7 +2431,6 @@ LUNG,PULMONX CORP,プルモンクス,NASDAQ,ヘルスケア,○
 LUNR,INTUITIVE MACHIN,インテュイティブ・マシーンズ,NASDAQ,航空機・宇宙,○
 LUV,SOUTHWEST AIR,サウスウエスト・エアライン,NYSE,航空,○
 LUXE,LUXEXPERIENCE,リュクスエクスペリエンス,NYSE,その他,○
-LVO,LIVEONE INC,ライブワン,NASDAQ,エンターテイメント,○
 LVS,LAS VEGAS SANDS,ラスベガス・サンズ,NYSE,ホテル,○
 LVTX,LAVA THERAPE,ラバ・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 LVWR,LIVEWIRE GROUP,ライブワイヤー・グループ,NYSE,その他,○
@@ -3913,6 +3913,7 @@ TLK,TELKOM INDONESIA,テルコム・インドネシア,NYSE,通信サービス,�
 TLS,TELOS CORP,テロス,NASDAQ,ネットワークセキュリティー,○
 TLSI,TRISALU LIFE SCE,トライサラス・ライフ・サイエンシズ,NASDAQ,医療サービス,○
 TLT,ISHARES 20YR TR,iシェアーズ 米国国債 20年超 ETF,NASDAQ,その他,○
+TLTX,GLX TBOND INCOME,グローバルＸ超長期米国債・カバード・コールETF,Cboe,その他,○
 TLYS,TILLY'S INC,ティリーズ,NYSE,小売,○
 TMC,TMC THE METALS,TMCザ・メタルズ,NASDAQ,その他,○
 TMCI,TREACE MEDICAL,トレイス・メディカル・コンセプツ,NASDAQ,医薬品,○
