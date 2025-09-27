@@ -26,7 +26,7 @@ def get_latest_dates_data_number() -> dict[str, str]:
             if not data_dir.is_dir():
                 continue
             dirname = f"{data_src_dir.name}/{data_dir.name}"
-            dirs = sorted([p for p in data_dir.glob("20*") if p.is_dir()])
+            dirs = sorted([p for p in data_dir.glob("20*") if p.is_dir() and len(p.name) > 4])
             if len(dirs) == 0:
                 # results[dirname] = "No data directory found."
                 continue

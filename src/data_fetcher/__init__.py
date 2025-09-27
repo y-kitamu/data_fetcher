@@ -30,7 +30,7 @@ logger.add(
     format="[{time:YYYY-MM-DD HH:mm:ss} {level} {file.path} at line {line}] {message}",
     level="DEBUG",
 )
-logger.debug("data_fetcher package initialized")
+# logger.debug("data_fetcher package initialized")
 
 __all__ = [
     "binance",

@@ -9,6 +9,7 @@ dependencies = [
     "fastapi>=0.116.1",
     "fastexcel>=0.14.0",
     "histdata>=1.1",
+    "ixbrlparse>=0.10.0",
     "loguru>=0.7.3",
     "matplotlib>=3.10.3",
     "numpy>=2.3.1",
