@@ -187,7 +187,6 @@ AMAL,AMALGAMATED BANK,アマルガメイテッド・バンク,NASDAQ,金融（�
 AMAT,APPLIED MATERIAL,アプライド　マテリアルズ,NASDAQ,半導体製造,○
 AMBA,AMBARELLA INC.,アンバレラ,NASDAQ,半導体製造,○
 AMBC,AMBAC FINANCIAL,アンバック・フィナンシャル・グループ,NYSE,金融(保険),○
-AMBI,AMBIPAR EMG RPS,アンビパー・エマージェンシー・レスポンス,NYSE,その他,○
 AMBP,ARDAGH METAL PAC,アルダ・メタル・パッケージング,NYSE,その他製造,○
 AMBR,AMBER INTER HD,アンバー・インターナショナル・ホールディング,NASDAQ,ソフトウェア・サービス,○
 AMC,AMC ENTERTAINMNT,AMCエンターテインメント・ホールディングス,NYSE,エンターテイメント,○
@@ -963,6 +962,7 @@ CRML,CRITICAL METALS,クリティカル・メタルズ,NASDAQ,その他,○
 CRMT,AMERICAS CAR-MRT,アメリカズ・カーマート,NASDAQ,小売,○
 CRNC,CERENCE INC,セレンス・インク,NASDAQ,ソフトウェア・サービス,○
 CRNT,CERAGON NETWORKS,セラゴン・ネットワークス,NASDAQ,通信機器,○
+CRNX,CRINETICS PHARMA,クリネティック・ファーマシューティカルズ,NASDAQ,医薬品（バイオテクノロジー）,○
 CRON,CRONOS GROUP INC,クロノス・グループ,NASDAQ,医薬品,○
 CROX,CROCS INC,クロックス,NASDAQ,フットウエア,○
 CRS,CARPENTER TECH,カーペンター・テクノロジー,NYSE,その他,○
@@ -2431,6 +2431,7 @@ LUNG,PULMONX CORP,プルモンクス,NASDAQ,ヘルスケア,○
 LUNR,INTUITIVE MACHIN,インテュイティブ・マシーンズ,NASDAQ,航空機・宇宙,○
 LUV,SOUTHWEST AIR,サウスウエスト・エアライン,NYSE,航空,○
 LUXE,LUXEXPERIENCE,リュクスエクスペリエンス,NYSE,その他,○
+LVO,LIVEONE INC,ライブワン,NASDAQ,エンターテイメント,○
 LVS,LAS VEGAS SANDS,ラスベガス・サンズ,NYSE,ホテル,○
 LVTX,LAVA THERAPE,ラバ・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 LVWR,LIVEWIRE GROUP,ライブワイヤー・グループ,NYSE,その他,○
@@ -4361,7 +4362,6 @@ WNC,WABASH NATIONAL,ワバシュ・ナショナル,NYSE,その他製造,○
 WNEB,WEST NEW ENGLAND,ウエスタン・ニュー・イングランド・バンコープ,NASDAQ,金融（銀行）,○
 WNS,WNS HOLDINGS LTD,WNSホールディングス,NYSE,情報処理サービス,○
 WNW,MEIWU TECHNOLOGY,メイウー・テクノロジー,NASDAQ,小売,○
-WOLF,WOLFSPEED,ウルフスピード,NYSE,半導体,○
 WOOD,ISHARES T&F,iシェアーズ グローバル・ティンバー＆フォレストリー ETF,NASDAQ,その他,○
 WOOF,PETCO HEALTH,ペトコ・ヘルス・アンド・ウェルネス・カンパニー,NASDAQ,医療サービス,○
 WOR,WORTHINGTON ENT,ワージントン・エンタープライズ,NYSE,その他製造,○
