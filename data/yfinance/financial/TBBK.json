@@ -760,7 +760,6 @@
         "Salaries And Wages": NaN,
         "Total Revenue": NaN,
         "Operating Revenue": NaN,
-        "Occupancy And Equipment": NaN,
         "Professional Expense And Contract Services Expense": NaN,
         "Other Non Interest Expense": NaN
     },
@@ -803,7 +802,6 @@
         "Salaries And Wages": 33863000.0,
         "Total Revenue": 124517000.0,
         "Operating Revenue": 124517000.0,
-        "Occupancy And Equipment": NaN,
         "Professional Expense And Contract Services Expense": 1514000.0,
         "Other Non Interest Expense": 11205000.0
     },
@@ -846,7 +844,6 @@
         "Salaries And Wages": 33821000.0,
         "Total Revenue": 125761000.0,
         "Operating Revenue": 125761000.0,
-        "Occupancy And Equipment": NaN,
         "Professional Expense And Contract Services Expense": 1876000.0,
         "Other Non Interest Expense": 12627000.0
     },
@@ -889,7 +886,6 @@
         "Salaries And Wages": 33633000.0,
         "Total Revenue": 149226000.0,
         "Operating Revenue": 149226000.0,
-        "Occupancy And Equipment": NaN,
         "Professional Expense And Contract Services Expense": 1269000.0,
         "Other Non Interest Expense": 11518000.0
     },
@@ -932,7 +928,6 @@
         "Salaries And Wages": 33669000.0,
         "Total Revenue": 175385000.0,
         "Operating Revenue": 175385000.0,
-        "Occupancy And Equipment": NaN,
         "Professional Expense And Contract Services Expense": 3067000.0,
         "Other Non Interest Expense": 11576000.0
     },
@@ -975,7 +970,6 @@
         "Salaries And Wages": 37134000.0,
         "Total Revenue": 181235000.0,
         "Operating Revenue": 181235000.0,
-        "Occupancy And Equipment": NaN,
         "Professional Expense And Contract Services Expense": 2844000.0,
         "Other Non Interest Expense": 12056000.0
     }

@@ -448,7 +448,6 @@
         "Salaries And Wages": NaN,
         "Total Revenue": NaN,
         "Operating Revenue": NaN,
-        "Occupancy And Equipment": NaN,
         "Other Non Interest Expense": NaN
     },
     "2024-06-30": {
@@ -491,7 +490,6 @@
         "Salaries And Wages": 35053000.0,
         "Total Revenue": 65745000.0,
         "Operating Revenue": 65745000.0,
-        "Occupancy And Equipment": NaN,
         "Other Non Interest Expense": -1723000.0
     },
     "2024-09-30": {
@@ -534,7 +532,6 @@
         "Salaries And Wages": 31083000.0,
         "Total Revenue": 275355000.0,
         "Operating Revenue": 275355000.0,
-        "Occupancy And Equipment": NaN,
         "Other Non Interest Expense": -418000.0
     },
     "2024-12-31": {
@@ -577,7 +574,6 @@
         "Salaries And Wages": 33201000.0,
         "Total Revenue": -128308000.0,
         "Operating Revenue": -128308000.0,
-        "Occupancy And Equipment": NaN,
         "Other Non Interest Expense": -251000.0
     },
     "2025-03-31": {
@@ -620,7 +616,6 @@
         "Salaries And Wages": 33930000.0,
         "Total Revenue": 146624000.0,
         "Operating Revenue": 146624000.0,
-        "Occupancy And Equipment": NaN,
         "Other Non Interest Expense": -207000.0
     },
     "2025-06-30": {
@@ -663,7 +658,6 @@
         "Salaries And Wages": 36974000.0,
         "Total Revenue": 160389000.0,
         "Operating Revenue": 160389000.0,
-        "Occupancy And Equipment": NaN,
         "Other Non Interest Expense": -717000.0
     }
 }

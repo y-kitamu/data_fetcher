@@ -579,8 +579,6 @@
     "2024-03-31": {
         "Tax Effect Of Unusual Items": NaN,
         "Tax Rate For Calcs": NaN,
-        "Total Unusual Items": NaN,
-        "Total Unusual Items Excluding Goodwill": NaN,
         "Net Income From Continuing Operation Net Minority Interest": NaN,
         "Reconciled Depreciation": NaN,
         "Net Interest Income": NaN,
@@ -620,8 +618,6 @@
     "2024-06-30": {
         "Tax Effect Of Unusual Items": 0.0,
         "Tax Rate For Calcs": 0.23,
-        "Total Unusual Items": NaN,
-        "Total Unusual Items Excluding Goodwill": NaN,
         "Net Income From Continuing Operation Net Minority Interest": 2747000.0,
         "Reconciled Depreciation": 8218000.0,
         "Net Interest Income": 87915000.0,
@@ -661,8 +657,6 @@
     "2024-09-30": {
         "Tax Effect Of Unusual Items": 0.0,
         "Tax Rate For Calcs": 0.15,
-        "Total Unusual Items": NaN,
-        "Total Unusual Items Excluding Goodwill": NaN,
         "Net Income From Continuing Operation Net Minority Interest": 5347000.0,
         "Reconciled Depreciation": 9025000.0,
         "Net Interest Income": 88699000.0,
@@ -702,8 +696,6 @@
     "2024-12-31": {
         "Tax Effect Of Unusual Items": 0.0,
         "Tax Rate For Calcs": 0.341681,
-        "Total Unusual Items": NaN,
-        "Total Unusual Items Excluding Goodwill": NaN,
         "Net Income From Continuing Operation Net Minority Interest": 3838000.0,
         "Reconciled Depreciation": 8595000.0,
         "Net Interest Income": 87807000.0,
@@ -743,8 +735,6 @@
     "2025-03-31": {
         "Tax Effect Of Unusual Items": 0.0,
         "Tax Rate For Calcs": 0.21,
-        "Total Unusual Items": NaN,
-        "Total Unusual Items Excluding Goodwill": NaN,
         "Net Income From Continuing Operation Net Minority Interest": 17000.0,
         "Reconciled Depreciation": 8336000.0,
         "Net Interest Income": 84383000.0,
@@ -784,8 +774,6 @@
     "2025-06-30": {
         "Tax Effect Of Unusual Items": 0.0,
         "Tax Rate For Calcs": 0.21,
-        "Total Unusual Items": NaN,
-        "Total Unusual Items Excluding Goodwill": NaN,
         "Net Income From Continuing Operation Net Minority Interest": 4420000.0,
         "Reconciled Depreciation": 10220000.0,
         "Net Interest Income": 88678000.0,

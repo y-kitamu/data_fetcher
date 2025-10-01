@@ -340,8 +340,6 @@
     "2024-06-30": {
         "Tax Effect Of Unusual Items": 0.0,
         "Tax Rate For Calcs": 0.240627,
-        "Total Unusual Items": NaN,
-        "Total Unusual Items Excluding Goodwill": NaN,
         "Net Income From Continuing Operation Net Minority Interest": 10796000.0,
         "Reconciled Depreciation": 1173000.0,
         "Net Interest Income": 38858000.0,
@@ -375,8 +373,6 @@
     "2024-09-30": {
         "Tax Effect Of Unusual Items": 0.0,
         "Tax Rate For Calcs": 0.214,
-        "Total Unusual Items": NaN,
-        "Total Unusual Items Excluding Goodwill": NaN,
         "Net Income From Continuing Operation Net Minority Interest": 12775000.0,
         "Reconciled Depreciation": -4188000.0,
         "Net Interest Income": 40383000.0,
@@ -410,8 +406,6 @@
     "2024-12-31": {
         "Tax Effect Of Unusual Items": 0.0,
         "Tax Rate For Calcs": 0.233863,
-        "Total Unusual Items": NaN,
-        "Total Unusual Items Excluding Goodwill": NaN,
         "Net Income From Continuing Operation Net Minority Interest": 13733000.0,
         "Reconciled Depreciation": 6558000.0,
         "Net Interest Income": 43438000.0,
@@ -445,8 +439,6 @@
     "2025-03-31": {
         "Tax Effect Of Unusual Items": 0.0,
         "Tax Rate For Calcs": 0.217,
-        "Total Unusual Items": NaN,
-        "Total Unusual Items Excluding Goodwill": NaN,
         "Net Income From Continuing Operation Net Minority Interest": 13589000.0,
         "Reconciled Depreciation": 1199000.0,
         "Net Interest Income": 42797000.0,
@@ -480,8 +472,6 @@
     "2025-06-30": {
         "Tax Effect Of Unusual Items": 0.0,
         "Tax Rate For Calcs": 0.204342,
-        "Total Unusual Items": NaN,
-        "Total Unusual Items Excluding Goodwill": NaN,
         "Net Income From Continuing Operation Net Minority Interest": 16747000.0,
         "Reconciled Depreciation": 1174000.0,
         "Net Interest Income": 49374000.0,

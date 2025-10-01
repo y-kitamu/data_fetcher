@@ -462,8 +462,7 @@
         "Operating Revenue": 3507000000.0,
         "Loss Adjustment Expense": 528000000.0,
         "Net Policyholder Benefits And Claims": 528000000.0,
-        "Policyholder Benefits Gross": 528000000.0,
-        "Policyholder Benefits Ceded": NaN
+        "Policyholder Benefits Gross": 528000000.0
     },
     "2024-09-30": {
         "Tax Effect Of Unusual Items": 0.0,
@@ -500,8 +499,7 @@
         "Operating Revenue": 3076000000.0,
         "Loss Adjustment Expense": 758000000.0,
         "Net Policyholder Benefits And Claims": 758000000.0,
-        "Policyholder Benefits Gross": 758000000.0,
-        "Policyholder Benefits Ceded": NaN
+        "Policyholder Benefits Gross": 758000000.0
     },
     "2024-12-31": {
         "Tax Effect Of Unusual Items": 0.0,
@@ -538,8 +536,7 @@
         "Operating Revenue": 3621000000.0,
         "Loss Adjustment Expense": -131000000.0,
         "Net Policyholder Benefits And Claims": -131000000.0,
-        "Policyholder Benefits Gross": 605000000.0,
-        "Policyholder Benefits Ceded": NaN
+        "Policyholder Benefits Gross": 605000000.0
     },
     "2025-03-31": {
         "Tax Effect Of Unusual Items": 0.0,
@@ -576,8 +573,7 @@
         "Operating Revenue": 4576000000.0,
         "Loss Adjustment Expense": 1429000000.0,
         "Net Policyholder Benefits And Claims": 1429000000.0,
-        "Policyholder Benefits Gross": 1429000000.0,
-        "Policyholder Benefits Ceded": NaN
+        "Policyholder Benefits Gross": 1429000000.0
     },
     "2025-06-30": {
         "Tax Effect Of Unusual Items": 0.0,
@@ -614,7 +610,6 @@
         "Operating Revenue": 2362000000.0,
         "Loss Adjustment Expense": 168000000.0,
         "Net Policyholder Benefits And Claims": 168000000.0,
-        "Policyholder Benefits Gross": 168000000.0,
-        "Policyholder Benefits Ceded": NaN
+        "Policyholder Benefits Gross": 168000000.0
     }
 }
