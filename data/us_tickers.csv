@@ -627,6 +627,7 @@ BTG,B2GOLD CORP,B2ゴールド,NYSE,その他,○
 BTI,BRITISH AMERICAN,ブリティッシュ・アメリカン・タバコ,NYSE,食品・タバコ,○
 BTMD,BIOTE CORP,ビオテ,NASDAQ,医薬品,○
 BTSG,BRIGHTSPG HEALTH,ブライトスプリング・ヘルス・サービシズ,NASDAQ,ヘルスケア,○
+BTTC,BLACK TITAN CORP,ブラック・タイタン・コーポレーション,NASDAQ,医薬品（バイオテクノロジー）,○
 BTU,PEABODY ENERGY,ピーボディ・エナジー,NYSE,その他,○
 BUD,ANHEUSER INBEV,アンハイザー・ブッシュ・インベブ,NYSE,飲料,○
 BUFD,FT VST LD DP BUF,ファーストトラスト Vest ラダー ディープバッファーETF,Cboe,その他,○
@@ -3321,7 +3322,6 @@ RELL,RICHARDSON ELCTR,リチャードソン・エレクトロニクス,NASDAQ,�
 RELX,RELX PLC,レレックス,NYSE,ソフトウェア・サービス,○
 RELY,REMITLY GLOBAL,レミトリー・グローバル,NASDAQ,金融コングロマリット,○
 REMX,V R EARTH SM ETF,ヴァンエック・レアアース・アンド・戦略的金属ETF,NYSE,その他,○
-RENT,RENT THE RUNWAY,レント・ザ・ランウェイ,NASDAQ,ソフトウェア・サービス,○
 REPL,REPLIMUNE GROUP,レプリミューン,NASDAQ,医薬品（バイオテクノロジー）,○
 REPX,RILEY EXPLRTION,ライリー・エクスプロレーション・パーミアン,NYSE,石油,○
 RERE,ATRENEW INC,ATリニュー,NYSE,その他,○
@@ -3830,7 +3830,7 @@ TBRG,TRUBRIDGE INC,トゥルーブリッジ,NASDAQ,ソフトウェア・サー�
 TC,TOKEN CAT,トークン・キャット,NASDAQ,ソフトウェア・サービス,○
 TCBI,TEXAS CAPITAL BA,テキサス・キャピタル・バンクシェアズ,NASDAQ,金融（銀行）,○
 TCBK,TRICO BANCSHARES,トリコ・バンクシェアーズ,NASDAQ,金融（銀行）,○
-TCBX,3RD COAST BNCSHR,サード・コースト・バンクシェアーズ,NASDAQ,金融（銀行）,○
+TCBX,3RD COAST BNCSHR,サード・コースト・バンクシェアーズ,NYSE,金融（銀行）,○
 TCI,TRANSCN REAL INV,トランスコンチネンタル・リアルティ・インベスターズ,NYSE,その他,○
 TCMD,TACTILE SYS TECH,タクタイル・システムズ・テクノロジー,NASDAQ,ヘルスケア,○
 TCOM,TRIP.COM GROUP,トリップ・ドット・コム・グループ,NASDAQ,その他,○
