@@ -3322,6 +3322,7 @@ RELL,RICHARDSON ELCTR,リチャードソン・エレクトロニクス,NASDAQ,�
 RELX,RELX PLC,レレックス,NYSE,ソフトウェア・サービス,○
 RELY,REMITLY GLOBAL,レミトリー・グローバル,NASDAQ,金融コングロマリット,○
 REMX,V R EARTH SM ETF,ヴァンエック・レアアース・アンド・戦略的金属ETF,NYSE,その他,○
+RENT,RENT THE RUNWAY,レント・ザ・ランウェイ,NASDAQ,ソフトウェア・サービス,○
 REPL,REPLIMUNE GROUP,レプリミューン,NASDAQ,医薬品（バイオテクノロジー）,○
 REPX,RILEY EXPLRTION,ライリー・エクスプロレーション・パーミアン,NYSE,石油,○
 RERE,ATRENEW INC,ATリニュー,NYSE,その他,○
@@ -3483,7 +3484,6 @@ SCKT,SOCKET MOBILE,ソケット･モバイル,NASDAQ,コンピュータ,○
 SCL,STEPAN COMPANY,ステパン,NYSE,化学,○
 SCNX,SCIENTURE HOLDIN,サイエンチャー・ホールディングス,NASDAQ,コンピュータ,○
 SCOR,COMSCORE INC,コムスコア,NASDAQ,ソフトウェア・サービス,○
-SCPH,SCPHARMACEUTICAL,scファーマスーティカルズ,NASDAQ,医薬品,○
 SCS,STEELCASE INC,スチールケース,NYSE,その他製造,○
 SCSC,SCANSOURCE INC,スキャンソース,NASDAQ,コンピュータ,○
 SCVL,SHOE CARNIVAL,シュー・カーニバル,NASDAQ,小売,○
@@ -4233,7 +4233,6 @@ VRAX,VIRAX BIOLABS GP,ヴィラックス・バイオラボ,NASDAQ,医薬品（�
 VRDN,VIRIDIAN THERAPE,ビリジアン・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 VREX,VAREX IMAGING,バレックス・イメージング,NASDAQ,その他製造,○
 VRME,VERIFYME INC,ベリファイミー,NASDAQ,ソフトウェア・サービス,○
-VRNA,VERONA PHARMA,ヴェローナ・ファーマ,NASDAQ,医薬品（バイオテクノロジー）,○
 VRNS,VARONIS SYSTEMS,バロニス・システムズ,NASDAQ,ソフトウェア・サービス,○
 VRRM,VERRA MOBILITY,ヴェラ・モビリティー,NASDAQ,ソフトウェア・サービス,○
 VRSK,VERISK ANALYTICS,ベリスク・アナリティックス,NASDAQ,金融コングロマリット,○
