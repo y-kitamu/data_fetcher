@@ -2,13 +2,13 @@ from .schema import TaxonomyElement
 
 taxonomy_groups = {
     "cash_and_equivalents": [
-        TaxonomyElement(
-            japanese_label="現金及び現金同等物期末残高",
-            english_label="Cash and equivalents, end of period",
-            namespace="tse-ed-t",
-            element_id="CashAndEquivalentsEndOfPeriod",
-            period_type="instant",
-        ),
+        # TaxonomyElement(
+        #     japanese_label="現金及び現金同等物期末残高",
+        #     english_label="Cash and equivalents, end of period",
+        #     namespace="tse-ed-t",
+        #     element_id="CashAndEquivalentsEndOfPeriod",
+        #     period_type="instant",
+        # ),
         TaxonomyElement(
             japanese_label="現金及び預金",
             english_label="Cash and deposits",
@@ -16,20 +16,20 @@ taxonomy_groups = {
             element_id="CashAndDeposits",
             period_type="instant",
         ),
-        TaxonomyElement(
-            japanese_label="現金及び現金同等物（IFRS）",
-            english_label="Cash and cash equivalents (IFRS)",
-            namespace="jpigp_cor",
-            element_id="CashAndCashEquivalentsIFRS",
-            period_type="instant",
-        ),
-        TaxonomyElement(
-            japanese_label="現金及び現金同等物期末残高、米国基準",
-            english_label="Cash and equivalents, end of period-US",
-            namespace="tse-ed-t",
-            element_id="CashAndEquivalentsEndOfPeriodUS",
-            period_type="instant",
-        ),
+        # TaxonomyElement(
+        #     japanese_label="現金及び現金同等物（IFRS）",
+        #     english_label="Cash and cash equivalents (IFRS)",
+        #     namespace="jpigp_cor",
+        #     element_id="CashAndCashEquivalentsIFRS",
+        #     period_type="instant",
+        # ),
+        # TaxonomyElement(
+        #     japanese_label="現金及び現金同等物期末残高、米国基準",
+        #     english_label="Cash and equivalents, end of period-US",
+        #     namespace="tse-ed-t",
+        #     element_id="CashAndEquivalentsEndOfPeriodUS",
+        #     period_type="instant",
+        # ),
     ],
     "receivables": [
         TaxonomyElement(
@@ -395,7 +395,7 @@ taxonomy_groups = {
             period_type="duration",
         ),
     ],
-    "oridnary_profit": [
+    "ordinary_profit": [
         TaxonomyElement(
             japanese_label="経常利益又は経常損失（△）",
             english_label="Ordinary profit (loss)",
@@ -471,6 +471,15 @@ taxonomy_groups = {
             period_type="duration",
         ),
     ],
+    "depreciation": [
+        TaxonomyElement(
+            japanese_label="減価償却費、営業活動によるキャッシュ・フロー",
+            english_label="Depreciation-OpeCF",
+            namespace="jppfs_cor",
+            element_id="DepreciationAndAmortizationOpeCF",
+            period_type="duration",
+        )
+    ],
     "cash_flow_from_investing_activities": [
         TaxonomyElement(
             japanese_label="投資活動によるキャッシュ・フロー",
@@ -524,7 +533,7 @@ taxonomy_groups = {
             period_type="duration",
         ),
     ],
-    "cash_flor_from_financial_activities": [
+    "cash_flow_from_financial_activities": [
         TaxonomyElement(
             japanese_label="財務活動によるキャッシュ・フロー、米国基準",
             english_label="Cash flows from financing activities-US",

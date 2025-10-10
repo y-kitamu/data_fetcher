@@ -6,6 +6,7 @@ from pathlib import Path
 import polars as pl
 
 from ..constants import PROJECT_ROOT
+from . import fetcher
 
 # from . import convert, excel, preprocess
 from .constants import zip_root_dir

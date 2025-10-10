@@ -91,7 +91,12 @@ def _collect_numeric_data_impl(
     """単一の報告書から数値データを収集する"""
     data = []
     taxonomy_elems = sum(
-        [taxonomy_elems[dtype.name] for dtype in document.doc_type], []
+        [
+            taxonomy_elems[dtype.name]
+            for dtype in document.doc_type
+            if dtype.name in taxonomy_elems
+        ],
+        [],
     )
     with open(document.filepath, "r") as f:
         x = IXBRL(f, raise_on_error=False)

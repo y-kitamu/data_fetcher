@@ -68,13 +68,30 @@ edjp_target_sheet_names = [
 ]
 ifrs_excel_path = PROJECT_ROOT / "data/tdnet/1g_IFRS_ElementList.xlsx"
 ifrs_target_sheet_names = ["詳細ツリー"]
+tdnet_excel_path = (
+    PROJECT_ROOT
+    / "data/tdnet/koumoku_list_Quarterly_Financial_Statements_20250131.xlsx"
+)
+tdnet_target_sheet_names = ["ATPFS"]
 
 
 def collect_all_taxonomies() -> dict[str, list[TaxonomyElement]]:
     """すべての報告書のタクソノミ要素一覧を取得"""
     warnings.simplefilter("ignore")
-    elements = collect_reports_taxonomies(edjp_excel_path, edjp_target_sheet_names)
-    elements |= collect_reports_taxonomies(ifrs_excel_path, ifrs_target_sheet_names)
+    elements = {}
+    elems = [
+        collect_reports_taxonomies(edjp_excel_path, edjp_target_sheet_names),
+        collect_reports_taxonomies(ifrs_excel_path, ifrs_target_sheet_names),
+        collect_reports_taxonomies(tdnet_excel_path, tdnet_target_sheet_names),
+    ]
+    for taxonomies in elems:
+        for key, values in taxonomies.items():
+            if key not in elements:
+                elements[key] = []
+            for val in values:
+                if val not in elements[key]:
+                    elements[key].append(val)
+
     summary_elems = collect_summary_taxonomies()
     elements["決算短信サマリー"] = summary_elems
     elements["予想修正報告"] = summary_elems
@@ -95,7 +112,7 @@ def collect_reports_taxonomies(
     elements = {}
     for sheet_name in target_sheets:
         for row in wb[sheet_name].iter_rows(values_only=True):
-            if row[0] is not None and "科目一覧" in row[0]:
+            if row[0] is not None and ("科目一覧" in row[0] or "TDnet" in row[0]):
                 # new document section
                 doc_str = row[0].replace("科目一覧", "").strip()
                 document_type = [
@@ -110,7 +127,9 @@ def collect_reports_taxonomies(
 
                 if current_document not in elements:
                     elements[current_document] = []
-                    logger.debug(f"add taxonomies of document : {current_document}")
+                    logger.debug(
+                        f"add taxonomies of document : {current_document}, ({doc_str})"
+                    )
             elif current_document is not None:
                 # within document section
                 if row[0] is not None:
