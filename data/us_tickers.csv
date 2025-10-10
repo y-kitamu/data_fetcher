@@ -1329,7 +1329,6 @@ EPAM,EPAM SYSTEMS INC,EPAMシステムズ,NYSE,ソフトウェア・サービス
 EPC,EDGEWELL PERSNAL,エッジウェル・パーソナル・ケア,NYSE,その他製造,○
 EPHE,ISHS PHILIPPINES,iシェアーズ MSCI フィリピン ETF,NYSE,その他,○
 EPI,WT INDIA EARNING,ウィズダムツリー  インド株収益ファンド,NYSE,その他,○
-EPIX,ESSA PHARMA INC,ESSAファーマ,NASDAQ,医薬品（バイオテクノロジー）,○
 EPM,EVOLUTION PETRO,エボリューション・ペトロリアム,NYSE,石油,○
 EPOL,ISHARES POLAND,iシェアーズ MSCI ポーランド ETF,NYSE,その他,○
 EPP,ISHARES EX-JAPAN,iシェアーズ MSCI パシフィック（除く日本）ETF,NYSE,その他,○
@@ -1575,6 +1574,7 @@ FRGE,FORGE GLOBAL HLD,フォージ・グローバル・ホールディングス,
 FRHC,FREEDOM HOLDING,フリーダム・ホールディング,NASDAQ,金融（証券）,○
 FRI,FT SP REIT INDEX,ファーストトラスト S&Pリート指数ファンド,NYSE,その他,○
 FRME,1ST MERCHANTS,ファースト・マーチャンツ,NASDAQ,金融（銀行）,○
+FRMI,FERMI,フェルミ,NASDAQ,電力,○
 FRO,FRONTLINE PLC,フロントラインPLC,NYSE,運輸,○
 FROG,JFROG LTD,ジェイフログ,NASDAQ,ソフトウェア・サービス,○
 FRPH,FRP HOLDINGS INC,FRPホールディングス,NASDAQ,その他,○
@@ -2790,6 +2790,7 @@ NOV,NOV INC,NOV,NYSE,石油,○
 NOVT,NOVANTA INC,ノバンタ,NASDAQ,その他製造,○
 NOW,SERVICENOW INC,サービスナウ,NYSE,ソフトウェア・サービス,○
 NOWL,GNS 2X LONG NOW,GraniteShares2倍ロングNOWデイリーETF,NASDAQ,その他,○
+NP,NEPTUNE INSURANC,ネプチューン・インシュランス・ホールディングス,NYSE,金融(保険),○
 NPB,NORTHPOINTE BANC,ノースポイント・バンクシェアーズ,NYSE,金融（銀行）,○
 NPCE,NEUROPACE INC,ニューロペース,NASDAQ,医薬品,○
 NPK,NATIONAL PRESTO,ナショナル・プレスト・インダストリーズ,NYSE,航空機・宇宙,○
