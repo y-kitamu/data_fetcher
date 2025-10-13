@@ -140,7 +140,7 @@ def move_from_download_dir():
 
 
 if __name__ == "__main__":
-    all_tickers = data_fetcher.ticker_list.get_jp_ticker_list()
+    all_tickers = data_fetcher.ticker_list.get_jp_ticker_list(include_etf=True)
 
     download(all_tickers)
     move_from_download_dir()

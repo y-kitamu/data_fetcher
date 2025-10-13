@@ -5,14 +5,16 @@ yahoo finance apiを使用してデータを取得する
 import datetime
 from pathlib import Path
 
-import polars as pl
 import yfinance as yf
-from tqdm import tqdm
 from loguru import logger
 
 import data_fetcher
 
 # session = data_fetcher.session.get_session(max_requests_per_second=1)
+FX_TICKERS = [
+    "USDJPY=X",
+    "EURJPY=X",
+]
 
 
 def fetch_data(symbol: str, date: datetime.date, output_path: Path):
@@ -37,7 +39,31 @@ def fetch_data(symbol: str, date: datetime.date, output_path: Path):
         df.write_csv(output_path)
 
 
-if __name__ == "__main__":
+def collect_fx_data():
+    start_date = datetime.date.today() - datetime.timedelta(days=30)
+    end_date = datetime.date.today() - datetime.timedelta(
+        days=1
+    )  # datetime.date.today()
+    date = start_date
+    for symbol in FX_TICKERS:
+        date = start_date
+        while date < end_date:
+            date_str = date.strftime("%Y%m%d")
+            output_path = (
+                data_fetcher.constants.PROJECT_ROOT
+                / "data/yfinance/minutes"
+                / date_str
+                / f"{symbol.replace('=X', '')}_{date_str}.csv"
+            )
+            if output_path.exists() or date.weekday() >= 5:
+                date += datetime.timedelta(days=1)
+                continue
+
+            fetch_data(symbol, date, output_path)
+            date += datetime.timedelta(days=1)
+
+
+def collect_stock_data():
     start_date = datetime.date.today() - datetime.timedelta(days=14)
     end_date = datetime.date.today() - datetime.timedelta(
         days=1
@@ -68,3 +94,8 @@ if __name__ == "__main__":
 
             fetch_data(symbol, date, output_path)
             date += datetime.timedelta(days=1)
+
+
+if __name__ == "__main__":
+    collect_fx_data()
+    collect_stock_data()
