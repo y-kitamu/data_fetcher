@@ -617,7 +617,6 @@ BSX,BOSTON SCIENTIF,ボストン・サイエンティフィック,NYSE,その他
 BSY,BENTLEY SYSTEMS,ベントレー・システムズ,NASDAQ,ソフトウェア・サービス,○
 BTAI,BIOXCEL THERAPEU,バイオエクセル・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 BTBT,BIT DIGITAL INC,ビット・デジタル,NASDAQ,その他,○
-BTCM,BIT MINING LTD,ビット・マイニング,NYSE,エンターテイメント,○
 BTCS,BTCS INC,BTCS,NASDAQ,ソフトウェア・サービス,○
 BTCT,BTC DIGITAL,BTCデジタル,NASDAQ,ソフトウェア・サービス,○
 BTDR,BITDEER TECH,ビットディア・テクノロジーズ・グループ,NASDAQ,情報処理サービス,○
@@ -1512,7 +1511,7 @@ FIXD,FT SMTH FIXD INC,ファーストトラスト Smith オポチュニスティ
 FIZZ,NATIONL BEVERAGE,ナショナル・ビバリッジ,NASDAQ,食品,○
 FKWL,FRANKLN WIRELESS,フランクリン・ワイヤレス,NASDAQ,通信機器,○
 FLEX,FLEX LTD,フレックス,NASDAQ,その他製造,○
-FLG,FLAGSTAR FNL,フラッグスター・ファイナンシャル,NYSE,金融（銀行）,○
+FLG,FLAGSTAR BANK,フラッグスター・バンク,NYSE,金融（銀行）,○
 FLGT,FULGENT GENETICS,フルジェント・ジェネティクス,NASDAQ,ヘルスケア,○
 FLL,FULL HOUSE RESRT,フル・ハウス・リゾート,NASDAQ,エンターテイメント,○
 FLNC,FLUENCE ENERGY,フルエンス・エナジー,NASDAQ,電力,○
@@ -3456,7 +3455,6 @@ SAIC,SCIENCE APP INTL,サイエンス・アプリケーションズ・インタ�
 SAM,THE BOSTON BEER,ボストン・ビア,NYSE,飲料,○
 SAMG,SILVERCREST AM G,シルバークレスト・アセットマネジメント・グループ,NASDAQ,その他,○
 SANA,SANA BIOTECHNO,サナ・バイオテクノロジー,NASDAQ,医薬品（バイオテクノロジー）,○
-SAND,SANDSTORM GOLD,サンドストーム・ゴールド,NYSE,その他,○
 SANM,SANMINA CORP,サンミナ,NASDAQ,その他製造,○
 SAP,SAP SE(ADR),エスエイピー,NYSE,ソフトウェア・サービス,○
 SATL,SATELLOGIC INC,サテロジック,NASDAQ,通信サービス,○
@@ -3583,6 +3581,7 @@ SKYW,SKYWEST INC,スカイウエスト,NASDAQ,航空,○
 SKYX,SKYX PLATFORMS,SKYXプラットフォームズ,NASDAQ,その他製造,○
 SKYY,FT CLOUD COMPUT,ファーストトラスト クラウドコンピューティングETF,NASDAQ,その他,○
 SLAB,SILICON LABO,シリコン・ラボラトリーズ,NASDAQ,半導体,○
+SLAI,SOLAI LTD,SOLAI,NYSE,エンターテイメント,○
 SLB,SLB N V,SLB,NYSE,石油,○
 SLDB,SOLID BIOSCIENCE,ソリッド・バイオサイエンシズ,NASDAQ,医薬品（バイオテクノロジー）,○
 SLDE,SLIDE INSURANCE,スライド・インシュアランス,NASDAQ,金融(保険),○
@@ -4135,7 +4134,6 @@ VAW,VA MATERIALS,バンガード・米国素材セクターETF,NYSE,その他,�
 VB,VANGUARD SML-CAP,バンガード・スモールキャップETF,NYSE,その他,○
 VBK,VA S-CAP GROWTH,バンガード・米国スモールキャップ・グロースETF,NYSE,その他,○
 VBR,VA S-CAP VALUE,バンガード・米国スモールキャップ・バリューETF,NYSE,その他,○
-VBTX,VERITEX HOLDINGS,ベリテックス・ホールディングス,NASDAQ,金融（銀行）,○
 VCEL,VERICEL CORP,ヴェリセル,NASDAQ,ヘルスケア,○
 VCIT,VA M-TERM CORPBD,バンガード・米国中期社債ETF,NASDAQ,その他,○
 VCLT,VA L-TERM CORPBD,バンガード・米国長期社債ETF,NASDAQ,その他,○
@@ -4475,7 +4473,6 @@ ZEUS,OLYMPIC STEEL,オリンピック・スチール,NASDAQ,その他,○
 ZG,ZILLOW GROUP A,ジロー グループ クラスA,NASDAQ,その他,○
 ZH,ZHIHU INC,チーフー,NYSE,その他,○
 ZIM,ZIM INTGRTD SHIP,ジム・インテグレーテッド・シッピング・サービシズ,NYSE,その他,○
-ZIMV,ZIMVIE INC,ジムヴィー,NASDAQ,医療サービス,○
 ZION,ZIONS BANCORP,ザイオンズ・バンコープ,NASDAQ,金融（銀行）,○
 ZIP,ZIPRECRUITER,ジップリクルーター,NYSE,その他,○
 ZK,ZEEKR INTLI TECH,ジーカー・インテリジェント・テクノロジー・ホールディング,NYSE,自動車,○
