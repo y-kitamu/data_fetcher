@@ -188,7 +188,6 @@ AMAL,AMALGAMATED BANK,アマルガメイテッド・バンク,NASDAQ,金融（�
 AMAT,APPLIED MATERIAL,アプライド　マテリアルズ,NASDAQ,半導体製造,○
 AMBA,AMBARELLA INC.,アンバレラ,NASDAQ,半導体製造,○
 AMBC,AMBAC FINANCIAL,アンバック・フィナンシャル・グループ,NYSE,金融(保険),○
-AMBI,AMBIPAR EMG RPS,アンビパー・エマージェンシー・レスポンス,NYSE,その他,○
 AMBP,ARDAGH METAL PAC,アルダ・メタル・パッケージング,NYSE,その他製造,○
 AMBR,AMBER INTER HD,アンバー・インターナショナル・ホールディング,NASDAQ,ソフトウェア・サービス,○
 AMC,AMC ENTERTAINMNT,AMCエンターテインメント・ホールディングス,NYSE,エンターテイメント,○
@@ -3080,7 +3079,6 @@ PHG,RL PHILIPS ADR,ロイヤルフィリップス,NYSE,その他製造,○
 PHI,PLDT INC,PLDT,NYSE,通信サービス,○
 PHIN,PHINI INC,フィニ,NYSE,その他製造,○
 PHIO,PHIO PHARMA,フィオ・ファーマシューティカルズ,NASDAQ,医薬品（バイオテクノロジー）,○
-PHLT,PERFORMANT HELTH,パフォーマント・ヘルスケア,NASDAQ,ソフトウェア・サービス,○
 PHM,PULTEGROUP INC,プルトグループ,NYSE,その他製造,○
 PHR,PHREESIA INC,フリージア,NYSE,ソフトウェア・サービス,○
 PHUN,PHUNWARE INC,ファンウェア,NASDAQ,ソフトウェア・サービス,○
@@ -4201,7 +4199,7 @@ VMC,VULCAN MATERIALS,ヴァルカン・マテリアルズ,NYSE,その他,○
 VMD,VIEMED HEALTHCR,ビームド・ヘルスケア,NASDAQ,ヘルスケア,○
 VMEO,VIMEO HOLDINGS,ヴィメオ,NASDAQ,エンターテイメント,○
 VMI,VALMONT INDUST,バルモント・インダストリーズ,NYSE,その他製造,○
-VNCE,VINCE CORP,ヴィンス,NYSE,その他,○
+VNCE,VINCE CORP,ヴィンス,NASDAQ,その他,○
 VNDA,VANDA PHARMA,バンダ・ファーマシューティカルズ,NASDAQ,医薬品（バイオテクノロジー）,○
 VNET,VNET GROUP,VNETグループ,NASDAQ,ネットワーク,○
 VNM,V VIETNAM,ヴァンエック・ベトナムETF,Cboe,その他,○
