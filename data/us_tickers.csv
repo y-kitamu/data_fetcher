@@ -188,6 +188,7 @@ AMAL,AMALGAMATED BANK,アマルガメイテッド・バンク,NASDAQ,金融（�
 AMAT,APPLIED MATERIAL,アプライド　マテリアルズ,NASDAQ,半導体製造,○
 AMBA,AMBARELLA INC.,アンバレラ,NASDAQ,半導体製造,○
 AMBC,AMBAC FINANCIAL,アンバック・フィナンシャル・グループ,NYSE,金融(保険),○
+AMBI,AMBIPAR EMG RPS,アンビパー・エマージェンシー・レスポンス,NYSE,その他,○
 AMBP,ARDAGH METAL PAC,アルダ・メタル・パッケージング,NYSE,その他製造,○
 AMBR,AMBER INTER HD,アンバー・インターナショナル・ホールディング,NASDAQ,ソフトウェア・サービス,○
 AMC,AMC ENTERTAINMNT,AMCエンターテインメント・ホールディングス,NYSE,エンターテイメント,○
@@ -2559,7 +2560,6 @@ MLCO,MELCO RESORTS,メルコ・リゾーツ・エンターテイメント,NASDAQ
 MLI,MUELLER INDUST,ミューラー・インダストリーズ,NYSE,その他製造,○
 MLKN,MILLERKNOLL,ミラーノル,NASDAQ,その他製造,○
 MLM,MARTIN MARIETTA,マーチン・マリエッタ・マテリアルズ,NYSE,その他,○
-MLNK,MERIDIANLINK INC,メリディアンリンク,NYSE,ソフトウェア・サービス,○
 MLP,MAUI LAND PINE,マウイ・ランド＆パイナップル,NYSE,その他,○
 MLPA,GLOBAL X MLP ETF,グローバルX MLP ETF,NYSE,その他,○
 MLR,MILLER INDSTRIES,ミラー・インダストリーズ,NYSE,自動車,○
@@ -4315,7 +4315,6 @@ WF,WOORI FINANCIAL,ウリ・ファイナンシャル・グループ,NYSE,金融�
 WFC,WELLS FARGO,ウェルズ・ファーゴ,NYSE,金融（銀行）,○
 WFCF,WHERE FOOD CO FR,ホウェア・フード・カムズ・フロム,NASDAQ,ソフトウェア・サービス,○
 WFG,WEST FRASER TMBR,ウェスト・フレーザー・ティンバー,NYSE,専門店,○
-WFH,DRX WORK FR HOME,Direxion ワーク・フロム・ホーム ETF,NYSE,その他,○
 WFRD,WEATHERFORD INTL,ウェザーフォード・インターナショナル,NASDAQ,石油,○
 WGO,WINNEBAGO INDUST,ウィニベーゴ・インダストリーズ,NYSE,その他製造,○
 WGS,GENEDX HOLDINGS,GENEDXホールディングス,NASDAQ,医薬品（バイオテクノロジー）,○
