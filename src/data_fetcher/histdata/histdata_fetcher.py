@@ -18,7 +18,6 @@ from ..session import get_session
 
 
 class HistDataFetcher(BaseFetcher):
-
     def __init__(self, data_dir: Path = PROJECT_ROOT / "data" / "histdata" / "tick"):
         self.data_dir = data_dir
         self.session = get_session()
@@ -67,48 +66,49 @@ class HistDataFetcher(BaseFetcher):
     def get_gz_filestem(self, ticker: str, year: int, month: int) -> str:
         return f"{ticker}_{year}_{month:02d}.csv.gz"
 
+    def download(self, ticker, date, work_dir: Path):
+        output_dir = self.data_dir / f"{date.year}{date.month:02d}"
+        output_dir.mkdir(parents=True, exist_ok=True)
+        gz_path = output_dir / self.get_gz_filestem(ticker, date.year, date.month)
+        if gz_path.exists():
+            # date -= datetime.timedelta(days=30)
+            # continue
+            return True
+
+        try:
+            output_path = Path(
+                dl(
+                    year=str(date.year),
+                    month=str(date.month),
+                    pair=ticker,
+                    platform=P.GENERIC_ASCII,
+                    time_frame=TF.TICK_DATA,
+                    output_directory=work_dir.as_posix(),
+                )
+            )
+            extract_dir = output_path.parent / output_path.stem
+            shutil.unpack_archive(output_path, extract_dir=extract_dir)
+            csv_path = extract_dir / (extract_dir.name + ".csv")
+        except Exception as e:
+            print(e)
+            return False
+
+        with open(csv_path, "rb") as f_in:
+            with gzip.open(gz_path, "wb") as f_out:
+                shutil.copyfileobj(f_in, f_out)
+
+        # Remove the original csv file
+        output_path.unlink()
+        shutil.rmtree(extract_dir)
+        return True
+
     def download_all(self):
         work_dir = self.data_dir / "work"
         work_dir.mkdir(parents=True, exist_ok=True)
 
         for ticker in self.available_tickers:
             date = datetime.date.today() - datetime.timedelta(days=31)
-            while True:
-                output_dir = self.data_dir / f"{date.year}{date.month:02d}"
-                output_dir.mkdir(parents=True, exist_ok=True)
-                gz_path = output_dir / self.get_gz_filestem(
-                    ticker, date.year, date.month
-                )
-                if gz_path.exists():
-                    date -= datetime.timedelta(days=30)
-                    continue
-
-                try:
-                    output_path = Path(
-                        dl(
-                            year=str(date.year),
-                            month=str(date.month),
-                            pair=ticker,
-                            platform=P.GENERIC_ASCII,
-                            time_frame=TF.TICK_DATA,
-                            output_directory=work_dir.as_posix(),
-                        )
-                    )
-                    extract_dir = output_path.parent / output_path.stem
-                    shutil.unpack_archive(output_path, extract_dir=extract_dir)
-                    csv_path = extract_dir / (extract_dir.name + ".csv")
-                except Exception as e:
-                    print(e)
-                    break
-
-                with open(csv_path, "rb") as f_in:
-                    with gzip.open(gz_path, "wb") as f_out:
-                        shutil.copyfileobj(f_in, f_out)
-
-                # Remove the original csv file
-                output_path.unlink()
-                shutil.rmtree(extract_dir)
-
+            while self.download(ticker, date, work_dir):
                 date -= datetime.timedelta(days=30)
 
     def fetch_ticker(

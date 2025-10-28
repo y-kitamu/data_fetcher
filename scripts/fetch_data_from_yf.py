@@ -5,8 +5,10 @@ yahoo finance apiを使用してデータを取得する
 import datetime
 from pathlib import Path
 
+import polars as pl
 import yfinance as yf
 from loguru import logger
+from tqdm import tqdm
 
 import data_fetcher
 
