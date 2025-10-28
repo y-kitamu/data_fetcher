@@ -842,7 +842,7 @@
         "Net Income": 106000000.0,
         "Minority Interests": -1000000.0,
         "Net Income Including Noncontrolling Interests": 107000000.0,
-        "Net Income Discontinuous Operations": NaN,
+        "Net Income Discontinuous Operations": 1000000.0,
         "Net Income Continuous Operations": 106000000.0,
         "Tax Provision": 40000000.0,
         "Pretax Income": 146000000.0,
@@ -1008,7 +1008,7 @@
     },
     "2025-06-30": {
         "Tax Effect Of Unusual Items": 0.0,
-        "Tax Rate For Calcs": 0.268966,
+        "Tax Rate For Calcs": 0.27,
         "Normalized EBITDA": 231000000.0,
         "Total Unusual Items": NaN,
         "Total Unusual Items Excluding Goodwill": NaN,
