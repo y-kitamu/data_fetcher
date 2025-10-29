@@ -224,6 +224,7 @@ AMUU,DRX AMD BL2X,Direxion デ イ リー AMD ブル 2倍 ETF,NASDAQ,その他,�
 AMWD,AMERICAN WOODMRK,アメリカン・ウッドマーク,NASDAQ,その他製造,○
 AMWL,AMERICAN WELL CO,アメリカン・ウェル,NYSE,ヘルスケア,○
 AMX,AMERICA MOVILB,アメリカ・モービル（ADR Sr.B）,NYSE,通信サービス,○
+AMYY,GNS YLDBST AMD,グラナイトシェアーズ イールドブースト AMD ETF,NASDAQ,その他,○
 AMZD,DRX AMZN BR1X,Direxion デイリーAMZN株 ベア 1 倍 ETF,NASDAQ,その他,○
 AMZN,AMAZON.COM INC,アマゾン・ドット・コム,NASDAQ,小売,○
 AMZU,DRX AMZN BL2X,Direxion デイリー AMZN ブル2倍株式,NASDAQ,その他,○
@@ -409,6 +410,7 @@ AYTU,AYTU BIOPHARMA,アイトゥ・バイオファーマ,NASDAQ,医薬品,○
 AZN,ASTRAZENECA ADR,アストラゼネカ,NASDAQ,医薬品,○
 AZO,AUTOZONE INC,オートゾーン,NYSE,小売,○
 AZTA,AZENTA INC,アゼンタ,NASDAQ,半導体製造,○
+AZYY,GNS YLDBST AMZN,グラナイトシェアーズ イールドブースト AMZN ETF,NASDAQ,その他,○
 AZZ,AZZ INC,AZZ,NYSE,その他製造,○
 B,BARRICK MINING,バリック・マイニング,NYSE,その他,○
 BA,BOEING CO,ボーイング,NYSE,航空機・宇宙,○
@@ -1316,7 +1318,6 @@ ENTA,ENANTA PHARMA,エナンタ・ファーマシューティカルズ,NASDAQ,�
 ENTG,ENTEGRIS INC,インテグリス,NASDAQ,半導体製造,○
 ENTX,ENTERA BIO LTD,エンテラ・バイオ,NASDAQ,医薬品（バイオテクノロジー）,○
 ENVA,ENOVA INTL,エノバ・インターナショナル,NYSE,金融（銀行）,○
-ENVB,ENVERIC BIOSCIEN,エンベリック・バイオサイエンシズ,NASDAQ,医薬品（バイオテクノロジー）,○
 ENVX,ENOVIX CORP,エノビックス,NASDAQ,その他製造,○
 EOG,EOG RESOURCES,EOGリソーシズ,NYSE,石油,○
 EOLS,EVOLUS INC,エボラス,NASDAQ,ヘルスケア,○
@@ -1938,6 +1939,7 @@ HYLN,HYLIION HOLDINGS,ハイリオン・ホールディングス,NYSE,その他�
 HYLS,FT TACTCL HYIELD,ファーストトラスト タクティカル ハイイールドETF,NASDAQ,その他,○
 HYMC,HYCROFT MINING,ハイクロフト・マイニング・ホールディング,NASDAQ,その他,○
 HYPD,HYPERION DEFI,ハイペリオン DeFi,NASDAQ,医薬品（バイオテクノロジー）,○
+HYTI,FT VST H YLD TRG,FT Vest ハイイールド債＆ターゲットインカムETF,NYSE,その他,○
 HYZD,WM IR HEDGED HYB,ウィズダムツリー 米国ハイイールド社債ファンド（金利ヘッジ型）,NASDAQ,その他,○
 HZO,MARINEMAX INC,マリンマックス,NYSE,小売,○
 IAC,IAC INC,IACインコーポレーティッド,NASDAQ,その他,○
@@ -2226,6 +2228,7 @@ KLXE,KLX ENE SRVCS HD,KLXエナジー・サービシズ・ホールディング�
 KMB,KIMBERLY CLARK,キンバリークラーク,NASDAQ,トイレタリー,○
 KMDA,KAMADA LTD,カマダ,NASDAQ,医薬品（バイオテクノロジー）,○
 KMI,KINDER MORGAN,キンダーモルガン,NYSE,ガス・パイプライン,○
+KMLI,KRS 2X LONG MELI,KraneShares 2x ロング MELI デイリー ETF,NASDAQ,その他,○
 KMPR,KEMPER CORP,ケンパー,NYSE,金融(保険),○
 KMT,KENNAMETAL INC,ケナメタル,NYSE,その他製造,○
 KMTS,KESTRA MEDICAL,ケストラ・メディカル・テクノロジーズ,NASDAQ,医療サービス,○
@@ -2242,6 +2245,7 @@ KO,COCA COLA CO.,コカ・コーラ,NYSE,飲料,○
 KOD,KODIAK SCIENCES,コディアック・サイエンシズ,NASDAQ,医薬品,○
 KODK,EASTMAN KODAK CO,イーストマン・コダック,NYSE,その他製造,○
 KOF,COCA-COLA FEMSA,コカ・コーラ・フェムサ,NYSE,飲料,○
+KOID,KRS GL HUMANOID,KraneShares グローバル・ヒューマノイド及びエンボディド・インテリジェンス・インデックス ETF,NASDAQ,その他,○
 KOMP,SPDR SP NW ECO,SPDR S&P Kenshoニュー・エコノミー・コンポジットETF,NYSE,その他,○
 KOP,KOPPERS HOLDINGS,コパーズ・ホールディングス,NYSE,化学,○
 KOPN,KOPIN CORP,コピン,NASDAQ,その他製造,○
@@ -2403,6 +2407,7 @@ LPX,LOUISIANA-PACIFC,ルイジアナ・パシフィック,NYSE,その他製造,�
 LQD,ISHARES GRADE,iシェアーズ iBoxx 米ドル建て投資適格社債 ETF,NYSE,その他,○
 LQDA,LIQUIDIA TECHNOL,リキディア・テクノロジーズ,NASDAQ,医薬品（バイオテクノロジー）,○
 LQDT,LIQUIDITY SERVIC,リクイディティ・サービシズ,NASDAQ,ソフトウェア・サービス,○
+LQTI,FT VST IG INCOME,FT Vest 投資適格債＆ターゲットインカムETF,NYSE,その他,○
 LRCX,LAM RESEARCH CO,ラムリサーチ,NASDAQ,半導体製造,○
 LRMR,LARIMAR THERAPEU,ラリマー・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 LRN,STRIDE INC,ストライド,NYSE,ソフトウェア・サービス,○
@@ -2416,6 +2421,7 @@ LTBR,LIGHTBRIDGE CORP,ライトブリッジ,NASDAQ,その他,○
 LTH,LIFE TIME GP HLD,ライフ・タイム・グループ・ホールディングス,NYSE,ヘルスケア,○
 LTRN,LANTERN PHARMA,ランタン・ファーマ,NASDAQ,医薬品（バイオテクノロジー）,○
 LTRX,LANTRONIX INC,ラントロニクス,NASDAQ,ネットワーク,○
+LTTI,FT VST 20Y TR,FT Vest 20年超米国債＆ターゲットインカムETF,NYSE,その他,○
 LU,LUFAX HOLDING,ルファクス,NYSE,ソフトウェア・サービス,○
 LUCD,LUCID DIAGNOSTIC,ルーシッド・ダイアグノスティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 LUCK,LUCKY STRIKE ET,ラッキー・ストライク・エンターテイメント,NYSE,エンターテイメント,○
@@ -2600,6 +2606,7 @@ MP,MP MATERIALS,MPマテリアルズ,NYSE,その他,○
 MPAA,MOTORCAR PRT AMR,モーターカー・パーツ・オブ・アメリカ,NASDAQ,自動車,○
 MPB,MID PENN BANCORP,ミッド・ペン・バンコープ,NASDAQ,金融（銀行）,○
 MPC,MARATHON PETRO,マラソン・ペトロリアム,NYSE,石油,○
+MPLT,MAPLIGHT THERAPE,マップライト・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 MPTI,M-TRON INDST,Mトロン・インダストリーズ,NYSE,その他製造,○
 MPU,MEGA MATRIX INC,メガ・マトリックス・インク,NYSE,ソフトウェア・サービス,○
 MPWR,MONOLITHIC POWER,モノリシック・パワー・システムズ,NASDAQ,半導体,○
@@ -2660,6 +2667,7 @@ MTUS,METALLUS INC,メタルス,NYSE,その他製造,○
 MTVA,METAVIA INC,メタビア,NASDAQ,医薬品（バイオテクノロジー）,○
 MTW,MANITOWOC,マニトウォック,NYSE,機械,○
 MTX,MINERALS TECHNO,ミネラルズ・テクノロジーズ,NYSE,化学,○
+MTYY,GNS YLDBST MSTR,グラナイトシェアーズ イールドブースト MSTR ETF,NASDAQ,その他,○
 MTZ,MASTEC INC,マステック,NYSE,その他,○
 MU,MICRON TECH,マイクロン　テクノロジー,NASDAQ,半導体,○
 MUD,DRX MU BR1X,Direxion デイリー MU 株 ベア 1 倍 ETF,NASDAQ,その他,○
@@ -3116,6 +3124,7 @@ PLUR,PLURI INC,プルリ,NASDAQ,医薬品（バイオテクノロジー）,○
 PLUS,EPLUS INC,eプラス,NASDAQ,ソフトウェア・サービス,○
 PLX,PROTALIX BIOTHER,プロタリックス・バイオセラピューティクス,NYSE,医薬品（バイオテクノロジー）,○
 PLXS,PLEXUS CORP,プレクサス,NASDAQ,その他製造,○
+PLYY,GNS YLDBST PLTR,グラナイトシェアーズ イールドブースト PLTR ETF,NASDAQ,その他,○
 PM,PHILIP MORRIS,フィリップ　モリス　インターナショナル,NYSE,食品・タバコ,○
 PMCB,PHARMACYTE BIO,ファーマサイト・バイオテック,NASDAQ,医薬品（バイオテクノロジー）,○
 PMNT,PERFECT MOMENT,パーフェクト・モーメント,NYSE,小売,○
@@ -3838,6 +3847,7 @@ TDIV,FT NQ TECH DIV,ファーストトラスト ナスダック テクノロジ�
 TDOC,TELADOC HEALTH,テラドック・ヘルス,NYSE,ヘルスケア,○
 TDS,TEL DATA SYSTEMS,テレフォン・アンド・データ・システムズ,NYSE,通信サービス,○
 TDUP,THREDUP INC,スレッドアップ,NASDAQ,小売,○
+TDVI,FT VST TECH DIV,FT Vest テクノロジー配当ターゲットインカムETF,Cboe,その他,○
 TDW,TIDEWATER INC,タイドウォーター,NYSE,石油,○
 TDY,TELEDYNE TECH,テレダイン・テクノロジーズ,NYSE,通信機器,○
 TE,T1 ENERGY INC,T1エナジー,NYSE,その他製造,○
@@ -3957,7 +3967,6 @@ TRIP,TRIPADVISOR INC.,トリップアドバイザー,NASDAQ,ソフトウェア�
 TRMB,TRIMBLE INC,トリンブル,NASDAQ,通信機器,○
 TRMD,TORM PLC,トーム,NASDAQ,運輸,○
 TRMK,TRUSTMARK CORP,トラストマーク,NASDAQ,金融コングロマリット,○
-TRML,TOURMALINE BIO,トルマリン・バイオ,NASDAQ,医薬品（バイオテクノロジー）,○
 TRN,TRINITY INDSTRIE,トリニティ・インダストリーズ,NYSE,その他製造,○
 TRNS,TRANSCAT INC,トランスキャット,NASDAQ,その他製造,○
 TROO,TROOPS INC,トゥループス,NASDAQ,その他製造,○
@@ -4294,6 +4303,8 @@ WBI,WATERBRIDGE INFR,ウォーターブリッジ・インフラストラクチ�
 WBS,WEBSTER FINANCIA,ウェブスター・ファイナンシャル,NYSE,金融（銀行）,○
 WBTN,WEBTOON ENTRTAIN,ウェブトゥーン・エンターテインメント,NASDAQ,エンターテイメント,○
 WCC,WESCO INTERNATIO,ウェスコ・インターナショナル,NYSE,機械,○
+WCME,FT WCM DVLP W EQ,ファーストトラスト WCM 新興国株式ETF,NYSE,その他,○
+WCMI,FT WCM INTL EQ,ファーストトラスト？WCM インターナショナル株式ETF,NYSE,その他,○
 WCN,WASTE CONNECTION,ウエイスト・コネクションズ,NYSE,その他,○
 WD,WALKER & DUNLOP,ウォーカー・ダンロップ,NYSE,金融（銀行）,○
 WDAY,WORKDAY INC,ワークデイ,NASDAQ,ソフトウェア・サービス,○
