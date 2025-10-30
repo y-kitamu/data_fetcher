@@ -380,18 +380,7 @@ class BinanceFetcher(BaseFetcher):
 
 
 if __name__ == "__main__":
-    import pdb
-    import sys
-    import traceback
-
-    def run_debug(func, *args, **kwargs):
-        """エラーが発生したときにpdbを起動する"""
-        try:
-            return func(*args, **kwargs)
-        except:
-            extype, value, tb = sys.exc_info()
-            traceback.print_exc()
-            pdb.post_mortem(tb)
+    from ..debug import run_debug
 
     fetcher = BinanceFetcher()
     run_debug(fetcher.download_all_trades)

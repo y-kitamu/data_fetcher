@@ -89,7 +89,7 @@ def collect_all(
 
     with open(output_file, "r") as f:
         reader = csv.reader(f)
-        header = next(reader)
+        _ = next(reader)  # Skip header
         datas = [row for row in reader]
 
     tickers = get_jp_ticker_list()
