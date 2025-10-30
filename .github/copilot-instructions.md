@@ -64,7 +64,7 @@ Changes must be compatible with this CI setup.
 
 ## Key Patterns & Architecture
 
-**Fetcher Pattern:** All fetchers inherit `BaseFetcher`. Factory in `fetcher.py`: `get_fetcher(source)` returns fetchers for gmo, binance, histdata, kabutan.
+**Fetcher Pattern:** All fetchers inherit `BaseFetcher`. Factory in `fetcher.py`: `get_fetcher(source)` returns fetchers for binance, gmo, histdata, kabutan, tdnet, edinet, sbi, rakuten, yfinance, etc.
 
 **Sessions:** `session.py` provides rate-limited cached HTTP sessions via `get_session(max_requests_per_second=10)`. Cache at `PROJECT_ROOT/cache/requests.cache`.
 
