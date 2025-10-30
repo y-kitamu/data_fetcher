@@ -6,6 +6,7 @@ import zipfile
 from io import BytesIO
 
 import requests
+from loguru import logger
 from requests.exceptions import Timeout
 
 api_key = "c528ad6f91db40468bf86c3f080daaff"
@@ -26,8 +27,8 @@ def get_document_list(target_date: datetime.date, session: requests.Session):
     try:
         res = session.get(url, timeout=timeout)
     except Timeout:
-        print("Failed to get document list from the Edinet. Retry.")
-        return get_document_list(target_date)
+        logger.warning("Failed to get document list from the Edinet. Retry.")
+        return get_document_list(target_date, session)
 
     return res.json()
 
@@ -44,11 +45,11 @@ def get_document(doc_id: str, session: requests.Session):
             res = session.get(url, timeout=timeout)
             break
         except Timeout:
-            print(f"Failed to get a document of the id : {doc_id}. Retry.")
+            logger.warning(f"Failed to get a document of the id : {doc_id}. Retry.")
             time.sleep(2)
             # return get_document(doc_id)
     else:
-        print(f"Failed to get a document of the id : {doc_id} after 3 retries.")
+        logger.error(f"Failed to get a document of the id : {doc_id} after 3 retries.")
         return []
 
     # zipファイルからcsvを抜き出す
