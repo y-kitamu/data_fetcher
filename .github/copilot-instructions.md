@@ -46,7 +46,7 @@ Do not add other linters unless requested.
   - `fetcher.py` - Factory: get_fetcher(source)
   - `base_fetcher.py` - Base class for all fetchers
   - `session.py` - Rate-limited HTTP sessions (requests_ratelimiter + requests_cache)
-- `scripts/` - 29+ scripts: update_financial_data*.py, fetch_data_from_*.py, cron_*.sh (note: cron scripts use `uv` and hardcoded paths)
+- `scripts/` - Multiple scripts for data updates: update_financial_data*.py, fetch_data_from_*.py, cron_*.sh (note: cron scripts use `uv` and hardcoded paths)
 - `data/` - Fetched data (mostly gitignored: minutes/, tick/, raw/, download/)
 - `docker/` - docker-compose.yml for Selenium Chrome (ports 4444, 7900)
 
