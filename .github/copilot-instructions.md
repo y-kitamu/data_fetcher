@@ -29,7 +29,18 @@ Do not add other linters unless requested.
 ## Project Structure
 
 ### Key Directories
-- `src/data_fetcher/` - Main package with fetcher modules (binance, gmo, histdata, kabutan, tdnet, edinet, sbi, rakuten, yfinance, etc.)
+- `src/data_fetcher/` - Main package with fetcher modules:
+  - **Fetcher modules:**
+    - `binance`
+    - `gmo`
+    - `histdata`
+    - `kabutan`
+    - `tdnet`
+    - `edinet`
+    - `sbi`
+    - `rakuten`
+    - `yfinance`
+    - *(etc. - ensure this matches the actual codebase)*
   - `__init__.py` - Logger setup (uses loguru with custom format)
   - `constants.py` - PROJECT_ROOT, ticker paths
   - `fetcher.py` - Factory: get_fetcher(source)
