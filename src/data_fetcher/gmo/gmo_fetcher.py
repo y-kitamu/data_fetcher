@@ -106,7 +106,7 @@ class GMOFetcher(BaseFetcher):
         response = self.session.get(self._API_ENDPOINT + path)
         if response.status_code != 200:
             logger.warning(
-                f"Failed to download data: {response.status_code} - {self._API_ENDPOINT + path}"
+                f"Failed to download data: {response.status_code} - {self._API_ENDPOINT}{path}"
             )
             logger.debug(f"Response content: {response.content}")
             return pl.DataFrame()
