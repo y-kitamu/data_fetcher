@@ -65,7 +65,6 @@ ADI,ANALOG DEVICES,アナログ・デバイセズ,NASDAQ,半導体,○
 ADIL,ADIAL PHARMACEU,エーダイヤル・ファーマシューティカルズ,NASDAQ,医薬品（バイオテクノロジー）,○
 ADM,ARCHER DANIELS,アーチャー・ダニエルズ・ミッドランド,NYSE,食品,○
 ADMA,ADMA BIOLOGICS,ADMAバイオロジックス,NASDAQ,医薬品（バイオテクノロジー）,○
-ADN,ADVENT TECHNO HD,アドベント・テクノロジーズ・ホールディングス,NASDAQ,電力,○
 ADNT,ADIENT LTD,アディエント,NYSE,その他製造,○
 ADP,AUTOMATIC DATA,オートマチック・データ・プロセッシング (ADP),NASDAQ,情報処理サービス,○
 ADPT,ADAPTIVE BIOTECH,アダプティブ・バイオテクノロジーズ,NASDAQ,ヘルスケア,○
@@ -1365,7 +1364,6 @@ ESTC,ELASTIC NV,エラスティック,NYSE,ソフトウェア・サービス,○
 ETD,ETHAN ALLN INTRI,イーサン・アレン・インテリアズ,NYSE,小売,○
 ETHZ,ETHZILLA CORP,イーサジラ,NASDAQ,医薬品（バイオテクノロジー）,○
 ETN,EATON CORP PLC,イートン,NYSE,機械,○
-ETNB,89BIO INC,89バイオ,NASDAQ,医薬品（バイオテクノロジー）,○
 ETON,ETON PHARMACEU,イートン・ファーマスーティカルズ,NASDAQ,医薬品,○
 ETOR,ETORO GROUP,イートロ・グループ,NASDAQ,金融コングロマリット,○
 ETR,ENTERGY CORP,エンタージ,NYSE,その他製造,○
@@ -2007,7 +2005,6 @@ ILDR,FT INV LEADR ETF,ファーストトラスト イノベーションリーダ
 ILF,ISHARES LATIN 40,iシェアーズ ラテンアメリカ 40 ETF,NYSE,その他,○
 ILMN,ILLUMINA INC,イルミナ,NASDAQ,医薬品（バイオテクノロジー）,○
 IMA,IMAGENEBIO INC,イマジンバイオ,NASDAQ,医薬品（バイオテクノロジー）,○
-IMAB,I-MAB,アイ・マブ,NASDAQ,医薬品（バイオテクノロジー）,○
 IMAX,IMAX CORPORATION,アイマックス,NYSE,エンターテイメント,○
 IMCR,IMMUNOCORE HOLD,イムノコア・ホールディングス,NASDAQ,医薬品（バイオテクノロジー）,○
 IMDX,INSIGHT MOLECULR,インサイト・モレキュラー・ダイアグノスティクス,NASDAQ,医薬品（バイオテクノロジー）,○
@@ -2711,6 +2708,7 @@ NBHC,NATIONAL BANK,ナショナル・バンク・ホールディングス,NYSE,�
 NBIS,NEBIUS GROUP NV,ネビウス・グループ,NASDAQ,情報処理サービス,○
 NBIX,NEUROCRINE BIO,ニューロクライン・バイオサイエンシス,NASDAQ,医薬品,○
 NBN,NORTHEAST BANK,ノースイースト・バンク,NASDAQ,金融（銀行）,○
+NBP,NOVABRIDGE BIO,ノヴァブリッジ・バイオサイエンシズ,NASDAQ,医薬品（バイオテクノロジー）,○
 NBR,NABORS INDUSTRIE,ネイバーズ・インダストリーズ,NYSE,石油,○
 NBTB,NBT BANCORP INC,NBTバンコープ,NASDAQ,金融（銀行）,○
 NC,NACCO INDUSTRIES,ナッコ・インダストリーズ,NYSE,その他,○
@@ -2891,7 +2889,6 @@ OBT,ORANGE COUN BAN,オレンジ・カウンティ・バンコープ,NASDAQ,金�
 OC,OWENS CORNING,オーウェンス・コーニング,NYSE,その他製造,○
 OCC,OPTICAL CABLE,オプティカル・ケーブル,NASDAQ,通信サービス,○
 OCFC,OCEANFIRST FINCL,オーシャンファースト・ファイナンシャル,NASDAQ,金融（銀行）,○
-OCFT,ONECNCT FIN TECH,ワンコネクト・フィナンシャル・テクノロジー,NYSE,ソフトウェア・サービス,○
 OCG,ORIENTAL CULTURE,オリエンタル・カルチャー・ホールディングス,NASDAQ,ソフトウェア・サービス,○
 OCGN,OCUGEN INC,オキュゲン,NASDAQ,医薬品,○
 OCS,OCULIS HOLDING,オキュリス・ホールディング,NASDAQ,医薬品（バイオテクノロジー）,○
