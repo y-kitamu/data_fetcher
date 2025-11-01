@@ -9,6 +9,7 @@ from typing import override
 
 import polars as pl
 from dateutil.relativedelta import relativedelta
+from loguru import logger
 
 from ..base_fetcher import BaseFetcher
 from ..constants import PROJECT_ROOT
@@ -175,8 +176,8 @@ class BinanceFetcher(BaseFetcher):
                     if len(df) == 0:
                         break
                     date -= relativedelta(days=1)
-                    print(output_path)
-            print(ticker)
+                    logger.debug(f"Downloaded: {output_path}")
+            logger.info(f"Completed downloading trades for {ticker}")
 
     def download_all_klines(self):
         # for data_type in self._DATATYPE_HEADERS.keys():
@@ -286,7 +287,9 @@ class BinanceFetcher(BaseFetcher):
         if overwrite or not output_path.exists():
             response = self.session.get(target_url)
             if response.status_code != 200:
-                print(response.status_code, ticker, date, target_url)
+                logger.warning(
+                    f"Failed to download: {response.status_code} - {ticker} {date} - {target_url}"
+                )
                 return pl.DataFrame()
             zip_to_gz(
                 response.content,
@@ -380,18 +383,7 @@ class BinanceFetcher(BaseFetcher):
 
 
 if __name__ == "__main__":
-    import pdb
-    import sys
-    import traceback
-
-    def run_debug(func, *args, **kwargs):
-        """エラーが発生したときにpdbを起動する"""
-        try:
-            return func(*args, **kwargs)
-        except:
-            extype, value, tb = sys.exc_info()
-            traceback.print_exc()
-            pdb.post_mortem(tb)
+    from ..debug import run_debug
 
     fetcher = BinanceFetcher()
     run_debug(fetcher.download_all_trades)

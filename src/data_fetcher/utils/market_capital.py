@@ -3,6 +3,7 @@
 import datetime
 
 import polars as pl
+from loguru import logger
 
 from ..constants import PROJECT_ROOT
 from ..kabutan.kabutan_fetcher import KabutanFetcher
@@ -21,7 +22,7 @@ def get_market_capital(
     """
     csv_file = PROJECT_ROOT / f"data/tdnet/csv/{ticker}.csv"
     if not csv_file.exists():
-        print(f"TDNet csv file for {ticker} does not exist.")
+        logger.warning(f"TDNet csv file for {ticker} does not exist.")
         return None
     dfs = preprocess_csv(csv_file)
     filtered_df = (
@@ -30,7 +31,7 @@ def get_market_capital(
         .sort(pl.col("filing_date"))
     )
     if len(filtered_df) == 0:
-        print("No valid data in", csv_file)
+        logger.warning(f"No valid data in {csv_file}")
         return None
     number_of_shares = filtered_df["number_of_shares"][-1]
 
@@ -42,11 +43,11 @@ def get_market_capital(
             start_date=current_date - datetime.timedelta(days=30),
         )
     except FileNotFoundError:
-        print(f"Data for {symbol} not found.")
+        logger.warning(f"Data for {symbol} not found.")
         return None
 
     if len(df) == 0:
-        print(f"No OHLC data for {symbol}.")
+        logger.warning(f"No OHLC data for {symbol}.")
         return None
 
     return df["close"][-1] * number_of_shares

@@ -24,7 +24,7 @@ def notify_to_line(message):
     res = requests.post(LINE_ENDPOINT, headers=headers, data=data)
 
     if res.status_code == 200:
-        ("Message sent successfully!")
+        logger.debug("Message sent successfully!")
     else:
         logger.debug("header: {}".format(headers))
         logger.debug("data : {}".format(data))

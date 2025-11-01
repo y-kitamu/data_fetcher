@@ -10,7 +10,7 @@ from requests_ratelimiter import LimiterMixin, MemoryQueueBucket
 from .constants import PROJECT_ROOT
 
 
-class LimitterSession(LimiterMixin, Session):
+class LimiterSession(LimiterMixin, Session):
     pass
 
 
@@ -23,7 +23,7 @@ def get_session(
     cache_file: Path | None = PROJECT_ROOT / "cache/requests.cache",
 ) -> Session:
     if cache_file is None:
-        return LimitterSession(
+        return LimiterSession(
             limiter=Limiter(RequestRate(max_requests_per_second, Duration.SECOND))
         )
 

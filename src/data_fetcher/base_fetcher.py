@@ -7,7 +7,15 @@ import polars as pl
 from .volume_bar import convert_ticker_to_volume_bar
 
 
-def convert_timedelta_to_str(interval: datetime.timedelta):
+def convert_timedelta_to_str(interval: datetime.timedelta) -> str:
+    """Convert timedelta to string format used by polars.
+    
+    Args:
+        interval: Time interval as timedelta
+        
+    Returns:
+        str: String representation (e.g., "1d2h30m15s")
+    """
     interval_str = ""
     # if interval.weeks > 0:
     #     interval_str += f"{interval.weeks}w"
@@ -26,6 +34,17 @@ def convert_timedelta_to_str(interval: datetime.timedelta):
 
 
 def convert_str_to_timedelta(interval: str) -> datetime.timedelta:
+    """Convert string interval to timedelta.
+    
+    Args:
+        interval: Interval string (e.g., "5m", "1h", "1d")
+        
+    Returns:
+        datetime.timedelta: Timedelta object
+        
+    Raises:
+        ValueError: If interval format is unknown
+    """
     if interval[-1] == "s":
         return datetime.timedelta(seconds=int(interval[:-1]))
     elif interval[-1] == "m":
@@ -42,6 +61,15 @@ def convert_str_to_timedelta(interval: str) -> datetime.timedelta:
 def convert_tick_to_ohlc(
     tick_df: pl.DataFrame, interval: datetime.timedelta
 ) -> pl.DataFrame:
+    """Convert tick data to OHLC bars.
+    
+    Args:
+        tick_df: Tick data with columns: datetime, price, size
+        interval: Time interval for OHLC bars
+        
+    Returns:
+        pl.DataFrame: OHLC data with columns: datetime, open, high, low, close, volume
+    """
     ohlc_df = (
         tick_df.group_by_dynamic(
             pl.col("datetime"), every=convert_timedelta_to_str(interval)
@@ -59,14 +87,40 @@ def convert_tick_to_ohlc(
 
 
 class BaseFetcher:
+    """Base class for all data fetchers.
+    
+    Provides common interface for fetching financial data from various sources.
+    """
+
     @property
     def available_tickers(self) -> list[str]:
+        """Get list of available ticker symbols.
+        
+        Returns:
+            list[str]: List of available ticker symbols
+        """
         raise NotImplementedError
 
     def get_latest_date(self, symbol: str) -> datetime.datetime:
+        """Get the latest available date for a symbol.
+        
+        Args:
+            symbol: Ticker symbol
+            
+        Returns:
+            datetime.datetime: Latest available date
+        """
         raise NotImplementedError
 
     def get_earliest_date(self, symbol: str) -> datetime.datetime:
+        """Get the earliest available date for a symbol.
+        
+        Args:
+            symbol: Ticker symbol
+            
+        Returns:
+            datetime.datetime: Earliest available date
+        """
         raise NotImplementedError
 
     def fetch_ticker(
@@ -76,6 +130,17 @@ class BaseFetcher:
         end_date: datetime.datetime | None = None,
         timezone_delta: datetime.timedelta = datetime.timedelta(hours=9),
     ) -> pl.DataFrame:
+        """Fetch tick data for a symbol.
+        
+        Args:
+            symbol: Ticker symbol
+            start_date: Start date (default: None)
+            end_date: End date (default: None)
+            timezone_delta: Timezone offset (default: 9 hours for JST)
+            
+        Returns:
+            pl.DataFrame: Tick data with columns: symbol, side, price, size, datetime
+        """
         raise NotImplementedError
 
     def fetch_ohlc(
@@ -87,6 +152,19 @@ class BaseFetcher:
         fill_missing_date: bool = False,
         fetch_interval: datetime.timedelta | None = None,
     ) -> pl.DataFrame:
+        """Fetch OHLC (Open, High, Low, Close) data for a symbol.
+        
+        Args:
+            symbol: Ticker symbol
+            interval: Time interval for OHLC bars
+            start_date: Start date (default: None)
+            end_date: End date (default: None)
+            fill_missing_date: Whether to fill missing dates (default: False)
+            fetch_interval: Interval for chunked fetching (default: None)
+            
+        Returns:
+            pl.DataFrame: OHLC data with columns: datetime, open, high, low, close, volume
+        """
         if fetch_interval is None:
             df = self.fetch_ticker(symbol, start_date, end_date)
             if len(df) == 0:
@@ -124,25 +202,76 @@ class BaseFetcher:
         start_date: datetime.datetime | None = None,
         end_date: datetime.datetime | None = None,
     ) -> pl.DataFrame:
+        """Fetch volume bar data for a symbol.
+        
+        Args:
+            symbol: Ticker symbol
+            volume_size: Target volume size for each bar
+            start_date: Start date (default: None)
+            end_date: End date (default: None)
+            
+        Returns:
+            pl.DataFrame: Volume bar data
+        """
         df = self.fetch_ticker(symbol, start_date, end_date)
         return convert_ticker_to_volume_bar(df, volume_size)
 
     def fetch_TIB(
         self, symbol: str, start_date: datetime.datetime, end_date: datetime.datetime
     ) -> pl.DataFrame:
+        """Fetch Time Imbalance Bars (TIB) for a symbol.
+        
+        Args:
+            symbol: Ticker symbol
+            start_date: Start date
+            end_date: End date
+            
+        Returns:
+            pl.DataFrame: TIB data
+        """
         raise NotImplementedError
 
     def fetch_VIB(
         self, symbol: str, start_date: datetime.datetime, end_date: datetime.datetime
     ) -> pl.DataFrame:
+        """Fetch Volume Imbalance Bars (VIB) for a symbol.
+        
+        Args:
+            symbol: Ticker symbol
+            start_date: Start date
+            end_date: End date
+            
+        Returns:
+            pl.DataFrame: VIB data
+        """
         raise NotImplementedError
 
     def fetch_TRB(
         self, symbol: str, start_date: datetime.datetime, end_date: datetime.datetime
     ) -> pl.DataFrame:
+        """Fetch Tick Run Bars (TRB) for a symbol.
+        
+        Args:
+            symbol: Ticker symbol
+            start_date: Start date
+            end_date: End date
+            
+        Returns:
+            pl.DataFrame: TRB data
+        """
         raise NotImplementedError
 
     def fetch_VRB(
         self, symbol: str, start_date: datetime.datetime, end_date: datetime.datetime
     ) -> pl.DataFrame:
+        """Fetch Volume Run Bars (VRB) for a symbol.
+        
+        Args:
+            symbol: Ticker symbol
+            start_date: Start date
+            end_date: End date
+            
+        Returns:
+            pl.DataFrame: VRB data
+        """
         raise NotImplementedError
