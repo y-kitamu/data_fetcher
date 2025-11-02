@@ -3,9 +3,6 @@
 import shutil
 from pathlib import Path
 
-import polars as pl
-
-from ..constants import PROJECT_ROOT
 from . import fetcher
 
 # from . import convert, excel, preprocess
@@ -13,6 +10,15 @@ from .constants import zip_root_dir
 from .document import collect_documents
 from .numeric_data import collect_numeric_data
 from .taxonomy_element import collect_all_taxonomies
+
+__all__ = [
+    "fetcher",
+    "zip_root_dir",
+    "collect_documents",
+    "collect_numeric_data",
+    "collect_all_taxonomies",
+    "get_all_data",
+]
 
 
 def get_all_data(code: str, work_dir: Path):

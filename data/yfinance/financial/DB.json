@@ -442,8 +442,8 @@
         "Other Non Interest Expense": -99000000.0
     },
     "2025-06-30": {
-        "Tax Effect Of Unusual Items": 12600000.0,
-        "Tax Rate For Calcs": 0.28,
+        "Tax Effect Of Unusual Items": 12788104.089219,
+        "Tax Rate For Calcs": 0.28418,
         "Total Unusual Items": 45000000.0,
         "Total Unusual Items Excluding Goodwill": 45000000.0,
         "Net Income From Continuing Operation Net Minority Interest": 1687000000.0,

@@ -1054,7 +1054,7 @@
         "Total Unusual Items Excluding Goodwill": 371000000.0,
         "Net Income From Continuing Operation Net Minority Interest": 851000000.0,
         "Reconciled Depreciation": 1184000000.0,
-        "Reconciled Cost Of Revenue": 10346000000.0,
+        "Reconciled Cost Of Revenue": 9725000000.0,
         "EBITDA": 2354000000.0,
         "EBIT": 1170000000.0,
         "Net Interest Income": -114000000.0,
@@ -1062,11 +1062,11 @@
         "Interest Income": 50000000.0,
         "Normalized Income": 540250984.251969,
         "Net Income From Continuing And Discontinued Operation": 851000000.0,
-        "Total Expenses": 12250000000.0,
-        "Diluted Average Shares": 1819378000.0,
+        "Total Expenses": 11629000000.0,
+        "Diluted Average Shares": NaN,
         "Basic Average Shares": 1810639000.0,
-        "Diluted EPS": 0.45,
-        "Basic EPS": 0.47,
+        "Diluted EPS": NaN,
+        "Basic EPS": NaN,
         "Diluted NI Availto Com Stockholders": 847000000.0,
         "Average Dilution Earnings": NaN,
         "Net Income Common Stockholders": 847000000.0,
@@ -1094,8 +1094,8 @@
         "General And Administrative Expense": 153000000.0,
         "Other Gand A": 153000000.0,
         "Gross Profit": 2594000000.0,
-        "Cost Of Revenue": 10346000000.0,
-        "Total Revenue": 12940000000.0,
-        "Operating Revenue": 12940000000.0
+        "Cost Of Revenue": 9725000000.0,
+        "Total Revenue": 12319000000.0,
+        "Operating Revenue": 12319000000.0
     }
 }

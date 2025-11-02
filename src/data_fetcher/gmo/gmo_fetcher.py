@@ -9,6 +9,7 @@ from typing import override
 
 import polars as pl
 import requests
+from loguru import logger
 from tqdm import tqdm
 
 from ..base_fetcher import BaseFetcher
@@ -72,7 +73,7 @@ class GMOFetcher(BaseFetcher):
             return [row["symbol"] for row in response.json()["data"]]
 
         # apiでの取得に失敗した場合は過去のデータから推定する
-        print("Failed to fetch available tickers. {}".format(response.text))
+        logger.warning("Failed to fetch available tickers. {}".format(response.text))
         tickers = set(
             [f.name[9:].replace(".csv.gz", "") for f in self.data_dir.rglob("*.csv.gz")]
         )
@@ -104,9 +105,10 @@ class GMOFetcher(BaseFetcher):
         )
         response = self.session.get(self._API_ENDPOINT + path)
         if response.status_code != 200:
-            print(response.status_code)
-            print(self._API_ENDPOINT + path)
-            print(response.content)
+            logger.warning(
+                f"Failed to download data: {response.status_code} - {self._API_ENDPOINT}{path}"
+            )
+            logger.debug(f"Response content: {response.content}")
             return pl.DataFrame()
 
         if output_path is not None:
@@ -116,7 +118,7 @@ class GMOFetcher(BaseFetcher):
         try:
             return pl.read_csv(io.BytesIO(response.content))
         except Exception as e:
-            print(e)
+            logger.error(f"Failed to parse CSV: {e}")
             return pl.DataFrame()
 
     @override

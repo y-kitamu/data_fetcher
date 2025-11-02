@@ -941,7 +941,7 @@
         "Diluted Average Shares": 506423588.0,
         "Basic Average Shares": 506423588.0,
         "Diluted EPS": 602.0,
-        "Basic EPS": 602.0,
+        "Basic EPS": NaN,
         "Diluted NI Availto Com Stockholders": 304867000000.0,
         "Net Income Common Stockholders": 304867000000.0,
         "Net Income": 304867000000.0,

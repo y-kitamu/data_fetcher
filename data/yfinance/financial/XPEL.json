@@ -472,7 +472,7 @@
         "Operating Revenue": 90104000.0
     },
     "2024-06-30": {
-        "Tax Effect Of Unusual Items": -51700.0,
+        "Tax Effect Of Unusual Items": -51765.75409,
         "Tax Rate For Calcs": 0.188,
         "Normalized EBITDA": 22099000.0,
         "Total Unusual Items": -275000.0,
@@ -648,7 +648,7 @@
         "Operating Revenue": 103805000.0
     },
     "2025-06-30": {
-        "Tax Effect Of Unusual Items": 210917.0,
+        "Tax Effect Of Unusual Items": 210661.977373,
         "Tax Rate For Calcs": 0.203,
         "Normalized EBITDA": 22394000.0,
         "Total Unusual Items": 1039000.0,

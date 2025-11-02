@@ -11,6 +11,7 @@ import requests
 from histdata import download_hist_data as dl
 from histdata.api import Platform as P
 from histdata.api import TimeFrame as TF
+from loguru import logger
 
 from ..base_fetcher import BaseFetcher
 from ..constants import PROJECT_ROOT
@@ -90,7 +91,7 @@ class HistDataFetcher(BaseFetcher):
             shutil.unpack_archive(output_path, extract_dir=extract_dir)
             csv_path = extract_dir / (extract_dir.name + ".csv")
         except Exception as e:
-            print(e)
+            logger.error(f"Failed to download or extract data: {e}")
             return False
 
         with open(csv_path, "rb") as f_in:

@@ -752,7 +752,7 @@
         "Special Income Charges": NaN,
         "Gain On Sale Of Ppe": NaN,
         "Other Special Charges": 30340000.0,
-        "Restructuring And Mergern Acquisition": 0.0,
+        "Restructuring And Mergern Acquisition": NaN,
         "Gain On Sale Of Security": NaN,
         "Net Non Operating Interest Income Expense": NaN,
         "Total Other Finance Cost": NaN,

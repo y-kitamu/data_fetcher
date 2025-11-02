@@ -6,6 +6,7 @@ import zipfile
 from io import BytesIO
 
 import requests
+from loguru import logger
 from requests.exceptions import Timeout
 
 api_key = "c528ad6f91db40468bf86c3f080daaff"
@@ -14,7 +15,20 @@ endpoint = "https://api.edinet-fsa.go.jp/api/v2/documents.json"
 timeout = 5.0
 
 
-def get_document_list(target_date: datetime.date, session: requests.Session):
+def get_document_list(target_date: datetime.date, session: requests.Session, max_retries: int = 3):
+    """Get document list from EDINET API with retry logic.
+    
+    Args:
+        target_date: Date to fetch documents for
+        session: Requests session to use
+        max_retries: Maximum number of retry attempts (default: 3)
+        
+    Returns:
+        JSON response containing document list
+        
+    Raises:
+        Timeout: If all retry attempts fail
+    """
     params = {
         "date": target_date.strftime("%Y-%m-%d"),
         "type": "2",
@@ -23,13 +37,23 @@ def get_document_list(target_date: datetime.date, session: requests.Session):
     params_txt = "&".join([f"{key}={value}" for key, value in params.items()])
     url = f"{endpoint}?{params_txt}"
 
-    try:
-        res = session.get(url, timeout=timeout)
-    except Timeout:
-        print("Failed to get document list from the Edinet. Retry.")
-        return get_document_list(target_date)
-
-    return res.json()
+    for attempt in range(max_retries):
+        try:
+            res = session.get(url, timeout=timeout)
+            return res.json()
+        except Timeout:
+            if attempt < max_retries - 1:
+                wait_time = 2 ** attempt  # Exponential backoff: 1s, 2s, 4s
+                logger.warning(
+                    f"Failed to get document list from the Edinet. "
+                    f"Retry attempt {attempt + 1}/{max_retries} after {wait_time}s..."
+                )
+                time.sleep(wait_time)
+            else:
+                logger.error(
+                    f"Failed to get document list after {max_retries} attempts"
+                )
+                raise
 
 
 def get_document(doc_id: str, session: requests.Session):
@@ -44,11 +68,11 @@ def get_document(doc_id: str, session: requests.Session):
             res = session.get(url, timeout=timeout)
             break
         except Timeout:
-            print(f"Failed to get a document of the id : {doc_id}. Retry.")
+            logger.warning(f"Failed to get a document of the id : {doc_id}. Retry.")
             time.sleep(2)
             # return get_document(doc_id)
     else:
-        print(f"Failed to get a document of the id : {doc_id} after 3 retries.")
+        logger.error(f"Failed to get a document of the id : {doc_id} after 3 retries.")
         return []
 
     # zipファイルからcsvを抜き出す

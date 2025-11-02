@@ -65,7 +65,6 @@ ADI,ANALOG DEVICES,アナログ・デバイセズ,NASDAQ,半導体,○
 ADIL,ADIAL PHARMACEU,エーダイヤル・ファーマシューティカルズ,NASDAQ,医薬品（バイオテクノロジー）,○
 ADM,ARCHER DANIELS,アーチャー・ダニエルズ・ミッドランド,NYSE,食品,○
 ADMA,ADMA BIOLOGICS,ADMAバイオロジックス,NASDAQ,医薬品（バイオテクノロジー）,○
-ADN,ADVENT TECHNO HD,アドベント・テクノロジーズ・ホールディングス,NASDAQ,電力,○
 ADNT,ADIENT LTD,アディエント,NYSE,その他製造,○
 ADP,AUTOMATIC DATA,オートマチック・データ・プロセッシング (ADP),NASDAQ,情報処理サービス,○
 ADPT,ADAPTIVE BIOTECH,アダプティブ・バイオテクノロジーズ,NASDAQ,ヘルスケア,○
@@ -188,7 +187,6 @@ AMAL,AMALGAMATED BANK,アマルガメイテッド・バンク,NASDAQ,金融（�
 AMAT,APPLIED MATERIAL,アプライド　マテリアルズ,NASDAQ,半導体製造,○
 AMBA,AMBARELLA INC.,アンバレラ,NASDAQ,半導体製造,○
 AMBC,AMBAC FINANCIAL,アンバック・フィナンシャル・グループ,NYSE,金融(保険),○
-AMBI,AMBIPAR EMG RPS,アンビパー・エマージェンシー・レスポンス,NYSE,その他,○
 AMBP,ARDAGH METAL PAC,アルダ・メタル・パッケージング,NYSE,その他製造,○
 AMBR,AMBER INTER HD,アンバー・インターナショナル・ホールディング,NASDAQ,ソフトウェア・サービス,○
 AMC,AMC ENTERTAINMNT,AMCエンターテインメント・ホールディングス,NYSE,エンターテイメント,○
@@ -224,6 +222,7 @@ AMUU,DRX AMD BL2X,Direxion デ イ リー AMD ブル 2倍 ETF,NASDAQ,その他,�
 AMWD,AMERICAN WOODMRK,アメリカン・ウッドマーク,NASDAQ,その他製造,○
 AMWL,AMERICAN WELL CO,アメリカン・ウェル,NYSE,ヘルスケア,○
 AMX,AMERICA MOVILB,アメリカ・モービル（ADR Sr.B）,NYSE,通信サービス,○
+AMYY,GNS YLDBST AMD,グラナイトシェアーズ イールドブースト AMD ETF,NASDAQ,その他,○
 AMZD,DRX AMZN BR1X,Direxion デイリーAMZN株 ベア 1 倍 ETF,NASDAQ,その他,○
 AMZN,AMAZON.COM INC,アマゾン・ドット・コム,NASDAQ,小売,○
 AMZU,DRX AMZN BL2X,Direxion デイリー AMZN ブル2倍株式,NASDAQ,その他,○
@@ -409,6 +408,7 @@ AYTU,AYTU BIOPHARMA,アイトゥ・バイオファーマ,NASDAQ,医薬品,○
 AZN,ASTRAZENECA ADR,アストラゼネカ,NASDAQ,医薬品,○
 AZO,AUTOZONE INC,オートゾーン,NYSE,小売,○
 AZTA,AZENTA INC,アゼンタ,NASDAQ,半導体製造,○
+AZYY,GNS YLDBST AMZN,グラナイトシェアーズ イールドブースト AMZN ETF,NASDAQ,その他,○
 AZZ,AZZ INC,AZZ,NYSE,その他製造,○
 B,BARRICK MINING,バリック・マイニング,NYSE,その他,○
 BA,BOEING CO,ボーイング,NYSE,航空機・宇宙,○
@@ -717,8 +717,8 @@ CBZ,CBIZ INC,CBIZ,NYSE,ソフトウェア・サービス,○
 CC,CHEMOURS CO,ケマーズ,NYSE,化学,○
 CCB,COASTAL FINCIAL,コースタル・ファイナンシャル,NASDAQ,金融（銀行）,○
 CCBG,CAPITAL CITY BNK,キャピタル・シティー・バンク・グループ,NASDAQ,金融（銀行）,○
+CCC,CCC INTEL SOLUT,CCCインテリジェント・ソリューションズ・ホールディングス,NASDAQ,ソフトウェア・サービス,○
 CCCC,C4 THERAPEUTICS,C4セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
-CCCS,CCC INTEL SOLUT,CCCインテリジェント・ソリューションズ・ホールディングス,NASDAQ,ソフトウェア・サービス,○
 CCEF,CLMS CEF IN ARB,Calamos　CEF インカム&アービトラージ ETF,NYSE,その他,○
 CCEL,CRYO CELL INTL,クライオセル・インターナショナル,NYSE,医療サービス,○
 CCEP,COCA COLA EURPCF,コカ・コーラ・ユーロパシフィック・パートナーズ,NASDAQ,飲料,○
@@ -730,7 +730,6 @@ CCM,CONCORD MED SRV,コンコード・メディカル・サービシズ・ホー
 CCNE,CNB FINANCIAL CO,CNBファイナンシャル,NASDAQ,金融（銀行）,○
 CCO,CLEAR CHANNEL,クリア・チャネル・アウトドア・ホールディングス,NYSE,その他,○
 CCOI,COGENT COMMUNI,コジェント・コミュニケーションズ・ホールディングス,NASDAQ,通信サービス,○
-CCRD,CORECARD CORP,コアカード,NYSE,ソフトウェア・サービス,○
 CCRN,CROSS CTR HEALTH,クロス・カントリー・ヘルスケア,NASDAQ,ヘルスケア,○
 CCS,CENTURY COMMUNIT,センチュリー・コミュニティーズ,NYSE,その他製造,○
 CCSI,CONSENSUS CLD SL,コンセンサス・クラウド・ソリューションズ,NASDAQ,ソフトウェア・サービス,○
@@ -878,7 +877,7 @@ CNOB,CONNECTONE BANC,コネクトワン・バンコープ,NASDAQ,金融（銀行
 CNP,CENTERPOINT ENER,センターポイント・エナジー,NYSE,その他製造,○
 CNQ,CAN NATURAL RES,カナディアン・ナチュラルリソーシズ,NYSE,石油,○
 CNR,CORE NATURAL RES,コア・ナチュラル・リソーシズ,NYSE,その他,○
-CNRG,SPDR SP CLEAN PW,SPDR S&P Kenshoクリーン・パワーETF,NYSE,その他,○
+CNRG,SPDR SP CLEAN PW,State Street SPDR S&P Kenshoクリーン・パワーETF,NYSE,その他,○
 CNS,COHEN & STEERS,コーヘン・アンド・スティアーズ,NYSE,金融（証券）,○
 CNTA,CENTESSA PHARMA,センテッサ・ファーマシューティカルズ,NASDAQ,医薬品,○
 CNTX,CONTEXT THERAPE,コンテクスト・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
@@ -1029,7 +1028,7 @@ CVV,CVD EQUIPMENT,CVDエクイップメント,NASDAQ,電力,○
 CVX,CHEVRON CORP,シェブロン,NYSE,石油,○
 CW,CURTISS-WRIGHT,カーチス・ライト,NYSE,その他製造,○
 CWAN,CLEARWTR ANLYTIC,クリアウォーター・アナリティクス,NYSE,情報処理サービス,○
-CWB,SPDR BBG CONVERT,SPDR ブルームバーグ・コンバーチブル債券ETF,NYSE,その他,○
+CWB,SPDR BBG CONVERT,State Street SPDR ブルームバーグ・コンバーチブル債券ETF,NYSE,その他,○
 CWBC,CMNTY WEST BNCS,コミュニティ・ウェスト・バンクシェア,NASDAQ,金融（銀行）,○
 CWCO,CNSLIDATED WATER,コンソリデーテッド・ウオーター,NASDAQ,その他,○
 CWEB,DRX CH INET BL2X,Direxion デイリー CSI中国インターネット指数株 ブル 2倍 ETF,NYSE,その他,○
@@ -1250,7 +1249,7 @@ EEM,ISHARES EMERGING,iシェアーズ MSCI エマージング・マーケット 
 EEMS,ISHARES MS EM SC,iシェアーズ MSCI エマージング・マーケット小型株 ETF,NYSE,その他,○
 EEX,EMERALD EXP EVNT,エメラルド・エクスポジションズ・イベンツ,NYSE,ソフトウェア・サービス,○
 EFA,ISHARES EAFE,iシェアーズ MSCI EAFE ETF,NYSE,その他,○
-EFIV,SPDR SP500 ESG,SPDR S&P500 ESG ETF,NYSE,その他,○
+EFIV,SPDR SP500 ESG,State Street SPDR S&P500 ESG ETF,NYSE,その他,○
 EFOI,ENERGY FOCUS INC,エナジー･フォーカス,NASDAQ,その他製造,○
 EFSC,ENTERPRISE FINCL,エンタープライズ・ファイナンシャル・サービシーズ,NASDAQ,金融（銀行）,○
 EFX,EQUIFAX INC.,エクイファックス,NYSE,その他,○
@@ -1364,7 +1363,6 @@ ESTC,ELASTIC NV,エラスティック,NYSE,ソフトウェア・サービス,○
 ETD,ETHAN ALLN INTRI,イーサン・アレン・インテリアズ,NYSE,小売,○
 ETHZ,ETHZILLA CORP,イーサジラ,NASDAQ,医薬品（バイオテクノロジー）,○
 ETN,EATON CORP PLC,イートン,NYSE,機械,○
-ETNB,89BIO INC,89バイオ,NASDAQ,医薬品（バイオテクノロジー）,○
 ETON,ETON PHARMACEU,イートン・ファーマスーティカルズ,NASDAQ,医薬品,○
 ETOR,ETORO GROUP,イートロ・グループ,NASDAQ,金融コングロマリット,○
 ETR,ENTERGY CORP,エンタージ,NYSE,その他製造,○
@@ -1521,7 +1519,7 @@ FLO,FLOWERS FOODS IN,フラワーズ・フーズ,NYSE,小売,○
 FLOC,FLOWCO HOLDINGS,フローコ・ホールディングス,NYSE,ガス・パイプライン,○
 FLOW,GLX CF KING ETF,グローバルX 米国キャッシュフローキングETF,NYSE,その他,○
 FLR,FLUOR CORP,フルアー・コープ,NYSE,その他,○
-FLRN,SPDR INV GRD FLT,SPDR ブルームバーグ投資適格変動金利ETF,NYSE,その他,○
+FLRN,SPDR INV GRD FLT,State Street SPDR ブルームバーグ投資適格変動金利ETF,NYSE,その他,○
 FLS,FLOWSERVE CORP,フローサーブ,NYSE,その他製造,○
 FLUX,FLUX POWER HD,フラックス・パワー・ホールディングス,NASDAQ,電力,○
 FLWS,1-800FLOWERS.COM,1-800フラワーズ・ドットコム,NASDAQ,小売,○
@@ -1634,7 +1632,7 @@ FYBR,FRONTIER COMM,フロンティア・コミュニケーションズ・ペア�
 G,GENPACT LTD,ジェンパクト,NYSE,ソフトウェア・サービス,○
 GABC,GERMAN AMCN BANC,ジャーマン・アメリカン・バンコープ,NASDAQ,金融（銀行）,○
 GAIA,GAIA INC,ガイア,NASDAQ,小売,○
-GAL,SPDR GLOBAL ALLO,SPDR　SSgA グローバル・アロケーション ETF,NYSE,その他,○
+GAL,SSTR GLOBAL ALLO,State Street グローバル・アロケーション ETF,NYSE,その他,○
 GALT,GALECTIN THERA,ガレクチン・セラピューティクス,NASDAQ,医薬品,○
 GAMB,GAMBLING COM GR,ギャンブリング・ドットコム・グループ,NASDAQ,ソフトウェア・サービス,○
 GANX,GAIN THERAPEU,ゲイン・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
@@ -1800,7 +1798,7 @@ H,HYATT HOTELS A,ハイアット・ホテルズ　クラスA,NYSE,ホテル,○
 HACK,APLFY CYBER ETF,アンプリファイ・サイバー・セキュリティー・ETF,NYSE,その他,○
 HAE,HAEMONETICS CORP,ヘモネティクス,NYSE,ヘルスケア,○
 HAFC,HANMI FINANCIAL,ハンミ・ファイナンシャル,NASDAQ,金融（銀行）,○
-HAIL,SPDR SP SMT MBLT,SPDR S&P Kenshoスマート・モビリティETF,NYSE,その他,○
+HAIL,SPDR SP SMT MBLT,State Street SPDR S&P Kenshoスマート・モビリティETF,NYSE,その他,○
 HAIN,HAIN CELESTIAL G,ハイン・セレスチャル・グループ,NASDAQ,食品,○
 HAL,HALLIBURTON,ハリバートン,NYSE,石油,○
 HALO,HALOZYME THERAP,ハロザイム・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
@@ -1929,7 +1927,7 @@ HWKN,HAWKINS INC,ホーキンス,NASDAQ,化学,○
 HWM,HOWMET AEROSPACE,ハウメット・エアロスペース,NYSE,アルミ,○
 HXL,HEXCEL CORP,ヘクセル,NYSE,その他製造,○
 HY,HYSTER-YALE INC,ハイスター・エール・インク,NYSE,機械,○
-HYBL,SPDR BLKST HINCM,SPDR ブラックストーン ハイ インカムETF,Cboe,その他,○
+HYBL,SSTR BLKST HINCM,State Street ブラックストーン ハイ インカムETF,Cboe,その他,○
 HYDR,GLBLX HYDROGEN,グローバルＸ 水素テック ETF,NASDAQ,その他,○
 HYEM,V EM HY BOND,ヴァンエック・新興国ハイ・イールド債ETF,NYSE,その他,○
 HYFM,HYDROFARM HD GR,ハイドロファーム・ホールディングス,NASDAQ,その他製造,○
@@ -1938,6 +1936,7 @@ HYLN,HYLIION HOLDINGS,ハイリオン・ホールディングス,NYSE,その他�
 HYLS,FT TACTCL HYIELD,ファーストトラスト タクティカル ハイイールドETF,NASDAQ,その他,○
 HYMC,HYCROFT MINING,ハイクロフト・マイニング・ホールディング,NASDAQ,その他,○
 HYPD,HYPERION DEFI,ハイペリオン DeFi,NASDAQ,医薬品（バイオテクノロジー）,○
+HYTI,FT VST H YLD TRG,FT Vest ハイイールド債＆ターゲットインカムETF,NYSE,その他,○
 HYZD,WM IR HEDGED HYB,ウィズダムツリー 米国ハイイールド社債ファンド（金利ヘッジ型）,NASDAQ,その他,○
 HZO,MARINEMAX INC,マリンマックス,NYSE,小売,○
 IAC,IAC INC,IACインコーポレーティッド,NASDAQ,その他,○
@@ -2005,7 +2004,6 @@ ILDR,FT INV LEADR ETF,ファーストトラスト イノベーションリーダ
 ILF,ISHARES LATIN 40,iシェアーズ ラテンアメリカ 40 ETF,NYSE,その他,○
 ILMN,ILLUMINA INC,イルミナ,NASDAQ,医薬品（バイオテクノロジー）,○
 IMA,IMAGENEBIO INC,イマジンバイオ,NASDAQ,医薬品（バイオテクノロジー）,○
-IMAB,I-MAB,アイ・マブ,NASDAQ,医薬品（バイオテクノロジー）,○
 IMAX,IMAX CORPORATION,アイマックス,NYSE,エンターテイメント,○
 IMCR,IMMUNOCORE HOLD,イムノコア・ホールディングス,NASDAQ,医薬品（バイオテクノロジー）,○
 IMDX,INSIGHT MOLECULR,インサイト・モレキュラー・ダイアグノスティクス,NASDAQ,医薬品（バイオテクノロジー）,○
@@ -2039,7 +2037,7 @@ INFY,INFOSYS TECH ADR,インフォシス・テクノロジーズ,NYSE,ソフト�
 ING,ING GROUP(ADR),INGグループ,NYSE,金融コングロマリット,○
 INGN,INOGEN INC,イノジェン,NASDAQ,ヘルスケア,○
 INGR,INGREDION INC,イングレディオン,NYSE,その他製造,○
-INKM,SPDR INCOME ALLO,SPDR　SSgA インカム・アロケーション ETF,NYSE,その他,○
+INKM,SSTR INCOME ALLO,State Street インカム・アロケーション ETF,NYSE,その他,○
 INKT,MINK THERAPEUTIC,ミンク・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 INLX,INTELLINETICS,インテリネティクス,NYSE,ソフトウェア・サービス,○
 INM,INMED PHARMA,インメッド・ファーマシューティカルズ,NASDAQ,医薬品（バイオテクノロジー）,○
@@ -2167,7 +2165,7 @@ JLL,JONES LANG LASAL,ジョーンズ・ラング・ラサール,NYSE,その他,�
 JMIA,JUMIA TECHNOLOGI,ジュミア・テクノロジーズ,NYSE,小売,○
 JMSB,JOHN MARSHALL BC,ジョン・マーシャル・バンコープ,NASDAQ,金融（銀行）,○
 JNJ,JOHNSON&JOHNSON,ジョンソン・エンド・ジョンソン,NYSE,ヘルスケア,○
-JNK,SPDR BBG H YIELD,SPDR ブルームバーグ・ハイ・イールド債券 ETF,NYSE,その他,○
+JNK,SPDR BBG H YIELD,State Street SPDR ブルームバーグ・ハイ・イールド債券 ETF,NYSE,その他,○
 JNUG,DRX JR GOLD BL2X,Direxion デイリー ジュニア・ゴールド・マイナーズ･インデックス ブル2倍 ETF,NYSE,その他,○
 JOBY,JOBY AVIATION,ジョビー・アビエーション,NYSE,その他,○
 JOE,THE ST JOE CMPNY,セント・ジョー,NYSE,その他,○
@@ -2226,6 +2224,7 @@ KLXE,KLX ENE SRVCS HD,KLXエナジー・サービシズ・ホールディング�
 KMB,KIMBERLY CLARK,キンバリークラーク,NASDAQ,トイレタリー,○
 KMDA,KAMADA LTD,カマダ,NASDAQ,医薬品（バイオテクノロジー）,○
 KMI,KINDER MORGAN,キンダーモルガン,NYSE,ガス・パイプライン,○
+KMLI,KRS 2X LONG MELI,KraneShares 2x ロング MELI デイリー ETF,NASDAQ,その他,○
 KMPR,KEMPER CORP,ケンパー,NYSE,金融(保険),○
 KMT,KENNAMETAL INC,ケナメタル,NYSE,その他製造,○
 KMTS,KESTRA MEDICAL,ケストラ・メディカル・テクノロジーズ,NASDAQ,医療サービス,○
@@ -2242,7 +2241,8 @@ KO,COCA COLA CO.,コカ・コーラ,NYSE,飲料,○
 KOD,KODIAK SCIENCES,コディアック・サイエンシズ,NASDAQ,医薬品,○
 KODK,EASTMAN KODAK CO,イーストマン・コダック,NYSE,その他製造,○
 KOF,COCA-COLA FEMSA,コカ・コーラ・フェムサ,NYSE,飲料,○
-KOMP,SPDR SP NW ECO,SPDR S&P Kenshoニュー・エコノミー・コンポジットETF,NYSE,その他,○
+KOID,KRS GL HUMANOID,KraneShares グローバル・ヒューマノイド及びエンボディド・インテリジェンス・インデックス ETF,NASDAQ,その他,○
+KOMP,SPDR SP NW ECO,State Street SPDR S&P Kenshoニュー・エコノミー・コンポジットETF,NYSE,その他,○
 KOP,KOPPERS HOLDINGS,コパーズ・ホールディングス,NYSE,化学,○
 KOPN,KOPIN CORP,コピン,NASDAQ,その他製造,○
 KORE,KORE GROUP HLD,コア・グループ・ホールディングス,NYSE,ソフトウェア・サービス,○
@@ -2403,6 +2403,7 @@ LPX,LOUISIANA-PACIFC,ルイジアナ・パシフィック,NYSE,その他製造,�
 LQD,ISHARES GRADE,iシェアーズ iBoxx 米ドル建て投資適格社債 ETF,NYSE,その他,○
 LQDA,LIQUIDIA TECHNOL,リキディア・テクノロジーズ,NASDAQ,医薬品（バイオテクノロジー）,○
 LQDT,LIQUIDITY SERVIC,リクイディティ・サービシズ,NASDAQ,ソフトウェア・サービス,○
+LQTI,FT VST IG INCOME,FT Vest 投資適格債＆ターゲットインカムETF,NYSE,その他,○
 LRCX,LAM RESEARCH CO,ラムリサーチ,NASDAQ,半導体製造,○
 LRMR,LARIMAR THERAPEU,ラリマー・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 LRN,STRIDE INC,ストライド,NYSE,ソフトウェア・サービス,○
@@ -2416,6 +2417,7 @@ LTBR,LIGHTBRIDGE CORP,ライトブリッジ,NASDAQ,その他,○
 LTH,LIFE TIME GP HLD,ライフ・タイム・グループ・ホールディングス,NYSE,ヘルスケア,○
 LTRN,LANTERN PHARMA,ランタン・ファーマ,NASDAQ,医薬品（バイオテクノロジー）,○
 LTRX,LANTRONIX INC,ラントロニクス,NASDAQ,ネットワーク,○
+LTTI,FT VST 20Y TR,FT Vest 20年超米国債＆ターゲットインカムETF,NYSE,その他,○
 LU,LUFAX HOLDING,ルファクス,NYSE,ソフトウェア・サービス,○
 LUCD,LUCID DIAGNOSTIC,ルーシッド・ダイアグノスティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 LUCK,LUCKY STRIKE ET,ラッキー・ストライク・エンターテイメント,NYSE,エンターテイメント,○
@@ -2600,6 +2602,7 @@ MP,MP MATERIALS,MPマテリアルズ,NYSE,その他,○
 MPAA,MOTORCAR PRT AMR,モーターカー・パーツ・オブ・アメリカ,NASDAQ,自動車,○
 MPB,MID PENN BANCORP,ミッド・ペン・バンコープ,NASDAQ,金融（銀行）,○
 MPC,MARATHON PETRO,マラソン・ペトロリアム,NYSE,石油,○
+MPLT,MAPLIGHT THERAPE,マップライト・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 MPTI,M-TRON INDST,Mトロン・インダストリーズ,NYSE,その他製造,○
 MPU,MEGA MATRIX INC,メガ・マトリックス・インク,NYSE,ソフトウェア・サービス,○
 MPWR,MONOLITHIC POWER,モノリシック・パワー・システムズ,NASDAQ,半導体,○
@@ -2660,6 +2663,7 @@ MTUS,METALLUS INC,メタルス,NYSE,その他製造,○
 MTVA,METAVIA INC,メタビア,NASDAQ,医薬品（バイオテクノロジー）,○
 MTW,MANITOWOC,マニトウォック,NYSE,機械,○
 MTX,MINERALS TECHNO,ミネラルズ・テクノロジーズ,NYSE,化学,○
+MTYY,GNS YLDBST MSTR,グラナイトシェアーズ イールドブースト MSTR ETF,NASDAQ,その他,○
 MTZ,MASTEC INC,マステック,NYSE,その他,○
 MU,MICRON TECH,マイクロン　テクノロジー,NASDAQ,半導体,○
 MUD,DRX MU BR1X,Direxion デイリー MU 株 ベア 1 倍 ETF,NASDAQ,その他,○
@@ -2699,10 +2703,12 @@ NATL,NCR ATLEOS LLC,エヌ・シー・アール・アトレオス,NYSE,情報処
 NATR,NATURE SUNSHINE,ネイチャーズ・サンシャイン・プロダクツ,NASDAQ,医薬品,○
 NAUT,NAUTILUS BIOTECH,ノーティラス・バイオテクノロジー,NASDAQ,ヘルスケア,○
 NAVI,NAVIENT CORP,ナビエント,NASDAQ,その他,○
+NAVN,NAVAN INC,ナヴァン,NASDAQ,ソフトウェア・サービス,○
 NBHC,NATIONAL BANK,ナショナル・バンク・ホールディングス,NYSE,金融（銀行）,○
 NBIS,NEBIUS GROUP NV,ネビウス・グループ,NASDAQ,情報処理サービス,○
 NBIX,NEUROCRINE BIO,ニューロクライン・バイオサイエンシス,NASDAQ,医薬品,○
 NBN,NORTHEAST BANK,ノースイースト・バンク,NASDAQ,金融（銀行）,○
+NBP,NOVABRIDGE BIO,ノヴァブリッジ・バイオサイエンシズ,NASDAQ,医薬品（バイオテクノロジー）,○
 NBR,NABORS INDUSTRIE,ネイバーズ・インダストリーズ,NYSE,石油,○
 NBTB,NBT BANCORP INC,NBTバンコープ,NASDAQ,金融（銀行）,○
 NC,NACCO INDUSTRIES,ナッコ・インダストリーズ,NYSE,その他,○
@@ -2883,7 +2889,6 @@ OBT,ORANGE COUN BAN,オレンジ・カウンティ・バンコープ,NASDAQ,金�
 OC,OWENS CORNING,オーウェンス・コーニング,NYSE,その他製造,○
 OCC,OPTICAL CABLE,オプティカル・ケーブル,NASDAQ,通信サービス,○
 OCFC,OCEANFIRST FINCL,オーシャンファースト・ファイナンシャル,NASDAQ,金融（銀行）,○
-OCFT,ONECNCT FIN TECH,ワンコネクト・フィナンシャル・テクノロジー,NYSE,ソフトウェア・サービス,○
 OCG,ORIENTAL CULTURE,オリエンタル・カルチャー・ホールディングス,NASDAQ,ソフトウェア・サービス,○
 OCGN,OCUGEN INC,オキュゲン,NASDAQ,医薬品,○
 OCS,OCULIS HOLDING,オキュリス・ホールディング,NASDAQ,医薬品（バイオテクノロジー）,○
@@ -3116,6 +3121,7 @@ PLUR,PLURI INC,プルリ,NASDAQ,医薬品（バイオテクノロジー）,○
 PLUS,EPLUS INC,eプラス,NASDAQ,ソフトウェア・サービス,○
 PLX,PROTALIX BIOTHER,プロタリックス・バイオセラピューティクス,NYSE,医薬品（バイオテクノロジー）,○
 PLXS,PLEXUS CORP,プレクサス,NASDAQ,その他製造,○
+PLYY,GNS YLDBST PLTR,グラナイトシェアーズ イールドブースト PLTR ETF,NASDAQ,その他,○
 PM,PHILIP MORRIS,フィリップ　モリス　インターナショナル,NYSE,食品・タバコ,○
 PMCB,PHARMACYTE BIO,ファーマサイト・バイオテック,NASDAQ,医薬品（バイオテクノロジー）,○
 PMNT,PERFECT MOMENT,パーフェクト・モーメント,NYSE,小売,○
@@ -3183,7 +3189,7 @@ PRTS,CARPARTS.COM INC,カー・パーツ・ドット・コム,NASDAQ,自動車,�
 PRU,PRUDENTIAL FIN,プルデンシャル・ファイナンシャル,NYSE,金融(保険),○
 PRVA,PRIVIA HEALTH GP,プリビア・ヘルス・グループ,NASDAQ,ソフトウェア・サービス,○
 PSFE,PAYSAFE LTD,ペイセーフ,NYSE,その他,○
-PSK,SPDR ICE PRF SEC,SPDR ICE優先証券ETF,NYSE,その他,○
+PSK,SPDR ICE PRF SEC,State Street SPDR ICE優先証券ETF,NYSE,その他,○
 PSKY,PARAMNT SKYDANCE,パラマウント・スカイダンス,NASDAQ,エンターテイメント,○
 PSMT,PRICESMART INC,プライススマート,NASDAQ,小売,○
 PSN,PARSONS CORP,パーソンズ,NYSE,ソフトウェア・サービス,○
@@ -3358,7 +3364,7 @@ RLAY,RELAY THERAPEUT,リレー・セラピューティクス,NASDAQ,医薬品（
 RLGT,RADIANT LOGISTIC,ラジアント・ロジスティクス,NYSE,運輸,○
 RLI,RLI CORP,RLI,NYSE,金融(保険),○
 RLX,RLX TECHNOLOGY,RLXテクノロジー,NYSE,食品・タバコ,○
-RLY,SPDR MA REAL RTN,SPDR SSgA マルチ・アセット・リアル・リターン ETF,NYSE,その他,○
+RLY,SSTR MA REAL RTN,State Street マルチ・アセット・リアル・リターン ETF,NYSE,その他,○
 RM,REGIONAL MANAGE,リージョナル・マネジメント,NYSE,金融（銀行）,○
 RMAX,RE/MAX HOLDINGS,RE/MAXホールディングス,NYSE,ソフトウェア・サービス,○
 RMBI,RICHMOND MUTL BC,リッチモンド・ミューチュアル・バンコーポレーション,NASDAQ,金融（銀行）,○
@@ -3424,7 +3430,7 @@ RVPH,REVIVA PHARMA HD,レビバ・ファーマシューティカルズ・ホー�
 RVSB,RIVERVIEW BANC,リバービュー・バンコープ,NASDAQ,金融（銀行）,○
 RVTY,REVVITY INC.,リビティ,NYSE,その他製造,○
 RVYL,RYVYL,リビル,NASDAQ,ソフトウェア・サービス,○
-RWR,SPDR DJ REIT,SPDR ダウ・ジョーンズ REIT ETF,NYSE,その他,○
+RWR,SPDR DJ REIT,State Street SPDR ダウ・ジョーンズ REIT ETF,NYSE,その他,○
 RWX,SPDR DJ REAL,SPDR ダウ・ジョーンズ・インターナショナル・リアル・エステート ETF,NYSE,その他,○
 RXI,ISHARES CONS DIS,iシェアーズ グローバル一般消費財 ETF,NYSE,その他,○
 RXO,RXO,RXO,NYSE,運輸,○
@@ -3491,7 +3497,7 @@ SDRL,SEADRILL LTD,シードリル,NYSE,石油,○
 SDS,PROS U SHT SP500,プロシェアーズ・ウルトラショート S&P500,NYSE,その他,○
 SDVD,FT SMID RDIV ACV,ファーストトラスト Vest 中小型株増配アチーバーズ ターゲットインカムETF,Cboe,その他,○
 SDVY,FT SMID CAP ETF,ファーストトラスト 中小型増配アチーバーズETF,NASDAQ,その他,○
-SDY,SPDR SP DIVIDEND,SPDR S&P 米国高配当株式 ETF,NYSE,その他,○
+SDY,SPDR SP DIVIDEND,State Street SPDR S&P 米国高配当株式 ETF,NYSE,その他,○
 SE,SEA LIMITED,シー,NYSE,ソフトウェア・サービス,○
 SEAT,VIVID SEATS INC,ヴィヴィッド・シーツ,NASDAQ,ソフトウェア・サービス,○
 SEB,SEABOARD CORP,シーボード,NYSE,食品,○
@@ -3533,7 +3539,7 @@ SHAK,SHAKE SHACK,シェイク・シャック,NYSE,外食,○
 SHBI,SHORE BANCSHARES,ショアー・バンクシェアーズ,NASDAQ,金融（銀行）,○
 SHC,SOTERA HEALTH CO,ソテラ・ヘルス,NASDAQ,ヘルスケア,○
 SHCO,SOHO HOUSE CO,ソーホー・ハウス・アンド・コー,NYSE,ソフトウェア・サービス,○
-SHE,SPDRMSCI GND DIV,SPDR MSCI USAジェンダー・ダイバーシティETF,NYSE,その他,○
+SHE,SPDR MSCI GD DIV,State Street SPDR MSCI USAジェンダー・ダイバーシティETF,NYSE,その他,○
 SHEL,SHELL PLC,シェル,NYSE,石油,○
 SHEN,SHENANDH TELECM,シェナンドー・テレコミュニケーションズ,NASDAQ,通信サービス,○
 SHG,SHINHAN FINANCIA,シンハン・フィナンシャル・グループ,NYSE,金融（銀行）,○
@@ -3564,7 +3570,7 @@ SIRI,SIRIUS XM HLD,シリウスXMホールディングス,NASDAQ,その他,○
 SITE,SITEONE LNDSCAPE,サイトワン・ランドスケープ・サプライ,NYSE,専門店,○
 SITM,SITIME CORP,サイタイム,NASDAQ,半導体,○
 SJM,JM SMUCKER CO,JMスマッカー,NYSE,食品,○
-SJNK,SPDR BBG ST HYLD,SPDR ブルームバーグ・短期ハイ・イールド債券ETF,NYSE,その他,○
+SJNK,SPDR BBG ST HYLD,State Street SPDR ブルームバーグ・短期ハイ・イールド債券ETF,NYSE,その他,○
 SKE,SKEENA RESOURCES,スキーナ・リソーシズ,NYSE,専門店,○
 SKIL,SKILLSOFT CORP,スキルソフト,NYSE,ソフトウェア・サービス,○
 SKIN,BEAUTY HEALTH CO,ビューティー・ヘルス,NASDAQ,ヘルスケア,○
@@ -3663,7 +3669,7 @@ SOTK,SONOTEK CORP,ソノテック,NASDAQ,その他製造,○
 SOUN,SOUNDHOUND AI,サウンドハウンド・エーアイ,NASDAQ,ソフトウェア・サービス,○
 SOXL,DRX SEMICON BL3X,Direxion デイリー 半導体株 ブル 3倍 ETF,NYSE,その他,○
 SOXS,DRX SEMICON BR3X,Direxion デイリー 半導体株 ベア 3倍 ETF,NYSE,その他,○
-SPAB,SPDR AGG BOND,SPDR ポートフォリオ米国総合債券ETF,NYSE,その他,○
+SPAB,SPDR AGG BOND,State Street SPDR ポートフォリオ米国総合債券ETF,NYSE,その他,○
 SPB,SPECTRUM BRANDS,スペクトラム・ブランズ・ホールディング,NYSE,その他製造,○
 SPCB,SUPERCOM LTD,スーパーコム,NASDAQ,情報処理サービス,○
 SPCE,VIRGIN GALACTIC,ヴァージン・ギャラクティック・ホールディングス,NYSE,航空機・宇宙,○
@@ -3674,14 +3680,13 @@ SPFF,GLX SUIN PRE ETF,グローバルX スーパーインカム優先証券 ETF,
 SPFI,SOUTH PLAINS FIN,サウス・プレインズ・ファイナンシャル,NASDAQ,金融（銀行）,○
 SPGI,SP GLOBAL INC,S&P グローバル　インク,NYSE,その他,○
 SPHR,SPHERE ENTER,スフィア・エンターテインメント,NYSE,エンターテイメント,○
-SPHY,SPDR HIGHYLD BND,SPDR ポートフォリオ・ハイ・イールド債ETF,NYSE,その他,○
-SPIB,SPDR MTM CORP BD,SPDR ポートフォリオ米国中期社債ETF,NYSE,その他,○
-SPIP,SPDR PTFL TIPS,SPDR ポートフォリオ米国物価連動国債ETF,NYSE,その他,○
+SPHY,SPDR HIGHYLD BND,State Street SPDR ポートフォリオ・ハイ・イールド債ETF,NYSE,その他,○
+SPIB,SPDR MTM CORP BD,State Street SPDR ポートフォリオ米国中期社債ETF,NYSE,その他,○
+SPIP,SPDR PTFL TIPS,State Street SPDR ポートフォリオ米国物価連動国債ETF,NYSE,その他,○
 SPIR,SPIRE GLOBAL INC,スパイアー・グローバル,NYSE,その他,○
-SPLB,SPDR LTM CORP BD,SPDR ポートフォリオ米国長期社債ETF,NYSE,その他,○
-SPLG,SPDR PF SP500ETF,SPDR ポートフォリオS&P 500 ETF,NYSE,その他,○
-SPMB,SPDR MRTGAGE BND,SPDR ポートフォリオ・モーゲージ債券ETF,NYSE,その他,○
-SPMD,SPDR SP400 M CAP,SPDR ポートフォリオS&P 400中型株式ETF,NYSE,その他,○
+SPLB,SPDR LTM CORP BD,State Street SPDR ポートフォリオ米国長期社債ETF,NYSE,その他,○
+SPMB,SPDR MRTGAGE BND,State Street SPDR ポートフォリオ・モーゲージ債券ETF,NYSE,その他,○
+SPMD,SPDR SP400 M CAP,State Street SPDR ポートフォリオS&P 400中型株式ETF,NYSE,その他,○
 SPNS,SAPIENS INTL CRP,サピエンス・インターナショナル,NASDAQ,ソフトウェア・サービス,○
 SPNT,SIRIUSPOINT LTD,シリウスポイント,NYSE,金融(保険),○
 SPOK,SPOK HOLDINGS,スポック・ホールディングス,NASDAQ,通信サービス,○
@@ -3690,14 +3695,14 @@ SPR,SPIRIT AEROSYSTE,スピリット・エアロシステムズ・ホールデ�
 SPRO,SPERO THERAPEU,スペロ・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 SPRU,SPRUCE POWER HD,スプルース・パワー・ホールディング・コーポレーション,NYSE,自動車,○
 SPRY,ARS PHARMACEUTIC,ARSファーマシューティカルズ,NASDAQ,医薬品（バイオテクノロジー）,○
-SPSB,SPDR STM CORP BD,SPDR ポートフォリオ米国短期社債ETF,NYSE,その他,○
+SPSB,SPDR STM CORP BD,State Street SPDR ポートフォリオ米国短期社債ETF,NYSE,その他,○
 SPSC,SPS COMMERCE INC,SPSコマース,NASDAQ,ソフトウェア・サービス,○
-SPSM,SPDR SP600 S CAP,SPDR ポートフォリオS&P 600小型株式ETF,NYSE,その他,○
+SPSM,SPDR SP600 S CAP,State Street SPDR ポートフォリオS&P 600小型株式ETF,NYSE,その他,○
 SPT,SPROUT SOCIAL,スプラウトソーシャル,NASDAQ,ソフトウェア・サービス,○
-SPTI,SPDR I-TERM ETF,SPDR ポートフォリオ米国中期国債ETF,NYSE,その他,○
-SPTL,SPDR L-TRM TR,SPDR ポートフォリオ米国長期国債ETF,NYSE,その他,○
-SPTM,SPDR SP1500 COMP,SPDR ポートフォリオS&P 1500コンポジット・ストック・マーケットETF,NYSE,その他,○
-SPTS,SPDR S-TRM TR,SPDR ポートフォリオ米国短期国債ETF,NYSE,その他,○
+SPTI,SPDR I-TERM ETF,State Street SPDR ポートフォリオ米国中期国債ETF,NYSE,その他,○
+SPTL,SPDR L-TRM TR,State Street SPDR ポートフォリオ米国長期国債ETF,NYSE,その他,○
+SPTM,SPDR SP1500 COMP,State Street SPDR ポートフォリオS&P 1500コンポジット・ストック・マーケットETF,NYSE,その他,○
+SPTS,SPDR S-TRM TR,State Street SPDR ポートフォリオ米国短期国債ETF,NYSE,その他,○
 SPUU,DRX SP500 BL2X,Direxion デイリー S&P 500 ブル 2 倍 ETF,NYSE,その他,○
 SPWH,SPORTS WAREHOUSE,スポーツマンズ・ウエアハウス・ホールディングス,NASDAQ,小売,○
 SPXC,SPX TECHNOLOGIES,SPXテクノロジーズ,NYSE,その他製造,○
@@ -3705,9 +3710,10 @@ SPXL,DRX DL SP500BL3X,Direxion デイリー S&P 500 ブル3倍 ETF,NYSE,その�
 SPXS,DRX DL SP500BR3X,Direxion デイリー S&P 500 ベア3倍 ETF,NYSE,その他,○
 SPXU,PROS SP500 -3X,プロシェアーズ・ウルトラプロ・ショートS&P500,NYSE,その他,○
 SPY,SPDR SP500 TRUST,SPDR S&P 500 ETF,NYSE,その他,○
-SPYD,SPDR SP500 H DIV,SPDR ポートフォリオS&P 500 高配当株式ETF,NYSE,その他,○
-SPYG,SPDR SP500 GRWTH,SPDR ポートフォリオS&P 500 グロース株式ETF,NYSE,その他,○
-SPYV,SPDR SP500 VALUE,SPDR ポートフォリオS&P 500 バリュー株式ETF,NYSE,その他,○
+SPYD,SPDR SP500 H DIV,State Street SPDR ポートフォリオS&P 500 高配当株式ETF,NYSE,その他,○
+SPYG,SPDR SP500 GRWTH,State Street SPDR ポートフォリオS&P 500 グロース株式ETF,NYSE,その他,○
+SPYM,SPDR PF SP500ETF,State Street SPDR ポートフォリオS&P 500 ETF,NYSE,その他,○
+SPYV,SPDR SP500 VALUE,State Street SPDR ポートフォリオS&P 500 バリュー株式ETF,NYSE,その他,○
 SQM,SOCIED QMC CHILE,ソシエダード・キミカ・イ・ミネラ・デ・チリ,NYSE,化学,○
 SQQQ,PRO ULTSHORT QQQ,プロシェアーズ・ウルトラプロ・ショートQQQ,NASDAQ,その他,○
 SR,SPIRE INC,スパイア,NYSE,ガス・パイプライン,○
@@ -3718,7 +3724,7 @@ SRE,SEMPRA ENERGY,センプラ・エナジー,NYSE,ガス・パイプライン,�
 SRET,GBLX SDIV REIT,グローバルX スーパーディビィデンド-世界リート ETF,NASDAQ,その他,○
 SRI,STONERIDGE INC,ストーンリッジ,NYSE,その他製造,○
 SRL,SCULLY ROYALTY,スカリー・ロイヤルティー,NYSE,金融（銀行）,○
-SRLN,SPDR BL SNR LOAN,SPDR ブラックストーン・シニア・ローンETF,NYSE,その他,○
+SRLN,SSTR BL SNR LOAN,State Street ブラックストーン・シニア・ローンETF,NYSE,その他,○
 SROI,CLMS AK GL SUSEQ,Calamos アデトクンボ・グローバル・サステナブル・エクイティーズETF,NYSE,その他,○
 SRPT,SAREPTA THERAP,サレプタ・セラピューティックス,NASDAQ,医薬品（バイオテクノロジー）,○
 SRRK,SCHOLAR ROCK HLD,スカラー・ロック・ホールディング,NASDAQ,医薬品（バイオテクノロジー）,○
@@ -3838,6 +3844,7 @@ TDIV,FT NQ TECH DIV,ファーストトラスト ナスダック テクノロジ�
 TDOC,TELADOC HEALTH,テラドック・ヘルス,NYSE,ヘルスケア,○
 TDS,TEL DATA SYSTEMS,テレフォン・アンド・データ・システムズ,NYSE,通信サービス,○
 TDUP,THREDUP INC,スレッドアップ,NASDAQ,小売,○
+TDVI,FT VST TECH DIV,FT Vest テクノロジー配当ターゲットインカムETF,Cboe,その他,○
 TDW,TIDEWATER INC,タイドウォーター,NYSE,石油,○
 TDY,TELEDYNE TECH,テレダイン・テクノロジーズ,NYSE,通信機器,○
 TE,T1 ENERGY INC,T1エナジー,NYSE,その他製造,○
@@ -3892,7 +3899,6 @@ TIP,ISHARES TIPSBOND,iシェアーズ 米国物価連動国債 ETF,NYSE,その�
 TIPT,TIPTREE INC,ティップツリー,NASDAQ,金融(保険),○
 TISI,TEAM INC,チーム,NYSE,ソフトウェア・サービス,○
 TITN,TITAN MACHINERY,タイタン・マシーナリー,NASDAQ,機械,○
-TIXT,TELUS INTRNL CDA,ティラス・インターナショナル,NYSE,コンピュータ,○
 TJX,TJX COS INC,TJXカンパニー,NYSE,小売,○
 TK,TEEKAY CORP LTD,ティーケイ・コーポレーション,NYSE,運輸,○
 TKC,TURKCELL ILETISI,タークセル,NYSE,通信サービス,○
@@ -3933,7 +3939,7 @@ TOMZ,TOMI ENVIRONMENT,TOMIエンバイロメンタル・ソリューションズ
 TONX,TON STRATEGY,TON ストラテジー,NASDAQ,ソフトウェア・サービス,○
 TORO,TORO CORP,トロ・コープ,NASDAQ,運輸,○
 TOST,TOAST INC,トースト,NYSE,ソフトウェア・サービス,○
-TOTL,SPDR TRN TACTICL,SPDR ダブルライン・トータル・リターン・タクティカルETF,NYSE,その他,○
+TOTL,SSTR TRN TACTICL,State Street ダブルライン・トータル・リターン・タクティカルETF,NYSE,その他,○
 TOWN,TOWNE BANK,タウンバンク,NASDAQ,金融（銀行）,○
 TPB,TURNING PT BRAND,ターニング・ポイント・ブランズ,NYSE,食品・タバコ,○
 TPC,TUTOR PERINI,チューター・ペリーニ,NYSE,その他製造,○
@@ -3957,7 +3963,6 @@ TRIP,TRIPADVISOR INC.,トリップアドバイザー,NASDAQ,ソフトウェア�
 TRMB,TRIMBLE INC,トリンブル,NASDAQ,通信機器,○
 TRMD,TORM PLC,トーム,NASDAQ,運輸,○
 TRMK,TRUSTMARK CORP,トラストマーク,NASDAQ,金融コングロマリット,○
-TRML,TOURMALINE BIO,トルマリン・バイオ,NASDAQ,医薬品（バイオテクノロジー）,○
 TRN,TRINITY INDSTRIE,トリニティ・インダストリーズ,NYSE,その他製造,○
 TRNS,TRANSCAT INC,トランスキャット,NASDAQ,その他製造,○
 TROO,TROOPS INC,トゥループス,NASDAQ,その他製造,○
@@ -4294,6 +4299,8 @@ WBI,WATERBRIDGE INFR,ウォーターブリッジ・インフラストラクチ�
 WBS,WEBSTER FINANCIA,ウェブスター・ファイナンシャル,NYSE,金融（銀行）,○
 WBTN,WEBTOON ENTRTAIN,ウェブトゥーン・エンターテインメント,NASDAQ,エンターテイメント,○
 WCC,WESCO INTERNATIO,ウェスコ・インターナショナル,NYSE,機械,○
+WCME,FT WCM DVLP W EQ,ファーストトラスト WCM 新興国株式ETF,NYSE,その他,○
+WCMI,FT WCM INTL EQ,ファーストトラスト？WCM インターナショナル株式ETF,NYSE,その他,○
 WCN,WASTE CONNECTION,ウエイスト・コネクションズ,NYSE,その他,○
 WD,WALKER & DUNLOP,ウォーカー・ダンロップ,NYSE,金融（銀行）,○
 WDAY,WORKDAY INC,ワークデイ,NASDAQ,ソフトウェア・サービス,○
