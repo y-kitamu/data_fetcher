@@ -7,7 +7,7 @@ def run_debug(func, *args, **kwargs):
     """エラーが発生したときにpdbを起動する"""
     try:
         return func(*args, **kwargs)
-    except:
+    except Exception:
         extype, value, tb = sys.exc_info()
         traceback.print_exc()
         pdb.post_mortem(tb)

@@ -3,6 +3,7 @@ import re
 import time
 from pathlib import Path
 
+from loguru import logger
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options as ChromeOptions
 from selenium.webdriver.common.by import By
@@ -50,7 +51,7 @@ def get_tdnet_xbrl(
             )
             == 0
         ):
-            print(f"Detail button not found for code: {code}")
+            logger.warning(f"Detail button not found for code: {code}")
             return
         driver.find_element(By.NAME, "JJK010030Form").find_element(
             By.NAME, "detail_button"
@@ -71,7 +72,7 @@ def get_tdnet_xbrl(
         time.sleep(0.1)
         # さらに表示をクリック
         if len(driver.find_elements(By.ID, "1101")) == 0:
-            print(f"No data available for code: {code}")
+            logger.warning(f"No data available for code: {code}")
             return
         more_button = driver.find_element(By.ID, "1101")
         if "display: none" not in more_button.get_attribute("style"):
@@ -119,6 +120,6 @@ def get_tdnet_xbrl(
             uid = Path(filename).name.replace(".zip", "")
             save_file = save_dir / f"{code}_{date_str}_{uid}.zip"
             if not download_file.exists():
-                print(f"File not found: {download_file}")
+                logger.warning(f"File not found: {download_file}")
                 continue
             download_file.rename(save_file)
