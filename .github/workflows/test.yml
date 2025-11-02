@@ -23,6 +23,7 @@ jobs:
       uses: actions/setup-python@v5
       with:
         python-version: ${{ matrix.python-version }}
+        allow-prereleases: true
     
     - name: Set up chrome
       run: |
@@ -33,14 +34,14 @@ jobs:
     - name: Install dependencies
       run: |
         pip install -e .
-        pip install pytest
+        pip install pytest ruff
     
     - name: Run linting with ruff
       run: |
-        ruff check src/data_fetcher/
+        python -m ruff check src/data_fetcher/
       continue-on-error: false
     
     - name: Run tests with pytest
       run: |
-        pytest tests/ -v
+        python -m pytest tests/ -v
       continue-on-error: false
