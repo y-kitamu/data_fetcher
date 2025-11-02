@@ -1,9 +1,5 @@
 """Tests for session module to validate logic before refactoring"""
 
-from pathlib import Path
-
-import pytest
-
 
 def test_get_session_with_cache():
     """Test get_session with cache enabled"""

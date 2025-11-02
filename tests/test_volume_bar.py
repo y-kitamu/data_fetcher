@@ -3,7 +3,6 @@
 import datetime
 
 import polars as pl
-import pytest
 
 
 def test_convert_ticker_to_volume_bar():
