@@ -95,14 +95,12 @@ class HistDataReader(BaseReader):
         )
         return df.sort("datetime")
 
-    def read_ohlc(
+    def read_ohlc_impl(
         self,
         symbol: str,
         interval: datetime.timedelta,
         start_date: datetime.datetime = datetime.datetime(1970, 1, 1),
         end_date: datetime.datetime = datetime.datetime.now(),
-        fill_missing_date: bool = False,
-        read_interval: datetime.timedelta | None = None,
     ) -> pl.DataFrame:
         """Read OHLC data for a given symbol by aggregating tick data"""
         # Read tick data

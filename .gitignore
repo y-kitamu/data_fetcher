@@ -9,6 +9,7 @@
 /data/tdnet/raw/
 /data/tdnet/download/
 /data/sbi/
+/data/Downloads/
 /cert/
 __pycache__/
 *.pyc
