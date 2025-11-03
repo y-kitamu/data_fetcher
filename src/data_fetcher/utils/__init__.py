@@ -1,7 +1,7 @@
 """__init__.py"""
 
-from . import market
+from . import converters, market
 
 # from .market_capital import get_market_capital
 
-__all__ = ["market"]
+__all__ = ["converters", "market"]
