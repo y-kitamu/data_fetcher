@@ -8,10 +8,12 @@ from selenium import webdriver
 from selenium.webdriver.chrome.options import Options as ChromeOptions
 from selenium.webdriver.common.by import By
 
+from ..constants import PROJECT_ROOT
+
 options = ChromeOptions()
 options.set_capability("se:name", "test_visit_basic_auth_secured_page (ChromeTests)")
-download_dir = Path("/home/kitamura/work/data_fetcher/data/Downloads")
-save_root_dir = Path("/home/kitamura/work/data_fetcher/data/tdnet/raw/")
+download_dir = PROJECT_ROOT / "data" / "Downloads"
+save_root_dir = PROJECT_ROOT / "data" / "tdnet" / "raw"
 executor_url = "http://localhost:4444"
 
 
