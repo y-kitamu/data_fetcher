@@ -2,9 +2,9 @@ import datetime
 
 import polars as pl
 
-from ..base_fetcher import convert_timedelta_to_str
-from ..base_reader import BaseReader
-from ..constants import PROJECT_ROOT
+from ..core.base_fetcher import convert_timedelta_to_str
+from ..core.base_reader import BaseReader
+from ..core.constants import PROJECT_ROOT
 
 DATA_DIR = PROJECT_ROOT / "data" / "yfinance" / "minutes"
 

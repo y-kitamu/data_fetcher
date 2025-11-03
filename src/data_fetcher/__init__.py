@@ -1,60 +1,52 @@
-"""__init__.py"""
+"""Data Fetcher - Financial data collection and reading package.
+
+This package provides a unified interface for fetching and reading financial data
+from various sources including cryptocurrency exchanges, stock markets, forex, and
+disclosure databases.
+"""
 
 import sys
 
 from loguru import logger
 
-from . import (
-    base_fetcher,
-    binance,
-    bitflyer,
-    cftc,
-    constants,
-    debug,
-    edinet,
-    fetcher,
-    gmo,
-    histdata,
-    kabutan,
-    notification,
-    rakuten,
-    readers,
-    sbi,
-    session,
-    tdnet,
-    ticker_list,
-    utils,
-    yfinance,
+# Import core modules
+# Import utility modules (kept for backward compatibility)
+from . import core, domains, fetchers, processors, readers
+
+# Import commonly used functions and classes
+from .core import (
+    PROJECT_ROOT,
+    BaseFetcher,
+    BaseReader,
+    get_session,
 )
+from .fetchers import get_available_sources as get_available_fetcher_sources
+from .fetchers import get_fetcher
+from .readers import get_reader
 
 __all__ = [
-    "base_fetcher",
-    "binance",
-    "bitflyer",
-    "cftc",
-    "constants",
-    "debug",
-    "edinet",
-    "fetcher",
-    "gmo",
-    "histdata",
-    "kabutan",
-    "notification",
-    "rakuten",
+    # Core modules
+    "core",
+    "domains",
+    "fetchers",
+    "processors",
     "readers",
-    "sbi",
-    "session",
-    "tdnet",
-    "ticker_list",
-    "utils",
-    "yfinance",
+    # Core classes and functions
+    "BaseFetcher",
+    "BaseReader",
+    "PROJECT_ROOT",
+    "get_session",
+    "get_fetcher",
+    "get_reader",
+    "get_available_fetcher_sources",
+    # Logger
     "logger",
 ]
 
+# Configure logger
 logger.remove()
 logger.add(
     sys.stdout,
     format="[{time:YYYY-MM-DD HH:mm:ss} {level} {file.path} at line {line}] {message}",
     level="DEBUG",
 )
-# logger.debug("data_fetcher package initialized")
