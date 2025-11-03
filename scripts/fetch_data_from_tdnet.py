@@ -5,7 +5,7 @@ from bs4 import BeautifulSoup
 from requests import Session
 
 import data_fetcher
-from data_fetcher.session import get_session
+from data_fetcher.core.session import get_session
 
 base_url = "https://www.release.tdnet.info/inbs/"
 work_dir = data_fetcher.constants.PROJECT_ROOT / "data/tdnet/tmp"

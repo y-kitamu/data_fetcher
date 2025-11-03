@@ -10,9 +10,11 @@ import requests
 from bs4 import BeautifulSoup
 
 import data_fetcher
-from data_fetcher.kabutan.financial import (FinancialStatement,
-                                            get_annual_results,
-                                            get_quarter_results)
+from data_fetcher.domains.kabutan.financial import (
+    FinancialStatement,
+    get_annual_results,
+    get_quarter_results,
+)
 
 
 def get_financial_data(
