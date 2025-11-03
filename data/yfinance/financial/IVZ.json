@@ -889,7 +889,7 @@
         "Basic EPS": 0.29,
         "Diluted NI Availto Com Stockholders": 132200000.0,
         "Net Income Common Stockholders": 132200000.0,
-        "Otherunder Preferred Stock Dividend": NaN,
+        "Otherunder Preferred Stock Dividend": 0.0,
         "Preferred Stock Dividends": 59200000.0,
         "Net Income": 191400000.0,
         "Minority Interests": -4500000.0,
@@ -1091,7 +1091,7 @@
     },
     "2025-06-30": {
         "Tax Effect Of Unusual Items": 0.0,
-        "Tax Rate For Calcs": 0.280612,
+        "Tax Rate For Calcs": 0.281,
         "Normalized EBITDA": 335200000.0,
         "Total Unusual Items": NaN,
         "Total Unusual Items Excluding Goodwill": NaN,
