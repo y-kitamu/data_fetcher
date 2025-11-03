@@ -1,3 +1,12 @@
+"""CFTC (Commodity Futures Trading Commission) data utilities.
+
+This module provides utilities for reading and processing CFTC Commitments of
+Traders (COT) reports, which provide weekly data on futures market positions.
+
+The module includes column mappings for converting CFTC report format to a
+more concise internal format, and functions for reading CSV files.
+"""
+
 import csv
 import datetime
 from pathlib import Path

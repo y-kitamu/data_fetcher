@@ -1,3 +1,5 @@
+"""Reader for Yahoo Finance minute-level data stored locally."""
+
 import datetime
 
 import polars as pl
@@ -10,6 +12,11 @@ DATA_DIR = PROJECT_ROOT / "data" / "yfinance" / "minutes"
 
 
 class YFinanceReader(BaseReader):
+    """Reader for accessing stored Yahoo Finance minute-level data.
+    
+    Reads OHLCV data that was previously fetched from Yahoo Finance and
+    stored in CSV format under data/yfinance/minutes/.
+    """
     def __init__(self):
         self._available_tickers = []
 
