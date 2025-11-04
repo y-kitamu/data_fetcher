@@ -813,7 +813,7 @@
         "Gain On Sale Of Ppe": NaN,
         "Restructuring And Mergern Acquisition": 0.0,
         "Earnings From Equity Interest": NaN,
-        "Gain On Sale Of Security": 614000.0,
+        "Gain On Sale Of Security": NaN,
         "Net Non Operating Interest Income Expense": NaN,
         "Interest Expense Non Operating": NaN,
         "Interest Income Non Operating": NaN,
@@ -1028,7 +1028,7 @@
         "Operating Revenue": 198957000.0
     },
     "2025-06-30": {
-        "Tax Effect Of Unusual Items": 1748670.0,
+        "Tax Effect Of Unusual Items": 1673280.0,
         "Tax Rate For Calcs": 0.21,
         "Normalized EBITDA": 75935000.0,
         "Total Unusual Items": 7968000.0,
@@ -1063,7 +1063,7 @@
         "Gain On Sale Of Ppe": 13895000.0,
         "Restructuring And Mergern Acquisition": 5568000.0,
         "Earnings From Equity Interest": 659000.0,
-        "Gain On Sale Of Security": NaN,
+        "Gain On Sale Of Security": -359000.0,
         "Net Non Operating Interest Income Expense": 6791000.0,
         "Interest Expense Non Operating": 777000.0,
         "Interest Income Non Operating": 7568000.0,
