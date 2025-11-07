@@ -329,7 +329,7 @@ ASTS,AST SPACEMOBILE,ASTスペースモバイル,NASDAQ,通信サービス,○
 ASUR,ASURE SOFTWARE,アシュア・ソフトウエア,NASDAQ,ソフトウェア・サービス,○
 ASX,ASE TCHNLGY HOLD,ASEテクノロジー・ホールディングス,NYSE,半導体製造,○
 ASYS,AMTECH SYSTEMS,アムテック・システムズ,NASDAQ,半導体製造,○
-ATAI,ATAI LIFE SCNCES,アタイ・ライフ・サイエンシズ,NASDAQ,医薬品（バイオテクノロジー）,○
+ATAI,ATAI BECKLEY,アタイ・ベックリー,NASDAQ,医薬品（バイオテクノロジー）,○
 ATAT,ATOUR LIFESTYLE,アトゥール・ライフスタイル・ホールディングス,NASDAQ,ホテル,○
 ATEC,ALPHATEC HOLDING,アルファテック・ホールディングス,NASDAQ,ヘルスケア,○
 ATEN,A10 NETWORKS INC,A10ネットワークス,NYSE,ソフトウェア・サービス,○
@@ -478,6 +478,7 @@ BELFA,BEL FUSE CL A,ベル・ヒューズ・クラスA,NASDAQ,その他製造,�
 BELFB,BEL FUSE CL B,ベル・ヒューズ・クラスB,NASDAQ,その他製造,○
 BEN,FRANKLIN INC,フランクリン・リソーシズ,NYSE,その他,○
 BEPC,BROOKFIELD RENEW,ブルックフィールド・リニューアブル,NYSE,電力,○
+BETA,BETA TECH,ベータ・テクノロジーズ,NYSE,航空機・宇宙,○
 BF.A,BROWN-FORMAN A,ブラウン・フォーマン　クラスA,NYSE,飲料,○
 BF.B,BROWN-FORMAN B,ブラウン・フォーマン　クラスB,NYSE,飲料,○
 BFAM,BRIGHT HORIZONS,ブライト・ホライズン・ファミリー・ソリューションズ,NYSE,ソフトウェア・サービス,○
@@ -2609,7 +2610,6 @@ MQ,MARKETA INC,マルケタ,NASDAQ,金融(カード),○
 MRAL,GNS 2X LONG MARA,GraniteShares2倍ロングMARAデイリーETF,NASDAQ,その他,○
 MRAM,EVERSPIN TECH,エバースピン・テクノロジー,NASDAQ,コンピュータ,○
 MRBK,MERIDIAN CORP,メリディアン,NASDAQ,金融（銀行）,○
-MRC,MRC GLOBAL INC,MRCグローバル,NYSE,その他製造,○
 MRCY,MERCURY SYSTEMS,マーキュリー・システムズ,NASDAQ,コンピュータ,○
 MREO,MEREO BIOPHARMA,メレオ・バイオファーマ・グループ,NASDAQ,医薬品（バイオテクノロジー）,○
 MRK,MERCK & CO.,メルク,NYSE,医薬品,○
@@ -4441,6 +4441,7 @@ XYL,XYLEM INC,ザイレム,NYSE,その他製造,○
 XYLD,GLBLX SP500 CC,グローバルＸ S&P500・カバード・コール ETF,NYSE,その他,○
 XYLG,GLBLX SP500 CC50,グローバルＸ S&P500・カバード・コール50 ETF,NYSE,その他,○
 XYZ,BLOCK INC,ブロック,NYSE,情報処理サービス,○
+XZO,EXZEO GROUP INC,エグゼオ・グループ,NYSE,ソフトウェア・サービス,○
 YALA,YALLA GROUP LTD,ヤッラー・グループ,NYSE,ソフトウェア・サービス,○
 YANG,DRX FTSE CH BR3X,Direxion デイリー FTSE中国株 ベア 3倍 ETF,NYSE,その他,○
 YELP,YELP INC,イェルプ,NYSE,情報処理サービス,○
