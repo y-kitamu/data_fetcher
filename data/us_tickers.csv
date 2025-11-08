@@ -88,6 +88,7 @@ AEM,AGNICO EAGLE,アグニコ・イーグル・マインズ,NYSE,その他,○
 AEO,AMERICAN EAGLE,アメリカン・イーグル・アウトフィッターズ,NYSE,専門店,○
 AEP,AMERICAN ELEC,アメリカン・エレクトリック・パワー,NASDAQ,その他製造,○
 AER,AERCAP HOLDINGS,エアキャップ・ホールディングス,NYSE,航空,○
+AERO,GRUPO AEROMEXICO,グループ・アエロメヒコ,NYSE,航空,○
 AES,AES CORPORATION,AES,NYSE,その他製造,○
 AESI,ATLAS ENERGY SLT,アトラス・エナジー・ソリューションズ,NYSE,石油,○
 AEVA,AEVA TECHNO,エヴァ・テクノロジーズ,NASDAQ,ソフトウェア・サービス,○
@@ -539,6 +540,7 @@ BLFY,BLUE FOUNDRY BC,ブルー・ファウンドリー・バンコープ,NASDAQ,
 BLIN,BRIDGELINE DGTL,ブリッジライン・デジタル,NASDAQ,ソフトウェア・サービス,○
 BLK,BLACKROCK INC,ブラックロック,NYSE,金融（証券）,○
 BLKB,BLACKBAUD INC,ブラックボー,NASDAQ,ソフトウェア・サービス,○
+BLLN,BILLIONTOONE ING,ビリオントゥーワン,NASDAQ,医薬品（バイオテクノロジー）,○
 BLMN,BLOOMIN BRANDS,ブルーミン・ブランズ,NASDAQ,外食,○
 BLND,BLEND LABS INC,ブレンド・ラブス,NYSE,ソフトウェア・サービス,○
 BLNK,BLINK CHARGING,ブリンク・チャージング,NASDAQ,その他製造,○
@@ -1379,6 +1381,7 @@ EVGO,EVGO INC,EVゴー,NASDAQ,その他,○
 EVH,EVOLENT HEALTH,エボレント・ヘルス,NYSE,医療サービス,○
 EVI,EVI INDUSTRIES,EVIインダストリーズ,NYSE,機械,○
 EVLV,EVOLV TECHNO,エボルブ・テクノロジーズ・ホールディングス,NASDAQ,その他製造,○
+EVMN,EVOMMUNE INC,エボミューン,NYSE,医薬品（バイオテクノロジー）,○
 EVO,EVOTEC SE,エヴォテック,NASDAQ,医薬品,○
 EVOK,EVOKE PHARMA INC,イヴォーク･ファーマ,NASDAQ,医薬品（バイオテクノロジー）,○
 EVR,EVERCORE INC,エバーコア,NYSE,金融（銀行）,○
@@ -3222,6 +3225,7 @@ PYPD,POLYPID LTD,ポリピッド,NASDAQ,医薬品,○
 PYPL,PAYPAL HOLDINGS,ペイパル,NASDAQ,ソフトウェア・サービス,○
 PYXS,PYXIS ONCOLOGY,ピクシス・オンコロジー,NASDAQ,医薬品（バイオテクノロジー）,○
 PZZA,PAPA JOHNS INTL,パパ・ジョンズ・インターナショナル,NASDAQ,外食,○
+Q,QNITY ELECTRONIC,キューニティー・エレクトロニクス,NYSE,その他製造,○
 QCLN,FT NQ CLEAN ENRG,ファーストトラスト ナスダック クリーンエッジ グリーンエネルギー指数ファンド,NASDAQ,その他,○
 QCML,GNS 2X LONG QCOM,GraniteShares2倍ロングQCOMデイリーETF,NASDAQ,その他,○
 QCOM,QUALCOMM INC.,クアルコム,NASDAQ,通信機器,○
