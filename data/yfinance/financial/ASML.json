@@ -777,7 +777,7 @@
         "Research And Development": NaN,
         "Selling General And Administration": NaN,
         "Gross Profit": NaN,
-        "Cost Of Revenue": 3030600000.0,
+        "Cost Of Revenue": NaN,
         "Total Revenue": NaN,
         "Operating Revenue": NaN
     },
@@ -972,7 +972,7 @@
         "Research And Development": 1108700000.0,
         "Selling General And Administration": 303200000.0,
         "Gross Profit": 3880300000.0,
-        "Cost Of Revenue": NaN,
+        "Cost Of Revenue": 3635700000.0,
         "Total Revenue": 7516000000.0,
         "Operating Revenue": 7516000000.0
     }

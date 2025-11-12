@@ -1490,7 +1490,6 @@ FHB,FIRST HAWAIIAN,ファースト・ハワイアン,NASDAQ,金融（銀行）,�
 FHI,FEDERATED HERMES,フェデレーテッド・ヘルメス,NYSE,金融（証券）,○
 FHN,FIRST HORIZN CO,ファースト・ホライズン・コーポレーション,NYSE,金融（銀行）,○
 FHTX,FOGHORN THERAPEU,フォグホーン・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
-FI,FISERV INC,ファイサーブ,NYSE,情報処理サービス,○
 FIBK,FIRST INTERSTATE,ファースト・インターステート・バンクシステム,NASDAQ,金融（銀行）,○
 FICO,FAIR ISAAC CORP,フェア・アイザック,NYSE,ソフトウェア・サービス,○
 FID,FT SP INT D ARST,ファーストトラスト S&Pインターナショナル配当貴族ETF,NASDAQ,その他,○
@@ -1503,6 +1502,7 @@ FINX,GLOBAL X FINTECH,グローバルX フィンテック ETF,NASDAQ,その他,�
 FIP,FTAI INFRASTRUCT,FTAIインフラストラクチャ,NASDAQ,その他,○
 FIS,FIDELITYNATIONAL,フィデリティ・ナショナル・インフォメーション・サービシーズ,NYSE,情報処理サービス,○
 FISI,FINCIAL INSTION,ファイナンシャル・インスティテューションズ,NASDAQ,金融（銀行）,○
+FISV,FISERV INC,ファイサーブ,NASDAQ,情報処理サービス,○
 FITB,FIFTH THIRD BANC,フィフス・サード・バンコープ,NASDAQ,金融（銀行）,○
 FIVE,FIVE BELOW,ファイブ ビロウ,NASDAQ,小売,○
 FIVN,FIVE9 INC,ファイブ9,NASDAQ,ソフトウェア・サービス,○
@@ -1832,6 +1832,7 @@ HEDJ,WT EUR HEDGED EQ,ウィズダムツリー  欧州株米ドルヘッジ付�
 HEI,HEICO CORP,ハイコ,NYSE,その他製造,○
 HELE,HELEN OF TROY,ヘレン・オブ・トロイ,NASDAQ,その他製造,○
 HEPS,DMARKET ELEC SER,Dマーケット・エレクトロニック・サービシズ・アンド・トレーディング,NASDAQ,ソフトウェア・サービス,○
+HERE,HERE GROUP,ヒア・グループ,NASDAQ,情報処理サービス,○
 HERO,GLX VIDEO GM ETF,グローバルX ヒーローズ（ゲーム＆eスポーツ）ETF,NASDAQ,その他,○
 HESM,HESS MIDSTREAM,ヘス・ミッドストリーム,NYSE,専門店,○
 HEWJ,ISHARES DHDG JP,iシェアーズ 米ドルヘッジ MSCI ジャパン ETF,NYSE,その他,○
@@ -3255,7 +3256,6 @@ QRHC,QUEST RESOURCE,クエスト・リソース・ホールディング,NASDAQ,�
 QRMI,GLBLX NDX R MNGD,グローバルX NASDAQ100・リスク管理・インカム ETF,NASDAQ,その他,○
 QRVO,QORVO INC,クォルボ,NASDAQ,半導体製造,○
 QS,QUANTUMSCAPE CO,クアンタムスケープ,NYSE,その他製造,○
-QSG,QUANTASING GROUP,クアンタシング・グループ,NASDAQ,情報処理サービス,○
 QSI,QUANTUM SI INC,クアンタム・シイ,NASDAQ,その他製造,○
 QSR,RESTAURANT BRAND,レストラン・ブランズ・インターナショナル,NYSE,外食,○
 QTEC,FT NQ100TECH ETF,ファーストトラスト ナスダック100 テクノロジーセクター指数ファンド,NASDAQ,その他,○
@@ -3722,7 +3722,6 @@ SQQQ,PRO ULTSHORT QQQ,プロシェアーズ・ウルトラプロ・ショートQ
 SR,SPIRE INC,スパイア,NYSE,ガス・パイプライン,○
 SRAD,SPORTRADAR GRP,スポートレーダー・グループ,NASDAQ,エンターテイメント,○
 SRCE,1ST SOURCE CORP,ファースト・ソース,NASDAQ,金融（銀行）,○
-SRDX,SURMODICS INC,サーモディクス,NASDAQ,ヘルスケア,○
 SRE,SEMPRA ENERGY,センプラ・エナジー,NYSE,ガス・パイプライン,○
 SRET,GBLX SDIV REIT,グローバルX スーパーディビィデンド-世界リート ETF,NASDAQ,その他,○
 SRI,STONERIDGE INC,ストーンリッジ,NYSE,その他製造,○
