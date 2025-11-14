@@ -113,7 +113,6 @@ AGIX,KRS AI TECH ETF,KraneShaers AI テクノロジーETF,NASDAQ,その他,○
 AGL,AGILON HEALTH,アジロン・ヘルス,NYSE,ソフトウェア・サービス,○
 AGM,FED AGRICULTURAL,フェデラル・アグリカルチャラル・モーゲージ,NYSE,金融（銀行）,○
 AGO,ASSURED GUARANTY,アシュアード･ギャランティー,NYSE,金融(保険),○
-AGRI,AGRIFORCE GR SYS,アグリフォース・グローイング・システムズ,NASDAQ,その他,○
 AGRO,ADECOAGRO SA,アデコアグロ,NYSE,食品,○
 AGX,ARGAN INC,アルガン,NYSE,電力,○
 AGYS,AGILYSYS INC,アジリシス,NASDAQ,ソフトウェア・サービス,○
@@ -387,6 +386,7 @@ AVTR,AVANTOR INC,アバンター,NYSE,ヘルスケア,○
 AVTX,AVALO THERAPEU,アバロー・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 AVUS,AVT US EQ ETF,アバンティス・US・エクイティ・ETF,NYSE,その他,○
 AVUV,AVT US S CPV ETF,アバンティス・US・スモール・キャップ・バリュー・ETF,NYSE,その他,○
+AVX,AVAX ONE TECH,エイベックス・ワン・テクノロジー,NASDAQ,その他,○
 AVXL,ANAVEX LIFE SCNC,アナベックス・ライフ・サイエンシズ,NASDAQ,医薬品（バイオテクノロジー）,○
 AVY,AVERY DENNISON,エイブリィ・デニソン,NYSE,化学,○
 AWI,ARMSTRONG WORLD,アームストロング・ワールド・インダストリーズ,NYSE,その他,○
@@ -1304,7 +1304,6 @@ EMLP,FT NRTH AM ENGY,ファーストトラスト 北米エネルギー・イン�
 EMN,EASTMAN CHEMICAL,イーストマン・ケミカル,NYSE,化学,○
 EMPD,EMPERY DIGITAL,エンペリー・デジタル,NASDAQ,自動車,○
 EMR,EMERSON ELECTRIC,エマソン・エレクトリック,NYSE,その他製造,○
-EMX,EMX ROYALTY CORP,EMXロイヤリティ,NYSE,その他,○
 ENB,ENBRIDGE INC,エンブリッジ,NYSE,ガス・パイプライン,○
 ENIC,ENEL CHILE SA,エネル・チリSA,NYSE,電力,○
 ENLV,ENLIVEX THERAPEU,エンライベックス・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
@@ -2083,7 +2082,6 @@ IPM,INTLI PRO MANAGE,インテリジェント・プロテクション・マネ�
 IPSC,CENTURY THERAPE,センチュリー・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 IPW,IPOWER INC,アイパワー,NASDAQ,小売,○
 IPWR,IDEAL POWER INC,アイディール・パワー,NASDAQ,その他製造,○
-IPX,IPERIONX,アイペリオンX,NASDAQ,航空機・宇宙,○
 IQ,IQIYI INC,アイチーイー,NASDAQ,エンターテイメント,○
 IQQQ,PROS NQ100 HINCM,プロシェアーズ・ナスダック-100 ハイ・インカムETF,NASDAQ,その他,○
 IQV,IQVIA HOLDINGS,IQVIAホールディングス,NYSE,医療サービス,○
@@ -2383,7 +2381,6 @@ LNN,LINDSAY CORP,リンゼー,NYSE,機械,○
 LNSR,LENSAR INC,レンサー,NASDAQ,医療サービス,○
 LNT,ALLIANT ENERGY C,アライアント・エナジー,NASDAQ,電力,○
 LNTH,LANTHEUS HLD,ランセウス・ホールディングス,NASDAQ,ヘルスケア,○
-LNW,LIGHT WONDER,ライト・アンド・ワンダー,NASDAQ,エンターテイメント,○
 LOAR,LOAR HOLDING,ロアー・ホールディングス,NYSE,航空機・宇宙,○
 LOB,LIVE OAK BANCSHR,ライブ・オーク・バンクシェアーズ,NYSE,金融（銀行）,○
 LOCL,LOCAL BOUNTI,ローカル・バウンティ,NYSE,食品,○
@@ -2878,7 +2875,7 @@ NXGL,NEXGEL INC,ネクスジェル,NASDAQ,医薬品,○
 NXPI,NXP SEMICON,NXPセミコンダクターズ,NASDAQ,半導体,○
 NXPL,NEXTPLAT CORP,ネクストプラット,NASDAQ,通信機器,○
 NXST,NEXSTAR MEDIA,ネクスター・メディア・グループ,NASDAQ,その他,○
-NXT,NEXTRACKER,ネクストラッカー,NASDAQ,電力,○
+NXT,NEXTPOWER,ネクストパワー,NASDAQ,電力,○
 NXTG,FT INDXX NEXTG,ファーストトラスト Indxx ネクストG ETF,NASDAQ,その他,○
 NXXT,NEXTNRG INC,ネクストNRG,NASDAQ,石油,○
 NYT,NEW YORK TIMES,ニューヨーク・タイムズ,NYSE,その他,○
