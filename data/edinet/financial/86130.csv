@@ -1091,3 +1091,15 @@ number_of_employee,2022-04-01,2023-03-31,jpcrp_cor:NumberOfEmployees,Prior2YearI
 number_of_employee,2023-04-01,2024-03-31,jpcrp_cor:NumberOfEmployees,Prior1YearInstant,1112,202506180909
 operating_income,2023-04-01,2024-03-31,jppfs_cor:OperatingIncome,Prior1YearDuration,3694000000,202506180909
 operating_income,2024-04-01,2025-03-31,jppfs_cor:OperatingIncome,CurrentYearDuration,3545000000,202506180909
+ordinary_income,2025-01-01,2025-12-31,jpcrp_cor:OrdinaryIncomeLossSummaryOfBusinessResults,Prior1InterimDuration,2219000000,202511130900
+net_income,2025-04-01,2026-03-31,jpcrp_cor:NetIncomeLossSummaryOfBusinessResults,InterimDuration_NonConsolidatedMember,2301000000,202511130900
+net_income,2024-04-01,2025-03-31,jpcrp_cor:NetIncomeLossSummaryOfBusinessResults,Prior1YearDuration_NonConsolidatedMember,4520000000,202511130900
+comprehensive_income,2025-04-01,2026-03-31,jpcrp_cor:NetIncomeLossSummaryOfBusinessResults,InterimDuration_NonConsolidatedMember,2301000000,202511130900
+comprehensive_income,2024-04-01,2025-03-31,jpcrp_cor:NetIncomeLossSummaryOfBusinessResults,Prior1YearDuration_NonConsolidatedMember,4520000000,202511130900
+net_asset,2025-01-01,2025-12-31,jpcrp_cor:NetAssetsSummaryOfBusinessResults,Prior1InterimInstant,50608000000,202511130900
+total_asset,2025-01-01,2025-12-31,jpcrp_cor:TotalAssetsSummaryOfBusinessResults,Prior1InterimInstant,92778000000,202511130900
+eps,2025-01-01,2025-12-31,jpcrp_cor:BasicEarningsLossPerShareSummaryOfBusinessResults,Prior1InterimDuration,23.26,202511130900
+diluted_eps,2025-01-01,2025-12-31,jpcrp_cor:DilutedEarningsPerShareSummaryOfBusinessResults,Prior1InterimDuration,23.18,202511130900
+equity_ratio,2025-01-01,2025-12-31,jpcrp_cor:EquityToAssetRatioSummaryOfBusinessResults,Prior1InterimInstant,0.5440,202511130900
+number_of_shares,2025-01-01,2025-12-31,jpcrp_cor:TotalNumberOfIssuedSharesSummaryOfBusinessResults,Prior1InterimInstant,67398262,202511130900
+operating_income,2025-04-01,2026-03-31,jppfs_cor:OperatingIncome,InterimDuration_NonConsolidatedMember,1696000000,202511130900
