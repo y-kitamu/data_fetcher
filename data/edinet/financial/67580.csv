@@ -630,3 +630,6 @@ gross_profit,2023-04-01,2024-03-31,jppfs_cor:GrossProfit,Prior1YearDuration_NonC
 gross_profit,2024-04-01,2025-03-31,jppfs_cor:GrossProfit,CurrentYearDuration_NonConsolidatedMember,447318000000,202506201600
 operating_income,2023-04-01,2024-03-31,jppfs_cor:OperatingIncome,Prior1YearDuration_NonConsolidatedMember,294675000000,202506201600
 operating_income,2024-04-01,2025-03-31,jppfs_cor:OperatingIncome,CurrentYearDuration_NonConsolidatedMember,320175000000,202506201600
+net_sales,2025-01-01,2025-12-31,jpcrp_cor:NetSalesSummaryOfBusinessResults,Prior1InterimDuration,5536585000000,202511141624
+net_sales,2025-04-01,2026-03-31,jpcrp_cor:NetSalesSummaryOfBusinessResults,InterimDuration,5729522000000,202511141624
+net_sales,2024-04-01,2025-03-31,jpcrp_cor:NetSalesSummaryOfBusinessResults,Prior1YearDuration,12034917000000,202511141624

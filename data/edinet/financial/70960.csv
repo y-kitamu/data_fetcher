@@ -580,3 +580,17 @@ gross_profit,2023-04-01,2024-03-31,jppfs_cor:GrossProfit,Prior1YearDuration_NonC
 gross_profit,2024-04-01,2025-03-31,jppfs_cor:GrossProfit,CurrentYearDuration_NonConsolidatedMember,1692090000,202506241533
 operating_income,2023-04-01,2024-03-31,jppfs_cor:OperatingIncome,Prior1YearDuration_NonConsolidatedMember,413759000,202506241533
 operating_income,2024-04-01,2025-03-31,jppfs_cor:OperatingIncome,CurrentYearDuration_NonConsolidatedMember,418509000,202506241533
+net_sales,2025-04-01,2026-03-31,jpcrp_cor:NetSalesSummaryOfBusinessResults,InterimDuration,1415094000,202511141532
+ordinary_income,2025-04-01,2026-03-31,jpcrp_cor:OrdinaryIncomeLossSummaryOfBusinessResults,InterimDuration,136744000,202511141532
+net_income,2025-01-01,2025-12-31,jpcrp_cor:NetIncomeLossSummaryOfBusinessResults,Prior1InterimDuration_NonConsolidatedMember,271954000,202511141532
+net_income,2024-04-01,2025-03-31,jpcrp_cor:NetIncomeLossSummaryOfBusinessResults,Prior1YearDuration_NonConsolidatedMember,385796000,202511141532
+comprehensive_income,2025-01-01,2025-12-31,jpcrp_cor:NetIncomeLossSummaryOfBusinessResults,Prior1InterimDuration_NonConsolidatedMember,271954000,202511141532
+comprehensive_income,2024-04-01,2025-03-31,jpcrp_cor:NetIncomeLossSummaryOfBusinessResults,Prior1YearDuration_NonConsolidatedMember,385796000,202511141532
+net_asset,2025-04-01,2026-03-31,jpcrp_cor:NetAssetsSummaryOfBusinessResults,InterimInstant,2999009000,202511141532
+total_asset,2025-04-01,2026-03-31,jpcrp_cor:TotalAssetsSummaryOfBusinessResults,InterimInstant,7852760000,202511141532
+eps,2025-04-01,2026-03-31,jpcrp_cor:BasicEarningsLossPerShareSummaryOfBusinessResults,InterimDuration,8.38,202511141532
+diluted_eps,2025-04-01,2026-03-31,jpcrp_cor:DilutedEarningsPerShareSummaryOfBusinessResults,InterimDuration,－,202511141532
+equity_ratio,2025-04-01,2026-03-31,jpcrp_cor:EquityToAssetRatioSummaryOfBusinessResults,InterimInstant,0.332,202511141532
+cost_of_sales,2025-04-01,2026-03-31,jppfs_cor:CostOfSales,InterimDuration,543686000,202511141532
+gross_profit,2025-04-01,2026-03-31,jppfs_cor:GrossProfit,InterimDuration,871408000,202511141532
+operating_income,2025-04-01,2026-03-31,jppfs_cor:OperatingIncome,InterimDuration,130403000,202511141532
