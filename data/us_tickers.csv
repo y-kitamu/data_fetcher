@@ -685,7 +685,6 @@ CALM,CAL-MAINE FOODS,カルメイン・フーズ,NASDAQ,食品,○
 CALX,CALIX INC,カリックス,NYSE,ソフトウェア・サービス,○
 CAMT,CAMTEK ISRAEL,キャムテック,NASDAQ,その他製造,○
 CAN,CANAAN INC,カナン,NASDAQ,半導体,○
-CANG,CANGO INC,カンゴ,NYSE,その他,○
 CAPR,CAPRICOR THERA,カプリコー・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 CAR,AVIS BUDGET,エイビス・バジェット・グループ ,NASDAQ,運輸,○
 CARE,CARTER BANK TRST,カーター・バンク・アンド・トラスト,NASDAQ,金融（銀行）,○
@@ -2938,7 +2937,6 @@ ONON,ON HOLDING,オン・ホールディング,NYSE,フットウエア,○
 ONTF,ON24 INC,ON24,NYSE,ソフトウェア・サービス,○
 ONTO,ONTO INNOVATION,アントゥー・イノベーション,NYSE,半導体製造,○
 OOMA,OOMA INC,ウーマ,NYSE,通信サービス,○
-OP,OCEANPAL,オーシャンパル,NASDAQ,運輸,○
 OPAD,OFFERPAD SOL,オファーパッド・ソリューションズ,NYSE,その他,○
 OPAL,OPAL FUELS LLC,オパール・フュールズ,NASDAQ,その他,○
 OPBK,OP BANCORP,OPバンコープ,NASDAQ,金融（銀行）,○
@@ -3210,7 +3208,6 @@ PUBM,PUBMATIC INC,パブティック,NASDAQ,ソフトウェア・サービス,�
 PUK,PRUDENTIAL PLC,プルデンシャル,NYSE,金融(保険),○
 PULM,PULMATRIX INC,プルマトリックス,NASDAQ,医薬品（バイオテクノロジー）,○
 PUMP,PROPETRO HOLDING,プロペトロ・ホールディング,NYSE,石油,○
-PVBC,PROVIDENT BANCRP,プロビデント・バンコープ,NASDAQ,金融（銀行）,○
 PVH,PVH CORP,PVHコープ,NYSE,専門店,○
 PVLA,PALVELLA THERA,パルベラ・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 PWP,PERELLA WEINBERG,ペレラ・ワインバーグ・パートナーズ,NASDAQ,金融（銀行）,○
@@ -3783,6 +3780,7 @@ SVCO,SILVACO GROUP,シルバコ・グループ,NASDAQ,半導体,○
 SVM,SILVERCORP METAL,シルバーコープ・メタルズ,NYSE,その他,○
 SVRA,SAVARA INC,サバラ,NASDAQ,医薬品,○
 SVRE,SAVERONE 2014,セイバーワン2014,NASDAQ,自動車,○
+SVRN,OCEANPAL,オーシャンパル,NASDAQ,運輸,○
 SW,SMURFIT WESTROCK,スマーフィット・ウェストロック,NYSE,その他製造,○
 SWBI,SMITH AND WESSON,スミス&ウェッソン・ブランズ,NASDAQ,その他製造,○
 SWIM,LATHAM GROUP,レイサム・グループ,NASDAQ,その他,○
