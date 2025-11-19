@@ -314,7 +314,6 @@ ASLE,AERSALE CORP,アエロセール,NASDAQ,航空機・宇宙,○
 ASMB,ASSEMBLY BIO,アセンブリー・バイオサイエンシズ,NASDAQ,医薬品（バイオテクノロジー）,○
 ASML,ASML HOLDING,ASMLホールディング,NASDAQ,半導体,○
 ASND,ASCENDIS PHARMA,アセンディス・ファーマ,NASDAQ,医薬品（バイオテクノロジー）,○
-ASNS,ACTELIS NETWORKS,アクテリス・ネットワークス,NASDAQ,通信機器,○
 ASO,ACADEMY SPRT OUT,アカデミー・スポーツ・アウトドアーズ,NASDAQ,小売,○
 ASPN,ASPEN AEROGELS,アスペン・エアロジェルズ,NYSE,小売,○
 ASPS,ALTISOURCE PFLIO,アルティソース・ポートフォリオ・ソリューションズ,NASDAQ,その他,○
@@ -685,6 +684,7 @@ CALM,CAL-MAINE FOODS,カルメイン・フーズ,NASDAQ,食品,○
 CALX,CALIX INC,カリックス,NYSE,ソフトウェア・サービス,○
 CAMT,CAMTEK ISRAEL,キャムテック,NASDAQ,その他製造,○
 CAN,CANAAN INC,カナン,NASDAQ,半導体,○
+CANG,CANGO INC,カンゴ,NYSE,その他,○
 CAPR,CAPRICOR THERA,カプリコー・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 CAR,AVIS BUDGET,エイビス・バジェット・グループ ,NASDAQ,運輸,○
 CARE,CARTER BANK TRST,カーター・バンク・アンド・トラスト,NASDAQ,金融（銀行）,○
@@ -1645,7 +1645,6 @@ GBCI,GLACIER BANCORP,グレーシャー・バンコープ,NYSE,金融（銀行�
 GBTG,GLBL BSNSS TRAVL,グローバル・ビジネス・トラベル・グループ,NYSE,その他,○
 GBX,GREENBRIER CMPNS,グリーンブライアー・カンパニーズ,NYSE,その他製造,○
 GCBC,GREENE COUNTY BC,グリーン・カウンティ・バンコープ,NASDAQ,金融（銀行）,○
-GCI,GANNETT CO INC,ガネット,NYSE,ソフトウェア・サービス,○
 GCMG,GCM GROSVENOR,GCMグロブナー,NASDAQ,金融（証券）,○
 GCO,GENESCO INC,ゼネスコ,NYSE,専門店,○
 GCT,GIGACLOUD TECH,ギガクラウド・テクノロジー,NASDAQ,情報処理サービス,○
@@ -2081,6 +2080,7 @@ IPM,INTLI PRO MANAGE,インテリジェント・プロテクション・マネ�
 IPSC,CENTURY THERAPE,センチュリー・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 IPW,IPOWER INC,アイパワー,NASDAQ,小売,○
 IPWR,IDEAL POWER INC,アイディール・パワー,NASDAQ,その他製造,○
+IPX,IPERIONX,アイペリオンX,NASDAQ,航空機・宇宙,○
 IQ,IQIYI INC,アイチーイー,NASDAQ,エンターテイメント,○
 IQQQ,PROS NQ100 HINCM,プロシェアーズ・ナスダック-100 ハイ・インカムETF,NASDAQ,その他,○
 IQV,IQVIA HOLDINGS,IQVIAホールディングス,NYSE,医療サービス,○
@@ -3834,6 +3834,7 @@ TCRT,ALAUNOS THERAPE,アラウノス・セラピューティクス,NASDAQ,医薬
 TCRX,TSCAN THERAPEUT,ティエスキャン・セラピューティクス,NASDAQ,医薬品,○
 TCX,TUCOWS INC,トゥカウズ,NASDAQ,ソフトウェア・サービス,○
 TD,TORONTO-DOMINION,トロント・ドミニオン銀行,NYSE,金融（銀行）,○
+TDAY,USA TODAY CO INC,USA トゥデイ,NYSE,ソフトウェア・サービス,○
 TDC,TERADATA CORP,テラデータ,NYSE,情報処理サービス,○
 TDG,TRANSDIGM GROUP,トランスダイム,NYSE,航空,○
 TDIV,FT NQ TECH DIV,ファーストトラスト ナスダック テクノロジー 配当指数ファンド,NASDAQ,その他,○
