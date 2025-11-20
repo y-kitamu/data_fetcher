@@ -132,6 +132,7 @@ AIRR,FT RBA AM INDUST,ファーストトラスト RBA 米国産業ルネサン�
 AIRS,AIRSCULPT TECHNO,エアスカルプト・テクノロジーズ,NASDAQ,ヘルスケア,○
 AIRT,AIR T INC,エアー・ティー,NASDAQ,運輸,○
 AIT,APPLIED INDUST,アプライド・インダストリアル・テクノロジーズ,NYSE,小売,○
+AIXC,AIXCRYPTO HD,AIxクリプト・ホールディングス,NASDAQ,医薬品（バイオテクノロジー）,○
 AIZ,ASSURANT INC,アシュラント,NYSE,金融(保険),○
 AJG,ARTHUR J GALLAGH,アーサーJ.ギャラガー,NYSE,金融(保険),○
 AKA,AKA BRANDS HLD,AKAブランズ・ホールディング,NYSE,小売,○
@@ -314,6 +315,7 @@ ASLE,AERSALE CORP,アエロセール,NASDAQ,航空機・宇宙,○
 ASMB,ASSEMBLY BIO,アセンブリー・バイオサイエンシズ,NASDAQ,医薬品（バイオテクノロジー）,○
 ASML,ASML HOLDING,ASMLホールディング,NASDAQ,半導体,○
 ASND,ASCENDIS PHARMA,アセンディス・ファーマ,NASDAQ,医薬品（バイオテクノロジー）,○
+ASNS,ACTELIS NETWORKS,アクテリス・ネットワークス,NASDAQ,通信機器,○
 ASO,ACADEMY SPRT OUT,アカデミー・スポーツ・アウトドアーズ,NASDAQ,小売,○
 ASPN,ASPEN AEROGELS,アスペン・エアロジェルズ,NYSE,小売,○
 ASPS,ALTISOURCE PFLIO,アルティソース・ポートフォリオ・ソリューションズ,NASDAQ,その他,○
@@ -350,7 +352,6 @@ ATR,APTAR GROUP INC,アプターグループ,NYSE,その他製造,○
 ATRA,ATARA BIOTHERAPE,アタラ・バイオセラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 ATRC,ATRICURE INC,アトリキュア,NASDAQ,ヘルスケア,○
 ATRO,ASTRONICS CORP,アストロニクス,NASDAQ,航空機・宇宙,○
-ATUS,ALTICE USA INC,アルティスUSA,NYSE,通信サービス,○
 ATXS,ASTRIA THERAPE,アストリア・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 ATYR,ATYR PHARMA INC,エータイヤ・ファーマ,NASDAQ,医薬品,○
 AU,ANGLO ASH  NEWCO,アングロゴールド・アシャンティ,NYSE,その他,○
@@ -2031,7 +2032,6 @@ INDB,INDEPENDENT BANK,インディペンデント・バンク,NASDAQ,金融（�
 INDI,INDIE SEMICON,インディー・セミコンダクタ,NASDAQ,半導体製造,○
 INDL,DRX INDIA BL2X,Direxion デイリー MSCI インド株 ブル2倍 ETF,NYSE,その他,○
 INDP,INDAPTUS THERAPE,インダプタス・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
-INFA,INFORMATICA INC,インフォマティカ,NYSE,ソフトウェア・サービス,○
 INFU,INFUSYSTEM HLDG,インフューシステム・ホールディングス,NYSE,医療サービス,○
 INFY,INFOSYS TECH ADR,インフォシス・テクノロジーズ,NYSE,ソフトウェア・サービス,○
 ING,ING GROUP(ADR),INGグループ,NYSE,金融コングロマリット,○
@@ -2949,6 +2949,7 @@ OPPJ,WT JP OPPOTUNITI,ウィズダムツリー　日本株　オポチュニテ�
 OPRA,OPERA LTD,オペラ,NASDAQ,ソフトウェア・サービス,○
 OPRT,OPORTUN FINANCL,オポーチュン・ファイナンシャル,NASDAQ,その他,○
 OPRX,OPTIMIZERX CORP,オプティマイズRX,NASDAQ,医薬品,○
+OPTU,OPTIMUM COMMUNI,オプティマム・コミュニケーションズ,NYSE,通信サービス,○
 OPY,OPPENHEIMER HOLD,オッペンハイマー・ホールディングス,NYSE,金融（証券）,○
 OR,OR ROYALTIES INC,OR ロイヤルティーズ,NYSE,その他,○
 ORA,ORMAT TECHNOLOGI,オーマット・テクノロジーズ,NYSE,電力,○
@@ -3232,7 +3233,6 @@ QGEN,QIAGEN,キアゲン,NYSE,医薬品（バイオテクノロジー）,○
 QID,PROS QQQ -2X,プロシェアーズ・ウルトラショートQQQ,NYSE,その他,○
 QIPT,QUIPT HOME MED,クイプト・ホーム・メディカル,NASDAQ,ヘルスケア,○
 QLD,PROS QQQ 2X,プロシェアーズ・ウルトラQQQ,NYSE,その他,○
-QLGN,QUALIGEN THERAPE,クアリジェン・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 QLYS,QUALYS INC,クォリス,NASDAQ,ネットワークセキュリティー,○
 QNCX,QUINCE THERA,クインス・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 QNRX,QUOIN PHARMAC,クオイン・ファーマシューティカルズ,NASDAQ,医薬品（バイオテクノロジー）,○
@@ -3714,7 +3714,6 @@ SQQQ,PRO ULTSHORT QQQ,プロシェアーズ・ウルトラプロ・ショートQ
 SR,SPIRE INC,スパイア,NYSE,ガス・パイプライン,○
 SRAD,SPORTRADAR GRP,スポートレーダー・グループ,NASDAQ,エンターテイメント,○
 SRCE,1ST SOURCE CORP,ファースト・ソース,NASDAQ,金融（銀行）,○
-SRDX,SURMODICS INC,サーモディクス,NASDAQ,ヘルスケア,○
 SRE,SEMPRA ENERGY,センプラ・エナジー,NYSE,ガス・パイプライン,○
 SRET,GBLX SDIV REIT,グローバルX スーパーディビィデンド-世界リート ETF,NASDAQ,その他,○
 SRI,STONERIDGE INC,ストーンリッジ,NYSE,その他製造,○
