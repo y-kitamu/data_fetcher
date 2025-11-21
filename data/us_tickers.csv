@@ -187,7 +187,6 @@ AM,ANTERO MIDSTREAM,アンテロ・ミッドストリーム,NYSE,ガス・パイ
 AMAL,AMALGAMATED BANK,アマルガメイテッド・バンク,NASDAQ,金融（銀行）,○
 AMAT,APPLIED MATERIAL,アプライド　マテリアルズ,NASDAQ,半導体製造,○
 AMBA,AMBARELLA INC.,アンバレラ,NASDAQ,半導体製造,○
-AMBC,AMBAC FINANCIAL,アンバック・フィナンシャル・グループ,NYSE,金融(保険),○
 AMBP,ARDAGH METAL PAC,アルダ・メタル・パッケージング,NYSE,その他製造,○
 AMBR,AMBER INTER HD,アンバー・インターナショナル・ホールディング,NASDAQ,ソフトウェア・サービス,○
 AMC,AMC ENTERTAINMNT,AMCエンターテインメント・ホールディングス,NYSE,エンターテイメント,○
@@ -555,6 +554,7 @@ BMAX,REX BTC CNV BOND,REX ビットコイン・コーポレート・トレジャ
 BMBL,BUMBLE INC,バンブル,NASDAQ,ソフトウェア・サービス,○
 BMEA,BIOMEA FUSION,バイオメア・フュージョン,NASDAQ,医薬品（バイオテクノロジー）,○
 BMI,BADGER METER INC,バッジャー・メーター,NYSE,その他製造,○
+BMNR,BITMINE IMERSION,ビットマイン・イマージョン・テクノロジーズ,NYSE,金融（証券）,○
 BMO,BANK OF MONTREAL,バンク・オブ・モントリオール,NYSE,金融（銀行）,○
 BMRA,BIOMERICA INC,バイオメリカ,NASDAQ,ヘルスケア,○
 BMRC,BANK OF MARIN,バンク・オブ・マリン・バンコープ,NASDAQ,金融（銀行）,○
@@ -2701,6 +2701,7 @@ NATR,NATURE SUNSHINE,ネイチャーズ・サンシャイン・プロダクツ,N
 NAUT,NAUTILUS BIOTECH,ノーティラス・バイオテクノロジー,NASDAQ,ヘルスケア,○
 NAVI,NAVIENT CORP,ナビエント,NASDAQ,その他,○
 NAVN,NAVAN INC,ナヴァン,NASDAQ,ソフトウェア・サービス,○
+NBBK,NB BANCORP INC,NB バンコープ,NASDAQ,金融（銀行）,○
 NBHC,NATIONAL BANK,ナショナル・バンク・ホールディングス,NYSE,金融（銀行）,○
 NBIS,NEBIUS GROUP NV,ネビウス・グループ,NASDAQ,情報処理サービス,○
 NBIX,NEUROCRINE BIO,ニューロクライン・バイオサイエンシス,NASDAQ,医薬品,○
@@ -2967,6 +2968,7 @@ ORN,ORION GROUP HLD,オリオン・グループ・ホールディングス,NYSE,
 ORRF,ORSTOWN FIN SERV,オースタウン・ファイナンシャル・サービシズ,NASDAQ,金融（銀行）,○
 OSBC,OLD SECOND BANC,オールド・セカンド・バンコープ,NASDAQ,金融（銀行）,○
 OSCR,OSCAR HEALTH INC,オスカー・ヘルス,NYSE,ヘルスケア,○
+OSG,OCTAVE SPECIALTY,オクターブ・スペシャルティ・グループ,NYSE,金融(保険),○
 OSIS,OSI SYSTEMS INC,OSIシステムズ,NASDAQ,その他製造,○
 OSK,OSHKOSH CORP,オシュコシュ,NYSE,自動車,○
 OSPN,ONESPAN INC,ワンスパン,NASDAQ,ネットワークセキュリティー,○
@@ -3488,7 +3490,6 @@ SDIV,GLX SUPERDVD ETF,グローバルX スーパーディビィデンド-世界�
 SDOT,SADOT GROUP INC,サドット・グループ,NASDAQ,外食,○
 SDOW,PROS DOW30 -3X,プロシェアーズ・ウルトラプロ・ショート・ダウ30,NYSE,その他,○
 SDRL,SEADRILL LTD,シードリル,NYSE,石油,○
-SDS,PROS U SHT SP500,プロシェアーズ・ウルトラショート S&P500,NYSE,その他,○
 SDVD,FT SMID RDIV ACV,ファーストトラスト Vest 中小型株増配アチーバーズ ターゲットインカムETF,Cboe,その他,○
 SDVY,FT SMID CAP ETF,ファーストトラスト 中小型増配アチーバーズETF,NASDAQ,その他,○
 SDY,SPDR SP DIVIDEND,State Street SPDR S&P 米国高配当株式 ETF,NYSE,その他,○
@@ -3703,14 +3704,12 @@ SPWH,SPORTS WAREHOUSE,スポーツマンズ・ウエアハウス・ホールデ�
 SPXC,SPX TECHNOLOGIES,SPXテクノロジーズ,NYSE,その他製造,○
 SPXL,DRX DL SP500BL3X,Direxion デイリー S&P 500 ブル3倍 ETF,NYSE,その他,○
 SPXS,DRX DL SP500BR3X,Direxion デイリー S&P 500 ベア3倍 ETF,NYSE,その他,○
-SPXU,PROS SP500 -3X,プロシェアーズ・ウルトラプロ・ショートS&P500,NYSE,その他,○
 SPY,SPDR SP500 TRUST,SPDR S&P 500 ETF,NYSE,その他,○
 SPYD,SPDR SP500 H DIV,State Street SPDR ポートフォリオS&P 500 高配当株式ETF,NYSE,その他,○
 SPYG,SPDR SP500 GRWTH,State Street SPDR ポートフォリオS&P 500 グロース株式ETF,NYSE,その他,○
 SPYM,SPDR PF SP500ETF,State Street SPDR ポートフォリオS&P 500 ETF,NYSE,その他,○
 SPYV,SPDR SP500 VALUE,State Street SPDR ポートフォリオS&P 500 バリュー株式ETF,NYSE,その他,○
 SQM,SOCIED QMC CHILE,ソシエダード・キミカ・イ・ミネラ・デ・チリ,NYSE,化学,○
-SQQQ,PRO ULTSHORT QQQ,プロシェアーズ・ウルトラプロ・ショートQQQ,NASDAQ,その他,○
 SR,SPIRE INC,スパイア,NYSE,ガス・パイプライン,○
 SRAD,SPORTRADAR GRP,スポートレーダー・グループ,NASDAQ,エンターテイメント,○
 SRCE,1ST SOURCE CORP,ファースト・ソース,NASDAQ,金融（銀行）,○
