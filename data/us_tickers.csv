@@ -100,6 +100,7 @@ AFK,V AFRICA,ヴァンエック・アフリカ・インデックスETF,NYSE,そ�
 AFL,AFLAC INC,アフラック,NYSE,金融(保険),○
 AFRI,FORAFRIC GLOBAL,フォラフリック・グローバル,NASDAQ,食品,○
 AFRM,AFFIRM HOLDINGS,アファーム・ホールディングス,NASDAQ,ソフトウェア・サービス,○
+AFRU,REX 2X LONG AFRM,T-REX 2X・ロング・AFRM・ デイリーターゲットETF,Cboe,その他,○
 AFYA,AFYA LIMITED,アフヤ,NASDAQ,ソフトウェア・サービス,○
 AG,1ST MAJESTC SLVR,ファースト・マジェスティック・シルバー,NYSE,その他製造,○
 AGAE,ALLIED GAMING ET,アライド・ゲーミング・アンド・エンターテイメント,NASDAQ,エンターテイメント,○
@@ -312,6 +313,7 @@ ASH,ASHLAND INC,アシュランド,NYSE,コングロマリット,○
 ASIX,ADVANSIX INC,アドバンシックス,NYSE,その他製造,○
 ASLE,AERSALE CORP,アエロセール,NASDAQ,航空機・宇宙,○
 ASMB,ASSEMBLY BIO,アセンブリー・バイオサイエンシズ,NASDAQ,医薬品（バイオテクノロジー）,○
+ASMG,LVS 2X LONG ASML,LeverageShares2倍ロングASMLデイリーETF,NASDAQ,その他,○
 ASML,ASML HOLDING,ASMLホールディング,NASDAQ,半導体,○
 ASND,ASCENDIS PHARMA,アセンディス・ファーマ,NASDAQ,医薬品（バイオテクノロジー）,○
 ASNS,ACTELIS NETWORKS,アクテリス・ネットワークス,NASDAQ,通信機器,○
@@ -450,6 +452,7 @@ BBUS,JPM BB US EQ ETF,JPモルガン ベータビルダーズ 米国株式ETF,Cb
 BBW,BUILD-A-BEAR WRK,ビルド・ア・ベア・ワークショップ,NYSE,専門店,○
 BBWI,BATH AND BODY,バス&ボディ・ワークス,NYSE,専門店,○
 BBY,BEST BUY COMPANY,ベスト・バイ,NYSE,小売,○
+BBYY,GNS YLDBST BABA,グラナイトシェアーズ イールドブースト BABA ETF,NASDAQ,その他,○
 BC,BRUNSWICK CORP,ブランズウィック・コープ,NYSE,その他製造,○
 BCAL,CALIFORNIA BANC,カリフォルニア・バンコープ,NASDAQ,金融コングロマリット,○
 BCBP,BCB BANCORP,BCBバンコープ,NASDAQ,金融（銀行）,○
@@ -555,6 +558,7 @@ BMBL,BUMBLE INC,バンブル,NASDAQ,ソフトウェア・サービス,○
 BMEA,BIOMEA FUSION,バイオメア・フュージョン,NASDAQ,医薬品（バイオテクノロジー）,○
 BMI,BADGER METER INC,バッジャー・メーター,NYSE,その他製造,○
 BMNR,BITMINE IMERSION,ビットマイン・イマージョン・テクノロジーズ,NYSE,金融（証券）,○
+BMNU,REX 2X LONG BMNR,T-REX 2X・ロング・BMNR・デイリーターゲットETF,Cboe,その他,○
 BMO,BANK OF MONTREAL,バンク・オブ・モントリオール,NYSE,金融（銀行）,○
 BMRA,BIOMERICA INC,バイオメリカ,NASDAQ,ヘルスケア,○
 BMRC,BANK OF MARIN,バンク・オブ・マリン・バンコープ,NASDAQ,金融（銀行）,○
@@ -707,6 +711,7 @@ CAVA,CAVA GROUP,カバ・グループ,NYSE,外食,○
 CB,CHUBB LTD,チャブ,NYSE,金融(保険),○
 CBAN,COLONY BANKCORP,コロニー・バンクコープ,NYSE,金融（銀行）,○
 CBAT,CBAK ENERGY TECH,CBAKエナジー・テクノロジー,NASDAQ,その他製造,○
+CBC,CENTRAL BANCOMPA,セントラル・バンカンパニー,NASDAQ,金融（銀行）,○
 CBFV,CB FINANCIAL SRV,CBファイナンシャル・サービシズ,NASDAQ,金融（銀行）,○
 CBNK,CAPITAL BANCORP,キャピタル・バンコープ,NASDAQ,金融（銀行）,○
 CBOE,CBOE GLOBAL,シービーオーイー・グローバル・マーケッツ,NYSE,その他,○
@@ -942,6 +947,7 @@ CRBG,COREBRIDGE FIN,コアブリッジ・ファイナンシャル,NYSE,金融(�
 CRBP,CORBUS PHARMACEU,コーバスファーマシューティカルズホールディングス,NASDAQ,医薬品（バイオテクノロジー）,○
 CRBU,CARIBOU BIOSCNCE,カリブー・バイオサイエンシズ,NASDAQ,医薬品（バイオテクノロジー）,○
 CRC,CALIFORNIA RES,カリフォルニア・リソーシズ,NYSE,石油,○
+CRCG,LVS 2X LONG CRCL,LeverageShares2倍ロングCRCLデイリーETF,NASDAQ,その他,○
 CRCL,CIRCLE INTERNET,サークル・インターネット・グループ,NYSE,その他,○
 CRCT,CRICUT INC,クリカット,NASDAQ,その他,○
 CRDF,CARDIFF ONCOLOGY,カーディフ・オンコロジー,NASDAQ,医薬品（バイオテクノロジー）,○
@@ -971,6 +977,7 @@ CRVL,CORVEL CORP,コーベル,NASDAQ,ヘルスケア,○
 CRVO,CERVOMED INC,セルボメッド,NASDAQ,医薬品（バイオテクノロジー）,○
 CRVS,CORVUS PHARMACEU,コーバス・ファーマシューティカルズ,NASDAQ,医薬品（バイオテクノロジー）,○
 CRWD,CROWDSTRIKE HLD,クラウドストライク,NASDAQ,ソフトウェア・サービス,○
+CRWG,LVS 2X LONG CRWV,LeverageShares2倍ロングCRWVデイリーETF,NASDAQ,その他,○
 CRWL,GNS 2X LONG CRWD,GraniteShares2倍ロングCRWDデイリーETF,NASDAQ,その他,○
 CRWS,CROWN CRAFTS INC,クラウン・クラフツ,NASDAQ,その他製造,○
 CRWU,REX 2X LONG CRWV,T-REX 2X・ロング・CRWV・デイリーターゲットETF,Cboe,その他,○
@@ -1441,6 +1448,7 @@ FBP,FIRST BANCORP,ファースト・バンコープ,NYSE,金融（銀行）,○
 FBRX,FORTE BIOSCIENCE,フォルテ・バイオサイエンシズ,NASDAQ,医薬品（バイオテクノロジー）,○
 FBT,FT NYSE BIOTECH,ファーストトラスト NYSE Arca バイオテクノロジー指数ファンド,NYSE,その他,○
 FBYD,FALCONS BEYND GL,ファルコンズ・ビヨンド・グローバル,NASDAQ,エンターテイメント,○
+FBYY,GNS YLDBST META,グラナイトシェアーズ イールドブースト META ETF,NASDAQ,その他,○
 FC,FRANKLIN COVEY,フランクリン・コヴィー,NYSE,その他,○
 FCAP,FIRST CAPITL INC,ファースト・キャピタル,NASDAQ,金融（銀行）,○
 FCBC,FIRST CMNTY BANK,ファースト・コミュニティ・バンクシェアーズ,NASDAQ,金融（銀行）,○
@@ -1874,12 +1882,14 @@ HOLX,HOLOGIC INC,ホロジック,NASDAQ,医療サービス,○
 HOMB,HOME BANCSHARES,ホーム・バンクシェアーズ,NYSE,金融（銀行）,○
 HON,HONEYWELL INTER,ハネウェル　インターナショナル,NASDAQ,その他製造,○
 HOOD,ROBINHOOD,ロビンフッド・マーケッツ,NASDAQ,金融（証券）,○
+HOOG,LVS 2X LONG HOOD,LeverageShares2倍ロングHOODデイリーETF,NASDAQ,その他,○
 HOPE,HOPE BANCORP INC,ホープ・バンコープ,NASDAQ,金融（銀行）,○
 HOTH,HOTH THERAPEU,ホース・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 HOUR,HOUR LOOP INC,アワー・ループ,NASDAQ,小売,○
 HOUS,ANYWHERE RL EST,エニウェア・リアル・エステート,NYSE,その他,○
 HOV,HOVNANIAN ENTERP,ホブナニアン・エンタープライジーズ,NYSE,その他,○
 HOWL,WEREWOLF THERAPE,ウェアウルフ・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
+HOYY,GNS YLDBST HOOD,グラナイトシェアーズ イールドブースト HOOD ETF,NASDAQ,その他,○
 HP,HELMERICH AND PA,ヘルメリッチ・アンド・ペイン,NYSE,石油,○
 HPE,HP ENTERPRISE,ヒューレット・パッカード・エンタープライズ,NYSE,情報処理サービス,○
 HPK,HIGHPEAK ENERGY,ハイピーク・エナジー,NASDAQ,石油,○
@@ -2102,6 +2112,7 @@ ISPY,PROS SP500H INCM,プロシェアーズ S&P500 ハイ・インカム ETF,Cbo
 ISRG,INTUITIVE SURGIC,インテュイティブ・サージカル,NASDAQ,医療サービス,○
 ISSC,INNVTVE SOL SPRT,イノベイティブ・ソリューションズ＆サポート,NASDAQ,その他,○
 ISTR,INVESTAR HLDNG,インベスター・ホールディング,NASDAQ,金融（銀行）,○
+ISUL,GNS ISRG 2X LONG,グラナイトシェアーズ2倍ロングISRGデイリーETF,NASDAQ,その他,○
 IT,GARTNER INC,ガートナー,NYSE,ソフトウェア・サービス,○
 ITGR,INTEGER HOLDINGS,インテジャー・ホールディングス,NYSE,ヘルスケア,○
 ITIC,INVESTORS TITLE,インベスターズ・タイトル,NASDAQ,金融(保険),○
@@ -2273,6 +2284,7 @@ KTB,KONTOOR BRANDS,コントール・ブランズ,NYSE,その他製造,○
 KTCC,KEY TRONIC CORP,キー・トロニック,NASDAQ,その他製造,○
 KTOS,KRATOS DEFENSE,クラトス・ディフェンス＆セキュリティー・ソリューションズ,NASDAQ,ソフトウェア・サービス,○
 KTTA,PASITHEA THERAPE,パシテア・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
+KTUP,REX 2X LONG KTOS,T-REX 2X・ロング・KTOS・デイリーターゲットETF,Cboe,その他,○
 KURA,KURA ONCOLOGY,クラ・オンコロジー,NASDAQ,医薬品（バイオテクノロジー）,○
 KVHI,KVH INDUSTRIES,KVHインダストリーズ,NASDAQ,通信機器,○
 KVUE,KENVUE INC,ケンビュー,NYSE,その他製造,○
@@ -2428,7 +2440,6 @@ LUV,SOUTHWEST AIR,サウスウエスト・エアライン,NYSE,航空,○
 LUXE,LUXEXPERIENCE,リュクスエクスペリエンス,NYSE,その他,○
 LVO,LIVEONE INC,ライブワン,NASDAQ,エンターテイメント,○
 LVS,LAS VEGAS SANDS,ラスベガス・サンズ,NYSE,ホテル,○
-LVTX,LAVA THERAPE,ラバ・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 LVWR,LIVEWIRE GROUP,ライブワイヤー・グループ,NYSE,その他,○
 LW,LAMB WESTON HD,ラム・ウェストン・ホールディングス,NYSE,食品,○
 LWAY,LIFEWAY FOODS,ライフウェイ・フーズ,NASDAQ,食品,○
@@ -2703,6 +2714,7 @@ NAVI,NAVIENT CORP,ナビエント,NASDAQ,その他,○
 NAVN,NAVAN INC,ナヴァン,NASDAQ,ソフトウェア・サービス,○
 NBBK,NB BANCORP INC,NB バンコープ,NASDAQ,金融（銀行）,○
 NBHC,NATIONAL BANK,ナショナル・バンク・ホールディングス,NYSE,金融（銀行）,○
+NBIL,GNS NBIS 2X LONG,グラナイトシェアーズ2倍ロングNBISデイリーETF,NASDAQ,その他,○
 NBIS,NEBIUS GROUP NV,ネビウス・グループ,NASDAQ,情報処理サービス,○
 NBIX,NEUROCRINE BIO,ニューロクライン・バイオサイエンシス,NASDAQ,医薬品,○
 NBN,NORTHEAST BANK,ノースイースト・バンク,NASDAQ,金融（銀行）,○
@@ -2840,6 +2852,7 @@ NVCT,NUVECTIS PHARMA,ヌベクティス・ファーマ,NASDAQ,医薬品（バイ
 NVD,GNS NVDA 2X ST,グラナイトシェアーズ2倍ショートNVDAデイリーETF,NASDAQ,その他,○
 NVDA,NVIDIA CORP,エヌビディア,NASDAQ,半導体,○
 NVDD,DRX NVDA BR1X,Direxion デイリー NVDA株 ベア1倍 ETF,NASDAQ,その他,○
+NVDG,LVS 2X LONG NVDA,LeverageShares2倍ロングNVDAデイリーETF,NASDAQ,その他,○
 NVDL,GNS NVDA BL2X,グラナイトシェアーズ2倍ロングNVDAデイリーETF,NASDAQ,その他,○
 NVDQ,REX 2X INVS NVDA,TRex 2倍インバース NVDA Daily Target ETF,Cboe,その他,○
 NVDU,DRX NVDA BL2X,Direxion デイリー NVDA株 ブル2倍 ETF,NASDAQ,その他,○
@@ -3115,6 +3128,7 @@ PLTD,DRX PLTR BR2X,Direxion デ イ リ ー PLTR株 ベア1倍 ETF,NASDAQ,その
 PLTK,PLAYTIKA HOLDING,プレイティカ,NASDAQ,ソフトウェア・サービス,○
 PLTR,PALANTIR TECHNO,パランティア・テクノロジーズ,NASDAQ,ソフトウェア・サービス,○
 PLTU,DRX PLTR BL2X,Direxion デ イ リ ー PLTR ブル2倍 ETF,NASDAQ,その他,○
+PLTW,RHL PLTR WEEKPAY,ラウンドヒル PLTR ウィークリーペイ ETF,Cboe,その他,○
 PLUG,PLUG POWER INC,プラグパワー,NASDAQ,電力,○
 PLUR,PLURI INC,プルリ,NASDAQ,医薬品（バイオテクノロジー）,○
 PLUS,EPLUS INC,eプラス,NASDAQ,ソフトウェア・サービス,○
@@ -3217,6 +3231,7 @@ PWP,PERELLA WEINBERG,ペレラ・ワインバーグ・パートナーズ,NASDAQ,
 PWR,QUANTA SERVICES,クアンタ・サービシーズ,NYSE,通信サービス,○
 PX,P10 INC,P10,NYSE,金融（証券）,○
 PXF,INVESCO RAFI DEV,インベスコ  RAFI　先進国市場（米国を除く）ETF,NYSE,その他,○
+PXIU,REX 2X LONG UPXI,T-REX 2X・ロング・UPXI・デイリーターゲットETF,Cboe,その他,○
 PXLW,PIXELWORKS INC,ピクセルワークス,NASDAQ,半導体,○
 PYPD,POLYPID LTD,ポリピッド,NASDAQ,医薬品,○
 PYPL,PAYPAL HOLDINGS,ペイパル,NASDAQ,ソフトウェア・サービス,○
@@ -3490,6 +3505,7 @@ SDIV,GLX SUPERDVD ETF,グローバルX スーパーディビィデンド-世界�
 SDOT,SADOT GROUP INC,サドット・グループ,NASDAQ,外食,○
 SDOW,PROS DOW30 -3X,プロシェアーズ・ウルトラプロ・ショート・ダウ30,NYSE,その他,○
 SDRL,SEADRILL LTD,シードリル,NYSE,石油,○
+SDS,PROS U SHT SP500,プロシェアーズ・ウルトラショート S&P500,NYSE,その他,○
 SDVD,FT SMID RDIV ACV,ファーストトラスト Vest 中小型株増配アチーバーズ ターゲットインカムETF,Cboe,その他,○
 SDVY,FT SMID CAP ETF,ファーストトラスト 中小型増配アチーバーズETF,NASDAQ,その他,○
 SDY,SPDR SP DIVIDEND,State Street SPDR S&P 米国高配当株式 ETF,NYSE,その他,○
@@ -3619,6 +3635,7 @@ SMTC,SEMTECH CORP,セムテック,NASDAQ,半導体,○
 SMTI,SANARA MEDTECH,サナラ・メドテック,NASDAQ,ヘルスケア,○
 SMUP,REX 2X LONG SMR,T-REX 2X・ロング・SMR・デイリーター ゲットETF,Cboe,その他,○
 SMWB,SIMILARWEB LTD,シミラーウェブ,NYSE,ソフトウェア・サービス,○
+SMYY,GNS YLDBST SMCI,グラナイトシェアーズ イールドブースト SMCI ETF,NASDAQ,その他,○
 SNA,SNAP-ON INCORP,スナップオン,NYSE,その他製造,○
 SNAP,SNAP INC,スナップ,NYSE,ソフトウェア・サービス,○
 SNBR,SLEEP NUMBER,スリープ・ナンバー,NASDAQ,専門店,○
@@ -3704,12 +3721,14 @@ SPWH,SPORTS WAREHOUSE,スポーツマンズ・ウエアハウス・ホールデ�
 SPXC,SPX TECHNOLOGIES,SPXテクノロジーズ,NYSE,その他製造,○
 SPXL,DRX DL SP500BL3X,Direxion デイリー S&P 500 ブル3倍 ETF,NYSE,その他,○
 SPXS,DRX DL SP500BR3X,Direxion デイリー S&P 500 ベア3倍 ETF,NYSE,その他,○
+SPXU,PROS SP500 -3X,プロシェアーズ・ウルトラプロ・ショートS&P500,NYSE,その他,○
 SPY,SPDR SP500 TRUST,SPDR S&P 500 ETF,NYSE,その他,○
 SPYD,SPDR SP500 H DIV,State Street SPDR ポートフォリオS&P 500 高配当株式ETF,NYSE,その他,○
 SPYG,SPDR SP500 GRWTH,State Street SPDR ポートフォリオS&P 500 グロース株式ETF,NYSE,その他,○
 SPYM,SPDR PF SP500ETF,State Street SPDR ポートフォリオS&P 500 ETF,NYSE,その他,○
 SPYV,SPDR SP500 VALUE,State Street SPDR ポートフォリオS&P 500 バリュー株式ETF,NYSE,その他,○
 SQM,SOCIED QMC CHILE,ソシエダード・キミカ・イ・ミネラ・デ・チリ,NYSE,化学,○
+SQQQ,PRO ULTSHORT QQQ,プロシェアーズ・ウルトラプロ・ショートQQQ,NASDAQ,その他,○
 SR,SPIRE INC,スパイア,NYSE,ガス・パイプライン,○
 SRAD,SPORTRADAR GRP,スポートレーダー・グループ,NASDAQ,エンターテイメント,○
 SRCE,1ST SOURCE CORP,ファースト・ソース,NASDAQ,金融（銀行）,○
@@ -3981,6 +4000,7 @@ TSE,TRINSEO,トリンセオ,NYSE,化学,○
 TSEM,TOWER SEMICON,タワー・セミコンダクター,NASDAQ,半導体製造,○
 TSHA,TAYSHA GENE THRA,テイシャ・ジーン・セラピーズ,NASDAQ,医薬品（バイオテクノロジー）,○
 TSLA,TESLA INC,テスラ,NASDAQ,自動車,○
+TSLG,LVS 2X LONG TSLA,LeverageShares2倍ロングTSLAデイリーETF,NASDAQ,その他,○
 TSLL,DRX TSLA BL2X,Direxion デイリー TSLA ブル2倍株式,NASDAQ,その他,○
 TSLR,GNS TSLA BL2X,グラナイトシェアーズ2倍ロングTSLAデイリーETF,NASDAQ,その他,○
 TSLS,DRX TSLA BR1X,Direxion デイリー TSLA 株 ベア1倍 ETF,NASDAQ,その他,○
@@ -3998,6 +4018,7 @@ TTAM,TITAN AMERICA SA,タイタン・アメリカ,NYSE,その他製造,○
 TTAN,SERVICETITAN,サービスタイタン,NASDAQ,ソフトウェア・サービス,○
 TTC,TORO CO,トロ,NYSE,その他製造,○
 TTD,THE TRADE DESK,トレード・デスク,NASDAQ,その他,○
+TTDU,REX 2X LONG TTD,T-REX 2X・ロング・TTD・デイリーターゲットETF,Cboe,その他,○
 TTEC,TTEC HOLDINGS,TTECホールディングス,NASDAQ,ソフトウェア・サービス,○
 TTEK,TETRA TECH INC,テトラ・テック,NASDAQ,その他,○
 TTGT,TECHTARGET INC,テックターゲット,NASDAQ,ソフトウェア・サービス,○
@@ -4074,6 +4095,7 @@ UNCY,UNICYCIVE THERA,ユニサイシブ・セラピューティクス,NASDAQ,医
 UNF,UNIFIRST CORP,ユニファースト,NYSE,その他製造,○
 UNFI,UNITED NATURAL F,ユナイテッド・ナチュラルフーズ,NYSE,食品,○
 UNH,UNITED HEALTH,ユナイテッドヘルス・グループ,NYSE,医療サービス,○
+UNHG,LVS 2X LONG UNH,LeverageShares2倍ロングUNHデイリーETF,NASDAQ,その他,○
 UNM,UNUM GROUP,ユーナム・グループ,NYSE,金融(保険),○
 UNP,UNION PACIFIC,ユニオン・パシフィック,NYSE,運輸,○
 UNTY,UNITY BANCORP,ユニティ・バンコープ,NASDAQ,金融（銀行）,○
