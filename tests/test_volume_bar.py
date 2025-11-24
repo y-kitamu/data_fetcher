@@ -7,7 +7,7 @@ import polars as pl
 
 def test_convert_ticker_to_volume_bar():
     """Test convert_ticker_to_volume_bar function"""
-    from data_fetcher.volume_bar import convert_ticker_to_volume_bar
+    from data_fetcher.core.volume_bar import convert_ticker_to_volume_bar
 
     # Create sample ticker data
     ticker_data = {
@@ -44,7 +44,7 @@ def test_convert_ticker_to_volume_bar():
 
 def test_convert_ticker_to_volume_bar_with_last_row():
     """Test convert_ticker_to_volume_bar with last_row parameter"""
-    from data_fetcher.volume_bar import convert_ticker_to_volume_bar
+    from data_fetcher.core.volume_bar import convert_ticker_to_volume_bar
 
     # Create sample ticker data
     ticker_data = {
@@ -69,7 +69,9 @@ def test_convert_ticker_to_volume_bar_with_last_row():
         datetime.datetime(2024, 1, 1, 0, 0, 0),  # end_date (not used)
     ]
 
-    result = convert_ticker_to_volume_bar(ticker_df, volume_size=10.0, last_row=last_row)
+    result = convert_ticker_to_volume_bar(
+        ticker_df, volume_size=10.0, last_row=last_row
+    )
 
     assert len(result) > 0
     # First bar should start with the price from last_row

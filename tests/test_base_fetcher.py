@@ -8,7 +8,7 @@ import pytest
 
 def test_convert_timedelta_to_str():
     """Test convert_timedelta_to_str function"""
-    from data_fetcher.base_fetcher import convert_timedelta_to_str
+    from data_fetcher.core.base_fetcher import convert_timedelta_to_str
 
     # Test seconds
     assert convert_timedelta_to_str(datetime.timedelta(seconds=30)) == "30s"
@@ -23,13 +23,16 @@ def test_convert_timedelta_to_str():
     assert convert_timedelta_to_str(datetime.timedelta(days=3)) == "3d"
 
     # Test combinations
-    assert convert_timedelta_to_str(datetime.timedelta(days=1, hours=2, minutes=30)) == "1d2h30m"
+    assert (
+        convert_timedelta_to_str(datetime.timedelta(days=1, hours=2, minutes=30))
+        == "1d2h30m"
+    )
     assert convert_timedelta_to_str(datetime.timedelta(hours=1, seconds=15)) == "1h15s"
 
 
 def test_convert_str_to_timedelta():
     """Test convert_str_to_timedelta function"""
-    from data_fetcher.base_fetcher import convert_str_to_timedelta
+    from data_fetcher.core.base_fetcher import convert_str_to_timedelta
 
     # Test seconds
     assert convert_str_to_timedelta("30s") == datetime.timedelta(seconds=30)
@@ -53,7 +56,7 @@ def test_convert_str_to_timedelta():
 
 def test_convert_tick_to_ohlc():
     """Test convert_tick_to_ohlc function"""
-    from data_fetcher.base_fetcher import convert_tick_to_ohlc
+    from data_fetcher.core.base_fetcher import convert_tick_to_ohlc
 
     # Create sample tick data
     tick_data = {
