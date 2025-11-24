@@ -22,7 +22,7 @@ def divide_stock(code: str, divide_date: date, rate: float):
     )
     if not csv_path.exists():
         return
-    df = data_fetcher.kabutan.io.read_data_csv(csv_path, exclude_none=False)
+    df = data_fetcher.domains.kabutan.io.read_data_csv(csv_path, exclude_none=False)
 
     def _get_expression(key: str, date: date, rate):
         return (

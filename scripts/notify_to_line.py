@@ -2,11 +2,9 @@
 
 import datetime
 import uuid
-from pathlib import Path
-
-import requests
 
 import data_fetcher
+import requests
 
 ACCESS_TOKEN_FILE = (
     data_fetcher.constants.PROJECT_ROOT / "cert" / "line_message_api.txt"
@@ -26,7 +24,9 @@ def get_latest_dates_data_number() -> dict[str, str]:
             if not data_dir.is_dir():
                 continue
             dirname = f"{data_src_dir.name}/{data_dir.name}"
-            dirs = sorted([p for p in data_dir.glob("20*") if p.is_dir() and len(p.name) > 4])
+            dirs = sorted(
+                [p for p in data_dir.glob("20*") if p.is_dir() and len(p.name) > 4]
+            )
             if len(dirs) == 0:
                 # results[dirname] = "No data directory found."
                 continue
@@ -40,6 +40,18 @@ def get_latest_dates_data_number() -> dict[str, str]:
     return results
 
 
+def get_fxea_data_number() -> str:
+    data_dir = data_fetcher.constants.PROJECT_ROOT / "../fxea/data"
+    text_files = sorted(data_dir.glob("*.txt"))
+    if len(text_files) == 0:
+        return "-, -"
+
+    latest_file = text_files[-1]
+    latest_date = latest_file.name.split("_")[0]
+    num_files = len(list(data_dir.glob(f"{latest_date}_*.txt")))
+    return f"{latest_date}, {num_files}"
+
+
 if __name__ == "__main__":
     with open(ACCESS_TOKEN_FILE, "r") as f:
         access_token = f.read().strip()
@@ -50,6 +62,7 @@ if __name__ == "__main__":
         "X-Line-Retry-Key": str(uuid.uuid1()),
     }
     data_nums = get_latest_dates_data_number()
+    data_nums["fxea/data"] = get_fxea_data_number()
     text = "date: {}\\n".format(datetime.date.today().strftime("%Y%m%d"))
     for key, val in data_nums.items():
         text += f"{key} : {val}\\n"

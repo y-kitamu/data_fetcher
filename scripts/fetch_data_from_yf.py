@@ -37,7 +37,7 @@ def fetch_data(symbol: str, date: datetime.date, output_path: Path):
 
     if len(df) > 0:
         output_path.parent.mkdir(parents=True, exist_ok=True)
-        df = data_fetcher.yfinance.pd_to_pl(df)
+        df = data_fetcher.processors.yfinance.pd_to_pl(df)
         df.write_csv(output_path)
 
 
@@ -73,7 +73,7 @@ def collect_stock_data():
     date = start_date
 
     ticker_csv_path = data_fetcher.constants.PROJECT_ROOT / "data" / "us_tickers.csv"
-    df = data_fetcher.ticker_list.update_us_ticker_list(ticker_csv_path)
+    df = data_fetcher.core.ticker_list.update_us_ticker_list(ticker_csv_path)
     if df is None:
         df = pl.read_csv(ticker_csv_path)
 

@@ -13,8 +13,8 @@ from selenium.webdriver.support.ui import WebDriverWait
 import data_fetcher
 
 command_executor = "http://localhost:4444/wd/hub"
-download_dir = data_fetcher.constants.PROJECT_ROOT / "data" / "Downloads"
-dst_dir = data_fetcher.constants.PROJECT_ROOT / "data" / "sbi" / "tick"
+download_dir = data_fetcher.core.PROJECT_ROOT / "data" / "Downloads"
+dst_dir = data_fetcher.core.PROJECT_ROOT / "data" / "sbi" / "tick"
 
 
 def get_chrome_options():
@@ -45,7 +45,7 @@ def download(ticker_list):
     options = get_chrome_options()
     # ログイン情報のjsonファイルを読み込んで辞書に変換する
     with open(
-        data_fetcher.constants.PROJECT_ROOT / "cert" / "sbi_login_info.json", "r"
+        data_fetcher.core.PROJECT_ROOT / "cert" / "sbi_login_info.json", "r"
     ) as f:
         login_info = json.load(f)
 
@@ -150,7 +150,7 @@ def move_from_download_dir():
 
 
 if __name__ == "__main__":
-    all_tickers = data_fetcher.ticker_list.get_jp_ticker_list(include_etf=True)
+    all_tickers = data_fetcher.core.get_jp_ticker_list(include_etf=True)
 
     # data_fetcher.debug.run_debug(download, all_tickers)
     download(all_tickers)
