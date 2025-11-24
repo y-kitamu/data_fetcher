@@ -1007,3 +1007,17 @@ number_of_shares,2021-04-01,2022-03-31,jpcrp_cor:TotalNumberOfIssuedSharesSummar
 number_of_shares,2024-04-01,2025-03-31,jpcrp_cor:TotalNumberOfIssuedSharesSummaryOfBusinessResults,CurrentYearInstant_NonConsolidatedMember,3206240000,202506191530
 operating_income,2023-04-01,2024-03-31,jppfs_cor:OperatingIncome,Prior1YearDuration_NonConsolidatedMember,145502000000,202506191530
 operating_income,2024-04-01,2025-03-31,jppfs_cor:OperatingIncome,CurrentYearDuration_NonConsolidatedMember,139262000000,202506191530
+ordinary_income,2025-01-01,2025-12-31,jpcrp_cor:OrdinaryIncomeLossSummaryOfBusinessResults,Prior1InterimDuration,463397000000,202511141530
+ordinary_income,2025-04-01,2026-03-31,jpcrp_cor:OrdinaryIncomeLossSummaryOfBusinessResults,InterimDuration,521642000000,202511141530
+ordinary_income,2024-04-01,2025-03-31,jpcrp_cor:OrdinaryIncomeLossSummaryOfBusinessResults,Prior1YearDuration,814596000000,202511141530
+net_asset,2025-01-01,2025-12-31,jpcrp_cor:NetAssetsSummaryOfBusinessResults,Prior1InterimInstant,15416255000000,202511141530
+net_asset,2025-04-01,2026-03-31,jpcrp_cor:NetAssetsSummaryOfBusinessResults,InterimInstant,15984716000000,202511141530
+net_asset,2024-04-01,2025-03-31,jpcrp_cor:NetAssetsSummaryOfBusinessResults,Prior1YearInstant,15289540000000,202511141530
+total_asset,2025-01-01,2025-12-31,jpcrp_cor:TotalAssetsSummaryOfBusinessResults,Prior1InterimInstant,303322665000000,202511141530
+total_asset,2025-04-01,2026-03-31,jpcrp_cor:TotalAssetsSummaryOfBusinessResults,InterimInstant,296289342000000,202511141530
+total_asset,2024-04-01,2025-03-31,jpcrp_cor:TotalAssetsSummaryOfBusinessResults,Prior1YearInstant,297149653000000,202511141530
+eps,2025-01-01,2025-12-31,jpcrp_cor:BasicEarningsLossPerShareSummaryOfBusinessResults,Prior1InterimDuration,44.00,202511141530
+eps,2025-04-01,2026-03-31,jpcrp_cor:BasicEarningsLossPerShareSummaryOfBusinessResults,InterimDuration,48.03,202511141530
+eps,2024-04-01,2025-03-31,jpcrp_cor:BasicEarningsLossPerShareSummaryOfBusinessResults,Prior1YearDuration,119.30,202511141530
+equity_ratio,2025-04-01,2026-03-31,jpcrp_cor:EquityToAssetRatioSummaryOfBusinessResults,InterimInstant,0.032,202511141530
+equity_ratio,2024-04-01,2025-03-31,jpcrp_cor:EquityToAssetRatioSummaryOfBusinessResults,Prior1YearInstant,0.031,202511141530
