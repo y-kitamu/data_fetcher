@@ -1,8 +1,7 @@
 """fetch_data_from_kabutan.py"""
 
 import csv
-from datetime import date, datetime, timedelta
-from pathlib import Path
+from datetime import date
 
 import polars as pl
 
@@ -29,14 +28,14 @@ def update_csv(code: str, update_rs: bool = True):
         with open(csv_path, "w") as f:
             f.write("date,open,high,low,close,volume,rs_nikkei,rs_topix,rs\n")
 
-    df = data_fetcher.kabutan.io.read_data_csv(
+    df = data_fetcher.domains.kabutan.io.read_data_csv(
         csv_path, exclude_none=False, with_rs=update_rs
     )
     df_with_epoch = df.with_columns(
         pl.col("date").dt.epoch(time_unit="d").alias("epoch")
     )
 
-    new_data = data_fetcher.kabutan.data.get_stock_data(code)
+    new_data = data_fetcher.domains.kabutan.data.get_stock_data(code)
     new_data = [
         d
         for d in new_data
@@ -61,12 +60,12 @@ def update_csv(code: str, update_rs: bool = True):
         )
 
         if update_rs:
-            nikkei_df = data_fetcher.kabutan.read_data_csv(
+            nikkei_df = data_fetcher.domains.kabutan.io.read_data_csv(
                 data_fetcher.constants.PROJECT_ROOT / "data/kabutan/daily/0000.csv",
                 exclude_none=False,
                 with_rs=False,
             )
-            topix_df = data_fetcher.kabutan.read_data_csv(
+            topix_df = data_fetcher.domains.kabutan.io.read_data_csv(
                 data_fetcher.constants.PROJECT_ROOT / "data/kabutan/daily/0010.csv",
                 exclude_none=False,
                 with_rs=False,

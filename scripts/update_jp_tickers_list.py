@@ -49,7 +49,7 @@ def extract_themes(html):
 
 
 def update_themes_csv():
-    tickers = data_fetcher.ticker_list.get_jp_ticker_list()
+    tickers = data_fetcher.core.ticker_list.get_jp_ticker_list()
     base_url = "https://kabutan.jp/stock/?code={}"
     ticker_themes = []
     for ticker in tickers:

@@ -13,7 +13,7 @@ import data_fetcher
 
 api_key = "c528ad6f91db40468bf86c3f080daaff"
 endpoint = "https://api.edinet-fsa.go.jp/api/v2/documents.json"
-session = data_fetcher.session.get_session(max_requests_per_second=5)
+session = data_fetcher.get_session(max_requests_per_second=5)
 doc_dir = data_fetcher.constants.PROJECT_ROOT / Path("data/edinet")
 
 timeout = 5.0
