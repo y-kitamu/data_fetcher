@@ -2522,7 +2522,6 @@ MEI,METHODE ELECTRO,メソッド・エレクトロニクス,NYSE,その他製造
 MELI,MERCADOLIBRE INC,メルカドリブレ,NASDAQ,情報処理サービス,○
 MEOH,METHANEX CORP,メサネックス,NASDAQ,化学,○
 MERC,MERCER INTL,マーサー・インターナショナル,NASDAQ,紙・パルプ,○
-MESA,MESA AIR GROUP,メサ・エアー,NASDAQ,航空,○
 MESO,MESOBLAST LMITED,メソブラスト,NASDAQ,医薬品（バイオテクノロジー）,○
 MET,METLIFE INC,メットライフ,NYSE,金融(保険),○
 META,META PLATFORMS,メタ・プラットフォームズ,NASDAQ,ソフトウェア・サービス,○
@@ -3099,7 +3098,6 @@ PHVS,PHARVARIS BV,ファルヴァリス,NASDAQ,医薬品（バイオテクノロ
 PI,IMPINJ INC,インピンジ,NASDAQ,半導体,○
 PII,POLARIS INC,ポラリス,NYSE,自動車,○
 PIII,P3 HEALTH PARTN,P3ヘルス・パートナーズ,NASDAQ,ヘルスケア,○
-PINC,PREMIER INC,プレミア,NASDAQ,ヘルスケア,○
 PINS,PINTEREST INC,ピンタレスト,NYSE,ソフトウェア・サービス,○
 PIO,INVESCO WATER,インベスコ・グローバル・ウォーターETF,NASDAQ,その他,○
 PIPR,PIPER SANDLER CO,パイパー・サンドラー,NYSE,金融（証券）,○
@@ -3366,6 +3364,7 @@ RIME,ALGORHYTHM HD,アルゴリズム・ホールディングス,NASDAQ,エン�
 RIO,RIO TINTO (ADR),リオ・ティント,NYSE,アルミ,○
 RIOT,RIOT PLATFORMS,ライオット・プラットフォームズ,NASDAQ,その他,○
 RIVN,RIVIAN ATMOTIVE,リヴィアン・オートモーティブ,NASDAQ,自動車,○
+RJET,REPUBLIC AIRWAYS,リパブリック・エアウェイズ・ホールディングス,NASDAQ,航空,○
 RJF,RAYMOND JAMES FI,レイモンド・ジェームズ・ファイナンシャル,NYSE,金融コングロマリット,○
 RKLB,ROCKET LAB,ロケット・ラボ,NASDAQ,その他,○
 RKT,ROCKET COMPANIES,ロケット・カンパニーズ,NYSE,ソフトウェア・サービス,○
