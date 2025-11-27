@@ -1714,6 +1714,8 @@ GLBE,GLOBAL-E ONLINE,グローバル・イー・オンライン,NASDAQ,ソフト
 GLD,SPDR GOLD SHARES,SPDR ゴールド・シェア,NYSE,その他,○
 GLDD,GREAT LAKE DRDGE,グレート・レークス・ドレッジ・アンド・ドック,NASDAQ,その他製造,○
 GLDM,SPDR GOLD MINI,SPDR ゴールド・ミニシェアーズ・トラスト,NYSE,その他,○
+GLIBA,GCI LIBERTY-A,GCI リバティ シリーズ A,NASDAQ,通信サービス,○
+GLIBK,GCI LIBERTY-C,GCI リバティ シリーズ C,NASDAQ,通信サービス,○
 GLIN,V INDIA GROWTH,ヴァンエック・インドグロースリーダーズETF,NYSE,その他,○
 GLMD,GALMED PHARMACEU,ガルメド・ファーマシューティカルズ,NASDAQ,医薬品（バイオテクノロジー）,○
 GLNG,GOLAR LNG,ゴラールLNG,NASDAQ,ガス・パイプライン,○
@@ -2345,7 +2347,6 @@ LFST,LIFESTANCE HLTH,ライフスタンス・ヘルス・グループ,NASDAQ,医
 LFUS,LITTELFUSE INC,リテルヒューズ,NASDAQ,その他製造,○
 LFVN,LIFEVANTAGE,ライフバンテージ,NASDAQ,医薬品,○
 LFWD,LIFEWARD,ライフワード,NASDAQ,医療サービス,○
-LGHL,LION GROUP,ライオン・グループ・ホールディング,NASDAQ,金融（証券）,○
 LGIH,LGI HOMES INC,LGIホームズ,NASDAQ,その他製造,○
 LGL,LGL GROUP,LGLグループ,NYSE,その他製造,○
 LGN,LEGENCE CORP,レジェンス,NASDAQ,その他,○
