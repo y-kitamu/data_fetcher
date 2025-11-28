@@ -953,7 +953,6 @@ CRCT,CRICUT INC,クリカット,NASDAQ,その他,○
 CRDF,CARDIFF ONCOLOGY,カーディフ・オンコロジー,NASDAQ,医薬品（バイオテクノロジー）,○
 CRDO,CREDO TECHNO GP,クレド・テクノロジー・グループ・ホールディング,NASDAQ,ネットワークセキュリティー,○
 CREG,SMART POWERR,スマート・パワー,NASDAQ,電力,○
-CRESY,CRESUD SACIF Y A,クレサッド・サシフYA,NASDAQ,その他,○
 CREX,CREATIV REALITIE,クリエイティブ・リアリティーズ,NASDAQ,ソフトウェア・サービス,○
 CRGY,CRESCENT ENERGY,クレセント・エナジー,NYSE,石油,○
 CRH,CRH PUBLIC NEWCO,CRH,NYSE,その他製造,○
@@ -1044,7 +1043,6 @@ CWEB,DRX CH INET BL2X,Direxion デイリー CSI中国インターネット指数
 CWEN,CLEARWAY ENERGY,クリアウェイ・エナジー,NYSE,電力,○
 CWH,CAMPING WORLD,キャンピング・ワールド・ホールディングス,NYSE,専門店,○
 CWI,SPDR MSCI ACWI,SPDR　MSCI 全世界株式（除く米国）　ETF,NYSE,その他,○
-CWK,CUSHMAN & WAKEFI,クッシュマン・アンド・ウェイクフィールド,NYSE,その他,○
 CWST,CASELLA WASTE,キャセラ・ウェイスト・システムズ,NASDAQ,ソフトウェア・サービス,○
 CWT,CALIFORNIA WATER,カリフォルニア・ウォーター・サービス・グループ,NYSE,その他,○
 CX,CEMEX SAB DE CV,セメックス,NYSE,その他製造,○
@@ -1695,7 +1693,6 @@ GGLS,DRX GOOGL BR1X,Direxion デイリー GOOGL株 ベア 1 倍 ETF,NASDAQ,そ�
 GH,GUARDANT HEALTH,ガーダント・ヘルス,NASDAQ,ヘルスケア,○
 GHC,GRAHAM HLDNGS CO,グラハム・ホールディングス,NYSE,ソフトウェア・サービス,○
 GHG,GREENTREE HOSPTL,グリーン・ツリー・ホスピタリティー・グループ,NYSE,ホテル,○
-GHLD,GUILD HOLDINGS,ギルド・ホールディングス,NYSE,金融（銀行）,○
 GHM,GRAHAM CORPRTION,グラハム,NYSE,その他製造,○
 GHRS,GH RESEARCH PLC,GHリサーチ,NASDAQ,医薬品（バイオテクノロジー）,○
 GIB,CGI INC,CGI,NYSE,ソフトウェア・サービス,○
@@ -1714,7 +1711,6 @@ GLBE,GLOBAL-E ONLINE,グローバル・イー・オンライン,NASDAQ,ソフト
 GLD,SPDR GOLD SHARES,SPDR ゴールド・シェア,NYSE,その他,○
 GLDD,GREAT LAKE DRDGE,グレート・レークス・ドレッジ・アンド・ドック,NASDAQ,その他製造,○
 GLDM,SPDR GOLD MINI,SPDR ゴールド・ミニシェアーズ・トラスト,NYSE,その他,○
-GLIBA,GCI LIBERTY-A,GCI リバティ シリーズ A,NASDAQ,通信サービス,○
 GLIBK,GCI LIBERTY-C,GCI リバティ シリーズ C,NASDAQ,通信サービス,○
 GLIN,V INDIA GROWTH,ヴァンエック・インドグロースリーダーズETF,NYSE,その他,○
 GLMD,GALMED PHARMACEU,ガルメド・ファーマシューティカルズ,NASDAQ,医薬品（バイオテクノロジー）,○
@@ -2083,7 +2079,6 @@ IOT,SAMSARA INC,サムサラ,NYSE,ネットワーク,○
 IOVA,IOVANCE BIOTHERA,アイオバンス・バイオセラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 IP,INTER PAPER CO,インターナショナル・ペーパー,NYSE,紙・パルプ,○
 IPAR,INTERPARFUMS,インターパフューム,NASDAQ,トイレタリー,○
-IPG,INTERPUBLIC INC,インターパブリック・グループ・オブ・カンパニーズ,NYSE,その他,○
 IPGP,IPG PHOTONICS CO,アイ・ピー・ジーフォトニクス,NASDAQ,周辺機器,○
 IPI,INTREPID POTASH,イントレピッド・ポタッシュ,NYSE,化学,○
 IPM,INTLI PRO MANAGE,インテリジェント・プロテクション・マネジメント,NASDAQ,ソフトウェア・サービス,○
@@ -2347,6 +2342,7 @@ LFST,LIFESTANCE HLTH,ライフスタンス・ヘルス・グループ,NASDAQ,医
 LFUS,LITTELFUSE INC,リテルヒューズ,NASDAQ,その他製造,○
 LFVN,LIFEVANTAGE,ライフバンテージ,NASDAQ,医薬品,○
 LFWD,LIFEWARD,ライフワード,NASDAQ,医療サービス,○
+LGHL,LION GROUP,ライオン・グループ・ホールディング,NASDAQ,金融（証券）,○
 LGIH,LGI HOMES INC,LGIホームズ,NASDAQ,その他製造,○
 LGL,LGL GROUP,LGLグループ,NYSE,その他製造,○
 LGN,LEGENCE CORP,レジェンス,NASDAQ,その他,○
