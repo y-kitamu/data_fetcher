@@ -790,7 +790,6 @@ CHD,CHURCH AND DWIGH,チャーチ・アンド・ドワイト,NYSE,その他製�
 CHDN,CHURCHILL DOWNS,チャーチル・ダウンズ,NASDAQ,エンターテイメント,○
 CHE,CHEMED CORP,ケメド,NYSE,ヘルスケア,○
 CHEF,CHEFS WAREHOUSE,シェフズ・ウェアハウス,NASDAQ,食品,○
-CHEK,CHECK CAP LTD,チェック・キャップ,NASDAQ,ヘルスケア,○
 CHH,CHOICE HOTELS,チョイス・ホテルズ・インターナショナル,NYSE,ホテル,○
 CHKP,CHECK POINT SOFT,チェック・ポイント・ソフトウェア・テクノロジーズ,NASDAQ,ネットワークセキュリティー,○
 CHMG,CHEMUNG FINANCL,シェマング・ファイナンシャル,NASDAQ,金融（銀行）,○
@@ -1043,6 +1042,7 @@ CWEB,DRX CH INET BL2X,Direxion デイリー CSI中国インターネット指数
 CWEN,CLEARWAY ENERGY,クリアウェイ・エナジー,NYSE,電力,○
 CWH,CAMPING WORLD,キャンピング・ワールド・ホールディングス,NYSE,専門店,○
 CWI,SPDR MSCI ACWI,SPDR　MSCI 全世界株式（除く米国）　ETF,NYSE,その他,○
+CWK,CUSHMAN & WAKEFI,クッシュマン・アンド・ウェイクフィールド,NYSE,その他,○
 CWST,CASELLA WASTE,キャセラ・ウェイスト・システムズ,NASDAQ,ソフトウェア・サービス,○
 CWT,CALIFORNIA WATER,カリフォルニア・ウォーター・サービス・グループ,NYSE,その他,○
 CX,CEMEX SAB DE CV,セメックス,NYSE,その他製造,○
@@ -2475,6 +2475,7 @@ MAX,MEDIAALPHA INC,メディアアルファ,NYSE,ソフトウェア・サービ�
 MAXN,MAXEON SOLAR TC,マキシオン・ソーラー・テクノロジー,NASDAQ,電力,○
 MAYS,JW MAYS INC,JWメイズ,NASDAQ,その他,○
 MAZE,MAZE THERAPEUTIC,メイズ・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
+MBAI,CHECK CAP LTD,チェック・キャップ,NASDAQ,ヘルスケア,○
 MBB,ISHARES MBS BOND,iシェアーズ 米国 MBS ETF,NASDAQ,その他,○
 MBC,MASTERBRAND,マスターブランド,NYSE,その他製造,○
 MBCN,MIDDLEFIELD BANC,ミドルフィールド・バンク,NASDAQ,金融（銀行）,○
