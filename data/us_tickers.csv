@@ -837,7 +837,6 @@ CLPS,CLPS INC,CLPS,NASDAQ,ソフトウェア・サービス,○
 CLPT,CLEARPOINT NEURO,クリアポイント・ニューロ,NASDAQ,医薬品,○
 CLRO,CLEARONE INC,クリアワン,NASDAQ,その他製造,○
 CLS,CELESTICA INC,セレスティカ,NYSE,ソフトウェア・サービス,○
-CLSD,CLEARSIDE BIOMED,クリアサイド・バイオメディカル,NASDAQ,医薬品（バイオテクノロジー）,○
 CLSK,CLEANSPARK INC,クリーンスパーク,NASDAQ,電力,○
 CLST,CATALYST BANCORP,カタリスト・バンコープ,NASDAQ,金融（銀行）,○
 CLVT,CLARIVATE PLC,クラリベート,NYSE,ソフトウェア・サービス,○
@@ -1711,6 +1710,7 @@ GLBE,GLOBAL-E ONLINE,グローバル・イー・オンライン,NASDAQ,ソフト
 GLD,SPDR GOLD SHARES,SPDR ゴールド・シェア,NYSE,その他,○
 GLDD,GREAT LAKE DRDGE,グレート・レークス・ドレッジ・アンド・ドック,NASDAQ,その他製造,○
 GLDM,SPDR GOLD MINI,SPDR ゴールド・ミニシェアーズ・トラスト,NYSE,その他,○
+GLIBA,GCI LIBERTY-A,GCI リバティ シリーズ A,NASDAQ,通信サービス,○
 GLIBK,GCI LIBERTY-C,GCI リバティ シリーズ C,NASDAQ,通信サービス,○
 GLIN,V INDIA GROWTH,ヴァンエック・インドグロースリーダーズETF,NYSE,その他,○
 GLMD,GALMED PHARMACEU,ガルメド・ファーマシューティカルズ,NASDAQ,医薬品（バイオテクノロジー）,○
@@ -1812,7 +1812,6 @@ HAYW,HAYWARD HOLDINGS,ヘイワード・ホールディングス,NYSE,その他,
 HBAN,HUNTINGTON BANCS,ハンティントン・バンクシェアーズ,NASDAQ,金融（銀行）,○
 HBB,HAMILTON BEACH,ハミルトン・ビーチ・ブランズ・ホールディング,NYSE,その他製造,○
 HBCP,HOME BANCORP INC,ホーム・バンコープ,NASDAQ,金融（銀行）,○
-HBI,HANESBRANDS INC,ヘインズブランズ,NYSE,小売,○
 HBM,HUDBAY MINERALS,ハドベイ・ミネラルズ,NYSE,その他,○
 HBNC,HORIZON BANCORP,ホライゾン・バンコープ,NASDAQ,金融（銀行）,○
 HBT,HBT FINANCIAL,HBTファイナンシャル,NASDAQ,金融（銀行）,○
@@ -2301,7 +2300,6 @@ LAD,LITHIA MOTORS,リシア・モーターズ,NYSE,小売,○
 LAES,SEALSQ,シール・エスキュー,NASDAQ,半導体,○
 LAKE,LAKELAND INDUST,レイクランド・インダストリーズ,NASDAQ,その他製造,○
 LAR,LITHIUM ARGEN AG,リチウム・アルゼンチン AG,NYSE,その他,○
-LARK,LANDMARK BANC,ランドマーク・バンコープ,NASDAQ,金融（銀行）,○
 LASR,NLIGHT INC,エヌライト,NASDAQ,半導体製造,○
 LAUR,LAUREATE EDUCATN,ロレッテ・エデュケーション,NASDAQ,ソフトウェア・サービス,○
 LAW,CS DISCO INC,CSディスコ,NYSE,ソフトウェア・サービス,○
@@ -3482,6 +3480,7 @@ SBS,CIA SANEAMENTO B,サンパウロ州基礎衛生公社,NYSE,その他,○
 SBSI,SOUTHSIDE BANC,サウスサイド・バンクシェアーズ,NYSE,金融（銀行）,○
 SBSW,SIBANYESTILL ADR,シバンエ・スティルウォーター,NYSE,その他,○
 SBUX,STARBUCKS COFFEE,スターバックス,NASDAQ,外食,○
+SCCO,SOUTHERN COPPER,サザン・コッパー,NYSE,その他,○
 SCHL,SCHOLASTIC CORP,スコラスティック,NASDAQ,その他,○
 SCHW,CHARLES SCHWAB,チャールズ・シュワブ,NYSE,金融（証券）,○
 SCI,SERVICE CORP INT,サービス・コーポレーション・インターナショナル,NYSE,その他,○
@@ -4410,18 +4409,18 @@ XENE,XENON PHARMACEU,ゼノン・ファーマシューティカルズ,NASDAQ,医
 XERS,XERIS PHARMACEU,ゼリス・ファーマシューティカルズ,NASDAQ,医薬品（バイオテクノロジー）,○
 XGN,EXAGEN INC,エクサジェン,NASDAQ,ヘルスケア,○
 XIFR,XPLR INFRASTR,XPLR インフラストラクチャー,NYSE,電力,○
-XLB,MATERIAL SS SPDR,素材セレクト・セクター SPDR ファンド,NYSE,その他,○
-XLC,COMMUNI SS SPDR,コミュニケーション・サービス・セレクト・セクターSPDRファンド,NYSE,その他,○
-XLE,ENERGY SS SPDR,エネルギー・セレクト・セクター SPDR ファンド,NYSE,その他,○
-XLF,FNANCIAL SS SPDR,金融セレクト・セクター SPDR ファンド,NYSE,その他,○
-XLI,INDUSTRL SS SPDR,資本財セレクト・セクター SPDR ファンド,NYSE,その他,○
-XLK,TECHNLGY SS SPDR,テクノロジー・セレクト・セクター SPDR ファンド,NYSE,その他,○
+XLB,SSTR MATERIAL SS,State Street 素材セレクト・セクター SPDR ファンド,NYSE,その他,○
+XLC,SSTR COMMUNI SS,State Street コミュニケーション・サービス・セレクト・セクターSPDRファンド,NYSE,その他,○
+XLE,SSTR ENERGY SS,State Street エネルギー・セレクト・セクター SPDR ファンド,NYSE,その他,○
+XLF,SSTR FNANCIAL SS,State Street 金融セレクト・セクター SPDR ファンド,NYSE,その他,○
+XLI,SSTR INDUSTRL SS,State Street 資本財セレクト・セクター SPDR ファンド,NYSE,その他,○
+XLK,SSTR TECHNLGY SS,State Street テクノロジー・セレクト・セクター SPDR ファンド,NYSE,その他,○
 XLO,XILIO THERAPE,シリオ・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
-XLP,CONS STP SS SPDR,生活必需品セレクト・セクター SPDR ファンド,NYSE,その他,○
-XLRE,REAL EST SS SPDR,不動産セレクト・セクターSPDRファンド,NYSE,その他,○
-XLU,UTILITIS SS SPDR,公益事業セレクト・セクター SPDR ファンド,NYSE,その他,○
-XLV,HLTHCARE SS SPDR,ヘルスケア・セレクト・セクター SPDR ファンド,NYSE,その他,○
-XLY,CONS DIS SS SPDR,一般消費財セレクト・セクター SPDR ファンド,NYSE,その他,○
+XLP,SSTR CONS STP SS,State Street 生活必需品セレクト・セクター SPDR ファンド,NYSE,その他,○
+XLRE,SSTR REAL EST SS,State Street 不動産セレクト・セクターSPDRファンド,NYSE,その他,○
+XLU,SSTR UTILITIS SS,State Street 公益事業セレクト・セクター SPDR ファンド,NYSE,その他,○
+XLV,SSTR HLTHCARE SS,State Street ヘルスケア・セレクト・セクター SPDR ファンド,NYSE,その他,○
+XLY,SSTR CONS DIS SS,State Street 一般消費財セレクト・セクター SPDR ファンド,NYSE,その他,○
 XMTR,XOMETRY INC,ゾーメトリー,NASDAQ,その他製造,○
 XNCR,XENCOR INC,ゼンコー,NASDAQ,医薬品,○
 XNET,XUNLEI LTD,シュンレイ,NASDAQ,ソフトウェア・サービス,○
