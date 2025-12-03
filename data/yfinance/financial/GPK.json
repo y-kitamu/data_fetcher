@@ -897,7 +897,7 @@
         "Special Income Charges": -16000000.0,
         "Gain On Sale Of Business": -14000000.0,
         "Other Special Charges": NaN,
-        "Restructuring And Mergern Acquisition": 2000000.0,
+        "Restructuring And Mergern Acquisition": 0.0,
         "Net Non Operating Interest Income Expense": -58000000.0,
         "Interest Expense Non Operating": 58000000.0,
         "Operating Income": 294000000.0,

@@ -803,8 +803,8 @@
         "Other Non Interest Expense": NaN
     },
     "2024-09-30": {
-        "Tax Effect Of Unusual Items": -178875.0,
-        "Tax Rate For Calcs": 0.225,
+        "Tax Effect Of Unusual Items": -178851.177809,
+        "Tax Rate For Calcs": 0.22497,
         "Total Unusual Items": -795000.0,
         "Total Unusual Items Excluding Goodwill": -795000.0,
         "Net Income From Continuing Operation Net Minority Interest": 31684000.0,
@@ -812,7 +812,7 @@
         "Net Interest Income": 88912000.0,
         "Interest Expense": 44708000.0,
         "Interest Income": 133620000.0,
-        "Normalized Income": 32300125.0,
+        "Normalized Income": 32300148.822191,
         "Net Income From Continuing And Discontinued Operation": 31684000.0,
         "Rent Expense Supplemental": NaN,
         "Diluted Average Shares": 35199383.0,
@@ -834,9 +834,9 @@
         "Depreciation And Amortization In Income Statement": 2786000.0,
         "Amortization": 2786000.0,
         "Amortization Of Intangibles Income Statement": 2786000.0,
-        "Selling General And Administration": 39297000.0,
+        "Selling General And Administration": 40307000.0,
         "Selling And Marketing Expense": 971000.0,
-        "General And Administrative Expense": 38326000.0,
+        "General And Administrative Expense": 39336000.0,
         "Insurance And Claims": 1241000.0,
         "Rent And Landing Fees": NaN,
         "Salaries And Wages": 37085000.0,
@@ -844,7 +844,7 @@
         "Operating Revenue": 111479000.0,
         "Occupancy And Equipment": 5905000.0,
         "Professional Expense And Contract Services Expense": 2896000.0,
-        "Other Non Interest Expense": 12184000.0
+        "Other Non Interest Expense": 11174000.0
     },
     "2024-12-31": {
         "Tax Effect Of Unusual Items": -396988.954239,

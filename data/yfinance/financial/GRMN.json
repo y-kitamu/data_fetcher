@@ -826,8 +826,8 @@
         "Operating Revenue": 1506671000.0
     },
     "2024-09-30": {
-        "Tax Effect Of Unusual Items": 3245449.0,
-        "Tax Rate For Calcs": 0.179,
+        "Tax Effect Of Unusual Items": 3249187.062211,
+        "Tax Rate For Calcs": 0.179206,
         "Normalized EBITDA": 463599000.0,
         "Total Unusual Items": 18131000.0,
         "Total Unusual Items Excluding Goodwill": 18131000.0,
@@ -838,7 +838,7 @@
         "EBIT": 437475000.0,
         "Net Interest Income": 28830000.0,
         "Interest Income": 28830000.0,
-        "Normalized Income": 384225449.0,
+        "Normalized Income": 384229187.062211,
         "Net Income From Continuing And Discontinued Operation": 399111000.0,
         "Total Expenses": 1148547000.0,
         "Total Operating Income As Reported": 437475000.0,

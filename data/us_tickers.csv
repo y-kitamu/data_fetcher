@@ -210,7 +210,6 @@ AMPX,AMPRIUS TECHNOLO,アンプリウス・テクノロジーズ,NYSE,その他�
 AMPY,AMPLIFY ENERGY,アンプリファイ・エナジー,NYSE,石油,○
 AMR,ALPHA METAL RSRC,アルファ・メタラァジカル・リソーシズ,NYSE,その他製造,○
 AMRC,AMERESCO INC,アメレスコ,NYSE,電力,○
-AMRK,A-MARK PRECIOUS,Aマーク・プレシャス・メタルズ,NASDAQ,専門店,○
 AMRN,AMARIN CORP,アマリン,NASDAQ,医薬品（バイオテクノロジー）,○
 AMRX,AMNEAL PHARMA,アムニール・ファーマシューティカルズ,NASDAQ,医薬品,○
 AMSC,AMERICN SUPERCON,アメリカン・スーパーコンダクター,NASDAQ,電力,○
@@ -717,7 +716,6 @@ CBNK,CAPITAL BANCORP,キャピタル・バンコープ,NASDAQ,金融（銀行）
 CBOE,CBOE GLOBAL,シービーオーイー・グローバル・マーケッツ,NYSE,その他,○
 CBRE,CBRE GROUP INC,CBREグループ,NYSE,その他,○
 CBRL,CRACKER BARREL O,クラッカー・バレル・オールド・カントリー・ストアー,NASDAQ,外食,○
-CBSH,COMMERCE BANC,コマース・バンクシェアーズ,NASDAQ,金融（銀行）,○
 CBT,CABOT CORP,キャボット,NYSE,化学,○
 CBU,COMMUNITY FCL ST,コミュニティー・ファイナンシャル・システム,NYSE,金融（銀行）,○
 CBUS,CIBUS INC,シバス,NASDAQ,食品,○
@@ -1741,6 +1739,7 @@ GNW,GENWORTH,ジェンワース・ファイナンシャル,NYSE,金融コング�
 GO,GROCERY OUTLET,グローサリー･アウトレット･ホールディング,NASDAQ,小売,○
 GOCO,GOHEALTH INC,ゴーヘルス,NASDAQ,金融(保険),○
 GOGO,GOGO INC,ゴーゴー,NASDAQ,通信サービス,○
+GOLD,GOLD COM INC,ゴールド・ドットコム,NYSE,専門店,○
 GOLF,ACUSHNET HLD,アクシネット・ホールディングス,NYSE,その他製造,○
 GOOG,ALPHABET INC-C,アルファベット クラスC,NASDAQ,ソフトウェア・サービス,○
 GOOGL,ALPHABET INC-A,アルファベット クラスA,NASDAQ,ソフトウェア・サービス,○
@@ -1797,6 +1796,7 @@ GWRE,GUIDEWIRE SOFT,ガイドワイア・ソフトウェア,NYSE,ソフトウェ
 GWRS,GLOB WATER RSCES,グローバル・ウォーター・リソーシズ,NASDAQ,その他,○
 GWW,WW GRAINGER INC,W・W・グレインジャー,NYSE,機械,○
 GXDW,GLX DR THMA ETF,グローバルX マルチテーマ成長株 ETF,NASDAQ,その他,○
+GXIG,GLX IG CORP BOND,グローバルＸ 米ドル建て投資適格社債 ETF,NYSE,その他,○
 GXO,GXO LOGISTICS,GXOロジスティクス,NYSE,運輸,○
 GYRE,GYRE THERAPEUTIC,ジャイア・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 H,HYATT HOTELS A,ハイアット・ホテルズ　クラスA,NYSE,ホテル,○
@@ -2076,6 +2076,7 @@ IOO,ISHARES GLBL 100,iシェアーズ グローバル 100 ETF,NYSE,その他,○
 IOSP,INNOSPEC INC,イノスペック,NASDAQ,化学,○
 IOT,SAMSARA INC,サムサラ,NYSE,ネットワーク,○
 IOVA,IOVANCE BIOTHERA,アイオバンス・バイオセラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
+IOYY,GNS YLDBST IONQ,グラナイトシェアーズ イールドブースト IONQ ETF,NASDAQ,その他,○
 IP,INTER PAPER CO,インターナショナル・ペーパー,NYSE,紙・パルプ,○
 IPAR,INTERPARFUMS,インターパフューム,NASDAQ,トイレタリー,○
 IPGP,IPG PHOTONICS CO,アイ・ピー・ジーフォトニクス,NASDAQ,周辺機器,○
@@ -2452,6 +2453,7 @@ LZM,LIFEZONE METALS,ライフゾーン・メタルズ,NYSE,その他製造,○
 M,MACY'S INC,メーシーズ,NYSE,百貨店,○
 MA,MASTERCARD INC,マスターカード,NYSE,金融(カード),○
 MAAS,MAASE INC,マース,NASDAQ,金融コングロマリット,○
+MAAY,GNS YLDBST MARA,グラナイトシェアーズ イールドブースト MARA ETF,NASDAQ,その他,○
 MAGN,MAGNERA CORP,マグネラ・コーポレーション,NYSE,紙・パルプ,○
 MAGS,RHL MAG 7 ETF,ラウンドヒル マグニフィセント セブン ETF,Cboe,その他,○
 MAMA,MAMAS CREATIONS,ママズ・クリエイションズ,NASDAQ,食品,○
@@ -3422,7 +3424,6 @@ RSVR,RESERVOIR MEDIA,レザボア・メディア,NASDAQ,エンターテイメン
 RTH,V RETAIL,ヴァンエック・小売ETF,NASDAQ,その他,○
 RTO,RENTOKIL INITIAL,レントキル・イニシャルPLC,NYSE,その他,○
 RTX,RTX CORPORATION,RTXコーポレーション,NYSE,コングロマリット,○
-RUBI,RUBICO INC,ルビコ,NASDAQ,運輸,○
 RUM,RUMBLE INC,ランブル,NASDAQ,その他,○
 RUN,SUNRUN INC,サンラン,NASDAQ,電力,○
 RUSHA,RUSH ENTERPRISES,ラッシュ・エンタープライジズ,NASDAQ,小売,○
@@ -4409,8 +4410,7 @@ XENE,XENON PHARMACEU,ゼノン・ファーマシューティカルズ,NASDAQ,医
 XERS,XERIS PHARMACEU,ゼリス・ファーマシューティカルズ,NASDAQ,医薬品（バイオテクノロジー）,○
 XGN,EXAGEN INC,エクサジェン,NASDAQ,ヘルスケア,○
 XIFR,XPLR INFRASTR,XPLR インフラストラクチャー,NYSE,電力,○
-XLB,SSTR MATERIAL SS,State Street 素材セレクト・セクター SPDR ファンド,NYSE,その他,○
-XLC,SSTR COMMUNI SS,State Street コミュニケーション・サービス・セレクト・セクターSPDRファンド,NYSE,その他,○
+XLB,SSTR MATERIAL SS,State Street 素材セレクト・セクター SPDR ETF,NYSE,その他,○
 XLE,SSTR ENERGY SS,State Street エネルギー・セレクト・セクター SPDR ファンド,NYSE,その他,○
 XLF,SSTR FNANCIAL SS,State Street 金融セレクト・セクター SPDR ファンド,NYSE,その他,○
 XLI,SSTR INDUSTRL SS,State Street 資本財セレクト・セクター SPDR ファンド,NYSE,その他,○
