@@ -930,7 +930,7 @@
         "Special Income Charges": -3200000.0,
         "Gain On Sale Of Ppe": NaN,
         "Write Off": NaN,
-        "Impairment Of Capital Assets": 400000.0,
+        "Impairment Of Capital Assets": 0.0,
         "Restructuring And Mergern Acquisition": 2800000.0,
         "Net Non Operating Interest Income Expense": -13200000.0,
         "Total Other Finance Cost": 600000.0,

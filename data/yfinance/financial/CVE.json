@@ -898,7 +898,7 @@
         "Total Unusual Items Excluding Goodwill": 69000000.0,
         "Net Income From Continuing Operation Net Minority Interest": 820000000.0,
         "Reconciled Depreciation": 1218000000.0,
-        "Reconciled Cost Of Revenue": 11307000000.0,
+        "Reconciled Cost Of Revenue": 10877000000.0,
         "EBITDA": 2402000000.0,
         "EBIT": 1184000000.0,
         "Net Interest Income": -118000000.0,
@@ -906,7 +906,7 @@
         "Interest Income": 51000000.0,
         "Normalized Income": 764746093.75,
         "Net Income From Continuing And Discontinued Operation": 820000000.0,
-        "Total Expenses": 13215000000.0,
+        "Total Expenses": 12785000000.0,
         "Diluted Average Shares": 1863312000.0,
         "Basic Average Shares": 1848035000.0,
         "Diluted EPS": 0.42,
@@ -938,9 +938,9 @@
         "General And Administrative Expense": 172000000.0,
         "Other Gand A": 172000000.0,
         "Gross Profit": 2942000000.0,
-        "Cost Of Revenue": 11307000000.0,
-        "Total Revenue": 14249000000.0,
-        "Operating Revenue": 14249000000.0
+        "Cost Of Revenue": 10877000000.0,
+        "Total Revenue": 13819000000.0,
+        "Operating Revenue": 13819000000.0
     },
     "2024-12-31": {
         "Tax Effect Of Unusual Items": -93347826.086957,

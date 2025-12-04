@@ -3424,6 +3424,7 @@ RSVR,RESERVOIR MEDIA,レザボア・メディア,NASDAQ,エンターテイメン
 RTH,V RETAIL,ヴァンエック・小売ETF,NASDAQ,その他,○
 RTO,RENTOKIL INITIAL,レントキル・イニシャルPLC,NYSE,その他,○
 RTX,RTX CORPORATION,RTXコーポレーション,NYSE,コングロマリット,○
+RUBI,RUBICO INC,ルビコ,NASDAQ,運輸,○
 RUM,RUMBLE INC,ランブル,NASDAQ,その他,○
 RUN,SUNRUN INC,サンラン,NASDAQ,電力,○
 RUSHA,RUSH ENTERPRISES,ラッシュ・エンタープライジズ,NASDAQ,小売,○
@@ -3667,7 +3668,6 @@ SOLS,SOLSTICE ADVANCE,ソルスティス・アドバンスド・マテリアル�
 SOLV,SOLVENTUM CORP,ソルベンタム・コーポレーション,NYSE,ヘルスケア,○
 SON,SONOCO PRODUCTS,ソノコ･プロダクツ,NYSE,その他製造,○
 SONM,SONIM TECHNO,ソニム・テクノロジーズ,NASDAQ,通信サービス,○
-SONN,SONNET BIOTHERAP,ソネット・バイオセラピューティクス・ホールディングス,NASDAQ,医薬品（バイオテクノロジー）,○
 SONO,SONOS INC,ソノス,NASDAQ,その他製造,○
 SOPA,SOCIETY PASS INC,ソサエティ・パス,NASDAQ,ソフトウェア・サービス,○
 SOPH,SOPHIA GENETICS,ソフィア・ジェネティクス,NASDAQ,ソフトウェア・サービス,○
@@ -3770,7 +3770,6 @@ STNG,SCORPIO TANKERS,スコーピオ・タンカーズ,NYSE,運輸,○
 STOK,STOKE THERAPEUT,ストーク･セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 STRA,STRATEGIC EDUCTN,ストラテジック・エデュケーション,NASDAQ,ソフトウェア・サービス,○
 STRL,STERLING INFRA,スターリング・インフラストラクチャー,NASDAQ,その他,○
-STRO,SUTRO BIOPHARMA,ストゥロ・バイオファーマ,NASDAQ,医薬品（バイオテクノロジー）,○
 STRR,STAR EQUITY HLD,スター・エクイティ・ホールディングス,NASDAQ,その他,○
 STRS,STRATUS PROPERTI,ストラタス・プロパティーズ,NASDAQ,その他,○
 STRT,STRATTEC SECRITY,ストラテック・セキュリティ,NASDAQ,その他製造,○
@@ -4411,16 +4410,17 @@ XERS,XERIS PHARMACEU,ゼリス・ファーマシューティカルズ,NASDAQ,医
 XGN,EXAGEN INC,エクサジェン,NASDAQ,ヘルスケア,○
 XIFR,XPLR INFRASTR,XPLR インフラストラクチャー,NYSE,電力,○
 XLB,SSTR MATERIAL SS,State Street 素材セレクト・セクター SPDR ETF,NYSE,その他,○
-XLE,SSTR ENERGY SS,State Street エネルギー・セレクト・セクター SPDR ファンド,NYSE,その他,○
-XLF,SSTR FNANCIAL SS,State Street 金融セレクト・セクター SPDR ファンド,NYSE,その他,○
-XLI,SSTR INDUSTRL SS,State Street 資本財セレクト・セクター SPDR ファンド,NYSE,その他,○
-XLK,SSTR TECHNLGY SS,State Street テクノロジー・セレクト・セクター SPDR ファンド,NYSE,その他,○
+XLC,SSTR COMMUNI SS,State Street コミュニケーション・サービス・セレクト・セクター SPDR ETF,NYSE,その他,○
+XLE,SSTR ENERGY SS,State Street エネルギー・セレクト・セクター SPDR ETF,NYSE,その他,○
+XLF,SSTR FNANCIAL SS,State Street 金融セレクト・セクター SPDR ETF,NYSE,その他,○
+XLI,SSTR INDUSTRL SS,State Street 資本財セレクト・セクター SPDR ETF,NYSE,その他,○
+XLK,SSTR TECHNLGY SS,State Street テクノロジー・セレクト・セクター SPDR ETF,NYSE,その他,○
 XLO,XILIO THERAPE,シリオ・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
-XLP,SSTR CONS STP SS,State Street 生活必需品セレクト・セクター SPDR ファンド,NYSE,その他,○
-XLRE,SSTR REAL EST SS,State Street 不動産セレクト・セクターSPDRファンド,NYSE,その他,○
-XLU,SSTR UTILITIS SS,State Street 公益事業セレクト・セクター SPDR ファンド,NYSE,その他,○
-XLV,SSTR HLTHCARE SS,State Street ヘルスケア・セレクト・セクター SPDR ファンド,NYSE,その他,○
-XLY,SSTR CONS DIS SS,State Street 一般消費財セレクト・セクター SPDR ファンド,NYSE,その他,○
+XLP,SSTR CONS STP SS,State Street 生活必需品セレクト・セクター SPDR ETF,NYSE,その他,○
+XLRE,SSTR REAL EST SS,State Street 不動産セレクト・セクターSPDR ETF,NYSE,その他,○
+XLU,SSTR UTILITIS SS,State Street 公益事業セレクト・セクター SPDR ETF,NYSE,その他,○
+XLV,SSTR HLTHCARE SS,State Street ヘルスケア・セレクト・セクター SPDR ETF,NYSE,その他,○
+XLY,SSTR CONS DIS SS,State Street 一般消費財セレクト・セクター SPDR ETF,NYSE,その他,○
 XMTR,XOMETRY INC,ゾーメトリー,NASDAQ,その他製造,○
 XNCR,XENCOR INC,ゼンコー,NASDAQ,医薬品,○
 XNET,XUNLEI LTD,シュンレイ,NASDAQ,ソフトウェア・サービス,○
