@@ -5,7 +5,7 @@ from pathlib import Path
 
 import polars as pl
 
-from ...core.base_fetcher import BaseFetcher, convert_timedelta_to_str
+from ...core import BaseFetcher, convert_timedelta_to_str
 from ...core.constants import PROJECT_ROOT
 
 
