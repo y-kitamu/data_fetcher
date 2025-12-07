@@ -32,7 +32,7 @@ def test_convert_timedelta_to_str():
 
 def test_convert_str_to_timedelta():
     """Test convert_str_to_timedelta function"""
-    from data_fetcher.core.base_fetcher import convert_str_to_timedelta
+    from data_fetcher.core import convert_str_to_timedelta
 
     # Test seconds
     assert convert_str_to_timedelta("30s") == datetime.timedelta(seconds=30)
@@ -56,7 +56,7 @@ def test_convert_str_to_timedelta():
 
 def test_convert_tick_to_ohlc():
     """Test convert_tick_to_ohlc function"""
-    from data_fetcher.core.base_fetcher import convert_tick_to_ohlc
+    from data_fetcher.core import convert_tick_to_ohlc
 
     # Create sample tick data
     tick_data = {
