@@ -55,7 +55,11 @@ def convert_str_to_timedelta(interval: str) -> datetime.timedelta:
 
 
 def convert_tick_to_ohlc(
-    tick_df: pl.DataFrame, interval: datetime.timedelta
+    tick_df: pl.DataFrame,
+    interval: datetime.timedelta,
+    date_key="datetime",
+    price_key="price",
+    size_key="size",
 ) -> pl.DataFrame:
     """Convert tick data to OHLC bars.
 
@@ -68,15 +72,15 @@ def convert_tick_to_ohlc(
     """
     ohlc_df = (
         tick_df.group_by_dynamic(
-            pl.col("datetime"), every=convert_timedelta_to_str(interval)
+            pl.col(date_key), every=convert_timedelta_to_str(interval)
         )
         .agg(
-            pl.col("price").first().alias("open"),
-            pl.col("price").max().alias("high"),
-            pl.col("price").min().alias("low"),
-            pl.col("price").last().alias("close"),
-            pl.col("size").sum().alias("volume"),
+            pl.col(price_key).first().alias("open"),
+            pl.col(price_key).max().alias("high"),
+            pl.col(price_key).min().alias("low"),
+            pl.col(price_key).last().alias("close"),
+            pl.col(size_key).sum().alias("volume"),
         )
-        .sort(pl.col("datetime"))
+        .sort(pl.col(date_key))
     )
     return ohlc_df
