@@ -8,7 +8,7 @@ import pytest
 
 def test_convert_timedelta_to_str():
     """Test convert_timedelta_to_str function"""
-    from data_fetcher.core.base_fetcher import convert_timedelta_to_str
+    from data_fetcher.core import convert_timedelta_to_str
 
     # Test seconds
     assert convert_timedelta_to_str(datetime.timedelta(seconds=30)) == "30s"
