@@ -153,3 +153,15 @@ gross_profit,2024-06-01,2025-05-31,jppfs_cor:GrossProfit,Prior1InterimDuration_N
 gross_profit,2024-09-01,2025-08-31,jppfs_cor:GrossProfit,InterimDuration_NonConsolidatedMember,-150297000,202505291537
 operating_income,2024-06-01,2025-05-31,jppfs_cor:OperatingIncome,Prior1InterimDuration_NonConsolidatedMember,-205800000,202505291537
 operating_income,2024-09-01,2025-08-31,jppfs_cor:OperatingIncome,InterimDuration_NonConsolidatedMember,-193968000,202505291537
+net_sales,2024-09-01,2025-08-31,jpcrp_cor:NetSalesSummaryOfBusinessResults,CurrentYearDuration_NonConsolidatedMember,88080000,202511271606
+net_income,2024-09-01,2025-08-31,jpcrp_cor:NetIncomeLossSummaryOfBusinessResults,CurrentYearDuration_NonConsolidatedMember,-178283000,202511271606
+comprehensive_income,2024-09-01,2025-08-31,jpcrp_cor:NetIncomeLossSummaryOfBusinessResults,CurrentYearDuration_NonConsolidatedMember,-178283000,202511271606
+net_asset,2024-09-01,2025-08-31,jpcrp_cor:NetAssetsSummaryOfBusinessResults,CurrentYearInstant_NonConsolidatedMember,145325000,202511271606
+total_asset,2024-09-01,2025-08-31,jpcrp_cor:TotalAssetsSummaryOfBusinessResults,CurrentYearInstant_NonConsolidatedMember,223933000,202511271606
+eps,2024-09-01,2025-08-31,jpcrp_cor:BasicEarningsLossPerShareSummaryOfBusinessResults,CurrentYearDuration_NonConsolidatedMember,-18473.04,202511271606
+cost_of_sales,2023-09-01,2024-08-31,jppfs_cor:CostOfSales,Prior1YearDuration_NonConsolidatedMember,345940000,202511271606
+cost_of_sales,2024-09-01,2025-08-31,jppfs_cor:CostOfSales,CurrentYearDuration_NonConsolidatedMember,297209000,202511271606
+gross_profit,2023-09-01,2024-08-31,jppfs_cor:GrossProfit,Prior1YearDuration_NonConsolidatedMember,-245899000,202511271606
+gross_profit,2024-09-01,2025-08-31,jppfs_cor:GrossProfit,CurrentYearDuration_NonConsolidatedMember,-209128000,202511271606
+operating_income,2023-09-01,2024-08-31,jppfs_cor:OperatingIncome,Prior1YearDuration_NonConsolidatedMember,-292564000,202511271606
+operating_income,2024-09-01,2025-08-31,jppfs_cor:OperatingIncome,CurrentYearDuration_NonConsolidatedMember,-275989000,202511271606

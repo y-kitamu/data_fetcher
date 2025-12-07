@@ -704,7 +704,7 @@
     },
     "2024-09-30": {
         "Tax Effect Of Unusual Items": 0.0,
-        "Tax Rate For Calcs": 0.179301,
+        "Tax Rate For Calcs": 0.178,
         "Net Income From Continuing Operation Net Minority Interest": 16751530.0,
         "Reconciled Depreciation": 980105.0,
         "EBIT": 20778888.0,
@@ -713,8 +713,8 @@
         "Normalized Income": 16751530.0,
         "Net Income From Continuing And Discontinued Operation": 16751530.0,
         "Total Expenses": 231326240.0,
-        "Diluted Average Shares": 33456000.0,
-        "Basic Average Shares": 33456000.0,
+        "Diluted Average Shares": 33635174.0,
+        "Basic Average Shares": 33555210.0,
         "Diluted EPS": 0.51,
         "Basic EPS": 0.51,
         "Diluted NI Availto Com Stockholders": 16751530.0,
@@ -832,7 +832,7 @@
     },
     "2025-09-30": {
         "Tax Effect Of Unusual Items": 0.0,
-        "Tax Rate For Calcs": 0.19838,
+        "Tax Rate For Calcs": 0.189,
         "Net Income From Continuing Operation Net Minority Interest": 20080214.0,
         "Reconciled Depreciation": 717301.0,
         "EBIT": 25389953.0,

@@ -513,7 +513,7 @@
         "Tax Rate For Calcs": 0.0,
         "Normalized EBITDA": -13091000.0,
         "Net Income From Continuing Operation Net Minority Interest": -12157000.0,
-        "Reconciled Depreciation": NaN,
+        "Reconciled Depreciation": 0.0,
         "EBITDA": -13091000.0,
         "EBIT": -13091000.0,
         "Normalized Income": -12157000.0,
