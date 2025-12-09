@@ -697,7 +697,6 @@ CARL,CARLSMED,カールスメッド,NASDAQ,医療サービス,○
 CARR,CARRIER GLOBAL,キャリア・グローバル,NYSE,機械,○
 CARS,CARS COM,カーズ・コム,NYSE,自動車,○
 CART,MAPLEBEAR INC,メープルベア,NASDAQ,情報処理サービス,○
-CARV,CARVER BANCORP,カーバー・バンコープ,NASDAQ,金融（銀行）,○
 CASH,PATHWARD FNL,パスワード・ファイナンシャル,NASDAQ,金融（銀行）,○
 CASI,CASI PHARMA,CASIファーマシューティカルズ,NASDAQ,その他,○
 CASS,CASS INFORMATION,キャス・インフォメーション・システムズ,NASDAQ,情報処理サービス,○
@@ -1161,7 +1160,7 @@ DOLE,DOLE PLC,ドール,NYSE,飲料,○
 DOMH,DOMINARI HOLDING,ドミナリ・ホールディングス,NASDAQ,ヘルスケア,○
 DOMO,DOMO INC,ドーモ,NASDAQ,ソフトウェア・サービス,○
 DON,WM M-CAP DIVIDEN,ウィズダムツリー　米国中型株配当ファンド,NYSE,その他,○
-DOOO,BRP INC,BRP,NASDAQ,その他製造,○
+DOO,BRP INC,BRP,NASDAQ,その他製造,○
 DORM,DORMAN PRODUCTS,ドーマン・プロダクツ,NASDAQ,その他製造,○
 DOUG,DOUGLAS ELLIMAN,ダグラス・エリマン,NYSE,金融コングロマリット,○
 DOV,DOVER CORP,ドーバー,NYSE,機械,○
@@ -2013,6 +2012,7 @@ IMA,IMAGENEBIO INC,イマジンバイオ,NASDAQ,医薬品（バイオテクノ�
 IMAX,IMAX CORPORATION,アイマックス,NYSE,エンターテイメント,○
 IMCR,IMMUNOCORE HOLD,イムノコア・ホールディングス,NASDAQ,医薬品（バイオテクノロジー）,○
 IMDX,INSIGHT MOLECULR,インサイト・モレキュラー・ダイアグノスティクス,NASDAQ,医薬品（バイオテクノロジー）,○
+IMG,CIMG INC,シーアイエムジー,NASDAQ,飲料,○
 IMKTA,INGLES MARKETS,イングルス・マーケッツ,NASDAQ,小売,○
 IMMR,IMMERSION CORP,イマージョン,NASDAQ,ソフトウェア・サービス,○
 IMMX,IMMIX BIOPHARMA,イミックス・バイオファーマ,NASDAQ,医薬品（バイオテクノロジー）,○
@@ -2661,6 +2661,7 @@ MTRN,MATERION CORP,マテリオン,NYSE,化学,○
 MTRX,MATRIX SERVICE,マトリックス・サービス,NASDAQ,石油,○
 MTSI,MACOM TECHNOLOGY,メイコム・テクノロジー・ソリューションズ・ホールディングス,NASDAQ,半導体,○
 MTUS,METALLUS INC,メタルス,NYSE,その他製造,○
+MTVA,METAVIA INC,メタビア,NASDAQ,医薬品（バイオテクノロジー）,○
 MTW,MANITOWOC,マニトウォック,NYSE,機械,○
 MTX,MINERALS TECHNO,ミネラルズ・テクノロジーズ,NYSE,化学,○
 MTYY,GNS YLDBST MSTR,グラナイトシェアーズ イールドブースト MSTR ETF,NASDAQ,その他,○
@@ -3694,7 +3695,6 @@ SPNS,SAPIENS INTL CRP,サピエンス・インターナショナル,NASDAQ,ソ�
 SPNT,SIRIUSPOINT LTD,シリウスポイント,NYSE,金融(保険),○
 SPOK,SPOK HOLDINGS,スポック・ホールディングス,NASDAQ,通信サービス,○
 SPOT,SPOTIFY TECH,スポティファイ・テクノロジー,NYSE,エンターテイメント,○
-SPR,SPIRIT AEROSYSTE,スピリット・エアロシステムズ・ホールディングス,NYSE,航空,○
 SPRO,SPERO THERAPEU,スペロ・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 SPRU,SPRUCE POWER HD,スプルース・パワー・ホールディング・コーポレーション,NYSE,自動車,○
 SPRY,ARS PHARMACEUTIC,ARSファーマシューティカルズ,NASDAQ,医薬品（バイオテクノロジー）,○
