@@ -75,7 +75,6 @@ ADTN,ADTRAN HOLDINGS,アドトラン・ホールディングス,NASDAQ,通信機
 ADTX,ADITXT INC,アディトクス,NASDAQ,ヘルスケア,○
 ADUS,ADDUS HOMECARE,アダス・ホームケア,NASDAQ,ヘルスケア,○
 ADV,ADVANTAGE SOLN,アドバンテージ・ソリューションズ,NASDAQ,ソフトウェア・サービス,○
-ADVM,ADVERUM BIOTECH,アドベラム・バイオテクノロジーズ,NASDAQ,医薬品（バイオテクノロジー）,○
 ADXN,ADDEX THERAPE,アデックス・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 AEBI,AEBI SCHMIDT,アエビ・シュミット・ホールディング,NASDAQ,機械,○
 AEE,AMEREN CORP.,アメレン,NYSE,その他製造,○
@@ -140,7 +139,6 @@ AKA,AKA BRANDS HLD,AKAブランズ・ホールディング,NYSE,小売,○
 AKAM,AKAMAI TECH,アカマイ・テクノロジーズ,NASDAQ,ネットワーク,○
 AKAN,AKANDA CORP,アカンダ,NASDAQ,医薬品,○
 AKBA,AKEBIA THERAPEU,アケビア・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
-AKRO,AKERO THERAPEUT,アケロ･セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 AL,AIR LEASE,エア・リース・コーポレーション,NYSE,航空機・宇宙,○
 ALAB,ASTERA LABS INC,アステラ・ラブス,NASDAQ,半導体,○
 ALAR,ALARUM TECH,アララム・テクノロジーズ,NASDAQ,ネットワークセキュリティー,○
@@ -1415,7 +1413,7 @@ EXPI,EXP WORLD HLD,eXpワールド・ホールディングス,NASDAQ,ソフト�
 EXPO,EXPONENT INC,エクスポーネント,NASDAQ,ソフトウェア・サービス,○
 EXTR,EXTREME NETWORKS,エクストリーム　ネットワークス,NASDAQ,通信機器,○
 EYE,NATIONAL VISION,ナショナル・ビジョン・ホールディングス,NASDAQ,小売,○
-EYPT,EYEPOINT PHARMA,アイポイント・ファーマシューティカルズ,NASDAQ,医薬品（バイオテクノロジー）,○
+EYPT,EYEPOINT INC,アイポイント,NASDAQ,医薬品（バイオテクノロジー）,○
 EZA,ISHARES S AFRICA,iシェアーズ MSCI 南アフリカ ETF,NYSE,その他,○
 EZPW,EZCORP INC,イージーコープ,NASDAQ,小売,○
 F,FORD MOTOR CO,フォード・モーター,NYSE,自動車,○
@@ -1586,7 +1584,7 @@ FSBW,FS BANCORP INC,FSバンコープ,NASDAQ,金融（銀行）,○
 FSFG,FIRST SAVNG FCL,ファースト・セービングス・ファイナンシャル・グループ,NASDAQ,金融（銀行）,○
 FSIG,FT INVEST GR ETF,ファーストトラスト リミテッドデュレーション投資適格社債ETF,NYSE,その他,○
 FSLR,FIRST SOLAR INC,ファーストソーラー,NASDAQ,電力,○
-FSLY,FASTLY INC,ファストリー,NYSE,ソフトウェア・サービス,○
+FSLY,FASTLY INC,ファストリー,NASDAQ,ソフトウェア・サービス,○
 FSM,FORTUNA MINING,フォルトゥナ・マイニング,NYSE,その他,○
 FSS,FEDERAL SIGNAL,フェデラル・シグナル,NYSE,その他製造,○
 FSTR,LB FOSTER CMPANY,LBフォスター,NASDAQ,その他製造,○
@@ -3177,7 +3175,6 @@ PRLD,PRELUDE THERAPEU,プレリュード・セラピューティクス,NASDAQ,�
 PRM,PERIMETER SOL,ペリメター・ソリューションズ,NYSE,化学,○
 PRMB,PRIMO BRANDS CO,プリモ・ブランズ・コーポレーション,NYSE,飲料,○
 PRME,PRIME MEDICINE,プライム・メディスン,NASDAQ,医療サービス,○
-PRO,PROS HOLDINGS,PROSホールディングス,NYSE,ソフトウェア・サービス,○
 PROF,PROFOUND MEDICAL,プロファウンド・メディカル,NASDAQ,医療サービス,○
 PROK,PROKIDNEY CORP,プロキドニー,NASDAQ,医療サービス,○
 PROV,PROVIDENT FINL,プロビデント・ファイナンシャル・ホールディング,NASDAQ,金融（銀行）,○
@@ -3198,7 +3195,6 @@ PSKY,PARAMNT SKYDANCE,パラマウント・スカイダンス,NASDAQ,エンタ�
 PSMT,PRICESMART INC,プライススマート,NASDAQ,小売,○
 PSN,PARSONS CORP,パーソンズ,NYSE,ソフトウェア・サービス,○
 PSNL,PERSONALIS INC,パーソナリス,NASDAQ,ヘルスケア,○
-PSNY,POLESTAR,ポールスター,NASDAQ,その他,○
 PSO,PEARSON PLC SPON,ピアソン,NYSE,エンターテイメント,○
 PSQH,PSQ HOLDINGS INC,PSQホールディングス,NYSE,情報処理サービス,○
 PSTG,PURE STORAGE,ピュア・ストレージ,NYSE,ソフトウェア・サービス,○
@@ -4355,7 +4351,7 @@ WMB,WILLIAMS COS INC,ウィリアムズ・カンパニーズ,NYSE,石油,○
 WMG,WARNER MUSIC,ワーナー・ミュージック・グループ,NASDAQ,エンターテイメント,○
 WMK,WEIS MARKETS INC,ウエイズ・マーケッツ,NYSE,小売,○
 WMS,ADVNCED DRAINAGE,アドバンスト・ドレナージ・システム,NYSE,その他製造,○
-WMT,WALMART,ウォルマート,NYSE,小売,○
+WMT,WALMART,ウォルマート,NASDAQ,小売,○
 WNC,WABASH NATIONAL,ワバシュ・ナショナル,NYSE,その他製造,○
 WNEB,WEST NEW ENGLAND,ウエスタン・ニュー・イングランド・バンコープ,NASDAQ,金融（銀行）,○
 WNW,MEIWU TECHNOLOGY,メイウー・テクノロジー,NASDAQ,小売,○
