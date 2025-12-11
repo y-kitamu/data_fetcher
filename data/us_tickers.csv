@@ -1898,7 +1898,6 @@ HRTX,HERON THERAPEUT,ヘロン・セラピューティクス,NASDAQ,医薬品（
 HSAI,HESAI GROUP,へーサイ・グループ,NASDAQ,周辺機器,○
 HSBC,HSBC (ADR),HSBCホールディングス,NYSE,金融コングロマリット,○
 HSIC,HENRY SCHEIN INC,ヘンリー・シャイン,NASDAQ,ヘルスケア,○
-HSII,HEIDRICK&STRUGGL,ハイドリック・アンド・ストラグルズ・インターナショナル,NASDAQ,ソフトウェア・サービス,○
 HSTM,HEALTHSTREAM INC,ヘルスストリーム,NASDAQ,ソフトウェア・サービス,○
 HSY,HERSHEY CO/THE,ハーシー,NYSE,食品,○
 HTB,HOMETRUST BANC,ホーム・トラスト・バンクシェアズ,NYSE,金融（銀行）,○
@@ -2896,7 +2895,6 @@ OCS,OCULIS HOLDING,オキュリス・ホールディング,NASDAQ,医薬品（�
 OCUL,OCULAR THERAPEUT,オキュラー・セラピューティクス,NASDAQ,ヘルスケア,○
 ODC,OIL DRI CO AMER,オイル・ドリ・コーポレーション・オブ・アメリカ,NYSE,化学,○
 ODFL,OLD DOMINION FRE,オールド・ドミニオン・フレイト・ライン,NASDAQ,運輸,○
-ODP,OFFICE DEPOT INC,オフィス・デポ,NASDAQ,小売,○
 OEC,ORION,オリオン,NYSE,化学,○
 OEF,ISHARES SP 100,iシェアーズ S&P 100 ETF,NYSE,その他,○
 OESX,ORION ENER SYSTM,オリオン・エナジー・システムズ,NASDAQ,その他製造,○
@@ -3195,6 +3193,7 @@ PSKY,PARAMNT SKYDANCE,パラマウント・スカイダンス,NASDAQ,エンタ�
 PSMT,PRICESMART INC,プライススマート,NASDAQ,小売,○
 PSN,PARSONS CORP,パーソンズ,NYSE,ソフトウェア・サービス,○
 PSNL,PERSONALIS INC,パーソナリス,NASDAQ,ヘルスケア,○
+PSNY,POLESTAR,ポールスター,NASDAQ,その他,○
 PSO,PEARSON PLC SPON,ピアソン,NYSE,エンターテイメント,○
 PSQH,PSQ HOLDINGS INC,PSQホールディングス,NYSE,情報処理サービス,○
 PSTG,PURE STORAGE,ピュア・ストレージ,NYSE,ソフトウェア・サービス,○
@@ -3212,6 +3211,7 @@ PUBM,PUBMATIC INC,パブティック,NASDAQ,ソフトウェア・サービス,�
 PUK,PRUDENTIAL PLC,プルデンシャル,NYSE,金融(保険),○
 PULM,PULMATRIX INC,プルマトリックス,NASDAQ,医薬品（バイオテクノロジー）,○
 PUMP,PROPETRO HOLDING,プロペトロ・ホールディング,NYSE,石油,○
+PURR,HYPERLIQUID STRA,ハイパーリキッド・ストラテジーズ,NASDAQ,金融（銀行）,○
 PVH,PVH CORP,PVHコープ,NYSE,専門店,○
 PVLA,PALVELLA THERA,パルベラ・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 PWP,PERELLA WEINBERG,ペレラ・ワインバーグ・パートナーズ,NASDAQ,金融（銀行）,○
@@ -3483,7 +3483,6 @@ SCKT,SOCKET MOBILE,ソケット･モバイル,NASDAQ,コンピュータ,○
 SCL,STEPAN COMPANY,ステパン,NYSE,化学,○
 SCNX,SCIENTURE HOLDIN,サイエンチャー・ホールディングス,NASDAQ,コンピュータ,○
 SCOR,COMSCORE INC,コムスコア,NASDAQ,ソフトウェア・サービス,○
-SCS,STEELCASE INC,スチールケース,NYSE,その他製造,○
 SCSC,SCANSOURCE INC,スキャンソース,NASDAQ,コンピュータ,○
 SCVL,SHOE CARNIVAL,シュー・カーニバル,NASDAQ,小売,○
 SCYX,SCYNEXIS INC,サイネクシス,NASDAQ,医薬品（バイオテクノロジー）,○
@@ -3548,7 +3547,7 @@ SHLD,GLX DF TECH ETF,グローバルX 防衛テック ETF,NYSE,その他,○
 SHLS,SHOALS TECHNO,ショールズ・テクノロジーズ,NASDAQ,電力,○
 SHOO,STEVEN MADDEN,スティーブン・マッデン,NASDAQ,フットウエア,○
 SHOP,SHOPIFY,ショッピファイ,NASDAQ,ネットワーク,○
-SHV,ISHARES SHORT TR,iシェアーズ 米国短期国債 ETF,NASDAQ,その他,○
+SHV,ISRS 0-1Y TR ETF,iシェアーズ 米国国債 0-1 ETF,NASDAQ,その他,○
 SHW,SHERWIN WILLIAMS,シャーウィン・ウィリアムズ,NYSE,専門店,○
 SHY,ISHARES 1-3YR TR,iシェアーズ 米国国債 1-3年 ETF,NASDAQ,その他,○
 SI,SHOULDER INNOVAT,ショルダー・イノベーションズ,NYSE,医療サービス,○
@@ -3782,7 +3781,6 @@ SUZ,SUZANO PAPEL,スザーノ・パペル・エ・セルロース,NYSE,紙・パ
 SVCO,SILVACO GROUP,シルバコ・グループ,NASDAQ,半導体,○
 SVM,SILVERCORP METAL,シルバーコープ・メタルズ,NYSE,その他,○
 SVRA,SAVARA INC,サバラ,NASDAQ,医薬品,○
-SVRE,SAVERONE 2014,セイバーワン2014,NASDAQ,自動車,○
 SVRN,OCEANPAL,オーシャンパル,NASDAQ,運輸,○
 SW,SMURFIT WESTROCK,スマーフィット・ウェストロック,NYSE,その他製造,○
 SWBI,SMITH AND WESSON,スミス&ウェッソン・ブランズ,NASDAQ,その他製造,○
