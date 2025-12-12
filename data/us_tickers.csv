@@ -741,6 +741,7 @@ CCUP,REX 2X LONG CRCL,T-REX 2X・ロング・CRCL・デイリーターゲットE
 CDE,COEUR MINING,コーマイニング,NYSE,その他,○
 CDLX,CARDLYTICS INC,カードリティックス,NASDAQ,ソフトウェア・サービス,○
 CDNA,CAREDX INC,ケアDx,NASDAQ,ヘルスケア,○
+CDNL,CARDINAL INFRA,カーディナル・インフラストラクチャー・グループ,NASDAQ,その他,○
 CDNS,CADENCE DESIGN,ケイデンス・デザイン・システムズ,NASDAQ,その他,○
 CDRE,CADRE HOLDING,カードル・ホールディング,NYSE,専門店,○
 CDRO,CODERE ONLINE LB,コデレ・オンライン・ルクセンブルグ,NASDAQ,エンターテイメント,○
@@ -946,6 +947,7 @@ CRCT,CRICUT INC,クリカット,NASDAQ,その他,○
 CRDF,CARDIFF ONCOLOGY,カーディフ・オンコロジー,NASDAQ,医薬品（バイオテクノロジー）,○
 CRDO,CREDO TECHNO GP,クレド・テクノロジー・グループ・ホールディング,NASDAQ,ネットワークセキュリティー,○
 CREG,SMART POWERR,スマート・パワー,NASDAQ,電力,○
+CRESY,CRESUD SACIF Y A,クレサッド・サシフYA,NASDAQ,その他,○
 CREX,CREATIV REALITIE,クリエイティブ・リアリティーズ,NASDAQ,ソフトウェア・サービス,○
 CRGY,CRESCENT ENERGY,クレセント・エナジー,NYSE,石油,○
 CRH,CRH PUBLIC NEWCO,CRH,NYSE,その他製造,○
@@ -2183,8 +2185,6 @@ JWEL,JOWELL GLOBAL,ジョウェル・グローバル,NASDAQ,小売,○
 JXI,ISHARES UTILITY,iシェアーズ グローバル公益事業 ETF,NYSE,その他,○
 JXN,JACKSON FINANCIA,ジャクソン・フィナンシャル,NYSE,金融(保険),○
 JYNT,THE JOINT CORP,ジョイント,NASDAQ,ヘルスケア,○
-JZXN,JIUZI HOLDINGS,ジウズー・ホールディングス,NASDAQ,小売,○
-K,KELLANOVA,ケラノバ,NYSE,食品,○
 KAI,KADANT INC,カダント,NYSE,機械,○
 KALA,KALA BIO,カラ・ビオ ,NASDAQ,医薬品（バイオテクノロジー）,○
 KALU,KAISER ALUMINUM,カイザー・アルミナム,NASDAQ,その他製造,○
@@ -2545,6 +2545,7 @@ MHH,MASTECH DIGITAL,マステック・デジタル,NYSE,ソフトウェア・サ
 MHK,MOHAWK INDUSTRIE,モホーク・インダストリーズ,NYSE,その他製造,○
 MHO,M/I HOMES INC,M/Iホームズ,NYSE,その他製造,○
 MIAX,MIAMI INTL HD,マイアミ・インターナショナル・ホールディングス,NYSE,金融（証券）,○
+MICC,MAGNUM ICE CREAM,マグナム・アイスクリーム・カンパニー,NYSE,食品,○
 MIDD,MIDDLEBY CORP,ミドルビー,NASDAQ,その他製造,○
 MILN,GBLX ML CONSUMER,グローバルX ミレニアル世代消費者 ETF,NASDAQ,その他,○
 MIR,MIRION TECHNO,ミリオン・テクノロジーズ,NYSE,その他製造,○
@@ -3781,6 +3782,7 @@ SUZ,SUZANO PAPEL,スザーノ・パペル・エ・セルロース,NYSE,紙・パ
 SVCO,SILVACO GROUP,シルバコ・グループ,NASDAQ,半導体,○
 SVM,SILVERCORP METAL,シルバーコープ・メタルズ,NYSE,その他,○
 SVRA,SAVARA INC,サバラ,NASDAQ,医薬品,○
+SVRE,SAVERONE 2014,セイバーワン2014,NASDAQ,自動車,○
 SVRN,OCEANPAL,オーシャンパル,NASDAQ,運輸,○
 SW,SMURFIT WESTROCK,スマーフィット・ウェストロック,NYSE,その他製造,○
 SWBI,SMITH AND WESSON,スミス&ウェッソン・ブランズ,NASDAQ,その他製造,○
