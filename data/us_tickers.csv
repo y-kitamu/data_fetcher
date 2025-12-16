@@ -148,7 +148,6 @@ ALBT,AVALON GLOBOCARE,アバロン・グロボケア,NASDAQ,ヘルスケア,○
 ALC,ALCON INC,アルコン,NYSE,医薬品,○
 ALCO,ALICO INC,アリコ,NASDAQ,その他,○
 ALDX,ALDEYRA THERAPEU,アルデイラ・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
-ALE,ALLETE INC,アレッテ,NYSE,電力,○
 ALEC,ALECTOR INC,アレクター,NASDAQ,医薬品（バイオテクノロジー）,○
 ALG,ALAMO GROUP INC,アラモ・グループ,NYSE,機械,○
 ALGM,ALLEGRO MICRO,アレグロ・マイクロシステムズ,NASDAQ,半導体,○
@@ -2565,7 +2564,6 @@ MILN,GBLX ML CONSUMER,グローバルX ミレニアル世代消費者 ETF,NASDAQ
 MIR,MIRION TECHNO,ミリオン・テクノロジーズ,NYSE,その他製造,○
 MIRM,MIRUM PHARMACEUT,ミラム・ファーマシューティカルズ,NASDAQ,医薬品（バイオテクノロジー）,○
 MISL,FT INDXX AEROSPC,ファーストトラスト Indxx 航空宇宙・防衛ETF,NYSE,その他,○
-MIST,MILESTONE PHARMA,マイルストーン・ファーマシューティカルズ,NASDAQ,医薬品（バイオテクノロジー）,○
 MITK,MITEK SYSTEMS,マイテック・システムズ,NASDAQ,ソフトウェア・サービス,○
 MKC,MCCORMICK AND CO,マコーミック,NYSE,専門店,○
 MKL,MARKEL GROUP,マーケル・グループ,NYSE,金融(保険),○
@@ -3670,7 +3668,6 @@ SOCL,GLX SOC MDIA ETF,グローバルX ソーシャルメディア ETF,NASDAQ,�
 SOFI,SOFI TECHNOLOGY,ソーファイ・テクノロジーズ,NASDAQ,金融（銀行）,○
 SOGP,SOUND GROUP,サウンド・グループ,NASDAQ,ソフトウェア・サービス,○
 SOHU,SOHU.COM INC,ソーフ・ドット・コム,NASDAQ,その他,○
-SOL,EMEREN GROUP,エメレン・グループ,NYSE,電力,○
 SOLS,SOLSTICE ADVANCE,ソルスティス・アドバンスド・マテリアルズ,NASDAQ,その他製造,○
 SOLV,SOLVENTUM CORP,ソルベンタム・コーポレーション,NYSE,ヘルスケア,○
 SON,SONOCO PRODUCTS,ソノコ･プロダクツ,NYSE,その他製造,○
@@ -4270,7 +4267,6 @@ VTGN,VISTAGEN THERAPE,ビスタジェン・セラピューティクス,NASDAQ,�
 VTHR,VA RUSSELL 3000,バンガード・ラッセル3000 ETF,NASDAQ,その他,○
 VTI,VANGUARD TTL MKT,バンガード・トータル・ストック・マーケットETF,NYSE,その他,○
 VTIP,VA S-TERM IPS,バンガード・米国短期インフレ連動債ETF,NASDAQ,その他,○
-VTLE,VITAL ENERGY,バイタル・エナジー,NYSE,石油,○
 VTOL,BRISTOW GROUP,ブリストー・グループ　,NYSE,運輸,○
 VTRS,VIATRIS INC,ヴィアトリス,NASDAQ,医薬品,○
 VTS,VITESSE ENERGY,ビテッセ・エナジー,NYSE,その他,○
@@ -4359,6 +4355,7 @@ WKSP,WORKSPORT LTD,ワークスポート,NASDAQ,自動車,○
 WLDN,WILLDAN GROUP,ウィルダン・グループ,NASDAQ,その他製造,○
 WLFC,WILLIS LEASE FIN,ウィリス・リース・ファイナンス,NASDAQ,航空,○
 WLK,WESTLAKE CORP,ウェストレイク,NYSE,化学,○
+WLTH,WEALTHFRONT CORP,ウェルスフロント,NASDAQ,金融（証券）,○
 WLY,JOHN WILEY AND S,ジョン・ワイリー・アンド・サンズ,NYSE,ソフトウェア・サービス,○
 WM,WASTE MANAGEMENT,ウェイスト・マネジメント,NYSE,その他製造,○
 WMB,WILLIAMS COS INC,ウィリアムズ・カンパニーズ,NYSE,石油,○
