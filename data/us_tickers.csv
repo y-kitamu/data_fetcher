@@ -2035,7 +2035,6 @@ IMUX,IMMUNIC INC,イミュニク,NASDAQ,医薬品（バイオテクノロジー�
 IMVT,IMMUNOVANT INC,イムノバント,NASDAQ,医薬品（バイオテクノロジー）,○
 IMXI,INTL MONEY EXPRS,インターナショナル・マネー・エクスプレス,NASDAQ,その他,○
 INBK,FIRST INTERT BNC,ファースト・インターネット・バンコープ,NASDAQ,金融（銀行）,○
-INBS,INTELLIGENT BIO,インテリジェント・バイオソリューションズ,NASDAQ,医薬品（バイオテクノロジー）,○
 INBX,INHIBRX BIOSCNCE,インヒブルクス・バイオサイエンス,NASDAQ,医療サービス,○
 INCR,INTERCURE LTD,インターキュア,NASDAQ,医薬品,○
 INCY,INCYTE CORP,インサイト,NASDAQ,ソフトウェア・サービス,○
@@ -2307,6 +2306,7 @@ LAD,LITHIA MOTORS,リシア・モーターズ,NYSE,小売,○
 LAES,SEALSQ,シール・エスキュー,NASDAQ,半導体,○
 LAKE,LAKELAND INDUST,レイクランド・インダストリーズ,NASDAQ,その他製造,○
 LAR,LITHIUM ARGEN AG,リチウム・アルゼンチン AG,NYSE,その他,○
+LARK,LANDMARK BANC,ランドマーク・バンコープ,NASDAQ,金融（銀行）,○
 LASR,NLIGHT INC,エヌライト,NASDAQ,半導体製造,○
 LAUR,LAUREATE EDUCATN,ロレッテ・エデュケーション,NASDAQ,ソフトウェア・サービス,○
 LAW,CS DISCO INC,CSディスコ,NYSE,ソフトウェア・サービス,○
@@ -2564,6 +2564,7 @@ MILN,GBLX ML CONSUMER,グローバルX ミレニアル世代消費者 ETF,NASDAQ
 MIR,MIRION TECHNO,ミリオン・テクノロジーズ,NYSE,その他製造,○
 MIRM,MIRUM PHARMACEUT,ミラム・ファーマシューティカルズ,NASDAQ,医薬品（バイオテクノロジー）,○
 MISL,FT INDXX AEROSPC,ファーストトラスト Indxx 航空宇宙・防衛ETF,NYSE,その他,○
+MIST,MILESTONE PHARMA,マイルストーン・ファーマシューティカルズ,NASDAQ,医薬品（バイオテクノロジー）,○
 MITK,MITEK SYSTEMS,マイテック・システムズ,NASDAQ,ソフトウェア・サービス,○
 MKC,MCCORMICK AND CO,マコーミック,NYSE,専門店,○
 MKL,MARKEL GROUP,マーケル・グループ,NYSE,金融(保険),○
