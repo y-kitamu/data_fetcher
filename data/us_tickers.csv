@@ -713,6 +713,7 @@ CBNK,CAPITAL BANCORP,キャピタル・バンコープ,NASDAQ,金融（銀行）
 CBOE,CBOE GLOBAL,シービーオーイー・グローバル・マーケッツ,NYSE,その他,○
 CBRE,CBRE GROUP INC,CBREグループ,NYSE,その他,○
 CBRL,CRACKER BARREL O,クラッカー・バレル・オールド・カントリー・ストアー,NASDAQ,外食,○
+CBSH,COMMERCE BANC,コマース・バンクシェアーズ,NASDAQ,金融（銀行）,○
 CBT,CABOT CORP,キャボット,NYSE,化学,○
 CBU,COMMUNITY FCL ST,コミュニティー・ファイナンシャル・システム,NYSE,金融（銀行）,○
 CBUS,CIBUS INC,シバス,NASDAQ,食品,○
@@ -1383,7 +1384,6 @@ EVI,EVI INDUSTRIES,EVIインダストリーズ,NYSE,機械,○
 EVLV,EVOLV TECHNO,エボルブ・テクノロジーズ・ホールディングス,NASDAQ,その他製造,○
 EVMN,EVOMMUNE INC,エボミューン,NYSE,医薬品（バイオテクノロジー）,○
 EVO,EVOTEC SE,エヴォテック,NASDAQ,医薬品,○
-EVOK,EVOKE PHARMA INC,イヴォーク･ファーマ,NASDAQ,医薬品（バイオテクノロジー）,○
 EVR,EVERCORE INC,エバーコア,NYSE,金融（銀行）,○
 EVRG,EVERGY INC,エヴァジー,NASDAQ,電力,○
 EVTC,EVERTEC INC,エバーテック,NYSE,情報処理サービス,○
@@ -2035,6 +2035,7 @@ IMUX,IMMUNIC INC,イミュニク,NASDAQ,医薬品（バイオテクノロジー�
 IMVT,IMMUNOVANT INC,イムノバント,NASDAQ,医薬品（バイオテクノロジー）,○
 IMXI,INTL MONEY EXPRS,インターナショナル・マネー・エクスプレス,NASDAQ,その他,○
 INBK,FIRST INTERT BNC,ファースト・インターネット・バンコープ,NASDAQ,金融（銀行）,○
+INBS,INTELLIGENT BIO,インテリジェント・バイオソリューションズ,NASDAQ,医薬品（バイオテクノロジー）,○
 INBX,INHIBRX BIOSCNCE,インヒブルクス・バイオサイエンス,NASDAQ,医療サービス,○
 INCR,INTERCURE LTD,インターキュア,NASDAQ,医薬品,○
 INCY,INCYTE CORP,インサイト,NASDAQ,ソフトウェア・サービス,○
@@ -3699,7 +3700,6 @@ SPIR,SPIRE GLOBAL INC,スパイアー・グローバル,NYSE,その他,○
 SPLB,SPDR LTM CORP BD,State Street SPDR ポートフォリオ米国長期社債ETF,NYSE,その他,○
 SPMB,SPDR MRTGAGE BND,State Street SPDR ポートフォリオ・モーゲージ債券ETF,NYSE,その他,○
 SPMD,SPDR SP400 M CAP,State Street SPDR ポートフォリオS&P 400中型株式ETF,NYSE,その他,○
-SPNS,SAPIENS INTL CRP,サピエンス・インターナショナル,NASDAQ,ソフトウェア・サービス,○
 SPNT,SIRIUSPOINT LTD,シリウスポイント,NYSE,金融(保険),○
 SPOK,SPOK HOLDINGS,スポック・ホールディングス,NASDAQ,通信サービス,○
 SPOT,SPOTIFY TECH,スポティファイ・テクノロジー,NYSE,エンターテイメント,○
@@ -4391,6 +4391,7 @@ WSO,WATSCO INC,ワッコ,NYSE,その他,○
 WST,WEST PHARMA,ウエスト ファーマシューティカル サービシズ,NYSE,医療サービス,○
 WT,WISDOMTREE,ウィズダムツリー,NYSE,金融（証券）,○
 WTBA,WEST BANCORP,ウエスト・バンコーポレーション,NASDAQ,金融（銀行）,○
+WTERD,ALKALINE WATER,アルカライン・ウォーター,NASDAQ,飲料,○
 WTFC,WINTRUST FINANCI,ウィントラスト・ファイナンシャル,NASDAQ,金融（銀行）,○
 WTI,W&T OFFSHORE INC,W&Tオフショア,NYSE,石油,○
 WTM,WHITE MNTN INSUR,ホワイトマウンテン・インシュアランス・グループ,NYSE,金融(保険),○
