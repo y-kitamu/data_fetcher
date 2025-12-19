@@ -639,11 +639,11 @@
         "Operating Revenue": 2133484000.0
     },
     "2025-03-31": {
-        "Tax Effect Of Unusual Items": 464310.0,
+        "Tax Effect Of Unusual Items": 1360920.0,
         "Tax Rate For Calcs": 0.33,
-        "Normalized EBITDA": 95734000.0,
-        "Total Unusual Items": 1407000.0,
-        "Total Unusual Items Excluding Goodwill": 1407000.0,
+        "Normalized EBITDA": 93017000.0,
+        "Total Unusual Items": 4124000.0,
+        "Total Unusual Items Excluding Goodwill": 4124000.0,
         "Net Income From Continuing Operation Net Minority Interest": 38882000.0,
         "Reconciled Depreciation": 26544000.0,
         "Reconciled Cost Of Revenue": 1917211000.0,
@@ -652,7 +652,7 @@
         "Net Interest Income": -14142000.0,
         "Interest Expense": 17182000.0,
         "Interest Income": 3040000.0,
-        "Normalized Income": 37939310.0,
+        "Normalized Income": 36118920.0,
         "Net Income From Continuing And Discontinued Operation": 38912000.0,
         "Total Expenses": 2035623000.0,
         "Total Operating Income As Reported": 67905000.0,
@@ -671,8 +671,8 @@
         "Tax Provision": 17578000.0,
         "Pretax Income": 53415000.0,
         "Other Income Expense": 3776000.0,
-        "Other Non Operating Income Expenses": 2369000.0,
-        "Special Income Charges": 5417000.0,
+        "Other Non Operating Income Expenses": -348000.0,
+        "Special Income Charges": 4124000.0,
         "Gain On Sale Of Ppe": 3801000.0,
         "Gain On Sale Of Business": 361000.0,
         "Other Special Charges": NaN,
@@ -690,7 +690,7 @@
         "Gross Profit": 182193000.0,
         "Cost Of Revenue": 1917211000.0,
         "Total Revenue": 2099404000.0,
-        "Operating Revenue": 2090431000.0
+        "Operating Revenue": 2099404000.0
     },
     "2025-06-30": {
         "Tax Effect Of Unusual Items": 3367855.0,
