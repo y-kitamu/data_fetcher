@@ -1104,6 +1104,7 @@ DFEN,DRX AERO DF BL3X,Direxion デイリー エアロスペース・アンド・
 DFH,DREAM FIND HOME,ドリーム・ファインダーズ・ホームズ,NYSE,その他製造,○
 DFIN,DONNELLEY FINCL,ドネリー・ファイナンシャル・ソリューションズ,NYSE,ソフトウェア・サービス,○
 DFJ,WM JP S-CAP DVD,ウィズダムツリー  日本小型株配当ファンド,NYSE,その他,○
+DFLI,DRAGONFLY ENERGY,ドラゴンフライ・エナジー・ホールディングス,NASDAQ,その他製造,○
 DG,DOLLAR GENERAL C,ダラー・ゼネラル,NYSE,小売,○
 DGICA,DONEGAL GROUP,ドネガル・グループ,NASDAQ,金融(保険),○
 DGII,DIGI INTERNATNL,ディジ・インターナショナル,NASDAQ,ソフトウェア・サービス,○
@@ -2598,6 +2599,7 @@ MNSO,MINISO GROUP,ミニソー・グループ・ホールディングス,NYSE,�
 MNST,MONSTER BEVERAGE,モンスタービバレッジ,NASDAQ,飲料,○
 MNTK,MONTAUK RENEWABL,モントーク・リニューアブルズ,NASDAQ,電力,○
 MNTN,MNTN INC,MNTN,NYSE,その他,○
+MNTS,MOMENTUS INC,モメンタス,NASDAQ,航空機・宇宙,○
 MNY,MONEYHERO,マネーヒーロー,NASDAQ,その他,○
 MO,ALTRIA GROUP INC,アルトリア・グループ,NYSE,食品・タバコ,○
 MOAT,V WIDE MOAT,ヴァンエック・モーニングスター・ワイド・モートETF,Cboe,その他,○
@@ -3025,6 +3027,7 @@ PATH,UIPATH INC,ユーアイパス,NYSE,ソフトウェア・サービス,○
 PATK,PATRICK INDUSTRI,パトリック・インダストリーズ,NASDAQ,その他製造,○
 PAVE,GLX US INFRA ETF,グローバル X 米国インフラ関連 ETF,Cboe,その他,○
 PAVM,PAVMED INC,パブメッド,NASDAQ,医薬品,○
+PAVS,PARANOVUS ENTECH,パラノバス・エンターテイメント・テクノロジー,NASDAQ,医薬品,○
 PAX,PATRIA INVEST,パトリア・インベストメンツ,NASDAQ,その他,○
 PAY,PAYMENTUS HD,ペイメンタス・ホールディングス,NYSE,ソフトウェア・サービス,○
 PAYC,PAYCOM SOFTWARE,ペイコム・ソフトウエア,NYSE,ソフトウェア・サービス,○
@@ -3334,6 +3337,7 @@ RELY,REMITLY GLOBAL,レミトリー・グローバル,NASDAQ,金融コングロ�
 REM,ISRS MORTGAGE RE,iシェアーズ　米国モーゲージ不動産 ETF,Cboe,その他,○
 REMX,V R EARTH SM ETF,ヴァンエック・レアアース・アンド・戦略的金属ETF,NYSE,その他,○
 RENT,RENT THE RUNWAY,レント・ザ・ランウェイ,NASDAQ,ソフトウェア・サービス,○
+RENX,RENX ENTERPRISES,RenX エンタープライズ,NASDAQ,その他製造,○
 REPL,REPLIMUNE GROUP,レプリミューン,NASDAQ,医薬品（バイオテクノロジー）,○
 REPX,RILEY EXPLRTION,ライリー・エクスプロレーション・パーミアン,NYSE,石油,○
 RERE,ATRENEW INC,ATリニュー,NYSE,その他,○
@@ -3536,7 +3540,6 @@ SFST,STHERN FRST BANC,サザン・ファースト・バンクシェアーズ,NAS
 SG,SWEETGREEN INC,スウィートグリーン,NYSE,外食,○
 SGA,SAGA COMMUNICTNS,サガ・コミュニケーションズ,NASDAQ,エンターテイメント,○
 SGC,SUPEROR GROUP CO,スーペリア・グループ・オブ・カンパニーズ,NASDAQ,その他製造,○
-SGD,SAFE GREEN DEVEL,セーフ・アンド・グリーン・デベロップメント,NASDAQ,その他製造,○
 SGHC,SGHC LTD,SGHC,NYSE,その他,○
 SGHT,SIGHT SCIENCES,サイト・サイエンシズ,NASDAQ,ヘルスケア,○
 SGI,SOMNIGROUP INTER,ソムニグループ・インターナショナル,NYSE,その他製造,○
