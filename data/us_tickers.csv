@@ -1916,6 +1916,7 @@ HTH,HILLTOP HOLDINGS,ヒルトップ・ホールディングス,NYSE,金融（�
 HTHT,H WORLD GROUP,エッチ・ワールド・グループ,NASDAQ,ホテル,○
 HTLD,HEARTLAND EXPRSS,ハートランド・エクスプレス,NASDAQ,運輸,○
 HTO,H2O AMERICA,H2O アメリカ,NASDAQ,その他,○
+HTT,HIGH TEMPLR TECH,ハイ・テンプラー・テック,NYSE,情報処理サービス,○
 HTZ,HERTZ GLOBAL HLD,ハーツ・グローバル・ホールディングス,NASDAQ,自動車,○
 HUBB,HUBBELL INC,ハベル,NYSE,その他製造,○
 HUBG,HUB GROUP INC,ハブ・グループ,NASDAQ,運輸,○
@@ -2096,7 +2097,6 @@ IQ,IQIYI INC,アイチーイー,NASDAQ,エンターテイメント,○
 IQQQ,PROS NQ100 HINCM,プロシェアーズ・ナスダック-100 ハイ・インカムETF,NASDAQ,その他,○
 IQV,IQVIA HOLDINGS,IQVIAホールディングス,NYSE,医療サービス,○
 IR,INGERSOLL-RAND,インガソール・ランド,NYSE,その他製造,○
-IRBT,IROBOT CORP,アイロボット,NASDAQ,機械,○
 IRD,OPUS GENETICS,オーパス・ジェネティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 IRDM,IRIDIUM COMMUNIC,イリジウム・コミュニケーションズ,NASDAQ,通信サービス,○
 IREN,IREN LTD,IREN,NASDAQ,電力,○
@@ -2534,6 +2534,7 @@ MESO,MESOBLAST LMITED,メソブラスト,NASDAQ,医薬品（バイオテクノ�
 MET,METLIFE INC,メットライフ,NYSE,金融(保険),○
 META,META PLATFORMS,メタ・プラットフォームズ,NASDAQ,ソフトウェア・サービス,○
 METC,RAMACO RESOURCES,ラマコ・リソーシズ,NASDAQ,その他,○
+METCB,RAMACO RESOUR-B,ラマコ・リソーシズ・クラスB,NASDAQ,その他,○
 METD,DRX META BR1X,Direxion デイリー META 株 ベア 1 倍 ETF,NASDAQ,その他,○
 METU,DRX META BL2X,Direxion デイリー META ブル 2 倍 ETF,NASDAQ,その他,○
 MFC,MANULIFE FIN,マニュライフ・ファイナンシャル,NYSE,金融(保険),○
@@ -3243,7 +3244,6 @@ QCLN,FT NQ CLEAN ENRG,ファーストトラスト ナスダック クリーン�
 QCML,GNS 2X LONG QCOM,GraniteShares2倍ロングQCOMデイリーETF,NASDAQ,その他,○
 QCOM,QUALCOMM INC.,クアルコム,NASDAQ,通信機器,○
 QCRH,QCR HOLDINGS INC,QCRホールディングス,NASDAQ,金融（銀行）,○
-QD,QUDIAN INC,クディアン,NYSE,情報処理サービス,○
 QDEL,QUIDELORTHO CORP,クイデルオーソ,NASDAQ,ヘルスケア,○
 QDIV,GBLX SP500 Q DIV,グローバルX 高配当・優良・米国株 ETF,NYSE,その他,○
 QFIN,QIFU TECHNOLOGY,チーフ・テクノロジー,NASDAQ,その他,○
@@ -4136,7 +4136,6 @@ UUUU,ENERGY FUELS INC,エナジー・フューエルズ,NYSE,その他,○
 UVE,UNIVERSL INSURNC,ユニバーサル・インシュランス・ホールディングス,NYSE,金融(保険),○
 UVSP,UNIVEST FIN CORP,ユニベスト・ファイナンシャル,NASDAQ,金融（銀行）,○
 UVV,UNIVERSAL CORP,ユニバーサル,NYSE,食品・タバコ,○
-UWMC,UWM HOLDINGS,UWMホールディングス,NYSE,金融（銀行）,○
 UXIN,UXIN LTD,ユウシン,NASDAQ,小売,○
 V,VISA INC,ビザ,NYSE,金融(カード),○
 VABK,VIRG NATION BANK,バージニア・ナショナル・バンクシェアズ,NASDAQ,金融（銀行）,○
@@ -4493,7 +4492,6 @@ ZH,ZHIHU INC,チーフー,NYSE,その他,○
 ZIM,ZIM INTGRTD SHIP,ジム・インテグレーテッド・シッピング・サービシズ,NYSE,その他,○
 ZION,ZIONS BANCORP,ザイオンズ・バンコープ,NASDAQ,金融（銀行）,○
 ZIP,ZIPRECRUITER,ジップリクルーター,NYSE,その他,○
-ZK,ZEEKR INTLI TECH,ジーカー・インテリジェント・テクノロジー・ホールディング,NYSE,自動車,○
 ZKIN,ZK INTERNATIONAL,ZKインターナショナル・グループ,NASDAQ,その他製造,○
 ZLAB,ZAI LAB LTD,ザイ・ラボ,NASDAQ,医薬品（バイオテクノロジー）,○
 ZM,ZOOM COMMUNICTNS,ズーム・コミュニケーションズ,NASDAQ,ソフトウェア・サービス,○
