@@ -584,7 +584,6 @@ BORR,BORR DRILLING,ボル・ドリリング,NYSE,石油,○
 BOSC,BOS BETTR ONLINE,BOS ベター・オンライン・ソリューション,NASDAQ,ソフトウェア・サービス,○
 BOTZ,GLOBAL X ROBO AI,グローバルX ロボット＆AI・ETF,NASDAQ,その他,○
 BOX,BOX INC.,ボックス,NYSE,ソフトウェア・サービス,○
-BOXL,BOXLIGHT CORP,ボックスライト,NASDAQ,ソフトウェア・サービス,○
 BP,BP PLC ADR,BP,NYSE,石油,○
 BPOP,POPULAR INC,ポピュラー,NASDAQ,金融（銀行）,○
 BPRN,PRINCETON BANC,プリンストン・バンコープ,NASDAQ,金融（銀行）,○
@@ -791,7 +790,6 @@ CHH,CHOICE HOTELS,チョイス・ホテルズ・インターナショナル,NYSE
 CHKP,CHECK POINT SOFT,チェック・ポイント・ソフトウェア・テクノロジーズ,NASDAQ,ネットワークセキュリティー,○
 CHMG,CHEMUNG FINANCL,シェマング・ファイナンシャル,NASDAQ,金融（銀行）,○
 CHPT,CHARGEPOINT,チャージポイント,NYSE,電力,○
-CHR,CHEER HOLDING,チア・ホールディング,NASDAQ,エンターテイメント,○
 CHRD,CHORD ENERGY,コード・エネルギー,NASDAQ,石油,○
 CHRS,COHERUS ONCOLOG,コヘラス・オンコロジー,NASDAQ,医薬品（バイオテクノロジー）,○
 CHRW,CH ROBINSON WORL,シー･エッチ・ロビンソン・ワールドワイド,NASDAQ,運輸,○
@@ -1954,7 +1952,6 @@ IAC,IAC INC,IACインコーポレーティッド,NASDAQ,その他,○
 IAG,IAMGOLD CORP,イアムゴールド,NYSE,その他,○
 IAGG,ISRS C IAGG BOND,iシェアーズ・コア 世界総合債券市場 ETF,Cboe,その他,○
 IART,INTEGRA LIFESCIE,インテグラ・ライフサイエンシズ・ホールディングス,NASDAQ,ヘルスケア,○
-IAS,INTEGRAL AD SCNC,インテグラル・アド・サイエンス・ホールディング,NASDAQ,コンピュータ,○
 IAU,ISHARES GOLD,iシェアーズ ゴールド・トラスト,NYSE,その他,○
 IAUX,I80 GOLD CORP,I80ゴールド,NYSE,その他,○
 IBB,ISHARES BIO ETF,iシェアーズ バイオテクノロジー ETF,NASDAQ,その他,○
@@ -3266,7 +3263,7 @@ QQQU,DRX M7 BL2X,Direxion デイリー マグニフィセント 7 ブル 2 倍 E
 QRHC,QUEST RESOURCE,クエスト・リソース・ホールディング,NASDAQ,その他,○
 QRMI,GLBLX NDX R MNGD,グローバルX NASDAQ100・リスク管理・インカム ETF,NASDAQ,その他,○
 QRVO,QORVO INC,クォルボ,NASDAQ,半導体製造,○
-QS,QUANTUMSCAPE CO,クアンタムスケープ,NYSE,その他製造,○
+QS,QUANTUMSCAPE CO,クアンタムスケープ,NASDAQ,その他製造,○
 QSI,QUANTUM SI INC,クアンタム・シイ,NASDAQ,その他製造,○
 QSR,RESTAURANT BRAND,レストラン・ブランズ・インターナショナル,NYSE,外食,○
 QTEC,FT NQ100TECH ETF,ファーストトラスト ナスダック100 テクノロジーセクター指数ファンド,NASDAQ,その他,○
