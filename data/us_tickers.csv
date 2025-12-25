@@ -108,7 +108,6 @@ AGEN,AGENUS INC,アジェナス,NASDAQ,医薬品（バイオテクノロジー�
 AGG,ISHARESCORE BOND,iシェアーズ　コア米国総合債券ETF,NYSE,その他,○
 AGGY,WM ENHANCED AGGB,ウィズダムツリー 米国債券ファンド（利回り強化型）,NYSE,その他,○
 AGI,ALAMOS GOLD INC,アラモス・ゴールド,NYSE,その他,○
-AGIO,AGIOS PHARMA,アジオス・ファーマシューティカルズ,NASDAQ,医薬品（バイオテクノロジー）,○
 AGIX,KRS AI TECH ETF,KraneShaers AI テクノロジーETF,NASDAQ,その他,○
 AGL,AGILON HEALTH,アジロン・ヘルス,NYSE,ソフトウェア・サービス,○
 AGM,FED AGRICULTURAL,フェデラル・アグリカルチャラル・モーゲージ,NYSE,金融（銀行）,○
@@ -584,6 +583,7 @@ BORR,BORR DRILLING,ボル・ドリリング,NYSE,石油,○
 BOSC,BOS BETTR ONLINE,BOS ベター・オンライン・ソリューション,NASDAQ,ソフトウェア・サービス,○
 BOTZ,GLOBAL X ROBO AI,グローバルX ロボット＆AI・ETF,NASDAQ,その他,○
 BOX,BOX INC.,ボックス,NYSE,ソフトウェア・サービス,○
+BOXL,BOXLIGHT CORP,ボックスライト,NASDAQ,ソフトウェア・サービス,○
 BP,BP PLC ADR,BP,NYSE,石油,○
 BPOP,POPULAR INC,ポピュラー,NASDAQ,金融（銀行）,○
 BPRN,PRINCETON BANC,プリンストン・バンコープ,NASDAQ,金融（銀行）,○
@@ -640,6 +640,7 @@ BUR,BURFORD CAPITAL,バーフォード・キャピタル,NYSE,金融コングロ
 BURL,BURLINGTON,バーリントン・ストアーズ,NYSE,小売,○
 BUSE,FIRST BUSEY CORP,ファースト・ビューシー,NASDAQ,金融（銀行）,○
 BV,BRIGHTVIEW HLD,ブライトビュー・ホールディングス,NYSE,その他,○
+BVC,BITVENTURES LTD,ビットベンチャーズ,NASDAQ,金融コングロマリット,○
 BVN,BUENAVENTURA MIN,コンパニア・デ・ミナス・ブエナベントゥラ,NYSE,その他製造,○
 BVS,BIOVENTUS INC,バイオヴェンタス,NASDAQ,医薬品（バイオテクノロジー）,○
 BWA,BORGWARNER INC,ボルグワーナー,NYSE,その他製造,○
@@ -790,6 +791,7 @@ CHH,CHOICE HOTELS,チョイス・ホテルズ・インターナショナル,NYSE
 CHKP,CHECK POINT SOFT,チェック・ポイント・ソフトウェア・テクノロジーズ,NASDAQ,ネットワークセキュリティー,○
 CHMG,CHEMUNG FINANCL,シェマング・ファイナンシャル,NASDAQ,金融（銀行）,○
 CHPT,CHARGEPOINT,チャージポイント,NYSE,電力,○
+CHR,CHEER HOLDING,チア・ホールディング,NASDAQ,エンターテイメント,○
 CHRD,CHORD ENERGY,コード・エネルギー,NASDAQ,石油,○
 CHRS,COHERUS ONCOLOG,コヘラス・オンコロジー,NASDAQ,医薬品（バイオテクノロジー）,○
 CHRW,CH ROBINSON WORL,シー･エッチ・ロビンソン・ワールドワイド,NASDAQ,運輸,○
@@ -2309,7 +2311,6 @@ LASR,NLIGHT INC,エヌライト,NASDAQ,半導体製造,○
 LAUR,LAUREATE EDUCATN,ロレッテ・エデュケーション,NASDAQ,ソフトウェア・サービス,○
 LAW,CS DISCO INC,CSディスコ,NYSE,ソフトウェア・サービス,○
 LAZ,LAZARD INC,ラザード・インク,NYSE,金融（証券）,○
-LAZR,LUMINAR TECHNO,ルミナー・テクノロジーズ,NASDAQ,その他製造,○
 LBRDA,LIBERTY BROAD A,リバティ・ブロードバンド　クラスA,NASDAQ,通信サービス,○
 LBRDK,LIBERTY BROAD C,リバティ・ブロードバンド　クラスC,NASDAQ,通信サービス,○
 LBRT,LIBERTY ENERGY,リバティー・エナジー,NYSE,石油,○
@@ -3293,7 +3294,6 @@ RBCAA,REPUBLIC BANC,リパブリック・バンコープ,NASDAQ,金融（銀行�
 RBKB,RHINEBECK BANC,ラインベック・バンコープ,NASDAQ,金融（銀行）,○
 RBLU,REX 2X LONG RBLX,T-REX 2X・ロング・ロブロックス・デイリーターゲット　ETF,Cboe,その他,○
 RBLX,ROBLOX CORP,ロブロックス,NYSE,ソフトウェア・サービス,○
-RBNE,ROBIN ENERGY,ロビン・エナジー,NASDAQ,電力,○
 RBOT,VICARIOUS SURGIC,バイカリアス・サージカル,NYSE,ヘルスケア,○
 RBRK,RUBRIK INC,ルーブリック,NYSE,ソフトウェア・サービス,○
 RCAT,RED CAT HOLDINGS,レッド・キャット・ホールディングス,NASDAQ,ソフトウェア・サービス,○
@@ -3754,7 +3754,6 @@ STAA,STAAR SURGICAL,スターサージカル,NASDAQ,ヘルスケア,○
 STBA,S&T BANCORP INC,S&Tバンコープ,NASDAQ,金融（銀行）,○
 STC,STEWART INFO SRV,スチュワート・インフォメーション・サービシーズ,NYSE,金融(保険),○
 STE,STERIS PUBLIC,ステリス,NYSE,ヘルスケア,○
-STEC,SANTECH HOLDINGS,サンテック・ホールディングス,NASDAQ,金融コングロマリット,○
 STEL,STELLAR BANCORP,ステラ・バンコープ,NYSE,金融（銀行）,○
 STEP,STEPSTONE GROUP,ステップストーン・グループ,NASDAQ,金融（証券）,○
 STG,SUNLANDS TECHNO,サンランズ・テクノロジー・グループ,NYSE,ソフトウェア・サービス,○
@@ -4502,4 +4501,3 @@ ZVIA,ZEVIA PBC,ゼビア,NYSE,飲料,○
 ZVRA,ZEVRA THERAP,ゼブラ・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 ZWS,ZURN EL WTR SOL,ザーン・エルカイ・ウォーター・ソリューションズ,NYSE,機械,○
 ZYME,ZYMEWORKS INC,ザイムワークス,NASDAQ,医薬品（バイオテクノロジー）,○
-ZYXI,ZYNEX INC,ジネックス,NASDAQ,ヘルスケア,○
