@@ -108,6 +108,7 @@ AGEN,AGENUS INC,アジェナス,NASDAQ,医薬品（バイオテクノロジー�
 AGG,ISHARESCORE BOND,iシェアーズ　コア米国総合債券ETF,NYSE,その他,○
 AGGY,WM ENHANCED AGGB,ウィズダムツリー 米国債券ファンド（利回り強化型）,NYSE,その他,○
 AGI,ALAMOS GOLD INC,アラモス・ゴールド,NYSE,その他,○
+AGIO,AGIOS PHARMA,アジオス・ファーマシューティカルズ,NASDAQ,医薬品（バイオテクノロジー）,○
 AGIX,KRS AI TECH ETF,KraneShaers AI テクノロジーETF,NASDAQ,その他,○
 AGL,AGILON HEALTH,アジロン・ヘルス,NYSE,ソフトウェア・サービス,○
 AGM,FED AGRICULTURAL,フェデラル・アグリカルチャラル・モーゲージ,NYSE,金融（銀行）,○
@@ -318,7 +319,6 @@ ASO,ACADEMY SPRT OUT,アカデミー・スポーツ・アウトドアーズ,NASD
 ASPN,ASPEN AEROGELS,アスペン・エアロジェルズ,NYSE,小売,○
 ASPS,ALTISOURCE PFLIO,アルティソース・ポートフォリオ・ソリューションズ,NASDAQ,その他,○
 ASR,GRUPO AEROPRTUAR,グルポ・アエロポルタリオ・デル・スレステ,NYSE,航空,○
-ASRT,ASSERTIO HLD,アサーティオ・ホールディングス,NASDAQ,医薬品（バイオテクノロジー）,○
 ASRV,AMERISER FINANCL,アメリサーブ・ファイナンシャル,NASDAQ,金融（銀行）,○
 ASTC,ASTROTECH CORP,アストロテック,NASDAQ,航空機・宇宙,○
 ASTE,ASTEC INDUSTRIES,アステック・インダストリーズ,NASDAQ,その他製造,○
@@ -1284,7 +1284,6 @@ ELIL,DRX LLY BL2X,Direxion デ イ リー LLY ブル2倍 ETF,NASDAQ,その他,�
 ELIS,DRX LLY BR2X,Direxion デ イ リー LLY株 ベア1倍 ETF,NASDAQ,その他,○
 ELLO,ELLOMAY CAPITAL,エロメイ・キャピタル,NYSE,電力,○
 ELMD,ELECTROMED INC,エレクトロメッド,NYSE,医療サービス,○
-ELP,COMPA PARANA ENR,パラナ電力,NYSE,電力,○
 ELPC,CMPH PRNA ENER,コンパンヒア・パラナエンセ・デ・エネルギア,NYSE,電力,○
 ELSE,ELECTRO SENSORS,エレクトロ・センサーズ,NASDAQ,その他製造,○
 ELTK,ELTEK LTD,エルテック,NASDAQ,その他製造,○
@@ -2198,7 +2197,6 @@ KAI,KADANT INC,カダント,NYSE,機械,○
 KALA,KALA BIO,カラ・ビオ ,NASDAQ,医薬品（バイオテクノロジー）,○
 KALU,KAISER ALUMINUM,カイザー・アルミナム,NASDAQ,その他製造,○
 KALV,KALVISTA PHARMA,カルビスタ・ファーマシューティカルズ,NASDAQ,医薬品,○
-KAR,OPENLANE,オープンレーン,NYSE,小売,○
 KARO,KAROOOOO,カルー,NASDAQ,ソフトウェア・サービス,○
 KB,KB FINANCIAL,KBフィナンシャル・グループ,NYSE,金融コングロマリット,○
 KBAB,KRS 2X LONG BABA,KraneShares 2x ロング BABA デイリーETF,NASDAQ,その他,○
@@ -3294,6 +3292,7 @@ RBCAA,REPUBLIC BANC,リパブリック・バンコープ,NASDAQ,金融（銀行�
 RBKB,RHINEBECK BANC,ラインベック・バンコープ,NASDAQ,金融（銀行）,○
 RBLU,REX 2X LONG RBLX,T-REX 2X・ロング・ロブロックス・デイリーターゲット　ETF,Cboe,その他,○
 RBLX,ROBLOX CORP,ロブロックス,NYSE,ソフトウェア・サービス,○
+RBNE,ROBIN ENERGY,ロビン・エナジー,NASDAQ,電力,○
 RBOT,VICARIOUS SURGIC,バイカリアス・サージカル,NYSE,ヘルスケア,○
 RBRK,RUBRIK INC,ルーブリック,NYSE,ソフトウェア・サービス,○
 RCAT,RED CAT HOLDINGS,レッド・キャット・ホールディングス,NASDAQ,ソフトウェア・サービス,○
@@ -3661,7 +3660,6 @@ SNTG,SENTAGE HOLDINGS,センテージ・ホールディングス,NASDAQ,金融�
 SNV,SYNOVUS FINANCIA,シノバス・ファイナンシャル,NYSE,金融（銀行）,○
 SNX,TD SYNNEX,TDシネックス,NYSE,運輸,○
 SO,SOUTHERN CO,サザン,NYSE,その他製造,○
-SOAR,VOLATO GROUP INC,ボラト・グループ,NYSE,航空,○
 SOBO,SOUTH BOW CORP,サウス・ボウ・コーポレーション,NYSE,ガス・パイプライン,○
 SOC,SABLE OFFSHORE,セーブル・オフショア,NYSE,石油,○
 SOCL,GLX SOC MDIA ETF,グローバルX ソーシャルメディア ETF,NASDAQ,その他,○
@@ -4132,6 +4130,7 @@ UUUU,ENERGY FUELS INC,エナジー・フューエルズ,NYSE,その他,○
 UVE,UNIVERSL INSURNC,ユニバーサル・インシュランス・ホールディングス,NYSE,金融(保険),○
 UVSP,UNIVEST FIN CORP,ユニベスト・ファイナンシャル,NASDAQ,金融（銀行）,○
 UVV,UNIVERSAL CORP,ユニバーサル,NYSE,食品・タバコ,○
+UWMC,UWM HOLDINGS,UWMホールディングス,NYSE,金融（銀行）,○
 UXIN,UXIN LTD,ユウシン,NASDAQ,小売,○
 V,VISA INC,ビザ,NYSE,金融(カード),○
 VABK,VIRG NATION BANK,バージニア・ナショナル・バンクシェアズ,NASDAQ,金融（銀行）,○
