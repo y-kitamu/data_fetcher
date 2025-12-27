@@ -319,6 +319,7 @@ ASO,ACADEMY SPRT OUT,アカデミー・スポーツ・アウトドアーズ,NASD
 ASPN,ASPEN AEROGELS,アスペン・エアロジェルズ,NYSE,小売,○
 ASPS,ALTISOURCE PFLIO,アルティソース・ポートフォリオ・ソリューションズ,NASDAQ,その他,○
 ASR,GRUPO AEROPRTUAR,グルポ・アエロポルタリオ・デル・スレステ,NYSE,航空,○
+ASRT,ASSERTIO HLD,アサーティオ・ホールディングス,NASDAQ,医薬品（バイオテクノロジー）,○
 ASRV,AMERISER FINANCL,アメリサーブ・ファイナンシャル,NASDAQ,金融（銀行）,○
 ASTC,ASTROTECH CORP,アストロテック,NASDAQ,航空機・宇宙,○
 ASTE,ASTEC INDUSTRIES,アステック・インダストリーズ,NASDAQ,その他製造,○
@@ -2959,6 +2960,7 @@ OPEN,OPENDOOR TECHNO,オープンドア・テクノロジーズ,NASDAQ,ソフト
 OPFI,OPPFI,オプフィ,NYSE,金融（銀行）,○
 OPHC,OPTIMUMBANK HLD,オプティマムバンク・ホールディングス,NYSE,金融（銀行）,○
 OPK,OPKO HEALTH INC,オプコ・ヘルス,NASDAQ,医薬品（バイオテクノロジー）,○
+OPLN,OPENLANE,オープンレーン,NYSE,小売,○
 OPPJ,WT JP OPPOTUNITI,ウィズダムツリー　日本株　オポチュニティーズ,NASDAQ,その他,○
 OPRA,OPERA LTD,オペラ,NASDAQ,ソフトウェア・サービス,○
 OPRT,OPORTUN FINANCL,オポーチュン・ファイナンシャル,NASDAQ,その他,○
@@ -3660,6 +3662,7 @@ SNTG,SENTAGE HOLDINGS,センテージ・ホールディングス,NASDAQ,金融�
 SNV,SYNOVUS FINANCIA,シノバス・ファイナンシャル,NYSE,金融（銀行）,○
 SNX,TD SYNNEX,TDシネックス,NYSE,運輸,○
 SO,SOUTHERN CO,サザン,NYSE,その他製造,○
+SOAR,VOLATO GROUP INC,ボラト・グループ,NYSE,航空,○
 SOBO,SOUTH BOW CORP,サウス・ボウ・コーポレーション,NYSE,ガス・パイプライン,○
 SOC,SABLE OFFSHORE,セーブル・オフショア,NYSE,石油,○
 SOCL,GLX SOC MDIA ETF,グローバルX ソーシャルメディア ETF,NASDAQ,その他,○
@@ -4196,7 +4199,6 @@ VIS,VA INDUSTRIALS,バンガード・米国資本財・サービス・セクタ�
 VIST,VISTA ENERGY,ビスタ・エナジー,NYSE,石油,○
 VITL,VITAL FARMS INC,バイタル・ファームズ,NASDAQ,食品,○
 VIV,TELEFONCA BRASIL,テレフォニカ・ブラジル,NYSE,通信サービス,○
-VIVK,VIVAKOR INC,ビバコール,NASDAQ,その他,○
 VIVS,VIVOSIM LABS INC,ビーボシム・ラブス,NASDAQ,医薬品（バイオテクノロジー）,○
 VKTX,VIKING THERAPEUT,バイキング・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 VLGEA,VILLAGE SUPMARKT,ビレッジ・スーパーマーケット,NASDAQ,食品,○
