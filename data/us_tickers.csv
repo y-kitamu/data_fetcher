@@ -17,7 +17,6 @@ ABCL,ABCELLERA BIOLOG,アブセレラ・バイオロジクス,NASDAQ,医薬品,�
 ABEO,ABEONA THERAPE,アベオナ・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 ABEV,AMBEV SA ADR,アンベブ,NYSE,飲料,○
 ABG,ASBURY AUTOMOTIV,アズベリー・オートモーティブ・グループ,NYSE,小売,○
-ABL,ABACUS GLBL MNG,アバカス・グローバル・マネジメント,NASDAQ,金融(保険),○
 ABM,ABM INDUSTRIES,ABMインダストリーズ,NYSE,ソフトウェア・サービス,○
 ABNB,AIRBNB,エアビーアンドビー,NASDAQ,ソフトウェア・サービス,○
 ABOS,ACUMEN PHARMA,アキューメン・ファーマシューティカルズ,NASDAQ,医薬品（バイオテクノロジー）,○
@@ -26,6 +25,7 @@ ABT,ABBOTT LABOR,アボットラボラトリーズ,NYSE,医薬品,○
 ABTS,ABITS GROUP,アビッツ・グループ,NASDAQ,ソフトウェア・サービス,○
 ABUS,ARBUTUS BIOPHARM,アービュタス・バイオファーマ,NASDAQ,医薬品（バイオテクノロジー）,○
 ABVC,ABVC BIOPHARMA,ABVCバイオファーマ,NASDAQ,医薬品（バイオテクノロジー）,○
+ABX,ABACUS GLBL MNG,アバカス・グローバル・マネジメント,NYSE,金融(保険),○
 ACA,ARCOSA INC,アルコサ,NYSE,その他製造,○
 ACAD,ACADIA PHARMA,アカディア・ファーマシューティカルズ,NASDAQ,医薬品（バイオテクノロジー）,○
 ACB,AURORA CANNABIS,オーロラ・カンナビス,NASDAQ,医薬品,○
@@ -33,7 +33,6 @@ ACCO,ACCO BRANDS CORP,エッコー・ブランズ,NYSE,専門店,○
 ACCS,ACCESS NEWSWIRE,アクセス・ニュースワイヤー,NYSE,情報処理サービス,○
 ACDC,PROFRAC HLD,プロフラック,NASDAQ,石油,○
 ACEL,ACCEL ENTMT INC,アクセル・エンターテインメント,NYSE,エンターテイメント,○
-ACET,ADICET BIO INC,アディセット・バイオ,NASDAQ,医薬品（バイオテクノロジー）,○
 ACGL,ARCH CAPITAL,アーチ・キャピタル・グループ,NASDAQ,金融(保険),○
 ACHC,ACADIA HEALTHCAR,アカディア・ヘルスケア,NASDAQ,ヘルスケア,○
 ACHR,ARCHER AVIATION,アーチャー・アビエーション,NYSE,航空機・宇宙,○
@@ -261,7 +260,6 @@ APPN,APPIAN CORP,アピアン・コーポレーション,NASDAQ,ソフトウェ�
 APPS,DIGITAL TURBINE,デジタル・タービン,NASDAQ,ソフトウェア・サービス,○
 APT,ALPHA PRO TECH,アルファ・プロ・テック,NYSE,その他製造,○
 APTV,APTIV HOLDINGS,アプティブ・ホールディングス,NYSE,その他製造,○
-APVO,APTEVO THERAPEU,アプテボ・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 APYX,APYX MDICAL CORP,エイピックス・メディカル,NASDAQ,ヘルスケア,○
 AQB,AQUABOUNTY TECH,アクアバウンティ・テクノロジーズ,NASDAQ,食品,○
 AQMS,AQUA METALS INC,アクア・メタルズ,NASDAQ,その他製造,○
@@ -2631,7 +2629,6 @@ MRKR,MARKER THERA,マーカー・セラピューティクス,NASDAQ,医薬品（
 MRM,MEDIROM HEALTH,メディロム・ヘルスケア・テクノロジーズ,NASDAQ,ヘルスケア,○
 MRNA,MODERNA INC,モデルナ,NASDAQ,医薬品（バイオテクノロジー）,○
 MRTN,MARTEN TRANSPORT,マーテン・トランスポート,NASDAQ,運輸,○
-MRUS,MERUS,メルス,NASDAQ,医薬品（バイオテクノロジー）,○
 MRVI,MARAVAI LIFE,マラバイ・ライフサイエンシズ・ホールディングス,NASDAQ,医薬品（バイオテクノロジー）,○
 MRVL,MARVELL TECH,マーベル・テクノロジー・グループ,NASDAQ,半導体,○
 MS,MORGAN STANLEY,モルガン・スタンレー,NYSE,金融（証券）,○
@@ -4443,7 +4440,6 @@ XRTX,XORTX THERAPEUT,XORTXセラピューティクス,NASDAQ,医薬品（バイ�
 XRX,XEROX CORP.,ゼロックス,NASDAQ,その他製造,○
 XSOE,WT EM EX STATE,ウィズダムツリー新興国株ニューエコノミーファンド,NYSE,その他,○
 XTIA,XTI AEROSPACE,XTIエアロスペース,NASDAQ,ソフトウェア・サービス,○
-XTKG,X3 HOLDINGS,X3ホールディングス,NASDAQ,ソフトウェア・サービス,○
 XWEL,XWELL,エクスウェル,NASDAQ,ソフトウェア・サービス,○
 XXII,22ND CENTURY GR,22ndセンチュリー・グループ,NASDAQ,食品・タバコ,○
 XYF,X FINANCIAL,エックス・ファイナンシャル,NYSE,金融（銀行）,○

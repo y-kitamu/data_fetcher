@@ -798,8 +798,7 @@
         "Total Revenue": NaN,
         "Operating Revenue": NaN,
         "Loss Adjustment Expense": NaN,
-        "Net Policyholder Benefits And Claims": NaN,
-        "Policyholder Benefits Gross": NaN
+        "Net Policyholder Benefits And Claims": NaN
     },
     "2024-09-30": {
         "Tax Effect Of Unusual Items": -2072000.0,
@@ -841,8 +840,7 @@
         "Total Revenue": 6755000000.0,
         "Operating Revenue": 6755000000.0,
         "Loss Adjustment Expense": 3773000000.0,
-        "Net Policyholder Benefits And Claims": 3773000000.0,
-        "Policyholder Benefits Gross": NaN
+        "Net Policyholder Benefits And Claims": 3773000000.0
     },
     "2024-12-31": {
         "Tax Effect Of Unusual Items": 197212807.244502,
@@ -884,8 +882,7 @@
         "Total Revenue": 7173000000.0,
         "Operating Revenue": 7173000000.0,
         "Loss Adjustment Expense": 3814000000.0,
-        "Net Policyholder Benefits And Claims": 3814000000.0,
-        "Policyholder Benefits Gross": NaN
+        "Net Policyholder Benefits And Claims": 3814000000.0
     },
     "2025-03-31": {
         "Tax Effect Of Unusual Items": 819000.0,
@@ -927,8 +924,7 @@
         "Total Revenue": 6774000000.0,
         "Operating Revenue": 6774000000.0,
         "Loss Adjustment Expense": 3794000000.0,
-        "Net Policyholder Benefits And Claims": 3794000000.0,
-        "Policyholder Benefits Gross": NaN
+        "Net Policyholder Benefits And Claims": 3794000000.0
     },
     "2025-06-30": {
         "Tax Effect Of Unusual Items": 14245000.0,
@@ -970,8 +966,7 @@
         "Total Revenue": 7041000000.0,
         "Operating Revenue": 7041000000.0,
         "Loss Adjustment Expense": 3493000000.0,
-        "Net Policyholder Benefits And Claims": 3493000000.0,
-        "Policyholder Benefits Gross": NaN
+        "Net Policyholder Benefits And Claims": 3493000000.0
     },
     "2025-09-30": {
         "Tax Effect Of Unusual Items": 0.0,
@@ -1013,7 +1008,6 @@
         "Total Revenue": 6402000000.0,
         "Operating Revenue": 6402000000.0,
         "Loss Adjustment Expense": 3391000000.0,
-        "Net Policyholder Benefits And Claims": 3391000000.0,
-        "Policyholder Benefits Gross": NaN
+        "Net Policyholder Benefits And Claims": 3391000000.0
     }
 }

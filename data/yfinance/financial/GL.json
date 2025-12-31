@@ -358,7 +358,6 @@
         "Pretax Income": 376958000.0,
         "Other Income Expense": 42000.0,
         "Net Non Operating Interest Income Expense": -31388000.0,
-        "Total Other Finance Cost": NaN,
         "Interest Expense Non Operating": 31388000.0,
         "Other Operating Expenses": 104874000.0,
         "Selling General And Administration": NaN,
@@ -368,8 +367,7 @@
         "Total Revenue": 1455407000.0,
         "Operating Revenue": 1455407000.0,
         "Loss Adjustment Expense": 688184000.0,
-        "Net Policyholder Benefits And Claims": 688184000.0,
-        "Policyholder Benefits Gross": NaN
+        "Net Policyholder Benefits And Claims": 688184000.0
     },
     "2024-12-31": {
         "Tax Effect Of Unusual Items": 0.0,
@@ -394,7 +392,6 @@
         "Pretax Income": 312433000.0,
         "Other Income Expense": 162000.0,
         "Net Non Operating Interest Income Expense": -35679000.0,
-        "Total Other Finance Cost": NaN,
         "Interest Expense Non Operating": 35698000.0,
         "Other Operating Expenses": 630000.0,
         "Selling General And Administration": 97122000.0,
@@ -404,8 +401,7 @@
         "Total Revenue": 1466277000.0,
         "Operating Revenue": 1466277000.0,
         "Loss Adjustment Expense": 738772000.0,
-        "Net Policyholder Benefits And Claims": 738772000.0,
-        "Policyholder Benefits Gross": NaN
+        "Net Policyholder Benefits And Claims": 738772000.0
     },
     "2025-03-31": {
         "Tax Effect Of Unusual Items": 0.0,
@@ -430,7 +426,6 @@
         "Pretax Income": 316081000.0,
         "Other Income Expense": 69000.0,
         "Net Non Operating Interest Income Expense": -34992000.0,
-        "Total Other Finance Cost": NaN,
         "Interest Expense Non Operating": 34992000.0,
         "Other Operating Expenses": 3050000.0,
         "Selling General And Administration": 105696000.0,
@@ -440,8 +435,7 @@
         "Total Revenue": 1480422000.0,
         "Operating Revenue": 1480422000.0,
         "Loss Adjustment Expense": 750765000.0,
-        "Net Policyholder Benefits And Claims": 750765000.0,
-        "Policyholder Benefits Gross": NaN
+        "Net Policyholder Benefits And Claims": 750765000.0
     },
     "2025-06-30": {
         "Tax Effect Of Unusual Items": 0.0,
@@ -466,7 +460,6 @@
         "Pretax Income": 313299000.0,
         "Other Income Expense": 49000.0,
         "Net Non Operating Interest Income Expense": -34885000.0,
-        "Total Other Finance Cost": NaN,
         "Interest Expense Non Operating": 34885000.0,
         "Other Operating Expenses": 108293000.0,
         "Selling General And Administration": NaN,
@@ -476,8 +469,7 @@
         "Total Revenue": 1481287000.0,
         "Operating Revenue": 1481287000.0,
         "Loss Adjustment Expense": 755998000.0,
-        "Net Policyholder Benefits And Claims": 755998000.0,
-        "Policyholder Benefits Gross": NaN
+        "Net Policyholder Benefits And Claims": 755998000.0
     },
     "2025-09-30": {
         "Tax Effect Of Unusual Items": 0.0,
@@ -502,7 +494,6 @@
         "Pretax Income": 477102000.0,
         "Other Income Expense": 955000.0,
         "Net Non Operating Interest Income Expense": -36134000.0,
-        "Total Other Finance Cost": NaN,
         "Interest Expense Non Operating": 36134000.0,
         "Other Operating Expenses": 111562000.0,
         "Selling General And Administration": NaN,
@@ -512,7 +503,6 @@
         "Total Revenue": 1512988000.0,
         "Operating Revenue": 1512988000.0,
         "Loss Adjustment Expense": 616622000.0,
-        "Net Policyholder Benefits And Claims": 616622000.0,
-        "Policyholder Benefits Gross": NaN
+        "Net Policyholder Benefits And Claims": 616622000.0
     }
 }
