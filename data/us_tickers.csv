@@ -33,6 +33,7 @@ ACCO,ACCO BRANDS CORP,エッコー・ブランズ,NYSE,専門店,○
 ACCS,ACCESS NEWSWIRE,アクセス・ニュースワイヤー,NYSE,情報処理サービス,○
 ACDC,PROFRAC HLD,プロフラック,NASDAQ,石油,○
 ACEL,ACCEL ENTMT INC,アクセル・エンターテインメント,NYSE,エンターテイメント,○
+ACET,ADICET BIO INC,アディセット・バイオ,NASDAQ,医薬品（バイオテクノロジー）,○
 ACGL,ARCH CAPITAL,アーチ・キャピタル・グループ,NASDAQ,金融(保険),○
 ACHC,ACADIA HEALTHCAR,アカディア・ヘルスケア,NASDAQ,ヘルスケア,○
 ACHR,ARCHER AVIATION,アーチャー・アビエーション,NYSE,航空機・宇宙,○
@@ -260,6 +261,7 @@ APPN,APPIAN CORP,アピアン・コーポレーション,NASDAQ,ソフトウェ�
 APPS,DIGITAL TURBINE,デジタル・タービン,NASDAQ,ソフトウェア・サービス,○
 APT,ALPHA PRO TECH,アルファ・プロ・テック,NYSE,その他製造,○
 APTV,APTIV HOLDINGS,アプティブ・ホールディングス,NYSE,その他製造,○
+APVO,APTEVO THERAPEU,アプテボ・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 APYX,APYX MDICAL CORP,エイピックス・メディカル,NASDAQ,ヘルスケア,○
 AQB,AQUABOUNTY TECH,アクアバウンティ・テクノロジーズ,NASDAQ,食品,○
 AQMS,AQUA METALS INC,アクア・メタルズ,NASDAQ,その他製造,○
@@ -4364,7 +4366,6 @@ WOOD,ISHARES T&F,iシェアーズ グローバル・ティンバー＆フォレ�
 WOOF,PETCO HEALTH,ペトコ・ヘルス・アンド・ウェルネス・カンパニー,NASDAQ,医療サービス,○
 WOR,WORTHINGTON ENT,ワージントン・エンタープライズ,NYSE,その他製造,○
 WORX,SCWORX CORP,SCワークス,NASDAQ,ソフトウェア・サービス,○
-WOW,WIDEOPENWEST INC,ワイドオープンウエスト,NYSE,エンターテイメント,○
 WPM,WHEATON PRECIOUS,ウィートン・プレシャス・メタルズ,NYSE,その他,○
 WPP,WPP PLC,WPP,NYSE,ソフトウェア・サービス,○
 WPRT,WESTPORT FUEL,ウエストポート・フューエル・システムズ,NASDAQ,機械,○
@@ -4440,6 +4441,7 @@ XRTX,XORTX THERAPEUT,XORTXセラピューティクス,NASDAQ,医薬品（バイ�
 XRX,XEROX CORP.,ゼロックス,NASDAQ,その他製造,○
 XSOE,WT EM EX STATE,ウィズダムツリー新興国株ニューエコノミーファンド,NYSE,その他,○
 XTIA,XTI AEROSPACE,XTIエアロスペース,NASDAQ,ソフトウェア・サービス,○
+XTKG,X3 HOLDINGS,X3ホールディングス,NASDAQ,ソフトウェア・サービス,○
 XWEL,XWELL,エクスウェル,NASDAQ,ソフトウェア・サービス,○
 XXII,22ND CENTURY GR,22ndセンチュリー・グループ,NASDAQ,食品・タバコ,○
 XYF,X FINANCIAL,エックス・ファイナンシャル,NYSE,金融（銀行）,○
