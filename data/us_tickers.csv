@@ -485,7 +485,6 @@ BF.B,BROWN-FORMAN B,ブラウン・フォーマン　クラスB,NYSE,飲料,○
 BFAM,BRIGHT HORIZONS,ブライト・ホライズン・ファミリー・ソリューションズ,NYSE,ソフトウェア・サービス,○
 BFC,BANK FIRST CORP,バンク・ファースト,NASDAQ,金融（銀行）,○
 BFH,BREAD FINANCIAL,ブレッド・ファイナンシャル,NYSE,ソフトウェア・サービス,○
-BFIN,BANK FINANCIAL,バンクファイナンシャル,NASDAQ,金融（銀行）,○
 BFLY,BUTTERFLY NETWRK,バタフライ・ネットワーク,NYSE,医薬品,○
 BFRI,BIOFRONTERA INC,バイオフロンテラ,NASDAQ,医薬品（バイオテクノロジー）,○
 BFST,BUSINESS FIRST,ビジネス・ファースト・バンクシェアーズ,NASDAQ,金融（銀行）,○
@@ -2603,7 +2602,6 @@ MOAT,V WIDE MOAT,ヴァンエック・モーニングスター・ワイド・モ
 MOD,MODINE MANUFACTR,モーディン・マニュファクチャリング,NYSE,その他製造,○
 MODG,TOPGOLF CALLAWAY,トップゴルフ・キャロウェイ・ブランズ,NYSE,専門店,○
 MOFG,MIDWESTONE FNCAL,ミッドウエストワン・ファイナンシャル・グループ,NASDAQ,金融（銀行）,○
-MOGO,MOGO INC,モゴ,NASDAQ,医薬品,○
 MOGU,MOGU INC,モグ,NYSE,小売,○
 MOH,MOLINA HEALTH,モリナ・ヘルスケア,NYSE,ヘルスケア,○
 MOMO,HELLO GROUP,ハロー・グループ,NASDAQ,ソフトウェア・サービス,○
@@ -2938,7 +2936,6 @@ OMCL,OMNICELL INC,オムニセル,NASDAQ,ソフトウェア・サービス,○
 OMDA,OMADA HEALTH,オマダ・ヘルス,NASDAQ,ヘルスケア,○
 OMER,OMEROS CORP,オメロス,NASDAQ,医薬品（バイオテクノロジー）,○
 OMF,ONEMAIN HOLDINGS,ワンメイン・ホールディングス,NYSE,金融（銀行）,○
-OMI,OWENS MINOR INC,オーエンズ・アンド・マイナー,NYSE,医療サービス,○
 ON,ON SEMICON CORP,オン・セミコンダクター,NASDAQ,半導体,○
 ONB,OLD NATIONAL BAN,オールド・ナショナル・バンコープ/IN,NASDAQ,金融（銀行）,○
 ONC,BEIGENE LTD,ベイジーン,NASDAQ,医薬品（バイオテクノロジー）,○
@@ -3023,7 +3020,6 @@ PARR,PAR PACIFIC HLD,パー・パシフィック・ホールディングス,NYSE
 PATH,UIPATH INC,ユーアイパス,NYSE,ソフトウェア・サービス,○
 PATK,PATRICK INDUSTRI,パトリック・インダストリーズ,NASDAQ,その他製造,○
 PAVE,GLX US INFRA ETF,グローバル X 米国インフラ関連 ETF,Cboe,その他,○
-PAVM,PAVMED INC,パブメッド,NASDAQ,医薬品,○
 PAVS,PARANOVUS ENTECH,パラノバス・エンターテイメント・テクノロジー,NASDAQ,医薬品,○
 PAX,PATRIA INVEST,パトリア・インベストメンツ,NASDAQ,その他,○
 PAY,PAYMENTUS HD,ペイメンタス・ホールディングス,NYSE,ソフトウェア・サービス,○
@@ -3441,7 +3437,6 @@ RVP,RETRACTABLE TECH,リトラクタブル・テクノロジーズ,NYSE,医療�
 RVPH,REVIVA PHARMA HD,レビバ・ファーマシューティカルズ・ホールディングス,NASDAQ,医薬品,○
 RVSB,RIVERVIEW BANC,リバービュー・バンコープ,NASDAQ,金融（銀行）,○
 RVTY,REVVITY INC.,リビティ,NYSE,その他製造,○
-RVYL,RYVYL,リビル,NASDAQ,ソフトウェア・サービス,○
 RWR,SPDR DJ REIT,State Street SPDR ダウ・ジョーンズ REIT ETF,NYSE,その他,○
 RWX,SPDR DJ REAL,SPDR ダウ・ジョーンズ・インターナショナル・リアル・エステート ETF,NYSE,その他,○
 RXI,ISHARES CONS DIS,iシェアーズ グローバル一般消費財 ETF,NYSE,その他,○
@@ -3656,7 +3651,6 @@ SNOW,SNOWFLAKE INC,スノーフレーク,NYSE,ソフトウェア・サービス,
 SNPS,SYNOPSYS INC,シノプシス,NASDAQ,その他,○
 SNT,SENSTAR TECHNO,センスター・テクノロジーズ,NASDAQ,ネットワークセキュリティー,○
 SNTG,SENTAGE HOLDINGS,センテージ・ホールディングス,NASDAQ,金融（銀行）,○
-SNV,SYNOVUS FINANCIA,シノバス・ファイナンシャル,NYSE,金融（銀行）,○
 SNX,TD SYNNEX,TDシネックス,NYSE,運輸,○
 SO,SOUTHERN CO,サザン,NYSE,その他製造,○
 SOAR,VOLATO GROUP INC,ボラト・グループ,NYSE,航空,○
