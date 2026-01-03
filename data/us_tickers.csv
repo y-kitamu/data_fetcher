@@ -35,6 +35,7 @@ ACDC,PROFRAC HLD,プロフラック,NASDAQ,石油,○
 ACEL,ACCEL ENTMT INC,アクセル・エンターテインメント,NYSE,エンターテイメント,○
 ACET,ADICET BIO INC,アディセット・バイオ,NASDAQ,医薬品（バイオテクノロジー）,○
 ACGL,ARCH CAPITAL,アーチ・キャピタル・グループ,NASDAQ,金融(保険),○
+ACH,ACCENDRA HEALTH,アクセンドラ・ヘルス,NYSE,医療サービス,○
 ACHC,ACADIA HEALTHCAR,アカディア・ヘルスケア,NASDAQ,ヘルスケア,○
 ACHR,ARCHER AVIATION,アーチャー・アビエーション,NYSE,航空機・宇宙,○
 ACHV,ACHIEVE LIFE SC,アチーブ・ライフ・サイエンシズ,NASDAQ,医薬品（バイオテクノロジー）,○
@@ -2970,6 +2971,7 @@ ORGN,ORIGIN MATERIALS,オリジン・マティアリアルズ,NASDAQ,その他,�
 ORGO,ORGANOGENESIS,オーガノジェネシス・ホールディングス,NASDAQ,医薬品（バイオテクノロジー）,○
 ORI,OLD REPUBLIC INT,オールド・リパブリック・インターナショナル　,NYSE,金融(保険),○
 ORIC,ORIC PHARMACEU,ORICファーマシューティカルズ,NASDAQ,医薬品（バイオテクノロジー）,○
+ORIO,ORION DIGITAL,オリオン・デジタル,NASDAQ,医薬品,○
 ORKA,ORUKA THERAPEUTI,オルカ・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 ORLA,ORLA MINING LTD,オーラ・マイニング,NYSE,その他,○
 ORLY,OREILLY AUTOMOT,オライリー・オートモーティブ,NASDAQ,自動車,○
@@ -3020,6 +3022,7 @@ PARR,PAR PACIFIC HLD,パー・パシフィック・ホールディングス,NYSE
 PATH,UIPATH INC,ユーアイパス,NYSE,ソフトウェア・サービス,○
 PATK,PATRICK INDUSTRI,パトリック・インダストリーズ,NASDAQ,その他製造,○
 PAVE,GLX US INFRA ETF,グローバル X 米国インフラ関連 ETF,Cboe,その他,○
+PAVM,PAVMED INC,パブメッド,NASDAQ,医薬品,○
 PAVS,PARANOVUS ENTECH,パラノバス・エンターテイメント・テクノロジー,NASDAQ,医薬品,○
 PAX,PATRIA INVEST,パトリア・インベストメンツ,NASDAQ,その他,○
 PAY,PAYMENTUS HD,ペイメンタス・ホールディングス,NYSE,ソフトウェア・サービス,○
@@ -3358,7 +3361,7 @@ RHLD,RESOLUTE HLD MNG,リゾルート・ホールディングス・マネジメ�
 RICK,RCI HOSPITALITY,RCIホスピタリティ・ホールディングス,NASDAQ,エンターテイメント,○
 RIG,TRANSOCEAN LTD,トランスオーシャン,NYSE,石油,○
 RIGL,RIGEL PHARMA,リジェル・ファーマシューティカルズ,NASDAQ,医薬品（バイオテクノロジー）,○
-RILY,B RILEY FNANCIAL,B・ライリー・ファイナンシャル,NASDAQ,金融（銀行）,○
+RILY,BRC HOLDINGS,BRC　ホールディングス,NASDAQ,金融（銀行）,○
 RIME,ALGORHYTHM HD,アルゴリズム・ホールディングス,NASDAQ,エンターテイメント,○
 RIO,RIO TINTO (ADR),リオ・ティント,NYSE,アルミ,○
 RIOT,RIOT PLATFORMS,ライオット・プラットフォームズ,NASDAQ,その他,○
@@ -3437,6 +3440,7 @@ RVP,RETRACTABLE TECH,リトラクタブル・テクノロジーズ,NYSE,医療�
 RVPH,REVIVA PHARMA HD,レビバ・ファーマシューティカルズ・ホールディングス,NASDAQ,医薬品,○
 RVSB,RIVERVIEW BANC,リバービュー・バンコープ,NASDAQ,金融（銀行）,○
 RVTY,REVVITY INC.,リビティ,NYSE,その他製造,○
+RVYL,RYVYL,リビル,NASDAQ,ソフトウェア・サービス,○
 RWR,SPDR DJ REIT,State Street SPDR ダウ・ジョーンズ REIT ETF,NYSE,その他,○
 RWX,SPDR DJ REAL,SPDR ダウ・ジョーンズ・インターナショナル・リアル・エステート ETF,NYSE,その他,○
 RXI,ISHARES CONS DIS,iシェアーズ グローバル一般消費財 ETF,NYSE,その他,○
