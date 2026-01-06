@@ -641,7 +641,6 @@ BUR,BURFORD CAPITAL,バーフォード・キャピタル,NYSE,金融コングロ
 BURL,BURLINGTON,バーリントン・ストアーズ,NYSE,小売,○
 BUSE,FIRST BUSEY CORP,ファースト・ビューシー,NASDAQ,金融（銀行）,○
 BV,BRIGHTVIEW HLD,ブライトビュー・ホールディングス,NYSE,その他,○
-BVC,BITVENTURES LTD,ビットベンチャーズ,NASDAQ,金融コングロマリット,○
 BVN,BUENAVENTURA MIN,コンパニア・デ・ミナス・ブエナベントゥラ,NYSE,その他製造,○
 BVS,BIOVENTUS INC,バイオヴェンタス,NASDAQ,医薬品（バイオテクノロジー）,○
 BWA,BORGWARNER INC,ボルグワーナー,NYSE,その他製造,○
@@ -2121,6 +2120,7 @@ ITRI,ITRON INC,アイトロン,NASDAQ,ソフトウェア・サービス,○
 ITRM,ITERUM THERAPEU,アイテラム・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 ITRN,ITURAN LC CONTRL,イツーラン・ロケーション・アンド・コントロール,NASDAQ,ネットワークセキュリティー,○
 ITT,ITT INC,ITT,NYSE,機械,○
+ITUB,ITAU UNIBANCO,イタウ・ウニバンコ・ホールディング,NYSE,金融（銀行）,○
 ITW,ILLINOIS TOOL,ITWイリノイ・ツール・ワークス,NYSE,その他製造,○
 ITWO,PROS RSSL H INCM,プロシェアーズ・ラッセル 2000 ハイ・インカムETF,Cboe,その他,○
 IVOG,VA SP M-CAP400 G,バンガード・S&Pミッドキャップ400グロースETF,NYSE,その他,○
@@ -3482,6 +3482,7 @@ SBGI,SINCLAIR INC,シンクレア,NASDAQ,その他,○
 SBH,SALLY BEAUTY HOL,サリービューティ・ホールディングス,NYSE,専門店,○
 SBLK,STAR BULK CRRIER,スター・バルク・キャリアーズ,NASDAQ,運輸,○
 SBLX,STABLEX TECH,ステーブルX テクノロジーズ,NASDAQ,自動車,○
+SBS,CIA SANEAMENTO B,サンパウロ州基礎衛生公社,NYSE,その他,○
 SBSI,SOUTHSIDE BANC,サウスサイド・バンクシェアーズ,NYSE,金融（銀行）,○
 SBSW,SIBANYESTILL ADR,シバンエ・スティルウォーター,NYSE,その他,○
 SBUX,STARBUCKS COFFEE,スターバックス,NASDAQ,外食,○
@@ -4249,6 +4250,7 @@ VSAT,VIASAT INC,ビアサット,NASDAQ,通信機器,○
 VSCO,VICTORIAS SECRET,ヴィクトリアズ・シークレット,NYSE,専門店,○
 VSEC,VSE CORPORATION,VSE,NASDAQ,その他,○
 VSH,VISHAY INTERTECH,ビシェイ・インターテクノロジー,NYSE,周辺機器,○
+VSNT,VERSANT MEDIA,ヴァーサント・メディア・グループ,NASDAQ,エンターテイメント,○
 VSS,VA ALLWORLD X-US,バンガード・FTSE・オールワールド（除く米国）スモールキャップETF,NYSE,その他,○
 VST,VISTRA CORP,ビストラ・コープ,NYSE,電力,○
 VSTA,VASTA PLATFORM,バスタ・プラットフォーム,NASDAQ,ソフトウェア・サービス,○
