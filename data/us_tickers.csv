@@ -409,6 +409,7 @@ AYTU,AYTU BIOPHARMA,アイトゥ・バイオファーマ,NASDAQ,医薬品,○
 AZN,ASTRAZENECA ADR,アストラゼネカ,NASDAQ,医薬品,○
 AZO,AUTOZONE INC,オートゾーン,NYSE,小売,○
 AZTA,AZENTA INC,アゼンタ,NASDAQ,半導体製造,○
+AZULD,AZUL,アズール,NASDAQ,航空,○
 AZYY,GNS YLDBST AMZN,グラナイトシェアーズ イールドブースト AMZN ETF,NASDAQ,その他,○
 AZZ,AZZ INC,AZZ,NYSE,その他製造,○
 B,BARRICK MINING,バリック・マイニング,NYSE,その他,○
@@ -641,6 +642,7 @@ BUR,BURFORD CAPITAL,バーフォード・キャピタル,NYSE,金融コングロ
 BURL,BURLINGTON,バーリントン・ストアーズ,NYSE,小売,○
 BUSE,FIRST BUSEY CORP,ファースト・ビューシー,NASDAQ,金融（銀行）,○
 BV,BRIGHTVIEW HLD,ブライトビュー・ホールディングス,NYSE,その他,○
+BVC,BITVENTURES LTD,ビットベンチャーズ,NASDAQ,金融コングロマリット,○
 BVN,BUENAVENTURA MIN,コンパニア・デ・ミナス・ブエナベントゥラ,NYSE,その他製造,○
 BVS,BIOVENTUS INC,バイオヴェンタス,NASDAQ,医薬品（バイオテクノロジー）,○
 BWA,BORGWARNER INC,ボルグワーナー,NYSE,その他製造,○
@@ -1014,7 +1016,6 @@ CULP,CULP INC,カルプ,NYSE,その他製造,○
 CURE,DRX HEALTHC BL3X,Direxion デイリー ヘルスケア株 ブル3倍 ETF,NYSE,その他,○
 CURI,CURIOSITYSTREAM,キュリオシティストリーム,NASDAQ,エンターテイメント,○
 CURV,TORRID HOLDINGS,トーリッド・ホールディングス,NYSE,その他製造,○
-CVAC,CUREVAC N V,キュアバック,NASDAQ,医薬品（バイオテクノロジー）,○
 CVBF,CVB FINANCIAL CO,CVBファイナンシャル,NASDAQ,金融コングロマリット,○
 CVCO,CAVCO INDUSTRIES,カブコ・インダストリーズ,NASDAQ,その他,○
 CVE,CENOVUS ENERGY,セノバス・エナジー,NYSE,石油,○
