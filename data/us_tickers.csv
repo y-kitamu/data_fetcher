@@ -1083,6 +1083,7 @@ DCGO,DOCGO INC,ドックゴー,NASDAQ,ヘルスケア,○
 DCI,DONALDSON CO INC,ドナルドソン,NYSE,機械,○
 DCO,DUCOMMUN INCORP,デュコマン,NYSE,航空機・宇宙,○
 DCOM,DIME COM BANC,ダイム・コミュニティー・バンクシェアーズ,NASDAQ,金融（銀行）,○
+DCOY,DECOY THERAPEU,デコイ・セラピューティクス,NASDAQ,医薬品,○
 DCTH,DELCATH SYSTEMS,デルキャス・システムズ,NASDAQ,ヘルスケア,○
 DD,DUPONT DE NEMOUR,デュポン・ドゥ・ヌムール,NYSE,化学,○
 DDD,3D SYSTEMS CORP,スリーディー・システムズ,NYSE,コンピュータ,○
@@ -1600,7 +1601,6 @@ FTCI,FTC SOLAR INC,FTCソーラー,NASDAQ,電力,○
 FTCS,FT CAPIT STR ETF,ファーストトラスト キャピタル ストレングス ETF,NASDAQ,その他,○
 FTDR,FRONTDOOR INC,フロントドア,NASDAQ,その他,○
 FTEK,FUEL TECH INC,フュエル・テック,NASDAQ,ソフトウェア・サービス,○
-FTEL,FITELL CORP,フィテル,NASDAQ,小売,○
 FTFT,FUTURE FINTECH,フューチャー・フィンテック・グループ,NASDAQ,ソフトウェア・サービス,○
 FTGC,FT GBL TAC COMMO,ファーストトラスト グローバル タクティカル コモディティ戦略ファンド,NASDAQ,その他,○
 FTGS,FT GRWTH STR ETF,ファーストトラスト グロース ストレングス ETF,NASDAQ,その他,○
@@ -3242,7 +3242,6 @@ QCRH,QCR HOLDINGS INC,QCRホールディングス,NASDAQ,金融（銀行）,○
 QDEL,QUIDELORTHO CORP,クイデルオーソ,NASDAQ,ヘルスケア,○
 QDIV,GBLX SP500 Q DIV,グローバルX 高配当・優良・米国株 ETF,NYSE,その他,○
 QFIN,QIFU TECHNOLOGY,チーフ・テクノロジー,NASDAQ,その他,○
-QGEN,QIAGEN,キアゲン,NYSE,医薬品（バイオテクノロジー）,○
 QID,PROS QQQ -2X,プロシェアーズ・ウルトラショートQQQ,NYSE,その他,○
 QIPT,QUIPT HOME MED,クイプト・ホーム・メディカル,NASDAQ,ヘルスケア,○
 QLD,PROS QQQ 2X,プロシェアーズ・ウルトラQQQ,NYSE,その他,○
@@ -3608,7 +3607,6 @@ SLNH,SOLUNA HOLDINGS,ソルナ・ホールディングス,NASDAQ,その他製造
 SLNO,SOLENO THERAPE,ソレノ・セラピューティクス,NASDAQ,医薬品,○
 SLP,SIMULATIONS PLUS,シミュレーションズ・プラス,NASDAQ,ソフトウェア・サービス,○
 SLQT,SELECTQUOTE INC,セレクトクォート,NYSE,金融(保険),○
-SLRX,SALARIUS PHARMA,サラリウス・ファーマシューティカルズ,NASDAQ,医薬品,○
 SLS,SELLAS LIFE SNCE,セラス・ライフ・サイエンシズ・グループ,NASDAQ,医薬品（バイオテクノロジー）,○
 SLV,ISHARES SILVER,iシェアーズ シルバー・トラスト,NYSE,その他,○
 SLVM,SYLVAMO CORP,シルバモ,NYSE,紙・パルプ,○
