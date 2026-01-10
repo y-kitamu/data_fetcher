@@ -1601,6 +1601,7 @@ FTCI,FTC SOLAR INC,FTCソーラー,NASDAQ,電力,○
 FTCS,FT CAPIT STR ETF,ファーストトラスト キャピタル ストレングス ETF,NASDAQ,その他,○
 FTDR,FRONTDOOR INC,フロントドア,NASDAQ,その他,○
 FTEK,FUEL TECH INC,フュエル・テック,NASDAQ,ソフトウェア・サービス,○
+FTEL,FITELL CORP,フィテル,NASDAQ,小売,○
 FTFT,FUTURE FINTECH,フューチャー・フィンテック・グループ,NASDAQ,ソフトウェア・サービス,○
 FTGC,FT GBL TAC COMMO,ファーストトラスト グローバル タクティカル コモディティ戦略ファンド,NASDAQ,その他,○
 FTGS,FT GRWTH STR ETF,ファーストトラスト グロース ストレングス ETF,NASDAQ,その他,○
@@ -1885,7 +1886,6 @@ HOOG,LVS 2X LONG HOOD,LeverageShares2倍ロングHOODデイリーETF,NASDAQ,そ�
 HOPE,HOPE BANCORP INC,ホープ・バンコープ,NASDAQ,金融（銀行）,○
 HOTH,HOTH THERAPEU,ホース・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 HOUR,HOUR LOOP INC,アワー・ループ,NASDAQ,小売,○
-HOUS,ANYWHERE RL EST,エニウェア・リアル・エステート,NYSE,その他,○
 HOV,HOVNANIAN ENTERP,ホブナニアン・エンタープライジーズ,NYSE,その他,○
 HOWL,WEREWOLF THERAPE,ウェアウルフ・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 HOYY,GNS YLDBST HOOD,グラナイトシェアーズ イールドブースト HOOD ETF,NASDAQ,その他,○
@@ -3242,6 +3242,7 @@ QCRH,QCR HOLDINGS INC,QCRホールディングス,NASDAQ,金融（銀行）,○
 QDEL,QUIDELORTHO CORP,クイデルオーソ,NASDAQ,ヘルスケア,○
 QDIV,GBLX SP500 Q DIV,グローバルX 高配当・優良・米国株 ETF,NYSE,その他,○
 QFIN,QIFU TECHNOLOGY,チーフ・テクノロジー,NASDAQ,その他,○
+QGEN,QIAGEN,キアゲン,NYSE,医薬品（バイオテクノロジー）,○
 QID,PROS QQQ -2X,プロシェアーズ・ウルトラショートQQQ,NYSE,その他,○
 QIPT,QUIPT HOME MED,クイプト・ホーム・メディカル,NASDAQ,ヘルスケア,○
 QLD,PROS QQQ 2X,プロシェアーズ・ウルトラQQQ,NYSE,その他,○
