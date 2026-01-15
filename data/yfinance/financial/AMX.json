@@ -807,6 +807,7 @@
         "Depreciation And Amortization In Income Statement": NaN,
         "Selling General And Administration": NaN,
         "Gross Profit": NaN,
+        "Cost Of Revenue": NaN,
         "Total Revenue": NaN,
         "Operating Revenue": NaN
     },
@@ -856,6 +857,7 @@
         "Depreciation And Amortization In Income Statement": 41979469000.0,
         "Selling General And Administration": 47364227000.0,
         "Gross Profit": 138723056000.0,
+        "Cost Of Revenue": 84735380000.0,
         "Total Revenue": 223458436000.0,
         "Operating Revenue": 223458436000.0
     },
@@ -905,6 +907,7 @@
         "Depreciation And Amortization In Income Statement": 44717361000.0,
         "Selling General And Administration": 50861841000.0,
         "Gross Profit": 144302762000.0,
+        "Cost Of Revenue": 92637822000.0,
         "Total Revenue": 236940584000.0,
         "Operating Revenue": 244762584000.0
     },
@@ -954,6 +957,7 @@
         "Depreciation And Amortization In Income Statement": 46234000000.0,
         "Selling General And Administration": 51938000000.0,
         "Gross Profit": 144517000000.0,
+        "Cost Of Revenue": 87521000000.0,
         "Total Revenue": 232038000000.0,
         "Operating Revenue": 229690000000.0
     },
@@ -1003,6 +1007,7 @@
         "Depreciation And Amortization In Income Statement": 45071000000.0,
         "Selling General And Administration": 51860000000.0,
         "Gross Profit": 145707000000.0,
+        "Cost Of Revenue": 88078000000.0,
         "Total Revenue": 233785000000.0,
         "Operating Revenue": 231451000000.0
     },
@@ -1052,6 +1057,7 @@
         "Depreciation And Amortization In Income Statement": 43699482000.0,
         "Selling General And Administration": 50172602000.0,
         "Gross Profit": 145612525000.0,
+        "Cost Of Revenue": 87306392000.0,
         "Total Revenue": 232918917000.0,
         "Operating Revenue": 232918917000.0
     }

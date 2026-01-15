@@ -32,6 +32,7 @@
         "Operating Revenue": NaN,
         "Loss Adjustment Expense": NaN,
         "Net Policyholder Benefits And Claims": NaN,
+        "Policyholder Benefits Gross": NaN,
         "Policyholder Benefits Ceded": 498000000.0
     },
     "2024-03-31": {
@@ -280,6 +281,7 @@
         "Operating Revenue": 2969000000.0,
         "Loss Adjustment Expense": 1662000000.0,
         "Net Policyholder Benefits And Claims": 1662000000.0,
+        "Policyholder Benefits Gross": 2361000000.0,
         "Policyholder Benefits Ceded": 699000000.0
     },
     "2024-12-31": {
@@ -315,6 +317,7 @@
         "Operating Revenue": 5981000000.0,
         "Loss Adjustment Expense": 3548000000.0,
         "Net Policyholder Benefits And Claims": 3548000000.0,
+        "Policyholder Benefits Gross": 6895000000.0,
         "Policyholder Benefits Ceded": NaN
     },
     "2025-03-31": {
@@ -350,6 +353,7 @@
         "Operating Revenue": 2418000000.0,
         "Loss Adjustment Expense": 1469000000.0,
         "Net Policyholder Benefits And Claims": 1469000000.0,
+        "Policyholder Benefits Gross": 1771000000.0,
         "Policyholder Benefits Ceded": 302000000.0
     },
     "2025-06-30": {
@@ -385,6 +389,7 @@
         "Operating Revenue": 2906000000.0,
         "Loss Adjustment Expense": 1034000000.0,
         "Net Policyholder Benefits And Claims": 1034000000.0,
+        "Policyholder Benefits Gross": 1423000000.0,
         "Policyholder Benefits Ceded": 389000000.0
     },
     "2025-09-30": {
@@ -420,6 +425,7 @@
         "Operating Revenue": 2926000000.0,
         "Loss Adjustment Expense": 871000000.0,
         "Net Policyholder Benefits And Claims": 871000000.0,
+        "Policyholder Benefits Gross": 1215000000.0,
         "Policyholder Benefits Ceded": 344000000.0
     }
 }

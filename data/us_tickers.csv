@@ -904,7 +904,6 @@ COLB,COLUMBIA BANKING,コロンビア・バンキング・システム,NASDAQ,�
 COLL,COLLEGIUM PHARMA,コレギウム・ファーマシューティカル,NASDAQ,医薬品,○
 COLM,COLUMBIA SPORTS,コロンビア・スポーツウエア,NASDAQ,その他製造,○
 COM,DRX AUSP COM ETF,Direxion オースピス・ブロード・コモディティ戦略 ETF,NYSE,その他,○
-COMM,COMMSCOPE HLD,コムスコープ・ホールディング,NASDAQ,通信機器,○
 COMP,COMPASS INC,コンパス,NYSE,ソフトウェア・サービス,○
 CON,CONCENTRA GROUP,コンセントラ・グループ・ホールディングス・ペアレント,NYSE,ヘルスケア,○
 CONI,GNS COIN 2X SHRT,グラナイトシェアーズ2倍ショートCOINデイリーETF,NASDAQ,その他,○
@@ -2578,7 +2577,6 @@ MLP,MAUI LAND PINE,マウイ・ランド＆パイナップル,NYSE,その他,○
 MLPA,GLOBAL X MLP ETF,グローバルX MLP ETF,NYSE,その他,○
 MLR,MILLER INDSTRIES,ミラー・インダストリーズ,NYSE,自動車,○
 MLTX,MOONLAKE IMMUNO,ムーンレイク・イミュノセラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
-MMC,MARSH & MCLENNAN,マーシュ　アンド　マクレナン,NYSE,金融(保険),○
 MMI,MARCUS MILLICHAP,マーカス・アンド・ミリチャップ,NYSE,金融（証券）,○
 MMM,3M COMPANY,スリーエム,NYSE,その他製造,○
 MMS,MAXIMUS INC,マキシマス,NYSE,ソフトウェア・サービス,○
@@ -2628,6 +2626,7 @@ MRK,MERCK & CO.,メルク,NYSE,医薬品,○
 MRKR,MARKER THERA,マーカー・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 MRM,MEDIROM HEALTH,メディロム・ヘルスケア・テクノロジーズ,NASDAQ,ヘルスケア,○
 MRNA,MODERNA INC,モデルナ,NASDAQ,医薬品（バイオテクノロジー）,○
+MRSH,MARSH,マーシュ,NYSE,金融(保険),○
 MRTN,MARTEN TRANSPORT,マーテン・トランスポート,NASDAQ,運輸,○
 MRVI,MARAVAI LIFE,マラバイ・ライフサイエンシズ・ホールディングス,NASDAQ,医薬品（バイオテクノロジー）,○
 MRVL,MARVELL TECH,マーベル・テクノロジー・グループ,NASDAQ,半導体,○
@@ -4013,7 +4012,6 @@ TTEK,TETRA TECH INC,テトラ・テック,NASDAQ,その他,○
 TTGT,TECHTARGET INC,テックターゲット,NASDAQ,ソフトウェア・サービス,○
 TTI,TETRA TECHNO,テトラ・テクノロジーズ,NYSE,石油,○
 TTMI,TTM TECHNOLOGIES,TTMテクノロジーズ,NASDAQ,その他製造,○
-TTSH,TILE SHOP HLD,タイル・ショップ・ホールディングス,NASDAQ,小売,○
 TTWO,TAKE-TWO INTERAC,テイクツー・インタラクティブ・ソフトウエア,NASDAQ,ソフトウェア・サービス,○
 TU,TELUS CORP,テラス,NYSE,通信サービス,○
 TUR,ISHARES TURKEY,iシェアーズ MSCI トルコ ETF,NASDAQ,その他,○
@@ -4190,6 +4188,7 @@ VIR,VIR BIOTECH,ヴィル・バイオテクノロジー,NASDAQ,医薬品（バ�
 VIRC,VIRCO MFG. CORP,バーコ・マニュファクチャリング,NASDAQ,その他製造,○
 VIRT,VIRTU FINANCIAL,ヴァーチュ・フィナンシャル,NYSE,金融（証券）,○
 VIS,VA INDUSTRIALS,バンガード・米国資本財・サービス・セクターETF,NYSE,その他,○
+VISN,VISTANCE NETWORK,ビスタンス・ネットワークス,NASDAQ,通信機器,○
 VIST,VISTA ENERGY,ビスタ・エナジー,NYSE,石油,○
 VITL,VITAL FARMS INC,バイタル・ファームズ,NASDAQ,食品,○
 VIV,TELEFONCA BRASIL,テレフォニカ・ブラジル,NYSE,通信サービス,○
@@ -4201,7 +4200,6 @@ VLO,VALERO ENERGY CO,バレロ・エナジー,NYSE,石油,○
 VLRS,CONTROLADOR AVCN,コントロラドラ・ブエラ・コンパニア・デ・アビア,NYSE,航空,○
 VLTO,VERALTO,ヴェラルト,NYSE,その他,○
 VLY,VALLEY NATIONAL,バレー･ナショナル･バンコープ ,NASDAQ,金融（銀行）,○
-VMAR,VISION MARN TECH,ビジョン・マリン・テクノロジーズ,NASDAQ,その他製造,○
 VMBS,VA MBS,バンガード・米国モーゲージ担保証券ETF,NASDAQ,その他,○
 VMC,VULCAN MATERIALS,ヴァルカン・マテリアルズ,NYSE,その他,○
 VMD,VIEMED HEALTHCR,ビームド・ヘルスケア,NASDAQ,ヘルスケア,○
