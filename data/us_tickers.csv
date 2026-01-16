@@ -190,7 +190,6 @@ AMBA,AMBARELLA INC.,アンバレラ,NASDAQ,半導体製造,○
 AMBP,ARDAGH METAL PAC,アルダ・メタル・パッケージング,NYSE,その他製造,○
 AMBR,AMBER INTER HD,アンバー・インターナショナル・ホールディング,NASDAQ,ソフトウェア・サービス,○
 AMC,AMC ENTERTAINMNT,AMCエンターテインメント・ホールディングス,NYSE,エンターテイメント,○
-AMCR,AMCOR LIMITED,アムコア,NYSE,その他製造,○
 AMCX,AMC NETWORKS INC,AMCネットワークス,NASDAQ,エンターテイメント,○
 AMD,ADVANCED M D INC,アドバンスト・マイクロ・デバイス(AMD),NASDAQ,半導体,○
 AMDD,DRX AMD BR2X,Direxion デ イ リー AMD株 ベア1倍 ETF,NASDAQ,その他,○
@@ -1104,6 +1103,7 @@ DFH,DREAM FIND HOME,ドリーム・ファインダーズ・ホームズ,NYSE,そ
 DFIN,DONNELLEY FINCL,ドネリー・ファイナンシャル・ソリューションズ,NYSE,ソフトウェア・サービス,○
 DFJ,WM JP S-CAP DVD,ウィズダムツリー  日本小型株配当ファンド,NYSE,その他,○
 DFLI,DRAGONFLY ENERGY,ドラゴンフライ・エナジー・ホールディングス,NASDAQ,その他製造,○
+DFTX,DEFINIUM THERAPE,デフィニウム・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 DG,DOLLAR GENERAL C,ダラー・ゼネラル,NYSE,小売,○
 DGICA,DONEGAL GROUP,ドネガル・グループ,NASDAQ,金融(保険),○
 DGII,DIGI INTERNATNL,ディジ・インターナショナル,NASDAQ,ソフトウェア・サービス,○
@@ -2160,6 +2160,7 @@ JELD,JELD-WEN HOLDING,ジェルド・ウェン・ホールディング,NYSE,そ�
 JEPI,JPM EQ INCM ETF,JPモルガン・米国株式・プレミアム・インカム ETF,NYSE,その他,○
 JEPQ,JPM NQ EPI ETF,JPモルガン・ナスダック米国株式・プレミアム・インカムETF,NASDAQ,その他,○
 JFIN,JIAYIN GROUP INC,ジアイン･グループ,NASDAQ,金融（銀行）,○
+JFLI,JPM FLEX INCOME,JPモルガン・フレキシブル・インカムETF,NYSE,その他,○
 JFU,9F INC,9F,NASDAQ,金融（銀行）,○
 JG,AURORA MOBILE,オーロラ・モバイル,NASDAQ,ソフトウェア・サービス,○
 JGLO,JPM GLB SLCT ETF,JPモルガン・グローバル・セレクト株式・アクティブETF,NASDAQ,その他,○
@@ -2584,7 +2585,6 @@ MMSI,MERIT MEDICAL,メリット・メディカル・システムズ,NASDAQ,ヘ�
 MMYT,MAKEMYTRIP,メイクマイトリップ,NASDAQ,ソフトウェア・サービス,○
 MNDY,MONDAY COM LTD,マンデー・ドット・コム,NASDAQ,ソフトウェア・サービス,○
 MNKD,MANNKIND,マンカインド,NASDAQ,医薬品（バイオテクノロジー）,○
-MNMD,MIND MEDICINE,マインド・メディシン,NASDAQ,医薬品（バイオテクノロジー）,○
 MNOV,MEDICINOVA INC,メディシノバ,NASDAQ,医薬品（バイオテクノロジー）,○
 MNPR,MONOPAR THERAPEU,モノパー・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 MNRO,MONRO INC,モンロ,NASDAQ,専門店,○
@@ -4200,6 +4200,7 @@ VLO,VALERO ENERGY CO,バレロ・エナジー,NYSE,石油,○
 VLRS,CONTROLADOR AVCN,コントロラドラ・ブエラ・コンパニア・デ・アビア,NYSE,航空,○
 VLTO,VERALTO,ヴェラルト,NYSE,その他,○
 VLY,VALLEY NATIONAL,バレー･ナショナル･バンコープ ,NASDAQ,金融（銀行）,○
+VMAR,VISION MARN TECH,ビジョン・マリン・テクノロジーズ,NASDAQ,その他製造,○
 VMBS,VA MBS,バンガード・米国モーゲージ担保証券ETF,NASDAQ,その他,○
 VMC,VULCAN MATERIALS,ヴァルカン・マテリアルズ,NYSE,その他,○
 VMD,VIEMED HEALTHCR,ビームド・ヘルスケア,NASDAQ,ヘルスケア,○
@@ -4380,7 +4381,6 @@ WSO,WATSCO INC,ワッコ,NYSE,その他,○
 WST,WEST PHARMA,ウエスト ファーマシューティカル サービシズ,NYSE,医療サービス,○
 WT,WISDOMTREE,ウィズダムツリー,NYSE,金融（証券）,○
 WTBA,WEST BANCORP,ウエスト・バンコーポレーション,NASDAQ,金融（銀行）,○
-WTERD,ALKALINE WATER,アルカライン・ウォーター,NASDAQ,飲料,○
 WTFC,WINTRUST FINANCI,ウィントラスト・ファイナンシャル,NASDAQ,金融（銀行）,○
 WTI,W&T OFFSHORE INC,W&Tオフショア,NYSE,石油,○
 WTM,WHITE MNTN INSUR,ホワイトマウンテン・インシュアランス・グループ,NYSE,金融(保険),○
