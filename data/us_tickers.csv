@@ -190,6 +190,7 @@ AMBA,AMBARELLA INC.,アンバレラ,NASDAQ,半導体製造,○
 AMBP,ARDAGH METAL PAC,アルダ・メタル・パッケージング,NYSE,その他製造,○
 AMBR,AMBER INTER HD,アンバー・インターナショナル・ホールディング,NASDAQ,ソフトウェア・サービス,○
 AMC,AMC ENTERTAINMNT,AMCエンターテインメント・ホールディングス,NYSE,エンターテイメント,○
+AMCR,AMCOR LIMITED,アムコア,NYSE,その他製造,○
 AMCX,AMC NETWORKS INC,AMCネットワークス,NASDAQ,エンターテイメント,○
 AMD,ADVANCED M D INC,アドバンスト・マイクロ・デバイス(AMD),NASDAQ,半導体,○
 AMDD,DRX AMD BR2X,Direxion デ イ リー AMD株 ベア1倍 ETF,NASDAQ,その他,○
@@ -684,6 +685,7 @@ CAL,CALERES INC,カラレス,NYSE,フットウエア,○
 CALC,CALCIMEDICA INC,カルシメディカ,NASDAQ,医薬品（バイオテクノロジー）,○
 CALM,CAL-MAINE FOODS,カルメイン・フーズ,NASDAQ,食品,○
 CALX,CALIX INC,カリックス,NYSE,ソフトウェア・サービス,○
+CALY,CALLAWAY GOLF,キャロウェイ・ゴルフ・カンパニー,NYSE,専門店,○
 CAMT,CAMTEK ISRAEL,キャムテック,NASDAQ,その他製造,○
 CAN,CANAAN INC,カナン,NASDAQ,半導体,○
 CANG,CANGO INC,カンゴ,NYSE,その他,○
@@ -1092,7 +1094,6 @@ DE,DEERE,ディアー,NYSE,機械,○
 DECK,DECKERS OUTDOOR,デッカーズ・アウトドア,NYSE,その他製造,○
 DELL,DELL TECHNOLGY-C,デル・テクノロジーズ クラスC,NYSE,コンピュータ,○
 DEM,WT EMG HIGH DIV,ウィズダムツリー  新興国株 高配当ファンド,NYSE,その他,○
-DENN,DENNYS CORP,デニーズ,NASDAQ,外食,○
 DEO,DIAGEO PLC,ディアジオ,NYSE,飲料,○
 DERM,JOURNEY MEDICAL,ジャーニー・メディカル,NASDAQ,医薬品,○
 DES,WM S-CAP DIVIDEN,ウィズダムツリー　米国小型株配当ファンド,NYSE,その他,○
@@ -2598,7 +2599,6 @@ MNY,MONEYHERO,マネーヒーロー,NASDAQ,その他,○
 MO,ALTRIA GROUP INC,アルトリア・グループ,NYSE,食品・タバコ,○
 MOAT,V WIDE MOAT,ヴァンエック・モーニングスター・ワイド・モートETF,Cboe,その他,○
 MOD,MODINE MANUFACTR,モーディン・マニュファクチャリング,NYSE,その他製造,○
-MODG,TOPGOLF CALLAWAY,トップゴルフ・キャロウェイ・ブランズ,NYSE,専門店,○
 MOFG,MIDWESTONE FNCAL,ミッドウエストワン・ファイナンシャル・グループ,NASDAQ,金融（銀行）,○
 MOGU,MOGU INC,モグ,NYSE,小売,○
 MOH,MOLINA HEALTH,モリナ・ヘルスケア,NYSE,ヘルスケア,○
@@ -2897,7 +2897,6 @@ OBT,ORANGE COUN BAN,オレンジ・カウンティ・バンコープ,NASDAQ,金�
 OC,OWENS CORNING,オーウェンス・コーニング,NYSE,その他製造,○
 OCC,OPTICAL CABLE,オプティカル・ケーブル,NASDAQ,通信サービス,○
 OCFC,OCEANFIRST FINCL,オーシャンファースト・ファイナンシャル,NASDAQ,金融（銀行）,○
-OCG,ORIENTAL CULTURE,オリエンタル・カルチャー・ホールディングス,NASDAQ,ソフトウェア・サービス,○
 OCGN,OCUGEN INC,オキュゲン,NASDAQ,医薬品,○
 OCS,OCULIS HOLDING,オキュリス・ホールディング,NASDAQ,医薬品（バイオテクノロジー）,○
 OCUL,OCULAR THERAPEUT,オキュラー・セラピューティクス,NASDAQ,ヘルスケア,○
@@ -3620,7 +3619,6 @@ SMH,V SEMICONDUCTOR,ヴァンエック・半導体株ETF,NASDAQ,その他,○
 SMHI,SEACOR MARINE,シーコア・マリン・ホールディングス,NYSE,運輸,○
 SMID,SMITH MIDLAND,スミス・ミッドランド,NASDAQ,その他,○
 SMIN,ISRS INDIA S CAP,iシェアーズ　MSCI？インド 小型株 ETF,Cboe,その他,○
-SMLR,SEMLER SCIENTIFC,セムラー・サイエンティフィック,NASDAQ,医薬品（バイオテクノロジー）,○
 SMMT,SUMMIT THERAPEUT,サミット・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 SMP,STD MOTOR PROD,スタンダード・モーター・プロダクツ,NYSE,自動車,○
 SMPL,SIMPLY GOOD FOOD,シンプリー・グッド・フーズ,NASDAQ,食品,○
@@ -3886,6 +3884,7 @@ THCH,TH INTERNATIONAL,THインターナショナル,NASDAQ,飲料,○
 THD,ISHARES THAILAND,iシェアーズ MSCI タイ ETF,NYSE,その他,○
 THFF,FIRST FINANCIAL,ファースト・ファイナンシャル,NASDAQ,金融（銀行）,○
 THG,HANOVER INSURANC,ハノーバー・インシュアランス・グループ,NYSE,金融(保険),○
+THH,TRYHARD HOLDINGS,トライハード・ホールディングス,NASDAQ,エンターテイメント,○
 THO,THOR INDUSTRIES,ソーア・インダストリーズ,NYSE,自動車,○
 THR,THERMON GROUP,サーモン・グループ・ホールディングス,NYSE,その他製造,○
 THRM,GENTHERM INCORP,ジェンサーム,NASDAQ,周辺機器,○
