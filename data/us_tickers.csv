@@ -1292,7 +1292,6 @@ ELUT,ELUTIA INC,エルティア,NASDAQ,医薬品（バイオテクノロジー�
 ELV,ELEVANCE HEALTH,エレバンス・ヘルス,NYSE,医療サービス,○
 ELVN,ENLIVEN THERAPEU,エンライブン・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 ELVR,ELEVRA LITHIUM,エレブラ・リチウム,NASDAQ,その他,○
-ELWS,EARLYWORKS,アーリーワークス,NASDAQ,情報処理サービス,○
 EM,SMART SHARE GLBL,スマート・シェア・グローバル,NASDAQ,電力,○
 EMB,ISHARES JPM BND,iシェアーズ J.P.モルガン・米ドル建てエマージング・マーケット債券 ETF,NASDAQ,その他,○
 EMBC,EMBECTA CORP,エンベクタ,NASDAQ,医療サービス,○
@@ -1601,7 +1600,6 @@ FTCS,FT CAPIT STR ETF,ファーストトラスト キャピタル ストレン�
 FTDR,FRONTDOOR INC,フロントドア,NASDAQ,その他,○
 FTEK,FUEL TECH INC,フュエル・テック,NASDAQ,ソフトウェア・サービス,○
 FTEL,FITELL CORP,フィテル,NASDAQ,小売,○
-FTFT,FUTURE FINTECH,フューチャー・フィンテック・グループ,NASDAQ,ソフトウェア・サービス,○
 FTGC,FT GBL TAC COMMO,ファーストトラスト グローバル タクティカル コモディティ戦略ファンド,NASDAQ,その他,○
 FTGS,FT GRWTH STR ETF,ファーストトラスト グロース ストレングス ETF,NASDAQ,その他,○
 FTHI,FT BUYINCOME ETF,ファーストトラスト バイライトインカム ETF,NASDAQ,その他,○
@@ -1637,7 +1635,6 @@ FXL,FT TECHNOLOGY,ファーストトラスト テクノロジー AlphaDEXファ�
 FXN,FT ENERGY ALPHA,ファーストトラスト エネルギー AlphaDEXファンド,NYSE,その他,○
 FXNC,FIRST NATIONAL,ファースト・ナショナル,NASDAQ,金融（銀行）,○
 FXZ,FT MATERIALS ALP,ファーストトラスト マテリアルズ AlphaDEXファンド,NYSE,その他,○
-FYBR,FRONTIER COMM,フロンティア・コミュニケーションズ・ペアレント,NASDAQ,通信サービス,○
 G,GENPACT LTD,ジェンパクト,NYSE,ソフトウェア・サービス,○
 GABC,GERMAN AMCN BANC,ジャーマン・アメリカン・バンコープ,NASDAQ,金融（銀行）,○
 GAIA,GAIA INC,ガイア,NASDAQ,小売,○
@@ -1698,7 +1695,6 @@ GHM,GRAHAM CORPRTION,グラハム,NYSE,その他製造,○
 GHRS,GH RESEARCH PLC,GHリサーチ,NASDAQ,医薬品（バイオテクノロジー）,○
 GIB,CGI INC,CGI,NYSE,ソフトウェア・サービス,○
 GIC,GLBL INDUSTRIAL,グローバル・インダストリアル・カンパニー,NYSE,小売,○
-GIFI,GULF ISLAND FRCA,ガルフ・アイランド・ファブリケーション,NASDAQ,その他製造,○
 GIGM,GIGAMEDIA LTD,ギガメディア,NASDAQ,その他,○
 GIII,G-III APPAREL,G-IIIアパレル・グループ ,NASDAQ,小売,○
 GIL,GILDAN ACTIVEWEA,ギルダン・アクティブウエア,NYSE,その他製造,○
@@ -2857,7 +2853,6 @@ NVDX,REX 2X LONG NVDA,TRex 2倍 ロング NVDA Daily Target ETF,Cboe,その他,�
 NVEC,NVE CORPORATION,NVE,NASDAQ,半導体,○
 NVGS,NAVIGATOR HLD,ナビゲーター・ホールディングス,NYSE,運輸,○
 NVMI,NOVA LTD,ノヴァ・リミテッド,NASDAQ,半導体製造,○
-NVNO,ENVVENO MEDICAL,エンブベノー・メディカル,NASDAQ,医薬品,○
 NVO,NOVO NORDISK A/S,ノボ・ノルディスク,NYSE,医薬品,○
 NVR,NVR INC,NVR,NYSE,その他製造,○
 NVRI,ENVIRI CORP,エンヴィリ,NYSE,ソフトウェア・サービス,○
@@ -2897,6 +2892,7 @@ OBT,ORANGE COUN BAN,オレンジ・カウンティ・バンコープ,NASDAQ,金�
 OC,OWENS CORNING,オーウェンス・コーニング,NYSE,その他製造,○
 OCC,OPTICAL CABLE,オプティカル・ケーブル,NASDAQ,通信サービス,○
 OCFC,OCEANFIRST FINCL,オーシャンファースト・ファイナンシャル,NASDAQ,金融（銀行）,○
+OCG,ORIENTAL CULTURE,オリエンタル・カルチャー・ホールディングス,NASDAQ,ソフトウェア・サービス,○
 OCGN,OCUGEN INC,オキュゲン,NASDAQ,医薬品,○
 OCS,OCULIS HOLDING,オキュリス・ホールディング,NASDAQ,医薬品（バイオテクノロジー）,○
 OCUL,OCULAR THERAPEUT,オキュラー・セラピューティクス,NASDAQ,ヘルスケア,○
@@ -2938,7 +2934,7 @@ ON,ON SEMICON CORP,オン・セミコンダクター,NASDAQ,半導体,○
 ONB,OLD NATIONAL BAN,オールド・ナショナル・バンコープ/IN,NASDAQ,金融（銀行）,○
 ONC,BEIGENE LTD,ベイジーン,NASDAQ,医薬品（バイオテクノロジー）,○
 ONCT,ONCTERNAL THERA,オンクターナル・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
-ONDS,ONDAS HOLDINGS,オンダス・ホールディングス,NASDAQ,通信機器,○
+ONDS,ONDAS INC,オンダス,NASDAQ,通信機器,○
 ONEW,ONEWATER MARINE,ワンウォーター・マリン,NASDAQ,小売,○
 ONIT,ONITY GROUP INC,オニティ・グループ・インク,NYSE,金融コングロマリット,○
 ONON,ON HOLDING,オン・ホールディング,NYSE,フットウエア,○
