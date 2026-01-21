@@ -685,7 +685,7 @@ CAL,CALERES INC,カラレス,NYSE,フットウエア,○
 CALC,CALCIMEDICA INC,カルシメディカ,NASDAQ,医薬品（バイオテクノロジー）,○
 CALM,CAL-MAINE FOODS,カルメイン・フーズ,NASDAQ,食品,○
 CALX,CALIX INC,カリックス,NYSE,ソフトウェア・サービス,○
-CALY,CALLAWAY GOLF,キャロウェイ・ゴルフ・カンパニー,NYSE,専門店,○
+CALY,TOPGOLF CALLAWAY,キャロウェイ・ゴルフ・カンパニー,NYSE,専門店,○
 CAMT,CAMTEK ISRAEL,キャムテック,NASDAQ,その他製造,○
 CAN,CANAAN INC,カナン,NASDAQ,半導体,○
 CANG,CANGO INC,カンゴ,NYSE,その他,○
@@ -1600,6 +1600,7 @@ FTCS,FT CAPIT STR ETF,ファーストトラスト キャピタル ストレン�
 FTDR,FRONTDOOR INC,フロントドア,NASDAQ,その他,○
 FTEK,FUEL TECH INC,フュエル・テック,NASDAQ,ソフトウェア・サービス,○
 FTEL,FITELL CORP,フィテル,NASDAQ,小売,○
+FTFT,FUTURE FINTECH,フューチャー・フィンテック・グループ,NASDAQ,ソフトウェア・サービス,○
 FTGC,FT GBL TAC COMMO,ファーストトラスト グローバル タクティカル コモディティ戦略ファンド,NASDAQ,その他,○
 FTGS,FT GRWTH STR ETF,ファーストトラスト グロース ストレングス ETF,NASDAQ,その他,○
 FTHI,FT BUYINCOME ETF,ファーストトラスト バイライトインカム ETF,NASDAQ,その他,○
@@ -2853,6 +2854,7 @@ NVDX,REX 2X LONG NVDA,TRex 2倍 ロング NVDA Daily Target ETF,Cboe,その他,�
 NVEC,NVE CORPORATION,NVE,NASDAQ,半導体,○
 NVGS,NAVIGATOR HLD,ナビゲーター・ホールディングス,NYSE,運輸,○
 NVMI,NOVA LTD,ノヴァ・リミテッド,NASDAQ,半導体製造,○
+NVNO,ENVVENO MEDICAL,エンブベノー・メディカル,NASDAQ,医薬品,○
 NVO,NOVO NORDISK A/S,ノボ・ノルディスク,NYSE,医薬品,○
 NVR,NVR INC,NVR,NYSE,その他製造,○
 NVRI,ENVIRI CORP,エンヴィリ,NYSE,ソフトウェア・サービス,○
@@ -3019,7 +3021,7 @@ PAVM,PAVMED INC,パブメッド,NASDAQ,医薬品,○
 PAVS,PARANOVUS ENTECH,パラノバス・エンターテイメント・テクノロジー,NASDAQ,医薬品,○
 PAX,PATRIA INVEST,パトリア・インベストメンツ,NASDAQ,その他,○
 PAY,PAYMENTUS HD,ペイメンタス・ホールディングス,NYSE,ソフトウェア・サービス,○
-PAYC,PAYCOM SOFTWARE,ペイコム・ソフトウエア,NYSE,ソフトウェア・サービス,○
+PAYC,CALLAWAY GOLF,ペイコム・ソフトウエア,NYSE,ソフトウェア・サービス,○
 PAYO,PAYONEER GLOBAL,ペイオニア・グローバル,NASDAQ,ソフトウェア・サービス,○
 PAYS,PAYSIGN INC,ペイサイン,NASDAQ,金融(カード),○
 PAYX,PAYCHEX INC,ペイチェックス,NASDAQ,その他,○
@@ -3042,6 +3044,7 @@ PCTY,PAYLOCITY HOLDNG,ペイロシティ・ホールディング,NASDAQ,ソフ�
 PCVX,VAXCYTE INC,バックスサイト,NASDAQ,医薬品（バイオテクノロジー）,○
 PCYO,PURE CYCLE CORP,ピュア・サイクル,NASDAQ,その他,○
 PD,PAGERDUTY INC,ページャーデューティー,NYSE,ソフトウェア・サービス,○
+PDC,PERPETUALS COM,パーペチュアルズ,NASDAQ,情報処理サービス,○
 PDD,PDD HOLDINGS INC,PDDホールディングス,NASDAQ,小売,○
 PDDL,GNS 2X LONG PDD,GraniteShares2倍ロングPDDデイリーETF,NASDAQ,その他,○
 PDEX,PRO DEX INC,プロ・デックス,NASDAQ,その他製造,○
