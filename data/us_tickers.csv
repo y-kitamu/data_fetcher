@@ -322,6 +322,7 @@ ASPS,ALTISOURCE PFLIO,アルティソース・ポートフォリオ・ソリュ�
 ASR,GRUPO AEROPRTUAR,グルポ・アエロポルタリオ・デル・スレステ,NYSE,航空,○
 ASRT,ASSERTIO HLD,アサーティオ・ホールディングス,NASDAQ,医薬品（バイオテクノロジー）,○
 ASRV,AMERISER FINANCL,アメリサーブ・ファイナンシャル,NASDAQ,金融（銀行）,○
+ASST,STRIVE INC,ストライブ,NASDAQ,その他,○
 ASTC,ASTROTECH CORP,アストロテック,NASDAQ,航空機・宇宙,○
 ASTE,ASTEC INDUSTRIES,アステック・インダストリーズ,NASDAQ,その他製造,○
 ASTH,ASTRANA HEALTH,アストラナ・ヘルス,NASDAQ,ヘルスケア,○
@@ -522,7 +523,7 @@ BKCH,GLBLX BLOCKCHAIN,グローバルＸ ブロックチェーン ETF,NASDAQ,そ
 BKD,BROOKDALE SENIOR,ブルックデール・シニア・リビング,NYSE,ヘルスケア,○
 BKE,THE BUCKLE INC,バックル,NYSE,小売,○
 BKH,BLACK HILLS CORP,ブラック・ヒルズ,NYSE,電力,○
-BKKT,BAKKT HOLDINGS,バックト・ホールディングス,NYSE,ソフトウェア・サービス,○
+BKKT,BAKKT INC,バックト,NYSE,ソフトウェア・サービス,○
 BKLN,INV SNRLOAN ETF,インベスコ シニア ローンETF,NYSE,その他,○
 BKNG,BOOKING HOLDINGS,ブッキング　ホールディングス,NASDAQ,ソフトウェア・サービス,○
 BKR,BAKER HUGES,ベーカー・ヒューズ・カンパニー,NASDAQ,石油,○
@@ -628,7 +629,6 @@ BTE,BAYTEX ENERGY,ベイテックス・エナジー,NYSE,石油,○
 BTG,B2GOLD CORP,B2ゴールド,NYSE,その他,○
 BTI,BRITISH AMERICAN,ブリティッシュ・アメリカン・タバコ,NYSE,食品・タバコ,○
 BTMD,BIOTE CORP,ビオテ,NASDAQ,医薬品,○
-BTOG,BIT ORIGIN,ビット・オリジン,NASDAQ,食品,○
 BTSG,BRIGHTSPG HEALTH,ブライトスプリング・ヘルス・サービシズ,NASDAQ,ヘルスケア,○
 BTTC,BLACK TITAN CORP,ブラック・タイタン・コーポレーション,NASDAQ,医薬品（バイオテクノロジー）,○
 BTU,PEABODY ENERGY,ピーボディ・エナジー,NYSE,その他,○
@@ -3972,7 +3972,6 @@ TRP,TC ENERGY,TC エナジー,NYSE,ガス・パイプライン,○
 TRS,TRIMAS CORP,トライマス,NASDAQ,その他製造,○
 TRST,TRUSTCO BANK NY,トラストコ・バンク・コープ・ニューヨーク,NASDAQ,金融（銀行）,○
 TRU,TRANSUNION,トランスユニオン,NYSE,ソフトウェア・サービス,○
-TRUE,TRUECAR INC,トゥルーカー,NASDAQ,ソフトウェア・サービス,○
 TRUP,TRUPANION,トゥルーパニオン,NASDAQ,金融(保険),○
 TRV,TRAVELERS CO,トラベラーズ,NYSE,金融(保険),○
 TRVG,TRIVAGO NV,トリバゴ,NASDAQ,ソフトウェア・サービス,○
