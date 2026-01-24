@@ -353,7 +353,6 @@ ATR,APTAR GROUP INC,アプターグループ,NYSE,その他製造,○
 ATRA,ATARA BIOTHERAPE,アタラ・バイオセラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 ATRC,ATRICURE INC,アトリキュア,NASDAQ,ヘルスケア,○
 ATRO,ASTRONICS CORP,アストロニクス,NASDAQ,航空機・宇宙,○
-ATXS,ASTRIA THERAPE,アストリア・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 ATYR,ATYR PHARMA INC,エータイヤ・ファーマ,NASDAQ,医薬品,○
 AU,ANGLO ASH  NEWCO,アングロゴールド・アシャンティ,NYSE,その他,○
 AUB,ATLANTIC UNI BNK,アトランティック・ユニオン・バンクシェアーズ,NYSE,金融（銀行）,○
@@ -627,6 +626,7 @@ BTCT,BTC DIGITAL,BTCデジタル,NASDAQ,ソフトウェア・サービス,○
 BTDR,BITDEER TECH,ビットディア・テクノロジーズ・グループ,NASDAQ,情報処理サービス,○
 BTE,BAYTEX ENERGY,ベイテックス・エナジー,NYSE,石油,○
 BTG,B2GOLD CORP,B2ゴールド,NYSE,その他,○
+BTGO,BITGO HOLDINGS,ビットゴー,NYSE,その他,○
 BTI,BRITISH AMERICAN,ブリティッシュ・アメリカン・タバコ,NYSE,食品・タバコ,○
 BTMD,BIOTE CORP,ビオテ,NASDAQ,医薬品,○
 BTSG,BRIGHTSPG HEALTH,ブライトスプリング・ヘルス・サービシズ,NASDAQ,ヘルスケア,○
@@ -856,7 +856,6 @@ CMG,CHIPOTLE MEXICAN,チポトレ・メキシカン・グリル,NYSE,飲料,○
 CMI,CUMMINS INC,カミンズ,NYSE,機械,○
 CMMB,CHEMOMAB THERAPE,ケモマブ・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 CMP,COMPASS MINERALS,コンパス・ミネラルズ・インターナショナル,NYSE,その他製造,○
-CMPO,COMPOSECURE INC,コンポセキュア,NYSE,ソフトウェア・サービス,○
 CMPR,CIMPRESS,シンプレス,NASDAQ,ソフトウェア・サービス,○
 CMPS,COMPASS PATHWAYS,コンパス・パスウェイズ,NASDAQ,医薬品,○
 CMPX,COMPASS THERAPE,コンパス・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
@@ -1676,7 +1675,6 @@ GENI,GENIUS SPORTS,ジニアス・スポーツ,NYSE,エンターテイメント,
 GEO,THE GEO GROUP,ゲオ・グループ,NYSE,その他,○
 GEOS,GEOSPACE TECHNO,ジオスペース・テクノロジーズ,NASDAQ,石油,○
 GERN,GERON CORP,ジェロン,NASDAQ,医薬品,○
-GES,GUESS INC,ゲス,NYSE,専門店,○
 GETY,GETTY IMAGES,GETゲッティ・イメージズ・ホールディングス,NYSE,その他,○
 GEV,GE VERNOVA INC,GEベルノバ,NYSE,電力,○
 GEVO,GEVO INC,ジーボ,NASDAQ,化学,○
@@ -1751,6 +1749,7 @@ GOTU,GAOTU TECHEDU,ガオトゥ・テックエデュ,NYSE,ソフトウェア・�
 GOVX,GEOVAX LABS INC,ジオバックス・ラブズ,NASDAQ,医薬品（バイオテクノロジー）,○
 GPC,GENUINE PARTS CO,ジェニュイン・パーツ,NYSE,小売,○
 GPCR,STRUCTURE THERAP,ストラクチャー・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
+GPGI,GPGI INC,GPGI,NYSE,ソフトウェア・サービス,○
 GPI,GROUP 1 AUTOMOTI,グループ・ワン・オートモーティブ,NYSE,自動車,○
 GPK,GRAPHIC PACKAGIN,グラフィック・パッケージング・ホールディング,NYSE,その他製造,○
 GPN,GLOBAL PAYMENTS,グローバル･ペイメンツ,NYSE,情報処理サービス,○
@@ -4083,8 +4082,6 @@ UNHG,LVS 2X LONG UNH,LeverageShares2倍ロングUNHデイリーETF,NASDAQ,その
 UNM,UNUM GROUP,ユーナム・グループ,NYSE,金融(保険),○
 UNP,UNION PACIFIC,ユニオン・パシフィック,NYSE,運輸,○
 UNTY,UNITY BANCORP,ユニティ・バンコープ,NASDAQ,金融（銀行）,○
-UONE,URBAN ONE INC,アーバン・ワン,NASDAQ,エンターテイメント,○
-UONEK,URBAN ONE INC,アーバン・ワン,NASDAQ,通信サービス,○
 UP,WHEELS UP EXPR,ホイールズ・アップ・エクスペリエンス,NYSE,航空,○
 UPBD,UPBOUND GROUP,アップバウンド・グループ,NASDAQ,専門店,○
 UPC,UNIVERSE PHARMA,ユニバース・ファーマシューティカルズ,NASDAQ,医薬品,○
