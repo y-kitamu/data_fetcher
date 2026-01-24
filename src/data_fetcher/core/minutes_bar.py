@@ -59,7 +59,10 @@ def convert_tick_to_ohlc(
     interval: datetime.timedelta,
     date_key="datetime",
     price_key="price",
-    size_key="size",
+    volume_key="size",
+    sum_keys: list[str] = [],
+    mean_keys: list[str] = [],
+    max_keys: list[str] = [],
 ) -> pl.DataFrame:
     """Convert tick data to OHLC bars.
 
@@ -79,7 +82,11 @@ def convert_tick_to_ohlc(
             pl.col(price_key).max().alias("high"),
             pl.col(price_key).min().alias("low"),
             pl.col(price_key).last().alias("close"),
-            pl.col(size_key).sum().alias("volume"),
+            pl.col(volume_key).sum().alias("volume"),
+            pl.len().alias("tick_count"),
+            *[pl.col(key).sum().alias(key) for key in sum_keys],
+            *[pl.col(key).mean().alias(key) for key in mean_keys],
+            *[pl.col(key).max().alias(key) for key in max_keys],
         )
         .sort(pl.col(date_key))
     )

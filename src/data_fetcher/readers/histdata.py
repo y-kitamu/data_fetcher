@@ -119,6 +119,7 @@ class HistDataReader(BaseReader):
             pl.col("price").last().alias("close"),
             pl.col("spread").max().alias("max_spread"),
             pl.col("size").sum().alias("volume"),
+            # pl.len().alias("volume"),
         )
 
         return ohlc_df.sort("datetime")

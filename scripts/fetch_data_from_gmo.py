@@ -1,32 +1,30 @@
 """fetch_data_from_gmo.py"""
 
-import pdb
-import platform
-import sys
-import traceback
+import argparse
+
+from loguru import logger
 
 import data_fetcher
 
-
-def run_debug(func, *args, **kwargs):
-    """エラーが発生したときにpdbを起動する"""
-    try:
-        return func(*args, **kwargs)
-    except:
-        extype, value, tb = sys.exc_info()
-        traceback.print_exc()
-        pdb.post_mortem(tb)
-
-
-def debug(func):
-    """エラーが発生したときにpdbを起動するデコレータ"""
-
-    def wrapper(*args, **kwargs):
-        return run_debug(func, *args, **kwargs)
-
-    return wrapper
-
-
 if __name__ == "__main__":
-    fetcher = data_fetcher.gmo.GMOFetcher()
-    run_debug(fetcher.download_all)
+    parser = argparse.ArgumentParser(
+        description="Fetch forex data from GMO using WebSocket."
+    )
+    parser.add_argument(
+        "--gzip", action="store_true", help="Run gzip compression for old data files."
+    )
+    args = parser.parse_args()
+
+    # fetcher = data_fetcher.gmo.GMOFetcher()
+    # run_debug(fetcher.download_all)
+    if args.gzip:
+        fetcher = data_fetcher.fetchers.GMOFetcherFX()
+        fetcher.compress_old_data_files(offset_days=1)
+    else:
+        try:
+            fetcher = data_fetcher.fetchers.GMOFetcherFX()
+            fetcher.start_websocket()
+        except Exception as e:
+            logger.exception(f"Error occurred while running GMOFetcherFX - {e}")
+
+        data_fetcher.notify_to_line("GMOFetcherFX has stopped unexpectedly.")
