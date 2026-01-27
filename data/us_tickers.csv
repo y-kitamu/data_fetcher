@@ -1322,6 +1322,7 @@ ENVX,ENOVIX CORP,エノビックス,NASDAQ,その他製造,○
 EOG,EOG RESOURCES,EOGリソーシズ,NYSE,石油,○
 EOLS,EVOLUS INC,エボラス,NASDAQ,ヘルスケア,○
 EOSE,EOS ENERGY ENTER,イオス・エナジー・エンタープライズ,NASDAQ,電力,○
+EP,EMPIRE PETROLEUM,エンパイア・ペトロリアム,NYSE,石油,○
 EPAC,ENERPAC TOOL,エナパック・ツール・グループ,NYSE,その他製造,○
 EPAM,EPAM SYSTEMS INC,EPAMシステムズ,NYSE,ソフトウェア・サービス,○
 EPC,EDGEWELL PERSNAL,エッジウェル・パーソナル・ケア,NYSE,その他製造,○
@@ -1334,6 +1335,7 @@ EPSN,EPSILON ENERGY,イプシロン・エナジー,NASDAQ,石油,○
 EQBK,EQUITY BANCSHARE,エクイティー・バンクシェアーズ,NYSE,金融（銀行）,○
 EQH,EQUITABLE HLDS,エクイタブル・ホールディングス,NYSE,金融(保険),○
 EQNR,EQUINOR ASA,エクイノール,NYSE,石油,○
+EQPT,EQUIPMENTSHARE,エクイップメントシェア,NASDAQ,機械,○
 EQT,EQT CORP,EQTコーポレーション,NYSE,ガス・パイプライン,○
 EQX,EQUINOX GOLD CRP,エキノックス・ゴールド,NYSE,その他,○
 ERAS,ERASCA INC,エラスカ,NASDAQ,医薬品,○
@@ -3626,7 +3628,6 @@ SMRT,SMARTRENT INC,スマートレント,NYSE,ソフトウェア・サービス,
 SMSI,SMITH MICRO SOFT,スミス・マイクロ・ソフトウエア,NASDAQ,ソフトウェア・サービス,○
 SMTC,SEMTECH CORP,セムテック,NASDAQ,半導体,○
 SMTI,SANARA MEDTECH,サナラ・メドテック,NASDAQ,ヘルスケア,○
-SMUP,REX 2X LONG SMR,T-REX 2X・ロング・SMR・デイリーター ゲットETF,Cboe,その他,○
 SMWB,SIMILARWEB LTD,シミラーウェブ,NYSE,ソフトウェア・サービス,○
 SMYY,GNS YLDBST SMCI,グラナイトシェアーズ イールドブースト SMCI ETF,NASDAQ,その他,○
 SNA,SNAP-ON INCORP,スナップオン,NYSE,その他製造,○
@@ -3709,7 +3710,7 @@ SPXC,SPX TECHNOLOGIES,SPXテクノロジーズ,NYSE,その他製造,○
 SPXL,DRX DL SP500BL3X,Direxion デイリー S&P 500 ブル3倍 ETF,NYSE,その他,○
 SPXS,DRX DL SP500BR3X,Direxion デイリー S&P 500 ベア3倍 ETF,NYSE,その他,○
 SPXU,PROS SP500 -3X,プロシェアーズ・ウルトラプロ・ショートS&P500,NYSE,その他,○
-SPY,SPDR SP500 TRUST,SPDR S&P 500 ETF,NYSE,その他,○
+SPY,SPDR SP500 TRUST,State Street SPDR S&P 500 ETF,NYSE,その他,○
 SPYD,SPDR SP500 H DIV,State Street SPDR ポートフォリオS&P 500 高配当株式ETF,NYSE,その他,○
 SPYG,SPDR SP500 GRWTH,State Street SPDR ポートフォリオS&P 500 グロース株式ETF,NYSE,その他,○
 SPYM,SPDR PF SP500ETF,State Street SPDR ポートフォリオS&P 500 ETF,NYSE,その他,○
@@ -4082,6 +4083,8 @@ UNHG,LVS 2X LONG UNH,LeverageShares2倍ロングUNHデイリーETF,NASDAQ,その
 UNM,UNUM GROUP,ユーナム・グループ,NYSE,金融(保険),○
 UNP,UNION PACIFIC,ユニオン・パシフィック,NYSE,運輸,○
 UNTY,UNITY BANCORP,ユニティ・バンコープ,NASDAQ,金融（銀行）,○
+UONE,URBAN ONE INC,アーバン・ワン,NASDAQ,エンターテイメント,○
+UONEK,URBAN ONE INC,アーバン・ワン,NASDAQ,通信サービス,○
 UP,WHEELS UP EXPR,ホイールズ・アップ・エクスペリエンス,NYSE,航空,○
 UPBD,UPBOUND GROUP,アップバウンド・グループ,NASDAQ,専門店,○
 UPC,UNIVERSE PHARMA,ユニバース・ファーマシューティカルズ,NASDAQ,医薬品,○
