@@ -526,6 +526,7 @@ BITF,BITFARMS LTD CA,ビットファームズ,NASDAQ,ソフトウェア・サー
 BIV,VA M-TERM BOND,バンガード・米国中期債券ETF,NYSE,その他,○
 BIVI,BIOVIE INC,バイオヴィ,NASDAQ,医薬品（バイオテクノロジー）,○
 BJ,BJS WHOLESALE,BJsホールセール・クラブ・ホールディングス,NYSE,小売,○
+BJDX,BLUEJAY DIAGNSTC,ブルージェイ・ダイアグノスティックス,NASDAQ,ヘルスケア,○
 BJRI,BJS RESTAURANTS,ビージェーズ・レストラン,NASDAQ,外食,○
 BK,BK OF NY MELLON,バンク・オブ・ニューヨーク・メロン,NYSE,金融（銀行）,○
 BKCH,GLBLX BLOCKCHAIN,グローバルＸ ブロックチェーン ETF,NASDAQ,その他,○
@@ -826,7 +827,6 @@ CINF,CINCINNATI FINAN,シンシナティ・ファイナンシャル,NASDAQ,金�
 CING,CINGULATE INC,シンギュレイト,NASDAQ,医薬品（バイオテクノロジー）,○
 CINT,CIT INC,CI&T,NYSE,ソフトウェア・サービス,○
 CIVB,CIVISTA BANCSHAR,シビスタ・バンクシェアーズ,NASDAQ,金融（銀行）,○
-CIVI,CIVITAS RESOURCE,シビタス・リソーシズ,NYSE,石油,○
 CIX,COMPX INTERNATL,コンペックス・インターナショナル,NYSE,機械,○
 CL,COLGATE,コルゲート・パルモリブ,NYSE,トイレタリー,○
 CLAR,CLARUS CORP,クラルス,NASDAQ,その他製造,○
@@ -1052,6 +1052,7 @@ CWEB,DRX CH INET BL2X,Direxion デイリー CSI中国インターネット指数
 CWEN,CLEARWAY ENERGY,クリアウェイ・エナジー,NYSE,電力,○
 CWH,CAMPING WORLD,キャンピング・ワールド・ホールディングス,NYSE,専門店,○
 CWI,SPDR MSCI ACWI,SPDR　MSCI 全世界株式（除く米国）　ETF,NYSE,その他,○
+CWII,REX CRWV GR INCM,REX CRWV グロース・アンド・インカムETF,Cboe,その他,○
 CWK,CUSHMAN & WAKEFI,クッシュマン・アンド・ウェイクフィールド,NYSE,その他,○
 CWST,CASELLA WASTE,キャセラ・ウェイスト・システムズ,NASDAQ,ソフトウェア・サービス,○
 CWT,CALIFORNIA WATER,カリフォルニア・ウォーター・サービス・グループ,NYSE,その他,○
@@ -1900,6 +1901,7 @@ HNST,HONEST COMPANY,オネスト・カンパニー,NASDAQ,トイレタリー,○
 HNVR,HANOVER BANCORP,ハノーバー・バンコープ,NASDAQ,金融（銀行）,○
 HOFT,HOOKER FURNISHIN,フッカー・ファーニシングス,NASDAQ,その他製造,○
 HOG,HARLEY-DAVIDSON,ハーレーダビッドソン,NYSE,その他製造,○
+HOII,REX HOOD GR INCM,REX HOOD グロース・アンド・インカムETF,Cboe,その他,○
 HOLX,HOLOGIC INC,ホロジック,NASDAQ,医療サービス,○
 HOMB,HOME BANCSHARES,ホーム・バンクシェアーズ,NYSE,金融（銀行）,○
 HON,HONEYWELL INTER,ハネウェル　インターナショナル,NASDAQ,その他製造,○
@@ -2166,7 +2168,6 @@ J,JACOBS SOLUTIONS,ジェイコブズ・ソリューション,NYSE,その他,○
 JACK,JACK IN THE BOX,ジャック・イン・ザ・ボックス,NASDAQ,外食,○
 JAGX,JAGUAR HEALTH,ジャガー・ヘルス,NASDAQ,医薬品,○
 JAKK,JAKKS PACIFIC,ジャックス・パシフィック,NASDAQ,その他製造,○
-JAMF,JAMF HOLDING,Jamfホールディング,NASDAQ,ソフトウェア・サービス,○
 JANX,JANUX THERAPE,ジャナックス・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 JAVA,JPM ACT VAL ETF,JPモルガン・米国バリュー株式・アクティブETF,NYSE,その他,○
 JAZZ,JAZZ PHARMACEUTI,ジャズ・ファーマシューティカルズ,NASDAQ,医薬品（バイオテクノロジー）,○
@@ -2387,6 +2388,7 @@ LHX,L3HARRIS TECHNOL,L3ハリス・テクノロジーズ,NYSE,通信機器,○
 LI,LI AUTO INC,リー・オート,NASDAQ,自動車,○
 LIDR,AEYE INC,エーアイ ,NASDAQ,情報処理サービス,○
 LIF,LIFE360 INC,ライフ360,NASDAQ,ソフトウェア・サービス,○
+LIFE,ETHOS TECHNOLOGI,エトス・テクノロジーズ,NASDAQ,金融(保険),○
 LII,LENNOX INTL,レノックス・インターナショナル,NYSE,その他製造,○
 LILA,LIBERTY LATIN,リバティ・ラテン・アメリカ,NASDAQ,通信サービス,○
 LILAK,LIBRTY LATN AMRC,リバティー・ラテン・アメリカ,NASDAQ,通信サービス,○
@@ -2404,6 +2406,7 @@ LIVN,LIVANOVA PLC,リワノワ,NASDAQ,ヘルスケア,○
 LIXT,LIXTE BIOTECH HD,リクステ・バイオテクノロジー・ホールディングス,NASDAQ,ヘルスケア,○
 LKFN,LAKELAND FIN CO,レイクランド・ファイナンシャル,NASDAQ,金融（銀行）,○
 LKQ,LKQ CORP,LKQ,NASDAQ,自動車,○
+LLII,REX LLY GR INCM,REX LLY グロース・アンド・インカムETF,Cboe,その他,○
 LLY,ELI LILLY & CO.,イーライリリー,NYSE,医薬品,○
 LMAT,LEMAITRE VASCULR,ルメイトレ・バスキュラー,NASDAQ,ヘルスケア,○
 LMB,LIMBACH HOLDINGS,リンバッハ・ホールディングス,NASDAQ,その他,○
@@ -3136,6 +3139,7 @@ PHR,PHREESIA INC,フリージア,NYSE,ソフトウェア・サービス,○
 PHUN,PHUNWARE INC,ファンウェア,NASDAQ,ソフトウェア・サービス,○
 PHVS,PHARVARIS BV,ファルヴァリス,NASDAQ,医薬品（バイオテクノロジー）,○
 PI,IMPINJ INC,インピンジ,NASDAQ,半導体,○
+PICS,PICPAY HD NETHER,ピックペイ・ホールディングス・オランダ,NASDAQ,ソフトウェア・サービス,○
 PII,POLARIS INC,ポラリス,NYSE,自動車,○
 PIII,P3 HEALTH PARTN,P3ヘルス・パートナーズ,NASDAQ,ヘルスケア,○
 PINS,PINTEREST INC,ピンタレスト,NYSE,ソフトウェア・サービス,○
@@ -3161,6 +3165,7 @@ PLPC,PREFORMED LI PRD,プリフォームド・ライン・プロダクツ,NASDAQ
 PLRX,PLIANT THERAPE,プリアント・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 PLSE,PULSE BIOSCIENCE,パルス・バイオサイエンシズ,NASDAQ,ヘルスケア,○
 PLTD,DRX PLTR BR2X,Direxion デ イ リ ー PLTR株 ベア1倍 ETF,NASDAQ,その他,○
+PLTI,REX PLTR GR INCM,REX PLTR グロース・アンド・インカムETF,Cboe,その他,○
 PLTK,PLAYTIKA HOLDING,プレイティカ,NASDAQ,ソフトウェア・サービス,○
 PLTR,PALANTIR TECHNO,パランティア・テクノロジーズ,NASDAQ,ソフトウェア・サービス,○
 PLTU,DRX PLTR BL2X,Direxion デ イ リ ー PLTR ブル2倍 ETF,NASDAQ,その他,○
@@ -4124,6 +4129,7 @@ ULBI,ULTRALIFE CORP,ウルトラライフ,NASDAQ,その他製造,○
 ULCC,FRONTIER GP HD,フロンティア・グループ・ホールディングス,NASDAQ,航空,○
 ULH,UNIVERSAL LOGCS,ユニバーサル・ロジスティクス・ホールディングス,NASDAQ,運輸,○
 ULTA,ULTA SALON COSME,ULTA,NASDAQ,小売,○
+ULTI,REX INCOME MAX,REX インカムマックス・オプション・ストラテジーETF,NASDAQ,その他,○
 ULY,URGENTLY INC,アージェントリー,NASDAQ,情報処理サービス,○
 UMAC,UNUSUAL MACHINES,アンユージュアル・マシーンズ,NYSE,航空,○
 UMBF,UMB FINANCIAL,UMBファイナンシャル,NASDAQ,金融（銀行）,○
@@ -4304,7 +4310,6 @@ VSH,VISHAY INTERTECH,ビシェイ・インターテクノロジー,NYSE,周辺�
 VSNT,VERSANT MEDIA,ヴァーサント・メディア・グループ,NASDAQ,エンターテイメント,○
 VSS,VA ALLWORLD X-US,バンガード・FTSE・オールワールド（除く米国）スモールキャップETF,NYSE,その他,○
 VST,VISTRA CORP,ビストラ・コープ,NYSE,電力,○
-VSTA,VASTA PLATFORM,バスタ・プラットフォーム,NASDAQ,ソフトウェア・サービス,○
 VSTM,VERASTEM INC,ベラステム,NASDAQ,医薬品（バイオテクノロジー）,○
 VSTS,VESTIS,ヴェスティス,NYSE,その他,○
 VT,VA WORLD STOCK,バンガード・トータル・ワールド・ストックETF,NYSE,その他,○
@@ -4412,6 +4417,7 @@ WMG,WARNER MUSIC,ワーナー・ミュージック・グループ,NASDAQ,エン�
 WMK,WEIS MARKETS INC,ウエイズ・マーケッツ,NYSE,小売,○
 WMS,ADVNCED DRAINAGE,アドバンスト・ドレナージ・システム,NYSE,その他製造,○
 WMT,WALMART,ウォルマート,NASDAQ,小売,○
+WMTI,REX WMT GR INCM,REX WMT グロース・アンド・インカムETF,Cboe,その他,○
 WNC,WABASH NATIONAL,ワバシュ・ナショナル,NYSE,その他製造,○
 WNEB,WEST NEW ENGLAND,ウエスタン・ニュー・イングランド・バンコープ,NASDAQ,金融（銀行）,○
 WNW,MEIWU TECHNOLOGY,メイウー・テクノロジー,NASDAQ,小売,○
