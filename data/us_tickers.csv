@@ -413,7 +413,6 @@ AXTA,AXALTA COATING,アクサルタ・コーティング・システムズ,NYSE,
 AXTI,AXT INC,AXT,NASDAQ,半導体,○
 AYI,ACUITY,アキュイティー,NYSE,その他製造,○
 AYTU,AYTU BIOPHARMA,アイトゥ・バイオファーマ,NASDAQ,医薬品,○
-AZN,ASTRAZENECA ADR,アストラゼネカ,NASDAQ,医薬品,○
 AZO,AUTOZONE INC,オートゾーン,NYSE,小売,○
 AZTA,AZENTA INC,アゼンタ,NASDAQ,半導体製造,○
 AZYY,GNS YLDBST AMZN,グラナイトシェアーズ イールドブースト AMZN ETF,NASDAQ,その他,○
@@ -689,7 +688,6 @@ CABO,CABLE ONE INC,ケーブル・ワン,NYSE,エンターテイメント,○
 CAC,CAMDEN NATIONAL,カムデン・ナショナル,NASDAQ,金融（銀行）,○
 CACC,CREDIT ACCPTC CO,クレジット・アクセプタンス,NASDAQ,その他,○
 CACI,CACI INTERNTIONL,CACIインターナショナル,NYSE,ソフトウェア・サービス,○
-CADE,CADENCE BANK,ケイデンス・バンク,NYSE,金融（銀行）,○
 CADL,CANDEL THERAPEU,キャンデル・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 CAE,CAE INC,CAE,NYSE,航空,○
 CAG,CONAGRA BRANDS,コナグラ・ブランズ,NYSE,食品,○
@@ -856,7 +854,6 @@ CLW,CLEARWATER PAPER,クリアウォーター・ペーパー,NYSE,紙・パル�
 CLX,CLOROX COMPANY,クロロックス,NYSE,小売,○
 CLYM,CLIMB BIO INC,クライム・バイオ,NASDAQ,医薬品（バイオテクノロジー）,○
 CM,CANADIAN IMPER,カナディアン・インペリアル・バンク・オブ・コマース,NYSE,金融（銀行）,○
-CMA,COMERICA,コメリカ,NYSE,金融（銀行）,○
 CMBT,CMB TECH NV,CMBテック,NYSE,運輸,○
 CMC,COMMERCIAL METAL,コマーシャル・メタルズ,NYSE,その他製造,○
 CMCL,CALEDONIA MINING,カレドニア・マイニング,NYSE,その他,○
@@ -1051,7 +1048,7 @@ CWCO,CNSLIDATED WATER,コンソリデーテッド・ウオーター,NASDAQ,そ�
 CWEB,DRX CH INET BL2X,Direxion デイリー CSI中国インターネット指数株 ブル 2倍 ETF,NYSE,その他,○
 CWEN,CLEARWAY ENERGY,クリアウェイ・エナジー,NYSE,電力,○
 CWH,CAMPING WORLD,キャンピング・ワールド・ホールディングス,NYSE,専門店,○
-CWI,SPDR MSCI ACWI,SPDR　MSCI 全世界株式（除く米国）　ETF,NYSE,その他,○
+CWI,SPDR MSCI ACWI,State Street SPDR　MSCI 全世界株式（除く米国）　ETF,NYSE,その他,○
 CWII,REX CRWV GR INCM,REX CRWV グロース・アンド・インカムETF,Cboe,その他,○
 CWK,CUSHMAN & WAKEFI,クッシュマン・アンド・ウェイクフィールド,NYSE,その他,○
 CWST,CASELLA WASTE,キャセラ・ウェイスト・システムズ,NASDAQ,ソフトウェア・サービス,○
@@ -1499,7 +1496,7 @@ FEPI,REX FANG INV PI,REX ファング&イノベーション・エクイティ・
 FER,FERROVIAL SE,フェロビアル,NASDAQ,その他製造,○
 FERG,FERGUSON ENTERPR,ファーガソン・エンタープライズ・インク,NYSE,その他製造,○
 FET,FORUM ERG TECHNO,フォーラム・エナジー・テクノロジーズ,NYSE,石油,○
-FEZ,SPDR EUR STXX 50,SPDR ユーロ・ストックス50 ETF,NYSE,その他,○
+FEZ,SPDR EUR STXX 50,State Street SPDR ユーロ・ストックス50 ETF,NYSE,その他,○
 FF,FUTUREFUEL CORP,フューチャーフューエル,NYSE,化学,○
 FFAI,FARADAY FUTURE,ファラデイ・フューチャー・インテリジェント・エレクトリック,NASDAQ,ソフトウェア・サービス,○
 FFBC,1ST FINANCL BANC,ファースト・ファイナンシャル・バンコープ,NASDAQ,金融（銀行）,○
@@ -1609,7 +1606,6 @@ FRST,PRIMIS FINANCIAL,プリミス・フィナンシャル,NASDAQ,金融（銀�
 FRSX,FORESIGHT AUTO,フォレサイト・オートノマス・ホールディングス,NASDAQ,その他製造,○
 FSBC,FIVE STAR BANCO,ファイブ・スター・バンコープ,NASDAQ,金融（銀行）,○
 FSBW,FS BANCORP INC,FSバンコープ,NASDAQ,金融（銀行）,○
-FSFG,FIRST SAVNG FCL,ファースト・セービングス・ファイナンシャル・グループ,NASDAQ,金融（銀行）,○
 FSIG,FT INVEST GR ETF,ファーストトラスト リミテッドデュレーション投資適格社債ETF,NYSE,その他,○
 FSLR,FIRST SOLAR INC,ファーストソーラー,NASDAQ,電力,○
 FSLY,FASTLY INC,ファストリー,NASDAQ,ソフトウェア・サービス,○
@@ -1751,7 +1747,7 @@ GMAB,GENMAB,ジェンマブ,NASDAQ,医薬品（バイオテクノロジー）,�
 GME,GAMESTOP CORP,ゲームストップ,NYSE,コンピュータ,○
 GMED,GLOBUS MEDICAL,グローバス・メディカル,NYSE,ヘルスケア,○
 GMEU,REX 2X LONG GME,T-REX 2X・ロング・ゲームストップ・デイリーターゲット　ETF,Cboe,その他,○
-GMF,SPDR SP EMG ASIA,SPDR　S&P　アジア・パシフィック新興国株式ETF,NYSE,その他,○
+GMF,SPDR SP EMG ASIA,State Street SPDR　S&P　アジア・パシフィック新興国株式ETF,NYSE,その他,○
 GMGI,GOLDEN MATRIX GP,ゴールデン・マトリックス・グループ,NASDAQ,ソフトウェア・サービス,○
 GNE,GENIE ENERGY LTD,ジニー・エナジー,NYSE,電力,○
 GNK,GENCO SHIPPING,ジェンコ・シッピング&トレーディング,NYSE,運輸,○
@@ -2353,7 +2349,6 @@ LCNB,LCNB CORP,LCNB,NASDAQ,金融（銀行）,○
 LCUT,LIFETIME BRANDS,ライフタイム・ブランズ,NASDAQ,その他製造,○
 LDI,LOANDEPOT INC,ローンデポー,NYSE,金融（銀行）,○
 LDOS,LEIDOS HOLDINGS,レイドス・ホールディングス,NYSE,その他,○
-LDWY,LENDWAY,レンドウェイ,NASDAQ,ソフトウェア・サービス,○
 LE,LANDS END INC,ランズ　エンド,NASDAQ,小売,○
 LEA,LEAR CORPORATION,リア,NYSE,その他製造,○
 LECO,LINCOLN ELECTRIC,リンカーン・エレクトリック・ホールディングズ,NASDAQ,その他製造,○
@@ -3385,7 +3380,6 @@ REPX,RILEY EXPLRTION,ライリー・エクスプロレーション・パーミ�
 RERE,ATRENEW INC,ATリニュー,NYSE,その他,○
 RES,RPC INC,RPC,NYSE,石油,○
 RETO,RETO ECOSOLUTION,レト・エコソリューションズ,NASDAQ,その他製造,○
-REVG,REV GROUP INC,REVグループ,NYSE,自動車,○
 REX,REX AMCAN RES CO,REXアメリカン・リソーシズ,NYSE,その他,○
 REYN,REYNOLDS CONSUMR,レイノルズ・コンシューマー・プロダクツ,NASDAQ,その他製造,○
 REZI,RESIDEO TECH,レジデオ・テクノロジーズ,NYSE,その他製造,○
@@ -3488,7 +3482,7 @@ RVSB,RIVERVIEW BANC,リバービュー・バンコープ,NASDAQ,金融（銀行�
 RVTY,REVVITY INC.,リビティ,NYSE,その他製造,○
 RVYL,RYVYL,リビル,NASDAQ,ソフトウェア・サービス,○
 RWR,SPDR DJ REIT,State Street SPDR ダウ・ジョーンズ REIT ETF,NYSE,その他,○
-RWX,SPDR DJ REAL,SPDR ダウ・ジョーンズ・インターナショナル・リアル・エステート ETF,NYSE,その他,○
+RWX,SPDR DJ REAL,State Street SPDR ダウ・ジョーンズ・インターナショナル・リアル・エステート ETF,NYSE,その他,○
 RXI,ISHARES CONS DIS,iシェアーズ グローバル一般消費財 ETF,NYSE,その他,○
 RXO,RXO,RXO,NYSE,運輸,○
 RXRX,RECURSION PHARMA,リカージョン・ファーマシューティカルズ,NASDAQ,医薬品（バイオテクノロジー）,○
@@ -3730,8 +3724,8 @@ SPB,SPECTRUM BRANDS,スペクトラム・ブランズ・ホールディング,NY
 SPCB,SUPERCOM LTD,スーパーコム,NASDAQ,情報処理サービス,○
 SPCE,VIRGIN GALACTIC,ヴァージン・ギャラクティック・ホールディングス,NYSE,航空機・宇宙,○
 SPDN,DRX SP500 BR1X,Direxion デイリー S&P 500 ベア 1 倍 ETF,NYSE,その他,○
-SPDW,SPDR DEV WD X-US,SPDR ポートフォリオ先進国株式（除く米国）ETF,NYSE,その他,○
-SPEM,SPDR PF EMG MKT,SPDR　ポートフォリオ新興国株式　ETF,NYSE,その他,○
+SPDW,SPDR DEV WD X-US,State Street SPDR ポートフォリオ先進国株式（除く米国）ETF,NYSE,その他,○
+SPEM,SPDR PF EMG MKT,State Street SPDR　ポートフォリオ新興国株式　ETF,NYSE,その他,○
 SPFF,GLX SUIN PRE ETF,グローバルX スーパーインカム優先証券 ETF,NYSE,その他,○
 SPFI,SOUTH PLAINS FIN,サウス・プレインズ・ファイナンシャル,NASDAQ,金融（銀行）,○
 SPGI,SP GLOBAL INC,S&P グローバル　インク,NYSE,その他,○
@@ -4069,6 +4063,7 @@ TTI,TETRA TECHNO,テトラ・テクノロジーズ,NYSE,石油,○
 TTMI,TTM TECHNOLOGIES,TTMテクノロジーズ,NASDAQ,その他製造,○
 TTWO,TAKE-TWO INTERAC,テイクツー・インタラクティブ・ソフトウエア,NASDAQ,ソフトウェア・サービス,○
 TU,TELUS CORP,テラス,NYSE,通信サービス,○
+TULP,BLOOMIA HOLDINGS,ブルーミア・ホールディングス,NASDAQ,ソフトウェア・サービス,○
 TUR,ISHARES TURKEY,iシェアーズ MSCI トルコ ETF,NASDAQ,その他,○
 TUSK,MAMMOTH ENRG SER,マンモス・エナジー・サービシズ,NASDAQ,石油,○
 TUYA,TUYA INC,ツヤ,NYSE,ソフトウェア・サービス,○
@@ -4372,7 +4367,7 @@ WDAY,WORKDAY INC,ワークデイ,NASDAQ,ソフトウェア・サービス,○
 WDC,WESTERN DIGITAL,ウエスタンデジタル,NASDAQ,コンピュータ,○
 WDFC,WD-40 COMPANY,WD-40,NASDAQ,化学,○
 WDH,WATERDROP INC,ウォータードロップ,NYSE,金融(保険),○
-WDIV,SPDR SP GLB DVD,SPDR S&P 全世界配当株式ETF,NYSE,その他,○
+WDIV,SPDR SP GLB DVD,State Street SPDR S&P 全世界配当株式ETF,NYSE,その他,○
 WDS,WOODSIDE PETRO,ウッドサイド・ペトロリアム,NYSE,石油,○
 WEAV,WEAVE COMUNICATN,ウィーブ・コミュニケーションズ,NYSE,ソフトウェア・サービス,○
 WEBL,DRX INTRNET BL3X,Direxion デイリー ダウ・ジョーンズ・インターネット ブル3倍 ETF,NYSE,その他,○
