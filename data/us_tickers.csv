@@ -63,7 +63,6 @@ ADBE,ADOBE INC,アドビ,NASDAQ,ソフトウェア・サービス,○
 ADCT,ADC THERAPEUTICS,ADCセラピューティクス,NYSE,医薬品（バイオテクノロジー）,○
 ADEA,ADEIA INC,アディア,NASDAQ,半導体,○
 ADI,ANALOG DEVICES,アナログ・デバイセズ,NASDAQ,半導体,○
-ADIL,ADIAL PHARMACEU,エーダイヤル・ファーマシューティカルズ,NASDAQ,医薬品（バイオテクノロジー）,○
 ADM,ARCHER DANIELS,アーチャー・ダニエルズ・ミッドランド,NYSE,食品,○
 ADMA,ADMA BIOLOGICS,ADMAバイオロジックス,NASDAQ,医薬品（バイオテクノロジー）,○
 ADNT,ADIENT LTD,アディエント,NYSE,その他製造,○
@@ -328,7 +327,6 @@ ASPS,ALTISOURCE PFLIO,アルティソース・ポートフォリオ・ソリュ�
 ASR,GRUPO AEROPRTUAR,グルポ・アエロポルタリオ・デル・スレステ,NYSE,航空,○
 ASRT,ASSERTIO HLD,アサーティオ・ホールディングス,NASDAQ,医薬品（バイオテクノロジー）,○
 ASRV,AMERISER FINANCL,アメリサーブ・ファイナンシャル,NASDAQ,金融（銀行）,○
-ASST,STRIVE INC,ストライブ,NASDAQ,その他,○
 ASTC,ASTROTECH CORP,アストロテック,NASDAQ,航空機・宇宙,○
 ASTE,ASTEC INDUSTRIES,アステック・インダストリーズ,NASDAQ,その他製造,○
 ASTH,ASTRANA HEALTH,アストラナ・ヘルス,NASDAQ,ヘルスケア,○
@@ -582,6 +580,7 @@ BNR,BURNING ROCK BIO,バーニング・ロック・バイオテック,NASDAQ,医
 BNS,BANK OF NOVA SC,バンク・オブ・ノバスコシア,NYSE,金融（銀行）,○
 BNT,BRKFLD WEALTH SL,ブルックフィールド・ウェルス・ソリューションズ,NYSE,金融(保険),○
 BNTX,BIONTECH SE,バイオエヌテック,NASDAQ,医薬品（バイオテクノロジー）,○
+BOBS,BOBS DISCOUNT,ボブズ・ディスカウント・ファーニチャー,NYSE,小売,○
 BOC,BOSTON OMAHA CO,ボストン・オマハ,NYSE,コングロマリット,○
 BODI,BEACHBODY CO INC,ビーチボディ・カンパニー,NASDAQ,ヘルスケア,○
 BOED,DRX BA BR2X,Direxion デ イ リー BA株 ベア 1倍 ETF,NASDAQ,その他,○
@@ -1286,6 +1285,7 @@ EHLD,EUROHOLDINGS,ユーロホールディングス,NASDAQ,運輸,○
 EHTH,EHEALTH INC,eヘルス,NASDAQ,金融(保険),○
 EIDO,ISHRS INDONESIA,iシェアーズ MSCI インドネシア ETF,NYSE,その他,○
 EIG,EMPLOYERS HLD,エンプロイヤーズ・ホールディングス,NYSE,金融(保険),○
+EIKN,EIKON THERAPEU,エイコン・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 EIPI,FT ENGY INCM ETF,FT エナジー・インカム・パートナーズ・エンハンスト・インカムETF,NYSE,その他,○
 EIX,EDISON INTER,エジソン・インターナショナル,NYSE,電力,○
 EJH,EHOME HOUSE SERV,Eホーム・ハウスホールド・サービス・ホールディングス,NASDAQ,ソフトウェア・サービス,○
@@ -1585,6 +1585,7 @@ FOXF,FOX FACTORY HLG,フォックス・ファクトリー・ホールディン�
 FPE,FT PREF SEC INC,ファーストトラスト 優先証券＆インカムETF,NYSE,その他,○
 FPEI,FT PREF SEC INCM,ファーストトラスト インスティテューショナル優先証券＆インカムETF,NYSE,その他,○
 FPH,FIVE POINT HLD,ファイブ・ポイント・ホールディングス,NYSE,その他,○
+FPS,FORGENT POWER,フォージェント・パワー・ソリューションズ,NYSE,その他製造,○
 FPX,FT US EQTY OPPTY,ファーストトラスト 米国株式 オポチュニティーズETF,NYSE,その他,○
 FPXI,FT INTL EQ OPPTY,ファーストトラスト インターナショナル株式 オポチュニティーズ ETF,NASDAQ,その他,○
 FRAF,FRANKLIN FIN SRV,フランクリン・ファイナンシャル・サービシズ,NASDAQ,金融（銀行）,○
@@ -3133,7 +3134,7 @@ PHR,PHREESIA INC,フリージア,NYSE,ソフトウェア・サービス,○
 PHUN,PHUNWARE INC,ファンウェア,NASDAQ,ソフトウェア・サービス,○
 PHVS,PHARVARIS BV,ファルヴァリス,NASDAQ,医薬品（バイオテクノロジー）,○
 PI,IMPINJ INC,インピンジ,NASDAQ,半導体,○
-PICS,PICPAY HD NETHER,ピックペイ・ホールディングス・オランダ,NASDAQ,ソフトウェア・サービス,○
+PICS,PICS,ピックス,NASDAQ,ソフトウェア・サービス,○
 PII,POLARIS INC,ポラリス,NYSE,自動車,○
 PIII,P3 HEALTH PARTN,P3ヘルス・パートナーズ,NASDAQ,ヘルスケア,○
 PINS,PINTEREST INC,ピンタレスト,NYSE,ソフトウェア・サービス,○
