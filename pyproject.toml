@@ -20,7 +20,7 @@ dependencies = [
     "requests>=2.32.4",
     "requests-cache>=1.2.1",
     "requests-html>=0.10.0",
-    "requests-ratelimiter>=0.7.0",
+    "requests-ratelimite==0.7.0",
     "selenium>=4.35.0",
     "uiautomation>=2.0.28",
     "websocket-client>=1.8.0",
