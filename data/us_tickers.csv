@@ -256,6 +256,7 @@ AOUT,AMERICAN OUTDOOR,アメリカン・アウトドア・ブランズ　,NASDAQ
 AP,AMPCO PITTSBURGH,アンプコ・ピッツバーグ,NYSE,その他製造,○
 APA,APACHE CORP,アパッチ,NASDAQ,石油,○
 APAM,ARTISAN PRT ASST,アーチザン・パートナーズ・アセットマネジメント,NYSE,金融（証券）,○
+APC,ARKO PETROLEUM,アルコ・ペトロリアム,NASDAQ,石油,○
 APD,AIR PRODUCTS,エアープロダクツ・アンド・ケミカルズ,NYSE,化学,○
 APEI,AMERICAN PUB EDU,アメリカン・パブリック・エデュケーション,NASDAQ,ソフトウェア・サービス,○
 APG,API GROUP CORP,エーピーアイ・グループ,NYSE,ソフトウェア・サービス,○
@@ -378,7 +379,6 @@ AVAH,AVEANNA HEALTHCR,アビーナ・ヘルスケア・ホールディングス,
 AVAV,AEROVIRONMENT,エアロバイロメント,NASDAQ,航空機・宇宙,○
 AVD,AMERICAN VANGRD,アメリカン・バンガード,NYSE,化学,○
 AVDE,AVT INTL EQ ETF,アバンティス・インターナショナル・エクイティ・ETF,NYSE,その他,○
-AVDL,AVADEL PHARMA,アバデル・ファーマシューティカルズ,NASDAQ,医薬品（バイオテクノロジー）,○
 AVEM,AVT EMG M EQ ETF,アバンティス・エマージング・マーケッツ・エクイティ・ETF,NYSE,その他,○
 AVGO,BROADCOM INC,ブロードコム,NASDAQ,半導体,○
 AVGU,GNS 2X LONG AVGO,GraniteShares2倍ロングAVGOデイリーETF,NASDAQ,その他,○
@@ -3472,6 +3472,7 @@ RSVR,RESERVOIR MEDIA,レザボア・メディア,NASDAQ,エンターテイメン
 RTH,V RETAIL,ヴァンエック・小売ETF,NASDAQ,その他,○
 RTO,RENTOKIL INITIAL,レントキル・イニシャルPLC,NYSE,その他,○
 RTX,RTX CORPORATION,RTXコーポレーション,NYSE,コングロマリット,○
+RUBI,RUBICO INC,ルビコ,NASDAQ,運輸,○
 RUM,RUMBLE INC,ランブル,NASDAQ,その他,○
 RUN,SUNRUN INC,サンラン,NASDAQ,電力,○
 RUSHA,RUSH ENTERPRISES,ラッシュ・エンタープライジズ,NASDAQ,小売,○
@@ -3682,7 +3683,6 @@ SN,SHARKNINJA INC,シャークニンジャ,NYSE,その他製造,○
 SNA,SNAP-ON INCORP,スナップオン,NYSE,その他製造,○
 SNAP,SNAP INC,スナップ,NYSE,ソフトウェア・サービス,○
 SNBR,SLEEP NUMBER,スリープ・ナンバー,NASDAQ,専門店,○
-SNCR,SYNCHRONOSS TECH,シンクロノス・テクノロジーズ,NASDAQ,ソフトウェア・サービス,○
 SNCY,SUN COUNTRY AIR,サン・カントリー・エアラインズ,NASDAQ,航空,○
 SND,SMART SAND INC,スマート・サンド,NASDAQ,石油,○
 SNDA,SONIDA SENIOR LV,ソニダ・シニア・リビング,NYSE,ヘルスケア,○
@@ -4535,7 +4535,6 @@ ZENV,ZENVIA INC,ゼンビア,NASDAQ,ソフトウェア・サービス,○
 ZEO,ZEO ENERGY CORP,ゼオ・エナジー,NASDAQ,電力,○
 ZEPP,ZEPP HEALTH CORP,ゼップ・ヘルス,NYSE,通信機器,○
 ZETA,ZETA GLOBAL HD,ゼータ・グローパル・ホールディングス,NYSE,ソフトウェア・サービス,○
-ZEUS,OLYMPIC STEEL,オリンピック・スチール,NASDAQ,その他,○
 ZG,ZILLOW GROUP A,ジロー グループ クラスA,NASDAQ,その他,○
 ZH,ZHIHU INC,チーフー,NYSE,その他,○
 ZIM,ZIM INTGRTD SHIP,ジム・インテグレーテッド・シッピング・サービシズ,NYSE,その他,○
