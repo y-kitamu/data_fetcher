@@ -3,7 +3,7 @@ name = "data-fetcher"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.13"
+requires-python = ">=3.11"
 dependencies = [
     "arelle-release>=2.37.37",
     "fastapi>=0.116.1",
