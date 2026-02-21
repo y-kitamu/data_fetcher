@@ -61,7 +61,7 @@ if __name__ == "__main__":
                     level="DEBUG",
                 )
 
-                fetcher = data_fetcher.bitflyer.BitflyerFetcher()
+                fetcher = data_fetcher.fetchers.BitflyerFetcher()
                 thread = threading.Thread(target=fetcher.start_websocket)
                 thread.daemon = True
                 thread.start()
@@ -80,4 +80,4 @@ if __name__ == "__main__":
     except Exception:
         data_fetcher.logger.exception("Bitflyer fetcher stopped unexpectedly.")
 
-    data_fetcher.notification.notify_to_line("Bitflyer fetcher stopped.")
+    data_fetcher.notify_to_line("Bitflyer fetcher stopped.")

@@ -3,6 +3,7 @@ from .binance import BinanceReader
 from .gmo import GMOReader
 from .histdata import HistDataReader
 from .kabutan import KabutanReader
+from .rakuten import RakutenReader
 from .yfinance import YFinanceReader
 
 __all__ = [
@@ -11,6 +12,7 @@ __all__ = [
     "KabutanReader",
     "YFinanceReader",
     "GMOReader",
+    "RakutenReader",
     "BinanceReader",
 ]
 

@@ -80,3 +80,16 @@ class GMOFetcher(BaseWebsocketFetcher):
         except Exception as e:
             logger.error(f"Error processing message: {message}")
             raise e
+
+
+class GMOFetcherWithTimestamp(GMOFetcher):
+    def _on_message(self, ws, message):
+        try:
+            header = ["symbol", "ask", "bid", "timestamp", "status", "LocalTimestamp"]
+            data = json.loads(message)
+            data["LocalTimestamp"] = datetime.datetime.now().isoformat()
+            exec_dt = datetime.datetime.fromisoformat(data["timestamp"])
+            self.write_data(data["symbol"], exec_dt, data, header)
+        except Exception as e:
+            logger.error(f"Error processing message: {message}")
+            raise e

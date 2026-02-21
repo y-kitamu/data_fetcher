@@ -3,5 +3,5 @@
 import data_fetcher
 
 if __name__ == "__main__":
-    fetcher = data_fetcher.histdata.HistDataFetcher()
+    fetcher = data_fetcher.fetchers.HistDataFetcher()
     fetcher.download_all()
