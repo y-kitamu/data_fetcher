@@ -46,4 +46,9 @@ dev = [
 
 [tool.pyright]
 include = ["src"]  # 対象とするフォルダ
-exclude = []   # 除外するフォルダ
+exclude = [
+    "data",
+    "build",
+    "logs",
+    ".venv"
+]   # 除外するフォルダ
