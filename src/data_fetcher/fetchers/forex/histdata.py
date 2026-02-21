@@ -4,7 +4,6 @@ import datetime
 import gzip
 import shutil
 from pathlib import Path
-from typing import override
 
 import polars as pl
 import requests
@@ -25,7 +24,6 @@ class HistDataFetcher(BaseFetcher):
         self._available_tickers = self.get_available_tickers()
 
     @property
-    @override
     def available_tickers(self) -> list[str]:
         return [
             "usdjpy",
@@ -41,7 +39,6 @@ class HistDataFetcher(BaseFetcher):
         tickers = [row.split(",")[1] for row in res.text.split("\n")[1:] if row != ""]
         return sorted(tickers)
 
-    @override
     def get_latest_date(self, symbol: str) -> datetime.datetime:
         if symbol not in self.available_tickers:
             raise ValueError(f"{symbol} is not available")
@@ -51,7 +48,6 @@ class HistDataFetcher(BaseFetcher):
             raise ValueError(f"No data for {symbol}")
         return datetime.datetime.strptime(ticker_file_list[-1].parent.name, "%Y%m")
 
-    @override
     def get_earliest_date(self, symbol: str) -> datetime.datetime:
         if symbol not in self.available_tickers:
             raise ValueError(f"{symbol} is not available")

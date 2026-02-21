@@ -1,6 +1,5 @@
 import datetime
 from pathlib import Path
-from typing import override
 
 import polars as pl
 
@@ -19,11 +18,9 @@ class GMOReader(BaseReader):
         self._available_tickers = self.get_available_tickers()
 
     @property
-    @override
     def available_tickers(self) -> list[str]:
         return self._available_tickers
 
-    @override
     def get_latest_date(self, symbol: str) -> datetime.datetime:
         if symbol not in self.available_tickers:
             raise ValueError(f"{symbol} is not available")
@@ -33,7 +30,6 @@ class GMOReader(BaseReader):
             raise ValueError(f"No data for {symbol}")
         return datetime.datetime.strptime(ticker_file_list[-1].parent.name, "%Y%m%d")
 
-    @override
     def get_earliest_date(self, symbol: str) -> datetime.datetime:
         if symbol not in self.available_tickers:
             raise ValueError(f"{symbol} is not available")
@@ -49,7 +45,6 @@ class GMOReader(BaseReader):
         )
         return sorted(tickers)
 
-    @override
     def read_ticker(
         self,
         symbol: str,
@@ -97,7 +92,6 @@ class GMOReader(BaseReader):
 
         return df
 
-    @override
     def read_ohlc_impl(
         self,
         symbol: str,
@@ -118,7 +112,6 @@ class GMOReader(BaseReader):
             pl.col("spread").max().alias("max_spread"),
         )
 
-    @override
     def fetch_volume_bar(
         self,
         symbol: str,

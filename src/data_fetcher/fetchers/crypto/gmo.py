@@ -5,7 +5,6 @@ gmoの過去データを取得する
 import datetime
 import io
 from pathlib import Path
-from typing import override
 
 import polars as pl
 import requests
@@ -40,11 +39,9 @@ class GMOFetcher(BaseFetcher):
         self.session = get_session()
 
     @property
-    @override
     def available_tickers(self) -> list[str]:
         return self._available_tickers
 
-    @override
     def get_latest_date(self, symbol: str) -> datetime.datetime:
         if symbol not in self.available_tickers:
             raise ValueError(f"{symbol} is not available")
@@ -54,7 +51,6 @@ class GMOFetcher(BaseFetcher):
             raise ValueError(f"No data for {symbol}")
         return datetime.datetime.strptime(ticker_file_list[-1].parent.name, "%Y%m%d")
 
-    @override
     def get_earliest_date(self, symbol: str) -> datetime.datetime:
         if symbol not in self.available_tickers:
             raise ValueError(f"{symbol} is not available")

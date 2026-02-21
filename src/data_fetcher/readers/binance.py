@@ -1,6 +1,5 @@
 import datetime
 from pathlib import Path
-from typing import override
 
 import polars as pl
 
@@ -13,7 +12,6 @@ class BinanceReader(BaseReader):
         self.data_dir = data_dir
 
     @property
-    @override
     def available_tickers(self) -> list[str]:
         return [
             "BTCUSDT",
@@ -49,7 +47,6 @@ class BinanceReader(BaseReader):
             raise ValueError(f"No data for {symbol}")
         return datetime.datetime.strptime(ticker_file_list[-1].parent.name, "%Y%m%d")
 
-    @override
     def fetch_ticker(
         self,
         symbol: str,
@@ -108,7 +105,6 @@ class BinanceReader(BaseReader):
         )
         return df
 
-    @override
     def fetch_ohlc(
         self,
         symbol: str,

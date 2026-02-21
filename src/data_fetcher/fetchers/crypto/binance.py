@@ -5,7 +5,6 @@ import gzip
 import json
 import shutil
 from pathlib import Path
-from typing import override
 
 import polars as pl
 from dateutil.relativedelta import relativedelta
@@ -108,7 +107,6 @@ class BinanceFetcher(BaseFetcher):
         # self.available_tickers = get_available_tickers()
 
     @property
-    @override
     def available_tickers(self) -> list[str]:
         return [
             "BTCUSDT",

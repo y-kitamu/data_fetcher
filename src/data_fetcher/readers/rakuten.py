@@ -1,6 +1,5 @@
 import datetime
 from pathlib import Path
-from typing import override
 
 import polars as pl
 
@@ -17,11 +16,9 @@ class RakutenReader(BaseReader):
         self._available_tickers = self.get_available_tickers()
 
     @property
-    @override
     def available_tickers(self) -> list[str]:
         return self._available_tickers
 
-    @override
     def get_latest_date(self, symbol: str) -> datetime.datetime:
         if symbol not in self.available_tickers:
             raise ValueError(f"{symbol} is not available")
@@ -31,7 +28,6 @@ class RakutenReader(BaseReader):
             raise ValueError(f"No data for {symbol}")
         return datetime.datetime.strptime(ticker_file_list[-1].name[:8], "%Y%m%d")
 
-    @override
     def get_earliest_date(self, symbol: str) -> datetime.datetime:
         if symbol not in self.available_tickers:
             raise ValueError(f"{symbol} is not available")
@@ -47,7 +43,6 @@ class RakutenReader(BaseReader):
         )
         return sorted(tickers)
 
-    @override
     def read_ticker(
         self,
         symbol: str,
@@ -102,7 +97,6 @@ class RakutenReader(BaseReader):
 
         return df
 
-    @override
     def read_ohlc_impl(
         self,
         symbol: str,
@@ -123,7 +117,6 @@ class RakutenReader(BaseReader):
             pl.col("spread").max().alias("max_spread"),
         )
 
-    @override
     def fetch_volume_bar(
         self,
         symbol: str,
