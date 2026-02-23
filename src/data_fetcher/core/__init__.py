@@ -38,4 +38,5 @@ __all__ = [
     "update_jp_ticker_list",
     "update_us_ticker_list",
     "notify_to_line",
+    "get_driver",
 ]
