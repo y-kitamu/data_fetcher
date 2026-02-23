@@ -5,7 +5,12 @@ Provides factory functions to get fetchers for various data sources.
 
 from ..core.base_fetcher import BaseFetcher
 from .crypto import BinanceFetcher, BitflyerFetcher, GMOFetcher
-from .forex import GMOFetcherFX, HistDataFetcher, GMOFetcherFXWithTimestamp
+from .forex import (
+    ForexFactoryFetcher,
+    GMOFetcherFX,
+    GMOFetcherFXWithTimestamp,
+    HistDataFetcher,
+)
 from .stocks import KabutanFetcher, RakutenFetcher
 
 __all__ = [
@@ -13,6 +18,7 @@ __all__ = [
     "get_available_sources",
     "BinanceFetcher",
     "BitflyerFetcher",
+    "ForexFactoryFetcher",
     "GMOFetcher",
     "GMOFetcherFX",
     "GMOFetcherFXWithTimestamp",
@@ -40,6 +46,7 @@ def get_fetcher(source: str) -> BaseFetcher:
         "gmo_fx": GMOFetcherFX,
         "gmo_fx_with_timestamp": GMOFetcherFXWithTimestamp,
         "bitflyer": BitflyerFetcher,
+        "forex_factory": ForexFactoryFetcher,
         "histdata": HistDataFetcher,
         "kabutan": KabutanFetcher,
         "rakuten": RakutenFetcher,
@@ -59,4 +66,12 @@ def get_available_sources() -> list[str]:
     Returns:
         list[str]: List of available source names
     """
-    return ["binance", "gmo", "bitflyer", "histdata", "kabutan", "rakuten"]
+    return [
+        "binance",
+        "gmo",
+        "bitflyer",
+        "forex_factory",
+        "histdata",
+        "kabutan",
+        "rakuten",
+    ]

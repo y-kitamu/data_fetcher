@@ -12,6 +12,7 @@ from .minutes_bar import (
     convert_timedelta_to_str,
 )
 from .notification import notify_to_line
+from .selenium_options import get_driver
 from .session import get_session
 from .ticker_list import (
     get_jp_ticker_list,
