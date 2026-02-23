@@ -4,6 +4,7 @@ from .gmo import GMOReader
 from .histdata import HistDataReader
 from .kabutan import KabutanReader
 from .rakuten import RakutenReader
+from .sbi import SBIReader
 from .yfinance import YFinanceReader
 
 __all__ = [
@@ -14,6 +15,7 @@ __all__ = [
     "GMOReader",
     "RakutenReader",
     "BinanceReader",
+    "SBIReader",
 ]
 
 
@@ -21,7 +23,7 @@ def get_reader(source: str) -> BaseReader:
     """Get a reader instance for the specified data source.
 
     Args:
-        source: Data source name (histdata, yfinance, kabutan)
+        source: Data source name (histdata, yfinance, kabutan, sbi, etc.)
 
     Returns:
         BaseReader: Reader instance for the specified source
@@ -35,6 +37,7 @@ def get_reader(source: str) -> BaseReader:
         "kabutan": KabutanReader,
         "gmo": GMOReader,
         "binance": BinanceReader,
+        "sbi": SBIReader,
     }
 
     if source not in readers:
