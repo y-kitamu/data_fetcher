@@ -972,16 +972,16 @@
         "Other Non Interest Expense": 1803000000.0
     },
     "2025-12-31": {
-        "Tax Effect Of Unusual Items": -270847319.347319,
+        "Tax Effect Of Unusual Items": 96868881.118881,
         "Tax Rate For Calcs": 0.240967,
-        "Total Unusual Items": -1124000000.0,
-        "Total Unusual Items Excluding Goodwill": -1124000000.0,
+        "Total Unusual Items": 402000000.0,
+        "Total Unusual Items Excluding Goodwill": 402000000.0,
         "Net Income From Continuing Operation Net Minority Interest": 13025000000.0,
         "Reconciled Depreciation": 2312000000.0,
         "Net Interest Income": 24995000000.0,
         "Interest Expense": 23813000000.0,
         "Interest Income": 48808000000.0,
-        "Normalized Income": 13878152680.652681,
+        "Normalized Income": 12719868881.118881,
         "Net Income From Continuing And Discontinued Operation": 13025000000.0,
         "Diluted Average Shares": 2740500000.0,
         "Basic Average Shares": 2735300000.0,
@@ -996,7 +996,7 @@
         "Net Income Continuous Operations": 13025000000.0,
         "Tax Provision": 4135000000.0,
         "Pretax Income": 17160000000.0,
-        "Special Income Charges": -1124000000.0,
+        "Special Income Charges": 402000000.0,
         "Other Special Charges": NaN,
         "Restructuring And Mergern Acquisition": 0.0,
         "Gain On Sale Of Security": -73000000.0,
@@ -1009,6 +1009,6 @@
         "Operating Revenue": 45796000000.0,
         "Occupancy And Equipment": 4383000000.0,
         "Professional Expense And Contract Services Expense": 3338000000.0,
-        "Other Non Interest Expense": 552000000.0
+        "Other Non Interest Expense": 2078000000.0
     }
 }
