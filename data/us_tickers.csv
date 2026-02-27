@@ -713,7 +713,6 @@ CARR,CARRIER GLOBAL,キャリア・グローバル,NYSE,機械,○
 CARS,CARS COM,カーズ・コム,NYSE,自動車,○
 CART,MAPLEBEAR INC,メープルベア,NASDAQ,情報処理サービス,○
 CASH,PATHWARD FNL,パスワード・ファイナンシャル,NASDAQ,金融（銀行）,○
-CASI,CASI PHARMA,CASIファーマシューティカルズ,NASDAQ,その他,○
 CASS,CASS INFORMATION,キャス・インフォメーション・システムズ,NASDAQ,情報処理サービス,○
 CASY,CASEYS GENERAL,ケーシーズ・ゼネラル・ストアーズ,NASDAQ,小売,○
 CAT,CATERPILLAR INC,キャタピラー,NYSE,機械,○
@@ -820,7 +819,7 @@ CIA,CITIZENS INC,シチズンズ,NYSE,金融(保険),○
 CIB,GRUPO CIBEST,グルポ・シーベスト,NYSE,金融コングロマリット,○
 CIBR,FT NQ CYBERSEC,ファーストトラスト ナスダック サイバーセキュリティETF,NASDAQ,その他,○
 CIEN,CIENA CORP,シエナ,NYSE,ネットワーク,○
-CIFR,CIPHER MINING,サイファー・マイニング,NASDAQ,ソフトウェア・サービス,○
+CIFR,CIPHER DIGITAL,サイファー・デジタル,NASDAQ,ソフトウェア・サービス,○
 CIG,CEMIG SA SPONS,ミナスジェライス電力,NYSE,電力,○
 CIGI,COLLIERS INTL,コリアーズ・インターナショナル・グループ,NASDAQ,その他,○
 CINF,CINCINNATI FINAN,シンシナティ・ファイナンシャル,NASDAQ,金融(保険),○
@@ -1606,7 +1605,6 @@ FRPH,FRP HOLDINGS INC,FRPホールディングス,NASDAQ,その他,○
 FRPT,FRESHPET INC,フレッシュペット,NASDAQ,食品,○
 FRSH,FRESHWORKS,フレッシュワークス,NASDAQ,ソフトウェア・サービス,○
 FRST,PRIMIS FINANCIAL,プリミス・フィナンシャル,NASDAQ,金融（銀行）,○
-FRSX,FORESIGHT AUTO,フォレサイト・オートノマス・ホールディングス,NASDAQ,その他製造,○
 FSBC,FIVE STAR BANCO,ファイブ・スター・バンコープ,NASDAQ,金融（銀行）,○
 FSBW,FS BANCORP INC,FSバンコープ,NASDAQ,金融（銀行）,○
 FSIG,FT INVEST GR ETF,ファーストトラスト リミテッドデュレーション投資適格社債ETF,NYSE,その他,○
@@ -3431,8 +3429,8 @@ RMD,RESMED INC,レスメド,NYSE,ヘルスケア,○
 RMNI,RIMINI STREET,リミニ・ストリート,NASDAQ,ソフトウェア・サービス,○
 RMR,THE RMR GROUP,RMRグループ,NASDAQ,ソフトウェア・サービス,○
 RMTI,ROCKWELL MEDICAL,ロックウェル・メディカル,NASDAQ,医薬品（バイオテクノロジー）,○
-RNA,AVIDITY BSCIENCE,アヴィディティ・バイオサイエンシズ,NASDAQ,医薬品（バイオテクノロジー）,○
 RNAC,CARTESIAN THERAP,カーティージャン・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
+RNAM,AVIDITY BSCIENCE,アヴィディティ・バイオサイエンシズ,NASDAQ,医薬品（バイオテクノロジー）,○
 RNG,RINGCENTRAL INC,リングセントラル,NYSE,ソフトウェア・サービス,○
 RNGR,RANGER ENRG SERV,レンジャー・エナジー・サービシズ,NYSE,石油,○
 RNR,RENAISSANCERE,ルネサンスリー・ホールディングス,NYSE,金融(保険),○
@@ -3838,6 +3836,7 @@ SUZ,SUZANO PAPEL,スザーノ・パペル・エ・セルロース,NYSE,紙・パ
 SVCO,SILVACO GROUP,シルバコ・グループ,NASDAQ,半導体,○
 SVM,SILVERCORP METAL,シルバーコープ・メタルズ,NYSE,その他,○
 SVRA,SAVARA INC,サバラ,NASDAQ,医薬品,○
+SVRE,SAVERONE 2014,セイバーワン2014,NASDAQ,自動車,○
 SVRN,OCEANPAL,オーシャンパル,NASDAQ,運輸,○
 SW,SMURFIT WESTROCK,スマーフィット・ウェストロック,NYSE,その他製造,○
 SWBI,SMITH AND WESSON,スミス&ウェッソン・ブランズ,NASDAQ,その他製造,○
