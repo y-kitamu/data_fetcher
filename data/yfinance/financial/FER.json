@@ -131,7 +131,34 @@
         "Impairment Of Capital Assets": NaN,
         "Operating Income": 233000000.0,
         "Depreciation Income Statement": 116000000.0,
-        "Total Revenue": 2388000000.0,
-        "Operating Revenue": 2231000000.0
+        "Total Revenue": NaN,
+        "Operating Revenue": NaN
+    },
+    "2025-12-31": {
+        "Tax Effect Of Unusual Items": NaN,
+        "Tax Rate For Calcs": NaN,
+        "Normalized EBITDA": 542000000.0,
+        "Net Income From Continuing Operation Net Minority Interest": NaN,
+        "EBITDA": 542000000.0,
+        "EBIT": 542000000.0,
+        "Normalized Income": NaN,
+        "Net Income From Continuing And Discontinued Operation": NaN,
+        "Total Operating Income As Reported": 211000000.0,
+        "Diluted Average Shares": NaN,
+        "Basic Average Shares": NaN,
+        "Diluted EPS": NaN,
+        "Basic EPS": NaN,
+        "Diluted NI Availto Com Stockholders": NaN,
+        "Net Income Common Stockholders": NaN,
+        "Net Income": NaN,
+        "Net Income Including Noncontrolling Interests": NaN,
+        "Net Income Continuous Operations": NaN,
+        "Pretax Income": NaN,
+        "Special Income Charges": NaN,
+        "Impairment Of Capital Assets": NaN,
+        "Operating Income": 1000000.0,
+        "Depreciation Income Statement": NaN,
+        "Total Revenue": 2716000000.0,
+        "Operating Revenue": 2566000000.0
     }
 }
