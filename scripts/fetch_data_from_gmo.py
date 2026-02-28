@@ -13,7 +13,12 @@ if __name__ == "__main__":
     parser.add_argument(
         "--gzip", action="store_true", help="Run gzip compression for old data files."
     )
-    parser.add_argument("--with_timestamp", action="store_true", help="Include timestamp in the data.")
+    parser.add_argument(
+        "--fx", action="store_true", help="Fetch forex data instead of crypto data."
+    )
+    parser.add_argument(
+        "--crypto", action="store_true", help="Fetch crypto data instead of forex data."
+    )
 
     args = parser.parse_args()
 
@@ -24,13 +29,12 @@ if __name__ == "__main__":
         fetcher.compress_old_data_files(offset_days=1)
     else:
         try:
-            if args.with_timestamp:
-                fetcher = data_fetcher.fetchers.GMOFetcherFXWithTimestamp(
-                    output_root_dir=data_fetcher.constants.PROJECT_ROOT / "data/gmo/tick_with_timestamp"
-                )
-            else:
+            if args.fx:
                 fetcher = data_fetcher.fetchers.GMOFetcherFX()
-            fetcher.start_websocket()
+                fetcher.start_websocket()
+            if args.crypto:
+                fetcher = data_fetcher.fetchers.GMOBookFetcher()
+                fetcher.start_websocket()
         except Exception as e:
             logger.exception(f"Error occurred while running GMOFetcherFX - {e}")
 

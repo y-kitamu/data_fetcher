@@ -2,7 +2,6 @@ import datetime
 import gzip
 import json
 import shutil
-import time
 from pathlib import Path
 
 from loguru import logger
@@ -63,13 +62,13 @@ class GMOFetcher(BaseWebsocketFetcher):
             "NZD_USD",
         ]
 
-    def _on_open(self, ws):
-        logger.info("WebSocket connection opening...")
-        for ticker in self.target_tickers:
-            ws.send(self.on_open_message.replace(self.placeholder, ticker))
-            logger.info(f"Subscribed to {ticker}")
-            time.sleep(2)
-        logger.info("Subscribed to tickers.")
+    # def _on_open(self, ws):
+    #     logger.info("WebSocket connection opening...")
+    #     for ticker in self.target_tickers:
+    #         ws.send(self.on_open_message.replace(self.placeholder, ticker))
+    #         logger.info(f"Subscribed to {ticker}")
+    #         time.sleep(2)
+    #     logger.info("Subscribed to tickers.")
 
     def _on_message(self, ws, message):
         try:

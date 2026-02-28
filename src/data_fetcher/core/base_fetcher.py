@@ -66,6 +66,7 @@ class BaseWebsocketFetcher(BaseFetcher):
         """"""
         for ticker in self.target_tickers:
             ws.send(self.on_open_message.replace(self.placeholder, ticker))
+            time.sleep(2)
 
     def _on_close(self, ws, close_status_code, close_msg):
         logger.debug(

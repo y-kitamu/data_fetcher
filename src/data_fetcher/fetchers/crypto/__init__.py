@@ -1,7 +1,13 @@
 """Cryptocurrency exchange fetchers."""
 
 from .binance import BinanceFetcher
-from .bitflyer import BitflyerFetcher
-from .gmo import GMOFetcher
+from .bitflyer import BitflyerBookFetcher, BitflyerFetcher
+from .gmo import GMOBookFetcher, GMOFetcher
 
-__all__ = ["BinanceFetcher", "BitflyerFetcher", "GMOFetcher"]
+__all__ = [
+    "BinanceFetcher",
+    "BitflyerBookFetcher",
+    "BitflyerFetcher",
+    "GMOBookFetcher",
+    "GMOFetcher",
+]

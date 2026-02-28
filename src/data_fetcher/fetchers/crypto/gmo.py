@@ -4,6 +4,7 @@ gmoの過去データを取得する
 
 import datetime
 import io
+import json
 from pathlib import Path
 
 import polars as pl
@@ -11,7 +12,7 @@ import requests
 from loguru import logger
 from tqdm import tqdm
 
-from ...core.base_fetcher import BaseFetcher
+from ...core.base_fetcher import BaseFetcher, BaseWebsocketFetcher
 from ...core.constants import PROJECT_ROOT
 from ...core.session import get_session
 
@@ -119,3 +120,86 @@ class GMOFetcher(BaseFetcher):
 
     def start_websocket(self):
         pass
+
+
+class GMOBookFetcher(BaseWebsocketFetcher):
+    def __init__(
+        self,
+        output_root_dir: Path = PROJECT_ROOT / "data" / "gmo" / "book",
+        num_levels: int = 5,
+    ):
+        super().__init__(
+            data_dir=output_root_dir,
+            api_endpoint="wss://api.coin.z.com/ws/public/v1",
+            on_open_message=json.dumps(
+                {
+                    "command": "subscribe",
+                    "channel": "orderbooks",
+                    "symbol": "{ticker}",
+                }
+            ),
+            target_tickers=self.available_tickers,
+        )
+        self.num_levels = num_levels
+
+    @property
+    def available_tickers(self):
+        return [
+            "BTC_JPY",
+            "ETH_JPY",
+            "BCH_JPY",
+            "LTC_JPY",
+            "XRP_JPY",
+        ]
+
+    def _on_message(self, ws, message):
+        """
+        {
+          "channel":"orderbooks",
+          "asks": [
+            {"price": "455659","size": "0.1"},
+            {"price": "455658","size": "0.2"}
+          ],
+          "bids": [
+            {"price": "455665","size": "0.1"},
+            {"price": "455655","size": "0.3"}
+          ],
+          "symbol": "BTC",
+          "timestamp": "2018-03-30T12:34:56.789Z"
+        }
+        """
+        try:
+            headers = (
+                ["timestamp", "received_timestamp", "symbol"]
+                + [f"ask_price_{i + 1}" for i in range(self.num_levels)]
+                + [f"ask_size_{i + 1}" for i in range(self.num_levels)]
+                + [f"bid_price_{i + 1}" for i in range(self.num_levels)]
+                + [f"bid_size_{i + 1}" for i in range(self.num_levels)]
+            )
+            raw_data = json.loads(message)
+            data = {}
+            data["timestamp"] = raw_data["timestamp"]
+            data["received_timestamp"] = datetime.datetime.now().isoformat()
+            data["symbol"] = raw_data["symbol"]
+            timestamp = datetime.datetime.fromisoformat(raw_data["timestamp"])
+            asks = sorted(raw_data["asks"], key=lambda x: float(x["price"]))
+            bids = sorted(
+                raw_data["bids"], key=lambda x: float(x["price"]), reverse=True
+            )
+            for i in range(self.num_levels):
+                data[f"ask_price_{i + 1}"] = (
+                    float(asks[i]["price"]) if i < len(asks) else None
+                )
+                data[f"ask_size_{i + 1}"] = (
+                    float(asks[i]["size"]) if i < len(asks) else None
+                )
+                data[f"bid_price_{i + 1}"] = (
+                    float(bids[i]["price"]) if i < len(bids) else None
+                )
+                data[f"bid_size_{i + 1}"] = (
+                    float(bids[i]["size"]) if i < len(bids) else None
+                )
+            self.write_data(data["symbol"], timestamp, data, headers)
+        except Exception as e:
+            logger.exception(f"Failed to parse message: {message}")
+            raise e

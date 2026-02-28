@@ -55,6 +55,7 @@ if __name__ == "__main__":
 
     log_path = data_fetcher.constants.PROJECT_ROOT / "logs" / "bitflyer.log"
     try:
+        threads = []
         while True:
             try:
                 log_path.parent.mkdir(exist_ok=True)
@@ -64,10 +65,17 @@ if __name__ == "__main__":
                     format="[{time:YYYY-MM-DD HH:mm:ss} {level} {file} at line {line}] {message}",
                     level="DEBUG",
                 )
-                fetcher = data_fetcher.fetchers.BitflyerFetcher()
-                thread = threading.Thread(target=fetcher.start_websocket)
-                thread.daemon = True
-                thread.start()
+                tickers = data_fetcher.fetchers.BitflyerBookFetcher().available_tickers
+                for ticker in tickers:
+                    if ticker in [thread[2] for thread in threads]:
+                        continue
+                    fetcher = data_fetcher.fetchers.BitflyerBookFetcher(
+                        target_tickers=[ticker]
+                    )
+                    thread = threading.Thread(target=fetcher.start_websocket)
+                    thread.daemon = True
+                    thread.start()
+                    threads.append((thread, fetcher, ticker))
 
                 asyncio.run(
                     compress_csvs(
@@ -76,12 +84,15 @@ if __name__ == "__main__":
                     )
                 )
 
-                thread.join()
+                for thread, fetcher, ticker in threads:
+                    thread.join(timeout=5)
             except Exception:
                 data_fetcher.logger.exception("Failed to fetch data from bitflyer.")
             finally:
-                if thread.is_alive():
+                for thread, fetcher, ticker in threads:
                     thread.join(timeout=5)
+
+                threads = [t for t in threads if t[0].is_alive()]
 
             logger.debug("Restarting fetcher...")
             time.sleep(5)
