@@ -19,14 +19,18 @@ if __name__ == "__main__":
     parser.add_argument(
         "--crypto", action="store_true", help="Fetch crypto data instead of forex data."
     )
+    parser.add_argument(
+        "--histrical", action="store_true", help="Fetch historical data"
+    )
 
     args = parser.parse_args()
 
-    # fetcher = data_fetcher.gmo.GMOFetcher()
-    # run_debug(fetcher.download_all)
     if args.gzip:
         fetcher = data_fetcher.fetchers.GMOFetcherFX()
         fetcher.compress_old_data_files(offset_days=1)
+    elif args.histrical:
+        fetcher = data_fetcher.fetchers.GMOFetcher()
+        fetcher.download_all()
     else:
         try:
             if args.fx:
