@@ -12,9 +12,12 @@ from .util import convert_to_number
 
 
 def get_stock_data(
-    code: str, base_url: str = "https://kabutan.jp/stock/kabuka?code={}&ashi=day"
+    code: str,
+    base_url: str = "https://kabutan.jp/stock/kabuka?code={}&ashi=day&page={}",
+    page=1,
 ) -> list[list[Any]]:
-    res = requests.get(base_url.format(code))
+    headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"}
+    res = requests.get(base_url.format(code, page), headers=headers)
     soup = BeautifulSoup(res.text, features="lxml")
 
     daily_data: list[list[Any]] = []
@@ -44,7 +47,8 @@ def get_stock_data(
 def get_market_capitalization(
     code: str, base_url: str = "https://kabutan.jp/stock/?code={}"
 ) -> int | float | None:
-    res = requests.get(base_url.format(code))
+    headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"}
+    res = requests.get(base_url.format(code), headers=headers)
     soup = BeautifulSoup(res.text, features="lxml")
 
     market_cap = 0
@@ -69,7 +73,8 @@ def get_market_capitalization(
 def get_number_of_shares(
     code: str, base_url: str = "https://kabutan.jp/stock/?code={}"
 ) -> float | int | None:
-    res = requests.get(base_url.format(code))
+    headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"}
+    res = requests.get(base_url.format(code), headers=headers)
     soup = BeautifulSoup(res.text, features="lxml")
 
     number_of_shares = 0

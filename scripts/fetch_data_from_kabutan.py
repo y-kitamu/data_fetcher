@@ -35,17 +35,22 @@ def update_csv(code: str, update_rs: bool = True):
         pl.col("date").dt.epoch(time_unit="d").alias("epoch")
     )
 
-    new_data = data_fetcher.domains.kabutan.data.get_stock_data(code)
-    new_data = [
-        d
-        for d in new_data
-        if df_with_epoch["epoch"].search_sorted(
-            (d[0].date() - date(1970, 1, 1)).days, side="left"
-        )
-        == df_with_epoch["epoch"].search_sorted(
-            (d[0].date() - date(1970, 1, 1)).days, side="right"
-        )
-    ]
+    new_data = []
+    for i in range(1, 11):
+        data = data_fetcher.domains.kabutan.data.get_stock_data(code, page=i)
+        filtered = [
+            d
+            for d in data
+            if df_with_epoch["epoch"].search_sorted(
+                (d[0].date() - date(1970, 1, 1)).days, side="left"
+            )
+            == df_with_epoch["epoch"].search_sorted(
+                (d[0].date() - date(1970, 1, 1)).days, side="right"
+            )
+        ]
+        new_data += filtered
+        if len(data) == 0 or len(filtered) < len(data):
+            break
 
     if len(new_data) > 0:
         header = ["date", "open", "high", "low", "close", "volume"]
