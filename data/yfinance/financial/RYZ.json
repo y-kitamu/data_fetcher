@@ -1,1 +1,32 @@
-{}
+{
+    "2025-09-30": {
+        "Diluted Average Shares": 32199000.0,
+        "Basic Average Shares": 32199000.0,
+        "Diluted EPS": -0.46,
+        "Basic EPS": -0.46
+    },
+    "2025-06-30": {
+        "Diluted Average Shares": 32351000.0,
+        "Basic Average Shares": 32196000.0,
+        "Diluted EPS": 0.06,
+        "Basic EPS": 0.06
+    },
+    "2025-03-31": {
+        "Diluted Average Shares": 31855000.0,
+        "Basic Average Shares": 31855000.0,
+        "Diluted EPS": -0.18,
+        "Basic EPS": -0.18
+    },
+    "2024-12-31": {
+        "Diluted Average Shares": 31800000.0,
+        "Basic Average Shares": 31800000.0,
+        "Diluted EPS": -0.13,
+        "Basic EPS": -0.13
+    },
+    "2024-09-30": {
+        "Diluted Average Shares": 32746000.0,
+        "Basic Average Shares": 32746000.0,
+        "Diluted EPS": -0.2,
+        "Basic EPS": -0.2
+    }
+}
