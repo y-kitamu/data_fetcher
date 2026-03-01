@@ -32,7 +32,8 @@ def get_financial_data(
             results += [FinancialStatement.from_csv(code, row) for row in csv_reader]
     num_results = len(results)
 
-    res = requests.get(f"https://kabutan.jp/stock/finance?code={code}")
+    headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"}
+    res = requests.get(f"https://kabutan.jp/stock/finance?code={code}", headers=headers)
     soup = BeautifulSoup(res.text.replace("\r", ""), features="lxml")
     results += get_annual_results(soup, code)
     results += get_quarter_results(soup, code)
@@ -64,3 +65,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+    # get_financial_data("156A")

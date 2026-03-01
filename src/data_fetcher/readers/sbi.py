@@ -100,8 +100,14 @@ class SBIReader(BaseReader):
         if not filepath.exists():
             return pl.DataFrame()
 
+        schema = {
+            "値段": pl.Float64,
+            "株数": pl.Float64,
+            "金額": pl.Float64,
+            "時刻": pl.Utf8
+        }
         df = (
-            pl.read_csv(filepath, infer_schema_length=None)
+            pl.read_csv(filepath, schema_overrides=schema, infer_schema_length=0)
             .select(
                 pl.col("値段").alias("price"),
                 pl.col("株数").alias("volume"),

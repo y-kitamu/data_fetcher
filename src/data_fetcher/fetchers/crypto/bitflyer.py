@@ -14,6 +14,7 @@ import websocket
 from loguru import logger
 
 from ...core.base_fetcher import BaseFetcher, BaseWebsocketFetcher
+from ...core.book_stats import calculate_book_stats
 from ...core.constants import PROJECT_ROOT
 
 
@@ -209,13 +210,6 @@ class BitflyerBookFetcher(BaseWebsocketFetcher):
                 datetime.datetime.now() - self.start_date
             ).total_seconds() > self.warmup_seconds
 
-        headers = (
-            ["received_timestamp", "symbol", "mid_price"]
-            + [f"ask_price_{i + 1}" for i in range(self.num_levels)]
-            + [f"ask_size_{i + 1}" for i in range(self.num_levels)]
-            + [f"bid_price_{i + 1}" for i in range(self.num_levels)]
-            + [f"bid_size_{i + 1}" for i in range(self.num_levels)]
-        )
         data = {}
 
         try:
@@ -255,7 +249,9 @@ class BitflyerBookFetcher(BaseWebsocketFetcher):
                             self.book[side].append({"price": price, "size": size})
                 self.book[side] = sorted(
                     self.book[side], key=lambda x: x["price"], reverse=(side == "bids")
-                )[: self.num_levels * 3]  # 過剰に板が大きくならないように上位に絞る
+                )[
+                    : max(self.num_levels * 3, 500)
+                ]  # 統計量計算のためにある程度深く板を保持する
 
                 for i in range(self.num_levels):
                     data[f"{side[:-1]}_price_{i + 1}"] = (
@@ -266,6 +262,20 @@ class BitflyerBookFetcher(BaseWebsocketFetcher):
                     data[f"{side[:-1]}_size_{i + 1}"] = (
                         self.book[side][i]["size"] if i < len(self.book[side]) else None
                     )
+
+            stats = calculate_book_stats(
+                self.book["bids"], self.book["asks"], data["mid_price"]
+            )
+            data.update(stats)
+
+            headers = (
+                ["received_timestamp", "symbol", "mid_price"]
+                + [f"ask_price_{i + 1}" for i in range(self.num_levels)]
+                + [f"ask_size_{i + 1}" for i in range(self.num_levels)]
+                + [f"bid_price_{i + 1}" for i in range(self.num_levels)]
+                + [f"bid_size_{i + 1}" for i in range(self.num_levels)]
+                + list(stats.keys())
+            )
 
             if self.warmup_completed:
                 self.write_data(

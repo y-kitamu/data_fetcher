@@ -13,6 +13,7 @@ from loguru import logger
 from tqdm import tqdm
 
 from ...core.base_fetcher import BaseFetcher, BaseWebsocketFetcher
+from ...core.book_stats import calculate_book_stats
 from ...core.constants import PROJECT_ROOT
 from ...core.session import get_session
 
@@ -169,13 +170,6 @@ class GMOBookFetcher(BaseWebsocketFetcher):
         }
         """
         try:
-            headers = (
-                ["timestamp", "received_timestamp", "symbol"]
-                + [f"ask_price_{i + 1}" for i in range(self.num_levels)]
-                + [f"ask_size_{i + 1}" for i in range(self.num_levels)]
-                + [f"bid_price_{i + 1}" for i in range(self.num_levels)]
-                + [f"bid_size_{i + 1}" for i in range(self.num_levels)]
-            )
             raw_data = json.loads(message)
             data = {}
             data["timestamp"] = raw_data["timestamp"]
@@ -186,6 +180,32 @@ class GMOBookFetcher(BaseWebsocketFetcher):
             bids = sorted(
                 raw_data["bids"], key=lambda x: float(x["price"]), reverse=True
             )
+
+            # calculate book stats using all available levels
+            parsed_asks = [
+                {"price": float(a["price"]), "size": float(a["size"])} for a in asks
+            ]
+            parsed_bids = [
+                {"price": float(b["price"]), "size": float(b["size"])} for b in bids
+            ]
+            mid_price = (
+                (parsed_asks[0]["price"] + parsed_bids[0]["price"]) / 2
+                if parsed_asks and parsed_bids
+                else 0.0
+            )
+
+            stats = calculate_book_stats(parsed_bids, parsed_asks, mid_price)
+            data.update(stats)
+
+            headers = (
+                ["timestamp", "received_timestamp", "symbol"]
+                + [f"ask_price_{i + 1}" for i in range(self.num_levels)]
+                + [f"ask_size_{i + 1}" for i in range(self.num_levels)]
+                + [f"bid_price_{i + 1}" for i in range(self.num_levels)]
+                + [f"bid_size_{i + 1}" for i in range(self.num_levels)]
+                + list(stats.keys())
+            )
+
             for i in range(self.num_levels):
                 data[f"ask_price_{i + 1}"] = (
                     float(asks[i]["price"]) if i < len(asks) else None

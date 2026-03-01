@@ -1,6 +1,7 @@
 from ..core.base_reader import BaseReader
 from .binance import BinanceReader
-from .gmo import GMOReader
+from .bitflyer import BitflyerBookReader
+from .gmo import GMOReader, GMOBookReader
 from .histdata import HistDataReader
 from .kabutan import KabutanReader
 from .rakuten import RakutenReader
@@ -13,9 +14,11 @@ __all__ = [
     "KabutanReader",
     "YFinanceReader",
     "GMOReader",
+    "GMOBookReader",
     "RakutenReader",
     "BinanceReader",
     "SBIReader",
+    "BitflyerBookReader",
 ]
 
 
@@ -36,8 +39,10 @@ def get_reader(source: str) -> BaseReader:
         "yfinance": YFinanceReader,
         "kabutan": KabutanReader,
         "gmo": GMOReader,
+        "gmo_book": GMOBookReader,
         "binance": BinanceReader,
         "sbi": SBIReader,
+        "bitflyer_book": BitflyerBookReader,
     }
 
     if source not in readers:
