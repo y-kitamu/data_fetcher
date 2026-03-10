@@ -897,7 +897,7 @@
         "EBITDA": NaN,
         "EBIT": NaN,
         "Net Interest Income": NaN,
-        "Interest Expense": NaN,
+        "Interest Expense": 176000000.0,
         "Normalized Income": NaN,
         "Net Income From Continuing And Discontinued Operation": NaN,
         "Total Expenses": NaN,
@@ -930,9 +930,9 @@
         "Depreciation Income Statement": NaN,
         "Selling General And Administration": NaN,
         "Gross Profit": NaN,
-        "Cost Of Revenue": NaN,
+        "Cost Of Revenue": 37988000000.0,
         "Total Revenue": NaN,
-        "Excise Taxes": NaN,
+        "Excise Taxes": -5124000000.0,
         "Operating Revenue": NaN
     },
     "2024-12-31": {
@@ -1147,7 +1147,7 @@
         "EBITDA": -1046000000.0,
         "EBIT": -1375000000.0,
         "Net Interest Income": -168000000.0,
-        "Interest Expense": 168000000.0,
+        "Interest Expense": NaN,
         "Normalized Income": -999055735.580039,
         "Net Income From Continuing And Discontinued Operation": -1101000000.0,
         "Total Expenses": 50957000000.0,
@@ -1180,9 +1180,9 @@
         "Depreciation Income Statement": 160000000.0,
         "Selling General And Administration": 3370000000.0,
         "Gross Profit": 2467000000.0,
-        "Cost Of Revenue": 47258000000.0,
+        "Cost Of Revenue": NaN,
         "Total Revenue": 49725000000.0,
-        "Excise Taxes": -4998000000.0,
+        "Excise Taxes": NaN,
         "Operating Revenue": 44727000000.0
     }
 }
