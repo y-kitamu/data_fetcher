@@ -943,7 +943,7 @@
         "General And Administrative Expense": NaN,
         "Other Gand A": NaN,
         "Gross Profit": NaN,
-        "Cost Of Revenue": 701294000.0,
+        "Cost Of Revenue": NaN,
         "Total Revenue": NaN,
         "Operating Revenue": NaN
     },
@@ -1208,7 +1208,7 @@
         "General And Administrative Expense": 174287000.0,
         "Other Gand A": 174287000.0,
         "Gross Profit": 396080000.0,
-        "Cost Of Revenue": NaN,
+        "Cost Of Revenue": 695424000.0,
         "Total Revenue": 1091504000.0,
         "Operating Revenue": 1456252000.0
     }
