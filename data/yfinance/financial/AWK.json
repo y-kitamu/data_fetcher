@@ -858,7 +858,7 @@
         "Depreciation And Amortization In Income Statement": NaN,
         "Gross Profit": NaN,
         "Cost Of Revenue": NaN,
-        "Total Revenue": NaN,
+        "Total Revenue": 1323000000.0,
         "Operating Revenue": NaN
     },
     "2024-12-31": {
@@ -1073,7 +1073,7 @@
         "Depreciation And Amortization In Income Statement": 231000000.0,
         "Gross Profit": 723000000.0,
         "Cost Of Revenue": 548000000.0,
-        "Total Revenue": 1271000000.0,
+        "Total Revenue": NaN,
         "Operating Revenue": 1271000000.0
     }
 }

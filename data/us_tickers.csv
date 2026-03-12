@@ -302,6 +302,7 @@ ARQ,ARQ INC,ARQインク,NASDAQ,ガス・パイプライン,○
 ARQQ,ARQIT QUANTUM,アーキット・クオンタム,NASDAQ,ソフトウェア・サービス,○
 ARQT,ARCUTIS BIOTHERA,アークティス・バイオセラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 ARRY,ARRAY TECHNO,アレイ・テクノロジーズ,NASDAQ,電力,○
+ARTL,ARTELO BIOSCIENC,アルテロ・バイオサイエンシズ,NASDAQ,医薬品（バイオテクノロジー）,○
 ARTNA,ARTESIAN RESRCS,アルテシアン・リソーシズ,NASDAQ,その他,○
 ARTW,ARTSWAY MANUFACT,アーツ・ウェイ・マニュファクチャリング,NASDAQ,機械,○
 ARVN,ARVINAS INC,アルビナス,NASDAQ,医薬品（バイオテクノロジー）,○
@@ -1534,6 +1535,7 @@ FLEX,FLEX LTD,フレックス,NASDAQ,その他製造,○
 FLG,FLAGSTAR BANK,フラッグスター・バンク,NYSE,金融（銀行）,○
 FLGT,FULGENT GENETICS,フルジェント・ジェネティクス,NASDAQ,ヘルスケア,○
 FLL,FULL HOUSE RESRT,フル・ハウス・リゾート,NASDAQ,エンターテイメント,○
+FLNA,FILANA THERAPTX,フィラナ・セラピューティクス,NASDAQ,医薬品,○
 FLNC,FLUENCE ENERGY,フルエンス・エナジー,NASDAQ,電力,○
 FLNG,FLEX LNG LTD,フレックスLNG,NYSE,ガス・パイプライン,○
 FLNT,FLUENT INC,フルーエント,NASDAQ,情報処理サービス,○
@@ -2704,6 +2706,7 @@ MTX,MINERALS TECHNO,ミネラルズ・テクノロジーズ,NYSE,化学,○
 MTYY,GNS YLDBST MSTR,グラナイトシェアーズ イールドブースト MSTR ETF,NASDAQ,その他,○
 MTZ,MASTEC INC,マステック,NYSE,その他,○
 MU,MICRON TECH,マイクロン　テクノロジー,NASDAQ,半導体,○
+MUD,DRX MU BR1X,Direxion デイリー MU ベア 1 倍 ETF,NASDAQ,その他,○
 MULL,GNS 2X LONG MU,GraniteShares2倍ロングMUデイリーETF,NASDAQ,その他,○
 MUR,MURPHY OIL CORP,マーフィー・オイル,NYSE,石油,○
 MUSA,MURPHY USA INC,マーフィーUSA,NYSE,専門店,○
@@ -3510,7 +3513,6 @@ SANM,SANMINA CORP,サンミナ,NASDAQ,その他製造,○
 SAP,SAP SE(ADR),エスエイピー,NYSE,ソフトウェア・サービス,○
 SATL,SATELLOGIC INC,サテロジック,NASDAQ,通信サービス,○
 SATS,ECHOSTAR CORP,エコスター,NASDAQ,通信機器,○
-SAVA,CASSAVA SCIENCES,キャッサバ・サイエンシズ,NASDAQ,医薬品,○
 SB,SAFE BULKERS INC,セーフ・バルカース,NYSE,運輸,○
 SBC,SBC MEDICAL GRP,SBCメディカルグループホールディングス,NASDAQ,医薬品（バイオテクノロジー）,○
 SBCF,SEACOAST BANKING,シーコースト・バンキング・コーポレーション・オブ・フロリダ,NASDAQ,金融（銀行）,○
@@ -4034,6 +4036,7 @@ TSLA,TESLA INC,テスラ,NASDAQ,自動車,○
 TSLG,LVS 2X LONG TSLA,LeverageShares2倍ロングTSLAデイリーETF,NASDAQ,その他,○
 TSLL,DRX TSLA BL2X,Direxion デイリー TSLA ブル2倍株式,NASDAQ,その他,○
 TSLR,GNS TSLA BL2X,グラナイトシェアーズ2倍ロングTSLAデイリーETF,NASDAQ,その他,○
+TSLS,DRX TSLA BR1X,Direxion デイリー TSLA ベア1倍 ETF,NASDAQ,その他,○
 TSLT,REX 2X LONG TSLA,T-REX 2X・ロング・テスラ・デイリーターゲット ETF,Cboe,その他,○
 TSLZ,REX 2X INVS TSLA,T-REX 2X・インバース・テスラ・デイリーターゲット ETF,Cboe,その他,○
 TSM,TAIWAN SEMI ADR,タイワン・セミコンダクター・マニュファクチャリング,NYSE,半導体,○
