@@ -3,6 +3,7 @@ import re
 import time
 
 import tqdm
+from loguru import logger
 from selenium import webdriver
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.common.by import By
@@ -56,7 +57,7 @@ def download(ticker_list):
         login_box.find_element(By.NAME, "username").send_keys(login_info["user_id"])
         login_box.find_element(By.NAME, "password").send_keys(login_info["password"])
         login_box.find_element(By.ID, "pw-btn").click()
-        time.sleep(3)
+        time.sleep(120)
 
         # search boxに適当な銘柄コードを入力して株価ページに遷移する
         search_box = driver.find_element(By.ID, "brand-search-text")
@@ -153,5 +154,9 @@ if __name__ == "__main__":
     all_tickers = data_fetcher.core.get_jp_ticker_list(include_etf=True)
 
     # data_fetcher.debug.run_debug(download, all_tickers)
-    download(all_tickers)
-    move_from_download_dir()
+    try:
+        download(all_tickers)
+        move_from_download_dir()
+    except Exception as e:
+        data_fetcher.core.notify_to_line(f"Error during SBI data fetching: {e}")
+        logger.exception("Error during SBI data fetching")

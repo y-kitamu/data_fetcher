@@ -1,23 +1,21 @@
 """Forex Factory Calendar Data Fetcher
 
-Fetches economic calendar data from Forex Factory website using Selenium.
-Note: Forex Factory uses Cloudflare protection, requiring browser automation.
+Fetches economic calendar data from Forex Factory website using curl_cffi.
+curl_cffi impersonates a real browser's TLS fingerprint to bypass Cloudflare.
 """
 
 import datetime
+import re
 import time
 from pathlib import Path
 
 import polars as pl
 from bs4 import BeautifulSoup
+from curl_cffi import requests as cffi_requests
 from loguru import logger
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support import expected_conditions as EC
-from selenium.webdriver.support.ui import WebDriverWait
 
 from ...core.base_fetcher import BaseFetcher
 from ...core.constants import PROJECT_ROOT
-from ...core.selenium_options import get_driver
 
 
 class ForexFactoryFetcher(BaseFetcher):
@@ -85,17 +83,22 @@ class ForexFactoryFetcher(BaseFetcher):
             date += datetime.timedelta(days=1)
             time.sleep(3)
 
+        if not dfs:
+            logger.warning(f"No data found for {year}-{month:02d}")
+            return None
+
         output_path = self.data_dir / f"calendar_{year}_{month:02d}.csv"
         df = pl.concat(dfs)
         df.write_csv(output_path)
         return output_path
 
     def fetch(self, year: int, month: int, day: int) -> pl.DataFrame:
-        """Fetch calendar data for specified period.
+        """Fetch calendar data for a single day.
 
         Args:
             year: Year (e.g., 2024)
             month: Month (1-12)
+            day: Day (1-31)
 
         Returns:
             Polars DataFrame with columns:
@@ -106,28 +109,14 @@ class ForexFactoryFetcher(BaseFetcher):
                 - actual: Actual value
                 - forecast: Forecast value
                 - previous: Previous value
-
-        Raises:
-            requests.RequestException: If HTTP request fails
         """
         month_abbr = self._get_month_abbr(month)
         logger.info(f"Fetching Forex Factory calendar for {month_abbr} {day} {year}")
         url = f"{self.BASE_URL}?day={month_abbr}{day}.{year}"
         try:
-            with get_driver() as driver:
-                driver.get(url)
-                WebDriverWait(driver, 30).until(
-                    EC.presence_of_element_located((By.CLASS_NAME, "calendar__table"))
-                )
-                # Get page source and parse with BeautifulSoup
-                page_source = driver.execute_script(
-                    "return document.documentElement.outerHTML;"
-                )
-                time.sleep(3)
-
-            soup = BeautifulSoup(page_source, "html.parser")
-
-            # Parse using the month from week_start
+            resp = cffi_requests.get(url, impersonate="chrome131", timeout=30)
+            resp.raise_for_status()
+            soup = BeautifulSoup(resp.text, "html.parser")
             all_data = self._parse_calendar_table(soup, year, month, day)
 
         except Exception as e:
@@ -157,118 +146,107 @@ class ForexFactoryFetcher(BaseFetcher):
     ) -> list[dict]:
         """Parse the calendar table from HTML.
 
+        The table has no tbody; rows are direct children of table.
+        Day breaker rows indicate the start of a new day.
+        Data rows may omit time/date cells, inheriting from previous rows.
+
         Returns:
             List of dictionaries with calendar event data
         """
         events = []
 
-        # Find the calendar table
         table = soup.find("table", {"class": "calendar__table"})
         if not table:
             logger.warning("Calendar table not found in HTML")
             return events
 
-        for tbody in table.find_all("tbody"):
-            day_row = tbody.find("tr", {"class": "calendar__row--day-breaker"})
-            day = int(day_row.get_text(strip=True).split(" ")[-1])
-            current_date = datetime.date(year, month, day)
+        current_date = datetime.date(year, month, day)
+        time_str = ""
 
-            time_str = ""
-            for row in tbody.find_all("tr", {"class": "calendar__row"}):
-                if "calendar__row--day-breaker" in row.get("class", []):
-                    continue
+        for row in table.find_all("tr", {"class": "calendar__row"}):
+            classes = row.get("class", [])
 
-                # Get time
-                time_cell = row.find("td", class_="calendar__time")
-                if time_cell:
-                    cell_str = time_cell.get_text(strip=True)
-                    if cell_str != "":
-                        time_str = cell_str
+            # Day breaker row: extract the day number
+            if "calendar__row--day-breaker" in classes:
+                td = row.find("td")
+                if td:
+                    # Text like "TueMar 10" - extract the trailing number
+                    m = re.search(r"(\d+)\s*$", td.get_text(strip=True))
+                    if m:
+                        current_date = datetime.date(year, month, int(m.group(1)))
+                continue
 
-                # Get currency
-                currency_cell = row.find("td", class_="calendar__currency")
-                currency = currency_cell.get_text(strip=True) if currency_cell else ""
+            # Get time
+            time_cell = row.find("td", class_="calendar__time")
+            if time_cell:
+                cell_str = time_cell.get_text(strip=True)
+                if cell_str:
+                    time_str = cell_str
 
-                # Get impact
-                impact_cell = row.find("td", class_="calendar__impact")
-                impact = ""
-                if impact_cell:
-                    # Impact is indicated by span classes
-                    impact_span = impact_cell.find("span")
-                    if impact_span:
-                        classes = impact_span.get("class", [])
-                        if "icon--ff-impact-red" in classes:
-                            impact = "High"
-                        elif (
-                            "icon--ff-impact-ora" in classes
-                            or "icon--ff-impact-yel" in classes
-                        ):
-                            impact = "Medium"
-                        elif "icon--ff-impact-gra" in classes:
-                            impact = "Low"
-                        elif "icon--ff-impact-hol" in classes:
-                            impact = "Holiday"
+            # Get currency
+            currency_cell = row.find("td", class_="calendar__currency")
+            currency = currency_cell.get_text(strip=True) if currency_cell else ""
 
-                # Get event name
-                event_cell = row.find("td", class_="calendar__event")
-                event_name = event_cell.get_text(strip=True) if event_cell else ""
+            # Get impact
+            impact_cell = row.find("td", class_="calendar__impact")
+            impact = ""
+            if impact_cell:
+                impact_span = impact_cell.find("span")
+                if impact_span:
+                    span_classes = impact_span.get("class", [])
+                    if "icon--ff-impact-red" in span_classes:
+                        impact = "High"
+                    elif (
+                        "icon--ff-impact-ora" in span_classes
+                        or "icon--ff-impact-yel" in span_classes
+                    ):
+                        impact = "Medium"
+                    elif "icon--ff-impact-gra" in span_classes:
+                        impact = "Low"
+                    elif "icon--ff-impact-hol" in span_classes:
+                        impact = "Holiday"
 
-                # Get actual value
-                actual_cell = row.find("td", class_="calendar__actual")
-                actual = actual_cell.get_text(strip=True) if actual_cell else ""
+            # Get event name
+            event_cell = row.find("td", class_="calendar__event")
+            event_name = event_cell.get_text(strip=True) if event_cell else ""
 
-                # Get forecast value
-                forecast_cell = row.find("td", class_="calendar__forecast")
-                forecast = forecast_cell.get_text(strip=True) if forecast_cell else ""
+            # Get actual/forecast/previous values
+            actual_cell = row.find("td", class_="calendar__actual")
+            actual = actual_cell.get_text(strip=True) if actual_cell else ""
 
-                # Get previous value
-                previous_cell = row.find("td", class_="calendar__previous")
-                previous = previous_cell.get_text(strip=True) if previous_cell else ""
+            forecast_cell = row.find("td", class_="calendar__forecast")
+            forecast = forecast_cell.get_text(strip=True) if forecast_cell else ""
 
-                # Construct datetime
-                event_datetime = None
-                if time_str and time_str.lower() not in ["all day", "tentative", ""]:
-                    try:
-                        # Parse time (format: "12:30am" or "12:30pm")
-                        time_obj = datetime.datetime.strptime(
-                            time_str, "%I:%M%p"
-                        ).time()
-                        event_datetime = datetime.datetime.combine(
-                            current_date, time_obj
-                        )
-                    except ValueError:
-                        # If time parsing fails, use date only
-                        event_datetime = datetime.datetime.combine(
-                            current_date, datetime.time(0, 0)
-                        )
-                else:
+            previous_cell = row.find("td", class_="calendar__previous")
+            previous = previous_cell.get_text(strip=True) if previous_cell else ""
+
+            # Construct datetime
+            if time_str and time_str.lower() not in ("all day", "tentative", "day 1"):
+                try:
+                    time_obj = datetime.datetime.strptime(time_str, "%I:%M%p").time()
+                    event_datetime = datetime.datetime.combine(current_date, time_obj)
+                except ValueError:
                     event_datetime = datetime.datetime.combine(
                         current_date, datetime.time(0, 0)
                     )
-
-                print(
-                    event_datetime,
-                    currency,
-                    impact,
-                    event_name,
-                    actual,
-                    forecast,
-                    previous,
+            else:
+                event_datetime = datetime.datetime.combine(
+                    current_date, datetime.time(0, 0)
                 )
-                # Skip rows without event name
-                if not event_name:
-                    continue
 
-                events.append(
-                    {
-                        "datetime": event_datetime,
-                        "currency": currency,
-                        "impact": impact,
-                        "event": event_name,
-                        "actual": actual,
-                        "forecast": forecast,
-                        "previous": previous,
-                    }
-                )
+            if not event_name:
+                continue
+
+            events.append(
+                {
+                    "datetime": event_datetime,
+                    "currency": currency,
+                    "impact": impact,
+                    "event": event_name,
+                    "actual": actual,
+                    "forecast": forecast,
+                    "previous": previous,
+                }
+            )
 
         return events

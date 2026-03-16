@@ -9,6 +9,7 @@ with webdriver.Remote(options=options, command_executor=command_executor) as dri
 
 from selenium import webdriver
 
+# from selenium_stealth import stealth
 from .constants import PROJECT_ROOT
 
 command_executor = "http://localhost:4444/wd/hub"
@@ -37,6 +38,17 @@ def get_chrome_options():
     options.add_argument("--disable-gpu")
     options.add_argument("--no-sandbox")
     options.add_argument("--disable-dev-shm-usage")
+
+    # --- Anti-detection ---
+    options.add_argument("--disable-blink-features=AutomationControlled")
+    options.add_argument(
+        "user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+        "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+    )
+    options.add_experimental_option("excludeSwitches", ["enable-automation"])
+    options.add_experimental_option("useAutomationExtension", False)
+
+    # ---　Profile and Download settings ---
     # https://note.com/tarakobababa/n/n746f77f0549e
     profile_dir = "/home/seluser/work/selenium_profile"
     options.add_argument(f"--user-data-dir={str(profile_dir)}")

@@ -22,6 +22,7 @@ from pathlib import Path
 import dateutil.relativedelta as relativedelta
 from loguru import logger
 
+from data_fetcher.core import notify_to_line
 from data_fetcher.fetchers import ForexFactoryFetcher
 
 
@@ -58,10 +59,18 @@ if __name__ == "__main__":
     )
     args = parser.parse_args()
 
-    # main(args.year, args.month)
-    start_date = datetime.date(2013, 1, 1)
-    end_date = datetime.datetime.now().date()
+    if args.year is None or args.month is None:
+        start_date = datetime.date(2013, 1, 1)
+        end_date = datetime.datetime.now().date()
 
-    while start_date <= end_date:
-        main(start_date.year, start_date.month)
-        start_date += relativedelta.relativedelta(months=1)
+        while start_date <= end_date:
+            main(start_date.year, start_date.month)
+            start_date += relativedelta.relativedelta(months=1)
+    else:
+        try:
+            main(args.year, args.month)
+        except Exception as e:
+            logger.error(f"Error fetching data for {args.year}-{args.month:02d}: {e}")
+            notify_to_line(
+                f"ForexFactoryFetcher Error fetching data for {args.year}-{args.month:02d}: {e}"
+            )
