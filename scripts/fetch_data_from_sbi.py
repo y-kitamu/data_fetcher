@@ -26,9 +26,26 @@ def get_chrome_options():
     options.add_argument("--disable-gpu")
     options.add_argument("--no-sandbox")
     options.add_argument("--disable-dev-shm-usage")
+
+    # Cookieの暗号化キーをOSに依存させない（Docker再起動時のCookie喪失を防ぐキーリング無効化）
+    options.add_argument("--password-store=basic")
+    # Selenium/自動操作の検知を回避する
+    options.add_argument("--disable-blink-features=AutomationControlled")
+    options.add_experimental_option("excludeSwitches", ["enable-automation"])
+    options.add_experimental_option("useAutomationExtension", False)
+
+    # User-Agentを一般的なブラウザに固定し、Selenium特有の痕跡を消す
+    options.add_argument(
+        "--user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+    )
+
     # https://note.com/tarakobababa/n/n746f77f0549e
     profile_dir = "/home/seluser/work/selenium_profile"
     options.add_argument(f"--user-data-dir={str(profile_dir)}")
+    options.add_argument(
+        "--profile-directory=Default"
+    )  # プロファイルフォルダを明示的に指定
+
     options.add_experimental_option(
         "prefs",
         {
