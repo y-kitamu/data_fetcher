@@ -1,185 +1,157 @@
-# Data Fetcher - Copilot Instructions
+# Role
 
-## Repository Overview
+あなたは Python 3.11+ と金融データの取り扱いに精通したシニアエンジニアとして、このリポジトリでの開発を担当します。以下の指示に従い、高品質な金融データ収集コードを提供してください。
 
-Python 3.13+ package for collecting financial data from multiple sources (US/Japanese stocks, crypto exchanges, forex, disclosure databases). ~1.9GB repo, modular architecture with fetchers, readers, processors, and domain models.
+## リポジトリ概要
 
-**Stack:** Python 3.13+, Polars, Pandas, FastAPI, Selenium, yfinance, requests  
-**Package Manager:** pip + pyproject.toml (NO requirements.txt, setup.py, or poetry.lock)
+米国・日本株、暗号資産取引所、FX、企業開示データベースなど複数ソースから金融データを収集する Python パッケージ。
 
-## Critical: Python 3.13+ Required
+- **スタック:** Python 3.11+、Polars、Selenium / DrissionPage、yfinance、requests
+- **パッケージ管理:** uv
 
-**MUST use Python >=3.13** (specified in pyproject.toml). Installation fails otherwise. Do not modify version requirement.
 
-## Build & Validation
+## 技術スタック・制約
 
-### Installation (Required First Step)
+### Python バージョン
 
-```bash
-pip install -e .  # Takes 2-5 minutes
+- `pyproject.toml` に `requires-python = ">=3.11"` と指定。この要件は変更禁止。
+
+### 依存関係の変更
+
+- 依存関係の追加・削除は、必ず `uv` を使用して管理すること。
+  - 例: `uv add <package>`, `uv remove <package>`
+- **禁止:** `requirements.txt` / `setup.py` / `poetry.lock` の作成
+
+### ログ
+
+- loguru を使用する。`print()` は使用禁止。
+
+```python
+# Good
+from loguru import logger
+logger.info("Fetching data...")
+
+# Bad
+print("Fetching data...")
 ```
 
-**Common issue:** Python version error means you need 3.13+
+### Selenium / ブラウザ自動化
 
-### Linting
+- Selenium は `core/selenium_options.py` の `get_driver()` を使用（Docker コンテナ経由）。
+- DrissionPage (`drissionpage`) は直接利用可能。用途に応じて使い分ける。
 
-```bash
-ruff check .  # Primary linter configured (in dev dependencies)
+## アーキテクチャ・設計
+
+### ディレクトリ構造
+
+```
+├──src/data_fetcher/
+│   ├── core/               # 基盤インフラ
+│   │   ├── base_fetcher.py     # BaseFetcher / BaseWebsocketFetcher
+│   │   ├── base_reader.py      # BaseReader: read_ohlc() / read_ohlc_impl()
+│   │   ├── constants.py        # PROJECT_ROOT, JP_TICKERS_PATH, US_TICKERS_PATH
+│   │   ├── minutes_bar.py      # convert_tick_to_ohlc(), convert_timedelta_to_str() な
+│   │   ├── notification.py     # notify_to_line()
+│   │   ├── selenium_options.py # get_driver()
+│   │   ├── session.py          # get_session()
+│   │   ├── ticker_list.py      # get_jp_ticker_list() など
+│   │   └── volume_bar.py       # convert_ticker_to_volume_bar()
+│   ├── fetchers/           # データ取得クラス
+│   │   ├── crypto/         # 暗号資産関連
+│   │   ├── stocks/         # 日本株関連
+│   │   ├── forex/          # 外国為替関連
+│   │   ├── disclosure/     # 開示情報関連
+│   │   └── __init__.py     # get_fetcher(source), get_available_sources()
+│   ├── readers/            # 保存済みデータ読み込みクラス
+│   │   └── __init__.py     # get_reader(source)
+│   ├── processors/         # データ変換
+│       └── __init__.py
+├───scripts/                # データ取得スクリプト
 ```
 
-Do not add other linters unless requested.
+### Fetcher パターン
 
-### Testing
+- すべての Fetcher は `BaseFetcher` を継承する。
+- WebSocket を使うものは `BaseWebsocketFetcher` を継承する。
+- `fetchers/__init__.py` の `get_fetcher(source)` ファクトリで登録する。
 
-**Test infrastructure exists** using pytest. Test files in `tests/` directory include:
+### Reader パターン
 
-- `test_base_fetcher.py` - BaseFetcher class tests
-- `test_fetcher.py` - Fetcher factory tests
-- `test_session.py` - HTTP session tests
-- `test_volume_bar.py` - Volume bar tests
+- すべての Reader は `BaseReader` を継承し、`read_ohlc_impl()` を実装する。
+- `readers/__init__.py` の `get_reader(source)` ファクトリで登録する。
+- OHLC データは `pl.DataFrame` を返す（カラム: `datetime`, `open`, `high`, `low`, `close`, `volume`）。
 
-Run tests with:
+### 定数・パス
 
-```bash
-pytest tests/
-```
+- `core/constants.py` の `PROJECT_ROOT`（パッケージパスから計算）を使用する。
+- **禁止:** `/home/kitamura/` などの絶対パスをソースコードにハードコードする。
 
-## Project Structure
+## コーディング規約
 
-### Key Directories
+- 型ヒント（Type Hints）を必ず記述する。
+- 相対インポートを使用する（`from ..core.base_fetcher import BaseFetcher`）。
+- 新しいモジュールを追加したら、必ず対応する `__init__.py` もアップデートする。
 
-- `src/data_fetcher/` - Main package with modular architecture:
-  - **`core/`** - Core infrastructure:
-    - `base_fetcher.py` - Base class for all fetchers
-    - `base_reader.py` - Base class for all readers
-    - `constants.py` - PROJECT_ROOT, ticker paths
-    - `session.py` - Rate-limited HTTP sessions (requests_ratelimiter + requests_cache)
-    - `debug.py` - Debugging utilities
-    - `notification.py` - Notification functionality
-    - `ticker_list.py` - Ticker list management
-    - `volume_bar.py` - Volume bar calculations
-  - **`fetchers/`** - Data fetchers organized by category:
-    - `crypto/` - Cryptocurrency: `binance.py`, `bitflyer.py`, `gmo.py`
-    - `stocks/` - Stock markets: `kabutan.py`, `rakuten.py`
-    - `forex/` - Foreign exchange: `histdata.py`
-    - `disclosure/` - Disclosure databases: `edinet.py`
-    - `other/` - Other data sources
-    - `__init__.py` - Factory: `get_fetcher(source)`, `get_available_sources()`
-  - **`readers/`** - Data readers for saved data:
-    - `histdata.py`, `yfinance.py`, `kabutan.py`
-    - `__init__.py` - Factory: `get_reader(source)`
-  - **`processors/`** - Data processors:
-    - `cftc.py`, `sbi.py`, `yfinance.py`
-  - **`domains/`** - Domain models:
-    - `edinet/`, `jp_stocks/`, `kabutan/`, `tdnet/`
-  - `__init__.py` - Logger setup (loguru), exports core modules and functions
-- `scripts/` - Data update scripts: `update_financial_data*.py`, `fetch_data_from_*.py`, `cron_*.sh` (note: cron scripts use `uv` and hardcoded paths)
-- `tests/` - pytest-based tests: `test_base_fetcher.py`, `test_fetcher.py`, `test_session.py`, `test_volume_bar.py`
-- `data/` - Fetched data (mostly gitignored: various source directories)
-- `docker/` - docker-compose.yml for Selenium Chrome (ports 4444, 7900)
+## 主要操作
 
-### GitHub Workflows (.github/workflows/)
+### Fetcher の追加
 
-- `ci.yml` - Daily 5:00 UTC: runs `update_financial_data.py` (US stocks)
-- `ci_jp.yml` - Daily 8:00 UTC: runs 5 scripts for Japanese stocks:
-  - `fetch_data_from_edinet.py`
-  - `update_jp_tickers_list.py`
-  - `update_financial_data_jp.py`
-  - `fetch_data_from_kabutan.py`
-  - `divide_stocks_jp.py`
-- Both use `.github/actions/install_deps` which: sets up Python 3.13, installs Chrome, runs `pip install -e .`
+1. `src/data_fetcher/fetchers/<カテゴリ>/` に新ファイルを作成し `BaseFetcher` を継承
+2. カテゴリの `__init__.py` でエクスポート
+3. `fetchers/__init__.py` の `get_fetcher()` ファクトリに登録
+4. 必要に応じて `scripts/fetch_data_from_<source>.py` を追加
 
-## CI Validation Steps (from .github/actions/install_deps)
+### Reader の追加
 
-1. Setup Python 3.13
-2. Install Chrome: `sudo apt-get install google-chrome-stable`
-3. Run: `pip install -e .`
+1. `src/data_fetcher/readers/` に新ファイルを作成し `BaseReader` を継承し `read_ohlc_impl()` を実装
+2. `readers/__init__.py` の `get_reader()` ファクトリに登録
 
-Changes must be compatible with this CI setup.
+## ビルド・テスト・CI
 
-## Key Patterns & Architecture
-
-**Fetcher Pattern:** All fetchers inherit `BaseFetcher` (in `core/base_fetcher.py`). Factory in `fetchers/__init__.py`: `get_fetcher(source)` returns fetchers for binance, gmo, bitflyer, histdata, kabutan, rakuten. Available sources: `get_available_sources()`.
-
-**Reader Pattern:** All readers inherit `BaseReader` (in `core/base_reader.py`). Factory in `readers/__init__.py`: `get_reader(source)` returns readers for histdata, yfinance, kabutan.
-
-**Sessions:** `core/session.py` provides rate-limited cached HTTP sessions via `get_session(max_requests_per_second=10)`. Cache at `PROJECT_ROOT/cache/requests.cache`.
-
-**Logging:** Use `data_fetcher.logger` (loguru, configured in `__init__.py`). Do not use print().
-
-**Constants:** `core/constants.py` has PROJECT_ROOT (computed from package path), JP_TICKERS_PATH, US_TICKERS_PATH.
-
-## Common Operations
-
-**Add Fetcher:** Create file in appropriate category dir (crypto/, stocks/, forex/, disclosure/, other/) in src/data_fetcher/fetchers/, subclass BaseFetcher, update fetchers/**init**.py factory, optionally add script.
-
-**Add Reader:** Create file in src/data_fetcher/readers/, subclass BaseReader, update readers/**init**.py factory.
-
-**Change Dependencies:** Edit pyproject.toml only, then `pip install -e .`. Never create requirements.txt.
-
-**Run Scripts:** `python scripts/script_name.py` or `uv run python scripts/script_name.py`
-
-**Data Files:** Stored in data/{source}/. Check .gitignore before committing (most subdirs ignored).
-
-## Common Issues
-
-**Python version error:** Must use 3.13+. Cannot workaround.
-
-**Selenium/Chrome:** Some fetchers need Chrome (installed by CI). May need docker-compose selenium service (ports 4444, 7900).
-
-**Rate limiting:** Adjust max_requests_per_second in get_session() calls. Check cache exists. Note API-specific limits (e.g., EDINET).
-
-**Import errors:** Reinstall `pip install -e .`, check **init**.py imports updated.
-
-## Workflow for Changes
-
-**Before:** Check Python 3.13+, run `pip install -e .`, `ruff check .`
-
-**During:** Use data_fetcher.logger (not print), relative imports, polars/pandas style. Update **init**.py for new modules. Follow existing patterns in core/, fetchers/, readers/.
-
-**After:** Run `ruff check .`, `pytest tests/` for validation, manually test scripts, consider CI impact (daily runs that commit results).
-
-**Never:**
-
-- Add tests/linters unless requested
-- Create requirements.txt, setup.py, poetry.lock
-- Modify Python >=3.13 requirement
-- Hardcode paths like /home/kitamura/ in production code
-
-## Quick Reference Commands
+### インストール
 
 ```bash
-# Install (required first step)
 pip install -e .
-
-# Lint with ruff
-ruff check .
-ruff check src/data_fetcher/
-
-# Run tests
-pytest tests/
-
-# Run a data update script
-python scripts/update_financial_data.py
-python scripts/fetch_data_from_edinet.py
-
-# Check Python version
-python --version  # Must be 3.13+
-
-# Start Selenium container (if needed)
-cd docker && docker-compose up -d
-
-# Check project structure
-ls -la src/data_fetcher/
-ls -la scripts/
 ```
 
-## Trust These Instructions
+### リント・テスト
 
-These instructions are based on thorough repository analysis. Only search for additional information if:
+```bash
+ruff check src/data_fetcher/   # リント（ruff は dev group に含まれる）
+pytest tests/                  # テスト実行
+```
 
-- These instructions are incomplete for your specific task
-- You encounter errors not covered here
-- The repository structure has changed significantly
+### GitHub Workflows
 
-For routine coding tasks, trust this document and minimize exploration time.
+| ワークフロー | スケジュール | 実行スクリプト |
+|---|---|---|
+| `ci.yml` | 毎日 5:00 UTC | `update_financial_data.py`（米国株） |
+| `ci_jp.yml` | 毎日 8:00 UTC | edinet, jp_tickers, jp financial, kabutan, divide_stocks_jp |
+| `test.yml` | push / PR 全ブランチ | ruff check + pytest |
+
+- CI は `pip install -e .` でインストールする（`uv` は使用しない）。
+- 変更はこの CI 構成と互換性を保つこと。
+
+### Selenium コンテナ
+
+Selenium を使用する場合、コンテナが起動していない場合は、以下のコマンドで起動してください
+```bash
+cd docker && docker-compose up -d   # ポート 4444, 7900 を使用
+```
+
+## 禁止事項
+
+- `print()` の使用（`logger` を使うこと）
+- `requirements.txt` / `setup.py` / `poetry.lock` の作成
+- `requires-python` の制約変更
+- プロダクションコードへの絶対パス（`/home/kitamura/` など）のハードコード
+- 依頼なしでのテストコード・新リンターの追加
+- Pandas の使用（代わりに Polars を使用すること）
+
+
+## Agent Skills
+
+以下の汎用スキルを定義しています。これらは、エージェントがリポジトリ内のコードを理解し、適切な変更を加えるためのガイドラインやルールを提供します。
+
+- `agent-principle`: すべてのエージェントが守るべき基本的原則
+- `design-and-coding-principle`: デザインとコーディングの原則

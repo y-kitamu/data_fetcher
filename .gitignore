@@ -30,3 +30,4 @@ uv.lock
 *.egg-info/
 .venv/
 /selenium_profile/
+token.json
