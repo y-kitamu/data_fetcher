@@ -370,10 +370,17 @@ def move_from_download_dir():
 if __name__ == "__main__":
     all_tickers = data_fetcher.core.get_jp_ticker_list(include_etf=True)
 
-    # data_fetcher.debug.run_debug(download, all_tickers)
-    try:
-        download(all_tickers)
-        move_from_download_dir()
-    except Exception as e:
-        data_fetcher.core.notify_to_line(f"Error during SBI data fetching: {e}")
-        logger.exception("Error during SBI data fetching")
+    max_retry = 3
+    for i in range(max_retry):
+        try:
+            download(all_tickers)
+            move_from_download_dir()
+            break
+        except Exception:
+            logger.exception("Error during SBI data fetching")
+            continue
+    else:
+        logger.error("Failed to fetch SBI data after multiple attempts")
+        data_fetcher.core.notify_to_line(
+            "Failed to fetch SBI data after multiple attempts"
+        )
