@@ -825,7 +825,7 @@
         "Gross Profit": 912568000.0,
         "Cost Of Revenue": 2991065000.0,
         "Total Revenue": 3903633000.0,
-        "Operating Revenue": 3767247000.0
+        "Operating Revenue": 3903633000.0
     },
     "2025-04-30": {
         "Tax Effect Of Unusual Items": 0.0,
@@ -934,5 +934,41 @@
         "Cost Of Revenue": 3384398000.0,
         "Total Revenue": 4506084000.0,
         "Operating Revenue": 4345728000.0
+    },
+    "2026-01-31": {
+        "Tax Effect Of Unusual Items": 0.0,
+        "Tax Rate For Calcs": 0.241,
+        "Normalized EBITDA": 308912000.0,
+        "Net Income From Continuing Operation Net Minority Interest": 130073000.0,
+        "Reconciled Depreciation": 114084000.0,
+        "Reconciled Cost Of Revenue": 2909580000.0,
+        "EBITDA": 308912000.0,
+        "EBIT": 194828000.0,
+        "Net Interest Income": -23381000.0,
+        "Normalized Income": 130073000.0,
+        "Net Income From Continuing And Discontinued Operation": 130073000.0,
+        "Total Expenses": 3721304000.0,
+        "Diluted Average Shares": 37241037.0,
+        "Basic Average Shares": 37034207.0,
+        "Diluted EPS": 3.49,
+        "Basic EPS": 3.51,
+        "Diluted NI Availto Com Stockholders": 130073000.0,
+        "Net Income Common Stockholders": 130073000.0,
+        "Net Income": 130073000.0,
+        "Net Income Including Noncontrolling Interests": 130073000.0,
+        "Net Income Continuous Operations": 130073000.0,
+        "Tax Provision": 41374000.0,
+        "Pretax Income": 171447000.0,
+        "Net Non Operating Interest Income Expense": -23381000.0,
+        "Total Other Finance Cost": 23381000.0,
+        "Operating Income": 194828000.0,
+        "Operating Expense": 811724000.0,
+        "Other Operating Expenses": 697640000.0,
+        "Depreciation Amortization Depletion Income Statement": 114084000.0,
+        "Depreciation And Amortization In Income Statement": 114084000.0,
+        "Gross Profit": 1006552000.0,
+        "Cost Of Revenue": 2909580000.0,
+        "Total Revenue": 3916132000.0,
+        "Operating Revenue": 3916132000.0
     }
 }
