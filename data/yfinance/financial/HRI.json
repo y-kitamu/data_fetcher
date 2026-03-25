@@ -1021,7 +1021,7 @@
         "Total Unusual Items Excluding Goodwill": -14000000.0,
         "Net Income From Continuing Operation Net Minority Interest": 24000000.0,
         "Reconciled Depreciation": 319000000.0,
-        "Reconciled Cost Of Revenue": 563000000.0,
+        "Reconciled Cost Of Revenue": NaN,
         "EBITDA": 470000000.0,
         "EBIT": 151000000.0,
         "Net Interest Income": -134000000.0,
