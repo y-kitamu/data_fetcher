@@ -1,0 +1,17 @@
+key,start_date,end_date,edinet_key,period,value,announce_date
+ordinary_income,2025-07-01,2025-12-31,jpcrp_cor:OrdinaryIncomeLossSummaryOfBusinessResults,CurrentYearDuration,141773000,202603251629
+net_income,2025-07-01,2025-12-31,jpcrp_cor:NetIncomeLossSummaryOfBusinessResults,CurrentYearDuration_NonConsolidatedMember,-38776000,202603251629
+comprehensive_income,2025-07-01,2025-12-31,jpcrp_cor:NetIncomeLossSummaryOfBusinessResults,CurrentYearDuration_NonConsolidatedMember,-38776000,202603251629
+net_asset,2025-07-01,2025-12-31,jpcrp_cor:NetAssetsSummaryOfBusinessResults,CurrentYearInstant,2048337000,202603251629
+total_asset,2025-07-01,2025-12-31,jpcrp_cor:TotalAssetsSummaryOfBusinessResults,CurrentYearInstant,6289709000,202603251629
+bps,2025-07-01,2025-12-31,jpcrp_cor:NetAssetsPerShareSummaryOfBusinessResults,CurrentYearInstant,689.13,202603251629
+eps,2025-07-01,2025-12-31,jpcrp_cor:BasicEarningsLossPerShareSummaryOfBusinessResults,CurrentYearDuration,4.12,202603251629
+diluted_eps,2025-07-01,2025-12-31,jpcrp_cor:DilutedEarningsPerShareSummaryOfBusinessResults,CurrentYearDuration,－,202603251629
+equity_ratio,2025-07-01,2025-12-31,jpcrp_cor:EquityToAssetRatioSummaryOfBusinessResults,CurrentYearInstant,0.316,202603251629
+roe,2025-07-01,2025-12-31,jpcrp_cor:RateOfReturnOnEquitySummaryOfBusinessResults,CurrentYearDuration,0.006,202603251629
+number_of_employee,2025-07-01,2025-12-31,jpcrp_cor:NumberOfEmployees,CurrentYearInstant,296,202603251629
+number_of_employee,2025-07-01,2025-12-31,jpcrp_cor:NumberOfEmployees,CurrentYearInstant,296,202603251629
+number_of_temporary_worker,2025-07-01,2025-12-31,jpcrp_cor:AverageNumberOfTemporaryWorkers,CurrentYearInstant,1160,202603251629
+number_of_temporary_worker,2025-07-01,2025-12-31,jpcrp_cor:AverageNumberOfTemporaryWorkers,CurrentYearInstant,1160,202603251629
+number_of_shares,2025-07-01,2025-12-31,jpcrp_cor:TotalNumberOfIssuedSharesSummaryOfBusinessResults,CurrentYearInstant_NonConsolidatedMember,2879848,202603251629
+operating_income,2025-07-01,2025-12-31,jppfs_cor:OperatingIncome,CurrentYearDuration,145234000,202603251629
