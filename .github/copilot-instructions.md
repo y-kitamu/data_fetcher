@@ -9,7 +9,6 @@
 - **スタック:** Python 3.11+、Polars、Selenium / DrissionPage、yfinance、requests
 - **パッケージ管理:** uv
 
-
 ## 技術スタック・制約
 
 ### Python バージョン
@@ -123,11 +122,11 @@ pytest tests/                  # テスト実行
 
 ### GitHub Workflows
 
-| ワークフロー | スケジュール | 実行スクリプト |
-|---|---|---|
-| `ci.yml` | 毎日 5:00 UTC | `update_financial_data.py`（米国株） |
-| `ci_jp.yml` | 毎日 8:00 UTC | edinet, jp_tickers, jp financial, kabutan, divide_stocks_jp |
-| `test.yml` | push / PR 全ブランチ | ruff check + pytest |
+| ワークフロー | スケジュール         | 実行スクリプト                                              |
+| ------------ | -------------------- | ----------------------------------------------------------- |
+| `ci.yml`     | 毎日 5:00 UTC        | `update_financial_data.py`（米国株）                        |
+| `ci_jp.yml`  | 毎日 8:00 UTC        | edinet, jp_tickers, jp financial, kabutan, divide_stocks_jp |
+| `test.yml`   | push / PR 全ブランチ | ruff check + pytest                                         |
 
 - CI は `pip install -e .` でインストールする（`uv` は使用しない）。
 - 変更はこの CI 構成と互換性を保つこと。
@@ -135,6 +134,7 @@ pytest tests/                  # テスト実行
 ### Selenium コンテナ
 
 Selenium を使用する場合、コンテナが起動していない場合は、以下のコマンドで起動してください
+
 ```bash
 cd docker && docker-compose up -d   # ポート 4444, 7900 を使用
 ```
@@ -148,10 +148,9 @@ cd docker && docker-compose up -d   # ポート 4444, 7900 を使用
 - 依頼なしでのテストコード・新リンターの追加
 - Pandas の使用（代わりに Polars を使用すること）
 
-
 ## Agent Skills
 
 以下の汎用スキルを定義しています。これらは、エージェントがリポジトリ内のコードを理解し、適切な変更を加えるためのガイドラインやルールを提供します。
 
-- `agent-principle`: すべてのエージェントが守るべき基本的原則
+- `agent-principle`: すべてのエージェントが守るべき基本的原則。タスクの開始時に必ず読み込むこと。
 - `design-and-coding-principle`: デザインとコーディングの原則

@@ -27,7 +27,7 @@ TOKEN_PATH = data_fetcher.core.PROJECT_ROOT / "token.json"
 CREDENTIALS_PATH = (
     data_fetcher.core.PROJECT_ROOT
     / "cert"
-    / "client_secret_658880078384-qs08o4ucauf8jqhci727uj2fasp2cnhp.apps.googleusercontent.com.json"
+    / "client_secret_658880078384-d3ld50eet0pc8qpr4mvjno891mkqlp98.apps.googleusercontent.com.json"
 )
 
 

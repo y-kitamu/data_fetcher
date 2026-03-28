@@ -5,7 +5,7 @@ echo "Start rsync from gcp"
 
 # 2日前のデータを取得
 day=$(date -d '2 days ago' '+%Y%m%d')
-rsync -auv gcp:/home/ymyk6602/work/data_fetcher/data/bitflyer/tick/$day /home/kitamura/work/data_fetcher/data/bitflyer/tick/
+rsync -auv gcp:/home/kitamura/work/data_fetcher/data/bitflyer/tick/$day /home/kitamura/work/data_fetcher/data/bitflyer/tick/
 unset day
 echo "Finish rsync from gcp"
 
