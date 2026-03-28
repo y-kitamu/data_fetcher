@@ -313,5 +313,11 @@
         "Cost Of Revenue": 45781000.0,
         "Total Revenue": 103331000.0,
         "Operating Revenue": 103331000.0
+    },
+    "2025-12-31": {
+        "Diluted Average Shares": 2120207.0,
+        "Basic Average Shares": 2120143.0,
+        "Diluted EPS": 1.0,
+        "Basic EPS": 1.0
     }
 }
