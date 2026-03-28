@@ -470,3 +470,14 @@ operating_income,2024-01-01,2024-12-31,jppfs_cor:OperatingIncome,Prior1YTDDurati
 operating_income,2024-01-01,2024-12-31,jppfs_cor:OperatingIncome,Prior1YTDDuration,-173000000,202508131604
 operating_income,2025-01-01,2025-12-31,jppfs_cor:OperatingIncome,CurrentYTDDuration,-1435000,202508131604
 operating_income,2025-01-01,2025-12-31,jppfs_cor:OperatingIncome,CurrentYTDDuration,-208000000,202508131604
+cost_of_sales,2024-01-01,2024-12-31,jppfs_cor:CostOfSales,Prior1YearDuration,992000,202603271610
+cost_of_sales,2024-01-01,2024-12-31,jppfs_cor:CostOfSales,Prior1YearDuration,155000000,202603271610
+cost_of_sales,2025-01-01,2025-12-31,jppfs_cor:CostOfSales,CurrentYearDuration,656000,202603271610
+cost_of_sales,2025-01-01,2025-12-31,jppfs_cor:CostOfSales,CurrentYearDuration,103000000,202603271610
+gross_profit,2024-01-01,2024-12-31,jppfs_cor:GrossProfit,Prior1YearDuration,830000,202603271610
+gross_profit,2024-01-01,2024-12-31,jppfs_cor:GrossProfit,Prior1YearDuration,130000000,202603271610
+gross_profit,2025-01-01,2025-12-31,jppfs_cor:GrossProfit,CurrentYearDuration,365000,202603271610
+gross_profit,2025-01-01,2025-12-31,jppfs_cor:GrossProfit,CurrentYearDuration,57000000,202603271610
+operating_income,2024-01-01,2024-12-31,jppfs_cor:OperatingIncome,Prior1YearDuration,-2631000,202603271610
+operating_income,2025-01-01,2025-12-31,jppfs_cor:OperatingIncome,CurrentYearDuration,-3903000,202603271610
+operating_income,2025-01-01,2025-12-31,jppfs_cor:OperatingIncome,CurrentYearDuration,-611000000,202603271610
