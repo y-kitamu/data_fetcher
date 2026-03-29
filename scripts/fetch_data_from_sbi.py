@@ -259,9 +259,6 @@ def get_chrome_options():
     return options
 
 
-_QR_ROW_HEIGHT = 16  # px per row in the virtual scroll grid
-
-
 def _parse_data_row(
     row: BeautifulSoup,
 ) -> tuple[float, int, float, bool] | None:
@@ -332,7 +329,8 @@ def collect_all_tick_data(driver, grid_element) -> pl.DataFrame:
     """仮想スクロールグリッドをスクロールしながら全行のtickデータを収集する。
 
     CDK Virtual Scroll は画面内の行しかDOMに保持しないため、順次スクロールして
-    translateY の値から行インデックスを計算・重複排除することで全行を取得する。
+    translateY + row.offsetTop の絶対ピクセル位置をキーに重複排除することで全行を取得する。
+    行の高さを定数ではなく DOM の実測値から求めるため、デザイン変更に対して堅牢。
 
     Args:
         driver: Selenium WebDriver
@@ -350,6 +348,39 @@ def collect_all_tick_data(driver, grid_element) -> pl.DataFrame:
         By.CSS_SELECTOR, "cdk-virtual-scroll-viewport"
     )
 
+    # JS で translateY + row.offsetTop から absPos を計算し行データをまとめて返す。
+    # 行高さ定数に一切依存しないため、デザイン変更があっても正常動作する。
+    _JS_GET_ROWS = """
+        var viewport = arguments[0];
+        var wrapper = viewport.querySelector('.cdk-virtual-scroll-content-wrapper');
+        if (!wrapper) return null;
+        var translateY = new DOMMatrix(wrapper.style.transform).m42;
+        var rows = Array.from(wrapper.querySelectorAll('div[draggable="true"]'));
+        var result = [];
+        rows.forEach(function(row) {
+            var cells = row.querySelectorAll(':scope > .vg-grid-cell');
+            if (cells.length < 4) return;
+            var priceInner = cells[0].querySelector('.qr-grid-cell');
+            var volInner   = cells[1].querySelector('.qr-grid-cell');
+            var amtInner   = cells[2].querySelector('.qr-grid-cell');
+            var timeInner  = cells[3].querySelector('.qr-grid-cell');
+            if (!priceInner || !volInner || !amtInner) return;
+            var priceText = priceInner.textContent.trim();
+            var volText   = volInner.textContent.trim();
+            var amtText   = amtInner.textContent.trim();
+            if (!priceText || !volText || !amtText) return;
+            result.push({
+                absPos:   translateY + row.offsetTop,
+                price:    priceText,
+                volume:   volText,
+                amount:   amtText,
+                isUptick: priceInner.classList.contains('qr-row-ask-bg'),
+                time:     timeInner ? timeInner.textContent.trim() : ''
+            });
+        });
+        return {translateY: translateY, rows: result};
+    """
+
     driver.execute_script("arguments[0].scrollTop = 0", scrollable)
     time.sleep(0.5)
 
@@ -360,7 +391,7 @@ def collect_all_tick_data(driver, grid_element) -> pl.DataFrame:
         int(driver.execute_script("return arguments[0].clientHeight", scrollable))
         or 400
     )
-    step = max(int(viewport_height * 0.8), _QR_ROW_HEIGHT * 10)
+    step = int(viewport_height * 0.8)
 
     scroll_positions = list(range(0, total_height, step))
     if not scroll_positions or scroll_positions[-1] < total_height:
@@ -376,47 +407,37 @@ def collect_all_tick_data(driver, grid_element) -> pl.DataFrame:
 
         # translateY が更新されるまで待機（最大 2 秒）
         deadline = time.time() + 2.0
-        translate_y = prev_translate_y
+        data = None
         while time.time() < deadline:
             time.sleep(0.1)
-            html = content_viewport.get_attribute("innerHTML")
-            soup = BeautifulSoup(html, "html.parser")
-            content_wrapper = soup.find(
-                "div", class_="cdk-virtual-scroll-content-wrapper"
-            )
-            if content_wrapper:
-                m = re.search(
-                    r"translateY\((\d+(?:\.\d+)?)px\)", content_wrapper.get("style", "")
-                )
-                if m:
-                    translate_y = float(m.group(1))
-                    if scroll_pos == 0 or translate_y != prev_translate_y:
-                        break
+            data = driver.execute_script(_JS_GET_ROWS, content_viewport)
+            if data is None:
+                continue
+            if scroll_pos == 0 or float(data["translateY"]) != prev_translate_y:
+                break
         else:
-            # タイムアウト: 最終取得の innerHTML を使用
-            html = content_viewport.get_attribute("innerHTML")
-            soup = BeautifulSoup(html, "html.parser")
-            content_wrapper = soup.find(
-                "div", class_="cdk-virtual-scroll-content-wrapper"
-            )
-            if content_wrapper:
-                m = re.search(
-                    r"translateY\((\d+(?:\.\d+)?)px\)", content_wrapper.get("style", "")
+            data = driver.execute_script(_JS_GET_ROWS, content_viewport)
+
+        if data is None:
+            continue
+
+        prev_translate_y = float(data["translateY"])
+        for item in data["rows"]:
+            abs_pos = round(item["absPos"])
+            try:
+                all_rows[abs_pos] = (
+                    float(item["price"].replace(",", "")),
+                    int(item["volume"].replace(",", "")),
+                    float(item["amount"].replace(",", "")),
+                    bool(item["isUptick"]),
+                    item["time"],
                 )
-                if m:
-                    translate_y = float(m.group(1))
+            except (ValueError, KeyError):
+                logger.warning(f"Failed to parse JS row: {item!r}")
 
-        prev_translate_y = translate_y
-
-        for i, row in enumerate(soup.find_all("div", attrs={"draggable": "true"})):
-            row_idx = round(translate_y / _QR_ROW_HEIGHT) + i
-            parsed = _parse_data_row(row)
-            if parsed is not None:
-                all_rows[row_idx] = parsed
-
-    logger.info(
-        f"collect_all_tick_data: {len(all_rows)} rows collected (total_height={total_height}px)"
-    )
+    # logger.info(
+    #     f"collect_all_tick_data: {len(all_rows)} rows collected (total_height={total_height}px)"
+    # )
 
     if not all_rows:
         return pl.DataFrame(
@@ -479,7 +500,10 @@ def download(ticker_list):
             if date is not None:
                 dst_file = dst_dir / date / f"qr-{ticker}-{date}.csv"
                 download_file = download_dir / f"qr-{ticker}-{date}.csv"
-                if dst_file.exists() or download_file.exists():
+                parse_file = dst_dir / date / f"qr-{ticker}-{date}_html.csv"
+                if (
+                    dst_file.exists() or download_file.exists()
+                ) and parse_file.exists():
                     continue
 
             elem = driver.find_element(By.ID, "header").find_element(
