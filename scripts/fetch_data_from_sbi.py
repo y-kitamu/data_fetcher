@@ -397,7 +397,7 @@ def collect_all_tick_data(driver, grid_element) -> pl.DataFrame:
     if not scroll_positions or scroll_positions[-1] < total_height:
         scroll_positions.append(total_height)
 
-    all_rows: dict[int, tuple[float, int, float, bool, str]] = {}
+    all_rows = {}
 
     prev_translate_y = -1.0
     for scroll_pos in scroll_positions:
@@ -406,10 +406,10 @@ def collect_all_tick_data(driver, grid_element) -> pl.DataFrame:
         )
 
         # translateY が更新されるまで待機（最大 2 秒）
-        deadline = time.time() + 2.0
+        deadline = time.time() + 0.1
         data = None
         while time.time() < deadline:
-            time.sleep(0.1)
+            time.sleep(0.01)
             data = driver.execute_script(_JS_GET_ROWS, content_viewport)
             if data is None:
                 continue
@@ -417,6 +417,7 @@ def collect_all_tick_data(driver, grid_element) -> pl.DataFrame:
                 break
         else:
             data = driver.execute_script(_JS_GET_ROWS, content_viewport)
+            # logger.debug("translateY did not update after scrolling, using last retrieved data")
 
         if data is None:
             continue
@@ -425,13 +426,13 @@ def collect_all_tick_data(driver, grid_element) -> pl.DataFrame:
         for item in data["rows"]:
             abs_pos = round(item["absPos"])
             try:
-                all_rows[abs_pos] = (
-                    float(item["price"].replace(",", "")),
-                    int(item["volume"].replace(",", "")),
-                    float(item["amount"].replace(",", "")),
-                    bool(item["isUptick"]),
-                    item["time"],
-                )
+                all_rows[abs_pos] = {
+                    "price": float(item["price"].replace(",", "")),
+                    "volume": int(item["volume"].replace(",", "")),
+                    "amount": float(item["amount"].replace(",", "")),
+                    "is_uptick": bool(item["isUptick"]),
+                    "time": item["time"],
+                }
             except (ValueError, KeyError):
                 logger.warning(f"Failed to parse JS row: {item!r}")
 
@@ -444,18 +445,7 @@ def collect_all_tick_data(driver, grid_element) -> pl.DataFrame:
             {"price": [], "volume": [], "amount": [], "is_uptick": [], "time": []}
         )
 
-    prices, volumes, amounts, is_uptick, times = zip(
-        *[v for _, v in sorted(all_rows.items())]
-    )
-    return pl.DataFrame(
-        {
-            "price": list(prices),
-            "volume": list(volumes),
-            "amount": list(amounts),
-            "is_uptick": list(is_uptick),
-            "time": list(times),
-        }
-    )
+    return pl.from_dicts(list(all_rows.values())).sort("time", descending=True)
 
 
 def download(ticker_list):
@@ -538,11 +528,13 @@ def download(ticker_list):
                 else:
                     actions.context_click(grid_cell[0]).perform()
                     driver.find_element(By.LINK_TEXT, "CSVエクスポート").click()
+
+                    start_time = time.time()
+
                     table_el = driver.find_element(By.ID, "qr")
                     df = collect_all_tick_data(driver, table_el)
-                    # logger.info(f"ticker={ticker}: {len(df)} rows collected (HTML)")
 
-                    time.sleep(1)
+                    time.sleep(max(0.001, 1 - (time.time() - start_time)))
                     if date is None:
                         downloaded = sorted(download_dir.glob(f"qr-{ticker}-*.csv"))
                         if len(downloaded) == 0:
@@ -561,7 +553,7 @@ def download(ticker_list):
                         dst_path = dst_dir / date / f"qr-{ticker}-{date}_html.csv"
                         dst_path.parent.mkdir(exist_ok=True)
                         df.write_csv(dst_path)
-                        time.sleep(2)
+                        # time.sleep(2)
 
 
 def move_from_download_dir():
