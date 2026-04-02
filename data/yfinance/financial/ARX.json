@@ -1,7 +1,7 @@
 {
     "2025-03-31": {
         "Tax Effect Of Unusual Items": 0.0,
-        "Tax Rate For Calcs": 0.25,
+        "Tax Rate For Calcs": 0.21,
         "Net Income From Continuing Operation Net Minority Interest": 6500000.0,
         "Reconciled Depreciation": 7400000.0,
         "EBIT": 19700000.0,
@@ -119,7 +119,7 @@
     },
     "2025-06-30": {
         "Tax Effect Of Unusual Items": 0.0,
-        "Tax Rate For Calcs": 0.25,
+        "Tax Rate For Calcs": 0.21,
         "Net Income From Continuing Operation Net Minority Interest": 8800000.0,
         "Reconciled Depreciation": 8300000.0,
         "EBIT": 29200000.0,
@@ -199,7 +199,7 @@
     },
     "2025-09-30": {
         "Tax Effect Of Unusual Items": 0.0,
-        "Tax Rate For Calcs": 0.25,
+        "Tax Rate For Calcs": 0.21,
         "Net Income From Continuing Operation Net Minority Interest": -1368800000.0,
         "Reconciled Depreciation": 10000000.0,
         "EBIT": -1341300000.0,
@@ -319,7 +319,7 @@
     },
     "2025-12-31": {
         "Tax Effect Of Unusual Items": 0.0,
-        "Tax Rate For Calcs": 0.25,
+        "Tax Rate For Calcs": 0.21,
         "Net Income From Continuing Operation Net Minority Interest": -600000.0,
         "Reconciled Depreciation": 9500000.0,
         "EBIT": 28700000.0,

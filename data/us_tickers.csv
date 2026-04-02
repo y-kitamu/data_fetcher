@@ -112,6 +112,7 @@ AGGY,WM ENHANCED AGGB,ウィズダムツリー 米国債券ファンド（利回
 AGI,ALAMOS GOLD INC,アラモス・ゴールド,NYSE,その他,○
 AGIO,AGIOS PHARMA,アジオス・ファーマシューティカルズ,NASDAQ,医薬品（バイオテクノロジー）,○
 AGIX,KRS AI TECH ETF,KraneShaers AI テクノロジーETF,NASDAQ,その他,○
+AGL,AGILON HEALTH,アジロン・ヘルス,NYSE,ソフトウェア・サービス,○
 AGM,FED AGRICULTURAL,フェデラル・アグリカルチャラル・モーゲージ,NYSE,金融（銀行）,○
 AGMB,AGOMAB THERAPEU,アゴマブ・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 AGO,ASSURED GUARANTY,アシュアード･ギャランティー,NYSE,金融(保険),○
@@ -370,7 +371,6 @@ AUPH,AURINIA PHARMA,オーリニア・ファーマシューティカルズ,NASDA
 AUR,AURORA INOVATION,オーロラ・イノベーション,NASDAQ,自動車,○
 AURA,AURA BIOSCIENCES,オーラ・バイオサイエンシズ,NASDAQ,医薬品（バイオテクノロジー）,○
 AUTL,AUTOLUS THERAPEU,オートラス・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
-AUUD,AUDDIA INC,オーディア,NASDAQ,ソフトウェア・サービス,○
 AVAH,AVEANNA HEALTHCR,アビーナ・ヘルスケア・ホールディングス,NASDAQ,ヘルスケア,○
 AVAV,AEROVIRONMENT,エアロバイロメント,NASDAQ,航空機・宇宙,○
 AVD,AMERICAN VANGRD,アメリカン・バンガード,NYSE,化学,○
@@ -435,7 +435,6 @@ BANF,BANCFIRST CORP,バンクファースト,NASDAQ,金融（銀行）,○
 BANR,BANNER CORP,バナー,NASDAQ,金融（銀行）,○
 BAP,CREDICORP LTD,クレディコープ,NYSE,金融（銀行）,○
 BAR,GNS GOLD TRUST,グラナイトシェアーズ・ゴールド・トラスト,NYSE,その他,○
-BARK,BARK INC,バーク,NYSE,専門店,○
 BATL,BATTALION OIL,バタリオン・オイル,NYSE,石油,○
 BATRA,ATLANTA BRAVES,アトランタ・ブレイブス・ホールディングス,NASDAQ,エンターテイメント,○
 BAX,BAXTER INTER INC,バクスター　インターナショナル,NYSE,医療サービス,○
@@ -547,7 +546,6 @@ BLD,TOPBUILD CORP,トップビルド・コープ,NYSE,その他,○
 BLDP,BALLARD PWR SYS,バラード・パワー・システムズ,NASDAQ,その他製造,○
 BLDR,BUILDERS 1SOURCE,ビルダーズ・ファースト・ソース,NYSE,その他製造,○
 BLFS,BIOLIFE SOLUTION,バイオライフ・ソリューションズ,NASDAQ,ヘルスケア,○
-BLFY,BLUE FOUNDRY BC,ブルー・ファウンドリー・バンコープ,NASDAQ,金融（銀行）,○
 BLIN,BRIDGELINE DGTL,ブリッジライン・デジタル,NASDAQ,ソフトウェア・サービス,○
 BLK,BLACKROCK INC,ブラックロック,NYSE,金融（証券）,○
 BLKB,BLACKBAUD INC,ブラックボー,NASDAQ,ソフトウェア・サービス,○
@@ -1504,7 +1502,6 @@ FFEB,FT USEQ BUF FEB,ファーストトラスト Vest 米国株バッファーET
 FFIC,FLUSHING FINANC,フラッシング・ファイナンシャル,NASDAQ,金融（銀行）,○
 FFIN,FST FINANCL BANK,ファースト・ファイナンシャル・バンクシェアーズ,NASDAQ,金融（銀行）,○
 FFIV,F5 INC,F5,NASDAQ,ネットワーク,○
-FFWM,FIRST FOUNDATION,ファースト・ファウンデーション,NYSE,金融（銀行）,○
 FG,F&G ANNUITIELIFE,F&G アニュイティーズ&ライフ,NYSE,金融(保険),○
 FGBI,FRST GUARANT BNC,ファースト・ギャランティー・バンクシェアーズ,NASDAQ,金融（銀行）,○
 FGD,FT DJ GL SLCT DV,ファーストトラスト ダウ・ジョーンズ グローバルセレクト配当指数ファンド,NYSE,その他,○
@@ -1730,7 +1727,6 @@ GKOS,GLAUKOS CORP,グラウコス,NYSE,ヘルスケア,○
 GL,GLOBE LIFE INC,グローブ・ライフ,NYSE,金融(保険),○
 GLBE,GLOBAL-E ONLINE,グローバル・イー・オンライン,NASDAQ,ソフトウェア・サービス,○
 GLD,SPDR GOLD SHARES,SPDR ゴールド・シェア,NYSE,その他,○
-GLDD,GREAT LAKE DRDGE,グレート・レークス・ドレッジ・アンド・ドック,NASDAQ,その他製造,○
 GLDM,SPDR GOLD MINI,SPDR ゴールド・ミニシェアーズ・トラスト,NYSE,その他,○
 GLIBA,GCI LIBERTY-A,GCI リバティ シリーズ A,NASDAQ,通信サービス,○
 GLIBK,GCI LIBERTY-C,GCI リバティ シリーズ C,NASDAQ,通信サービス,○
@@ -2142,7 +2138,6 @@ ITA,ISRS US AERO DEF,iシェアーズ　米国航空宇宙＆防衛 ETF,Cboe,そ
 ITGR,INTEGER HOLDINGS,インテジャー・ホールディングス,NYSE,ヘルスケア,○
 ITIC,INVESTORS TITLE,インベスターズ・タイトル,NASDAQ,金融(保険),○
 ITRI,ITRON INC,アイトロン,NASDAQ,ソフトウェア・サービス,○
-ITRM,ITERUM THERAPEU,アイテラム・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 ITRN,ITURAN LC CONTRL,イツーラン・ロケーション・アンド・コントロール,NASDAQ,ネットワークセキュリティー,○
 ITT,ITT INC,ITT,NYSE,機械,○
 ITUB,ITAU UNIBANCO,イタウ・ウニバンコ・ホールディング,NYSE,金融（銀行）,○
@@ -2982,7 +2977,6 @@ ONDS,ONDAS INC,オンダス,NASDAQ,通信機器,○
 ONEW,ONEWATER MARINE,ワンウォーター・マリン,NASDAQ,小売,○
 ONIT,ONITY GROUP INC,オニティ・グループ・インク,NYSE,金融コングロマリット,○
 ONON,ON HOLDING,オン・ホールディング,NYSE,フットウエア,○
-ONTF,ON24 INC,ON24,NYSE,ソフトウェア・サービス,○
 ONTO,ONTO INNOVATION,アントゥー・イノベーション,NYSE,半導体製造,○
 OOMA,OOMA INC,ウーマ,NYSE,通信サービス,○
 OPAD,OFFERPAD SOL,オファーパッド・ソリューションズ,NYSE,その他,○
@@ -3015,7 +3009,6 @@ ORLY,OREILLY AUTOMOT,オライリー・オートモーティブ,NASDAQ,自動車
 ORMP,ORAMED PHARMACEU,オラメド・ファーマシューティカルズ,NASDAQ,医薬品,○
 ORN,ORION GROUP HLD,オリオン・グループ・ホールディングス,NYSE,その他製造,○
 ORRF,ORSTOWN FIN SERV,オースタウン・ファイナンシャル・サービシズ,NASDAQ,金融（銀行）,○
-OS,ONESTREAM INC,ワンストリーム,NASDAQ,ソフトウェア・サービス,○
 OSBC,OLD SECOND BANC,オールド・セカンド・バンコープ,NASDAQ,金融（銀行）,○
 OSCR,OSCAR HEALTH INC,オスカー・ヘルス,NYSE,ヘルスケア,○
 OSG,OCTAVE SPECIALTY,オクターブ・スペシャルティ・グループ,NYSE,金融(保険),○
@@ -3061,6 +3054,7 @@ PATH,UIPATH INC,ユーアイパス,NYSE,ソフトウェア・サービス,○
 PATK,PATRICK INDUSTRI,パトリック・インダストリーズ,NASDAQ,その他製造,○
 PAVE,GLX US INFRA ETF,グローバル X 米国インフラ関連 ETF,Cboe,その他,○
 PAVM,PAVMED INC,パブメッド,NASDAQ,医薬品,○
+PAVS,PARANOVUS ENTECH,パラノバス・エンターテイメント・テクノロジー,NASDAQ,医薬品,○
 PAX,PATRIA INVEST,パトリア・インベストメンツ,NASDAQ,その他,○
 PAY,PAYMENTUS HD,ペイメンタス・ホールディングス,NYSE,ソフトウェア・サービス,○
 PAYC,CALLAWAY GOLF,ペイコム・ソフトウエア,NYSE,ソフトウェア・サービス,○
@@ -4094,7 +4088,6 @@ UAA,UNDER ARMOUR INC,アンダー・アーマー,NYSE,フットウエア,○
 UAL,UNITED AIRLINES,ユナイテッド・エアラインズ・ホールディングス,NASDAQ,航空,○
 UBCP,UNITED BANCORP,ユナイテッド・バンコープ,NASDAQ,金融（銀行）,○
 UBER,UBER TECHNOLOGIE,ウーバー・テクノロジーズ,NYSE,ソフトウェア・サービス,○
-UBFO,UNTD SECURITY BC,ユナイテッド・セキュリティ・バンクシェアーズ,NASDAQ,金融（銀行）,○
 UBOT,DRX ROBO AI BL2X,Direxion デイリー　ロボティックスAI&オートメーション指数株 ブル 2倍 ETF,NYSE,その他,○
 UBRL,GNS UBER 2X LONG,グラナイトシェアーズ2倍ロングUBERデイリーETF,NASDAQ,その他,○
 UBS,UBS GROUP AG,UBSグループ,NYSE,金融（証券）,○
