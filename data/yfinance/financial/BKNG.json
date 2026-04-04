@@ -907,7 +907,7 @@
         "Other Gand A": NaN,
         "Salaries And Wages": NaN,
         "Total Revenue": NaN,
-        "Operating Revenue": 7994000000.0
+        "Operating Revenue": NaN
     },
     "2024-12-31": {
         "Tax Effect Of Unusual Items": 197575447.570332,
@@ -1152,6 +1152,6 @@
         "Other Gand A": 262000000.0,
         "Salaries And Wages": 869000000.0,
         "Total Revenue": 6349000000.0,
-        "Operating Revenue": NaN
+        "Operating Revenue": 6349000000.0
     }
 }
