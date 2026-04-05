@@ -17,7 +17,13 @@ from .forex import (
     GMOFetcherFXWithTimestamp,
     HistDataFetcher,
 )
-from .stocks import KabutanFetcher, RakutenFetcher
+from .stocks import (
+    GNewsFetcher,
+    KabutanFetcher,
+    KabutanNewsFetcher,
+    RakutenFetcher,
+    YfinanceNewsFetcher,
+)
 
 __all__ = [
     "get_fetcher",
@@ -32,7 +38,10 @@ __all__ = [
     "GMOFetcherFXWithTimestamp",
     "HistDataFetcher",
     "KabutanFetcher",
+    "KabutanNewsFetcher",
+    "GNewsFetcher",
     "RakutenFetcher",
+    "YfinanceNewsFetcher",
 ]
 
 
@@ -58,7 +67,10 @@ def get_fetcher(source: str) -> BaseFetcher:
         "forex_factory": ForexFactoryFetcher,
         "histdata": HistDataFetcher,
         "kabutan": KabutanFetcher,
+        "kabutan_news": KabutanNewsFetcher,
+        "gnews": GNewsFetcher,
         "rakuten": RakutenFetcher,
+        "yfinance_news": YfinanceNewsFetcher,
     }
 
     if source not in fetchers:

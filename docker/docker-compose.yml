@@ -1,14 +1,63 @@
 # selenium for web scraping
 # docker container上でchromeのプロファイルを指定する方法（毎回ログイン認証を回避する）
 # https://zenn.dev/stockdatalab/articles/20250819_tech_sbilogin
+#
+# Hub & Node 構成 (最大3並列セッション)
+# - Hub: localhost:4444 でリクエストを受付・振り分け
+# - Node: 各コンテナが独立したブラウザセッションを担当 (port: 5555, 5556, 5557)
+# セッション接続先は変わらず http://localhost:4444
 name: "data_fetcher"
 
 services:
-  selenium:
-    image: selenium/standalone-chrome:latest
-    hostname: "selenium"
+  selenium-hub:
+    image: selenium/hub:latest
     network_mode: "host"
+    restart: always
+
+  chrome-node-1:
+    image: selenium/node-chrome:latest
+    network_mode: "host"
+    shm_size: 2gb
+    depends_on:
+      - selenium-hub
     volumes:
       - ../:/home/seluser/work/
       - ../data/Downloads:/home/seluser/Downloads
+    environment:
+      - SE_EVENT_BUS_HOST=localhost
+      - SE_EVENT_BUS_PUBLISH_PORT=4442
+      - SE_EVENT_BUS_SUBSCRIBE_PORT=4443
+      - SE_NODE_PORT=5555
+    restart: always
+
+  chrome-node-2:
+    image: selenium/node-chrome:latest
+    network_mode: "host"
+    shm_size: 2gb
+    depends_on:
+      - selenium-hub
+    volumes:
+      - ../:/home/seluser/work/
+      - ../data/Downloads:/home/seluser/Downloads
+    environment:
+      - SE_EVENT_BUS_HOST=localhost
+      - SE_EVENT_BUS_PUBLISH_PORT=4442
+      - SE_EVENT_BUS_SUBSCRIBE_PORT=4443
+      - SE_NODE_PORT=5556
+    restart: always
+
+  chrome-node-3:
+    image: selenium/node-chrome:latest
+    network_mode: "host"
+    shm_size: 2gb
+    depends_on:
+      - selenium-hub
+    volumes:
+      - ../:/home/seluser/work/
+      - ../data/Downloads:/home/seluser/Downloads
+    environment:
+      - SE_EVENT_BUS_HOST=localhost
+      - SE_EVENT_BUS_PUBLISH_PORT=4442
+      - SE_EVENT_BUS_SUBSCRIBE_PORT=4443
+      - SE_NODE_PORT=5557
     restart: always

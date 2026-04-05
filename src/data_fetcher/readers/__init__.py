@@ -4,6 +4,7 @@ from .bitflyer import BitflyerBookReader
 from .gmo import GMOReader, GMOBookReader
 from .histdata import HistDataReader
 from .kabutan import KabutanReader
+from .news import JpNewsReader
 from .rakuten import RakutenReader
 from .sbi import SBIReader
 from .yfinance import YFinanceReader
@@ -11,6 +12,7 @@ from .yfinance import YFinanceReader
 __all__ = [
     "BaseReader",
     "HistDataReader",
+    "JpNewsReader",
     "KabutanReader",
     "YFinanceReader",
     "GMOReader",

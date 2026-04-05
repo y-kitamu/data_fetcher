@@ -27,6 +27,9 @@ def get_driver():
     """
     options = get_chrome_options()
     driver = webdriver.Remote(options=options, command_executor=command_executor)
+    # Prevent driver.get() from hanging indefinitely on slow/stuck pages.
+    # The default Selenium page load timeout is 300 seconds.
+    driver.set_page_load_timeout(30)
     return driver
 
 

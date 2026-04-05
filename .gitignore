@@ -14,6 +14,7 @@
 /data/gmo/
 /data/bitflyer/
 /data/forex_factory/
+/data/news/
 /cert/
 __pycache__/
 *.pyc
