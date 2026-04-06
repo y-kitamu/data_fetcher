@@ -28,3 +28,4 @@ year,month,duration,annoounce_date,is_prediction,total_revenue,operating_income,
 2025,12,12,25/02/14,True,20505,1878,1504,1008,40.3,0
 2025,12,12,26/02/13,False,22039,2247,1849,1256,50.2,0
 2026,12,12,26/02/13,True,,,,,,0
+2026,12,12,26/04/06,True,42789,3000,2480,1640,43.0,0
