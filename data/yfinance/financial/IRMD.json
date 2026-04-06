@@ -684,6 +684,7 @@
         "General And Administrative Expense": NaN,
         "Other Gand A": NaN,
         "Gross Profit": NaN,
+        "Cost Of Revenue": NaN,
         "Total Revenue": NaN,
         "Operating Revenue": NaN
     },
@@ -721,6 +722,7 @@
         "General And Administrative Expense": 3873152.0,
         "Other Gand A": 3873152.0,
         "Gross Profit": 14760859.0,
+        "Cost Of Revenue": 4628308.0,
         "Total Revenue": 19389167.0,
         "Operating Revenue": 19389167.0
     },
@@ -758,6 +760,7 @@
         "General And Administrative Expense": 4610832.0,
         "Other Gand A": 4610832.0,
         "Gross Profit": 14842806.0,
+        "Cost Of Revenue": 4667831.0,
         "Total Revenue": 19510637.0,
         "Operating Revenue": 19510637.0
     },
@@ -795,6 +798,7 @@
         "General And Administrative Expense": 4279993.0,
         "Other Gand A": 4279993.0,
         "Gross Profit": 15954992.0,
+        "Cost Of Revenue": 4454408.0,
         "Total Revenue": 20409400.0,
         "Operating Revenue": 20409400.0
     },
@@ -832,6 +836,7 @@
         "General And Administrative Expense": 4355636.0,
         "Other Gand A": 4355636.0,
         "Gross Profit": 16494308.0,
+        "Cost Of Revenue": 4707756.0,
         "Total Revenue": 21202064.0,
         "Operating Revenue": 21202064.0
     },
@@ -869,6 +874,7 @@
         "General And Administrative Expense": 4535539.0,
         "Other Gand A": 4535539.0,
         "Gross Profit": 17031894.0,
+        "Cost Of Revenue": 5660005.0,
         "Total Revenue": 22691899.0,
         "Operating Revenue": 22691899.0
     }
