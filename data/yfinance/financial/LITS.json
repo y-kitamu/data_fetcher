@@ -95,7 +95,7 @@
         "EBIT": NaN,
         "Net Interest Income": NaN,
         "Interest Income": NaN,
-        "Normalized Income": -8007000.0,
+        "Normalized Income": NaN,
         "Net Income From Continuing And Discontinued Operation": NaN,
         "Total Expenses": NaN,
         "Total Operating Income As Reported": NaN,
@@ -122,7 +122,7 @@
         "Selling General And Administration": NaN,
         "General And Administrative Expense": NaN,
         "Other Gand A": NaN,
-        "Total Revenue": 0.0,
+        "Total Revenue": NaN,
         "Operating Revenue": NaN
     },
     "2024-06-30": {
@@ -346,7 +346,7 @@
         "EBIT": -3351000.0,
         "Net Interest Income": 60000.0,
         "Interest Income": 60000.0,
-        "Normalized Income": NaN,
+        "Normalized Income": -3291000.0,
         "Net Income From Continuing And Discontinued Operation": -30799000.0,
         "Total Expenses": 3351000.0,
         "Total Operating Income As Reported": -29867000.0,
@@ -373,7 +373,7 @@
         "Selling General And Administration": 3305000.0,
         "General And Administrative Expense": 3305000.0,
         "Other Gand A": 3305000.0,
-        "Total Revenue": NaN,
+        "Total Revenue": 0.0,
         "Operating Revenue": 0.0
     }
 }
