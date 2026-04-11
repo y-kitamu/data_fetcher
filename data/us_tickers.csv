@@ -321,7 +321,6 @@ ASMB,ASSEMBLY BIO,アセンブリー・バイオサイエンシズ,NASDAQ,医薬
 ASMG,LVS 2X LONG ASML,LeverageShares2倍ロングASMLデイリーETF,NASDAQ,その他,○
 ASML,ASML HOLDING,ASMLホールディング,NASDAQ,半導体,○
 ASND,ASCENDIS PHARMA,アセンディス・ファーマ,NASDAQ,医薬品（バイオテクノロジー）,○
-ASNS,ACTELIS NETWORKS,アクテリス・ネットワークス,NASDAQ,通信機器,○
 ASO,ACADEMY SPRT OUT,アカデミー・スポーツ・アウトドアーズ,NASDAQ,小売,○
 ASPI,ASP ISOTOPES INC,ASPアイソトープス,NASDAQ,その他,○
 ASPN,ASPEN AEROGELS,アスペン・エアロジェルズ,NYSE,小売,○
@@ -3460,6 +3459,7 @@ RTH,V RETAIL,ヴァンエック・小売ETF,NASDAQ,その他,○
 RTO,RENTOKIL INITIAL,レントキル・イニシャルPLC,NYSE,その他,○
 RTX,RTX CORPORATION,RTXコーポレーション,NYSE,コングロマリット,○
 RTYY,GNS YLDBST RIOT,GraniteShares イールドブースト RIOT ETF,NASDAQ,その他,○
+RUBI,RUBICO INC,ルビコ,NASDAQ,運輸,○
 RUM,RUMBLE INC,ランブル,NASDAQ,その他,○
 RUN,SUNRUN INC,サンラン,NASDAQ,電力,○
 RUSHA,RUSH ENTERPRISES,ラッシュ・エンタープライジズ,NASDAQ,小売,○
@@ -4403,7 +4403,6 @@ WOLF,WOLFSPEED INC NC,ウルフスピード,NYSE,半導体,○
 WOOD,ISHARES T&F,iシェアーズ グローバル・ティンバー＆フォレストリー ETF,NASDAQ,その他,○
 WOOF,PETCO HEALTH,ペトコ・ヘルス・アンド・ウェルネス・カンパニー,NASDAQ,医療サービス,○
 WOR,WORTHINGTON ENT,ワージントン・エンタープライズ,NYSE,その他製造,○
-WORX,SCWORX CORP,SCワークス,NASDAQ,ソフトウェア・サービス,○
 WPM,WHEATON PRECIOUS,ウィートン・プレシャス・メタルズ,NYSE,その他,○
 WPP,WPP PLC,WPP,NYSE,ソフトウェア・サービス,○
 WPRT,WESTPORT FUEL,ウエストポート・フューエル・システムズ,NASDAQ,機械,○

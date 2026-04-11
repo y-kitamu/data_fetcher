@@ -213,7 +213,7 @@
         "Interest Income": NaN,
         "Normalized Income": -11128898.810968,
         "Net Income From Continuing And Discontinued Operation": -17755000.0,
-        "Total Expenses": NaN,
+        "Total Expenses": 27124000.0,
         "Diluted Average Shares": 7741943.0,
         "Basic Average Shares": 7741943.0,
         "Diluted EPS": -2.29,
@@ -236,7 +236,7 @@
         "Other Gand A": 12056000.0,
         "Total Revenue": 10640000.0,
         "Operating Revenue": 10640000.0,
-        "Loss Adjustment Expense": NaN,
-        "Net Policyholder Benefits And Claims": NaN
+        "Loss Adjustment Expense": 4547000.0,
+        "Net Policyholder Benefits And Claims": 4547000.0
     }
 }
