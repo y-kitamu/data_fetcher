@@ -750,7 +750,7 @@
         "Net Non Operating Interest Income Expense": NaN,
         "Interest Expense Non Operating": NaN,
         "Total Revenue": NaN,
-        "Operating Revenue": 2967700000.0,
+        "Operating Revenue": NaN,
         "Loss Adjustment Expense": NaN,
         "Net Policyholder Benefits And Claims": NaN
     },
@@ -915,7 +915,7 @@
         "Net Non Operating Interest Income Expense": -28300000.0,
         "Interest Expense Non Operating": 28300000.0,
         "Total Revenue": 3350400000.0,
-        "Operating Revenue": NaN,
+        "Operating Revenue": 3350400000.0,
         "Loss Adjustment Expense": 717000000.0,
         "Net Policyholder Benefits And Claims": 717000000.0
     }
