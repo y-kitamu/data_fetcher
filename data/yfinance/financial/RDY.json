@@ -968,7 +968,6 @@
         "Other Gand A": NaN,
         "Salaries And Wages": NaN,
         "Gross Profit": NaN,
-        "Cost Of Revenue": NaN,
         "Total Revenue": NaN,
         "Operating Revenue": NaN
     },
@@ -1026,7 +1025,6 @@
         "Other Gand A": NaN,
         "Salaries And Wages": NaN,
         "Gross Profit": 49052000000.0,
-        "Cost Of Revenue": 34534000000.0,
         "Total Revenue": 83586000000.0,
         "Operating Revenue": 83586000000.0
     },
@@ -1084,7 +1082,6 @@
         "Other Gand A": NaN,
         "Salaries And Wages": NaN,
         "Gross Profit": 47263000000.0,
-        "Cost Of Revenue": 37797000000.0,
         "Total Revenue": 85060000000.0,
         "Operating Revenue": 85060000000.0
     },
@@ -1142,7 +1139,6 @@
         "Other Gand A": 13650000000.0,
         "Salaries And Wages": 9531000000.0,
         "Gross Profit": 48627000000.0,
-        "Cost Of Revenue": 36825000000.0,
         "Total Revenue": 85452000000.0,
         "Operating Revenue": 85452000000.0
     },
@@ -1200,7 +1196,6 @@
         "Other Gand A": NaN,
         "Salaries And Wages": NaN,
         "Gross Profit": 48140000000.0,
-        "Cost Of Revenue": 39911000000.0,
         "Total Revenue": 88051000000.0,
         "Operating Revenue": 88051000000.0
     },
@@ -1258,7 +1253,6 @@
         "Other Gand A": NaN,
         "Salaries And Wages": NaN,
         "Gross Profit": 46806000000.0,
-        "Cost Of Revenue": 40462000000.0,
         "Total Revenue": 87268000000.0,
         "Operating Revenue": 87268000000.0
     }

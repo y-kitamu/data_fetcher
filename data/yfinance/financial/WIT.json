@@ -797,8 +797,7 @@
         "Other Gand A": NaN,
         "Gross Profit": NaN,
         "Cost Of Revenue": NaN,
-        "Total Revenue": NaN,
-        "Operating Revenue": NaN
+        "Total Revenue": NaN
     },
     "2024-12-31": {
         "Tax Effect Of Unusual Items": 644156917.342196,
@@ -845,8 +844,7 @@
         "Other Gand A": 14629000000.0,
         "Gross Profit": 69266000000.0,
         "Cost Of Revenue": 153922000000.0,
-        "Total Revenue": 223188000000.0,
-        "Operating Revenue": 223188000000.0
+        "Total Revenue": 223188000000.0
     },
     "2024-03-31": {
         "Tax Effect Of Unusual Items": 862792190.979235,
@@ -988,8 +986,7 @@
         "Other Gand A": -16686000000.0,
         "Gross Profit": 69517000000.0,
         "Cost Of Revenue": 155525000000.0,
-        "Total Revenue": 225042000000.0,
-        "Operating Revenue": 225042000000.0
+        "Total Revenue": 225042000000.0
     },
     "2025-06-30": {
         "Tax Effect Of Unusual Items": 708294295.84576,
@@ -1036,8 +1033,7 @@
         "Other Gand A": 13272000000.0,
         "Gross Profit": 64099000000.0,
         "Cost Of Revenue": 157247000000.0,
-        "Total Revenue": 221346000000.0,
-        "Operating Revenue": 221346000000.0
+        "Total Revenue": 221346000000.0
     },
     "2025-09-30": {
         "Tax Effect Of Unusual Items": 479941154.492808,
@@ -1084,8 +1080,7 @@
         "Other Gand A": 14950000000.0,
         "Gross Profit": 67141000000.0,
         "Cost Of Revenue": 159832000000.0,
-        "Total Revenue": 226973000000.0,
-        "Operating Revenue": 226973000000.0
+        "Total Revenue": 226973000000.0
     },
     "2025-12-31": {
         "Tax Effect Of Unusual Items": 756883233.750212,
@@ -1132,7 +1127,6 @@
         "Other Gand A": 18404000000.0,
         "Gross Profit": 68359000000.0,
         "Cost Of Revenue": 167199000000.0,
-        "Total Revenue": 235558000000.0,
-        "Operating Revenue": 235558000000.0
+        "Total Revenue": 235558000000.0
     }
 }
