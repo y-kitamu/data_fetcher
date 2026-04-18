@@ -41,6 +41,8 @@ class BaseWebsocketFetcher(BaseFetcher):
         self.on_open_message = on_open_message
         self.placeholder = placeholder
         self.target_tickers = target_tickers or self.available_tickers
+        self.max_retry = 20
+        self.current_retry = 0
 
     def start_websocket(self):
         self.close_websocket()
@@ -67,6 +69,7 @@ class BaseWebsocketFetcher(BaseFetcher):
         for ticker in self.target_tickers:
             ws.send(self.on_open_message.replace(self.placeholder, ticker))
             time.sleep(2)
+        self.current_retry = 0
 
     def _on_close(self, ws, close_status_code, close_msg):
         logger.debug(
@@ -75,6 +78,11 @@ class BaseWebsocketFetcher(BaseFetcher):
         if close_status_code == 1012:  # scheduled maintanance
             time.sleep(60)
             self.start_websocket()
+        else:
+            time.sleep(600)
+            self.current_retry += 1
+            if self.current_retry <= self.max_retry:
+                self.start_websocket()
 
     def _on_error(self, ws, error):
         logger.error(error)

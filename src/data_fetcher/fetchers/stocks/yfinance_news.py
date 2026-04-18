@@ -11,7 +11,7 @@ from loguru import logger
 from ...core.ticker_list import get_jp_ticker_list
 from ..news_base import NEWS_COLUMNS, BaseNewsFetcher
 
-_REQUEST_SLEEP = 0.1
+_REQUEST_SLEEP = 0.5
 
 
 def _parse_yfinance_item(item: dict, symbol: str) -> dict | None:

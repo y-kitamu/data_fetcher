@@ -125,10 +125,10 @@ class GNewsFetcher(BaseNewsFetcher):
         logger.info(
             f"GNews: resolving URLs and extracting bodies for {total} articles via Selenium…"
         )
-        for rows in pending.values():
-            for row in rows:
-                try:
-                    with get_driver() as driver:
+        with get_driver() as driver:
+            for rows in pending.values():
+                for row in rows:
+                    try:
                         if not row["url"]:
                             continue
                         # Navigate to Google News proxy URL; browser follows JS redirect.
@@ -156,10 +156,10 @@ class GNewsFetcher(BaseNewsFetcher):
                                 and "会員限定" not in body[:100]
                             ):
                                 row["body"] = body
-                except Exception as e:
-                    logger.warning(
-                        f"GNews: Selenium URL resolution failed ({e}); using proxy URLs and descriptions."
-                    )
+                    except Exception as e:
+                        logger.warning(
+                            f"GNews: Selenium URL resolution failed ({e}); using proxy URLs and descriptions."
+                        )
         logger.info("GNews: Selenium URL resolution complete.")
 
         # ── Phase 3: persist to CSV ───────────────────────────────────────────

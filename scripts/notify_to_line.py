@@ -3,8 +3,9 @@
 import datetime
 import uuid
 
-import data_fetcher
 import requests
+
+import data_fetcher
 
 ACCESS_TOKEN_FILE = (
     data_fetcher.constants.PROJECT_ROOT / "cert" / "line_message_api.txt"
@@ -52,6 +53,19 @@ def get_fxea_data_number() -> str:
     return f"{latest_date}, {num_files}"
 
 
+def get_news_number() -> dict[str, str]:
+    news_dir = data_fetcher.constants.PROJECT_ROOT / "data" / "news"
+    results: dict[str, str] = {}
+    for subdir in news_dir.glob("*"):
+        if not subdir.is_dir():
+            continue
+        latest_csv_path = sorted(subdir.glob("*.csv"))[-1]
+        num_rows = len(latest_csv_path.read_text().splitlines())
+        date_str = latest_csv_path.stem
+        results[subdir.name] = f"{date_str}, {num_rows}"
+    return results
+
+
 if __name__ == "__main__":
     with open(ACCESS_TOKEN_FILE, "r") as f:
         access_token = f.read().strip()
@@ -62,6 +76,7 @@ if __name__ == "__main__":
         "X-Line-Retry-Key": str(uuid.uuid1()),
     }
     data_nums = get_latest_dates_data_number()
+    data_nums.update(get_news_number())
     data_nums["fxea/data"] = get_fxea_data_number()
     text = "date: {}\\n".format(datetime.date.today().strftime("%Y%m%d"))
     for key, val in data_nums.items():

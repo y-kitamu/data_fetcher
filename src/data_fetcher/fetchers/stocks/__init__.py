@@ -1,6 +1,6 @@
 """Stock market data fetchers."""
 
-from .gnews_fetcher import GNewsFetcher
+from .gnews import GNewsFetcher
 from .kabutan import KabutanFetcher
 from .kabutan_news import KabutanNewsFetcher
 from .rakuten import RakutenFetcher
