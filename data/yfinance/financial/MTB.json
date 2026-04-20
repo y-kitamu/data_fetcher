@@ -861,7 +861,7 @@
         "Operating Revenue": NaN,
         "Occupancy And Equipment": NaN,
         "Professional Expense And Contract Services Expense": NaN,
-        "Other Non Interest Expense": 251000000.0
+        "Other Non Interest Expense": NaN
     },
     "2024-12-31": {
         "Tax Effect Of Unusual Items": -7748299.319728,
@@ -1076,7 +1076,7 @@
         "Operating Revenue": 2437000000.0,
         "Occupancy And Equipment": 134000000.0,
         "Professional Expense And Contract Services Expense": 105000000.0,
-        "Other Non Interest Expense": NaN
+        "Other Non Interest Expense": 297000000.0
     },
     "2026-03-31": {
         "Tax Effect Of Unusual Items": NaN,
