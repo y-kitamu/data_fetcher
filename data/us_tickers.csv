@@ -230,7 +230,6 @@ AMZN,AMAZON.COM INC,アマゾン・ドット・コム,NASDAQ,小売,○
 AMZU,DRX AMZN BL2X,Direxion デイリー AMZN ブル2倍株式,NASDAQ,その他,○
 AMZZ,GNS AMZN 2X LONG,グラナイトシェアーズ2倍ロングAMZNデイリーETF,NASDAQ,その他,○
 AN,AUTONATION INC,オートネーション,NYSE,小売,○
-ANAB,ANAPTYSBIO INC,アナプティスバイオ,NASDAQ,医薬品（バイオテクノロジー）,○
 ANDE,ANDERSONS INC,アンダーソンズ,NASDAQ,その他,○
 ANDG,ANDERSEN GROUP,アンダーセン・グループ,NYSE,その他,○
 ANET,ARISTA NETWORKS,アリスタ・ネットワークス,NYSE,ネットワーク,○
@@ -321,7 +320,6 @@ ASLE,AERSALE CORP,アエロセール,NASDAQ,航空機・宇宙,○
 ASMB,ASSEMBLY BIO,アセンブリー・バイオサイエンシズ,NASDAQ,医薬品（バイオテクノロジー）,○
 ASMG,LVS 2X LONG ASML,LeverageShares2倍ロングASMLデイリーETF,NASDAQ,その他,○
 ASML,ASML HOLDING,ASMLホールディング,NASDAQ,半導体,○
-ASND,ASCENDIS PHARMA,アセンディス・ファーマ,NASDAQ,医薬品（バイオテクノロジー）,○
 ASO,ACADEMY SPRT OUT,アカデミー・スポーツ・アウトドアーズ,NASDAQ,小売,○
 ASPI,ASP ISOTOPES INC,ASPアイソトープス,NASDAQ,その他,○
 ASPN,ASPEN AEROGELS,アスペン・エアロジェルズ,NYSE,小売,○
@@ -376,6 +374,7 @@ AVAV,AEROVIRONMENT,エアロバイロメント,NASDAQ,航空機・宇宙,○
 AVD,AMERICAN VANGRD,アメリカン・バンガード,NYSE,化学,○
 AVDE,AVT INTL EQ ETF,アバンティス・インターナショナル・エクイティ・ETF,NYSE,その他,○
 AVEM,AVT EMG M EQ ETF,アバンティス・エマージング・マーケッツ・エクイティ・ETF,NYSE,その他,○
+AVEX,AEVEX CORP,エイベックス・コープ,NYSE,航空機・宇宙,○
 AVGG,LVS 2X LONG AVGO,LeverageShares 2x ロング AVGO デイリー ETF,NASDAQ,その他,○
 AVGO,BROADCOM INC,ブロードコム,NASDAQ,半導体,○
 AVGU,GNS 2X LONG AVGO,GraniteShares2倍ロングAVGOデイリーETF,NASDAQ,その他,○
@@ -1925,7 +1924,6 @@ HSIC,HENRY SCHEIN INC,ヘンリー・シャイン,NASDAQ,ヘルスケア,○
 HSTM,HEALTHSTREAM INC,ヘルスストリーム,NASDAQ,ソフトウェア・サービス,○
 HSY,HERSHEY CO/THE,ハーシー,NYSE,食品,○
 HTB,HOMETRUST BANC,ホーム・トラスト・バンクシェアズ,NYSE,金融（銀行）,○
-HTBK,HERITAGE COMMRCE,ヘリテージ・コマース,NASDAQ,金融（銀行）,○
 HTCR,HEARTCORE ENTER,ハートコア・エンタープライジズ,NASDAQ,ソフトウェア・サービス,○
 HTFL,HEARTFLOW,ハートフロー,NASDAQ,医療サービス,○
 HTH,HILLTOP HOLDINGS,ヒルトップ・ホールディングス,NYSE,金融（銀行）,○

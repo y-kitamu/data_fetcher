@@ -842,6 +842,7 @@
         "Net Income Continuous Operations": NaN,
         "Tax Provision": NaN,
         "Pretax Income": NaN,
+        "Special Income Charges": NaN,
         "Restructuring And Mergern Acquisition": NaN,
         "Gain On Sale Of Security": NaN,
         "Depreciation Amortization Depletion Income Statement": NaN,
@@ -855,7 +856,8 @@
         "Salaries And Wages": NaN,
         "Total Revenue": NaN,
         "Operating Revenue": NaN,
-        "Occupancy And Equipment": NaN
+        "Occupancy And Equipment": NaN,
+        "Other Non Interest Expense": NaN
     },
     "2025-03-31": {
         "Tax Effect Of Unusual Items": 0.0,
@@ -880,6 +882,7 @@
         "Net Income Continuous Operations": 64028000.0,
         "Tax Provision": 27825000.0,
         "Pretax Income": 91853000.0,
+        "Special Income Charges": 0.0,
         "Restructuring And Mergern Acquisition": 0.0,
         "Gain On Sale Of Security": 87000.0,
         "Depreciation Amortization Depletion Income Statement": 9501000.0,
@@ -893,7 +896,8 @@
         "Salaries And Wages": 62366000.0,
         "Total Revenue": 208758000.0,
         "Operating Revenue": 208758000.0,
-        "Occupancy And Equipment": 13927000.0
+        "Occupancy And Equipment": 13927000.0,
+        "Other Non Interest Expense": 26028000.0
     },
     "2025-06-30": {
         "Tax Effect Of Unusual Items": 0.0,
@@ -918,6 +922,7 @@
         "Net Income Continuous Operations": 71981000.0,
         "Tax Provision": 30462000.0,
         "Pretax Income": 102443000.0,
+        "Special Income Charges": 0.0,
         "Restructuring And Mergern Acquisition": 0.0,
         "Gain On Sale Of Security": 0.0,
         "Depreciation Amortization Depletion Income Statement": 9497000.0,
@@ -931,7 +936,8 @@
         "Salaries And Wages": 63249000.0,
         "Total Revenue": 214169000.0,
         "Operating Revenue": 214169000.0,
-        "Occupancy And Equipment": 13011000.0
+        "Occupancy And Equipment": 13011000.0,
+        "Other Non Interest Expense": 24087000.0
     },
     "2025-09-30": {
         "Tax Effect Of Unusual Items": 0.0,
@@ -956,6 +962,7 @@
         "Net Income Continuous Operations": 71720000.0,
         "Tax Provision": 29895000.0,
         "Pretax Income": 101615000.0,
+        "Special Income Charges": 0.0,
         "Restructuring And Mergern Acquisition": 0.0,
         "Gain On Sale Of Security": 67000.0,
         "Depreciation Amortization Depletion Income Statement": 9497000.0,
@@ -969,7 +976,8 @@
         "Salaries And Wages": 63202000.0,
         "Total Revenue": 221751000.0,
         "Operating Revenue": 221751000.0,
-        "Occupancy And Equipment": 12773000.0
+        "Occupancy And Equipment": 12773000.0,
+        "Other Non Interest Expense": 22562000.0
     },
     "2025-12-31": {
         "Tax Effect Of Unusual Items": 0.0,
@@ -994,6 +1002,7 @@
         "Net Income Continuous Operations": 83431000.0,
         "Tax Provision": 28815000.0,
         "Pretax Income": 112246000.0,
+        "Special Income Charges": 0.0,
         "Restructuring And Mergern Acquisition": 0.0,
         "Gain On Sale Of Security": 690000.0,
         "Depreciation Amortization Depletion Income Statement": 8578000.0,
@@ -1007,6 +1016,7 @@
         "Salaries And Wages": 64316000.0,
         "Total Revenue": 225723000.0,
         "Operating Revenue": 225723000.0,
-        "Occupancy And Equipment": 13078000.0
+        "Occupancy And Equipment": 13078000.0,
+        "Other Non Interest Expense": 24554000.0
     }
 }

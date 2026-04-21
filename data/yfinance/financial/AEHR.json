@@ -841,6 +841,7 @@
     "2024-11-30": {
         "Tax Effect Of Unusual Items": NaN,
         "Tax Rate For Calcs": NaN,
+        "Normalized EBITDA": NaN,
         "Total Unusual Items": 0.0,
         "Total Unusual Items Excluding Goodwill": 0.0,
         "Net Income From Continuing Operation Net Minority Interest": NaN,
@@ -883,6 +884,7 @@
     "2025-02-28": {
         "Tax Effect Of Unusual Items": 0.0,
         "Tax Rate For Calcs": 0.264,
+        "Normalized EBITDA": -210000.0,
         "Total Unusual Items": 0.0,
         "Total Unusual Items Excluding Goodwill": 0.0,
         "Net Income From Continuing Operation Net Minority Interest": -643000.0,
@@ -925,6 +927,7 @@
     "2025-05-31": {
         "Tax Effect Of Unusual Items": 0.0,
         "Tax Rate For Calcs": 0.029136,
+        "Normalized EBITDA": -1320000.0,
         "Total Unusual Items": NaN,
         "Total Unusual Items Excluding Goodwill": NaN,
         "Net Income From Continuing Operation Net Minority Interest": -2899000.0,
@@ -967,6 +970,7 @@
     "2025-08-31": {
         "Tax Effect Of Unusual Items": -58035.0,
         "Tax Rate For Calcs": 0.265,
+        "Normalized EBITDA": -2706000.0,
         "Total Unusual Items": -219000.0,
         "Total Unusual Items Excluding Goodwill": -219000.0,
         "Net Income From Continuing Operation Net Minority Interest": -2084000.0,
@@ -1009,6 +1013,7 @@
     "2025-11-30": {
         "Tax Effect Of Unusual Items": 58149.0,
         "Tax Rate For Calcs": 0.273,
+        "Normalized EBITDA": -4203000.0,
         "Total Unusual Items": 213000.0,
         "Total Unusual Items Excluding Goodwill": 213000.0,
         "Net Income From Continuing Operation Net Minority Interest": -3230000.0,
@@ -1051,6 +1056,7 @@
     "2026-02-28": {
         "Tax Effect Of Unusual Items": 0.0,
         "Tax Rate For Calcs": 0.199,
+        "Normalized EBITDA": -3369000.0,
         "Total Unusual Items": 0.0,
         "Total Unusual Items Excluding Goodwill": 0.0,
         "Net Income From Continuing Operation Net Minority Interest": -3203000.0,
