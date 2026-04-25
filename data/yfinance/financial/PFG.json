@@ -815,5 +815,32 @@
         "Net Policyholder Benefits And Claims": 2548200000.0,
         "Policyholder Benefits Gross": 2979700000.0,
         "Policyholder Benefits Ceded": 431500000.0
+    },
+    "2026-03-31": {
+        "Tax Effect Of Unusual Items": NaN,
+        "Tax Rate For Calcs": NaN,
+        "Net Income From Continuing Operation Net Minority Interest": NaN,
+        "Normalized Income": NaN,
+        "Net Income From Continuing And Discontinued Operation": NaN,
+        "Total Expenses": NaN,
+        "Diluted Average Shares": 220300000.0,
+        "Basic Average Shares": 216449333.0,
+        "Diluted EPS": 1.93,
+        "Basic EPS": 1.96166,
+        "Diluted NI Availto Com Stockholders": NaN,
+        "Net Income Common Stockholders": NaN,
+        "Net Income": NaN,
+        "Minority Interests": NaN,
+        "Net Income Including Noncontrolling Interests": NaN,
+        "Net Income Continuous Operations": NaN,
+        "Tax Provision": NaN,
+        "Pretax Income": NaN,
+        "Other Operating Expenses": NaN,
+        "Total Revenue": NaN,
+        "Operating Revenue": NaN,
+        "Loss Adjustment Expense": NaN,
+        "Net Policyholder Benefits And Claims": NaN,
+        "Policyholder Benefits Gross": NaN,
+        "Policyholder Benefits Ceded": NaN
     }
 }

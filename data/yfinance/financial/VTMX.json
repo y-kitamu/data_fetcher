@@ -34,5 +34,11 @@
         "Basic Average Shares": 85840000.0,
         "Diluted EPS": 2.008,
         "Basic EPS": 2.030522
+    },
+    "2026-03-31": {
+        "Diluted Average Shares": 85901980.0,
+        "Basic Average Shares": 85030830.0,
+        "Diluted EPS": 1.176,
+        "Basic EPS": 1.188
     }
 }
