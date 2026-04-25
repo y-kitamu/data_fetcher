@@ -59,10 +59,13 @@ def get_news_number() -> dict[str, str]:
     for subdir in news_dir.glob("*"):
         if not subdir.is_dir():
             continue
-        latest_csv_path = sorted(subdir.glob("*.csv"))[-1]
+        latest_csv_path = sorted(subdir.glob("*.csv"))
+        if len(latest_csv_path) == 0:
+            continue
+        latest_csv_path = latest_csv_path[-1]
         num_rows = len(latest_csv_path.read_text().splitlines())
         date_str = latest_csv_path.stem
-        results[subdir.name] = f"{date_str}, {num_rows}"
+        results[f"news/{subdir.name}"] = f"{date_str}, {num_rows}"
     return results
 
 

@@ -104,7 +104,7 @@ class SBIReader(BaseReader):
             "値段": pl.Float64,
             "株数": pl.Float64,
             "金額": pl.Float64,
-            "時刻": pl.Utf8
+            "時刻": pl.Utf8,
         }
         df = (
             pl.read_csv(filepath, schema_overrides=schema, infer_schema_length=0)
@@ -124,6 +124,105 @@ class SBIReader(BaseReader):
             )
         )
         return df
+
+    def _read_html_csv(self, filepath: Path) -> pl.DataFrame:
+        """Read SBI HTML-scraped CSV file (includes trade direction).
+
+        The _html.csv format has columns: price, volume, amount, is_uptick, time
+        where is_uptick=True means buyer-initiated (ask-side) trade.
+
+        Args:
+            filepath: Path to _html.csv file
+
+        Returns:
+            pl.DataFrame: DataFrame with price, volume, amount, is_uptick, time, time_in_seconds
+        """
+        if not filepath.exists():
+            return pl.DataFrame()
+
+        schema = {
+            "price": pl.Float64,
+            "volume": pl.Float64,
+            "amount": pl.Float64,
+            "is_uptick": pl.Utf8,
+            "time": pl.Utf8,
+        }
+        df = (
+            pl.read_csv(filepath, schema_overrides=schema, infer_schema_length=0)
+            .select(
+                pl.col("price"),
+                pl.col("volume"),
+                pl.col("amount"),
+                pl.col("is_uptick").str.to_lowercase().eq("true").alias("is_uptick"),
+                pl.col("time").str.strptime(pl.Time, "%H:%M:%S").alias("time"),
+            )
+            .sort(pl.col("time"))
+            .with_columns(
+                (
+                    pl.col("time").dt.hour().cast(pl.Int64) * 3600
+                    + pl.col("time").dt.minute().cast(pl.Int64) * 60
+                    + pl.col("time").dt.second().cast(pl.Int64)
+                ).alias("time_in_seconds")
+            )
+        )
+        return df
+
+    def read_ticker_with_direction(
+        self,
+        symbol: str,
+        start_date: datetime.datetime = datetime.datetime(1970, 1, 1),
+        end_date: datetime.datetime = datetime.datetime.now(),
+    ) -> pl.DataFrame:
+        """Read tick data with trade direction (buyer/seller initiated).
+
+        Reads _html.csv files which include is_uptick flag.
+        is_uptick=True means the trade was buyer-initiated (executed at ask price).
+
+        Args:
+            symbol: Ticker symbol
+            start_date: Start date (default: 1970-01-01)
+            end_date: End date (default: now)
+
+        Returns:
+            pl.DataFrame: Tick data with datetime, price, volume, amount, is_uptick columns.
+                         Returns empty DataFrame if no _html.csv files are found.
+        """
+        dfs = []
+        for date_dir in sorted(self.data_dir.glob("*")):
+            if not date_dir.is_dir():
+                continue
+
+            try:
+                dir_date = datetime.datetime.strptime(date_dir.name, "%Y%m%d")
+            except ValueError:
+                continue
+
+            # 日付部分のみで比較（時刻を持つstart_date/end_dateに対応）
+            if dir_date.date() < start_date.date() or dir_date.date() > end_date.date():
+                continue
+
+            html_csv_path = date_dir / f"qr-{symbol}-{date_dir.name}_html.csv"
+            if not html_csv_path.exists():
+                continue
+
+            df = self._read_html_csv(html_csv_path)
+            if len(df) > 0:
+                df = df.with_columns(
+                    pl.datetime(
+                        dir_date.year,
+                        dir_date.month,
+                        dir_date.day,
+                        hour=pl.col("time").dt.hour(),
+                        minute=pl.col("time").dt.minute(),
+                        second=pl.col("time").dt.second(),
+                    ).alias("datetime")
+                ).select(["datetime", "price", "volume", "amount", "is_uptick"])
+                dfs.append(df)
+
+        if len(dfs) == 0:
+            return pl.DataFrame()
+
+        return pl.concat(dfs).sort("datetime")
 
     def read_ticker(
         self,
@@ -179,6 +278,28 @@ class SBIReader(BaseReader):
             return pl.DataFrame()
 
         return pl.concat(dfs).sort("datetime")
+
+    def read_html_csv_for_date(self, symbol: str, date: datetime.date) -> pl.DataFrame:
+        """特定日の _html.csv を直接読み込む（高速版: ディレクトリスキャン不要）。
+
+        Args:
+            symbol: Ticker symbol
+            date: Target date
+
+        Returns:
+            pl.DataFrame: Tick data with datetime, price, volume, amount, is_uptick columns.
+        """
+        date_str = date.strftime("%Y%m%d")
+        html_csv_path = self.data_dir / date_str / f"qr-{symbol}-{date_str}_html.csv"
+        df = self._read_html_csv(html_csv_path)
+        if df.is_empty():
+            return pl.DataFrame()
+        return df.with_columns(
+            pl.datetime(date.year, date.month, date.day,
+                        hour=pl.col("time").dt.hour(),
+                        minute=pl.col("time").dt.minute(),
+                        second=pl.col("time").dt.second()).alias("datetime")
+        ).select(["datetime", "price", "volume", "amount", "is_uptick"])
 
     def read_ohlc_impl(
         self,
