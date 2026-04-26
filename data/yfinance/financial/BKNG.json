@@ -884,6 +884,7 @@
         "Diluted NI Availto Com Stockholders": NaN,
         "Net Income Common Stockholders": NaN,
         "Net Income": NaN,
+        "Net Income Including Noncontrolling Interests": NaN,
         "Net Income Continuous Operations": NaN,
         "Tax Provision": NaN,
         "Pretax Income": NaN,
@@ -906,7 +907,7 @@
         "Other Gand A": NaN,
         "Salaries And Wages": NaN,
         "Total Revenue": NaN,
-        "Operating Revenue": NaN
+        "Operating Revenue": 7994000000.0
     },
     "2024-12-31": {
         "Tax Effect Of Unusual Items": 197575447.570332,
@@ -932,6 +933,7 @@
         "Diluted NI Availto Com Stockholders": 1068000000.0,
         "Net Income Common Stockholders": 1068000000.0,
         "Net Income": 1068000000.0,
+        "Net Income Including Noncontrolling Interests": 1068000000.0,
         "Net Income Continuous Operations": 1068000000.0,
         "Tax Provision": 496000000.0,
         "Pretax Income": 1564000000.0,
@@ -980,6 +982,7 @@
         "Diluted NI Availto Com Stockholders": 333000000.0,
         "Net Income Common Stockholders": 333000000.0,
         "Net Income": 333000000.0,
+        "Net Income Including Noncontrolling Interests": 333000000.0,
         "Net Income Continuous Operations": 333000000.0,
         "Tax Provision": 63000000.0,
         "Pretax Income": 396000000.0,
@@ -1006,7 +1009,7 @@
     },
     "2025-06-30": {
         "Tax Effect Of Unusual Items": -182952000.0,
-        "Tax Rate For Calcs": 0.189312,
+        "Tax Rate For Calcs": 0.189,
         "Normalized EBITDA": 2684000000.0,
         "Total Unusual Items": -968000000.0,
         "Total Unusual Items Excluding Goodwill": -968000000.0,
@@ -1028,6 +1031,7 @@
         "Diluted NI Availto Com Stockholders": 895000000.0,
         "Net Income Common Stockholders": 895000000.0,
         "Net Income": 895000000.0,
+        "Net Income Including Noncontrolling Interests": 895000000.0,
         "Net Income Continuous Operations": 895000000.0,
         "Tax Provision": 209000000.0,
         "Pretax Income": 1104000000.0,
@@ -1076,6 +1080,7 @@
         "Diluted NI Availto Com Stockholders": 2748000000.0,
         "Net Income Common Stockholders": 2748000000.0,
         "Net Income": 2748000000.0,
+        "Net Income Including Noncontrolling Interests": 2748000000.0,
         "Net Income Continuous Operations": 2748000000.0,
         "Tax Provision": 721000000.0,
         "Pretax Income": 3469000000.0,
@@ -1124,6 +1129,7 @@
         "Diluted NI Availto Com Stockholders": 1428000000.0,
         "Net Income Common Stockholders": 1428000000.0,
         "Net Income": 1428000000.0,
+        "Net Income Including Noncontrolling Interests": 1428000000.0,
         "Net Income Continuous Operations": 1428000000.0,
         "Tax Provision": 435000000.0,
         "Pretax Income": 1863000000.0,
@@ -1146,6 +1152,6 @@
         "Other Gand A": 262000000.0,
         "Salaries And Wages": 869000000.0,
         "Total Revenue": 6349000000.0,
-        "Operating Revenue": 6349000000.0
+        "Operating Revenue": NaN
     }
 }
