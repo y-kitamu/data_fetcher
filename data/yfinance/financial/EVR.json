@@ -797,7 +797,8 @@
         "Total Revenue": NaN,
         "Operating Revenue": NaN,
         "Occupancy And Equipment": NaN,
-        "Professional Expense And Contract Services Expense": NaN
+        "Professional Expense And Contract Services Expense": NaN,
+        "Other Non Interest Expense": 66083000.0
     },
     "2024-12-31": {
         "Tax Effect Of Unusual Items": 0.0,
@@ -811,10 +812,10 @@
         "Interest Income": 0.0,
         "Normalized Income": 140435000.0,
         "Net Income From Continuing And Discontinued Operation": 140435000.0,
-        "Diluted Average Shares": 42611000.0,
-        "Basic Average Shares": 38228000.0,
-        "Diluted EPS": 3.3,
-        "Basic EPS": 3.67,
+        "Diluted Average Shares": NaN,
+        "Basic Average Shares": NaN,
+        "Diluted EPS": NaN,
+        "Basic EPS": NaN,
         "Diluted NI Availto Com Stockholders": 140435000.0,
         "Average Dilution Earnings": NaN,
         "Net Income Common Stockholders": 140435000.0,
@@ -835,7 +836,8 @@
         "Total Revenue": 975332000.0,
         "Operating Revenue": 975332000.0,
         "Occupancy And Equipment": 24121000.0,
-        "Professional Expense And Contract Services Expense": 37906000.0
+        "Professional Expense And Contract Services Expense": 37906000.0,
+        "Other Non Interest Expense": NaN
     },
     "2025-03-31": {
         "Tax Effect Of Unusual Items": 0.0,
@@ -873,7 +875,8 @@
         "Total Revenue": 694829000.0,
         "Operating Revenue": 694829000.0,
         "Occupancy And Equipment": 25731000.0,
-        "Professional Expense And Contract Services Expense": 32613000.0
+        "Professional Expense And Contract Services Expense": 32613000.0,
+        "Other Non Interest Expense": NaN
     },
     "2025-06-30": {
         "Tax Effect Of Unusual Items": -479232.063967,
@@ -911,7 +914,8 @@
         "Total Revenue": 833830000.0,
         "Operating Revenue": 833830000.0,
         "Occupancy And Equipment": 26914000.0,
-        "Professional Expense And Contract Services Expense": 23133000.0
+        "Professional Expense And Contract Services Expense": 23133000.0,
+        "Other Non Interest Expense": NaN
     },
     "2025-09-30": {
         "Tax Effect Of Unusual Items": -967544.015316,
@@ -949,7 +953,8 @@
         "Total Revenue": 1038884000.0,
         "Operating Revenue": 1038884000.0,
         "Occupancy And Equipment": 27530000.0,
-        "Professional Expense And Contract Services Expense": 25672000.0
+        "Professional Expense And Contract Services Expense": 25672000.0,
+        "Other Non Interest Expense": NaN
     },
     "2025-12-31": {
         "Tax Effect Of Unusual Items": -1363396.981412,
@@ -987,6 +992,46 @@
         "Total Revenue": 1288277000.0,
         "Operating Revenue": 1288277000.0,
         "Occupancy And Equipment": 28609000.0,
-        "Professional Expense And Contract Services Expense": 31849000.0
+        "Professional Expense And Contract Services Expense": 31849000.0,
+        "Other Non Interest Expense": NaN
+    },
+    "2026-03-31": {
+        "Tax Effect Of Unusual Items": NaN,
+        "Tax Rate For Calcs": NaN,
+        "Total Unusual Items": NaN,
+        "Total Unusual Items Excluding Goodwill": NaN,
+        "Net Income From Continuing Operation Net Minority Interest": NaN,
+        "Reconciled Depreciation": NaN,
+        "Net Interest Income": NaN,
+        "Interest Expense": NaN,
+        "Interest Income": NaN,
+        "Normalized Income": NaN,
+        "Net Income From Continuing And Discontinued Operation": NaN,
+        "Diluted Average Shares": 41850000.0,
+        "Basic Average Shares": 38969000.0,
+        "Diluted EPS": 7.2,
+        "Basic EPS": 7.73,
+        "Diluted NI Availto Com Stockholders": NaN,
+        "Average Dilution Earnings": NaN,
+        "Net Income Common Stockholders": NaN,
+        "Net Income": NaN,
+        "Minority Interests": NaN,
+        "Net Income Including Noncontrolling Interests": NaN,
+        "Net Income Continuous Operations": NaN,
+        "Tax Provision": NaN,
+        "Pretax Income": NaN,
+        "Special Income Charges": NaN,
+        "Other Special Charges": NaN,
+        "Restructuring And Mergern Acquisition": NaN,
+        "Depreciation Amortization Depletion Income Statement": NaN,
+        "Depreciation And Amortization In Income Statement": NaN,
+        "Selling General And Administration": NaN,
+        "General And Administrative Expense": NaN,
+        "Salaries And Wages": NaN,
+        "Total Revenue": NaN,
+        "Operating Revenue": NaN,
+        "Occupancy And Equipment": NaN,
+        "Professional Expense And Contract Services Expense": NaN,
+        "Other Non Interest Expense": NaN
     }
 }
