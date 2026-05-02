@@ -525,8 +525,8 @@
         "Operating Revenue": NaN
     },
     "2025-03-31": {
-        "Tax Effect Of Unusual Items": 13187096.774194,
-        "Tax Rate For Calcs": 0.180645,
+        "Tax Effect Of Unusual Items": 13213000.0,
+        "Tax Rate For Calcs": 0.181,
         "Normalized EBITDA": 3602000000.0,
         "Total Unusual Items": 73000000.0,
         "Total Unusual Items Excluding Goodwill": 73000000.0,
@@ -537,7 +537,7 @@
         "EBIT": 2264000000.0,
         "Net Interest Income": -714000000.0,
         "Interest Expense": 714000000.0,
-        "Normalized Income": 1274187096.774194,
+        "Normalized Income": 1274213000.0,
         "Net Income From Continuing And Discontinued Operation": 1334000000.0,
         "Total Expenses": 5765000000.0,
         "Total Operating Income As Reported": 2010000000.0,
@@ -635,7 +635,7 @@
         "Net Income From Continuing And Discontinued Operation": 1711000000.0,
         "Total Expenses": 5229000000.0,
         "Total Operating Income As Reported": 2594000000.0,
-        "Diluted Average Shares": 1111038961.0,
+        "Diluted Average Shares": 1110000000.0,
         "Basic Average Shares": 1102000000.0,
         "Diluted EPS": 1.54,
         "Basic EPS": 1.55,
@@ -713,8 +713,8 @@
         "Operating Revenue": 6671000000.0
     },
     "2026-03-31": {
-        "Tax Effect Of Unusual Items": 17616858.237548,
-        "Tax Rate For Calcs": 0.145594,
+        "Tax Effect Of Unusual Items": 17545000.0,
+        "Tax Rate For Calcs": 0.145,
         "Normalized EBITDA": 3803000000.0,
         "Total Unusual Items": 121000000.0,
         "Total Unusual Items Excluding Goodwill": 121000000.0,
@@ -725,7 +725,7 @@
         "EBIT": 2344000000.0,
         "Net Interest Income": -778000000.0,
         "Interest Expense": 778000000.0,
-        "Normalized Income": 1252616858.237548,
+        "Normalized Income": 1252545000.0,
         "Net Income From Continuing And Discontinued Operation": 1356000000.0,
         "Total Expenses": 6379000000.0,
         "Total Operating Income As Reported": 2018000000.0,
