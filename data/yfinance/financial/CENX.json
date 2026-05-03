@@ -1146,7 +1146,7 @@
         "Diluted EPS": 0.02,
         "Basic EPS": 0.02,
         "Diluted NI Availto Com Stockholders": 2000000.0,
-        "Average Dilution Earnings": NaN,
+        "Average Dilution Earnings": 0.0,
         "Net Income Common Stockholders": 2000000.0,
         "Otherunder Preferred Stock Dividend": -200000.0,
         "Net Income": 1800000.0,
