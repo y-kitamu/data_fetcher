@@ -1080,7 +1080,7 @@
         "Operating Income": 114800000.0,
         "Operating Expense": 194500000.0,
         "Selling General And Administration": 194500000.0,
-        "Gross Profit": 309300000.0,
+        "Gross Profit": NaN,
         "Cost Of Revenue": 315800000.0,
         "Total Revenue": 625100000.0,
         "Operating Revenue": 625100000.0
