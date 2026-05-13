@@ -432,7 +432,7 @@
         "Other Gand A": NaN,
         "Gross Profit": NaN,
         "Cost Of Revenue": NaN,
-        "Total Revenue": 5441142.0,
+        "Total Revenue": NaN,
         "Operating Revenue": NaN
     },
     "2024-12-31": {
@@ -672,7 +672,7 @@
         "Other Gand A": 1467862.0,
         "Gross Profit": 5003067.0,
         "Cost Of Revenue": 853744.0,
-        "Total Revenue": NaN,
+        "Total Revenue": 5856811.0,
         "Operating Revenue": 5856811.0
     }
 }
