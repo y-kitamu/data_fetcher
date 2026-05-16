@@ -782,3 +782,14 @@ operating_income,2024-10-01,2025-09-30,jppfs_cor:OperatingIncome,CurrentYearDura
 operating_income,2024-10-01,2025-09-30,jppfs_cor:OperatingIncome,CurrentYearDuration_NonConsolidatedMember_TotalOfReportableSegmentsAndOthersMember,119222000,202512231026
 operating_income,2024-10-01,2025-09-30,jppfs_cor:OperatingIncome,CurrentYearDuration_NonConsolidatedMember_ReconcilingItemsMember,-217272000,202512231026
 operating_income,2024-10-01,2025-09-30,jppfs_cor:OperatingIncome,CurrentYearDuration_NonConsolidatedMember,-98050000,202512231026
+net_sales,2025-10-01,2026-09-30,jpcrp_cor:NetSalesSummaryOfBusinessResults,InterimDuration,923143000,202605151305
+ordinary_income,2025-10-01,2026-09-30,jpcrp_cor:OrdinaryIncomeLossSummaryOfBusinessResults,InterimDuration,-90330000,202605151305
+net_asset,2025-10-01,2026-09-30,jpcrp_cor:NetAssetsSummaryOfBusinessResults,InterimInstant,1067007000,202605151305
+total_asset,2025-10-01,2026-09-30,jpcrp_cor:TotalAssetsSummaryOfBusinessResults,InterimInstant,1566251000,202605151305
+eps,2025-10-01,2026-09-30,jpcrp_cor:BasicEarningsLossPerShareSummaryOfBusinessResults,InterimDuration,-23.52,202605151305
+diluted_eps,2025-10-01,2026-09-30,jpcrp_cor:DilutedEarningsPerShareSummaryOfBusinessResults,InterimDuration,－,202605151305
+equity_ratio,2025-10-01,2026-09-30,jpcrp_cor:EquityToAssetRatioSummaryOfBusinessResults,InterimInstant,0.681,202605151305
+cost_of_sales,2025-10-01,2026-09-30,jppfs_cor:CostOfSales,InterimDuration,623079000,202605151305
+gross_profit,2025-10-01,2026-09-30,jppfs_cor:GrossProfit,InterimDuration,300064000,202605151305
+operating_income,2025-10-01,2026-09-30,jppfs_cor:OperatingIncome,InterimDuration,-81555000,202605151305
+operating_income,2025-10-01,2026-09-30,jppfs_cor:OperatingIncome,InterimDuration,-81555000,202605151305
