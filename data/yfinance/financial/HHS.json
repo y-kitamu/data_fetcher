@@ -927,7 +927,6 @@
         "Salaries And Wages": NaN,
         "Gross Profit": NaN,
         "Cost Of Revenue": NaN,
-        "Total Revenue": NaN,
         "Operating Revenue": NaN
     },
     "2024-12-31": {
@@ -975,7 +974,6 @@
         "Salaries And Wages": 23426000.0,
         "Gross Profit": 32335000.0,
         "Cost Of Revenue": 14794000.0,
-        "Total Revenue": 47129000.0,
         "Operating Revenue": 47129000.0
     },
     "2025-03-31": {
@@ -1023,7 +1021,6 @@
         "Salaries And Wages": 19799000.0,
         "Gross Profit": 27504000.0,
         "Cost Of Revenue": 14057000.0,
-        "Total Revenue": 41561000.0,
         "Operating Revenue": 41561000.0
     },
     "2025-06-30": {
@@ -1071,7 +1068,6 @@
         "Salaries And Wages": 19445000.0,
         "Gross Profit": 26231000.0,
         "Cost Of Revenue": 12400000.0,
-        "Total Revenue": 38631000.0,
         "Operating Revenue": 38631000.0
     },
     "2025-09-30": {
@@ -1119,7 +1115,6 @@
         "Salaries And Wages": 20382000.0,
         "Gross Profit": 27796000.0,
         "Cost Of Revenue": 11724000.0,
-        "Total Revenue": 39520000.0,
         "Operating Revenue": 39520000.0
     },
     "2025-12-31": {
@@ -1167,7 +1162,6 @@
         "Salaries And Wages": 21197000.0,
         "Gross Profit": 28141000.0,
         "Cost Of Revenue": 11717000.0,
-        "Total Revenue": 39858000.0,
         "Operating Revenue": 39858000.0
     }
 }
