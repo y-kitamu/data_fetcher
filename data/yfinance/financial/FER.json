@@ -104,8 +104,8 @@
         "Impairment Of Capital Assets": 0.0,
         "Operating Income": NaN,
         "Depreciation Income Statement": 123000000.0,
-        "Total Revenue": 2376000000.0,
-        "Operating Revenue": 2376000000.0
+        "Total Revenue": NaN,
+        "Operating Revenue": NaN
     },
     "2024-06-30": {
         "Tax Effect Of Unusual Items": NaN,
@@ -160,5 +160,32 @@
         "Depreciation Income Statement": NaN,
         "Total Revenue": 2716000000.0,
         "Operating Revenue": 2566000000.0
+    },
+    "2026-03-31": {
+        "Tax Effect Of Unusual Items": NaN,
+        "Tax Rate For Calcs": NaN,
+        "Normalized EBITDA": 197000000.0,
+        "Net Income From Continuing Operation Net Minority Interest": NaN,
+        "EBITDA": 197000000.0,
+        "EBIT": 197000000.0,
+        "Normalized Income": NaN,
+        "Net Income From Continuing And Discontinued Operation": NaN,
+        "Total Operating Income As Reported": 197000000.0,
+        "Diluted Average Shares": 717735287.0,
+        "Basic Average Shares": 717735287.0,
+        "Diluted EPS": NaN,
+        "Basic EPS": NaN,
+        "Diluted NI Availto Com Stockholders": NaN,
+        "Net Income Common Stockholders": NaN,
+        "Net Income": NaN,
+        "Net Income Including Noncontrolling Interests": NaN,
+        "Net Income Continuous Operations": NaN,
+        "Pretax Income": NaN,
+        "Special Income Charges": -1000000.0,
+        "Impairment Of Capital Assets": NaN,
+        "Operating Income": 197000000.0,
+        "Depreciation Income Statement": 123000000.0,
+        "Total Revenue": 2098000000.0,
+        "Operating Revenue": 2098000000.0
     }
 }
