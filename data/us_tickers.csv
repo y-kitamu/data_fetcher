@@ -72,6 +72,7 @@ ADSE,ADS TEC ENERGY,ADSテック・エナジー,NASDAQ,自動車,○
 ADSK,AUTODESK.INC.,オートデスク,NASDAQ,その他,○
 ADT,ADT INC,ADT,NYSE,ソフトウェア・サービス,○
 ADTN,ADTRAN HOLDINGS,アドトラン・ホールディングス,NASDAQ,通信機器,○
+ADTX,ADITXT INC,アディトクス,NASDAQ,ヘルスケア,○
 ADUS,ADDUS HOMECARE,アダス・ホームケア,NASDAQ,ヘルスケア,○
 ADV,ADVANTAGE SOLN,アドバンテージ・ソリューションズ,NASDAQ,ソフトウェア・サービス,○
 ADXN,ADDEX THERAPE,アデックス・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
@@ -1157,7 +1158,7 @@ DLTH,DULUTH HOLDINGS,ダルース・ホールディングス,NASDAQ,小売,○
 DLTR,DOLLAR TREE INC,ダラー・ツリー,NASDAQ,小売,○
 DLX,DELUXE CORP,デラックス,NYSE,その他,○
 DMRA,DAMORA THERAPTX,ダモラ・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
-DMRC,DIGIMARC CORP,デジマーク,NASDAQ,ソフトウェア・サービス,○
+DMRC,DIGIMARC PARENT,デジマーク,NASDAQ,ソフトウェア・サービス,○
 DNA,GINKGO BIOWORKS,ギンコ・バイオワークス・ホールディングス,NYSE,ヘルスケア,○
 DNLI,DENALI THERAPEUT,デナリ・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 DNN,DENISON MINES,デニソン・マインズ,NYSE,その他,○
@@ -2234,7 +2235,6 @@ KEX,KIRBY CORP,カービー,NYSE,運輸,○
 KEY,KEYCORP,キーコープ,NYSE,金融（銀行）,○
 KEYS,KEYSIGHT TECH,キイサイト・テクノロジー,NYSE,周辺機器,○
 KFRC,KFORCE INC,Kフォース,NYSE,ソフトウェア・サービス,○
-KFS,KINGSWAY FIN SRV,キングズウェイ・ファイナンシャル・サービシズ,NYSE,金融(保険),○
 KFY,KORN FERRY,コーン・フェリー,NYSE,ソフトウェア・サービス,○
 KG,KESTREL GROUP,ケストレル・グループ,NASDAQ,金融(保険),○
 KGC,KINROSS GOLD,キンロス・ゴールド,NYSE,その他,○
@@ -2311,6 +2311,7 @@ KVYO,KLAVIYO INC,クラビヨ,NYSE,情報処理サービス,○
 KW,KENNEDY-WILSON,ケネディ・ウィルソン・ホールディングス,NYSE,その他,○
 KWEB,KRS CSI CH NET,KraneShares CSI チャイナ・インターネットETF,NYSE,その他,○
 KWR,QUAKER HOUGHTON,クエーカー・ホートン,NYSE,化学,○
+KWY,KINGSWAY CORP,キングスウェイコーポレーション,NYSE,金融(保険),○
 KXI,ISHARES CONS STA,iシェアーズ グローバル生活必需品 ETF,NYSE,その他,○
 KXIN,KAIXIN HOLDINGS,カイシン・ホールディングス,NASDAQ,小売,○
 KYIV,KYIVSTAR GROUP,キーウスター,NASDAQ,通信サービス,○
@@ -2526,7 +2527,6 @@ MCK,MCKESSON CORP,マケッソン,NYSE,ヘルスケア,○
 MCO,MOODYS CORP,ムーディーズ,NYSE,その他,○
 MCRI,MONARCH CNO RSRT,モナーク・カジノ＆リゾート,NASDAQ,エンターテイメント,○
 MCS,THE MARCUS CORP,マーカス,NYSE,エンターテイメント,○
-MCW,MISTER CAR WASH,ミスター・カー・ウォッシュ,NASDAQ,その他,○
 MCY,MERCURY GENERAL,マーキュリー・ゼネラル,NYSE,金融(保険),○
 MD,PEDIATRIX MEDICL,ペディアトリックス・メディカル・グループ,NYSE,医療サービス,○
 MDB,MONGODB INC,モンゴDB,NASDAQ,ソフトウェア・サービス,○
@@ -3372,6 +3372,7 @@ REPL,REPLIMUNE GROUP,レプリミューン,NASDAQ,医薬品（バイオテクノ
 REPX,RILEY EXPLRTION,ライリー・エクスプロレーション・パーミアン,NYSE,石油,○
 RERE,ATRENEW INC,ATリニュー,NYSE,その他,○
 RES,RPC INC,RPC,NYSE,石油,○
+RETO,RETO ECOSOLUTION,レト・エコソリューションズ,NASDAQ,その他製造,○
 REX,REX AMCAN RES CO,REXアメリカン・リソーシズ,NYSE,その他,○
 REYN,REYNOLDS CONSUMR,レイノルズ・コンシューマー・プロダクツ,NASDAQ,その他製造,○
 REZI,RESIDEO TECH,レジデオ・テクノロジーズ,NYSE,その他製造,○
