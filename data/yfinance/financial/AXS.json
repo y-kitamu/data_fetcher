@@ -1048,8 +1048,8 @@
         "Net Policyholder Benefits And Claims": 859427000.0
     },
     "2026-03-31": {
-        "Tax Effect Of Unusual Items": -4195822.744635,
-        "Tax Rate For Calcs": 0.181104,
+        "Tax Effect Of Unusual Items": -4170240.0,
+        "Tax Rate For Calcs": 0.18,
         "Total Unusual Items": -23168000.0,
         "Total Unusual Items Excluding Goodwill": -23168000.0,
         "Net Income From Continuing Operation Net Minority Interest": 254767000.0,
@@ -1057,7 +1057,7 @@
         "EBIT": 324569000.0,
         "Net Interest Income": -16426000.0,
         "Interest Expense": 16426000.0,
-        "Normalized Income": 273739177.255365,
+        "Normalized Income": 273764760.0,
         "Net Income From Continuing And Discontinued Operation": 254767000.0,
         "Total Expenses": 1372534000.0,
         "Diluted Average Shares": 75153000.0,

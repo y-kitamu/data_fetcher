@@ -637,8 +637,8 @@
         "Operating Revenue": NaN
     },
     "2025-03-31": {
-        "Tax Effect Of Unusual Items": 933333.333333,
-        "Tax Rate For Calcs": 0.333333,
+        "Tax Effect Of Unusual Items": 932400.0,
+        "Tax Rate For Calcs": 0.333,
         "Normalized EBITDA": 44000000.0,
         "Total Unusual Items": 2800000.0,
         "Total Unusual Items Excluding Goodwill": 2800000.0,
@@ -650,7 +650,7 @@
         "Net Interest Income": -10600000.0,
         "Interest Expense": 12500000.0,
         "Interest Income": 1900000.0,
-        "Normalized Income": -1566666.666667,
+        "Normalized Income": -1567600.0,
         "Net Income From Continuing And Discontinued Operation": 300000.0,
         "Total Expenses": 193300000.0,
         "Total Operating Income As Reported": 8700000.0,
@@ -750,7 +750,7 @@
         "Net Income From Continuing And Discontinued Operation": 2900000.0,
         "Total Expenses": 215700000.0,
         "Total Operating Income As Reported": 7400000.0,
-        "Diluted Average Shares": 224583000.0,
+        "Diluted Average Shares": 255662000.0,
         "Basic Average Shares": 224583000.0,
         "Diluted EPS": 0.01,
         "Basic EPS": 0.01,
@@ -829,8 +829,8 @@
         "Operating Revenue": 277400000.0
     },
     "2026-03-31": {
-        "Tax Effect Of Unusual Items": -1280769.230769,
-        "Tax Rate For Calcs": 0.346154,
+        "Tax Effect Of Unusual Items": -1280200.0,
+        "Tax Rate For Calcs": 0.346,
         "Normalized EBITDA": 47700000.0,
         "Total Unusual Items": -3700000.0,
         "Total Unusual Items Excluding Goodwill": -3700000.0,
@@ -842,7 +842,7 @@
         "Net Interest Income": -5000000.0,
         "Interest Expense": 8400000.0,
         "Interest Income": 3400000.0,
-        "Normalized Income": -980769.230769,
+        "Normalized Income": -980200.0,
         "Net Income From Continuing And Discontinued Operation": -3400000.0,
         "Total Expenses": 253900000.0,
         "Total Operating Income As Reported": 3700000.0,
