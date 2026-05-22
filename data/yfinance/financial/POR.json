@@ -949,8 +949,8 @@
         "Operating Revenue": NaN
     },
     "2025-03-31": {
-        "Tax Effect Of Unusual Items": 901639.344262,
-        "Tax Rate For Calcs": 0.180328,
+        "Tax Effect Of Unusual Items": 900000.0,
+        "Tax Rate For Calcs": 0.18,
         "Normalized EBITDA": 313000000.0,
         "Total Unusual Items": 5000000.0,
         "Total Unusual Items Excluding Goodwill": 5000000.0,
@@ -961,7 +961,7 @@
         "EBIT": 178000000.0,
         "Net Interest Income": -56000000.0,
         "Interest Expense": 56000000.0,
-        "Normalized Income": 95901639.344262,
+        "Normalized Income": 95900000.0,
         "Net Income From Continuing And Discontinued Operation": 100000000.0,
         "Total Expenses": 760000000.0,
         "Total Operating Income As Reported": 168000000.0,
@@ -1124,7 +1124,7 @@
         "Net Non Operating Interest Income Expense": -59000000.0,
         "Interest Expense Non Operating": 59000000.0,
         "Operating Income": 95000000.0,
-        "Operating Expense": 303000000.0,
+        "Operating Expense": NaN,
         "Other Taxes": 51000000.0,
         "Depreciation Amortization Depletion Income Statement": 151000000.0,
         "Depreciation And Amortization In Income Statement": 151000000.0,
@@ -1137,8 +1137,8 @@
         "Operating Revenue": 857000000.0
     },
     "2026-03-31": {
-        "Tax Effect Of Unusual Items": 500000.0,
-        "Tax Rate For Calcs": 0.166667,
+        "Tax Effect Of Unusual Items": 501000.0,
+        "Tax Rate For Calcs": 0.167,
         "Normalized EBITDA": 255000000.0,
         "Total Unusual Items": 3000000.0,
         "Total Unusual Items Excluding Goodwill": 3000000.0,
@@ -1149,7 +1149,7 @@
         "EBIT": 114000000.0,
         "Net Interest Income": -60000000.0,
         "Interest Expense": 60000000.0,
-        "Normalized Income": 42500000.0,
+        "Normalized Income": 42501000.0,
         "Net Income From Continuing And Discontinued Operation": 45000000.0,
         "Total Expenses": 772000000.0,
         "Total Operating Income As Reported": 107000000.0,

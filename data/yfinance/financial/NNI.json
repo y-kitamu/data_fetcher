@@ -872,7 +872,7 @@
     },
     "2025-06-30": {
         "Tax Effect Of Unusual Items": 41924051.0,
-        "Tax Rate For Calcs": 0.250712,
+        "Tax Rate For Calcs": 0.247,
         "Total Unusual Items": 169733000.0,
         "Total Unusual Items Excluding Goodwill": 169733000.0,
         "Net Income From Continuing Operation Net Minority Interest": 181459000.0,
@@ -897,8 +897,8 @@
         "Pretax Income": 237364000.0,
         "Special Income Charges": 169733000.0,
         "Gain On Sale Of Business": 175044000.0,
-        "Write Off": 10288000.0,
-        "Impairment Of Capital Assets": NaN,
+        "Write Off": 140000.0,
+        "Impairment Of Capital Assets": 5171000.0,
         "Gain On Sale Of Security": 5236000.0,
         "Depreciation Amortization Depletion Income Statement": 7624000.0,
         "Depreciation And Amortization In Income Statement": 7624000.0,
@@ -992,7 +992,7 @@
     },
     "2026-03-31": {
         "Tax Effect Of Unusual Items": 0.0,
-        "Tax Rate For Calcs": 0.265143,
+        "Tax Rate For Calcs": 0.22,
         "Total Unusual Items": NaN,
         "Total Unusual Items Excluding Goodwill": NaN,
         "Net Income From Continuing Operation Net Minority Interest": 71126000.0,
