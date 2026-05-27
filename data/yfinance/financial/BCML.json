@@ -852,7 +852,7 @@
     },
     "2025-03-31": {
         "Tax Effect Of Unusual Items": 0.0,
-        "Tax Rate For Calcs": 0.258421,
+        "Tax Rate For Calcs": 0.258,
         "Net Income From Continuing Operation Net Minority Interest": 5702000.0,
         "Reconciled Depreciation": 733000.0,
         "Net Interest Income": 22486000.0,
@@ -1000,7 +1000,7 @@
     },
     "2026-03-31": {
         "Tax Effect Of Unusual Items": 0.0,
-        "Tax Rate For Calcs": 0.249885,
+        "Tax Rate For Calcs": 0.25,
         "Net Income From Continuing Operation Net Minority Interest": 8180000.0,
         "Reconciled Depreciation": 600000.0,
         "Net Interest Income": 24492000.0,

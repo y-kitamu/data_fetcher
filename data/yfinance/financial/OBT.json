@@ -515,7 +515,7 @@
     },
     "2025-03-31": {
         "Tax Effect Of Unusual Items": 0.0,
-        "Tax Rate For Calcs": 0.228916,
+        "Tax Rate For Calcs": 0.229,
         "Total Unusual Items": NaN,
         "Total Unusual Items Excluding Goodwill": NaN,
         "Net Income From Continuing Operation Net Minority Interest": 8704000.0,
@@ -671,7 +671,7 @@
     },
     "2026-03-31": {
         "Tax Effect Of Unusual Items": 0.0,
-        "Tax Rate For Calcs": 0.226594,
+        "Tax Rate For Calcs": 0.227,
         "Total Unusual Items": NaN,
         "Total Unusual Items Excluding Goodwill": NaN,
         "Net Income From Continuing Operation Net Minority Interest": 11284000.0,
