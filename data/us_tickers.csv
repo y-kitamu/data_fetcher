@@ -102,7 +102,6 @@ AFRM,AFFIRM HOLDINGS,アファーム・ホールディングス,NASDAQ,ソフト
 AFRU,REX 2X LONG AFRM,T-REX 2X・ロング・AFRM・ デイリーターゲットETF,Cboe,その他,○
 AFYA,AFYA LIMITED,アフヤ,NASDAQ,ソフトウェア・サービス,○
 AG,1ST MAJESTC SLVR,ファースト・マジェスティック・シルバー,NYSE,その他製造,○
-AGAE,ALLIED GAMING ET,アライド・ゲーミング・アンド・エンターテイメント,NASDAQ,エンターテイメント,○
 AGBK,AGI INC,エイジーアイ,NYSE,金融（銀行）,○
 AGCO,AGCO CORPORATION,アグコ,NYSE,機械,○
 AGEN,AGENUS INC,アジェナス,NASDAQ,医薬品（バイオテクノロジー）,○
@@ -122,6 +121,7 @@ AGX,ARGAN INC,アルガン,NYSE,電力,○
 AGYS,AGILYSYS INC,アジリシス,NASDAQ,ソフトウェア・サービス,○
 AHCO,ADAPTHEALTH CORP,アダプトヘルス,NASDAQ,医療サービス,○
 AI,C3 AI,シースリー・エーアイ,NYSE,ソフトウェア・サービス,○
+AIFA,ALL IN FUTURE,オール・イン・フューチャーテック・アライアンス・インク,NASDAQ,エンターテイメント,○
 AIFC,AI FINANCIAL CO,AIファイナンシャル・コーポレーション,NASDAQ,医薬品（バイオテクノロジー）,○
 AIG,AMERICAN INTER,AIG,NYSE,金融(保険),○
 AII,AME INTEG INSURA,アメリカン・インテグリティ・インシュアランス・グループ,NYSE,金融(保険),○
@@ -2799,7 +2799,7 @@ NKE,NIKE INC CL B,ナイキ,NYSE,フットウエア,○
 NKSH,NATIONAL BANK,ナショナル・バンクシェアズ,NASDAQ,金融（銀行）,○
 NKTR,NEKTAR THERAPEUT,ネクター・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 NKTX,NKARTA INC,ンカルタ,NASDAQ,医薬品（バイオテクノロジー）,○
-NL,NL INDUSTRIES,NLインダストリーズ,NYSE,その他製造,○
+NL,NLI HOLDINGS,NLI ホールディングス,NYSE,その他製造,○
 NLR,V URANIUM NL ETF,ヴァンエック・ウラン・アンド・原子力エネルギーETF,NYSE,その他,○
 NMAX,NEWSMAX INC,ニュースマックス,NYSE,その他,○
 NMG,NOUVEAU MONDE,ヌーボー・モンド・グラファイト,NYSE,その他製造,○
@@ -3535,7 +3535,6 @@ SD,SANDRIDGE ENERGY,サンドリッジ・エナジー,NYSE,ガス・パイプラ
 SDA,SUNCAR TECHNOLOG,サンカー・テクノロジー・グループ,NASDAQ,情報処理サービス,○
 SDGR,SCHRODINGER INC,シュレーディンガー,NASDAQ,ソフトウェア・サービス,○
 SDIV,GLX SUPERDVD ETF,グローバルX スーパーディビィデンド-世界株式 ETF,NYSE,その他,○
-SDOT,SADOT GROUP INC,サドット・グループ,NASDAQ,外食,○
 SDOW,PROS DOW30 -3X,プロシェアーズ・ウルトラプロ・ショート・ダウ30,NYSE,その他,○
 SDRL,SEADRILL LTD,シードリル,NYSE,石油,○
 SDS,PROS U SHT SP500,プロシェアーズ・ウルトラショート S&P500,NYSE,その他,○
