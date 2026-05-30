@@ -581,3 +581,15 @@ gross_profit,2024-12-01,2025-11-28,jppfs_cor:GrossProfit,Prior1InterimDuration_N
 gross_profit,2025-03-01,2026-02-28,jppfs_cor:GrossProfit,InterimDuration_NonConsolidatedMember,19976000,202511271455
 operating_income,2024-12-01,2025-11-28,jppfs_cor:OperatingIncome,Prior1InterimDuration_NonConsolidatedMember,-158916000,202511271455
 operating_income,2025-03-01,2026-02-28,jppfs_cor:OperatingIncome,InterimDuration_NonConsolidatedMember,-275106000,202511271455
+net_sales,2025-03-01,2026-02-28,jpcrp_cor:NetSalesSummaryOfBusinessResults,CurrentYearDuration_NonConsolidatedMember,110772000,202605291130
+net_income,2025-03-01,2026-02-28,jpcrp_cor:NetIncomeLossSummaryOfBusinessResults,CurrentYearDuration_NonConsolidatedMember,-460874000,202605291130
+comprehensive_income,2025-03-01,2026-02-28,jpcrp_cor:NetIncomeLossSummaryOfBusinessResults,CurrentYearDuration_NonConsolidatedMember,-460874000,202605291130
+net_asset,2025-03-01,2026-02-28,jpcrp_cor:NetAssetsSummaryOfBusinessResults,CurrentYearInstant_NonConsolidatedMember,-201147000,202605291130
+total_asset,2025-03-01,2026-02-28,jpcrp_cor:TotalAssetsSummaryOfBusinessResults,CurrentYearInstant_NonConsolidatedMember,248943000,202605291130
+eps,2025-03-01,2026-02-28,jpcrp_cor:BasicEarningsLossPerShareSummaryOfBusinessResults,CurrentYearDuration_NonConsolidatedMember,-317.40,202605291130
+cost_of_sales,2024-03-01,2025-02-28,jppfs_cor:CostOfSales,Prior1YearDuration_NonConsolidatedMember,48404000,202605291130
+cost_of_sales,2025-03-01,2026-02-28,jppfs_cor:CostOfSales,CurrentYearDuration_NonConsolidatedMember,38100000,202605291130
+gross_profit,2024-03-01,2025-02-28,jppfs_cor:GrossProfit,Prior1YearDuration_NonConsolidatedMember,108932000,202605291130
+gross_profit,2025-03-01,2026-02-28,jppfs_cor:GrossProfit,CurrentYearDuration_NonConsolidatedMember,72672000,202605291130
+operating_income,2024-03-01,2025-02-28,jppfs_cor:OperatingIncome,Prior1YearDuration_NonConsolidatedMember,-482997000,202605291130
+operating_income,2025-03-01,2026-02-28,jppfs_cor:OperatingIncome,CurrentYearDuration_NonConsolidatedMember,-440554000,202605291130
