@@ -3,6 +3,7 @@
 """
 
 import csv
+import datetime
 from pathlib import Path
 
 import requests
@@ -60,7 +61,11 @@ def update_themes_csv():
         response = session.get(url)
         ticker_themes.append([ticker, extract_themes(response.text)])
 
-    output_file = data_fetcher.constants.PROJECT_ROOT / "data/jp_ticker_themes.csv"
+    date_str = datetime.datetime.now().strftime("%Y%m%d")
+    output_file = (
+        data_fetcher.constants.PROJECT_ROOT / f"data/jp_ticker_themes/{date_str}.csv"
+    )
+    output_file.parent.mkdir(exist_ok=True, parents=True)
     with open(output_file, "w", encoding="utf-8") as f:
         writer = csv.writer(f)
         writer.writerow(["ticker", "themes"])
