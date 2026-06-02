@@ -1,45 +1,58 @@
-from .schema import TaxonomyElement
+from pydantic import BaseModel
+
+
+class TmpTaxonomy(BaseModel):
+    element_id: str
+    namespace: str
+    japanese_label: str
+    english_label: str
+    period_type: str
+
+    @property
+    def full_element_id(self) -> str:
+        return f"{self.namespace}.{self.element_id}"
+
 
 taxonomy_groups = {
     "cash_and_equivalents": [
-        # TaxonomyElement(
-        #     japanese_label="現金及び現金同等物期末残高",
-        #     english_label="Cash and equivalents, end of period",
-        #     namespace="tse-ed-t",
-        #     element_id="CashAndEquivalentsEndOfPeriod",
-        #     period_type="instant",
-        # ),
-        TaxonomyElement(
+        TmpTaxonomy(
+            japanese_label="現金及び現金同等物期末残高",
+            english_label="Cash and equivalents, end of period",
+            namespace="tse-ed-t",
+            element_id="CashAndEquivalentsEndOfPeriod",
+            period_type="instant",
+        ),
+        TmpTaxonomy(
             japanese_label="現金及び預金",
             english_label="Cash and deposits",
             namespace="jppfs_cor",
             element_id="CashAndDeposits",
             period_type="instant",
         ),
-        # TaxonomyElement(
-        #     japanese_label="現金及び現金同等物（IFRS）",
-        #     english_label="Cash and cash equivalents (IFRS)",
-        #     namespace="jpigp_cor",
-        #     element_id="CashAndCashEquivalentsIFRS",
-        #     period_type="instant",
-        # ),
-        # TaxonomyElement(
-        #     japanese_label="現金及び現金同等物期末残高、米国基準",
-        #     english_label="Cash and equivalents, end of period-US",
-        #     namespace="tse-ed-t",
-        #     element_id="CashAndEquivalentsEndOfPeriodUS",
-        #     period_type="instant",
-        # ),
+        TmpTaxonomy(
+            japanese_label="現金及び現金同等物（IFRS）",
+            english_label="Cash and cash equivalents (IFRS)",
+            namespace="jpigp_cor",
+            element_id="CashAndCashEquivalentsIFRS",
+            period_type="instant",
+        ),
+        TmpTaxonomy(
+            japanese_label="現金及び現金同等物期末残高、米国基準",
+            english_label="Cash and equivalents, end of period-US",
+            namespace="tse-ed-t",
+            element_id="CashAndEquivalentsEndOfPeriodUS",
+            period_type="instant",
+        ),
     ],
     "receivables": [
-        TaxonomyElement(
+        TmpTaxonomy(
             japanese_label="受取手形",
             english_label="Notes receivable-trade",
             namespace="jppfs_cor",
             element_id="NotesReceivableTrade",
             period_type="instant",
         ),
-        TaxonomyElement(
+        TmpTaxonomy(
             japanese_label="売掛金及びその他の債権、資産（IFRS）",
             english_label="Trade and other receivables - 3 - Assets (IFRS)",
             namespace="jpigp_cor",
@@ -48,14 +61,14 @@ taxonomy_groups = {
         ),
     ],
     "inventory": [
-        TaxonomyElement(
+        TmpTaxonomy(
             japanese_label="棚卸資産、流動資産（IFRS）",
             english_label="Inventories - CA (IFRS)",
             namespace="jpigp_cor",
             element_id="InventoriesCAIFRS",
             period_type="instant",
         ),
-        TaxonomyElement(
+        TmpTaxonomy(
             japanese_label="棚卸資産",
             english_label="Inventories",
             namespace="jppfs_cor",
@@ -64,14 +77,14 @@ taxonomy_groups = {
         ),
     ],
     "current_assets": [
-        TaxonomyElement(
+        TmpTaxonomy(
             japanese_label="流動資産（IFRS）",
             english_label="Current assets (IFRS)",
             namespace="jpigp_cor",
             element_id="CurrentAssetsIFRS",
             period_type="instant",
         ),
-        TaxonomyElement(
+        TmpTaxonomy(
             japanese_label="流動資産",
             english_label="Current assets",
             namespace="jppfs_cor",
@@ -80,14 +93,14 @@ taxonomy_groups = {
         ),
     ],
     "ppe": [
-        TaxonomyElement(
+        TmpTaxonomy(
             japanese_label="有形固定資産",
             english_label="Property, plant and equipment",
             namespace="jppfs_cor",
             element_id="PropertyPlantAndEquipment",
             period_type="instant",
         ),
-        TaxonomyElement(
+        TmpTaxonomy(
             japanese_label="有形固定資産（IFRS）",
             english_label="Property, plant and equipment (IFRS)",
             namespace="jpigp_cor",
@@ -96,14 +109,14 @@ taxonomy_groups = {
         ),
     ],
     "intangible_assets": [
-        TaxonomyElement(
+        TmpTaxonomy(
             japanese_label="無形固定資産",
             english_label="Intangible assets",
             namespace="jppfs_cor",
             element_id="IntangibleAssets",
             period_type="instant",
         ),
-        TaxonomyElement(
+        TmpTaxonomy(
             japanese_label="無形資産（IFRS）",
             english_label="Intangible assets (IFRS)",
             namespace="jpigp_cor",
@@ -112,14 +125,14 @@ taxonomy_groups = {
         ),
     ],
     "investment_securities": [
-        TaxonomyElement(
+        TmpTaxonomy(
             japanese_label="投資有価証券、非流動資産（IFRS）",
             english_label="Investment securities - NCA (IFRS)",
             namespace="jpigp_cor",
             element_id="InvestmentSecuritiesNCAIFRS",
             period_type="instant",
         ),
-        TaxonomyElement(
+        TmpTaxonomy(
             japanese_label="投資有価証券",
             english_label="Investment securities",
             namespace="jppfs_cor",
@@ -128,14 +141,14 @@ taxonomy_groups = {
         ),
     ],
     "non_current_assets": [
-        TaxonomyElement(
+        TmpTaxonomy(
             japanese_label="固定資産",
             english_label="Non-current assets",
             namespace="jppfs_cor",
             element_id="NoncurrentAssets",
             period_type="instant",
         ),
-        TaxonomyElement(
+        TmpTaxonomy(
             japanese_label="非流動資産（IFRS）",
             english_label="Non-current assets (IFRS)",
             namespace="jpigp_cor",
@@ -144,21 +157,21 @@ taxonomy_groups = {
         ),
     ],
     "total_assets": [
-        TaxonomyElement(
+        TmpTaxonomy(
             japanese_label="資産（IFRS）",
             english_label="Assets (IFRS)",
             namespace="jpigp_cor",
             element_id="AssetsIFRS",
             period_type="instant",
         ),
-        TaxonomyElement(
+        TmpTaxonomy(
             japanese_label="資産",
             english_label="Assets",
             namespace="jppfs_cor",
             element_id="Assets",
             period_type="instant",
         ),
-        TaxonomyElement(
+        TmpTaxonomy(
             japanese_label="総資産",
             english_label="Total assets",
             namespace="tse-ed-t",
@@ -167,14 +180,14 @@ taxonomy_groups = {
         ),
     ],
     "payables": [
-        TaxonomyElement(
+        TmpTaxonomy(
             japanese_label="買掛金及びその他の債務、流動負債（IFRS）",
             english_label="Trade and other payables - 3 - CL (IFRS)",
             namespace="jpigp_cor",
             element_id="TradeAndOtherPayables3CLIFRS",
             period_type="instant",
         ),
-        TaxonomyElement(
+        TmpTaxonomy(
             japanese_label="支払手形",
             english_label="Notes payable-trade",
             namespace="jppfs_cor",
@@ -183,30 +196,30 @@ taxonomy_groups = {
         ),
     ],
     "short_term_borrowings": [
-        TaxonomyElement(
+        TmpTaxonomy(
             japanese_label="短期借入金",
             english_label="Short-term borrowings",
             namespace="jppfs_cor",
             element_id="ShortTermLoansPayable",
             period_type="instant",
         ),
-        # TaxonomyElement(
-        #     japanese_label="１年内返済予定の長期借入金（IFRS）",
-        #     english_label="Current portion of long-term borrowings - CL (IFRS)",
-        #     namespace="jpigp_cor",
-        #     element_id="CurrentPortionOfLongTermBorrowingsCLIFRS",
-        #     period_type="instant",
-        # )
+        TmpTaxonomy(
+            japanese_label="１年内返済予定の長期借入金（IFRS）",
+            english_label="Current portion of long-term borrowings - CL (IFRS)",
+            namespace="jpigp_cor",
+            element_id="CurrentPortionOfLongTermBorrowingsCLIFRS",
+            period_type="instant",
+        ),
     ],
     "current_liabilities": [
-        TaxonomyElement(
+        TmpTaxonomy(
             japanese_label="流動負債（IFRS）",
             english_label="Current liabilities (IFRS)",
             namespace="jpigp_cor",
             element_id="TotalCurrentLiabilitiesIFRS",
             period_type="instant",
         ),
-        TaxonomyElement(
+        TmpTaxonomy(
             japanese_label="流動負債",
             english_label="Current liabilities",
             namespace="jppfs_cor",
@@ -215,14 +228,14 @@ taxonomy_groups = {
         ),
     ],
     "long_term_borrowings": [
-        TaxonomyElement(
+        TmpTaxonomy(
             japanese_label="長期借入金",
             english_label="Long-term borrowings",
             namespace="jppfs_cor",
             element_id="LongTermLoansPayable",
             period_type="instant",
         ),
-        TaxonomyElement(
+        TmpTaxonomy(
             japanese_label="長期債務、非流動負債（IFRS）",
             english_label="Long-term debt - NCL (IFRS)",
             namespace="jpigp_cor",
@@ -231,14 +244,14 @@ taxonomy_groups = {
         ),
     ],
     "non_current_liabilities": [
-        TaxonomyElement(
+        TmpTaxonomy(
             japanese_label="固定負債",
             english_label="Non-current liabilities",
             namespace="jppfs_cor",
             element_id="NoncurrentLiabilities",
             period_type="instant",
         ),
-        TaxonomyElement(
+        TmpTaxonomy(
             japanese_label="非流動負債（IFRS）",
             english_label="Non-current liabilities (IFRS)",
             namespace="jpigp_cor",
@@ -247,14 +260,14 @@ taxonomy_groups = {
         ),
     ],
     "liabilities": [
-        TaxonomyElement(
+        TmpTaxonomy(
             japanese_label="負債（IFRS）",
             english_label="Liabilities (IFRS)",
             namespace="jpigp_cor",
             element_id="LiabilitiesIFRS",
             period_type="instant",
         ),
-        TaxonomyElement(
+        TmpTaxonomy(
             japanese_label="負債",
             english_label="Liabilities",
             namespace="jppfs_cor",
@@ -263,14 +276,14 @@ taxonomy_groups = {
         ),
     ],
     "shareholders_equity": [
-        TaxonomyElement(
+        TmpTaxonomy(
             japanese_label="株主資本",
             english_label="Shareholders' equity",
             namespace="jppfs_cor",
             element_id="ShareholdersEquity",
             period_type="instant",
         ),
-        TaxonomyElement(
+        TmpTaxonomy(
             japanese_label="親会社の所有者に帰属する持分（IFRS）",
             english_label="Equity attributable to owners of parent (IFRS)",
             namespace="jpigp_cor",
@@ -279,21 +292,21 @@ taxonomy_groups = {
         ),
     ],
     "net_assets": [
-        TaxonomyElement(
+        TmpTaxonomy(
             japanese_label="純資産",
             english_label="Net assets",
             namespace="jppfs_cor",
             element_id="NetAssets",
             period_type="instant",
         ),
-        TaxonomyElement(
+        TmpTaxonomy(
             japanese_label="資本（IFRS）",
             english_label="Equity (IFRS)",
             namespace="jpigp_cor",
             element_id="EquityIFRS",
             period_type="instant",
         ),
-        TaxonomyElement(
+        TmpTaxonomy(
             japanese_label="純資産",
             english_label="Net assets",
             namespace="tse-ed-t",
@@ -302,14 +315,14 @@ taxonomy_groups = {
         ),
     ],
     "liabilities_and_net_assets": [
-        TaxonomyElement(
+        TmpTaxonomy(
             japanese_label="負債純資産",
             english_label="Liabilities and net assets",
             namespace="jppfs_cor",
             element_id="LiabilitiesAndNetAssets",
             period_type="instant",
         ),
-        TaxonomyElement(
+        TmpTaxonomy(
             japanese_label="負債及び資本（IFRS）",
             english_label="Liabilities and equity (IFRS)",
             namespace="jpigp_cor",
@@ -318,21 +331,21 @@ taxonomy_groups = {
         ),
     ],
     "net_sales": [
-        TaxonomyElement(
+        TmpTaxonomy(
             japanese_label="売上高",
             english_label="Net sales",
             namespace="tse-ed-t",
             element_id="NetSales",
             period_type="duration",
         ),
-        TaxonomyElement(
+        TmpTaxonomy(
             japanese_label="売上高（IFRS）",
             english_label="Net sales (IFRS)",
             namespace="jpigp_cor",
             element_id="NetSalesIFRS",
             period_type="duration",
         ),
-        TaxonomyElement(
+        TmpTaxonomy(
             japanese_label="売上高",
             english_label="Net sales",
             namespace="jppfs_cor",
@@ -341,14 +354,14 @@ taxonomy_groups = {
         ),
     ],
     "cost_of_sales": [
-        TaxonomyElement(
+        TmpTaxonomy(
             japanese_label="売上原価",
             english_label="Cost of sales",
             namespace="jppfs_cor",
             element_id="CostOfSales",
             period_type="duration",
         ),
-        TaxonomyElement(
+        TmpTaxonomy(
             japanese_label="売上原価（IFRS）",
             english_label="Cost of sales (IFRS)",
             namespace="jpigp_cor",
@@ -357,14 +370,14 @@ taxonomy_groups = {
         ),
     ],
     "sga_expenses": [
-        TaxonomyElement(
+        TmpTaxonomy(
             japanese_label="販売費及び一般管理費",
             english_label="Selling, general and administrative expenses",
             namespace="jppfs_cor",
             element_id="SellingGeneralAndAdministrativeExpenses",
             period_type="duration",
         ),
-        TaxonomyElement(
+        TmpTaxonomy(
             japanese_label="販売費及び一般管理費（IFRS）",
             english_label="Selling, general and administrative expenses (IFRS)",
             namespace="jpigp_cor",
@@ -373,21 +386,21 @@ taxonomy_groups = {
         ),
     ],
     "operating_profit": [
-        TaxonomyElement(
+        TmpTaxonomy(
             japanese_label="営業利益（△損失）（IFRS）",
             english_label="Operating profit (loss) (IFRS)",
             namespace="jpigp_cor",
             element_id="OperatingProfitLossIFRS",
             period_type="duration",
         ),
-        TaxonomyElement(
+        TmpTaxonomy(
             japanese_label="営業利益又は営業損失（△）",
             english_label="Operating profit (loss)",
             namespace="jppfs_cor",
             element_id="OperatingIncome",
             period_type="duration",
         ),
-        TaxonomyElement(
+        TmpTaxonomy(
             japanese_label="営業利益",
             english_label="Operating profit",
             namespace="tse-ed-t",
@@ -396,14 +409,14 @@ taxonomy_groups = {
         ),
     ],
     "ordinary_profit": [
-        TaxonomyElement(
+        TmpTaxonomy(
             japanese_label="経常利益又は経常損失（△）",
             english_label="Ordinary profit (loss)",
             namespace="jppfs_cor",
             element_id="OrdinaryIncome",
             period_type="duration",
         ),
-        TaxonomyElement(
+        TmpTaxonomy(
             japanese_label="経常利益",
             english_label="Ordinary profit",
             namespace="tse-ed-t",
@@ -412,21 +425,21 @@ taxonomy_groups = {
         ),
     ],
     "net_income": [
-        TaxonomyElement(
+        TmpTaxonomy(
             japanese_label="当期純利益",
             english_label="Net income",
             namespace="tse-ed-t",
             element_id="NetIncome",
             period_type="duration",
         ),
-        TaxonomyElement(
+        TmpTaxonomy(
             japanese_label="当期利益（△損失）（IFRS）",
             english_label="Profit (loss) (IFRS)",
             namespace="jpigp_cor",
             element_id="ProfitLossIFRS",
             period_type="duration",
         ),
-        TaxonomyElement(
+        TmpTaxonomy(
             japanese_label="当期純利益又は当期純損失（△）（平成26年3月28日財規等改正後）",
             english_label="Profit (loss) (after amendment dated 2014-03-28)",
             namespace="jppfs_cor",
@@ -435,35 +448,35 @@ taxonomy_groups = {
         ),
     ],
     "cash_flow_from_operating_activities": [
-        TaxonomyElement(
+        TmpTaxonomy(
             japanese_label="営業活動によるキャッシュ・フロー、米国基準",
             english_label="Cash flows from operating activities-US",
             namespace="tse-ed-t",
             element_id="CashFlowsFromOperatingActivitiesUS",
             period_type="duration",
         ),
-        TaxonomyElement(
+        TmpTaxonomy(
             japanese_label="営業活動によるキャッシュ・フロー、IFRS",
             english_label="Cash flows from operating activities-IFRS",
             namespace="tse-ed-t",
             element_id="CashFlowsFromOperatingActivitiesIFRS",
             period_type="duration",
         ),
-        TaxonomyElement(
+        TmpTaxonomy(
             japanese_label="営業活動によるキャッシュ・フロー",
             english_label="Cash flows from operating activities",
             namespace="tse-ed-t",
             element_id="CashFlowsFromOperatingActivities",
             period_type="duration",
         ),
-        TaxonomyElement(
+        TmpTaxonomy(
             japanese_label="営業活動によるキャッシュ・フロー",
             english_label="Net cash provided by (used in) operating activities",
             namespace="jppfs_cor",
             element_id="NetCashProvidedByUsedInOperatingActivities",
             period_type="duration",
         ),
-        TaxonomyElement(
+        TmpTaxonomy(
             japanese_label="営業活動によるキャッシュ・フロー（IFRS）",
             english_label="Net cash provided by (used in) operating activities (IFRS)",
             namespace="jpigp_cor",
@@ -472,7 +485,7 @@ taxonomy_groups = {
         ),
     ],
     "depreciation": [
-        TaxonomyElement(
+        TmpTaxonomy(
             japanese_label="減価償却費、営業活動によるキャッシュ・フロー",
             english_label="Depreciation-OpeCF",
             namespace="jppfs_cor",
@@ -481,35 +494,35 @@ taxonomy_groups = {
         )
     ],
     "cash_flow_from_investing_activities": [
-        TaxonomyElement(
+        TmpTaxonomy(
             japanese_label="投資活動によるキャッシュ・フロー",
             english_label="Cash flows from investing activities",
             namespace="tse-ed-t",
             element_id="CashFlowsFromInvestingActivities",
             period_type="duration",
         ),
-        TaxonomyElement(
+        TmpTaxonomy(
             japanese_label="投資活動によるキャッシュ・フロー、IFRS",
             english_label="Cash flows from investing activities-IFRS",
             namespace="tse-ed-t",
             element_id="CashFlowsFromInvestingActivitiesIFRS",
             period_type="duration",
         ),
-        TaxonomyElement(
+        TmpTaxonomy(
             japanese_label="投資活動によるキャッシュ・フロー、米国基準",
             english_label="Cash flows from investing activities-US",
             namespace="tse-ed-t",
             element_id="CashFlowsFromInvestingActivitiesUS",
             period_type="duration",
         ),
-        TaxonomyElement(
+        TmpTaxonomy(
             japanese_label="投資活動によるキャッシュ・フロー",
             english_label="Net cash provided by (used in) investing activities",
             namespace="jppfs_cor",
             element_id="NetCashProvidedByUsedInInvestmentActivities",
             period_type="duration",
         ),
-        TaxonomyElement(
+        TmpTaxonomy(
             japanese_label="投資活動によるキャッシュ・フロー（IFRS）",
             english_label="Net cash provided by (used in) investing activities (IFRS)",
             namespace="jpigp_cor",
@@ -518,14 +531,14 @@ taxonomy_groups = {
         ),
     ],
     "capital_investment": [
-        TaxonomyElement(
+        TmpTaxonomy(
             japanese_label="有形固定資産の取得による支出、投資活動によるキャッシュ・フロー",
             english_label="Purchase of property, plant and equipment-InvCF",
             namespace="jppfs_cor",
             element_id="PurchaseOfPropertyPlantAndEquipmentInvCF",
             period_type="duration",
         ),
-        TaxonomyElement(
+        TmpTaxonomy(
             japanese_label="有形固定資産の取得による支出",
             english_label="Purchase of property, plant and equipment - InvCF (IFRS)",
             namespace="jpigp_cor",
@@ -534,35 +547,35 @@ taxonomy_groups = {
         ),
     ],
     "cash_flow_from_financial_activities": [
-        TaxonomyElement(
+        TmpTaxonomy(
             japanese_label="財務活動によるキャッシュ・フロー、米国基準",
             english_label="Cash flows from financing activities-US",
             namespace="tse-ed-t",
             element_id="CashFlowsFromFinancingActivitiesUS",
             period_type="duration",
         ),
-        TaxonomyElement(
+        TmpTaxonomy(
             japanese_label="財務活動によるキャッシュ・フロー、IFRS",
             english_label="Cash flows from financing activities-IFRS",
             namespace="tse-ed-t",
             element_id="CashFlowsFromFinancingActivitiesIFRS",
             period_type="duration",
         ),
-        TaxonomyElement(
+        TmpTaxonomy(
             japanese_label="財務活動によるキャッシュ・フロー",
             english_label="Cash flows from financing activities",
             namespace="tse-ed-t",
             element_id="CashFlowsFromFinancingActivities",
             period_type="duration",
         ),
-        TaxonomyElement(
+        TmpTaxonomy(
             japanese_label="財務活動によるキャッシュ・フロー（IFRS）",
             english_label="Net cash provided by (used in) financing activities (IFRS)",
             namespace="jpigp_cor",
             element_id="NetCashProvidedByUsedInFinancingActivitiesIFRS",
             period_type="duration",
         ),
-        TaxonomyElement(
+        TmpTaxonomy(
             japanese_label="財務活動によるキャッシュ・フロー",
             english_label="Net cash provided by (used in) financing activities",
             namespace="jppfs_cor",
@@ -571,7 +584,7 @@ taxonomy_groups = {
         ),
     ],
     "number_of_shares": [
-        TaxonomyElement(
+        TmpTaxonomy(
             japanese_label="期末発行済株式数（自己株式を含む）",
             english_label="Number of issued and outstanding shares at the end of fiscal year (including treasury stock)",
             namespace="tse-ed-t",

@@ -3,10 +3,10 @@
 """
 
 import csv
-import time
 from pathlib import Path
 
 import requests
+import tqdm
 import xlrd
 from bs4 import BeautifulSoup
 
@@ -49,15 +49,16 @@ def extract_themes(html):
 
 
 def update_themes_csv():
+    session = data_fetcher.core.get_session(max_requests_per_second=5)
+    session.headers.update({"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"})
+
     tickers = data_fetcher.core.ticker_list.get_jp_ticker_list()
     base_url = "https://kabutan.jp/stock/?code={}"
     ticker_themes = []
-    for ticker in tickers:
+    for ticker in tqdm.tqdm(tickers):
         url = base_url.format(ticker)
-        response = requests.get(url)
+        response = session.get(url)
         ticker_themes.append([ticker, extract_themes(response.text)])
-        time.sleep(0.2)
-        # break
 
     output_file = data_fetcher.constants.PROJECT_ROOT / "data/jp_ticker_themes.csv"
     with open(output_file, "w", encoding="utf-8") as f:

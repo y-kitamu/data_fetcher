@@ -3,11 +3,9 @@
 import warnings
 from pathlib import Path
 
-from loguru import logger
 from openpyxl import load_workbook
 
 from ...core.constants import PROJECT_ROOT
-from .constants import document_types
 from .constants.schema import TaxonomyElement
 
 # 決算短信サマリー用の定数
@@ -72,93 +70,78 @@ tdnet_excel_path = (
     PROJECT_ROOT
     / "data/tdnet/koumoku_list_Quarterly_Financial_Statements_20250131.xlsx"
 )
-tdnet_target_sheet_names = ["ATPFS"]
+tdnet_target_sheet_names = ["ATPFS", "ATCRP"]
+edinet_excel_path = PROJECT_ROOT / "data/tdnet/1e_ElementList.xlsx"
+edinet_target_sheet_names = [str(i) for i in range(1, 69)]
 
 
-def collect_all_taxonomies() -> dict[str, list[TaxonomyElement]]:
+def collect_all_taxonomies() -> list[TaxonomyElement]:
     """すべての報告書のタクソノミ要素一覧を取得"""
     warnings.simplefilter("ignore")
-    elements = {}
-    elems = [
-        collect_reports_taxonomies(edjp_excel_path, edjp_target_sheet_names),
-        collect_reports_taxonomies(ifrs_excel_path, ifrs_target_sheet_names),
-        collect_reports_taxonomies(tdnet_excel_path, tdnet_target_sheet_names),
-    ]
-    for taxonomies in elems:
-        for key, values in taxonomies.items():
-            if key not in elements:
-                elements[key] = []
-            for val in values:
-                if val not in elements[key]:
-                    elements[key].append(val)
+    elements = (
+        collect_reports_taxonomies(edjp_excel_path, edjp_target_sheet_names)
+        + collect_reports_taxonomies(ifrs_excel_path, ifrs_target_sheet_names)
+        + collect_reports_taxonomies(tdnet_excel_path, tdnet_target_sheet_names)
+        + collect_reports_taxonomies(edinet_excel_path, edinet_target_sheet_names)
+    )
+    elements += collect_summary_taxonomies()
 
-    summary_elems = collect_summary_taxonomies()
-    elements["決算短信サマリー"] = summary_elems
-    elements["予想修正報告"] = summary_elems
+    # 重複削除
+    unique_ids = []
+    unique_taxonomies = []
+    for taxonomy in elements:
+        if taxonomy.element_id not in unique_ids:
+            unique_ids.append(taxonomy.element_id)
+            unique_taxonomies.append(taxonomy)
+
     warnings.resetwarnings()
-    return elements
+    return unique_taxonomies
 
 
 def collect_reports_taxonomies(
     excel_path: Path, target_sheets: list[str]
-) -> dict[str, list[TaxonomyElement]]:
+) -> list[TaxonomyElement]:
     """決算短信サマリー以外の報告書のタクソノミ要素一覧を取得"""
 
-    # excelから要素を抽出
-    wb = load_workbook(excel_path)
+    # excelから要素を抽出（印刷範囲の定義形式に起因するopenpyxlのUserWarningを抑制）
+    with warnings.catch_warnings():
+        warnings.filterwarnings("ignore", category=UserWarning, module="openpyxl")
+        wb = load_workbook(excel_path)
 
-    current_document = None
     current_header = None
-    elements = {}
+    elements = []
     for sheet_name in target_sheets:
         for row in wb[sheet_name].iter_rows(values_only=True):
-            if row[0] is not None and ("科目一覧" in row[0] or "TDnet" in row[0]):
-                # new document section
-                doc_str = row[0].replace("科目一覧", "").strip()
-                document_type = [
-                    dtype
-                    for dtype in document_types
-                    if any([alias in doc_str for alias in dtype.aliases])
-                ]
-                if len(document_type) == 1:
-                    current_document = document_type[0].name
-                else:
-                    current_document = "Unknown Document Type"
+            if row[0] is not None and (
+                "科目分類" in row[0] or "標準ラベル（日本語）" in row[0]
+            ):
+                current_header = row
+                continue
 
-                if current_document not in elements:
-                    elements[current_document] = []
-                    logger.debug(
-                        f"add taxonomies of document : {current_document}, ({doc_str})"
+            if current_header is not None:
+                jpn_label = row[current_header.index("冗長ラベル（日本語）")]
+                eng_label = row[current_header.index("冗長ラベル（英語）")]
+                namespace = row[current_header.index("名前空間プレフィックス")]
+                element_id = row[current_header.index("要素名")]
+                period_type = row[current_header.index("periodType")]
+                if (
+                    jpn_label is not None
+                    and eng_label is not None
+                    and namespace is not None
+                    and element_id is not None
+                    and period_type is not None
+                ):
+                    abstract = row[current_header.index("abstract")] == "true"
+                    balance = row[current_header.index("balance")]
+                    elem = TaxonomyElement(
+                        japanese_label=jpn_label,
+                        english_label=eng_label,
+                        element_id=f"{namespace}:{element_id}",
+                        period_type=period_type,
+                        abstract=abstract,
+                        balance="" if balance is None else balance,
                     )
-            elif current_document is not None:
-                # within document section
-                if row[0] is not None:
-                    if "科目分類" in row[0] or "標準ラベル（日本語）" in row[0]:
-                        current_header = row
-                        continue
-
-                if current_header is not None:
-                    jpn_label = row[current_header.index("冗長ラベル（日本語）")]
-                    eng_label = row[current_header.index("冗長ラベル（英語）")]
-                    namespace = row[current_header.index("名前空間プレフィックス")]
-                    element_id = row[current_header.index("要素名")]
-                    period_type = row[current_header.index("periodType")]
-                    if (
-                        jpn_label is not None
-                        and eng_label is not None
-                        and namespace is not None
-                        and element_id is not None
-                        and period_type is not None
-                    ):
-                        elem = TaxonomyElement(
-                            japanese_label=jpn_label,
-                            english_label=eng_label,
-                            namespace=namespace,
-                            element_id=element_id,
-                            period_type=period_type,
-                        )
-                        if elem not in elements[current_document]:
-                            elements[current_document].append(elem)
+                    elements.append(elem)
 
     wb.close()
     return elements
@@ -168,7 +151,9 @@ def collect_summary_taxonomies() -> list[TaxonomyElement]:
     """決算短信のタクソノミ要素一覧を取得"""
 
     excel_path = PROJECT_ROOT / "data/tdnet/項目リスト_事業会社.xlsx"
-    wb = load_workbook(excel_path)
+    with warnings.catch_warnings():
+        warnings.filterwarnings("ignore", category=UserWarning, module="openpyxl")
+        wb = load_workbook(excel_path)
 
     target_sheets = (
         target_sheets_jp
@@ -197,13 +182,15 @@ def collect_summary_taxonomies() -> list[TaxonomyElement]:
                     and element_id is not None
                     and period_type is not None
                 ):
+                    abstract = row[current_header.index("abstract")] == "true"
+                    balance = row[current_header.index("balance")]
                     elem = TaxonomyElement(
                         japanese_label=jpn_label,
                         english_label=eng_label,
-                        namespace=namespace,
-                        element_id=element_id,
+                        element_id=f"{namespace}:{element_id}",
                         period_type=period_type,
+                        abstract=abstract,
+                        balance="" if balance is None else balance,
                     )
-                    if elem not in elements:
-                        elements.append(elem)
+                    elements.append(elem)
     return elements

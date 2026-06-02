@@ -11,7 +11,7 @@ from loguru import logger
 
 # Import core modules
 # Import utility modules (kept for backward compatibility)
-from . import core, domains, fetchers, processors, readers
+from . import core, db, domains, fetchers, processors, readers
 
 # Import commonly used functions and classes
 from .core import (
@@ -47,6 +47,8 @@ __all__ = [
     "notify_to_line",
     # Logger
     "logger",
+    # Database
+    "db",
 ]
 
 # Configure logger
