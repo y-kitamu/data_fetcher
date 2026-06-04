@@ -794,8 +794,8 @@
         "Total Operating Income As Reported": 1452741000.0,
         "Diluted Average Shares": 531820170.0,
         "Basic Average Shares": 531820170.0,
-        "Diluted EPS": -14.443493,
-        "Basic EPS": -14.443493,
+        "Diluted EPS": -1755.0,
+        "Basic EPS": -1755.0,
         "Diluted NI Availto Com Stockholders": -8030057000.0,
         "Net Income Common Stockholders": -8030057000.0,
         "Net Income": -8030057000.0,
@@ -830,7 +830,7 @@
         "Operating Revenue": 14548111000.0
     },
     "2026-03-31": {
-        "Tax Effect Of Unusual Items": -53501085.663156,
+        "Tax Effect Of Unusual Items": -53501100.0,
         "Tax Rate For Calcs": 0.15,
         "Normalized EBITDA": 7515768000.0,
         "Total Unusual Items": -356674000.0,
@@ -843,7 +843,7 @@
         "Net Interest Income": -1280983000.0,
         "Interest Expense": 1653797000.0,
         "Interest Income": 372814000.0,
-        "Normalized Income": 1335059914.336844,
+        "Normalized Income": 1335059900.0,
         "Net Income From Continuing And Discontinued Operation": 1031887000.0,
         "Total Expenses": 12890717000.0,
         "Total Operating Income As Reported": 1542442000.0,
