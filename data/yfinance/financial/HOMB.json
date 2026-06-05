@@ -878,8 +878,8 @@
         "Other Non Interest Expense": 20704000.0
     },
     "2025-03-31": {
-        "Tax Effect Of Unusual Items": -117009.08572,
-        "Tax Rate For Calcs": 0.217086,
+        "Tax Effect Of Unusual Items": -117016.9,
+        "Tax Rate For Calcs": 0.2171,
         "Total Unusual Items": -539000.0,
         "Total Unusual Items Excluding Goodwill": -539000.0,
         "Net Income From Continuing Operation Net Minority Interest": 115209000.0,
@@ -887,7 +887,7 @@
         "Net Interest Income": 214656000.0,
         "Interest Expense": 97886000.0,
         "Interest Income": 312542000.0,
-        "Normalized Income": 115630990.91428,
+        "Normalized Income": 115630983.1,
         "Net Income From Continuing And Discontinued Operation": 115209000.0,
         "Diluted Average Shares": 198852000.0,
         "Basic Average Shares": 198657000.0,
@@ -921,7 +921,7 @@
     },
     "2025-06-30": {
         "Tax Effect Of Unusual Items": 217685.0,
-        "Tax Rate For Calcs": 0.220987,
+        "Tax Rate For Calcs": 0.221,
         "Total Unusual Items": 985000.0,
         "Total Unusual Items Excluding Goodwill": 985000.0,
         "Net Income From Continuing Operation Net Minority Interest": 118403000.0,
@@ -1046,8 +1046,8 @@
         "Other Non Interest Expense": 20862000.0
     },
     "2026-03-31": {
-        "Tax Effect Of Unusual Items": 68389.287403,
-        "Tax Rate For Calcs": 0.223494,
+        "Tax Effect Of Unusual Items": 68391.0,
+        "Tax Rate For Calcs": 0.2235,
         "Total Unusual Items": 306000.0,
         "Total Unusual Items Excluding Goodwill": 306000.0,
         "Net Income From Continuing Operation Net Minority Interest": 118209000.0,
@@ -1055,7 +1055,7 @@
         "Net Interest Income": 223904000.0,
         "Interest Expense": 87119000.0,
         "Interest Income": 311023000.0,
-        "Normalized Income": 117971389.287403,
+        "Normalized Income": 117971391.0,
         "Net Income From Continuing And Discontinued Operation": 118209000.0,
         "Diluted Average Shares": 196733000.0,
         "Basic Average Shares": 196528000.0,
