@@ -884,8 +884,8 @@
         "Operating Revenue": NaN
     },
     "2025-03-31": {
-        "Tax Effect Of Unusual Items": -125189.873418,
-        "Tax Rate For Calcs": 0.25549,
+        "Tax Effect Of Unusual Items": -124950.0,
+        "Tax Rate For Calcs": 0.255,
         "Normalized EBITDA": 97956000.0,
         "Total Unusual Items": -490000.0,
         "Total Unusual Items Excluding Goodwill": -490000.0,
@@ -897,7 +897,7 @@
         "Net Interest Income": 198000.0,
         "Interest Expense": 5312000.0,
         "Interest Income": 5510000.0,
-        "Normalized Income": 40712810.126582,
+        "Normalized Income": 40713050.0,
         "Net Income From Continuing And Discontinued Operation": 40348000.0,
         "Total Expenses": 1481975000.0,
         "Total Operating Income As Reported": 54519000.0,
@@ -934,8 +934,8 @@
         "Operating Revenue": 1536494000.0
     },
     "2025-06-30": {
-        "Tax Effect Of Unusual Items": 151998.0,
-        "Tax Rate For Calcs": 0.231,
+        "Tax Effect Of Unusual Items": 151943.495955,
+        "Tax Rate For Calcs": 0.230917,
         "Normalized EBITDA": 123502000.0,
         "Total Unusual Items": 658000.0,
         "Total Unusual Items Excluding Goodwill": 658000.0,
@@ -947,7 +947,7 @@
         "Net Interest Income": -560000.0,
         "Interest Expense": 5183000.0,
         "Interest Income": 4623000.0,
-        "Normalized Income": 61478998.0,
+        "Normalized Income": 61478943.495955,
         "Net Income From Continuing And Discontinued Operation": 61985000.0,
         "Total Expenses": 1659584000.0,
         "Total Operating Income As Reported": 80530000.0,
@@ -1084,8 +1084,8 @@
         "Operating Revenue": 1460181000.0
     },
     "2026-03-31": {
-        "Tax Effect Of Unusual Items": -65004.502292,
-        "Tax Rate For Calcs": 0.269728,
+        "Tax Effect Of Unusual Items": -65070.0,
+        "Tax Rate For Calcs": 0.27,
         "Normalized EBITDA": 70615000.0,
         "Total Unusual Items": -241000.0,
         "Total Unusual Items Excluding Goodwill": -241000.0,
@@ -1097,7 +1097,7 @@
         "Net Interest Income": -3082000.0,
         "Interest Expense": 6019000.0,
         "Interest Income": 2937000.0,
-        "Normalized Income": 18017995.497708,
+        "Normalized Income": 18017930.0,
         "Net Income From Continuing And Discontinued Operation": 17842000.0,
         "Total Expenses": 1470829000.0,
         "Total Operating Income As Reported": 27785000.0,

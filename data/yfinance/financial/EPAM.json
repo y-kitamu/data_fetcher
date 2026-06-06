@@ -887,8 +887,8 @@
         "Operating Revenue": NaN
     },
     "2025-03-31": {
-        "Tax Effect Of Unusual Items": -2378488.460764,
-        "Tax Rate For Calcs": 0.221729,
+        "Tax Effect Of Unusual Items": -2381394.0,
+        "Tax Rate For Calcs": 0.222,
         "Normalized EBITDA": 151423000.0,
         "Total Unusual Items": -10727000.0,
         "Total Unusual Items Excluding Goodwill": -10727000.0,
@@ -899,7 +899,7 @@
         "EBIT": 99330000.0,
         "Net Interest Income": 5814000.0,
         "Interest Income": 5814000.0,
-        "Normalized Income": 81830511.539236,
+        "Normalized Income": 81827606.0,
         "Net Income From Continuing And Discontinued Operation": 73482000.0,
         "Total Expenses": 1202362000.0,
         "Total Operating Income As Reported": 99330000.0,
@@ -931,7 +931,7 @@
         "Operating Revenue": 1301692000.0
     },
     "2025-06-30": {
-        "Tax Effect Of Unusual Items": -1799603.0,
+        "Tax Effect Of Unusual Items": -1798246.994377,
         "Tax Rate For Calcs": 0.289,
         "Normalized EBITDA": 174629000.0,
         "Total Unusual Items": -6227000.0,
@@ -943,7 +943,7 @@
         "EBIT": 126476000.0,
         "Net Interest Income": 3519000.0,
         "Interest Income": 3519000.0,
-        "Normalized Income": 92453397.0,
+        "Normalized Income": 92454753.005623,
         "Net Income From Continuing And Discontinued Operation": 88026000.0,
         "Total Expenses": 1226967000.0,
         "Total Operating Income As Reported": 126476000.0,
@@ -1063,8 +1063,8 @@
         "Operating Revenue": 1407548000.0
     },
     "2026-03-31": {
-        "Tax Effect Of Unusual Items": 726210.513229,
-        "Tax Rate For Calcs": 0.316019,
+        "Tax Effect Of Unusual Items": 726168.0,
+        "Tax Rate For Calcs": 0.316,
         "Normalized EBITDA": 156444000.0,
         "Total Unusual Items": 2298000.0,
         "Total Unusual Items Excluding Goodwill": 2298000.0,
@@ -1075,7 +1075,7 @@
         "EBIT": 116768000.0,
         "Net Interest Income": 1582000.0,
         "Interest Income": 1582000.0,
-        "Normalized Income": 80949210.513229,
+        "Normalized Income": 80949168.0,
         "Net Income From Continuing And Discontinued Operation": 82521000.0,
         "Total Expenses": 1283293000.0,
         "Total Operating Income As Reported": 116768000.0,
