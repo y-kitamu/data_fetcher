@@ -436,7 +436,7 @@
         "Other Non Interest Expense": NaN
     },
     "2025-03-31": {
-        "Tax Effect Of Unusual Items": 0.0,
+        "Tax Effect Of Unusual Items": 1770674.694528,
         "Tax Rate For Calcs": 0.16097,
         "Total Unusual Items": 11000000.0,
         "Total Unusual Items Excluding Goodwill": 11000000.0,
@@ -445,7 +445,7 @@
         "Net Interest Income": 2895000000.0,
         "Interest Expense": 16488000000.0,
         "Interest Income": 19383000000.0,
-        "Normalized Income": 4738000000.0,
+        "Normalized Income": 4728770674.694528,
         "Net Income From Continuing And Discontinued Operation": 4738000000.0,
         "Diluted Average Shares": 324500000.0,
         "Basic Average Shares": 320800000.0,
@@ -473,7 +473,7 @@
         "Operating Revenue": 15062000000.0,
         "Occupancy And Equipment": 233000000.0,
         "Professional Expense And Contract Services Expense": 424000000.0,
-        "Other Non Interest Expense": 2933000000.0
+        "Other Non Interest Expense": 2944000000.0
     },
     "2025-06-30": {
         "Tax Effect Of Unusual Items": -249092.375958,
@@ -596,7 +596,7 @@
         "Other Non Interest Expense": 3313000000.0
     },
     "2026-03-31": {
-        "Tax Effect Of Unusual Items": 0.0,
+        "Tax Effect Of Unusual Items": -5543015.726179,
         "Tax Rate For Calcs": 0.131977,
         "Total Unusual Items": -42000000.0,
         "Total Unusual Items Excluding Goodwill": -42000000.0,
@@ -605,7 +605,7 @@
         "Net Interest Income": 3555000000.0,
         "Interest Expense": 17082000000.0,
         "Interest Income": 20637000000.0,
-        "Normalized Income": 5630000000.0,
+        "Normalized Income": 5666456984.273821,
         "Net Income From Continuing And Discontinued Operation": 5630000000.0,
         "Diluted Average Shares": 308000000.0,
         "Basic Average Shares": 303800000.0,
@@ -633,6 +633,6 @@
         "Operating Revenue": 17227000000.0,
         "Occupancy And Equipment": 254000000.0,
         "Professional Expense And Contract Services Expense": 379000000.0,
-        "Other Non Interest Expense": 3700000000.0
+        "Other Non Interest Expense": 3658000000.0
     }
 }

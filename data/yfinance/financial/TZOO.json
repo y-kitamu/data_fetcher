@@ -870,7 +870,7 @@
     },
     "2025-03-31": {
         "Tax Effect Of Unusual Items": 0.0,
-        "Tax Rate For Calcs": 0.264606,
+        "Tax Rate For Calcs": 0.26,
         "Normalized EBITDA": 3880000.0,
         "Net Income From Continuing Operation Net Minority Interest": 3167000.0,
         "Reconciled Depreciation": 76000.0,
@@ -1030,7 +1030,7 @@
     },
     "2026-03-31": {
         "Tax Effect Of Unusual Items": 0.0,
-        "Tax Rate For Calcs": 0.273837,
+        "Tax Rate For Calcs": 0.27,
         "Normalized EBITDA": 3501000.0,
         "Net Income From Continuing Operation Net Minority Interest": 2478000.0,
         "Reconciled Depreciation": 56000.0,
