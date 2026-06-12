@@ -1360,6 +1360,7 @@ ERIC,ERICSSON(ADR),LMエリクソン,NASDAQ,通信サービス,○
 ERIE,ERIE INDEMNITY,エリー・インデムニティー,NASDAQ,金融(保険),○
 ERII,ENERGY RECOVERY,エナジー・リカバリー,NASDAQ,その他製造,○
 ERO,ERO COPPER CORP,エロ･カッパー,NYSE,専門店,○
+EROC,EROCK,イーロック,NYSE,電力,○
 EROK,EAGLEROCK LAND,イーグルロック・ランド,NYSE,その他,○
 ERX,DRX ENERGY BL2X,Direxion デイリー エネルギー株 ブル 2倍 ETF,NYSE,その他,○
 ERY,DRX ENERGY BR2X,Direxion デイリー エネルギー株 ベア 2倍 ETF,NYSE,その他,○
@@ -2215,7 +2216,6 @@ JZXN,JIUZI HOLDINGS,ジウズー・ホールディングス,NASDAQ,小売,○
 KAI,KADANT INC,カダント,NYSE,機械,○
 KALA,KALA BIO,カラ・ビオ,NASDAQ,医薬品（バイオテクノロジー）,○
 KALU,KAISER ALUMINUM,カイザー・アルミナム,NASDAQ,その他製造,○
-KALV,KALVISTA PHARMA,カルビスタ・ファーマシューティカルズ,NASDAQ,医薬品,○
 KARO,KAROOOOO,カルー,NASDAQ,ソフトウェア・サービス,○
 KB,KB FINANCIAL,KBフィナンシャル・グループ,NYSE,金融コングロマリット,○
 KBAB,KRS 2X LONG BABA,KraneShares 2x ロング BABA デイリーETF,NASDAQ,その他,○
@@ -2818,7 +2818,6 @@ NODK,NI HOLDINGS INC,NIホールディングス,NASDAQ,金融(保険),○
 NOG,NOR OIL AND GAS,ノーザン･オイル･アンド･ガス,NYSE,石油,○
 NOK,NOKIA CORP(ADR),ノキア,NYSE,通信機器,○
 NOMD,NOMAD FOODS,ノマド・フーズ,NYSE,食品,○
-NOTV,INOTIV INC,イノティブ,NASDAQ,ヘルスケア,○
 NOV,NOV INC,NOV,NYSE,石油,○
 NOVT,NOVANTA INC,ノバンタ,NASDAQ,その他製造,○
 NOW,SERVICENOW INC,サービスナウ,NYSE,ソフトウェア・サービス,○
@@ -3069,6 +3068,7 @@ PBFS,PIONEER BANCORP,パイオニア・バンコープ,NASDAQ,金融（銀行）
 PBH,PRESTIGE CONSUME,プレステージ・コンシューマー・ヘルスケア,NYSE,医薬品,○
 PBHC,PATHFINDER BANC,パスファインダー・バンコープ,NASDAQ,金融（銀行）,○
 PBI,PITNEY BOWES INC,ピツニーボウズ,NYSE,ネットワークセキュリティー,○
+PBLS,PARABILIS MEDICN,パラビリス・メディシンズ,NASDAQ,医薬品（バイオテクノロジー）,○
 PBR,PETROLEO BRASILE,ブラジル石油公社,NYSE,石油,○
 PBYI,PUMA BIOTECHNO,プーマ・バイオテクノロジー,NASDAQ,医薬品（バイオテクノロジー）,○
 PCAR,PACCAR INC,パッカー,NASDAQ,周辺機器,○
