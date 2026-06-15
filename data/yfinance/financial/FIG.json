@@ -1,7 +1,7 @@
 {
     "2025-03-31": {
         "Tax Effect Of Unusual Items": 0.0,
-        "Tax Rate For Calcs": 0.045531,
+        "Tax Rate For Calcs": 0.046,
         "Normalized EBITDA": 41270000.0,
         "Total Unusual Items": -8266000.0,
         "Total Unusual Items Excluding Goodwill": -8266000.0,
@@ -114,8 +114,8 @@
         "Total Operating Income As Reported": 2076000.0,
         "Diluted Average Shares": 487460903.0,
         "Basic Average Shares": 487460903.0,
-        "Diluted EPS": 0.001805,
-        "Basic EPS": 0.001805,
+        "Diluted EPS": 0.001736,
+        "Basic EPS": 0.001736,
         "Diluted NI Availto Com Stockholders": 880000.0,
         "Net Income Common Stockholders": 880000.0,
         "Otherunder Preferred Stock Dividend": -34000.0,
@@ -267,7 +267,7 @@
         "Minority Interests": NaN,
         "Net Income Including Noncontrolling Interests": -226557000.0,
         "Net Income From Tax Loss Carryforward": 0.0,
-        "Net Income Continuous Operations": NaN,
+        "Net Income Continuous Operations": -226557000.0,
         "Tax Provision": 22313000.0,
         "Pretax Income": -204244000.0,
         "Other Income Expense": -23912000.0,

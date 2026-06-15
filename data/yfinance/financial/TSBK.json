@@ -902,7 +902,7 @@
         "Insurance And Claims": 219000.0,
         "Salaries And Wages": 5977000.0,
         "Total Revenue": 18910000.0,
-        "Operating Revenue": 18910000.0,
+        "Operating Revenue": NaN,
         "Occupancy And Equipment": 1075000.0,
         "Professional Expense And Contract Services Expense": 431000.0,
         "Other Non Interest Expense": 2263000.0
@@ -943,7 +943,7 @@
         "Insurance And Claims": 211000.0,
         "Salaries And Wages": 5825000.0,
         "Total Revenue": 19399000.0,
-        "Operating Revenue": 19399000.0,
+        "Operating Revenue": NaN,
         "Occupancy And Equipment": 973000.0,
         "Professional Expense And Contract Services Expense": 341000.0,
         "Other Non Interest Expense": 2488000.0
@@ -984,7 +984,7 @@
         "Insurance And Claims": 211000.0,
         "Salaries And Wages": 6029000.0,
         "Total Revenue": 21418000.0,
-        "Operating Revenue": 21418000.0,
+        "Operating Revenue": NaN,
         "Occupancy And Equipment": 1114000.0,
         "Professional Expense And Contract Services Expense": 558000.0,
         "Other Non Interest Expense": 2713000.0
@@ -1025,7 +1025,7 @@
         "Insurance And Claims": 221000.0,
         "Salaries And Wages": 6453000.0,
         "Total Revenue": 20706000.0,
-        "Operating Revenue": 20706000.0,
+        "Operating Revenue": NaN,
         "Occupancy And Equipment": 1074000.0,
         "Professional Expense And Contract Services Expense": 316000.0,
         "Other Non Interest Expense": 2132000.0

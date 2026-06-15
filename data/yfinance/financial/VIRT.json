@@ -851,8 +851,8 @@
         "Operating Revenue": 808183000.0
     },
     "2025-03-31": {
-        "Tax Effect Of Unusual Items": -53040.851718,
-        "Tax Rate For Calcs": 0.152416,
+        "Tax Effect Of Unusual Items": -52896.0,
+        "Tax Rate For Calcs": 0.152,
         "Normalized EBITDA": 413018000.0,
         "Total Unusual Items": -348000.0,
         "Total Unusual Items Excluding Goodwill": -348000.0,
@@ -863,7 +863,7 @@
         "EBIT": 384955000.0,
         "Net Interest Income": -162900000.0,
         "Interest Expense": 161219000.0,
-        "Normalized Income": 99975959.148282,
+        "Normalized Income": 99976104.0,
         "Net Income From Continuing And Discontinued Operation": 99681000.0,
         "Total Expenses": 450885000.0,
         "Diluted Average Shares": 86047558.0,
@@ -903,7 +903,7 @@
         "Operating Revenue": 850343000.0
     },
     "2025-06-30": {
-        "Tax Effect Of Unusual Items": -10920.0,
+        "Tax Effect Of Unusual Items": -10901.619503,
         "Tax Rate For Calcs": 0.156,
         "Normalized EBITDA": 572255000.0,
         "Total Unusual Items": -70000.0,
@@ -915,7 +915,7 @@
         "EBIT": 544784000.0,
         "Net Interest Income": -199446000.0,
         "Interest Expense": 197764000.0,
-        "Normalized Income": 151246080.0,
+        "Normalized Income": 151246098.380497,
         "Net Income From Continuing And Discontinued Operation": 151187000.0,
         "Total Expenses": 453037000.0,
         "Diluted Average Shares": 85530426.0,
@@ -1059,8 +1059,8 @@
         "Operating Revenue": 966183000.0
     },
     "2026-03-31": {
-        "Tax Effect Of Unusual Items": 2460.168176,
-        "Tax Rate For Calcs": 0.153761,
+        "Tax Effect Of Unusual Items": 2464.0,
+        "Tax Rate For Calcs": 0.154,
         "Normalized EBITDA": 650540000.0,
         "Total Unusual Items": 16000.0,
         "Total Unusual Items Excluding Goodwill": 16000.0,
@@ -1071,7 +1071,7 @@
         "EBIT": 622344000.0,
         "Net Interest Income": -214428000.0,
         "Interest Expense": 212772000.0,
-        "Normalized Income": 182295460.168176,
+        "Normalized Income": 182295464.0,
         "Net Income From Continuing And Discontinued Operation": 182309000.0,
         "Total Expenses": 471343000.0,
         "Diluted Average Shares": 86093727.0,
