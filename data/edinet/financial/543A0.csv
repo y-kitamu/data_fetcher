@@ -1,0 +1,16 @@
+key,start_date,end_date,edinet_key,period,value,announce_date
+net_sales,2025-06-02,2026-03-31,jpcrp_cor:NetSalesSummaryOfBusinessResults,CurrentYearDuration_NonConsolidatedMember,－,202606251029
+ordinary_income,2025-06-02,2026-03-31,jpcrp_cor:OrdinaryIncomeLossSummaryOfBusinessResults,CurrentYearDuration_NonConsolidatedMember,-407000000,202606251029
+net_income,2025-06-02,2026-03-31,jpcrp_cor:NetIncomeLossSummaryOfBusinessResults,CurrentYearDuration_NonConsolidatedMember,-407000000,202606251029
+comprehensive_income,2025-06-02,2026-03-31,jpcrp_cor:NetIncomeLossSummaryOfBusinessResults,CurrentYearDuration_NonConsolidatedMember,-407000000,202606251029
+net_asset,2025-06-02,2026-03-31,jpcrp_cor:NetAssetsSummaryOfBusinessResults,CurrentYearInstant_NonConsolidatedMember,-407000000,202606251029
+total_asset,2025-06-02,2026-03-31,jpcrp_cor:TotalAssetsSummaryOfBusinessResults,CurrentYearInstant_NonConsolidatedMember,0,202606251029
+bps,2025-06-02,2026-03-31,jpcrp_cor:NetAssetsPerShareSummaryOfBusinessResults,CurrentYearInstant_NonConsolidatedMember,-407582616.00,202606251029
+eps,2025-06-02,2026-03-31,jpcrp_cor:BasicEarningsLossPerShareSummaryOfBusinessResults,CurrentYearDuration_NonConsolidatedMember,-407582617.00,202606251029
+diluted_eps,2025-06-02,2026-03-31,jpcrp_cor:DilutedEarningsPerShareSummaryOfBusinessResults,CurrentYearDuration_NonConsolidatedMember,－,202606251029
+equity_ratio,2025-06-02,2026-03-31,jpcrp_cor:EquityToAssetRatioSummaryOfBusinessResults,CurrentYearInstant_NonConsolidatedMember,-407582616.0000,202606251029
+roe,2025-06-02,2026-03-31,jpcrp_cor:RateOfReturnOnEquitySummaryOfBusinessResults,CurrentYearDuration_NonConsolidatedMember,－,202606251029
+number_of_employee,2025-06-02,2026-03-31,jpcrp_cor:NumberOfEmployees,CurrentYearInstant_NonConsolidatedMember,－,202606251029
+number_of_temporary_worker,2025-06-02,2026-03-31,jpcrp_cor:AverageNumberOfTemporaryWorkers,CurrentYearInstant_NonConsolidatedMember,－,202606251029
+number_of_shares,2025-06-02,2026-03-31,jpcrp_cor:TotalNumberOfIssuedSharesSummaryOfBusinessResults,CurrentYearInstant_NonConsolidatedMember,1,202606251029
+operating_income,2025-06-02,2026-03-31,jppfs_cor:OperatingIncome,CurrentYearDuration_NonConsolidatedMember,-73000000,202606251029
