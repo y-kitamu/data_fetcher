@@ -1850,7 +1850,6 @@ HCI,HCI GROUP INC,HCIグループ,NYSE,金融(保険),○
 HCKT,HACKETT GROUP,ハケット・グループ,NASDAQ,ソフトウェア・サービス,○
 HCM,HUTCHMED CHINA,ハチメド・チャイナ,NASDAQ,医薬品（バイオテクノロジー）,○
 HCSG,HEALTHCARE SERVI,ヘルスケア・サービシズ・グループ,NASDAQ,医療サービス,○
-HCWB,HCW BIOLOGICS,HCWバイオロジクス,NASDAQ,医薬品（バイオテクノロジー）,○
 HD,HOME DEPOT INC,ホームデポ,NYSE,専門店,○
 HDB,HDFC BANK LTD,HDFCバンク,NYSE,金融（銀行）,○
 HDSN,HUDSON TECHNOLOG,ハドソン・テクノロジーズ,NASDAQ,その他製造,○
@@ -1903,6 +1902,7 @@ HNVR,HANOVER BANCORP,ハノーバー・バンコープ,NASDAQ,金融（銀行）
 HOFT,HOOKER FURNISHIN,フッカー・ファーニシングス,NASDAQ,その他製造,○
 HOG,HARLEY-DAVIDSON,ハーレーダビッドソン,NYSE,その他製造,○
 HOMB,HOME BANCSHARES,ホーム・バンクシェアーズ,NYSE,金融（銀行）,○
+HON,HONEYWELL INTER,ハネウェル　インターナショナル,NASDAQ,その他製造,○
 HOOD,ROBINHOOD,ロビンフッド・マーケッツ,NASDAQ,金融（証券）,○
 HOOG,LVS 2X LONG HOOD,LeverageShares2倍ロングHOODデイリーETF,NASDAQ,その他,○
 HOPE,HOPE BANCORP INC,ホープ・バンコープ,NASDAQ,金融（銀行）,○
@@ -3051,6 +3051,7 @@ PATH,UIPATH INC,ユーアイパス,NYSE,ソフトウェア・サービス,○
 PATK,PATRICK INDUSTRI,パトリック・インダストリーズ,NASDAQ,その他製造,○
 PAVE,GLX US INFRA ETF,グローバル X 米国インフラ関連 ETF,Cboe,その他,○
 PAVM,PAVMED INC,パブメッド,NASDAQ,医薬品,○
+PAVS,PARANOVUS ENTECH,パラノバス・エンターテイメント・テクノロジー,NASDAQ,医薬品,○
 PAX,PATRIA INVEST,パトリア・インベストメンツ,NASDAQ,その他,○
 PAY,PAYMENTUS HD,ペイメンタス・ホールディングス,NYSE,ソフトウェア・サービス,○
 PAYC,CALLAWAY GOLF,ペイコム・ソフトウエア,NYSE,ソフトウェア・サービス,○
@@ -3280,7 +3281,6 @@ QH,QUHUO LTD,チューフオ,NASDAQ,ソフトウェア・サービス,○
 QID,PROS QQQ -2X,プロシェアーズ・ウルトラショートQQQ,NYSE,その他,○
 QLD,PROS QQQ 2X,プロシェアーズ・ウルトラQQQ,NYSE,その他,○
 QLYS,QUALYS INC,クォリス,NASDAQ,ネットワークセキュリティー,○
-QNCX,QUINCE THERA,クインス・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 QNRX,QUOIN PHARMAC,クオイン・ファーマシューティカルズ,NASDAQ,医薬品（バイオテクノロジー）,○
 QNST,QUINSTREET INC,クインストリート,NASDAQ,ソフトウェア・サービス,○
 QNT,QUANTINUUM INC,クオンティニュアム,NASDAQ,ソフトウェア・サービス,○
