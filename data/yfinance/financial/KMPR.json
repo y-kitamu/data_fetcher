@@ -922,8 +922,8 @@
         "Net Policyholder Benefits And Claims": NaN
     },
     "2025-03-31": {
-        "Tax Effect Of Unusual Items": -1008681.135225,
-        "Tax Rate For Calcs": 0.190317,
+        "Tax Effect Of Unusual Items": -1012300.0,
+        "Tax Rate For Calcs": 0.191,
         "Total Unusual Items": -5300000.0,
         "Total Unusual Items Excluding Goodwill": -5300000.0,
         "Net Income From Continuing Operation Net Minority Interest": 99700000.0,
@@ -932,7 +932,7 @@
         "Net Interest Income": -11400000.0,
         "Interest Expense": 11400000.0,
         "Interest Income": 77200000.0,
-        "Normalized Income": 103991318.864775,
+        "Normalized Income": 103987700.0,
         "Net Income From Continuing And Discontinued Operation": 99700000.0,
         "Total Expenses": 1070200000.0,
         "Diluted Average Shares": 64652800.0,
