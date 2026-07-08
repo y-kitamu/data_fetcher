@@ -915,7 +915,7 @@
         "Operating Revenue": 833830000.0,
         "Occupancy And Equipment": 26914000.0,
         "Professional Expense And Contract Services Expense": 23133000.0,
-        "Other Non Interest Expense": 76696000.0
+        "Other Non Interest Expense": NaN
     },
     "2025-09-30": {
         "Tax Effect Of Unusual Items": -967544.015316,
@@ -954,7 +954,7 @@
         "Operating Revenue": 1038884000.0,
         "Occupancy And Equipment": 27530000.0,
         "Professional Expense And Contract Services Expense": 25672000.0,
-        "Other Non Interest Expense": 77452000.0
+        "Other Non Interest Expense": NaN
     },
     "2025-12-31": {
         "Tax Effect Of Unusual Items": -1363396.981412,
@@ -993,7 +993,7 @@
         "Operating Revenue": 1288277000.0,
         "Occupancy And Equipment": 28609000.0,
         "Professional Expense And Contract Services Expense": 31849000.0,
-        "Other Non Interest Expense": 86930000.0
+        "Other Non Interest Expense": NaN
     },
     "2026-03-31": {
         "Tax Effect Of Unusual Items": -49131.796357,
