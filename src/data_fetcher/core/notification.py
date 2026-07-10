@@ -12,20 +12,32 @@ LINE_ENDPOINT = "https://api.line.me/v2/bot/message/broadcast"
 
 
 def notify_to_line(message):
-    with open(LINE_ACCESS_TOKEN_FILE, "r") as f:
-        access_token = f.read().strip()
+    """Send a LINE broadcast message.
 
-    headers = {
-        "Content-Type": "application/json",
-        "Authorization": "Bearer {}".format(access_token),
-        "X-Line-Retry-Key": str(uuid.uuid1()),
-    }
-    data = '{{"messages": [{{"type": "text", "text": "{}"}}]}}'.format(message)
-    res = requests.post(LINE_ENDPOINT, headers=headers, data=data)
+    Best-effort: never raises. Callers invoke this synchronously from live
+    trading control flow, so a token-file/network failure here must not be
+    able to crash or hang them.
+    """
+    try:
+        with open(LINE_ACCESS_TOKEN_FILE, "r") as f:
+            access_token = f.read().strip()
 
-    if res.status_code == 200:
-        logger.debug("Message sent successfully!")
-    else:
-        logger.debug("header: {}".format(headers))
-        logger.debug("data : {}".format(data))
-        logger.debug("{}: {}".format(res.status_code, res.text))
+        headers = {
+            "Content-Type": "application/json",
+            "Authorization": "Bearer {}".format(access_token),
+            "X-Line-Retry-Key": str(uuid.uuid1()),
+        }
+        data = '{{"messages": [{{"type": "text", "text": "{}"}}]}}'.format(message)
+        res = requests.post(LINE_ENDPOINT, headers=headers, data=data, timeout=10)
+
+        if res.status_code == 200:
+            logger.debug("Message sent successfully!. message = {}".format(message))
+        else:
+            safe_headers = {**headers, "Authorization": "Bearer ***"}
+            logger.warning(
+                "LINE notification failed: {} {}. header: {}".format(
+                    res.status_code, res.text, safe_headers
+                )
+            )
+    except (OSError, requests.RequestException) as e:
+        logger.warning("LINE notification failed: {}".format(e))
