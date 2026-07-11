@@ -485,7 +485,7 @@
         "Other Gand A": NaN,
         "Total Revenue": NaN,
         "Operating Revenue": NaN,
-        "Other Non Interest Expense": NaN
+        "Other Non Interest Expense": 276046000.0
     },
     "2025-03-31": {
         "Tax Effect Of Unusual Items": -122415.858214,
@@ -633,7 +633,7 @@
         "Other Gand A": 194244000.0,
         "Total Revenue": 1025051000.0,
         "Operating Revenue": 1025051000.0,
-        "Other Non Interest Expense": 332626000.0
+        "Other Non Interest Expense": NaN
     },
     "2026-03-31": {
         "Tax Effect Of Unusual Items": -533551.775978,
