@@ -1002,7 +1002,7 @@
         "Gross Profit": 12449000.0,
         "Cost Of Revenue": 42913000.0,
         "Total Revenue": 55362000.0,
-        "Operating Revenue": NaN
+        "Operating Revenue": 55362000.0
     },
     "2025-06-30": {
         "Tax Effect Of Unusual Items": 0.0,
@@ -1050,7 +1050,7 @@
         "Gross Profit": 14407000.0,
         "Cost Of Revenue": 43943000.0,
         "Total Revenue": 58350000.0,
-        "Operating Revenue": NaN
+        "Operating Revenue": 58350000.0
     },
     "2025-09-30": {
         "Tax Effect Of Unusual Items": 0.0,
@@ -1098,7 +1098,7 @@
         "Gross Profit": 17783000.0,
         "Cost Of Revenue": 38248000.0,
         "Total Revenue": 56031000.0,
-        "Operating Revenue": NaN
+        "Operating Revenue": 56031000.0
     },
     "2025-12-31": {
         "Tax Effect Of Unusual Items": -187644.672219,
@@ -1146,7 +1146,7 @@
         "Gross Profit": 15194000.0,
         "Cost Of Revenue": 52325000.0,
         "Total Revenue": 67519000.0,
-        "Operating Revenue": NaN
+        "Operating Revenue": 67519000.0
     },
     "2026-03-31": {
         "Tax Effect Of Unusual Items": 0.0,

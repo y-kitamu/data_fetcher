@@ -267,7 +267,7 @@
         "Minority Interests": NaN,
         "Net Income Including Noncontrolling Interests": -226557000.0,
         "Net Income From Tax Loss Carryforward": 0.0,
-        "Net Income Continuous Operations": -226557000.0,
+        "Net Income Continuous Operations": NaN,
         "Tax Provision": 22313000.0,
         "Pretax Income": -204244000.0,
         "Other Income Expense": -23912000.0,
