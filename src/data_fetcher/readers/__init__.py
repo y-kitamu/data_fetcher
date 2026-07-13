@@ -3,6 +3,7 @@ from .binance import BinanceReader
 from .bitflyer import BitflyerBookReader
 from .gmo import GMOReader, GMOBookReader
 from .histdata import HistDataReader
+from .kabu_tick import KabuTickReader
 from .kabutan import KabutanReader
 from .news import JpNewsReader
 from .rakuten import RakutenReader
@@ -13,6 +14,7 @@ __all__ = [
     "BaseReader",
     "HistDataReader",
     "JpNewsReader",
+    "KabuTickReader",
     "KabutanReader",
     "YFinanceReader",
     "GMOReader",
@@ -40,6 +42,7 @@ def get_reader(source: str) -> BaseReader:
         "histdata": HistDataReader,
         "yfinance": YFinanceReader,
         "kabutan": KabutanReader,
+        "kabu_tick": KabuTickReader,
         "gmo": GMOReader,
         "gmo_book": GMOBookReader,
         "binance": BinanceReader,
