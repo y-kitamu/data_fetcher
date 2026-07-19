@@ -955,7 +955,7 @@
         "Other Gand A": NaN,
         "Salaries And Wages": NaN,
         "Total Revenue": NaN,
-        "Operating Revenue": 5471000000.0
+        "Operating Revenue": NaN
     },
     "2025-03-31": {
         "Tax Effect Of Unusual Items": -41681818.181818,
@@ -1008,7 +1008,7 @@
     },
     "2025-06-30": {
         "Tax Effect Of Unusual Items": -182007000.0,
-        "Tax Rate For Calcs": 0.189,
+        "Tax Rate For Calcs": 0.189312,
         "Normalized EBITDA": 2679000000.0,
         "Total Unusual Items": -963000000.0,
         "Total Unusual Items Excluding Goodwill": -963000000.0,
@@ -1151,7 +1151,7 @@
         "Other Gand A": 262000000.0,
         "Salaries And Wages": 869000000.0,
         "Total Revenue": 6349000000.0,
-        "Operating Revenue": NaN
+        "Operating Revenue": 6349000000.0
     },
     "2026-03-31": {
         "Tax Effect Of Unusual Items": 68252000.0,
