@@ -918,7 +918,6 @@
     },
     "2024-12-31": {
         "Tax Effect Of Unusual Items": NaN,
-        "Tax Rate For Calcs": NaN,
         "Normalized EBITDA": NaN,
         "Total Unusual Items": NaN,
         "Total Unusual Items Excluding Goodwill": NaN,
@@ -965,7 +964,6 @@
     },
     "2025-03-31": {
         "Tax Effect Of Unusual Items": -5027004.686387,
-        "Tax Rate For Calcs": 0.112335,
         "Normalized EBITDA": 369480000.0,
         "Total Unusual Items": -44750000.0,
         "Total Unusual Items Excluding Goodwill": -44750000.0,
@@ -1012,7 +1010,6 @@
     },
     "2025-06-30": {
         "Tax Effect Of Unusual Items": -10430070.0,
-        "Tax Rate For Calcs": 0.21,
         "Normalized EBITDA": 358647000.0,
         "Total Unusual Items": -49667000.0,
         "Total Unusual Items Excluding Goodwill": -49667000.0,
@@ -1059,7 +1056,6 @@
     },
     "2025-09-30": {
         "Tax Effect Of Unusual Items": -99181950.0,
-        "Tax Rate For Calcs": 0.21,
         "Normalized EBITDA": 350176000.0,
         "Total Unusual Items": -472295000.0,
         "Total Unusual Items Excluding Goodwill": -472295000.0,
@@ -1106,7 +1102,6 @@
     },
     "2025-12-31": {
         "Tax Effect Of Unusual Items": -26046903.686246,
-        "Tax Rate For Calcs": 0.085999,
         "Normalized EBITDA": 313305000.0,
         "Total Unusual Items": -302876000.0,
         "Total Unusual Items Excluding Goodwill": -302876000.0,
@@ -1153,7 +1148,6 @@
     },
     "2026-03-31": {
         "Tax Effect Of Unusual Items": -2374077.0,
-        "Tax Rate For Calcs": 0.179,
         "Normalized EBITDA": 279149000.0,
         "Total Unusual Items": -13263000.0,
         "Total Unusual Items Excluding Goodwill": -13263000.0,
