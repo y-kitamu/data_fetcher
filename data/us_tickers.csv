@@ -692,7 +692,7 @@ CAC,CAMDEN NATIONAL,カムデン・ナショナル,NASDAQ,金融（銀行）,○
 CACC,CREDIT ACCPTC CO,クレジット・アクセプタンス,NASDAQ,その他,○
 CACI,CACI INTERNTIONL,CACIインターナショナル,NYSE,ソフトウェア・サービス,○
 CADL,CANDEL THERAPEU,キャンデル・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
-CAE,CAE INC,CAE,NYSE,航空,○
+CAE,CAE INC,CAE,NASDAQ,航空,○
 CAG,CONAGRA BRANDS,コナグラ・ブランズ,NYSE,食品,○
 CAH,CARDINAL HEALTH,カーディナルヘルス,NYSE,医薬品,○
 CAI,CARIS LIFE SCI,ケアリス・ライフ・サイエンス,NASDAQ,ヘルスケア,○
@@ -1004,6 +1004,7 @@ CSGP,COSTAR GROUP,コスター・グループ,NASDAQ,ソフトウェア・サー
 CSIQ,CANADIAN SOLAR,カナディアン・ソーラー,NASDAQ,その他製造,○
 CSL,CARLISLE COS INC,カーライル,NYSE,その他製造,○
 CSPI,CSP INC,CSP,NASDAQ,ソフトウェア・サービス,○
+CSQR,CSQUARE,シースクエア,NYSE,情報処理サービス,○
 CSTE,CAESARSTONE,シーザーストーン,NASDAQ,その他製造,○
 CSTL,CASTLE BIOSCIENC,キャッスル･バイオサイエンシズ,NASDAQ,ヘルスケア,○
 CSV,CARRIAGE SERVICE,キャリエージ・サービス,NYSE,ソフトウェア・サービス,○
@@ -1667,7 +1668,6 @@ GABC,GERMAN AMCN BANC,ジャーマン・アメリカン・バンコープ,NASDAQ
 GAIA,GAIA INC,ガイア,NASDAQ,小売,○
 GAL,SSTR GLOBAL ALLO,State Street グローバル・アロケーション ETF,NYSE,その他,○
 GALT,GALECTIN THERA,ガレクチン・セラピューティクス,NASDAQ,医薬品,○
-GAMB,GAMBLING COM GR,ギャンブリング・ドットコム・グループ,NASDAQ,ソフトウェア・サービス,○
 GANX,GAIN THERAPEU,ゲイン・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 GAP,GAP INC,ギャップ,NYSE,専門店,○
 GASS,STEALTHGAS INC,ステルスガス,NASDAQ,運輸,○
@@ -1799,6 +1799,7 @@ GROW,US GLOBAL INVEST,USグローバル・インベスターズ,NASDAQ,金融（
 GROY,GOLD ROYALTY,ゴールド・ロイヤルティ,NYSE,その他,○
 GRPN,GROUPON INC,グルーポン,NASDAQ,その他,○
 GRRR,GORILLA TECHNLGY,ゴリラ・テクノロジー,NASDAQ,ソフトウェア・サービス,○
+GRSD,GRANDSTAND,グランドスタンド,NASDAQ,ソフトウェア・サービス,○
 GRVY,GRAVITY CO LTD,グラヴィティ,NASDAQ,エンターテイメント,○
 GRWG,GROWGENERATION,グロージェネレーション,NASDAQ,その他,○
 GS,GOLDMAN SACHS,ゴールドマン・サックス・グループ,NYSE,金融（証券）,○
@@ -3589,7 +3590,6 @@ SGHC,SGHC LTD,SGHC,NYSE,その他,○
 SGHT,SIGHT SCIENCES,サイト・サイエンシズ,NASDAQ,ヘルスケア,○
 SGI,SOMNIGROUP INTER,ソムニグループ・インターナショナル,NYSE,その他製造,○
 SGML,SIGMA LITHIUM,シグマ・リチウム・コーポレーション,NASDAQ,その他,○
-SGRP,SPAR GROUP INC,SPARグループ,NASDAQ,ソフトウェア・サービス,○
 SGRY,SURGERY PARTNERS,サージェリー・パートナーズ,NASDAQ,医療サービス,○
 SGU,STAR GROUP LP,スター・グループ,NYSE,その他製造,○
 SH,PROS SP500 -1X,プロシェアーズ・ショートS&P500,NYSE,その他,○
@@ -3807,6 +3807,7 @@ ST,SENSATA TECHNO,センサータ・テクノロジーズ,NYSE,その他,○
 STAA,STAAR SURGICAL,スターサージカル,NASDAQ,ヘルスケア,○
 STBA,S&T BANCORP INC,S&Tバンコープ,NASDAQ,金融（銀行）,○
 STC,STEWART INFO SRV,スチュワート・インフォメーション・サービシーズ,NYSE,金融(保険),○
+STDN,STANDARD NUCLEAR,スタンダード・ニュークリア ,NYSE,電力,○
 STE,STERIS PUBLIC,ステリス,NYSE,ヘルスケア,○
 STEP,STEPSTONE GROUP,ステップストーン・グループ,NASDAQ,金融（証券）,○
 STG,SUNLANDS TECHNO,サンランズ・テクノロジー・グループ,NYSE,ソフトウェア・サービス,○
