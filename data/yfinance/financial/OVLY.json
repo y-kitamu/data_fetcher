@@ -757,10 +757,10 @@
         "Interest Income": 21116000.0,
         "Normalized Income": 5297000.0,
         "Net Income From Continuing And Discontinued Operation": 5297000.0,
-        "Diluted Average Shares": 8278301.0,
-        "Basic Average Shares": 8231844.0,
-        "Diluted EPS": 0.64,
-        "Basic EPS": 0.64,
+        "Diluted Average Shares": NaN,
+        "Basic Average Shares": NaN,
+        "Diluted EPS": NaN,
+        "Basic EPS": NaN,
         "Diluted NI Availto Com Stockholders": 5297000.0,
         "Net Income Common Stockholders": 5297000.0,
         "Net Income": 5297000.0,
@@ -774,7 +774,6 @@
         "Salaries And Wages": 7750000.0,
         "Total Revenue": 19420000.0,
         "Operating Revenue": 19420000.0,
-        "Occupancy And Equipment": 1127000.0,
         "Other Non Interest Expense": 3473000.0
     },
     "2025-06-30": {
@@ -804,7 +803,6 @@
         "Salaries And Wages": 7693000.0,
         "Total Revenue": 19857000.0,
         "Operating Revenue": 19857000.0,
-        "Occupancy And Equipment": 1122000.0,
         "Other Non Interest Expense": 3873000.0
     },
     "2025-09-30": {
@@ -834,7 +832,6 @@
         "Salaries And Wages": 7857000.0,
         "Total Revenue": 21170000.0,
         "Operating Revenue": 21170000.0,
-        "Occupancy And Equipment": 1263000.0,
         "Other Non Interest Expense": 3580000.0
     },
     "2025-12-31": {
@@ -864,7 +861,6 @@
         "Salaries And Wages": 7540000.0,
         "Total Revenue": 21282000.0,
         "Operating Revenue": 21282000.0,
-        "Occupancy And Equipment": 1232000.0,
         "Other Non Interest Expense": 3490000.0
     },
     "2026-03-31": {
@@ -894,7 +890,35 @@
         "Salaries And Wages": 8562000.0,
         "Total Revenue": 20776000.0,
         "Operating Revenue": 20776000.0,
-        "Occupancy And Equipment": 1394000.0,
         "Other Non Interest Expense": 3550000.0
+    },
+    "2026-06-30": {
+        "Tax Effect Of Unusual Items": NaN,
+        "Tax Rate For Calcs": NaN,
+        "Net Income From Continuing Operation Net Minority Interest": NaN,
+        "Reconciled Depreciation": NaN,
+        "Net Interest Income": NaN,
+        "Interest Expense": NaN,
+        "Interest Income": NaN,
+        "Normalized Income": NaN,
+        "Net Income From Continuing And Discontinued Operation": NaN,
+        "Diluted Average Shares": 8333393.0,
+        "Basic Average Shares": 8272810.0,
+        "Diluted EPS": 0.61,
+        "Basic EPS": 0.62,
+        "Diluted NI Availto Com Stockholders": NaN,
+        "Net Income Common Stockholders": NaN,
+        "Net Income": NaN,
+        "Net Income Including Noncontrolling Interests": NaN,
+        "Net Income Continuous Operations": NaN,
+        "Tax Provision": NaN,
+        "Pretax Income": NaN,
+        "Gain On Sale Of Security": NaN,
+        "Selling General And Administration": NaN,
+        "General And Administrative Expense": NaN,
+        "Salaries And Wages": NaN,
+        "Total Revenue": NaN,
+        "Operating Revenue": NaN,
+        "Other Non Interest Expense": NaN
     }
 }
