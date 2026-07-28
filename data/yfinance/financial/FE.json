@@ -526,6 +526,7 @@
         "Net Income From Continuing Operation Net Minority Interest": NaN,
         "Reconciled Depreciation": NaN,
         "Reconciled Cost Of Revenue": NaN,
+        "EBITDA": NaN,
         "EBIT": NaN,
         "Net Interest Income": NaN,
         "Interest Expense": NaN,
@@ -561,6 +562,7 @@
         "Depreciation And Amortization In Income Statement": NaN,
         "Depreciation Income Statement": NaN,
         "Gross Profit": NaN,
+        "Cost Of Revenue": NaN,
         "Total Revenue": NaN,
         "Operating Revenue": NaN
     },
@@ -573,6 +575,7 @@
         "Net Income From Continuing Operation Net Minority Interest": 360000000.0,
         "Reconciled Depreciation": 408000000.0,
         "Reconciled Cost Of Revenue": 1240000000.0,
+        "EBITDA": 1201000000.0,
         "EBIT": 790000000.0,
         "Net Interest Income": -250000000.0,
         "Interest Expense": 250000000.0,
@@ -608,6 +611,7 @@
         "Depreciation And Amortization In Income Statement": 411000000.0,
         "Depreciation Income Statement": 411000000.0,
         "Gross Profit": 2528000000.0,
+        "Cost Of Revenue": 1237000000.0,
         "Total Revenue": 3765000000.0,
         "Operating Revenue": 3667000000.0
     },
@@ -620,6 +624,7 @@
         "Net Income From Continuing Operation Net Minority Interest": 268000000.0,
         "Reconciled Depreciation": 348000000.0,
         "Reconciled Cost Of Revenue": 1188000000.0,
+        "EBITDA": 1078000000.0,
         "EBIT": 663000000.0,
         "Net Interest Income": -257000000.0,
         "Interest Expense": 257000000.0,
@@ -655,6 +660,7 @@
         "Depreciation And Amortization In Income Statement": 415000000.0,
         "Depreciation Income Statement": 415000000.0,
         "Gross Profit": 2259000000.0,
+        "Cost Of Revenue": 1121000000.0,
         "Total Revenue": 3380000000.0,
         "Operating Revenue": 3260000000.0
     },
@@ -667,6 +673,7 @@
         "Net Income From Continuing Operation Net Minority Interest": 441000000.0,
         "Reconciled Depreciation": 514000000.0,
         "Reconciled Cost Of Revenue": 1407000000.0,
+        "EBITDA": 1385000000.0,
         "EBIT": 871000000.0,
         "Net Interest Income": -261000000.0,
         "Interest Expense": 261000000.0,
@@ -702,6 +709,7 @@
         "Depreciation And Amortization In Income Statement": 417000000.0,
         "Depreciation Income Statement": 417000000.0,
         "Gross Profit": 2644000000.0,
+        "Cost Of Revenue": 1504000000.0,
         "Total Revenue": 4148000000.0,
         "Operating Revenue": 3965000000.0
     },
@@ -714,6 +722,7 @@
         "Net Income From Continuing Operation Net Minority Interest": -49000000.0,
         "Reconciled Depreciation": 337000000.0,
         "Reconciled Cost Of Revenue": 1457000000.0,
+        "EBITDA": 688000000.0,
         "EBIT": 267000000.0,
         "Net Interest Income": -264000000.0,
         "Interest Expense": 264000000.0,
@@ -749,6 +758,7 @@
         "Depreciation And Amortization In Income Statement": 421000000.0,
         "Depreciation Income Statement": 421000000.0,
         "Gross Profit": 2424000000.0,
+        "Cost Of Revenue": 1373000000.0,
         "Total Revenue": 3797000000.0,
         "Operating Revenue": 3608000000.0
     },
@@ -761,6 +771,7 @@
         "Net Income From Continuing Operation Net Minority Interest": 405000000.0,
         "Reconciled Depreciation": 117000000.0,
         "Reconciled Cost Of Revenue": 1894000000.0,
+        "EBITDA": 1297000000.0,
         "EBIT": 876000000.0,
         "Net Interest Income": -272000000.0,
         "Interest Expense": 272000000.0,
@@ -796,6 +807,7 @@
         "Depreciation And Amortization In Income Statement": 421000000.0,
         "Depreciation Income Statement": 421000000.0,
         "Gross Profit": 2612000000.0,
+        "Cost Of Revenue": 1590000000.0,
         "Total Revenue": 4202000000.0,
         "Operating Revenue": 3872000000.0
     }

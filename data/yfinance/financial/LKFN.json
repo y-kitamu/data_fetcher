@@ -806,6 +806,7 @@
         "Insurance And Claims": NaN,
         "Salaries And Wages": NaN,
         "Total Revenue": NaN,
+        "Operating Revenue": NaN,
         "Occupancy And Equipment": NaN,
         "Professional Expense And Contract Services Expense": NaN,
         "Other Non Interest Expense": NaN
@@ -840,6 +841,7 @@
         "Insurance And Claims": 800000.0,
         "Salaries And Wages": 17902000.0,
         "Total Revenue": 63803000.0,
+        "Operating Revenue": 63803000.0,
         "Occupancy And Equipment": 3362000.0,
         "Professional Expense And Contract Services Expense": 2380000.0,
         "Other Non Interest Expense": 8319000.0
@@ -874,6 +876,7 @@
         "Insurance And Claims": 839000.0,
         "Salaries And Wages": 17096000.0,
         "Total Revenue": 66362000.0,
+        "Operating Revenue": 66362000.0,
         "Occupancy And Equipment": 3184000.0,
         "Professional Expense And Contract Services Expense": 1706000.0,
         "Other Non Interest Expense": 7607000.0
@@ -908,6 +911,7 @@
         "Insurance And Claims": 878000.0,
         "Salaries And Wages": 20414000.0,
         "Total Revenue": 69027000.0,
+        "Operating Revenue": 69027000.0,
         "Occupancy And Equipment": 3352000.0,
         "Professional Expense And Contract Services Expense": 1726000.0,
         "Other Non Interest Expense": 8595000.0
@@ -942,6 +946,7 @@
         "Insurance And Claims": 844000.0,
         "Salaries And Wages": 19881000.0,
         "Total Revenue": 69796000.0,
+        "Operating Revenue": 69796000.0,
         "Occupancy And Equipment": 3342000.0,
         "Professional Expense And Contract Services Expense": 1886000.0,
         "Other Non Interest Expense": 7492000.0
@@ -976,6 +981,7 @@
         "Insurance And Claims": 873000.0,
         "Salaries And Wages": 20295000.0,
         "Total Revenue": 69706000.0,
+        "Operating Revenue": 69706000.0,
         "Occupancy And Equipment": 3568000.0,
         "Professional Expense And Contract Services Expense": 1937000.0,
         "Other Non Interest Expense": 8478000.0

@@ -557,6 +557,7 @@
         "Operating Revenue": 5126000000.0
     },
     "2025-03-31": {
+        "Tax Effect Of Unusual Items": -1009887.936717,
         "Tax Rate For Calcs": 0.252472,
         "Total Unusual Items": -4000000.0,
         "Total Unusual Items Excluding Goodwill": -4000000.0,
@@ -564,6 +565,7 @@
         "Net Interest Income": 3204000000.0,
         "Interest Income": 3204000000.0,
         "Normalized Income": 1123990112.063283,
+        "Net Income From Continuing And Discontinued Operation": 1121000000.0,
         "Diluted Average Shares": 15147250000.0,
         "Basic Average Shares": 15147250000.0,
         "Diluted EPS": 0.068,
@@ -585,6 +587,7 @@
         "Operating Revenue": 4695000000.0
     },
     "2025-06-30": {
+        "Tax Effect Of Unusual Items": -84793155.51082,
         "Tax Rate For Calcs": 0.290388,
         "Total Unusual Items": -292000000.0,
         "Total Unusual Items Excluding Goodwill": -292000000.0,
@@ -592,6 +595,7 @@
         "Net Interest Income": 3274000000.0,
         "Interest Income": 12163000000.0,
         "Normalized Income": 1592206844.48918,
+        "Net Income From Continuing And Discontinued Operation": 1385000000.0,
         "Diluted Average Shares": NaN,
         "Basic Average Shares": NaN,
         "Diluted EPS": NaN,
@@ -613,6 +617,7 @@
         "Operating Revenue": 4996000000.0
     },
     "2025-09-30": {
+        "Tax Effect Of Unusual Items": 94446337.308348,
         "Tax Rate For Calcs": 0.337308,
         "Total Unusual Items": 280000000.0,
         "Total Unusual Items Excluding Goodwill": 280000000.0,
@@ -620,6 +625,7 @@
         "Net Interest Income": 3330000000.0,
         "Interest Income": -5559000000.0,
         "Normalized Income": 552446337.308348,
+        "Net Income From Continuing And Discontinued Operation": 738000000.0,
         "Diluted Average Shares": NaN,
         "Basic Average Shares": NaN,
         "Diluted EPS": NaN,
@@ -641,6 +647,7 @@
         "Operating Revenue": 4561000000.0
     },
     "2025-12-31": {
+        "Tax Effect Of Unusual Items": -88708018.154312,
         "Tax Rate For Calcs": 0.276349,
         "Total Unusual Items": -321000000.0,
         "Total Unusual Items Excluding Goodwill": -321000000.0,
@@ -648,6 +655,7 @@
         "Net Interest Income": 3422000000.0,
         "Interest Income": 20941000000.0,
         "Normalized Income": 1634291981.845688,
+        "Net Income From Continuing And Discontinued Operation": 1402000000.0,
         "Diluted Average Shares": NaN,
         "Basic Average Shares": NaN,
         "Diluted EPS": NaN,
@@ -669,6 +677,7 @@
         "Operating Revenue": 5776000000.0
     },
     "2026-03-31": {
+        "Tax Effect Of Unusual Items": -4177777.777778,
         "Tax Rate For Calcs": 0.232099,
         "Total Unusual Items": -18000000.0,
         "Total Unusual Items Excluding Goodwill": -18000000.0,
@@ -676,6 +685,7 @@
         "Net Interest Income": 3483000000.0,
         "Interest Income": 3483000000.0,
         "Normalized Income": 1544822222.222222,
+        "Net Income From Continuing And Discontinued Operation": 1531000000.0,
         "Diluted Average Shares": 14700250000.0,
         "Basic Average Shares": 14700250000.0,
         "Diluted EPS": 0.096,
