@@ -1,0 +1,32 @@
+{
+    "2025-12-31": {
+        "Tax Effect Of Unusual Items": 0.0,
+        "Tax Rate For Calcs": 0.0,
+        "Normalized EBITDA": 69006000.0,
+        "Total Unusual Items": -70000000.0,
+        "Total Unusual Items Excluding Goodwill": -70000000.0,
+        "Net Income From Continuing Operation Net Minority Interest": -70994000.0,
+        "EBITDA": -994000.0,
+        "EBIT": -994000.0,
+        "Normalized Income": -994000.0,
+        "Net Income From Continuing And Discontinued Operation": -70994000.0,
+        "Total Expenses": 994000.0,
+        "Diluted NI Availto Com Stockholders": -70994000.0,
+        "Net Income Common Stockholders": -70994000.0,
+        "Net Income": -70994000.0,
+        "Net Income Including Noncontrolling Interests": -70994000.0,
+        "Net Income Continuous Operations": -70994000.0,
+        "Pretax Income": -70994000.0,
+        "Other Income Expense": -70000000.0,
+        "Special Income Charges": -70000000.0,
+        "Other Special Charges": 70000000.0,
+        "Operating Income": -994000.0,
+        "Operating Expense": 994000.0,
+        "Research And Development": 604000.0,
+        "Selling General And Administration": 390000.0,
+        "General And Administrative Expense": 390000.0,
+        "Other Gand A": 390000.0,
+        "Total Revenue": 0.0,
+        "Operating Revenue": 0.0
+    }
+}

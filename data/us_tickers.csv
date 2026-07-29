@@ -3821,6 +3821,7 @@ STEP,STEPSTONE GROUP,ステップストーン・グループ,NASDAQ,金融（証
 STG,SUNLANDS TECHNO,サンランズ・テクノロジー・グループ,NYSE,ソフトウェア・サービス,○
 STGW,STAGWELL INC,スタッグウェル,NASDAQ,ソフトウェア・サービス,○
 STIM,NEURONETICS INC,ニューロネティクス,NASDAQ,ヘルスケア,○
+STKH,STEAKHOLDER FOOD,ステーキホルダー・フーズ,NASDAQ,食品,○
 STKS,ONE GROUP HOSPTL,ワン・グループ・ホスピタリティ,NASDAQ,外食,○
 STLA,STELLANTIS,ステランティス,NYSE,自動車,○
 STLD,STEEL DYNAMICS,スチール・ダイナミクス,NASDAQ,その他製造,○
@@ -4167,7 +4168,6 @@ URBN,URBAN OUTFITTERS,アーバン・アウトフィッターズ,NASDAQ,専門�
 URG,UR ENERGY INC,ウル・エナジー,NYSE,その他,○
 URGN,UROGEN PHARMA,ユーロジェン・ファーマ,NASDAQ,医薬品（バイオテクノロジー）,○
 URI,UNITED RENTALS I,ユナイテッド・レンタルズ,NYSE,その他,○
-UROY,URANIUM ROYALTY,ウラニウム・ロイヤルティ,NASDAQ,その他製造,○
 USAR,USA RARE EARTH,USAレアアース,NASDAQ,その他,○
 USAU,US GOLD CORP,USゴールド,NASDAQ,専門店,○
 USB,U.S. BANCORP,USバンコープ,NYSE,金融（銀行）,○
@@ -4520,6 +4520,7 @@ XYZ,BLOCK INC,ブロック,NYSE,情報処理サービス,○
 XZO,EXZEO GROUP INC,エグゼオ・グループ,NYSE,ソフトウェア・サービス,○
 YALA,YALLA GROUP LTD,ヤッラー・グループ,NYSE,ソフトウェア・サービス,○
 YANG,DRX FTSE CH BR3X,Direxion デイリー FTSE中国株 ベア 3倍 ETF,NYSE,その他,○
+YARW,YARROW BIO,ヤロウ・バイオサイエンス,NASDAQ,医薬品（バイオテクノロジー）,○
 YBST,GNS YLDBST SSTCK,GraniteShares イールドブースト・シングルストック・ユニバースETF,NASDAQ,その他,○
 YBTY,GNS YLDBST T YLD,GraniteShares イールドブースト 高利回り銘柄ETF,NASDAQ,その他,○
 YELP,YELP INC,イェルプ,NYSE,情報処理サービス,○
