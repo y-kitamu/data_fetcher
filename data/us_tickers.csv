@@ -2571,9 +2571,9 @@ MFIN,MEDALLION FINANC,メダリオン・ファイナンシャル,NASDAQ,金融�
 MFP,MIDERA FOOD,ミデラ・フード・プロセッシング,NASDAQ,食品,○
 MG,MISTRAS GROUP,ミストラス・グループ,NYSE,その他製造,○
 MGA,MAGNA INTL,マグナ・インターナショナル,NYSE,その他製造,○
-MGC,VA MEGA CAP,バンガード・米国メガキャップETF,NYSE,その他,○
+MGC,VA MEGA CAP,バンガード・モーニングスター・米国超大型株ETF,NYSE,その他,○
 MGEE,MGE ENERGY INC,MGEエナジー,NASDAQ,電力,○
-MGK,VA MEGA CAP GROW,バンガード・米国メガキャップ・グロースETF,NYSE,その他,○
+MGK,VG MEGA GROWTH,バンガード・モーニングスター・米国超大型グロース株ETF,NYSE,その他,○
 MGM,MGM RESORTS,MGMリゾート・インタナショナル,NYSE,ホテル,○
 MGNI,MAGNITE,マグナイト,NASDAQ,その他,○
 MGNX,MACROGENICS INC,マクロジェニックス,NASDAQ,医薬品（バイオテクノロジー）,○
@@ -2581,7 +2581,7 @@ MGOV,FT IM GOVT OPPO,ファーストトラスト 中期政府債 オポチュニ
 MGPI,MGP INGREDIENTS,MGPイングリディエンツ,NASDAQ,飲料,○
 MGRC,MCGRATH RENTCORP,マグラス・レントコープ,NASDAQ,その他,○
 MGTX,MEIRAGTX HLD,メイラGTxホールディングス,NASDAQ,医薬品（バイオテクノロジー）,○
-MGV,VA MEGA CAP VALU,バンガード・米国メガキャップ・バリューETF,NYSE,その他,○
+MGV,VA MEGA VALU,バンガード・モーニングスター・米国超大型バリュー株ETF,NYSE,その他,○
 MGX,METAGENOMI THERA,メタゲノミ・セラピューティクス,NASDAQ,医薬品,○
 MGY,MAGNOLIA OIL&GAS,マグノリア・オイル・アンド・ガス,NYSE,石油,○
 MGYR,MAGYAR BANCORP,マジャール・バンコープ,NASDAQ,金融（銀行）,○
@@ -4168,6 +4168,7 @@ URBN,URBAN OUTFITTERS,アーバン・アウトフィッターズ,NASDAQ,専門�
 URG,UR ENERGY INC,ウル・エナジー,NYSE,その他,○
 URGN,UROGEN PHARMA,ユーロジェン・ファーマ,NASDAQ,医薬品（バイオテクノロジー）,○
 URI,UNITED RENTALS I,ユナイテッド・レンタルズ,NYSE,その他,○
+UROY,URANIUM ROYALTY,ウラニウム・ロイヤルティ,NASDAQ,その他製造,○
 USAR,USA RARE EARTH,USAレアアース,NASDAQ,その他,○
 USAU,US GOLD CORP,USゴールド,NASDAQ,専門店,○
 USB,U.S. BANCORP,USバンコープ,NYSE,金融（銀行）,○
@@ -4203,9 +4204,9 @@ VALU,VALUE LINE INC,バリューライン,NASDAQ,エンターテイメント,○
 VANI,VIVANI MEDICAL,ビバニ・メディカル,NASDAQ,医薬品,○
 VATE,INNOVATE,イノベート,NYSE,通信サービス,○
 VAW,VA MATERIALS,バンガード・米国素材セクターETF,NYSE,その他,○
-VB,VANGUARD SML-CAP,バンガード・スモールキャップETF,NYSE,その他,○
-VBK,VA S-CAP GROWTH,バンガード・米国スモールキャップ・グロースETF,NYSE,その他,○
-VBR,VA S-CAP VALUE,バンガード・米国スモールキャップ・バリューETF,NYSE,その他,○
+VB,VA SMALL CAP,バンガード・モーニングスター・米国小型株ETF,NYSE,その他,○
+VBK,VG SMALL GROWTH,バンガード・モーニングスター・米国小型グロース株ETF,NYSE,その他,○
+VBR,VA SMALL VALUE,バンガード・モーニングスター・米国小型バリュー株ETF,NYSE,その他,○
 VCEL,VERICEL CORP,ヴェリセル,NASDAQ,ヘルスケア,○
 VCIT,VA M-TERM CORPBD,バンガード・米国中期社債ETF,NASDAQ,その他,○
 VCLT,VA L-TERM CORPBD,バンガード・米国長期社債ETF,NASDAQ,その他,○
@@ -4283,9 +4284,9 @@ VNET,VNET GROUP,VNETグループ,NASDAQ,ネットワーク,○
 VNM,V VIETNAM,ヴァンエック・ベトナムETF,Cboe,その他,○
 VNOM,VIPER ENERGY,ヴァイパー・エナジー,NASDAQ,石油,○
 VNT,VONTIER CORP,ヴォンティエ・コーポレーション,NYSE,ソフトウェア・サービス,○
-VO,VA MID-CAP,バンガード・米国ミッドキャップETF,NYSE,その他,○
+VO,VG MID CAP,バンガード・モーニングスター・米国中型株ETF,NYSE,その他,○
 VOD,VODAFONE ADR,ボーダフォン・グループ,NASDAQ,通信サービス,○
-VOE,VA MID-CAP VALUE,バンガード・米国ミッドキャップ・バリューETF,NYSE,その他,○
+VOE,VA MID VALUE,バンガード・モーニングスター・米国中型バリュー株ETF,NYSE,その他,○
 VONE,VA RUSSELL1000,バンガード・ラッセル1000 ETF,NASDAQ,その他,○
 VONG,VA RUSSELL1000 G,バンガード・ラッセル1000グロース株ETF,NASDAQ,その他,○
 VONV,VA RUSSELL1000 V,バンガード・ラッセル1000バリュー株ETF,NASDAQ,その他,○
@@ -4293,7 +4294,7 @@ VOO,VANGUARD SP 500,バンガード・S&P 500 ETF,NYSE,その他,○
 VOOG,VA SP500 GROWTH,バンガード・S&P500グロースETF,NYSE,その他,○
 VOOV,VA SP500 VALUE,バンガード・S&P500バリューETF,NYSE,その他,○
 VOR,VOR BIOPHARMA,ボー・バイオファーマ,NASDAQ,医薬品,○
-VOT,VA M-CAP GROWTH,バンガード・米国ミッドキャップ・グロースETF,NYSE,その他,○
+VOT,VG MID GROWTH,バンガード・モーニングスター・米国中型グロース株ETF,NYSE,その他,○
 VOX,VA COMMUNI SERVE,バンガード・米国通信サービス・セクターETF,NYSE,その他,○
 VOYA,VOYA FINANCIAL,ボヤ・ファイナンシャル,NYSE,金融(保険),○
 VOYG,VOYAGER TECH,ボイジャー・テクノロジーズ,NYSE,航空機・宇宙,○
@@ -4327,21 +4328,21 @@ VT,VA WORLD STOCK,バンガード・トータル・ワールド・ストックET
 VTEX,VTEX,VTEX,NYSE,ソフトウェア・サービス,○
 VTGN,VISTAGEN THERAPE,ビスタジェン・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 VTHR,VA RUSSELL 3000,バンガード・ラッセル3000 ETF,NASDAQ,その他,○
-VTI,VANGUARD TTL MKT,バンガード・トータル・ストック・マーケットETF,NYSE,その他,○
+VTI,VA TOTAL MKT,バンガード・モーニングスター・トータル・ストック・マーケットETF,NYSE,その他,○
 VTIP,VA S-TERM IPS,バンガード・米国短期インフレ連動債ETF,NASDAQ,その他,○
 VTMX,INMOBILIAR VESTA,コープ・インモビリアリア・ベスタ,NYSE,その他,○
 VTOL,BRISTOW GROUP,ブリストー・グループ　,NYSE,運輸,○
 VTRS,VIATRIS INC,ヴィアトリス,NASDAQ,医薬品,○
 VTS,VITESSE ENERGY,ビテッセ・エナジー,NYSE,その他,○
 VTSI,VIRTRA INC,バートラ,NASDAQ,その他製造,○
-VTV,VA VALUE,バンガード・米国バリューETF,NYSE,その他,○
+VTV,VA VALUE,バンガード・モーニングスター・米国バリュー株ETF,NYSE,その他,○
 VTVT,VTV THERAPEU,vTvセラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 VTWG,VA RUSSELL2000 G,バンガード・ラッセル2000グロース株ETF,NASDAQ,その他,○
 VTWO,VA RUSSELL2000,バンガード・ラッセル2000 ETF,NASDAQ,その他,○
 VTWV,VA RUSSELL2000 V,バンガード・ラッセル2000バリュー株ETF,NASDAQ,その他,○
-VUG,VA GROWTH,バンガード・米国グロースETF,NYSE,その他,○
+VUG,VA GROWTH,バンガード・モーニングスター・米国グロース株ETF,NYSE,その他,○
 VUZI,VUZIX CRPORATION,ビュージックス,NASDAQ,その他製造,○
-VV,VA LARGE-CAP,バンガード・米国ラージキャップETF,NYSE,その他,○
+VV,VG LARGE CAP,バンガード・モーニングスター・米国大型株ETF,NYSE,その他,○
 VVOS,VIVOS THERAPEU,ビボス・セラピューティクス,NASDAQ,ヘルスケア,○
 VVV,VALVOLINE INC,バルボリン,NYSE,その他製造,○
 VVX,V2X INC,ヴィー・ツー・エクス,NYSE,その他,○

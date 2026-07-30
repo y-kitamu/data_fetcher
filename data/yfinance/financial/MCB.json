@@ -546,10 +546,10 @@
         "Interest Income": 118770000.0,
         "Normalized Income": 16354000.0,
         "Net Income From Continuing And Discontinued Operation": 16354000.0,
-        "Diluted Average Shares": 11281375.0,
-        "Basic Average Shares": 11215118.0,
-        "Diluted EPS": 1.45,
-        "Basic EPS": 1.46,
+        "Diluted Average Shares": NaN,
+        "Basic Average Shares": NaN,
+        "Diluted EPS": NaN,
+        "Basic EPS": NaN,
         "Diluted NI Availto Com Stockholders": 16354000.0,
         "Net Income Common Stockholders": 16354000.0,
         "Net Income": 16354000.0,
@@ -561,11 +561,11 @@
         "General And Administrative Expense": 24706000.0,
         "Insurance And Claims": 2967000.0,
         "Salaries And Wages": 21739000.0,
-        "Total Revenue": 66403000.0,
-        "Operating Revenue": 66403000.0,
+        "Total Revenue": 70590000.0,
+        "Operating Revenue": 70590000.0,
         "Occupancy And Equipment": 2463000.0,
         "Professional Expense And Contract Services Expense": 4986000.0,
-        "Other Non Interest Expense": 6380000.0
+        "Other Non Interest Expense": 10567000.0
     },
     "2025-06-30": {
         "Tax Effect Of Unusual Items": 0.0,
@@ -592,11 +592,11 @@
         "General And Administrative Expense": 23254000.0,
         "Insurance And Claims": 2999000.0,
         "Salaries And Wages": 20255000.0,
-        "Total Revenue": 72808000.0,
-        "Operating Revenue": 72808000.0,
+        "Total Revenue": 76270000.0,
+        "Operating Revenue": 76270000.0,
         "Occupancy And Equipment": 2513000.0,
         "Professional Expense And Contract Services Expense": 3583000.0,
-        "Other Non Interest Expense": 10297000.0
+        "Other Non Interest Expense": 13759000.0
     },
     "2025-09-30": {
         "Tax Effect Of Unusual Items": 0.0,
@@ -623,11 +623,11 @@
         "General And Administrative Expense": 23646000.0,
         "Insurance And Claims": 1972000.0,
         "Salaries And Wages": 21674000.0,
-        "Total Revenue": 75484000.0,
-        "Operating Revenue": 75484000.0,
+        "Total Revenue": 79838000.0,
+        "Operating Revenue": 79838000.0,
         "Occupancy And Equipment": 2664000.0,
         "Professional Expense And Contract Services Expense": 3506000.0,
-        "Other Non Interest Expense": 11624000.0
+        "Other Non Interest Expense": 15978000.0
     },
     "2025-12-31": {
         "Tax Effect Of Unusual Items": 0.0,
@@ -654,11 +654,11 @@
         "General And Administrative Expense": 21971000.0,
         "Insurance And Claims": 1610000.0,
         "Salaries And Wages": 20361000.0,
-        "Total Revenue": 74677000.0,
-        "Operating Revenue": 74677000.0,
+        "Total Revenue": 88408000.0,
+        "Operating Revenue": 88408000.0,
         "Occupancy And Equipment": 2682000.0,
         "Professional Expense And Contract Services Expense": 2857000.0,
-        "Other Non Interest Expense": 3139000.0
+        "Other Non Interest Expense": 16870000.0
     },
     "2026-03-31": {
         "Tax Effect Of Unusual Items": 0.0,
@@ -685,10 +685,41 @@
         "General And Administrative Expense": 25998000.0,
         "Insurance And Claims": 1850000.0,
         "Salaries And Wages": 24148000.0,
-        "Total Revenue": 81691000.0,
-        "Operating Revenue": 81691000.0,
+        "Total Revenue": 88490000.0,
+        "Operating Revenue": 88490000.0,
         "Occupancy And Equipment": 2729000.0,
         "Professional Expense And Contract Services Expense": 3229000.0,
-        "Other Non Interest Expense": 7645000.0
+        "Other Non Interest Expense": 14444000.0
+    },
+    "2026-06-30": {
+        "Tax Effect Of Unusual Items": NaN,
+        "Tax Rate For Calcs": NaN,
+        "Net Income From Continuing Operation Net Minority Interest": NaN,
+        "Reconciled Depreciation": NaN,
+        "Net Interest Income": NaN,
+        "Interest Expense": NaN,
+        "Interest Income": NaN,
+        "Normalized Income": NaN,
+        "Net Income From Continuing And Discontinued Operation": NaN,
+        "Diluted Average Shares": 12515939.0,
+        "Basic Average Shares": 12395278.0,
+        "Diluted EPS": 1.54,
+        "Basic EPS": 1.55,
+        "Diluted NI Availto Com Stockholders": NaN,
+        "Net Income Common Stockholders": NaN,
+        "Net Income": NaN,
+        "Net Income Including Noncontrolling Interests": NaN,
+        "Net Income Continuous Operations": NaN,
+        "Tax Provision": NaN,
+        "Pretax Income": NaN,
+        "Selling General And Administration": NaN,
+        "General And Administrative Expense": NaN,
+        "Insurance And Claims": NaN,
+        "Salaries And Wages": NaN,
+        "Total Revenue": NaN,
+        "Operating Revenue": NaN,
+        "Occupancy And Equipment": NaN,
+        "Professional Expense And Contract Services Expense": NaN,
+        "Other Non Interest Expense": NaN
     }
 }

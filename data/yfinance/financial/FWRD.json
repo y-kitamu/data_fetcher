@@ -968,8 +968,7 @@
         "Insurance And Claims": NaN,
         "Gross Profit": NaN,
         "Cost Of Revenue": NaN,
-        "Total Revenue": NaN,
-        "Operating Revenue": NaN
+        "Total Revenue": NaN
     },
     "2025-03-31": {
         "Tax Effect Of Unusual Items": -193620.0,
@@ -1018,8 +1017,7 @@
         "Insurance And Claims": 15007000.0,
         "Gross Profit": 75303000.0,
         "Cost Of Revenue": 537978000.0,
-        "Total Revenue": 613281000.0,
-        "Operating Revenue": 613281000.0
+        "Total Revenue": 613281000.0
     },
     "2025-06-30": {
         "Tax Effect Of Unusual Items": -977130.0,
@@ -1068,8 +1066,7 @@
         "Insurance And Claims": 15536000.0,
         "Gross Profit": 78465000.0,
         "Cost Of Revenue": 540379000.0,
-        "Total Revenue": 618844000.0,
-        "Operating Revenue": 645158000.0
+        "Total Revenue": 618844000.0
     },
     "2025-09-30": {
         "Tax Effect Of Unusual Items": -113190.0,
@@ -1118,8 +1115,7 @@
         "Insurance And Claims": 12719000.0,
         "Gross Profit": 88537000.0,
         "Cost Of Revenue": 543226000.0,
-        "Total Revenue": 631763000.0,
-        "Operating Revenue": 656470000.0
+        "Total Revenue": 631763000.0
     },
     "2025-12-31": {
         "Tax Effect Of Unusual Items": 42800.576369,
@@ -1168,8 +1164,7 @@
         "Insurance And Claims": 15709000.0,
         "Gross Profit": 95873000.0,
         "Cost Of Revenue": 535357000.0,
-        "Total Revenue": 631230000.0,
-        "Operating Revenue": 558147000.0
+        "Total Revenue": 631230000.0
     },
     "2026-03-31": {
         "Tax Effect Of Unusual Items": 679200.0,
@@ -1218,7 +1213,6 @@
         "Insurance And Claims": 13498000.0,
         "Gross Profit": 89532000.0,
         "Cost Of Revenue": 492514000.0,
-        "Total Revenue": 582046000.0,
-        "Operating Revenue": 582046000.0
+        "Total Revenue": 582046000.0
     }
 }
