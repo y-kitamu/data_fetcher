@@ -704,6 +704,7 @@ CALY,TOPGOLF CALLAWAY,キャロウェイ・ゴルフ・カンパニー,NYSE,専�
 CAMT,CAMTEK ISRAEL,キャムテック,NASDAQ,その他製造,○
 CAN,CANAAN INC,カナン,NASDAQ,半導体,○
 CANG,CANGO INC,カンゴ,NYSE,その他,○
+CAPR,CAPRICOR THERA,カプリコー・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 CAR,AVIS BUDGET,エイビス・バジェット・グループ ,NASDAQ,運輸,○
 CARE,CARTER BANK TRST,カーター・バンク・アンド・トラスト,NASDAQ,金融（銀行）,○
 CARG,CARGURUS INC,カーグルズ,NASDAQ,小売,○
@@ -1311,7 +1312,6 @@ ELMD,ELECTROMED INC,エレクトロメッド,NYSE,医療サービス,○
 ELMT,ELMET GROUP,エルメット・グループ,NASDAQ,機械,○
 ELOX,ELOXX PHARMA,イロックス・ファーマシューティカルズ,NASDAQ,医薬品（バイオテクノロジー）,○
 ELPC,CMPH PRNA ENER,コンパンヒア・パラナエンセ・デ・エネルギア,NYSE,電力,○
-ELSE,ELECTRO SENSORS,エレクトロ・センサーズ,NASDAQ,その他製造,○
 ELTK,ELTEK LTD,エルテック,NASDAQ,その他製造,○
 ELTX,ELICIO THERAP,エリシオ・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 ELUT,ELUTIA INC,エルティア,NASDAQ,医薬品（バイオテクノロジー）,○
@@ -1819,7 +1819,6 @@ GTLB,GITLAB INC,ギットラブ,NASDAQ,ソフトウェア・サービス,○
 GTM,ZOOMINFO TECHNO,ズームインフォ・テクノロジーズ,NASDAQ,ソフトウェア・サービス,○
 GTN,GRAY MEDIA,グレイ・メディア,NYSE,エンターテイメント,○
 GUSH,DRX OIL GAS BL2X,Direxion デイリー S&P 石油 ・ガス採掘・生産 ブル2倍 ETF,NYSE,その他,○
-GV,VISIONARY HD,ビジョナリー・ホールディングス,NASDAQ,その他,○
 GVA,GRANITE CONSTRUC,グラナイト・コンストラクション,NYSE,その他,○
 GWH,ESS TECH INC,ESSテック,NYSE,その他製造,○
 GWRE,GUIDEWIRE SOFT,ガイドワイア・ソフトウェア,NYSE,ソフトウェア・サービス,○
@@ -2206,6 +2205,7 @@ JKHY,JACK HENRY AND A,ジャック・ヘンリー・アンド・アソシエー�
 JKS,JINKOSOLAR HLD,ジンコソーラー・ホールディング,NYSE,その他製造,○
 JLL,JONES LANG LASAL,ジョーンズ・ラング・ラサール,NYSE,その他,○
 JMIA,JUMIA TECHNOLOGI,ジュミア・テクノロジーズ,NYSE,小売,○
+JMKE,JERSEY MIKES,ジャージー・マイクス・サブズ,NYSE,外食,○
 JMSB,JOHN MARSHALL BC,ジョン・マーシャル・バンコープ,NASDAQ,金融（銀行）,○
 JNJ,JOHNSON&JOHNSON,ジョンソン・エンド・ジョンソン,NYSE,ヘルスケア,○
 JNK,SPDR BBG H YIELD,State Street SPDR ブルームバーグ・ハイ・イールド債券 ETF,NYSE,その他,○
@@ -2442,7 +2442,6 @@ LPCN,LIPOCINE INC,リポシン,NASDAQ,医薬品（バイオテクノロジー）
 LPG,DORIAN LPG,ドリアンLPG,NYSE,運輸,○
 LPL,LG DISPLAY,LGディスプレイ,NYSE,その他,○
 LPLA,LPL FINANCIAL HO,LPLインベストメント・ホールディングス,NASDAQ,金融（証券）,○
-LPRO,OPEN LENDING CO,オープン・レンディング,NASDAQ,ソフトウェア・サービス,○
 LPSN,LIVEPERSON INC,ライブパーソン,NASDAQ,ソフトウェア・サービス,○
 LPTH,LIGHTPATH TECHNO,ライトパス・テクノロジーズ,NASDAQ,その他製造,○
 LPX,LOUISIANA-PACIFC,ルイジアナ・パシフィック,NYSE,その他製造,○
@@ -3012,7 +3011,6 @@ ORI,OLD REPUBLIC INT,オールド・リパブリック・インターナショ�
 ORIC,ORIC PHARMACEU,ORICファーマシューティカルズ,NASDAQ,医薬品（バイオテクノロジー）,○
 ORIO,ORION DIGITAL,オリオン・デジタル,NASDAQ,医薬品,○
 ORKA,ORUKA THERAPEUTI,オルカ・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
-ORLA,ORLA MINING LTD,オーラ・マイニング,NYSE,その他,○
 ORLY,OREILLY AUTOMOT,オライリー・オートモーティブ,NASDAQ,自動車,○
 ORMP,ORAMED PHARMACEU,オラメド・ファーマシューティカルズ,NASDAQ,医薬品,○
 ORN,ORION GROUP HLD,オリオン・グループ・ホールディングス,NYSE,その他製造,○
@@ -3373,6 +3371,7 @@ RDWR,RADWARE LTD,ラドウェア,NASDAQ,ソフトウェア・サービス,○
 RDY,DOCTOR REDDYS,ドクター・レディース・ラボラトリーズ,NYSE,医薬品,○
 REAL,THE REALREAL INC,リアルリアル,NASDAQ,小売,○
 REAX,REAL BROKERAGE,リアル・ブローカレッジ,NASDAQ,その他,○
+REF,REFORMATION,リフォーメーション,NYSE,小売,○
 REFR,RESEARCH FRONT,リサーチ・フロンティアーズ,NASDAQ,その他製造,○
 REGN,REGENERON PHARMA,リジェネロン・ファーマシューティカルズ,NASDAQ,医薬品（バイオテクノロジー）,○
 REI,RING ENERGY INC,リング・エナジー,NYSE,石油,○
@@ -3644,7 +3643,6 @@ SKUU,GNS 2X LONG SKHY,GraniteShares2倍ロングSK HynixデイリーETF,NASDAQ,�
 SKWD,SKYWARD SPECIAL,スカイワード・スペシャルティ・インシュアランス・グループ,NASDAQ,金融(保険),○
 SKY,CHAMPION HOMES,チャンピオン・ホームズ,NYSE,その他製造,○
 SKYH,SKY HARBOUR GRP,スカイ・ハーバー・グループ,NYSE,航空,○
-SKYT,SKYWATER TECHNO,スカイウォーター・テクノロジー,NASDAQ,半導体,○
 SKYW,SKYWEST INC,スカイウエスト,NASDAQ,航空,○
 SKYX,SKYX PLATFORMS,SKYXプラットフォームズ,NASDAQ,その他製造,○
 SKYY,FT CLOUD COMPUT,ファーストトラスト クラウドコンピューティングETF,NASDAQ,その他,○
@@ -3939,7 +3937,7 @@ TFX,TELEFLEX INC,テレフレックス,NYSE,ヘルスケア,○
 TG,TREDEGAR CORP,トレデガー,NYSE,その他製造,○
 TGB,TREKOR METALS,トレコー・メタルズ,NYSE,その他,○
 TGEN,TECOGEN INC,テコジェン,NYSE,その他,○
-TGLS,TECNOGLASS INC,テクノグラス,NYSE,その他製造,○
+TGLS,TECNOGLASS INC,テクノグラス・ホールディングス,NYSE,その他製造,○
 TGS,TRANSPORTADORA,トランスポルタドラ・デ・ガス・デル・スル,NYSE,ガス・パイプライン,○
 TGT,TARGET CP.,ターゲット,NYSE,小売,○
 TGTX,TG THERAPEUTICS,TGセラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
