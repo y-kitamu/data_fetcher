@@ -673,7 +673,7 @@
     },
     "2025-12-31": {
         "Tax Effect Of Unusual Items": 19275220.372184,
-        "Tax Rate For Calcs": NaN,
+        "Tax Rate For Calcs": 0.200784,
         "Normalized EBITDA": 9245000000.0,
         "Total Unusual Items": 96000000.0,
         "Total Unusual Items Excluding Goodwill": 96000000.0,
@@ -701,7 +701,7 @@
         "Net Income Continuous Operations": 2448000000.0,
         "Tax Provision": 615000000.0,
         "Pretax Income": 3063000000.0,
-        "Other Income Expense": NaN,
+        "Other Income Expense": -325000000.0,
         "Other Non Operating Income Expenses": -424000000.0,
         "Special Income Charges": 96000000.0,
         "Other Special Charges": -96000000.0,

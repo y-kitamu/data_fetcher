@@ -919,7 +919,6 @@
     "2024-12-31": {
         "Tax Effect Of Unusual Items": NaN,
         "Tax Rate For Calcs": NaN,
-        "Normalized EBITDA": NaN,
         "Total Unusual Items": NaN,
         "Total Unusual Items Excluding Goodwill": NaN,
         "Net Income From Continuing Operation Net Minority Interest": NaN,
@@ -968,7 +967,6 @@
     "2025-03-31": {
         "Tax Effect Of Unusual Items": -3585000.0,
         "Tax Rate For Calcs": 0.239,
-        "Normalized EBITDA": 1489000000.0,
         "Total Unusual Items": -15000000.0,
         "Total Unusual Items Excluding Goodwill": -15000000.0,
         "Net Income From Continuing Operation Net Minority Interest": 750000000.0,
@@ -1017,7 +1015,6 @@
     "2025-06-30": {
         "Tax Effect Of Unusual Items": -16960000.0,
         "Tax Rate For Calcs": 0.32,
-        "Normalized EBITDA": 392000000.0,
         "Total Unusual Items": -53000000.0,
         "Total Unusual Items Excluding Goodwill": -53000000.0,
         "Net Income From Continuing Operation Net Minority Interest": -104000000.0,
@@ -1066,7 +1063,6 @@
     "2025-09-30": {
         "Tax Effect Of Unusual Items": -2888000.0,
         "Tax Rate For Calcs": 0.361,
-        "Normalized EBITDA": 793000000.0,
         "Total Unusual Items": -8000000.0,
         "Total Unusual Items Excluding Goodwill": -8000000.0,
         "Net Income From Continuing Operation Net Minority Interest": 152000000.0,
@@ -1115,7 +1111,6 @@
     "2025-12-31": {
         "Tax Effect Of Unusual Items": -15120000.0,
         "Tax Rate For Calcs": 0.21,
-        "Normalized EBITDA": 755000000.0,
         "Total Unusual Items": -72000000.0,
         "Total Unusual Items Excluding Goodwill": -72000000.0,
         "Net Income From Continuing Operation Net Minority Interest": 66000000.0,
@@ -1164,7 +1159,6 @@
     "2026-03-31": {
         "Tax Effect Of Unusual Items": -18000000.0,
         "Tax Rate For Calcs": 0.4,
-        "Normalized EBITDA": 845000000.0,
         "Total Unusual Items": -45000000.0,
         "Total Unusual Items Excluding Goodwill": -45000000.0,
         "Net Income From Continuing Operation Net Minority Interest": 125000000.0,
