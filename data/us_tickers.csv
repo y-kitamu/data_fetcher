@@ -93,7 +93,6 @@ AES,AES CORPORATION,AES,NYSE,その他製造,○
 AESI,ATLAS ENERGY SLT,アトラス・エナジー・ソリューションズ,NYSE,石油,○
 AEVA,AEVA TECHNO,エヴァ・テクノロジーズ,NASDAQ,ソフトウェア・サービス,○
 AEYE,AUDIOEYE INC,オーディオアイ,NASDAQ,ソフトウェア・サービス,○
-AFBI,AFFINITY BANCSH,アフィニティ・バンクシェアーズ,NASDAQ,金融（銀行）,○
 AFCG,ADVANCED FLOWER,アドバンスド・フラワー・キャピタル,NASDAQ,運輸,○
 AFG,AMERICAN FINANCI,アメリカン・ファイナンシャル・グループ,NYSE,金融(保険),○
 AFK,V AFRICA,ヴァンエック・アフリカ・インデックスETF,NYSE,その他,○
@@ -895,6 +894,7 @@ CNQ,CAN NATURAL RES,カナディアン・ナチュラルリソーシズ,NYSE,石
 CNR,CORE NATURAL RES,コア・ナチュラル・リソーシズ,NYSE,その他,○
 CNRG,SPDR SP CLEAN PW,State Street SPDR S&P Kenshoクリーン・パワーETF,NYSE,その他,○
 CNS,COHEN & STEERS,コーヘン・アンド・スティアーズ,NYSE,金融（証券）,○
+CNSY,CERENOME,セレノーム,NASDAQ,医薬品（バイオテクノロジー）,○
 CNTN,CANTONSTRATEGIC,カントン・ストラテジック・ホールディングス,NASDAQ,医薬品（バイオテクノロジー）,○
 CNTX,CONTEXT THERAPE,コンテクスト・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 CNTY,CENTURY CASINO,センチュリー・カジノス,NASDAQ,エンターテイメント,○
@@ -2717,7 +2717,6 @@ MUSA,MURPHY USA INC,マーフィーUSA,NYSE,専門店,○
 MUU,DRX MU BL2X,Direxion デイリー MU ブル 2 倍 ETF,NASDAQ,その他,○
 MUX,MCEWEN INC,マッキュアン,NYSE,その他製造,○
 MVBF,MVB FINANCIAL CO,MVBフィナンシャル,NASDAQ,金融（銀行）,○
-MVIS,MICROVISION INC,マイクロビジョン,NASDAQ,その他製造,○
 MVLL,GNS 2X LONG MRVL,GraniteShares2倍ロングMRVLデイリーETF,NASDAQ,その他,○
 MVST,MICROVAST HLD,マイクロヴァスト・ホールディングス,NASDAQ,その他製造,○
 MWA,MUELLER WATER,ミューラー・ウォーター・プロダクツ,NYSE,その他製造,○
@@ -3252,7 +3251,6 @@ PSNL,PERSONALIS INC,パーソナリス,NASDAQ,ヘルスケア,○
 PSNY,POLESTAR,ポールスター,NASDAQ,その他,○
 PSO,PEARSON PLC SPON,ピアソン,NYSE,エンターテイメント,○
 PSQH,PSQ HOLDINGS INC,PSQホールディングス,NYSE,情報処理サービス,○
-PSTV,PLUS THERAPE,プラス･セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 PSX,PHILLIPS 66,フィリップス66,NYSE,石油,○
 PTC,PTC INC,PTC,NASDAQ,ソフトウェア・サービス,○
 PTCT,PTC THERAPEUTICS,PTCセラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
@@ -3564,7 +3562,6 @@ SEDG,SOLAREDGE TECH,ソーラーエッジ・テクノロジー,NASDAQ,電力,○
 SEED,ORIGIN AGRITECH,オリジン・アグリテック,NASDAQ,化学,○
 SEER,SEER INC,シーア,NASDAQ,医薬品（バイオテクノロジー）,○
 SEG,SEAPORT ENTMT,シーポート・エンターテイメント,NYSE,エンターテイメント,○
-SEGG,SPORT ENT GAMING,スポーツ・エンターテイメント・ゲーミング・グローバル,NASDAQ,エンターテイメント,○
 SEI,SOLARIS ENERGY,ソラリス・エナジー・インフラストラクチャー,NYSE,石油,○
 SEIC,SEI INVESTMENTS,SEIインベストメンツ,NASDAQ,情報処理サービス,○
 SEMY,GNS YLDBST SEMIC,GraniteShares イールドブースト 半導体 ETF,NASDAQ,その他,○
