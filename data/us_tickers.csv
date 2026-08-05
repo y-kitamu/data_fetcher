@@ -26,7 +26,6 @@ ABSI,ABSCI CORP,アブサイ,NASDAQ,医薬品（バイオテクノロジー）,�
 ABT,ABBOTT LABOR,アボットラボラトリーズ,NYSE,医薬品,○
 ABTS,ABITS GROUP,アビッツ・グループ,NASDAQ,ソフトウェア・サービス,○
 ABUS,ARBUTUS BIOPHARM,アービュタス・バイオファーマ,NASDAQ,医薬品（バイオテクノロジー）,○
-ABVC,ABVC BIOPHARMA,ABVCバイオファーマ,NASDAQ,医薬品（バイオテクノロジー）,○
 ABX,ABACUS GLBL MNG,アバカス・グローバル・マネジメント,NYSE,金融(保険),○
 ACA,ARCOSA INC,アルコサ,NYSE,その他製造,○
 ACAD,ACADIA PHARMA,アカディア・ファーマシューティカルズ,NASDAQ,医薬品（バイオテクノロジー）,○
@@ -2717,6 +2716,7 @@ MUSA,MURPHY USA INC,マーフィーUSA,NYSE,専門店,○
 MUU,DRX MU BL2X,Direxion デイリー MU ブル 2 倍 ETF,NASDAQ,その他,○
 MUX,MCEWEN INC,マッキュアン,NYSE,その他製造,○
 MVBF,MVB FINANCIAL CO,MVBフィナンシャル,NASDAQ,金融（銀行）,○
+MVIS,MICROVISION INC,マイクロビジョン,NASDAQ,その他製造,○
 MVLL,GNS 2X LONG MRVL,GraniteShares2倍ロングMRVLデイリーETF,NASDAQ,その他,○
 MVST,MICROVAST HLD,マイクロヴァスト・ホールディングス,NASDAQ,その他製造,○
 MWA,MUELLER WATER,ミューラー・ウォーター・プロダクツ,NYSE,その他製造,○
@@ -3562,6 +3562,7 @@ SEDG,SOLAREDGE TECH,ソーラーエッジ・テクノロジー,NASDAQ,電力,○
 SEED,ORIGIN AGRITECH,オリジン・アグリテック,NASDAQ,化学,○
 SEER,SEER INC,シーア,NASDAQ,医薬品（バイオテクノロジー）,○
 SEG,SEAPORT ENTMT,シーポート・エンターテイメント,NYSE,エンターテイメント,○
+SEGG,SPORT ENT GAMING,スポーツ・エンターテイメント・ゲーミング・グローバル,NASDAQ,エンターテイメント,○
 SEI,SOLARIS ENERGY,ソラリス・エナジー・インフラストラクチャー,NYSE,石油,○
 SEIC,SEI INVESTMENTS,SEIインベストメンツ,NASDAQ,情報処理サービス,○
 SEMY,GNS YLDBST SEMIC,GraniteShares イールドブースト 半導体 ETF,NASDAQ,その他,○
@@ -3819,6 +3820,7 @@ STKH,STEAKHOLDER FOOD,ステーキホルダー・フーズ,NASDAQ,食品,○
 STKS,ONE GROUP HOSPTL,ワン・グループ・ホスピタリティ,NASDAQ,外食,○
 STLA,STELLANTIS,ステランティス,NYSE,自動車,○
 STLD,STEEL DYNAMICS,スチール・ダイナミクス,NASDAQ,その他製造,○
+STLN,STARLING ONCO,スターリング・オンコロジー,NASDAQ,医薬品（バイオテクノロジー）,○
 STM,STMICROELECTRO,STマイクロエレクトロニクス,NYSE,半導体,○
 STN,STANTEC INC,スタンテック,NYSE,その他,○
 STNE,STONECO LTD,ストーン,NASDAQ,情報処理サービス,○
@@ -3993,7 +3995,6 @@ TNL,TRAVEL LEISURE,トラベル・レージャー,NYSE,ホテル,○
 TNON,TENON MEDICAL,テノン・メディカル,NASDAQ,医薬品,○
 TNXP,TONIX PHARMACEUT,トニックス・ファーマシュティカルズ・ホールディング,NASDAQ,医薬品,○
 TNYA,TENAYA THERA,テナヤ・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
-TOI,ONCOLOGY INSTITT,オンコロジー・インスティチュート,NASDAQ,医薬品（バイオテクノロジー）,○
 TOK,ISHARES KOKUSAI,iシェアーズ　MSCI コクサイ　ETF,NYSE,その他,○
 TOL,TOLL BROTHERS IN,トール・ブラザーズ,NYSE,その他,○
 TOMZ,TOMI ENVIRONMENT,TOMIエンバイロメンタル・ソリューションズ,NASDAQ,化学,○
