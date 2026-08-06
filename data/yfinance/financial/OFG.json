@@ -811,7 +811,7 @@
     },
     "2025-03-31": {
         "Tax Effect Of Unusual Items": 0.0,
-        "Tax Rate For Calcs": 0.2334,
+        "Tax Rate For Calcs": 0.233414,
         "Net Income From Continuing Operation Net Minority Interest": 45572000.0,
         "Reconciled Depreciation": 6317000.0,
         "Net Interest Income": 149071000.0,
@@ -831,16 +831,16 @@
         "Tax Provision": 13876000.0,
         "Pretax Income": 59448000.0,
         "Gain On Sale Of Security": 0.0,
-        "Selling General And Administration": 45315000.0,
+        "Selling General And Administration": 45648000.0,
         "Selling And Marketing Expense": 2617000.0,
-        "General And Administrative Expense": 42698000.0,
+        "General And Administrative Expense": 43031000.0,
         "Insurance And Claims": 2766000.0,
-        "Salaries And Wages": 39932000.0,
+        "Salaries And Wages": 40265000.0,
         "Total Revenue": 166684000.0,
         "Operating Revenue": 166684000.0,
         "Occupancy And Equipment": 14820000.0,
         "Professional Expense And Contract Services Expense": 5118000.0,
-        "Other Non Interest Expense": 16295000.0
+        "Other Non Interest Expense": 15962000.0
     },
     "2025-06-30": {
         "Tax Effect Of Unusual Items": 0.0,

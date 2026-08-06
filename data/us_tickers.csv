@@ -26,6 +26,7 @@ ABSI,ABSCI CORP,アブサイ,NASDAQ,医薬品（バイオテクノロジー）,�
 ABT,ABBOTT LABOR,アボットラボラトリーズ,NYSE,医薬品,○
 ABTS,ABITS GROUP,アビッツ・グループ,NASDAQ,ソフトウェア・サービス,○
 ABUS,ARBUTUS BIOPHARM,アービュタス・バイオファーマ,NASDAQ,医薬品（バイオテクノロジー）,○
+ABVC,ABVC BIOPHARMA,ABVCバイオファーマ,NASDAQ,医薬品（バイオテクノロジー）,○
 ABX,ABACUS GLBL MNG,アバカス・グローバル・マネジメント,NYSE,金融(保険),○
 ACA,ARCOSA INC,アルコサ,NYSE,その他製造,○
 ACAD,ACADIA PHARMA,アカディア・ファーマシューティカルズ,NASDAQ,医薬品（バイオテクノロジー）,○
@@ -1236,7 +1237,6 @@ DXPE,DXP ENTERPRISES,DXPエンタープライゼズ,NASDAQ,機械,○
 DY,DYCOM INDUSTRIES,ダイコム・インダストリーズ,NYSE,その他製造,○
 DYAI,DYADIC INTL,ダイアディック・インターナショナル,NASDAQ,ヘルスケア,○
 DYN,DYNE THERAPEUTIC,ダイン・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
-EA,ELECTRONIC ARTS,エレクトロニック・アーツ,NASDAQ,通信機器,○
 EAF,GRAFTECH INTL,グラフテック・インターナショナル,NYSE,機械,○
 EART,GLX RARE EARTH,グローバルＸ レアアースビジネス ETF,NASDAQ,その他,○
 EAT,BRINKER INTERNAT,ブリンカー・インターナショナル,NYSE,外食,○
