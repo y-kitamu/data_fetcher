@@ -797,7 +797,7 @@
         "Reconciled Depreciation": 812000.0,
         "Reconciled Cost Of Revenue": 13506000.0,
         "EBITDA": -26490000.0,
-        "EBIT": -27302000.0,
+        "EBIT": NaN,
         "Net Interest Income": 1295000.0,
         "Normalized Income": -26748600.0,
         "Net Income From Continuing And Discontinued Operation": -26553000.0,
