@@ -631,7 +631,7 @@
     },
     "2025-06-30": {
         "Tax Effect Of Unusual Items": 0.0,
-        "Tax Rate For Calcs": 0.126697,
+        "Tax Rate For Calcs": 0.127,
         "Normalized EBITDA": 460000000.0,
         "Total Unusual Items": NaN,
         "Total Unusual Items Excluding Goodwill": NaN,
@@ -643,8 +643,8 @@
         "Normalized Income": 386000000.0,
         "Net Income From Continuing And Discontinued Operation": 386000000.0,
         "Total Expenses": 550000000.0,
-        "Diluted Average Shares": 909000000.0,
-        "Basic Average Shares": 882000000.0,
+        "Diluted Average Shares": 909127658.0,
+        "Basic Average Shares": 882149402.0,
         "Diluted EPS": 0.42,
         "Basic EPS": 0.44,
         "Diluted NI Availto Com Stockholders": 386000000.0,
@@ -811,7 +811,7 @@
     },
     "2026-06-30": {
         "Tax Effect Of Unusual Items": 0.0,
-        "Tax Rate For Calcs": 0.191819,
+        "Tax Rate For Calcs": 0.192,
         "Normalized EBITDA": 597000000.0,
         "Total Unusual Items": NaN,
         "Total Unusual Items Excluding Goodwill": NaN,
