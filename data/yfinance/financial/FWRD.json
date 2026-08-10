@@ -968,7 +968,8 @@
         "Insurance And Claims": NaN,
         "Gross Profit": NaN,
         "Cost Of Revenue": NaN,
-        "Total Revenue": NaN
+        "Total Revenue": NaN,
+        "Operating Revenue": NaN
     },
     "2025-03-31": {
         "Tax Effect Of Unusual Items": -193620.0,
@@ -1066,7 +1067,8 @@
         "Insurance And Claims": 15536000.0,
         "Gross Profit": 78465000.0,
         "Cost Of Revenue": 540379000.0,
-        "Total Revenue": 618844000.0
+        "Total Revenue": 618844000.0,
+        "Operating Revenue": 618844000.0
     },
     "2025-09-30": {
         "Tax Effect Of Unusual Items": -113190.0,
@@ -1115,7 +1117,8 @@
         "Insurance And Claims": 12719000.0,
         "Gross Profit": 88537000.0,
         "Cost Of Revenue": 543226000.0,
-        "Total Revenue": 631763000.0
+        "Total Revenue": 631763000.0,
+        "Operating Revenue": NaN
     },
     "2025-12-31": {
         "Tax Effect Of Unusual Items": 42800.576369,
@@ -1164,7 +1167,8 @@
         "Insurance And Claims": 15709000.0,
         "Gross Profit": 95873000.0,
         "Cost Of Revenue": 535357000.0,
-        "Total Revenue": 631230000.0
+        "Total Revenue": 631230000.0,
+        "Operating Revenue": NaN
     },
     "2026-03-31": {
         "Tax Effect Of Unusual Items": 679200.0,
@@ -1184,8 +1188,8 @@
         "Total Expenses": 561605000.0,
         "Rent Expense Supplemental": 49713000.0,
         "Total Operating Income As Reported": 20441000.0,
-        "Diluted Average Shares": 31485321.0,
-        "Basic Average Shares": 31485321.0,
+        "Diluted Average Shares": 31476000.0,
+        "Basic Average Shares": 31476000.0,
         "Diluted EPS": -1.09,
         "Basic EPS": -1.09,
         "Diluted NI Availto Com Stockholders": -34319000.0,
@@ -1213,6 +1217,57 @@
         "Insurance And Claims": 13498000.0,
         "Gross Profit": 89532000.0,
         "Cost Of Revenue": 492514000.0,
-        "Total Revenue": 582046000.0
+        "Total Revenue": 582046000.0,
+        "Operating Revenue": NaN
+    },
+    "2026-06-30": {
+        "Tax Effect Of Unusual Items": -174386.460681,
+        "Tax Rate For Calcs": 0.000713,
+        "Normalized EBITDA": 82525000.0,
+        "Total Unusual Items": -244572000.0,
+        "Total Unusual Items Excluding Goodwill": -244572000.0,
+        "Net Income From Continuing Operation Net Minority Interest": -205225000.0,
+        "Reconciled Depreciation": 38262000.0,
+        "Reconciled Cost Of Revenue": 561090000.0,
+        "EBITDA": -162047000.0,
+        "EBIT": -200309000.0,
+        "Net Interest Income": -43721000.0,
+        "Interest Expense": 43721000.0,
+        "Normalized Income": 39172613.539319,
+        "Net Income From Continuing And Discontinued Operation": -207300000.0,
+        "Total Expenses": 630342000.0,
+        "Rent Expense Supplemental": 50252000.0,
+        "Total Operating Income As Reported": -201312000.0,
+        "Diluted Average Shares": 32481000.0,
+        "Basic Average Shares": 32481000.0,
+        "Diluted EPS": -6.38,
+        "Basic EPS": -6.38,
+        "Diluted NI Availto Com Stockholders": -207300000.0,
+        "Net Income Common Stockholders": -207300000.0,
+        "Otherunder Preferred Stock Dividend": NaN,
+        "Net Income": -207300000.0,
+        "Minority Interests": 38631000.0,
+        "Net Income Including Noncontrolling Interests": -245931000.0,
+        "Net Income Discontinuous Operations": -2075000.0,
+        "Net Income Continuous Operations": -243856000.0,
+        "Tax Provision": -174000.0,
+        "Pretax Income": -244030000.0,
+        "Other Income Expense": -243003000.0,
+        "Other Non Operating Income Expenses": 1569000.0,
+        "Special Income Charges": -244006000.0,
+        "Impairment Of Capital Assets": 244006000.0,
+        "Gain On Sale Of Security": -566000.0,
+        "Net Non Operating Interest Income Expense": -43721000.0,
+        "Interest Expense Non Operating": 43721000.0,
+        "Operating Income": 42694000.0,
+        "Operating Expense": 69252000.0,
+        "Other Operating Expenses": 55574000.0,
+        "Selling General And Administration": 13678000.0,
+        "General And Administrative Expense": 13678000.0,
+        "Insurance And Claims": 13678000.0,
+        "Gross Profit": 111946000.0,
+        "Cost Of Revenue": 561090000.0,
+        "Total Revenue": 673036000.0,
+        "Operating Revenue": 673036000.0
     }
 }

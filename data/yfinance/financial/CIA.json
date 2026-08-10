@@ -769,7 +769,7 @@
     },
     "2025-06-30": {
         "Tax Effect Of Unusual Items": 0.0,
-        "Tax Rate For Calcs": 0.066,
+        "Tax Rate For Calcs": 0.065809,
         "Net Income From Continuing Operation Net Minority Interest": 6459000.0,
         "Reconciled Depreciation": 182000.0,
         "Normalized Income": 6459000.0,
@@ -882,5 +882,34 @@
         "Loss Adjustment Expense": 36013000.0,
         "Net Policyholder Benefits And Claims": 36013000.0,
         "Policyholder Benefits Gross": 36013000.0
+    },
+    "2026-06-30": {
+        "Tax Effect Of Unusual Items": 0.0,
+        "Tax Rate For Calcs": 0.196597,
+        "Net Income From Continuing Operation Net Minority Interest": -425000.0,
+        "Reconciled Depreciation": 180000.0,
+        "Normalized Income": -425000.0,
+        "Net Income From Continuing And Discontinued Operation": -425000.0,
+        "Total Expenses": 60937000.0,
+        "Diluted Average Shares": 51824000.0,
+        "Basic Average Shares": 50521000.0,
+        "Diluted EPS": -0.01,
+        "Basic EPS": -0.01,
+        "Diluted NI Availto Com Stockholders": -425000.0,
+        "Net Income Common Stockholders": -425000.0,
+        "Net Income": -425000.0,
+        "Net Income Including Noncontrolling Interests": -425000.0,
+        "Net Income Continuous Operations": -425000.0,
+        "Tax Provision": -104000.0,
+        "Pretax Income": -529000.0,
+        "Other Income Expense": 1168000.0,
+        "Selling General And Administration": 14090000.0,
+        "General And Administrative Expense": 14090000.0,
+        "Other Gand A": 14090000.0,
+        "Total Revenue": 60408000.0,
+        "Operating Revenue": 60408000.0,
+        "Loss Adjustment Expense": 38798000.0,
+        "Net Policyholder Benefits And Claims": 38798000.0,
+        "Policyholder Benefits Gross": 38798000.0
     }
 }
