@@ -21,6 +21,7 @@ from .core import (
     constants,
     debug,
     get_session,
+    notify_to_gmail,
     notify_to_line,
 )
 from .fetchers import get_available_sources as get_available_fetcher_sources
@@ -45,6 +46,7 @@ __all__ = [
     "get_reader",
     "get_available_fetcher_sources",
     "notify_to_line",
+    "notify_to_gmail",
     # Logger
     "logger",
     # Database
