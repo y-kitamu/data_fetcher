@@ -81,7 +81,6 @@ ADXN,ADDEX THERAPE,アデックス・セラピューティクス,NASDAQ,医薬�
 AEBI,AEBI SCHMIDT,アエビ・シュミット・ホールディング,NASDAQ,機械,○
 AEE,AMEREN CORP.,アメレン,NYSE,その他製造,○
 AEG,AEGON LTD,エイゴン,NYSE,金融(保険),○
-AEHL,ANTELOPE ENT,アンテロープ・エンタープライズ・ホールディング,NASDAQ,その他製造,○
 AEHR,AEHR TEST SYSTEM,エア・テスト・システムズ,NASDAQ,半導体,○
 AEI,ALSET INC,アルセット,NASDAQ,その他,○
 AEIS,ADVANCED ENERGY,アドバンストエナジーインダストリーズ,NASDAQ,その他製造,○
@@ -2120,6 +2119,7 @@ IPGP,IPG PHOTONICS CO,アイ・ピー・ジーフォトニクス,NASDAQ,周辺�
 IPI,INTREPID POTASH,イントレピッド・ポタッシュ,NYSE,化学,○
 IPM,INTLI PRO MANAGE,インテリジェント・プロテクション・マネジメント,NASDAQ,ソフトウェア・サービス,○
 IPSC,CENTURY THERAPE,センチュリー・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
+IPW,IPOWER INC,アイパワー,NASDAQ,小売,○
 IPWR,IDEAL POWER INC,アイディール・パワー,NASDAQ,その他製造,○
 IPX,IPERIONX,アイペリオンX,NASDAQ,航空機・宇宙,○
 IQ,IQIYI INC,アイチーイー,NASDAQ,エンターテイメント,○
@@ -2460,6 +2460,7 @@ LSPD,LIGHTSPEED COMM,ライトスピード・コマース,NYSE,ソフトウェ�
 LSTA,LISATA THERAP,リサタ・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 LSTR,LANDSTAR SYSTEM,ランドスター・システム,NASDAQ,運輸,○
 LTBR,LIGHTBRIDGE CORP,ライトブリッジ,NASDAQ,その他,○
+LTGO,LATIGO BIO,ラティゴ・バイオセラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 LTH,LIFE TIME GP HLD,ライフ・タイム・グループ・ホールディングス,NYSE,ヘルスケア,○
 LTRN,LANTERN PHARMA,ランタン・ファーマ,NASDAQ,医薬品（バイオテクノロジー）,○
 LTRX,LANTRONIX INC,ラントロニクス,NASDAQ,ネットワーク,○
@@ -3832,7 +3833,6 @@ STRA,STRATEGIC EDUCTN,ストラテジック・エデュケーション,NASDAQ,�
 STRL,STERLING INFRA,スターリング・インフラストラクチャー,NASDAQ,その他,○
 STRO,SUTRO BIOPHARMA,ストゥロ・バイオファーマ,NASDAQ,医薬品（バイオテクノロジー）,○
 STRR,STAR EQUITY HLD,スター・エクイティ・ホールディングス,NASDAQ,その他,○
-STRS,STRATUS PROPERTI,ストラタス・プロパティーズ,NASDAQ,その他,○
 STRT,STRATTEC SECRITY,ストラテック・セキュリティ,NASDAQ,その他製造,○
 STRZ,STARZ ENTERTAIN,スターズ・エンターテイメント,NASDAQ,エンターテイメント,○
 STT,STATE STREET,ステート・ストリート,NYSE,金融（銀行）,○
@@ -3948,7 +3948,6 @@ THCH,TH INTERNATIONAL,THインターナショナル,NASDAQ,飲料,○
 THD,ISHARES THAILAND,iシェアーズ MSCI タイ ETF,NYSE,その他,○
 THFF,FIRST FINANCIAL,ファースト・ファイナンシャル,NASDAQ,金融（銀行）,○
 THG,HANOVER INSURANC,ハノーバー・インシュアランス・グループ,NYSE,金融(保険),○
-THH,TRYHARD HOLDINGS,トライハード・ホールディングス,NASDAQ,エンターテイメント,○
 THO,THOR INDUSTRIES,ソーア・インダストリーズ,NYSE,自動車,○
 THRM,GENTHERM INCORP,ジェンサーム,NASDAQ,周辺機器,○
 THRY,THRYV HLD,スライブ・ホールディングス,NASDAQ,ソフトウェア・サービス,○
@@ -3994,7 +3993,6 @@ TNET,TRINET GROUP INC,トライネット・グループ,NYSE,ソフトウェア�
 TNGX,TANGO THERAPE,タンゴ・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 TNK,TEEKAY TANKERS,ティーケイ・タンカーズ,NYSE,運輸,○
 TNL,TRAVEL LEISURE,トラベル・レージャー,NYSE,ホテル,○
-TNON,TENON MEDICAL,テノン・メディカル,NASDAQ,医薬品,○
 TNXP,TONIX PHARMACEUT,トニックス・ファーマシュティカルズ・ホールディング,NASDAQ,医薬品,○
 TNYA,TENAYA THERA,テナヤ・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 TOK,ISHARES KOKUSAI,iシェアーズ　MSCI コクサイ　ETF,NYSE,その他,○
