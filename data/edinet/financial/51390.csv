@@ -360,3 +360,10 @@ number_of_shares,2022-01-01,2022-12-31,jpcrp_cor:TotalNumberOfIssuedSharesSummar
 number_of_shares,2023-01-01,2023-12-31,jpcrp_cor:TotalNumberOfIssuedSharesSummaryOfBusinessResults,Prior2YearInstant_NonConsolidatedMember,21327360,202603241610
 operating_income,2024-01-01,2024-12-31,jppfs_cor:OperatingIncome,Prior1YearDuration_NonConsolidatedMember,1026173000,202603241610
 operating_income,2025-01-01,2025-12-31,jppfs_cor:OperatingIncome,CurrentYearDuration_NonConsolidatedMember,1199337000,202603241610
+ordinary_income,2026-01-01,2026-12-31,jpcrp_cor:OrdinaryIncomeLossSummaryOfBusinessResults,InterimDuration,1104335000,202608101411
+net_asset,2026-01-01,2026-12-31,jpcrp_cor:NetAssetsSummaryOfBusinessResults,InterimInstant,7640829000,202608101411
+total_asset,2026-01-01,2026-12-31,jpcrp_cor:TotalAssetsSummaryOfBusinessResults,InterimInstant,9502149000,202608101411
+eps,2026-01-01,2026-12-31,jpcrp_cor:BasicEarningsLossPerShareSummaryOfBusinessResults,InterimDuration,35.11,202608101411
+diluted_eps,2026-01-01,2026-12-31,jpcrp_cor:DilutedEarningsPerShareSummaryOfBusinessResults,InterimDuration,34.91,202608101411
+equity_ratio,2026-01-01,2026-12-31,jpcrp_cor:EquityToAssetRatioSummaryOfBusinessResults,InterimInstant,0.804,202608101411
+operating_income,2026-01-01,2026-12-31,jppfs_cor:OperatingIncome,InterimDuration,1091500000,202608101411
