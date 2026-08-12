@@ -52,7 +52,7 @@ def get_latest_dates_data_number() -> dict[str, str]:
     return results
 
 
-def get_fxea_data_number() -> str:
+def get_fxea_data_number() -> tuple[str, int]:
     data_dir = data_fetcher.constants.PROJECT_ROOT / "../fxea/data"
     text_files = sorted(data_dir.glob("*.txt"))
     if len(text_files) == 0:
@@ -62,6 +62,23 @@ def get_fxea_data_number() -> str:
     latest_date = latest_file.name.split("_")[0]
     num_files = len(list(data_dir.glob(f"{latest_date}_*.txt")))
     return (latest_date, num_files)
+
+
+def get_kabus_data_number() -> tuple[str, int]:
+    kabus_dir = data_fetcher.constants.PROJECT_ROOT.parent / "stock/logs/ticks"
+    latest_date = None
+    for jsonl_file in sorted(kabus_dir.glob("*.jsonl*")):
+        stem = jsonl_file.name.split(".jsonl")[0]
+        date = datetime.date.fromisoformat(stem.split("_")[1])
+        if latest_date is None or date > latest_date:
+            latest_date = date
+    if latest_date is None:
+        return ("No data", 0)
+
+    return (
+        latest_date.isoformat().replace("-", ""),
+        len(list(kabus_dir.glob(f"*_{latest_date.isoformat()}*.jsonl*"))),
+    )
 
 
 def get_news_number() -> dict[str, str]:
@@ -84,6 +101,7 @@ def build_status_text() -> str:
     data_nums = get_latest_dates_data_number()
     data_nums.update(get_news_number())
     data_nums["fxea/data"] = get_fxea_data_number()
+    data_nums["kabus"] = get_kabus_data_number()
     # grouped by source, sorted by source name
     grouped_data_nums: dict[str, list[tuple[str, str]]] = {}
     for key in sorted(data_nums.keys()):
