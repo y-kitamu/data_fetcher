@@ -1184,7 +1184,7 @@
         "Gain On Sale Of Security": 900000.0,
         "Net Non Operating Interest Income Expense": -70200000.0,
         "Total Other Finance Cost": 8400000.0,
-        "Interest Expense Non Operating": 80300000.0,
+        "Interest Expense Non Operating": NaN,
         "Interest Income Non Operating": 18500000.0,
         "Operating Income": 180800000.0,
         "Operating Expense": 351200000.0,
