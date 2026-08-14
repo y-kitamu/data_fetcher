@@ -481,3 +481,15 @@ gross_profit,2025-01-01,2025-12-31,jppfs_cor:GrossProfit,CurrentYearDuration,570
 operating_income,2024-01-01,2024-12-31,jppfs_cor:OperatingIncome,Prior1YearDuration,-2631000,202603271610
 operating_income,2025-01-01,2025-12-31,jppfs_cor:OperatingIncome,CurrentYearDuration,-3903000,202603271610
 operating_income,2025-01-01,2025-12-31,jppfs_cor:OperatingIncome,CurrentYearDuration,-611000000,202603271610
+cost_of_sales,2025-10-01,2026-09-30,jppfs_cor:CostOfSales,Prior1InterimDuration,330000,202608131600
+cost_of_sales,2025-10-01,2026-09-30,jppfs_cor:CostOfSales,Prior1InterimDuration,54000000,202608131600
+cost_of_sales,2026-01-01,2026-12-31,jppfs_cor:CostOfSales,InterimDuration,305000,202608131600
+cost_of_sales,2026-01-01,2026-12-31,jppfs_cor:CostOfSales,InterimDuration,49000000,202608131600
+gross_profit,2025-10-01,2026-09-30,jppfs_cor:GrossProfit,Prior1InterimDuration,156000,202608131600
+gross_profit,2025-10-01,2026-09-30,jppfs_cor:GrossProfit,Prior1InterimDuration,25000000,202608131600
+gross_profit,2026-01-01,2026-12-31,jppfs_cor:GrossProfit,InterimDuration,169000,202608131600
+gross_profit,2026-01-01,2026-12-31,jppfs_cor:GrossProfit,InterimDuration,27000000,202608131600
+operating_income,2025-10-01,2026-09-30,jppfs_cor:OperatingIncome,Prior1InterimDuration,-1435000,202608131600
+operating_income,2025-10-01,2026-09-30,jppfs_cor:OperatingIncome,Prior1InterimDuration,-233000000,202608131600
+operating_income,2026-01-01,2026-12-31,jppfs_cor:OperatingIncome,InterimDuration,-1445000,202608131600
+operating_income,2026-01-01,2026-12-31,jppfs_cor:OperatingIncome,InterimDuration,-235000000,202608131600
