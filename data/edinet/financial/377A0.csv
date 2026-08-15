@@ -15,3 +15,16 @@ number_of_temporary_worker,2025-07-01,2025-12-31,jpcrp_cor:AverageNumberOfTempor
 number_of_temporary_worker,2025-07-01,2025-12-31,jpcrp_cor:AverageNumberOfTemporaryWorkers,CurrentYearInstant,1160,202603251629
 number_of_shares,2025-07-01,2025-12-31,jpcrp_cor:TotalNumberOfIssuedSharesSummaryOfBusinessResults,CurrentYearInstant_NonConsolidatedMember,2879848,202603251629
 operating_income,2025-07-01,2025-12-31,jppfs_cor:OperatingIncome,CurrentYearDuration,145234000,202603251629
+ordinary_income,2026-01-01,2026-12-31,jpcrp_cor:OrdinaryIncomeLossSummaryOfBusinessResults,InterimDuration,166586000,202608141604
+ordinary_income,2025-01-01,2025-12-31,jpcrp_cor:OrdinaryIncomeLossSummaryOfBusinessResults,Prior1YearDuration,141773000,202608141604
+net_asset,2026-01-01,2026-12-31,jpcrp_cor:NetAssetsSummaryOfBusinessResults,InterimInstant,2164896000,202608141604
+net_asset,2025-01-01,2025-12-31,jpcrp_cor:NetAssetsSummaryOfBusinessResults,Prior1YearInstant,2048337000,202608141604
+total_asset,2026-01-01,2026-12-31,jpcrp_cor:TotalAssetsSummaryOfBusinessResults,InterimInstant,6317396000,202608141604
+total_asset,2025-01-01,2025-12-31,jpcrp_cor:TotalAssetsSummaryOfBusinessResults,Prior1YearInstant,6289709000,202608141604
+eps,2026-01-01,2026-12-31,jpcrp_cor:BasicEarningsLossPerShareSummaryOfBusinessResults,InterimDuration,34.82,202608141604
+eps,2025-01-01,2025-12-31,jpcrp_cor:BasicEarningsLossPerShareSummaryOfBusinessResults,Prior1YearDuration,4.12,202608141604
+diluted_eps,2026-01-01,2026-12-31,jpcrp_cor:DilutedEarningsPerShareSummaryOfBusinessResults,InterimDuration,－,202608141604
+diluted_eps,2025-01-01,2025-12-31,jpcrp_cor:DilutedEarningsPerShareSummaryOfBusinessResults,Prior1YearDuration,－,202608141604
+equity_ratio,2026-01-01,2026-12-31,jpcrp_cor:EquityToAssetRatioSummaryOfBusinessResults,InterimInstant,0.331,202608141604
+equity_ratio,2025-01-01,2025-12-31,jpcrp_cor:EquityToAssetRatioSummaryOfBusinessResults,Prior1YearInstant,0.316,202608141604
+operating_income,2026-01-01,2026-12-31,jppfs_cor:OperatingIncome,InterimDuration,176806000,202608141604
