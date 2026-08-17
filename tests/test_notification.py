@@ -37,38 +37,35 @@ def _token_file(tmp_path, monkeypatch: Any) -> None:
     monkeypatch.setattr(notification, "LINE_ACCESS_TOKEN_FILE", token_file)
 
 
-def test_success_does_not_raise(mocker: Any) -> None:
-    mocker.patch(
-        "data_fetcher.core.notification.requests.post",
-        return_value=_FakeResponse(200),
+def _patch_post(monkeypatch: Any, response: _FakeResponse) -> None:
+    monkeypatch.setattr(
+        notification.requests, "post", lambda *args, **kwargs: response
     )
+
+
+def test_success_does_not_raise(monkeypatch: Any) -> None:
+    _patch_post(monkeypatch, _FakeResponse(200))
     notification.notify_to_line("hello")
 
 
-def test_http_failure_does_not_leak_token(mocker: Any, log_sink: list) -> None:
-    mocker.patch(
-        "data_fetcher.core.notification.requests.post",
-        return_value=_FakeResponse(400, text="bad request"),
-    )
+def test_http_failure_does_not_leak_token(monkeypatch: Any, log_sink: list) -> None:
+    _patch_post(monkeypatch, _FakeResponse(400, text="bad request"))
     notification.notify_to_line("hello")
     log_text = "".join(str(record) for record in log_sink)
     assert "secret-token-value" not in log_text
     assert "Bearer ***" in log_text
 
 
-def test_http_failure_does_not_raise(mocker: Any) -> None:
-    mocker.patch(
-        "data_fetcher.core.notification.requests.post",
-        return_value=_FakeResponse(500, text="server error"),
-    )
+def test_http_failure_does_not_raise(monkeypatch: Any) -> None:
+    _patch_post(monkeypatch, _FakeResponse(500, text="server error"))
     notification.notify_to_line("hello")
 
 
-def test_request_exception_does_not_raise(mocker: Any) -> None:
-    mocker.patch(
-        "data_fetcher.core.notification.requests.post",
-        side_effect=requests.exceptions.ConnectionError("down"),
-    )
+def test_request_exception_does_not_raise(monkeypatch: Any) -> None:
+    def _raise(*args: Any, **kwargs: Any) -> None:
+        raise requests.exceptions.ConnectionError("down")
+
+    monkeypatch.setattr(notification.requests, "post", _raise)
     notification.notify_to_line("hello")
 
 

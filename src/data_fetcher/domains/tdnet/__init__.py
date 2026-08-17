@@ -3,7 +3,6 @@
 import shutil
 from pathlib import Path
 
-import polars as pl
 import requests
 
 # from . import convert, excel, preprocess

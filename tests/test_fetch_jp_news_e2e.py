@@ -14,7 +14,11 @@ from pathlib import Path
 from unittest.mock import patch
 
 import polars as pl
+import pytest
 from loguru import logger
+
+# 外部サイト (kabutan, Google News, yfinance) に実アクセスするため CI では実行しない
+pytestmark = pytest.mark.e2e
 
 TEST_TICKERS = ["9984", "8035"]  # SoftBank, Tokyo Electron
 
@@ -58,7 +62,7 @@ def test_kabutan() -> None:
 
 
 def test_gnews() -> None:
-    from data_fetcher.fetchers.stocks.gnews_fetcher import GNewsFetcher
+    from data_fetcher.fetchers.stocks.gnews import GNewsFetcher
 
     logger.info(f"=== [2/3] GNews ({GNEWS_START} → {TODAY}) ===")
     GNewsFetcher().run(GNEWS_START, TODAY)

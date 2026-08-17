@@ -55,6 +55,11 @@ dev = [
     "watchdog>=6.0.0",
 ]
 
+[tool.pytest.ini_options]
+markers = [
+    "e2e: 外部サイトへ実アクセスするテスト (CI では実行しない)",
+]
+
 [tool.pyright]
 include = ["src"]  # 対象とするフォルダ
 exclude = [
