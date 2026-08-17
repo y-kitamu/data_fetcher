@@ -55,6 +55,10 @@ dev = [
     "watchdog>=6.0.0",
 ]
 
+[tool.ruff.lint]
+# ruff 0.13 以降デフォルトのルールセットが拡張されたため、従来の既定値を明示して固定する
+select = ["E4", "E7", "E9", "F"]
+
 [tool.pytest.ini_options]
 markers = [
     "e2e: 外部サイトへ実アクセスするテスト (CI では実行しない)",
