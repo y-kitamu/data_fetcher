@@ -447,7 +447,6 @@ BB,BLACKBERRY LTD,ブラックベリー,NYSE,コンピュータ,○
 BBAG,JPM BB US AG BND,JPモルガン・ベータビルダーズ・米国総合債券市場ETF,Cboe,その他,○
 BBAI,BIGBEAR.AI HLD,ビッグベアーAIホールディングス,NYSE,ソフトウェア・サービス,○
 BBAR,BANCO BBVA ARG,バンコBBVAアルゼンチン,NYSE,金融（銀行）,○
-BBBY,BED BATH BEYOND,ベッド・バス・アンド・ビヨンド,NYSE,小売,○
 BBCP,CONCRETE PUMPING,コンクリート・ポンピング・ホールディングス,NASDAQ,その他製造,○
 BBD,BANCO BRADESCO,バンコ・ブラデスコ,NYSE,金融（銀行）,○
 BBDO,BANCO BRADESCO,ブラデスコ銀行,NYSE,金融（銀行）,○
@@ -491,7 +490,7 @@ BEG,LVS 2X LONG BE,LeverageShares 2x ロング BE デイリー ETF,NASDAQ,その
 BEKE,KE HOLDINGS INC.,KEホールディングス,NYSE,その他,○
 BELFA,BEL FUSE CL A,ベル・ヒューズ・クラスA,NASDAQ,その他製造,○
 BELFB,BEL FUSE CL B,ベル・ヒューズ・クラスB,NASDAQ,その他製造,○
-BEN,FRANKLIN INC,フランクリン・リソーシズ,NYSE,その他,○
+BEN,FRANKLIN INC,フランクリン・テンプルトン,NYSE,その他,○
 BEPC,BROOKFIELD RENEW,ブルックフィールド・リニューアブル,NYSE,電力,○
 BETA,BETA TECH,ベータ・テクノロジーズ,NYSE,航空機・宇宙,○
 BETR,BETTER HOME FINA,ベターホーム&ファイナス・ホールディングス,NASDAQ,金融（銀行）,○
@@ -679,6 +678,7 @@ BXC,BLUELINX HOLDING,ブルーリンクス・ホールディングス,NYSE,小�
 BY,BYLINE BANCORP,バイライン・バンコープ,NYSE,金融（銀行）,○
 BYD,BOYD GAMING,ボイド・ゲーミング,NYSE,エンターテイメント,○
 BYFC,BROADWAY FINCIAL,ブロードウェイ・フィナンシャル,NASDAQ,金融（銀行）,○
+BYND,BEYOND MEAT INC,ビヨンド・ミート,NASDAQ,食品,○
 BYRN,BYRNA TECHNOLOGI,ブルナ・テクノロジーズ,NASDAQ,その他製造,○
 BYSI,BEYONDSPRING,ビヨンドスプリング,NASDAQ,医薬品（バイオテクノロジー）,○
 BZ,KANZHUN LTD,カンジュン,NASDAQ,ソフトウェア・サービス,○
@@ -2930,6 +2930,7 @@ NX,QUANEX BLD PRDCT,クアネクス・ビルディング・プロダクツ,NYSE,
 NXDR,NEXTDOOR HLD,ネクストドア・ホールディングス,NYSE,ネットワーク,○
 NXE,NEXGEN ENERGY,ネクスジェン・エナジー,NYSE,専門店,○
 NXGL,NEXGEL INC,ネクスジェル,NASDAQ,医薬品,○
+NXH,NEIGHBORHOOD INT,ネイバーフッド・インテリジェンス,NASDAQ,小売,○
 NXPI,NXP SEMICON,NXPセミコンダクターズ,NASDAQ,半導体,○
 NXPL,NEXTPLAT CORP,ネクストプラット,NASDAQ,通信機器,○
 NXST,NEXSTAR MEDIA,ネクスター・メディア・グループ,NASDAQ,その他,○
@@ -3890,7 +3891,6 @@ TAC,TRANSALTA CORP,トランスアルタ,NYSE,電力,○
 TACT,TRANSACT TECHNO,トランスアクト・テクノロジーズ,NASDAQ,ソフトウェア・サービス,○
 TAK,TAKEDA PHARMA CO,タケダ・ファーマシューティカルズ,NYSE,医薬品,○
 TAL,TAL EDUCATION,TALエデュケーション,NYSE,その他,○
-TALK,TALKSPACE INC,トークスペース,NASDAQ,ソフトウェア・サービス,○
 TALO,TALOS ENERGY INC,タロス・エナジー,NYSE,石油,○
 TAN,INV SOLAR ETF,インベスコ ソーラー ETF,NYSE,その他,○
 TAOX,TAO SYNERGIES,TAO シナジー,NASDAQ,医薬品（バイオテクノロジー）,○
