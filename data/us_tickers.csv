@@ -1064,6 +1064,7 @@ CWST,CASELLA WASTE,キャセラ・ウェイスト・システムズ,NASDAQ,ソ�
 CWT,CALIFORNIA WATER,カリフォルニア・ウォーター・サービス・グループ,NYSE,その他,○
 CWY,GNS YLDBST CRWV,GraniteShares イールドブースト CRWV ETF,NASDAQ,その他,○
 CX,CEMEX SAB DE CV,セメックス,NYSE,その他製造,○
+CXAI,CXAPP,CXAPP,NASDAQ,ソフトウェア・サービス,○
 CXDO,CREXENDO INC,クレシェンド,NASDAQ,ソフトウェア・サービス,○
 CXM,SPRINKLR INC,スプリンクラー,NYSE,ソフトウェア・サービス,○
 CXSE,WT CH EX STATE,ウィズダムツリー中国株ニューエコノミーファンド,NASDAQ,その他,○
@@ -1746,7 +1747,6 @@ GLDM,SPDR GOLD MINI,SPDR ゴールド・ミニシェアーズ・トラスト,NYS
 GLIBA,LIBERTYCAPITAL-A,リバティ キャピタル A,NASDAQ,通信サービス,○
 GLIBK,LIBERTYCAPITAL-C,リバティ キャピタル C,NASDAQ,通信サービス,○
 GLIN,V INDIA GROWTH,ヴァンエック・インドグロースリーダーズETF,NYSE,その他,○
-GLMD,GALMED PHARMACEU,ガルメド・ファーマシューティカルズ,NASDAQ,医薬品（バイオテクノロジー）,○
 GLNG,GOLAR LNG,ゴラールLNG,NASDAQ,ガス・パイプライン,○
 GLOB,GLOBANT SA,グローバント,NYSE,ソフトウェア・サービス,○
 GLRE,GREENLIGHT CAPTL,グリーンライト・キャピタル,NASDAQ,金融(保険),○
@@ -2855,7 +2855,6 @@ NPO,ENPRO INC,エンプロ,NYSE,その他製造,○
 NPWR,NET POWER INC,ネット・パワー,NYSE,電力,○
 NRC,NRC HEALTH,NRCヘルス,NASDAQ,その他,○
 NRDS,NERDWALLET INC,ナードウォレット,NASDAQ,金融（銀行）,○
-NRDY,NERDY INC,ナーディ ,NYSE,ソフトウェア・サービス,○
 NRG,NRG ENERGY INC.,NRGエナジー,NYSE,電力,○
 NRGV,ENERGY VAULT,エナジー・ボールト・ホールディングス,NYSE,その他製造,○
 NRIM,NORTHRIM BANC,ノースリム・バンコープ,NASDAQ,金融（銀行）,○
@@ -3366,6 +3365,7 @@ RCKT,ROCKET PHARMA,ロケット・ファーマシューティカルズ,NASDAQ,�
 RCKY,ROCKY BRANDS,ロッキー・ブランズ,NASDAQ,フットウエア,○
 RCL,ROYAL CARIBBEAN,ロイヤル・カリビアン・グループ,NYSE,その他,○
 RCMT,RCM TECHNOLOGIES,RCMテクノロジーズ,NASDAQ,医薬品（バイオテクノロジー）,○
+RCON,RECON TECHNOLOGY,レコン・テクノロジー,NASDAQ,石油,○
 RCUS,ARCUS BIOSCIENCS,アーカス・バイオサイエンシズ,NYSE,医薬品（バイオテクノロジー）,○
 RDCM,RADCOM LTD,ラドコム,NASDAQ,ネットワーク,○
 RDDT,REDDIT INC,レディット,NYSE,情報処理サービス,○
