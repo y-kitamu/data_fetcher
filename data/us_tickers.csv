@@ -646,6 +646,7 @@ BTE,BAYTEX ENERGY,ベイテックス・エナジー,NYSE,石油,○
 BTG,B2GOLD CORP,B2ゴールド,NYSE,その他,○
 BTGO,BITGO HOLDINGS,ビットゴー,NYSE,その他,○
 BTI,BRITISH AMERICAN,ブリティッシュ・アメリカン・タバコ,NYSE,食品・タバコ,○
+BTLN,BRIGHTLINE INT,ブライトライン・インタラクティブ,NASDAQ,ソフトウェア・サービス,○
 BTMD,BIOTE CORP,ビオテ,NASDAQ,医薬品,○
 BTSG,BRIGHTSPG HEALTH,ブライトスプリング・ヘルス・サービシズ,NASDAQ,ヘルスケア,○
 BTTC,BLACK TITAN CORP,ブラック・タイタン・コーポレーション,NASDAQ,医薬品（バイオテクノロジー）,○
@@ -1724,7 +1725,6 @@ GGB,GERDAU SA,ゲルダウ,NYSE,その他,○
 GGG,GRACO INC,グレコ,NYSE,機械,○
 GGLL,DRX GOOGL BL2X,Direxion デイリー GOOGL ブル2倍株式,NASDAQ,その他,○
 GGLS,DRX GOOGL BR1X,Direxion デイリー GOOGL ベア 1 倍 ETF,NASDAQ,その他,○
-GGRP,GLIMPSE GROUP,グリンプス・グループ,NASDAQ,ソフトウェア・サービス,○
 GH,GUARDANT HEALTH,ガーダント・ヘルス,NASDAQ,ヘルスケア,○
 GHC,GRAHAM HLDNGS CO,グラハム・ホールディングス,NYSE,ソフトウェア・サービス,○
 GHG,GREENTREE HOSPTL,グリーン・ツリー・ホスピタリティー・グループ,NYSE,ホテル,○
@@ -1747,6 +1747,7 @@ GLDM,SPDR GOLD MINI,SPDR ゴールド・ミニシェアーズ・トラスト,NYS
 GLIBA,LIBERTYCAPITAL-A,リバティ キャピタル A,NASDAQ,通信サービス,○
 GLIBK,LIBERTYCAPITAL-C,リバティ キャピタル C,NASDAQ,通信サービス,○
 GLIN,V INDIA GROWTH,ヴァンエック・インドグロースリーダーズETF,NYSE,その他,○
+GLMD,GALMED PHARMACEU,ガルメド・ファーマシューティカルズ,NASDAQ,医薬品（バイオテクノロジー）,○
 GLNG,GOLAR LNG,ゴラールLNG,NASDAQ,ガス・パイプライン,○
 GLOB,GLOBANT SA,グローバント,NYSE,ソフトウェア・サービス,○
 GLRE,GREENLIGHT CAPTL,グリーンライト・キャピタル,NASDAQ,金融(保険),○
@@ -2353,8 +2354,6 @@ LAW,CS DISCO INC,CSディスコ,NYSE,ソフトウェア・サービス,○
 LAZ,LAZARD INC,ラザード・インク,NYSE,金融（証券）,○
 LAZR,TEMA PHOTON&OPT,Tema フォトニクス＆オプティカルETF,NYSE,その他,○
 LB,LANDBRIDGE CO,ランドブリッジ,NYSE,石油,○
-LBRDA,LIBERTY BROAD A,リバティ・ブロードバンド　クラスA,NASDAQ,通信サービス,○
-LBRDK,LIBERTY BROAD C,リバティ・ブロードバンド　クラスC,NASDAQ,通信サービス,○
 LBRT,LIBERTY ENERGY,リバティー・エナジー,NYSE,石油,○
 LBTYA,LIBERTY GLB CL-A,リバティ ・グローバル　クラスA,NASDAQ,通信サービス,○
 LBTYK,LIBERTY GLOBAL,リバティ・グローバル,NASDAQ,通信サービス,○
@@ -2495,6 +2494,7 @@ LXU,LSB INDUSTRIES,LSBインダストリーズ,NYSE,化学,○
 LYB,LYONDELLBASELL,ライオンデルバセル・インダストリーズ,NYSE,化学,○
 LYFT,LYFT INC,リフト,NASDAQ,ソフトウェア・サービス,○
 LYG,LLOYDS BANKING,ロイズ・バンキング・グループ,NYSE,金融（銀行）,○
+LYNX,LYNTRIS,リントリス,NYSE,ソフトウェア・サービス,○
 LYTS,LSI INDUSTRIES,LSIインダストリーズ,NASDAQ,その他製造,○
 LYV,LIVE NATION INC,ライブ・ネーション・エンターテインメント,NYSE,エンターテイメント,○
 LZ,LEGALZOOM COM,リーガルズーム,NASDAQ,その他,○
@@ -2855,6 +2855,7 @@ NPO,ENPRO INC,エンプロ,NYSE,その他製造,○
 NPWR,NET POWER INC,ネット・パワー,NYSE,電力,○
 NRC,NRC HEALTH,NRCヘルス,NASDAQ,その他,○
 NRDS,NERDWALLET INC,ナードウォレット,NASDAQ,金融（銀行）,○
+NRDY,NERDY INC,ナーディ ,NYSE,ソフトウェア・サービス,○
 NRG,NRG ENERGY INC.,NRGエナジー,NYSE,電力,○
 NRGV,ENERGY VAULT,エナジー・ボールト・ホールディングス,NYSE,その他製造,○
 NRIM,NORTHRIM BANC,ノースリム・バンコープ,NASDAQ,金融（銀行）,○
@@ -4380,7 +4381,6 @@ WAY,WAYSTAR HOLDING,ウェイスター・ホールディングス,NASDAQ,ソフ�
 WB,WEIBO CORP,ウェイボー,NASDAQ,コンピュータ,○
 WBD,WARNER BROS DISC,ワーナー・ブラザーズ・ディスカバリー,NASDAQ,エンターテイメント,○
 WBI,WATERBRIDGE INFR,ウォーターブリッジ・インフラストラクチャー,NYSE,その他,○
-WBS,WEBSTER FINANCIA,ウェブスター・ファイナンシャル,NYSE,金融（銀行）,○
 WBTN,WEBTOON ENTRTAIN,ウェブトゥーン・エンターテインメント,NASDAQ,エンターテイメント,○
 WCC,WESCO INTERNATIO,ウェスコ・インターナショナル,NYSE,機械,○
 WCME,FT WCM DVLP W EQ,ファーストトラスト WCM 新興国株式ETF,NYSE,その他,○
