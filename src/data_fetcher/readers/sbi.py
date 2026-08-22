@@ -114,7 +114,13 @@ class SBIReader(BaseReader):
                 pl.col("金額").alias("amount"),
                 pl.col("時刻").str.strptime(pl.Time, "%H:%M:%S").alias("time"),
             )
-            .sort(pl.col("time"))
+            .with_row_index("_ord")
+            # polars の sort は既定で安定ではないため、元の行順を明示的な
+            # tie-breaker にする。ファイルは時刻の降順なので、これで同一秒内の
+            # 約定順 (= 歩み値の並び) がそのまま保たれる。_attach_direction の
+            # 突き合わせはこの順序に依存する。
+            .sort("time", "_ord")
+            .drop("_ord")
             .with_columns(
                 (
                     pl.col("time").dt.hour().cast(pl.Int64) * 3600
@@ -130,6 +136,14 @@ class SBIReader(BaseReader):
 
         The _html.csv format has columns: price, volume, amount, is_uptick, time
         where is_uptick=True means buyer-initiated (ask-side) trade.
+
+        _html.csv は Selenium で仮想スクロールのグリッドをスクレイプしたもので、
+        同じ約定が複数行として記録されていることがある (寄り付き付近に集中し、
+        日によっては出来高が公式 CSV より 45% も多い)。約定の集合としては
+        同じディレクトリの公式 CSV エクスポート (qr-<symbol>-<date>.csv) が
+        正しく、その累計出来高は取引所の値と一致する。そこで公式 CSV があれば
+        そちらを約定列の正解として採用し、_html.csv からは is_uptick だけを
+        引き当てる (:meth:`_attach_direction`)。
 
         Args:
             filepath: Path to _html.csv file
@@ -156,7 +170,9 @@ class SBIReader(BaseReader):
                 pl.col("is_uptick").str.to_lowercase().eq("true").alias("is_uptick"),
                 pl.col("time").str.strptime(pl.Time, "%H:%M:%S").alias("time"),
             )
-            .sort(pl.col("time"))
+            .with_row_index("_ord")
+            .sort("time", "_ord")  # 同一秒内の並びを保つ (_read_csv と同じ理由)
+            .drop("_ord")
             .with_columns(
                 (
                     pl.col("time").dt.hour().cast(pl.Int64) * 3600
@@ -165,7 +181,65 @@ class SBIReader(BaseReader):
                 ).alias("time_in_seconds")
             )
         )
-        return df
+
+        official = self._read_csv(
+            filepath.with_name(filepath.name.replace("_html.csv", ".csv"))
+        )
+        if official.is_empty():
+            # 公式 CSV が無い日は突き合わせようがないので従来どおり返す。
+            return df
+        return self._attach_direction(official, df)
+
+    @staticmethod
+    def _attach_direction(official: pl.DataFrame, html: pl.DataFrame) -> pl.DataFrame:
+        """公式 CSV の約定列に _html.csv 側の ``is_uptick`` を引き当てる。
+
+        _html.csv の約定列は公式 CSV の約定列を部分列として含む (重複行が
+        差し込まれているだけで、並び自体は歩み値の順序を保っている)。そこで
+        秒ごとに 2 ポインタで前から順に (値段, 株数) が一致する行を探し、
+        その行の向きを採用する。実測では 9984 の 42 営業日中 37 日で 100%、
+        残りも 99.87% 以上が引き当てられる。
+
+        引き当てられなかった約定の ``is_uptick`` は ``None`` になる。方向が
+        分からないものを uptick / downtick のどちらかに倒すと出来高不均衡の
+        統計が歪むため、欠測は欠測として残す。
+
+        Args:
+            official: 公式 CSV エクスポート由来の約定列 (正解)
+            html: _html.csv 由来の約定列 (方向つき、重複を含みうる)
+
+        Returns:
+            pl.DataFrame: official の全行に is_uptick 列を付けたもの
+        """
+        by_second: dict[int, list[tuple[float, float, bool]]] = {}
+        for sec, price, volume, is_uptick in zip(
+            html["time_in_seconds"], html["price"], html["volume"], html["is_uptick"]
+        ):
+            by_second.setdefault(sec, []).append((price, volume, is_uptick))
+
+        cursors: dict[int, int] = {}
+        directions: list[bool | None] = []
+        for sec, price, volume in zip(
+            official["time_in_seconds"], official["price"], official["volume"]
+        ):
+            candidates = by_second.get(sec)
+            if candidates is None:
+                directions.append(None)
+                continue
+            i = cursors.get(sec, 0)
+            while i < len(candidates) and candidates[i][:2] != (price, volume):
+                i += 1
+            if i >= len(candidates):
+                # 見つからなかったときにカーソルを進めてしまうと、その秒の残りが
+                # 芋づる式に引き当て不能になる。据え置いて次の約定に賭ける。
+                directions.append(None)
+                continue
+            directions.append(candidates[i][2])
+            cursors[sec] = i + 1
+
+        return official.with_columns(
+            pl.Series("is_uptick", directions, dtype=pl.Boolean)
+        ).select(["price", "volume", "amount", "is_uptick", "time", "time_in_seconds"])
 
     def read_ticker_with_direction(
         self,

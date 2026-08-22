@@ -275,8 +275,20 @@ def collect_all_tick_data(driver, grid_element) -> pl.DataFrame:
     """仮想スクロールグリッドをスクロールしながら全行のtickデータを収集する。
 
     CDK Virtual Scroll は画面内の行しかDOMに保持しないため、順次スクロールして
-    translateY + row.offsetTop の絶対ピクセル位置をキーに重複排除することで全行を取得する。
-    行の高さを定数ではなく DOM の実測値から求めるため、デザイン変更に対して堅牢。
+    「行インデックス」をキーに重複排除することで全行を取得する。行の高さは定数ではなく
+    DOM の実測値から求めるため、デザイン変更に対して堅牢。
+
+    絶対ピクセル位置 (translateY + row.offsetTop) をキーにしてはならない:
+    ``row.offsetTop`` はブラウザが整数に丸めて返すのに対し ``translateY`` は小数なので、
+    同じ行でもスクロール位置が変われば絶対位置が ±1px ぶれる。スクロール幅を viewport の
+    80% にして窓を重ねている関係で同じ行は必ず 2 回以上観測されるため、このぶれが
+    そのまま重複行になる (実測で寄り付き付近の出来高が公式 CSV より最大 45% 多かった)。
+
+    かといって実測行高で割って整数化するだけでも足りない。行高は丸められた offsetTop
+    からしか測れず 0.05% ほど偏るため、8 万行の下端では 1 行ぶん以上ずれて別の行同士が
+    衝突する (シミュレーションで約 1% の行が失われた)。ここでは
+    ``translateY == 描画開始インデックス * 行高`` が厳密に成り立つことを使い、観測ごとに
+    行高の推定値を自己補正する。これなら 8 万行でもインデックスは厳密に一致する。
 
     Args:
         driver: Selenium WebDriver
@@ -294,16 +306,25 @@ def collect_all_tick_data(driver, grid_element) -> pl.DataFrame:
         By.CSS_SELECTOR, "cdk-virtual-scroll-viewport"
     )
 
-    # JS で translateY + row.offsetTop から absPos を計算し行データをまとめて返す。
-    # 行高さ定数に一切依存しないため、デザイン変更があっても正常動作する。
+    # JS は translateY と「描画済みリスト内での行の序数」だけを返す。グローバルな
+    # 行インデックスへの変換 (行高の自己補正を含む) は Python 側で行う。
     _JS_GET_ROWS = """
         var viewport = arguments[0];
         var wrapper = viewport.querySelector('.cdk-virtual-scroll-content-wrapper');
         if (!wrapper) return null;
         var translateY = new DOMMatrix(wrapper.style.transform).m42;
         var rows = Array.from(wrapper.querySelectorAll('div[draggable="true"]'));
+        // offsetTop は整数丸めされるので、隣接 2 行の差ではなく描画済みの全行に
+        // わたる差から平均を取り、丸め誤差を 1/N に薄める。
+        var rowHeight = 0;
+        if (rows.length > 1) {
+            rowHeight = (rows[rows.length - 1].offsetTop - rows[0].offsetTop) / (rows.length - 1);
+        } else if (rows.length === 1) {
+            rowHeight = rows[0].offsetHeight;
+        }
+        if (!(rowHeight > 0)) return null;
         var result = [];
-        rows.forEach(function(row) {
+        rows.forEach(function(row, ordinal) {
             var cells = row.querySelectorAll(':scope > .vg-grid-cell');
             if (cells.length < 4) return;
             var priceInner = cells[0].querySelector('.qr-grid-cell');
@@ -316,7 +337,7 @@ def collect_all_tick_data(driver, grid_element) -> pl.DataFrame:
             var amtText   = amtInner.textContent.trim();
             if (!priceText || !volText || !amtText) return;
             result.push({
-                absPos:   translateY + row.offsetTop,
+                ordinal:  ordinal,
                 price:    priceText,
                 volume:   volText,
                 amount:   amtText,
@@ -324,7 +345,7 @@ def collect_all_tick_data(driver, grid_element) -> pl.DataFrame:
                 time:     timeInner ? timeInner.textContent.trim() : ''
             });
         });
-        return {translateY: translateY, rows: result};
+        return {translateY: translateY, rowHeight: rowHeight, rows: result};
     """
 
     driver.execute_script("arguments[0].scrollTop = 0", scrollable)
@@ -346,6 +367,7 @@ def collect_all_tick_data(driver, grid_element) -> pl.DataFrame:
     all_rows = {}
 
     prev_translate_y = -1.0
+    item_size: float | None = None  # 行高の推定値 (観測ごとに自己補正する)
     for scroll_pos in scroll_positions:
         driver.execute_script(
             "arguments[0].scrollTop = arguments[1]", scrollable, scroll_pos
@@ -369,10 +391,23 @@ def collect_all_tick_data(driver, grid_element) -> pl.DataFrame:
             continue
 
         prev_translate_y = float(data["translateY"])
+
+        # translateY は「描画開始インデックス × 行高」に厳密に一致する。丸め誤差を
+        # 含む実測行高で一度インデックスを求め、その整数値で割り直して行高を精密化する。
+        # 以降のスクロール位置ではこの精密化された値が使われるため誤差が累積しない。
+        if item_size is None:
+            item_size = float(data["rowHeight"])
+        if prev_translate_y > 0:
+            start_index = round(prev_translate_y / item_size)
+            if start_index > 0 and abs(prev_translate_y / item_size - start_index) < 0.1:
+                item_size = prev_translate_y / start_index
+        else:
+            start_index = 0
+
         for item in data["rows"]:
-            abs_pos = round(item["absPos"])
+            row_index = start_index + int(item["ordinal"])
             try:
-                all_rows[abs_pos] = {
+                all_rows[row_index] = {
                     "price": float(item["price"].replace(",", "")),
                     "volume": int(item["volume"].replace(",", "")),
                     "amount": float(item["amount"].replace(",", "")),
@@ -382,16 +417,23 @@ def collect_all_tick_data(driver, grid_element) -> pl.DataFrame:
             except (ValueError, KeyError):
                 logger.warning(f"Failed to parse JS row: {item!r}")
 
-    # logger.info(
-    #     f"collect_all_tick_data: {len(all_rows)} rows collected (total_height={total_height}px)"
-    # )
-
     if not all_rows:
         return pl.DataFrame(
             {"price": [], "volume": [], "amount": [], "is_uptick": [], "time": []}
         )
 
-    return pl.from_dicts(list(all_rows.values())).sort("time", descending=True)
+    # インデックスが飛んでいる = スクロール中に読み落とした行がある。時刻順に
+    # 並べただけでは気づけないので、ここで明示的に警告する。
+    expected = max(all_rows) - min(all_rows) + 1
+    if len(all_rows) != expected:
+        logger.warning(
+            f"collect_all_tick_data: 行インデックスに欠落あり "
+            f"({len(all_rows)} rows / index range {expected})"
+        )
+
+    # index 0 がグリッド最上段 (= 最新の約定)。インデックス順に並べれば
+    # 歩み値の並びがそのまま保たれる。
+    return pl.from_dicts([all_rows[i] for i in sorted(all_rows)])
 
 
 def download(ticker_list):

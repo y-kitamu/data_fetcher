@@ -14,7 +14,9 @@ from ..core.minutes_bar import convert_tick_to_ohlc
 
 KABU_TICK_DATA_DIR = PROJECT_ROOT / "../stock/logs/ticks"
 
-_FILENAME_RE = re.compile(r"^(?P<symbol>.+)_(?P<date>\d{4}-\d{2}-\d{2})\.jsonl(?:\.gz)?$")
+_FILENAME_RE = re.compile(
+    r"^(?P<symbol>.+)_(?P<date>\d{4}-\d{2}-\d{2})\.jsonl(?:\.gz)?$"
+)
 _NOOP_STATUS = "0000"
 
 
@@ -195,6 +197,27 @@ class KabuTickReader(BaseReader):
         ).select(["datetime", "price", "volume", "amount"])
 
         return ticks
+
+    def read_raw(
+        self,
+        symbol: str,
+        start_date: datetime.datetime = datetime.datetime(1970, 1, 1),
+        end_date: datetime.datetime = datetime.datetime.now(),
+    ) -> list[dict]:
+        files = self._iter_files(symbol)
+        files = [
+            (path, sym, d)
+            for path, sym, d in files
+            if start_date.date() <= d <= end_date.date()
+        ]
+        if len(files) == 0:
+            return []
+
+        raw_data = []
+        for path, _sym, _file_date in files:
+            rows = self._read_raw_lines(path)
+            raw_data.extend(rows)
+        return raw_data
 
     def read_ticker(
         self,
