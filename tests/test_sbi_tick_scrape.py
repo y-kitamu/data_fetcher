@@ -28,7 +28,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
 def collect_all_tick_data():
     """``scripts/fetch_data_from_sbi`` imports selenium/gmail at module level;
     stub what it only needs at import time."""
-    for name in (
+    stub_names = (
         "selenium",
         "selenium.webdriver",
         "selenium.webdriver.common",
@@ -38,22 +38,20 @@ def collect_all_tick_data():
         "selenium.webdriver.support",
         "selenium.webdriver.support.ui",
         "selenium.webdriver.support.expected_conditions",
-    ):
-        sys.modules.setdefault(name, types.ModuleType(name))
+    )
+    for name in stub_names:
+        sys.modules[name] = types.ModuleType(name)
     by = sys.modules["selenium.webdriver.common.by"]
-    if not hasattr(by, "By"):
-        by.By = types.SimpleNamespace(CSS_SELECTOR="css selector", ID="id",
-                                      TAG_NAME="tag name", LINK_TEXT="link text",
-                                      CLASS_NAME="class name")
+    by.By = types.SimpleNamespace(CSS_SELECTOR="css selector", ID="id",
+                                  TAG_NAME="tag name", LINK_TEXT="link text",
+                                  CLASS_NAME="class name")
     for mod, attr in (
         ("selenium.webdriver", "Remote"),
         ("selenium.webdriver.common.action_chains", "ActionChains"),
         ("selenium.webdriver.common.keys", "Keys"),
         ("selenium.webdriver.support.ui", "WebDriverWait"),
     ):
-        m = sys.modules[mod]
-        if not hasattr(m, attr):
-            setattr(m, attr, object)
+        setattr(sys.modules[mod], attr, object)
     sys.modules["selenium.webdriver"].webdriver = sys.modules["selenium.webdriver"]
 
     import fetch_data_from_sbi
