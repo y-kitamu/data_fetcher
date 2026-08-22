@@ -1,0 +1,48 @@
+name: Auto-fix Failed Workflow with Copilot
+
+on:
+  workflow_run:
+    workflows: ["Update Stock Data", "Update Japanese Stock Data", "Run Tests"]
+    types: [completed]
+
+permissions:
+  issues: write
+
+jobs:
+  create-fix-issue:
+    if: >-
+      github.event.workflow_run.conclusion == 'failure' &&
+      github.event.workflow_run.head_branch == 'main'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check for existing open auto-fix issue
+        id: check
+        env:
+          GH_TOKEN: ${{ secrets.COPILOT_PAT }}
+        run: |
+          set -e
+          MARKER="[auto-fix] ${{ github.event.workflow_run.name }}"
+          EXISTING=$(gh issue list \
+            --repo "${{ github.repository }}" \
+            --state open \
+            --search "\"$MARKER\" in:title" \
+            --json number \
+            --jq '.[0].number // empty')
+          echo "existing=$EXISTING" >> "$GITHUB_OUTPUT"
+
+      - name: Create issue and assign to Copilot
+        if: steps.check.outputs.existing == ''
+        env:
+          GH_TOKEN: ${{ secrets.COPILOT_PAT }}
+        run: |
+          set -e
+          ISSUE_URL=$(gh issue create \
+            --repo "${{ github.repository }}" \
+            --title "[auto-fix] ${{ github.event.workflow_run.name }} failed (run #${{ github.event.workflow_run.run_number }})" \
+            --body "Workflow **${{ github.event.workflow_run.name }}** failed on \`main\` (commit ${{ github.event.workflow_run.head_sha }}).
+
+Run log: ${{ github.event.workflow_run.html_url }}
+
+@copilot please investigate the failure logs in the run above, identify the root cause, and open a pull request that fixes it.")
+          ISSUE_NUM=$(basename "$ISSUE_URL")
+          gh issue edit "$ISSUE_NUM" --repo "${{ github.repository }}" --add-assignee "@copilot"
