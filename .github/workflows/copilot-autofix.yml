@@ -34,15 +34,21 @@ jobs:
         if: steps.check.outputs.existing == ''
         env:
           GH_TOKEN: ${{ secrets.COPILOT_PAT }}
+          WORKFLOW_NAME: ${{ github.event.workflow_run.name }}
+          RUN_NUMBER: ${{ github.event.workflow_run.run_number }}
+          RUN_URL: ${{ github.event.workflow_run.html_url }}
+          HEAD_SHA: ${{ github.event.workflow_run.head_sha }}
         run: |
           set -e
+          BODY=$(cat <<EOF
+          Workflow **$WORKFLOW_NAME** failed on \`main\` (commit $HEAD_SHA).
+          Run log: $RUN_URL
+          @copilot please investigate the failure logs in the run above, identify the root cause, and open a pull request that fixes it.
+          EOF
+          )
           ISSUE_URL=$(gh issue create \
             --repo "${{ github.repository }}" \
-            --title "[auto-fix] ${{ github.event.workflow_run.name }} failed (run #${{ github.event.workflow_run.run_number }})" \
-            --body "Workflow **${{ github.event.workflow_run.name }}** failed on \`main\` (commit ${{ github.event.workflow_run.head_sha }}).
-
-Run log: ${{ github.event.workflow_run.html_url }}
-
-@copilot please investigate the failure logs in the run above, identify the root cause, and open a pull request that fixes it.")
+            --title "[auto-fix] $WORKFLOW_NAME failed (run #$RUN_NUMBER)" \
+            --body "$BODY")
           ISSUE_NUM=$(basename "$ISSUE_URL")
           gh issue edit "$ISSUE_NUM" --repo "${{ github.repository }}" --add-assignee "@copilot"
