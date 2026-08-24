@@ -856,7 +856,7 @@
         "Net Income": 1031887000.0,
         "Minority Interests": -25434000.0,
         "Net Income Including Noncontrolling Interests": 1057321000.0,
-        "Net Income Discontinuous Operations": 0.0,
+        "Net Income Discontinuous Operations": NaN,
         "Net Income Continuous Operations": 1057321000.0,
         "Tax Provision": 186586000.0,
         "Pretax Income": 1243907000.0,
