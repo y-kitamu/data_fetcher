@@ -610,6 +610,7 @@ BRBR,BELLRING INTRMDT,ベルリング・インターメディエイト・ホー�
 BRBS,BLUE RIDGE BANK,ブルー・リッジ・バンクシェアーズ,NYSE,金融（銀行）,○
 BRC,BRADY CORP,ブレイディ,NYSE,ソフトウェア・サービス,○
 BRCB,BLACK ROCK COFFE,ブラック・ロック・コーヒー・バー,NASDAQ,飲料,○
+BRCC,BRC INC,BRC,NYSE,その他,○
 BRF,V BRAZIL S-CAP,ヴァンエック・ブラジル小型株ETF,NYSE,その他,○
 BRFH,BARFRESH FOOD GP,バーフレッシュ・フード・グループ,NASDAQ,食品,○
 BRID,BRIDGFORD FOODS,ブリッジフォード・フーズ,NASDAQ,食品,○
@@ -2074,6 +2075,7 @@ IMXI,INTL MONEY EXPRS,インターナショナル・マネー・エクスプレ�
 INBK,FIRST INTERT BNC,ファースト・インターネット・バンコープ,NASDAQ,金融（銀行）,○
 INBS,INTELLIGENT BIO,インテリジェント・バイオソリューションズ,NASDAQ,医薬品（バイオテクノロジー）,○
 INBX,INHIBRX BIOSCNCE,インヒブルクス・バイオサイエンス,NASDAQ,医療サービス,○
+INCR,INTERCURE LTD,インターキュア,NASDAQ,医薬品,○
 INCY,INCYTE CORP,インサイト,NASDAQ,ソフトウェア・サービス,○
 INDB,INDEPENDENT BANK,インディペンデント・バンク,NASDAQ,金融（銀行）,○
 INDI,INDIE SEMICON,インディー・セミコンダクタ,NASDAQ,半導体製造,○
@@ -2270,6 +2272,7 @@ KLIP,KRS KWEB COVERED,KraneShares KWEBカバード・コール戦略 ETF,NYSE,�
 KLRA,KAILEERA THERAP,カイレラ・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 KLRS,KALARIS THERAPE,カラリス・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 KLTR,KALTURA INC,カルトゥーラ,NASDAQ,ソフトウェア・サービス,○
+KLXE,KLX ENE SRVCS HD,KLXエナジー・サービシズ・ホールディングス,NASDAQ,石油,○
 KMB,KIMBERLY CLARK,キンバリークラーク,NASDAQ,トイレタリー,○
 KMDA,KAMADA LTD,カマダ,NASDAQ,医薬品（バイオテクノロジー）,○
 KMI,KINDER MORGAN,キンダーモルガン,NYSE,ガス・パイプライン,○
@@ -3381,7 +3384,6 @@ RDW,REDWIRE CORP,レッドワイヤー,NYSE,航空機・宇宙,○
 RDWR,RADWARE LTD,ラドウェア,NASDAQ,ソフトウェア・サービス,○
 RDY,DOCTOR REDDYS,ドクター・レディース・ラボラトリーズ,NYSE,医薬品,○
 REAL,THE REALREAL INC,リアルリアル,NASDAQ,小売,○
-REAX,REAL BROKERAGE,リアル・ブローカレッジ,NASDAQ,その他,○
 REF,REFORMATION,リフォーメーション,NYSE,小売,○
 REFR,RESEARCH FRONT,リサーチ・フロンティアーズ,NASDAQ,その他製造,○
 REGN,REGENERON PHARMA,リジェネロン・ファーマシューティカルズ,NASDAQ,医薬品（バイオテクノロジー）,○
@@ -3439,7 +3441,6 @@ RLI,RLI CORP,RLI,NYSE,金融(保険),○
 RLX,RLX TECHNOLOGY,RLXテクノロジー,NYSE,食品・タバコ,○
 RLY,SSTR MA REAL RTN,State Street マルチ・アセット・リアル・リターン ETF,NYSE,その他,○
 RM,REGIONAL MANAGE,リージョナル・マネジメント,NYSE,金融（銀行）,○
-RMAX,RE/MAX HOLDINGS,RE/MAXホールディングス,NYSE,ソフトウェア・サービス,○
 RMBI,RICHMOND MUTL BC,リッチモンド・ミューチュアル・バンコーポレーション,NASDAQ,金融（銀行）,○
 RMBS,RAMBUS INC.,ラムバス,NASDAQ,半導体,○
 RMCF,RCKY MTAIN CHOCO,ロッキー・マウンテン・チョコレート・ファクトリー,NASDAQ,食品,○

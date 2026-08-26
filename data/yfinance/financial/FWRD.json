@@ -1218,7 +1218,7 @@
         "Gross Profit": 89532000.0,
         "Cost Of Revenue": 492514000.0,
         "Total Revenue": 582046000.0,
-        "Operating Revenue": 582046000.0
+        "Operating Revenue": NaN
     },
     "2026-06-30": {
         "Tax Effect Of Unusual Items": -174386.460681,
