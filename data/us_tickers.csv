@@ -504,7 +504,6 @@ BFRI,BIOFRONTERA INC,バイオフロンテラ,NASDAQ,医薬品（バイオテク
 BFST,BUSINESS FIRST,ビジネス・ファースト・バンクシェアーズ,NASDAQ,金融（銀行）,○
 BG,BUNGE GLOBAL SA,ブンゲ・グローバルSA,NYSE,その他,○
 BGC,BGC GROUP INC,BGCグループ,NASDAQ,金融（銀行）,○
-BGI,BIRKS GROUP INC,バークス・グループ,NYSE,小売,○
 BGLD,FT VEST GOLD QBF,FT Vest ゴールド戦略 四半期バッファーETF,Cboe,その他,○
 BGS,B AND G FOODS IN,B&Gフーズ,NYSE,食品,○
 BGSF,BGSF INC,BGSF,NYSE,その他,○
@@ -2391,6 +2390,7 @@ LGN,LEGENCE CORP,レジェンス,NASDAQ,その他,○
 LGND,LIGAND PHARMA,リガンド・ファーマシューティカルズ,NASDAQ,医薬品（バイオテクノロジー）,○
 LGO,LARGO INC,ラルゴ,NASDAQ,電力,○
 LGOV,FT LONG DUR OPPO,ファーストトラスト 長期デュレーション オポチュニティーズETF,NYSE,その他,○
+LGVN,LONGEVERON INC,ロンジェベロン,NASDAQ,医薬品（バイオテクノロジー）,○
 LH,LABCORP HOLDINGS,ラボコープ・ホールディングス,NYSE,医療サービス,○
 LHX,L3HARRIS TECHNOL,L3ハリス・テクノロジーズ,NYSE,通信機器,○
 LI,LI AUTO INC,リー・オート,NASDAQ,自動車,○
@@ -2910,6 +2910,7 @@ NVS,NOVARTIS(ADR),ノバルティス,NYSE,医薬品,○
 NVST,ENVISTA HOLDINGS,エンビスタ・ホールディングス,NYSE,医薬品,○
 NVT,NVENT ELECTRIC,エヌヴェント・エレクトリック,NYSE,機械,○
 NVTS,NAVITAS SEMICON,ナビタス・セミコンダクター,NASDAQ,半導体,○
+NVX,NOVONIX LTD,ノボニックス,NASDAQ,その他製造,○
 NVYY,GNS YLDBST NVDA,グラナイトシェアーズイールドブースト・エヌビディアETF,NASDAQ,その他,○
 NWBI,NORTHWST BANCSHR,ノースウェスト・バンクシェアーズ,NASDAQ,金融（銀行）,○
 NWE,NORTHWESTERN EG,ノースウェスタン・エナジー・グループ,NASDAQ,電力,○
@@ -3543,6 +3544,7 @@ SBSI,SOUTHSIDE BANC,サウスサイド・バンクシェアーズ,NYSE,金融（
 SBSW,SIBANYESTILL ADR,シバンエ・スティルウォーター,NYSE,その他,○
 SBUX,STARBUCKS COFFEE,スターバックス,NASDAQ,外食,○
 SCA,GNS ATCL SMCI,GraniteShares オートコーラブル SMCI ETF,NASDAQ,その他,○
+SCCO,SOUTHERN COPPER,サザン・コッパー,NYSE,その他,○
 SCHL,SCHOLASTIC CORP,スコラスティック,NASDAQ,その他,○
 SCHW,CHARLES SCHWAB,チャールズ・シュワブ,NYSE,金融（証券）,○
 SCI,SERVICE CORP INT,サービス・コーポレーション・インターナショナル,NYSE,その他,○
@@ -4504,7 +4506,7 @@ XPER,XPERI INC,エクスペリ,NYSE,半導体,○
 XPEV,XPENG INC,シャオペン,NYSE,自動車,○
 XPO,XPO INC,XPO INC,NYSE,その他,○
 XPOF,XPONENTIAL FITS,エックスポネンティアル・フィットネス,NYSE,ヘルスケア,○
-XPON,EXPION360 INC,エクスピオン360,NASDAQ,その他製造,○
+XPON,EXPION ENERGY,エクスピオン・エナジー,NASDAQ,その他製造,○
 XPRO,EXPRO LTD,エクスプロ,NYSE,ガス・パイプライン,○
 XRAY,DENTSPLY SIRONA,デンツプライ・シロナ,NASDAQ,ヘルスケア,○
 XRMI,GLBLX SP500 RMNG,グローバルX S&P500・リスク管理・インカム ETF,NYSE,その他,○
