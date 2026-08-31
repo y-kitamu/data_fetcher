@@ -15,6 +15,7 @@
 /data/bitflyer/
 /data/forex_factory/
 /data/news/
+/data/taisyaku/
 /cert/
 __pycache__/
 *.pyc
