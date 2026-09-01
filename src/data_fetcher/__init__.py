@@ -5,13 +5,10 @@ from various sources including cryptocurrency exchanges, stock markets, forex, a
 disclosure databases.
 """
 
+from importlib import import_module
 import sys
 
 from loguru import logger
-
-# Import core modules
-# Import utility modules (kept for backward compatibility)
-from . import core, db, domains, fetchers, processors, readers
 
 # Import commonly used functions and classes
 from .core import (
@@ -62,3 +59,13 @@ logger.add(
     format="[{time:YYYY-MM-DD HH:mm:ss} {level} {file.path} at line {line}] {message}",
     level="DEBUG",
 )
+
+_LAZY_SUBMODULES = {"core", "db", "domains", "fetchers", "processors", "readers"}
+
+
+def __getattr__(name: str):
+    if name in _LAZY_SUBMODULES:
+        module = import_module(f".{name}", __name__)
+        globals()[name] = module
+        return module
+    raise AttributeError(f"module {__name__!r} has no attribute {name!r}")
