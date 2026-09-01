@@ -5,9 +5,8 @@
 /data/tmp/
 /data/rakuten/daily
 /data/kabutan/news
-/data/edinet/schedule13/
-/data/tdnet/raw/
-/data/tdnet/download/
+/data/edinet/
+/data/tdnet/
 /data/sbi/
 /data/Downloads/
 /data/investing_com/
@@ -16,6 +15,9 @@
 /data/forex_factory/
 /data/news/
 /data/taisyaku/
+/data/jquants/
+/data/jpx_stats/
+/data/google_trends/
 /cert/
 __pycache__/
 *.pyc

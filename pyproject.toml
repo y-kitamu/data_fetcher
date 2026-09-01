@@ -26,6 +26,7 @@ dependencies = [
     "polars>=1.31.0",
     "pydantic>=2.11.7",
     "python-dateutil>=2.9.0.post0",
+    "pytrends>=4.9.2",
     "requests>=2.32.4",
     "requests-cache>=1.2.1",
     "requests-html>=0.10.0",

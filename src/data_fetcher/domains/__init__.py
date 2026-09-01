@@ -5,6 +5,24 @@ fetchers/readers/processors categories. These modules typically have
 specialized data processing pipelines and extensive internal dependencies.
 """
 
-from . import edinet, jp_stocks, kabutan, taisyaku, tdnet
+from . import (
+    edinet,
+    google_trends,
+    jp_stocks,
+    jpx_stats,
+    jquants,
+    kabutan,
+    taisyaku,
+    tdnet,
+)
 
-__all__ = ["edinet", "jp_stocks", "kabutan", "taisyaku", "tdnet"]
+__all__ = [
+    "edinet",
+    "google_trends",
+    "jp_stocks",
+    "jpx_stats",
+    "jquants",
+    "kabutan",
+    "taisyaku",
+    "tdnet",
+]

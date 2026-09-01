@@ -23,6 +23,7 @@ from .core import (
     get_session,
     notify_to_gmail,
     notify_to_line,
+    retry_with_backoff,
 )
 from .fetchers import get_available_sources as get_available_fetcher_sources
 from .fetchers import get_fetcher
@@ -47,6 +48,7 @@ __all__ = [
     "get_available_fetcher_sources",
     "notify_to_line",
     "notify_to_gmail",
+    "retry_with_backoff",
     # Logger
     "logger",
     # Database
