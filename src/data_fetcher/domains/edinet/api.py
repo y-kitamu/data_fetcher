@@ -78,12 +78,17 @@ def get_document(doc_id: str, session: requests.Session):
     # zipファイルからcsvを抜き出す
     filebuffer = BytesIO(res.content)
     rows = []
-    with zipfile.ZipFile(filebuffer, mode="r") as zip:
-        for filename in zip.namelist():
-            with zip.open(filename, "r") as f:
-                txt = f.read().decode("utf-16").replace("\t", ",")
-            rows += [
-                [col.replace('"', "") for col in row.strip().split(",")]
-                for row in txt.split("\n")
-            ]
+    try:
+        with zipfile.ZipFile(filebuffer, mode="r") as zip:
+            for filename in zip.namelist():
+                with zip.open(filename, "r") as f:
+                    txt = f.read().decode("utf-16").replace("\t", ",")
+                rows += [
+                    [col.replace('"', "") for col in row.strip().split(",")]
+                    for row in txt.split("\n")
+                ]
+    except zipfile.BadZipFile:
+        # EDINETは提出から約5年で書類本体のダウンロードを提供終了する（一覧には残るが取得は404になる）
+        logger.warning(f"Document body unavailable (likely past EDINET's retention window): {doc_id}")
+        return []
     return rows

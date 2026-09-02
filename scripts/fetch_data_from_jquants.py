@@ -15,7 +15,6 @@ J-Quants API（無料プラン）から日本株の銘柄マスタ・株価四�
 """
 
 import argparse
-from pathlib import Path
 
 import polars as pl
 import tqdm
@@ -24,26 +23,6 @@ import data_fetcher
 from data_fetcher.domains.jquants import api as jquants_api
 
 JQUANTS_DATA_DIR = data_fetcher.constants.PROJECT_ROOT / "data/jquants"
-
-
-def _save_rows(
-    rows: list[dict], output_path: Path, sort_col: str | None = None
-) -> None:
-    if not rows:
-        data_fetcher.logger.warning(f"No rows to save for {output_path}.")
-        return
-
-    rows = [{k: str(v) if v is not None else "" for k, v in r.items()} for r in rows]
-    # infer_schema_length=0 は read_csv と異なり全列をUtf8に固定しないため指定しない（既に全値をstr化済み）
-    df = pl.from_dicts(rows)
-    if output_path.exists():
-        old_df = pl.read_csv(output_path, infer_schema_length=0)
-        df = pl.concat([old_df, df]).unique()
-    if sort_col:
-        df = df.sort(sort_col)
-
-    output_path.parent.mkdir(parents=True, exist_ok=True)
-    df.write_csv(output_path)
 
 
 def update_listed_info(date: str | None = None) -> None:
@@ -55,7 +34,7 @@ def update_listed_info(date: str | None = None) -> None:
         return
     target_date = rows[0]["Date"].replace("-", "")
     output_path = JQUANTS_DATA_DIR / f"listed_info/{target_date}.csv"
-    _save_rows(rows, output_path)
+    data_fetcher.append_and_save_csv(pl.from_dicts(rows), output_path)
     data_fetcher.logger.info(
         f"Saved {output_path} ({len(rows)} rows, date={target_date})"
     )
@@ -70,7 +49,7 @@ def update_daily_quotes(codes: list[str]) -> None:
             data_fetcher.logger.warning(f"No daily_quotes rows for code={code}.")
             continue
         output_path = JQUANTS_DATA_DIR / f"daily_quotes/{code}.csv"
-        _save_rows(rows, output_path, sort_col="Date")
+        data_fetcher.append_and_save_csv(pl.from_dicts(rows), output_path, sort_col="Date")
         dates = sorted(r["Date"] for r in rows)
         data_fetcher.logger.info(
             f"Saved {output_path} ({len(rows)} rows, {dates[0]}~{dates[-1]})"
@@ -86,7 +65,7 @@ def update_statements(codes: list[str]) -> None:
             data_fetcher.logger.warning(f"No statements rows for code={code}.")
             continue
         output_path = JQUANTS_DATA_DIR / f"statements/{code}.csv"
-        _save_rows(rows, output_path)
+        data_fetcher.append_and_save_csv(pl.from_dicts(rows), output_path)
         data_fetcher.logger.info(f"Saved {output_path} ({len(rows)} rows)")
 
 
@@ -99,7 +78,7 @@ def update_earnings_dates(codes: list[str]) -> None:
             data_fetcher.logger.warning(f"No earnings_dates rows for code={code}.")
             continue
         output_path = JQUANTS_DATA_DIR / f"earnings_dates/{code}.csv"
-        _save_rows(rows, output_path)
+        data_fetcher.append_and_save_csv(pl.from_dicts(rows), output_path)
         data_fetcher.logger.info(f"Saved {output_path} ({len(rows)} rows)")
 
 

@@ -18,6 +18,7 @@ from .core import (
     PROJECT_ROOT,
     BaseFetcher,
     BaseReader,
+    append_and_save_csv,
     constants,
     debug,
     get_session,
@@ -49,6 +50,7 @@ __all__ = [
     "notify_to_line",
     "notify_to_gmail",
     "retry_with_backoff",
+    "append_and_save_csv",
     # Logger
     "logger",
     # Database

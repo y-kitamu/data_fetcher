@@ -97,10 +97,21 @@ def main():
         default=1,
         help="今日から遡って処理する日数（デフォルト: 1 = 昨日のみ）",
     )
+    parser.add_argument(
+        "--start-date",
+        type=str,
+        default=None,
+        help="この日付(YYYY-MM-DD)まで遡って処理する。指定時は--daysより優先する",
+    )
     args = parser.parse_args()
 
     today = datetime.date.today()
-    for offset in range(1, args.days + 1):
+    if args.start_date:
+        start_date = datetime.date.fromisoformat(args.start_date)
+        num_days = (today - start_date).days
+    else:
+        num_days = args.days
+    for offset in range(1, num_days + 1):
         target_date = today - datetime.timedelta(days=offset)
         update_for_date(target_date)
 
