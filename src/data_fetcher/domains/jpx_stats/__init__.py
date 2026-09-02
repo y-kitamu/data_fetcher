@@ -1,5 +1,3 @@
-"""__init__.py"""
+"""JPX statistics domain package."""
 
-from . import api, parser
-
-__all__ = ["api", "parser"]
+__all__: list[str] = []

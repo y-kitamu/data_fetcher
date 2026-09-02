@@ -1,5 +1,5 @@
-"""__init__.py"""
+"""EDINET domain helpers."""
 
-from . import api, large_shareholding
+from . import api
 
-__all__ = ["api", "large_shareholding"]
+__all__ = ["api"]
