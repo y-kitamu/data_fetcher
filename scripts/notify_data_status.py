@@ -11,6 +11,7 @@ import data_fetcher
 
 data_type = {
     "yfinance/minutes": "US stock",
+    "yfinance/financial": "US stock",
     "binance": "Crypto",
     "rakuten": "Japan stock",
     "sbi": "Japan stock",
@@ -21,33 +22,67 @@ data_type = {
     "news": "News",
     "fxea": "Forex",
     "kabus": "Japan stock",
+    "kabutan": "Japan stock",
+    "tdnet": "Japan stock",
+    "taisyaku": "Japan stock",
+    "jpx_stats": "Japan stock",
+    "jp_ticker_themes": "Japan stock",
+    "edinet": "Japan stock",
+    "google_trends": "Japan stock",
 }
+
+_DATA_FILE_PATTERNS = ("*.csv*", "*.json*")
+
+
+def _describe_dir(dir_path) -> tuple[str, int] | None:
+    """latest date (or mtime) and file count for a directory of data files,
+    covering both per-day files (YYYYMMDD*.csv) and per-ticker files (CODE.csv)."""
+    files = [
+        p for pattern in _DATA_FILE_PATTERNS for p in dir_path.glob(pattern) if p.is_file()
+    ]
+    if not files:
+        return None
+    if all(p.stem[:8].isdigit() for p in files):
+        latest = sorted(files)[-1]
+        date_str = latest.stem[:8]
+    else:
+        latest = max(files, key=lambda p: p.stat().st_mtime)
+        date_str = datetime.datetime.fromtimestamp(latest.stat().st_mtime).strftime(
+            "%Y%m%d"
+        )
+    return (date_str, len(files))
 
 
 def get_latest_dates_data_number() -> dict[str, str]:
-    # dirnames = ["minutes", "minutes_gmo", "minutes_yf"]
-    data_root = data_root = data_fetcher.constants.PROJECT_ROOT / "data"
+    data_root = data_fetcher.constants.PROJECT_ROOT / "data"
     results: dict[str, str] = {}
     for data_src_dir in data_root.glob("*"):
         if not data_src_dir.is_dir():
             continue
 
-        for data_dir in data_src_dir.glob("*"):
-            if not data_dir.is_dir():
-                continue
+        sub_dirs = [p for p in data_src_dir.glob("*") if p.is_dir()]
+        if not sub_dirs:
+            # flat layout: data files sit directly under data/<src>/
+            described = _describe_dir(data_src_dir)
+            if described is not None:
+                results[data_src_dir.name] = described
+            continue
+
+        for data_dir in sub_dirs:
             dirname = f"{data_src_dir.name}/{data_dir.name}"
-            dirs = sorted(
+            dated_dirs = sorted(
                 [p for p in data_dir.glob("20*") if p.is_dir() and len(p.name) > 4]
             )
-            if len(dirs) == 0:
-                # results[dirname] = "No data directory found."
+            if dated_dirs:
+                latest_path = dated_dirs[-1]
+                num_data = len(list(latest_path.glob("*.csv*")))
+                results[dirname] = (latest_path.name, num_data)
                 continue
-            latest_path = dirs[-1]
-            if not latest_path.is_dir():
-                # results[dirname] = "csv"
-                continue
-            num_data = len(list(latest_path.glob("*.csv*")))
-            results[dirname] = (latest_path.name, num_data)
+
+            # flat layout: data files sit directly under data/<src>/<subdir>/
+            described = _describe_dir(data_dir)
+            if described is not None:
+                results[dirname] = described
 
     return results
 
