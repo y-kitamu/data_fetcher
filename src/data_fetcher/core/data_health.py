@@ -27,7 +27,7 @@ Severity = Literal["critical", "warning", "info"]
 _CADENCE_THRESHOLD: dict[Cadence, int] = {
     "daily": 2,
     "weekday": 6,
-    "weekly": 14,
+    "weekly": 21,
     "monthly": 45,
     "irregular": 45,
 }
@@ -97,7 +97,9 @@ SOURCE_RULES: dict[str, SourceRule] = {
         ticker_universe="jp_stock",
         code_from_stem=lambda stem: stem[:4],
     ),
-    "edinet/schedule13": SourceRule(pattern="per_ticker", cadence="irregular"),
+    "edinet/schedule13": SourceRule(
+        pattern="per_ticker", cadence="irregular", enabled=False
+    ),
     "edinet/large_shareholding": SourceRule(pattern="per_date", cadence="irregular"),
     "google_trends": SourceRule(
         pattern="per_ticker", cadence="irregular", ticker_universe="jp_stock"
