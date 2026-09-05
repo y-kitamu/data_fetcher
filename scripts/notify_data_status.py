@@ -8,6 +8,7 @@ wrapper); now delivered by email through `data_fetcher.notify_to_gmail`.
 import datetime
 
 import data_fetcher
+from data_fetcher.core import data_health
 
 data_type = {
     "yfinance/minutes": "US stock",
@@ -38,7 +39,10 @@ def _describe_dir(dir_path) -> tuple[str, int] | None:
     """latest date (or mtime) and file count for a directory of data files,
     covering both per-day files (YYYYMMDD*.csv) and per-ticker files (CODE.csv)."""
     files = [
-        p for pattern in _DATA_FILE_PATTERNS for p in dir_path.glob(pattern) if p.is_file()
+        p
+        for pattern in _DATA_FILE_PATTERNS
+        for p in dir_path.glob(pattern)
+        if p.is_file()
     ]
     if not files:
         return None
@@ -155,6 +159,8 @@ def build_status_text() -> str:
             rows.append(f"<tr><td>{key}</td><td>{date}</td><td>{val}</td></tr>")
 
     rows_html = "\n".join(rows)
+    anomaly_items = data_health.build_anomaly_items(data_nums, datetime.date.today())
+    anomaly_html = data_health.render_anomaly_table_html(anomaly_items)
     text = f"""<html>
 <head>
 <style>
@@ -166,6 +172,9 @@ th, td {{
   border: 1px solid black;
   padding: 4px;
 }}
+.alert-critical {{ background: #fdd; }}
+.alert-warning {{ background: #ffd; }}
+.alert-info {{ background: #eef; }}
 </style>
 </head>
 <body>
@@ -177,6 +186,7 @@ th, td {{
 {rows_html}
   </tbody>
 </table>
+{anomaly_html}
 </body>
 </html>
 """

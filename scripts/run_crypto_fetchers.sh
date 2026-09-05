@@ -1,3 +1,9 @@
+# 保存先ディレクトリの存在チェック(hddのマウントチェック)。存在しない場合はエラー
+if [ ! -d "/media/kitamura/gokupro/backup/data/" ]; then
+  echo "Error: Directory /media/kitamura/gokupro/backup/data/ does not exist."
+  exit 1
+fi
+
 nohup uv run python ./scripts/fetch_data_from_gmo.py --fx >> logs/gmo.log 2>&1 & 
 nohup uv run python ./scripts/fetch_data_from_gmo.py --crypto >> logs/gmo.log 2>&1 & 
 
