@@ -77,6 +77,17 @@ BACKFILL_REQUEST_INTERVAL_SECONDS = 20.0
 BACKFILL_LOG_PATH = OUTPUT_DIR / "_backfill_log.csv"
 
 
+def load_tickers_from_csv(path: str) -> list[tuple[str, str]]:
+    """`code,company_name` の2列CSVから銘柄リストを読み込む。
+
+    対象ユニバースの決定（時価総額デシル等の条件）はこのスクリプトの責務ではなく、
+    呼び出し側（stockリポジトリの分析コード）が事前に決めてこのCSVとして渡す。
+    """
+    with open(path, encoding="utf-8") as f:
+        reader = csv.DictReader(f)
+        return [(row["code"], row["company_name"]) for row in reader]
+
+
 @retry_with_backoff(max_retries=3, base_delay=60.0, exceptions=(Exception,))
 def _fetch_one(pytrends, company_name: str) -> pl.DataFrame:
     return trends_api.fetch_interest_over_time(pytrends, company_name)
@@ -195,13 +206,21 @@ def main():
         action="store_true",
         help="過去10年分を日次粒度の重複ウィンドウで取得する（数時間かかる）",
     )
+    parser.add_argument(
+        "--tickers-file",
+        type=str,
+        default=None,
+        help="対象銘柄を指定する `code,company_name` の2列CSVパス。"
+        "省略時はCORE30_TICKERSを使う（cron実行との後方互換のため）。",
+    )
     args = parser.parse_args()
+    tickers = load_tickers_from_csv(args.tickers_file) if args.tickers_file else CORE30_TICKERS
 
     if args.backfill_daily:
-        backfill_daily_history()
+        backfill_daily_history(tickers=tickers)
         return
 
-    update_google_trends()
+    update_google_trends(tickers=tickers)
 
 
 if __name__ == "__main__":
