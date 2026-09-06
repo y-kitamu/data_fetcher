@@ -943,7 +943,7 @@
     },
     "2025-04-30": {
         "Tax Effect Of Unusual Items": 0.0,
-        "Tax Rate For Calcs": 0.210797,
+        "Tax Rate For Calcs": 0.211,
         "Normalized EBITDA": 1366000.0,
         "Total Unusual Items": NaN,
         "Total Unusual Items Excluding Goodwill": NaN,
@@ -977,7 +977,7 @@
         "Impairment Of Capital Assets": NaN,
         "Net Non Operating Interest Income Expense": -378000.0,
         "Interest Expense Non Operating": 378000.0,
-        "Operating Income": NaN,
+        "Operating Income": -498000.0,
         "Operating Expense": 18433000.0,
         "Depreciation Amortization Depletion Income Statement": 667000.0,
         "Depreciation And Amortization In Income Statement": 667000.0,

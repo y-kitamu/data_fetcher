@@ -1101,7 +1101,7 @@
         "Net Non Operating Interest Income Expense": 127018.0,
         "Interest Expense Non Operating": 471.0,
         "Interest Income Non Operating": 127489.0,
-        "Operating Income": 7337047.0,
+        "Operating Income": -3119519.0,
         "Operating Expense": 3500316.0,
         "Depreciation Amortization Depletion Income Statement": 5769.0,
         "Depreciation And Amortization In Income Statement": 5769.0,
@@ -1114,8 +1114,8 @@
         "Other Gand A": 2657146.0,
         "Gross Profit": 8825974.0,
         "Cost Of Revenue": 2011389.0,
-        "Total Revenue": 10837363.0,
-        "Operating Revenue": 10344973.0
+        "Total Revenue": 380797.0,
+        "Operating Revenue": 380797.0
     },
     "2025-09-30": {
         "Tax Effect Of Unusual Items": 0.0,
@@ -1299,8 +1299,8 @@
         "Total Operating Income As Reported": -3160461.0,
         "Diluted Average Shares": 14981607.0,
         "Basic Average Shares": 14981607.0,
-        "Diluted EPS": -0.29,
-        "Basic EPS": -0.29,
+        "Diluted EPS": -0.27,
+        "Basic EPS": -0.27,
         "Diluted NI Availto Com Stockholders": -4276377.0,
         "Net Income Common Stockholders": -4276377.0,
         "Net Income": -4276377.0,
@@ -1317,7 +1317,7 @@
         "Net Non Operating Interest Income Expense": 60160.0,
         "Interest Expense Non Operating": 724.0,
         "Interest Income Non Operating": 60884.0,
-        "Operating Income": 5474322.0,
+        "Operating Income": -3160461.0,
         "Operating Expense": 3326919.0,
         "Depreciation Amortization Depletion Income Statement": 7151.0,
         "Depreciation And Amortization In Income Statement": 7151.0,
@@ -1330,7 +1330,7 @@
         "Other Gand A": 2547606.0,
         "Gross Profit": NaN,
         "Cost Of Revenue": NaN,
-        "Total Revenue": 8801241.0,
-        "Operating Revenue": 8579707.0
+        "Total Revenue": 166458.0,
+        "Operating Revenue": 166458.0
     }
 }

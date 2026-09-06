@@ -1128,8 +1128,8 @@
         "Policyholder Benefits Ceded": 57300000.0
     },
     "2026-06-30": {
-        "Tax Effect Of Unusual Items": -3070937.5,
-        "Tax Rate For Calcs": 0.096875,
+        "Tax Effect Of Unusual Items": -3074900.0,
+        "Tax Rate For Calcs": 0.097,
         "Total Unusual Items": -31700000.0,
         "Total Unusual Items Excluding Goodwill": -31700000.0,
         "Net Income From Continuing Operation Net Minority Interest": 199500000.0,
@@ -1138,7 +1138,7 @@
         "Net Interest Income": -19800000.0,
         "Interest Expense": 19800000.0,
         "Interest Income": 6900000.0,
-        "Normalized Income": 228129062.5,
+        "Normalized Income": 228125100.0,
         "Net Income From Continuing And Discontinued Operation": 199500000.0,
         "Total Expenses": 588600000.0,
         "Diluted Average Shares": 2407600.0,

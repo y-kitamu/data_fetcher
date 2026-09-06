@@ -66,7 +66,7 @@
         "Net Income From Continuing And Discontinued Operation": 20300000.0,
         "Total Expenses": 526100000.0,
         "Total Operating Income As Reported": 74300000.0,
-        "Diluted Average Shares": 199800000.0,
+        "Diluted Average Shares": 185100000.0,
         "Basic Average Shares": 183800000.0,
         "Diluted EPS": 0.11,
         "Basic EPS": 0.11,
@@ -397,7 +397,7 @@
     },
     "2026-06-30": {
         "Tax Effect Of Unusual Items": 0.0,
-        "Tax Rate For Calcs": 0.314647,
+        "Tax Rate For Calcs": 0.315,
         "Normalized EBITDA": 124700000.0,
         "Total Unusual Items": NaN,
         "Total Unusual Items Excluding Goodwill": NaN,
