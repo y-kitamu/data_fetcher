@@ -4,11 +4,12 @@
 
 import csv
 import datetime
+import io
 from pathlib import Path
 
+import polars as pl
 import requests
 import tqdm
-import xlrd
 from bs4 import BeautifulSoup
 
 import data_fetcher
@@ -16,16 +17,14 @@ import data_fetcher
 
 def save_code_list_to_csv(
     output_csv_path: Path,
-    source_url: str = "https://www.jpx.co.jp/markets/statistics-equities/misc/tvdivq0000001vg2-att/data_j.xls",
+    source_url: str = "https://www.jpx.co.jp/markets/statistics-equities/misc/tvdivq0000001vg2-att/data_j.xlsx",
 ):
     res = requests.get(source_url)
-    workbook = xlrd.open_workbook(file_contents=res.content)
-    sheets = workbook.sheets()
+    sheet = pl.read_excel(io.BytesIO(res.content), has_header=False)
 
     rows = []
-    for i in range(sheets[0].nrows):
-        rows.append([str(col).replace(".0", "") for col in sheets[0].row_values(i)[1:]])
-    workbook.release_resources()
+    for row in sheet.iter_rows():
+        rows.append([str(col).replace(".0", "") for col in row[1:]])
 
     output_csv_path.parent.mkdir(exist_ok=True, parents=True)
     with open(output_csv_path, "w", encoding="utf-8") as f:
@@ -73,8 +72,14 @@ def update_themes_csv():
 
 
 def main():
-    save_code_list_to_csv(data_fetcher.constants.JP_TICKERS_PATH)
-    update_themes_csv()
+    try:
+        save_code_list_to_csv(data_fetcher.constants.JP_TICKERS_PATH)
+    except Exception as e:
+        print(f"Failed to update JP tickers list: {e}")
+    try:
+        update_themes_csv()
+    except Exception as e:
+        print(f"Failed to update JP ticker themes: {e}")
 
 
 if __name__ == "__main__":

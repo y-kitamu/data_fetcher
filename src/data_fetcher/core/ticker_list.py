@@ -1,11 +1,11 @@
 """ticker_list.py"""
 
 import csv
+import io
 from pathlib import Path
 
 import polars as pl
 import requests
-import xlrd
 from fake_useragent import UserAgent
 from loguru import logger
 
@@ -30,15 +30,13 @@ def update_us_ticker_list(output_path: Path = PROJECT_ROOT / "data" / "us_ticker
 def update_jp_ticker_list(
     output_path: Path = PROJECT_ROOT / "data" / "jp_tickers.csv",
 ):
-    source_url: str = "https://www.jpx.co.jp/markets/statistics-equities/misc/tvdivq0000001vg2-att/data_j.xls"
+    source_url: str = "https://www.jpx.co.jp/markets/statistics-equities/misc/tvdivq0000001vg2-att/data_j.xlsx"
     res = requests.get(source_url)
-    workbook = xlrd.open_workbook(file_contents=res.content)
-    sheets = workbook.sheets()
+    sheet = pl.read_excel(io.BytesIO(res.content), has_header=False)
 
     rows = []
-    for i in range(sheets[0].nrows):
-        rows.append([str(col).replace(".0", "") for col in sheets[0].row_values(i)[1:]])
-    workbook.release_resources()
+    for row in sheet.iter_rows():
+        rows.append([str(col).replace(".0", "") for col in row[1:]])
 
     output_path.parent.mkdir(exist_ok=True, parents=True)
     with open(output_path, "w", encoding="utf-8") as f:
