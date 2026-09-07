@@ -622,7 +622,6 @@ BRNS,BARINTHUS BIOTH,バリンサス・バイオセラピューティクス,NASD
 BRO,BROWN AND BROWN,ブラウン・アンド・ブラウン,NYSE,金融(保険),○
 BROS,DUTCH BROS INC,ダッチ・ブロス,NYSE,外食,○
 BRSL,BRTSTR LTTRY PLC,ブライトスター・ロッタリー PLC,NYSE,エンターテイメント,○
-BRTX,BIORESTORATIVE,バイオレストラティブ・セラピーズ,NASDAQ,医薬品（バイオテクノロジー）,○
 BRVE,BRAVEHEART BIO,ブレイブハート・バイオ,NASDAQ,医薬品（バイオテクノロジー）,○
 BRZE,BRAZE INC,ブレイズ,NASDAQ,ソフトウェア・サービス,○
 BRZU,DRX BRAZIL BL2X,Direxion デイリー MSCI ブラジル ブル2倍 ETF,NYSE,その他,○
@@ -842,6 +841,7 @@ CLBT,CELLEBRITE DI,セレブライトDI,NASDAQ,ソフトウェア・サービス
 CLDX,CELLDEX THERAPEU,セルデックス・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 CLF,CRELANDAND-CLIFF,クリーブランド・クリフス,NYSE,その他製造,○
 CLFD,CLEARFIELD INC,クリアフィールド,NASDAQ,通信機器,○
+CLGN,COLLPLANT BIO,コルプラント・バイオテクノロジーズ,NASDAQ,医薬品,○
 CLH,CLEAN HARBORS IN,クリーンハーバーズ,NYSE,その他,○
 CLIP,GLX 1-3M TB ETF,グローバルX 米国T-Bill 1-3か月ETF,NYSE,その他,○
 CLIR,CLEARSIGN TECHNO,クリアサイン・テクノロジーズ,NASDAQ,機械,○
@@ -1027,7 +1027,6 @@ CTRM,CASTOR MARITIME,キャスター・マリタイム,NASDAQ,その他,○
 CTRN,CITI TRENDS INC,シティ・トレンズ,NASDAQ,小売,○
 CTS,CTS CORPORATION,CTS,NYSE,その他製造,○
 CTSH,COGNIZANT TECH,コグニザント・テクノロジー・ソリューションズ,NASDAQ,ソフトウェア・サービス,○
-CTSO,CYTOSORBENT CORP,サイトソーベンツ,NASDAQ,ヘルスケア,○
 CTVA,CORTEVA INC,コルテバ,NYSE,化学,○
 CTXR,CITIUS PHARMACEU,シティアス・ファーマシューティカルズ,NASDAQ,ヘルスケア,○
 CUBI,CUSTOMERS BANCRP,カスタマーズ・バンコープ,NYSE,金融（銀行）,○
@@ -1817,7 +1816,6 @@ GSK,GSK PLC,GSK PLC,NYSE,医薬品,○
 GSL,GLB SHIP LEASE,グローバル・シップ・リース,NYSE,運輸,○
 GSM,FERROGLOBE PLC,フェログローブ,NASDAQ,その他製造,○
 GT,GOODYEAR TIRE,グッドイヤー・タイヤ・アンド・ラバー,NASDAQ,タイヤ,○
-GTBP,GT BIOPHARMA INC,GTバイオファーマ,NASDAQ,医薬品（バイオテクノロジー）,○
 GTE,GRAN TIERRA ENGY,グラン・ティエラ・エナジー,NYSE,石油,○
 GTEC,GREENLAND TECH,グリーンランド・テクノロジーズ・ホールディング,NASDAQ,機械,○
 GTES,GATES INDUSTRIAL,ゲイツ・インダストリアル,NYSE,機械,○
