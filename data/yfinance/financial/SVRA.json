@@ -1097,7 +1097,7 @@
         "Normalized EBITDA": -37867000.0,
         "Total Unusual Items": -204000.0,
         "Total Unusual Items Excluding Goodwill": -204000.0,
-        "Net Income From Continuing Operation Net Minority Interest": -37284000.0,
+        "Net Income From Continuing Operation Net Minority Interest": NaN,
         "Reconciled Depreciation": 66000.0,
         "EBITDA": -38071000.0,
         "EBIT": -38137000.0,

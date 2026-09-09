@@ -972,7 +972,7 @@
         "Depreciation And Amortization In Income Statement": 3600000.0,
         "Amortization": 3600000.0,
         "Total Revenue": 416100000.0,
-        "Operating Revenue": 416100000.0,
+        "Operating Revenue": NaN,
         "Loss Adjustment Expense": 176400000.0,
         "Net Policyholder Benefits And Claims": 176400000.0,
         "Policyholder Benefits Gross": 187500000.0,

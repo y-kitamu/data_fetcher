@@ -1065,7 +1065,7 @@
         "Pretax Income": 83884000.0,
         "Net Non Operating Interest Income Expense": 13048000.0,
         "Interest Income Non Operating": 13048000.0,
-        "Operating Income": 70836000.0,
+        "Operating Income": NaN,
         "Operating Expense": 64852000.0,
         "Research And Development": 37083000.0,
         "Selling General And Administration": 27769000.0,

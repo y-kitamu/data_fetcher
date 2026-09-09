@@ -1147,7 +1147,7 @@
         "Net Income From Continuing Operation Net Minority Interest": 3240000.0,
         "Reconciled Depreciation": 3772000.0,
         "Reconciled Cost Of Revenue": 114971000.0,
-        "EBITDA": 8949000.0,
+        "EBITDA": NaN,
         "EBIT": 5177000.0,
         "Net Interest Income": 809000.0,
         "Interest Expense": 70000.0,

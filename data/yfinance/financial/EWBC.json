@@ -943,7 +943,7 @@
         "Salaries And Wages": 172665000.0,
         "Total Revenue": 766216000.0,
         "Operating Revenue": 766216000.0,
-        "Occupancy And Equipment": 18248000.0,
+        "Occupancy And Equipment": NaN,
         "Other Non Interest Expense": 51025000.0
     },
     "2026-06-30": {

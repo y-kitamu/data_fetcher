@@ -541,7 +541,7 @@
         "Gain On Sale Of Business": NaN,
         "Earnings From Equity Interest": 5600000.0,
         "Net Non Operating Interest Income Expense": -60000000.0,
-        "Interest Expense Non Operating": 60000000.0,
+        "Interest Expense Non Operating": NaN,
         "Operating Income": 181500000.0,
         "Operating Expense": 595400000.0,
         "Selling General And Administration": 595400000.0,

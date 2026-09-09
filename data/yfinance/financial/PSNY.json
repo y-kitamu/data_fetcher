@@ -538,5 +538,27 @@
         "Cost Of Revenue": 567000000.0,
         "Total Revenue": 632000000.0,
         "Operating Revenue": 632000000.0
+    },
+    "2026-06-30": {
+        "Tax Effect Of Unusual Items": 0.0,
+        "Tax Rate For Calcs": 0.4,
+        "Net Income From Continuing Operation Net Minority Interest": 382157552.0,
+        "Reconciled Cost Of Revenue": -651525099.0,
+        "Normalized Income": 382157552.0,
+        "Net Income From Continuing And Discontinued Operation": 382157552.0,
+        "Total Expenses": -651085367.0,
+        "Diluted Average Shares": NaN,
+        "Basic Average Shares": NaN,
+        "Diluted EPS": NaN,
+        "Basic EPS": NaN,
+        "Diluted NI Availto Com Stockholders": 382157552.0,
+        "Net Income Common Stockholders": 382157552.0,
+        "Net Income": 382157552.0,
+        "Net Income Including Noncontrolling Interests": 382157552.0,
+        "Net Income Continuous Operations": 382157552.0,
+        "Gross Profit": 19885190.0,
+        "Cost Of Revenue": -651525099.0,
+        "Total Revenue": -631639909.0,
+        "Operating Revenue": -631642021.0
     }
 }

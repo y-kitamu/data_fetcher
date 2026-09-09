@@ -836,7 +836,7 @@
         "Net Interest Income": 88000.0,
         "Interest Expense": NaN,
         "Normalized Income": -679000.0,
-        "Net Income From Continuing And Discontinued Operation": -679000.0,
+        "Net Income From Continuing And Discontinued Operation": NaN,
         "Total Expenses": 2539000.0,
         "Diluted Average Shares": 13352749.0,
         "Basic Average Shares": 13352749.0,

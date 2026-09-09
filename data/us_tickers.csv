@@ -176,7 +176,6 @@ ALMR,ALAMAR BIOSCI,アラマー・バイオサイエンシズ,NASDAQ,ヘルス�
 ALMU,AELUMA INC,アエルマ,NASDAQ,半導体,○
 ALNT,ALLIENT,アライアント,NASDAQ,その他製造,○
 ALNY,ALNYLAM PHARMACE,アルナイラム・ファーマシューティカルズ,NASDAQ,ヘルスケア,○
-ALP,ALPHA COMPUTE,アルファ・コンピュート,NASDAQ,医薬品（バイオテクノロジー）,○
 ALRM,ALARM.COM,アラーム・ドットコム・ホールディングス,NASDAQ,その他製造,○
 ALRS,ALERUS FINCIAL,アレラス・ファイナンシャル,NASDAQ,金融（銀行）,○
 ALSN,ALLISON TRANSMIS,アリソン・トランスミッション・ホールディングス,NYSE,その他製造,○
@@ -618,10 +617,10 @@ BRK.B,BERKSHIRE INC B,バークシャー・ハサウェイ　クラスB,NYSE,金
 BRKR,BRUKER CORP,ブルカー,NASDAQ,ヘルスケア,○
 BRKU,DRX BRKB BL2X,Direxion デ イ リ ー BRKB ブル2倍 ETF,NASDAQ,その他,○
 BRLT,BRILLIANT EARTH,ブリリアント・アース,NASDAQ,小売,○
-BRNS,BARINTHUS BIOTH,バリンサス・バイオセラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 BRO,BROWN AND BROWN,ブラウン・アンド・ブラウン,NYSE,金融(保険),○
 BROS,DUTCH BROS INC,ダッチ・ブロス,NYSE,外食,○
 BRSL,BRTSTR LTTRY PLC,ブライトスター・ロッタリー PLC,NYSE,エンターテイメント,○
+BRTX,BIORESTORATIVE,バイオレストラティブ・セラピーズ,NASDAQ,医薬品（バイオテクノロジー）,○
 BRVE,BRAVEHEART BIO,ブレイブハート・バイオ,NASDAQ,医薬品（バイオテクノロジー）,○
 BRZE,BRAZE INC,ブレイズ,NASDAQ,ソフトウェア・サービス,○
 BRZU,DRX BRAZIL BL2X,Direxion デイリー MSCI ブラジル ブル2倍 ETF,NYSE,その他,○
@@ -1026,6 +1025,7 @@ CTRM,CASTOR MARITIME,キャスター・マリタイム,NASDAQ,その他,○
 CTRN,CITI TRENDS INC,シティ・トレンズ,NASDAQ,小売,○
 CTS,CTS CORPORATION,CTS,NYSE,その他製造,○
 CTSH,COGNIZANT TECH,コグニザント・テクノロジー・ソリューションズ,NASDAQ,ソフトウェア・サービス,○
+CTSO,CYTOSORBENT CORP,サイトソーベンツ,NASDAQ,ヘルスケア,○
 CTVA,CORTEVA INC,コルテバ,NYSE,化学,○
 CTXR,CITIUS PHARMACEU,シティアス・ファーマシューティカルズ,NASDAQ,ヘルスケア,○
 CUBI,CUSTOMERS BANCRP,カスタマーズ・バンコープ,NYSE,金融（銀行）,○
@@ -1067,7 +1067,6 @@ CXDO,CREXENDO INC,クレシェンド,NASDAQ,ソフトウェア・サービス,�
 CXM,SPRINKLR INC,スプリンクラー,NYSE,ソフトウェア・サービス,○
 CXSE,WT CH EX STATE,ウィズダムツリー中国株ニューエコノミーファンド,NASDAQ,その他,○
 CXT,CRANE NXT CO,クレインNXT,NYSE,機械,○
-CYCN,CYCLERION THERA,サイクレリオン・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 CYD,CHINA YUCHAI,チャイナユチャイ,NYSE,自動車,○
 CYH,COMMNTY HLTH SYS,コミュニティー・ヘルス・システムズ,NYSE,ヘルスケア,○
 CYN,CYNGN INC,シングン,NASDAQ,ソフトウェア・サービス,○
@@ -1815,6 +1814,7 @@ GSK,GSK PLC,GSK PLC,NYSE,医薬品,○
 GSL,GLB SHIP LEASE,グローバル・シップ・リース,NYSE,運輸,○
 GSM,FERROGLOBE PLC,フェログローブ,NASDAQ,その他製造,○
 GT,GOODYEAR TIRE,グッドイヤー・タイヤ・アンド・ラバー,NASDAQ,タイヤ,○
+GTBP,GT BIOPHARMA INC,GTバイオファーマ,NASDAQ,医薬品（バイオテクノロジー）,○
 GTE,GRAN TIERRA ENGY,グラン・ティエラ・エナジー,NYSE,石油,○
 GTEC,GREENLAND TECH,グリーンランド・テクノロジーズ・ホールディング,NASDAQ,機械,○
 GTES,GATES INDUSTRIAL,ゲイツ・インダストリアル,NYSE,機械,○
