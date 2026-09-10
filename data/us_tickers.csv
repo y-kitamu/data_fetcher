@@ -176,6 +176,7 @@ ALMR,ALAMAR BIOSCI,アラマー・バイオサイエンシズ,NASDAQ,ヘルス�
 ALMU,AELUMA INC,アエルマ,NASDAQ,半導体,○
 ALNT,ALLIENT,アライアント,NASDAQ,その他製造,○
 ALNY,ALNYLAM PHARMACE,アルナイラム・ファーマシューティカルズ,NASDAQ,ヘルスケア,○
+ALP,ALPHA COMPUTE,アルファ・コンピュート,NASDAQ,医薬品（バイオテクノロジー）,○
 ALRM,ALARM.COM,アラーム・ドットコム・ホールディングス,NASDAQ,その他製造,○
 ALRS,ALERUS FINCIAL,アレラス・ファイナンシャル,NASDAQ,金融（銀行）,○
 ALSN,ALLISON TRANSMIS,アリソン・トランスミッション・ホールディングス,NYSE,その他製造,○
@@ -337,7 +338,6 @@ ASTS,AST SPACEMOBILE,ASTスペースモバイル,NASDAQ,通信サービス,○
 ASUR,ASURE SOFTWARE,アシュア・ソフトウエア,NASDAQ,ソフトウェア・サービス,○
 ASX,ASE TCHNLGY HOLD,ASEテクノロジー・ホールディングス,NYSE,半導体製造,○
 ASYS,AMTECH SYSTEMS,アムテック・システムズ,NASDAQ,半導体製造,○
-ATAI,ATAI BECKLEY,アタイ・ベックリー,NASDAQ,医薬品（バイオテクノロジー）,○
 ATAT,ATOUR LIFESTYLE,アトゥール・ライフスタイル・ホールディングス,NASDAQ,ホテル,○
 ATC,GNS ATCL COIN,GraniteShares オートコーラブル COIN ETF,NASDAQ,その他,○
 ATCL,REX AUTOCLB INCM,REX オートコーラブル・イ ンカムETF ,NYSE,その他,○
@@ -1347,6 +1347,7 @@ ENTX,ENTERA BIO LTD,エンテラ・バイオ,NASDAQ,医薬品（バイオテク�
 ENVA,ENOVA INTL,エノバ・インターナショナル,NYSE,金融（銀行）,○
 ENVB,ENVERIC BIOSCIEN,エンベリック・バイオサイエンシズ,NASDAQ,医薬品（バイオテクノロジー）,○
 ENVX,ENOVIX CORP,エノビックス,NASDAQ,その他製造,○
+EOCN,EOCENE LTD,イオシーン,NASDAQ,医薬品（バイオテクノロジー）,○
 EOG,EOG RESOURCES,EOGリソーシズ,NYSE,石油,○
 EOLS,EVOLUS INC,エボラス,NASDAQ,ヘルスケア,○
 EOSE,EOS ENERGY ENTER,イオス・エナジー・エンタープライズ,NASDAQ,電力,○
@@ -1742,7 +1743,6 @@ GLDM,SPDR GOLD MINI,SPDR ゴールド・ミニシェアーズ・トラスト,NYS
 GLIBA,LIBERTYCAPITAL-A,リバティ キャピタル A,NASDAQ,通信サービス,○
 GLIBK,LIBERTYCAPITAL-C,リバティ キャピタル C,NASDAQ,通信サービス,○
 GLIN,V INDIA GROWTH,ヴァンエック・インドグロースリーダーズETF,NYSE,その他,○
-GLMD,GALMED PHARMACEU,ガルメド・ファーマシューティカルズ,NASDAQ,医薬品（バイオテクノロジー）,○
 GLNG,GOLAR LNG,ゴラールLNG,NASDAQ,ガス・パイプライン,○
 GLOB,GLOBANT SA,グローバント,NYSE,ソフトウェア・サービス,○
 GLRE,GREENLIGHT CAPTL,グリーンライト・キャピタル,NASDAQ,金融(保険),○
@@ -2310,6 +2310,7 @@ KRO,KRONOS WORLDWIDE,クロノス・ワールドワイド,NYSE,化学,○
 KROP,GLBLX AGTECH FD,グローバルＸ 農業テック＆フード ETF,NASDAQ,その他,○
 KROS,KEROS THERAPEU,ケロス・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 KRRO,KORRO BIO,コロ・バイオ,NASDAQ,医薬品（バイオテクノロジー）,○
+KRSA,KORSANA BIO,コルサナ・バイオサイエンシズ,NASDAQ,医薬品（バイオテクノロジー）,○
 KRT,KARAT PACKAGING,カラット ・パッケージング,NASDAQ,その他製造,○
 KRUS,KURA SUSHI USA,くら寿司USA,NASDAQ,外食,○
 KRYS,KRYSTAL BIOTECH,クリスタル・バイオテック,NASDAQ,医薬品（バイオテクノロジー）,○
@@ -2384,7 +2385,6 @@ LFTO,LIFTOFF MOBILE,リフトオフ・モバイル,NASDAQ,ソフトウェア・�
 LFUS,LITTELFUSE INC,リテルヒューズ,NASDAQ,その他製造,○
 LFVN,LIFEVANTAGE,ライフバンテージ,NASDAQ,医薬品,○
 LFWD,LIFEWARD,ライフワード,NASDAQ,医療サービス,○
-LGHL,LION GROUP,ライオン・グループ・ホールディング,NASDAQ,金融（証券）,○
 LGIH,LGI HOMES INC,LGIホームズ,NASDAQ,その他製造,○
 LGL,LGL GROUP,LGLグループ,NYSE,その他製造,○
 LGN,LEGENCE CORP,レジェンス,NASDAQ,その他,○
