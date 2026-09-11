@@ -75,6 +75,27 @@ BACKFILL_WINDOW_MONTHS = 6
 BACKFILL_OVERLAP_MONTHS = 1
 BACKFILL_REQUEST_INTERVAL_SECONDS = 20.0
 BACKFILL_LOG_PATH = OUTPUT_DIR / "_backfill_log.csv"
+BACKFILL_ANCHOR_PATH = OUTPUT_DIR / "_backfill_anchor_date.txt"
+
+
+def _get_backfill_anchor_date() -> datetime.date:
+    """バックフィルのウィンドウ境界を計算する基準日を取得する。
+
+    `generate_daily_windows` は基準日からの相対位置でウィンドウを生成するため、
+    実行のたびに `datetime.date.today()` を使うと、日をまたいで再実行した際に
+    ウィンドウ境界(window_start/window_end)がずれて `_backfill_log.csv` の
+    完了記録とキーが一致しなくなり、既に取得済みの分まで再取得してしまう
+    （実際に2026-09-11の再開時にこれが発生し、299/300銘柄が完了済みにも
+    かかわらず全7200ウィンドウが「未処理」と判定された）。
+    初回実行時の日付をファイルに固定し、以降の実行（中断・再開）では
+    常にこの日付を使うことで、`_backfill_log.csv` とのキー一致を保証する。
+    """
+    if BACKFILL_ANCHOR_PATH.exists():
+        return datetime.date.fromisoformat(BACKFILL_ANCHOR_PATH.read_text().strip())
+    anchor = datetime.date.today()
+    BACKFILL_ANCHOR_PATH.parent.mkdir(parents=True, exist_ok=True)
+    BACKFILL_ANCHOR_PATH.write_text(anchor.isoformat())
+    return anchor
 
 
 def load_tickers_from_csv(path: str) -> list[tuple[str, str]]:
@@ -153,13 +174,13 @@ def backfill_daily_history(
     """
     pytrends = trends_api.get_trend_request()
     done = _load_backfill_log()
-    today = datetime.date.today()
+    anchor_date = _get_backfill_anchor_date()
 
     plan = [
         (code, company_name, window_start, window_end)
         for code, company_name in tickers
         for window_start, window_end in trends_api.generate_daily_windows(
-            today, years_back, BACKFILL_WINDOW_MONTHS, BACKFILL_OVERLAP_MONTHS
+            anchor_date, years_back, BACKFILL_WINDOW_MONTHS, BACKFILL_OVERLAP_MONTHS
         )
     ]
     remaining = [

@@ -77,6 +77,7 @@ SOURCE_RULES: dict[str, SourceRule] = {
         cadence="weekday",
         ticker_universe="jp_stock",
         code_from_stem=lambda stem: stem.split("-")[0],
+        enabled=False,  # taisyaku/zandaka の銘柄別過去データのため一回のみ取得実行
     ),
     "taisyaku/zandaka": SourceRule(pattern="per_date", cadence="weekday"),
     "jpx_stats/investor_type": SourceRule(pattern="per_date", cadence="weekly"),
