@@ -1775,7 +1775,6 @@ GOLF,ACUSHNET HLD,アクシネット・ホールディングス,NYSE,その他�
 GOOG,ALPHABET INC-C,アルファベット クラスC,NASDAQ,ソフトウェア・サービス,○
 GOOGL,ALPHABET INC-A,アルファベット クラスA,NASDAQ,ソフトウェア・サービス,○
 GOOS,CANADA GOOSE HD,カナダ・グース・ホールディングス,NYSE,小売,○
-GOSS,GOSSAMER BIO INC,ゴッサマー・バイオ,NASDAQ,医薬品（バイオテクノロジー）,○
 GOTU,GAOTU TECHEDU,ガオトゥ・テックエデュ,NYSE,ソフトウェア・サービス,○
 GOU,GNS 2XLONG GOOGL,GraniteShares2倍ロングGOOGLデイリーETF,NASDAQ,その他,○
 GOVX,GEOVAX LABS INC,ジオバックス・ラブズ,NASDAQ,医薬品（バイオテクノロジー）,○
@@ -2385,6 +2384,7 @@ LFTO,LIFTOFF MOBILE,リフトオフ・モバイル,NASDAQ,ソフトウェア・�
 LFUS,LITTELFUSE INC,リテルヒューズ,NASDAQ,その他製造,○
 LFVN,LIFEVANTAGE,ライフバンテージ,NASDAQ,医薬品,○
 LFWD,LIFEWARD,ライフワード,NASDAQ,医療サービス,○
+LGHL,LION GROUP,ライオン・グループ・ホールディング,NASDAQ,金融（証券）,○
 LGIH,LGI HOMES INC,LGIホームズ,NASDAQ,その他製造,○
 LGL,LGL GROUP,LGLグループ,NYSE,その他製造,○
 LGN,LEGENCE CORP,レジェンス,NASDAQ,その他,○
@@ -2567,7 +2567,6 @@ MESO,MESOBLAST LMITED,メソブラスト,NASDAQ,医薬品（バイオテクノ�
 MET,METLIFE INC,メットライフ,NYSE,金融(保険),○
 META,META PLATFORMS,メタ・プラットフォームズ,NASDAQ,ソフトウェア・サービス,○
 METC,RAMACO RESOURCES,ラマコ・リソーシズ,NASDAQ,その他,○
-METCB,RAMACO RESOUR-B,ラマコ・リソーシズ・クラスB,NASDAQ,その他,○
 METD,DRX META BR1X,Direxion デイリー META  ベア 1 倍 ETF,NASDAQ,その他,○
 METU,DRX META BL2X,Direxion デイリー META ブル 2 倍 ETF,NASDAQ,その他,○
 MFC,MANULIFE FIN,マニュライフ・ファイナンシャル,NYSE,金融(保険),○
@@ -2791,7 +2790,6 @@ NEWP,NEW PACIFC METAL,ニュー・パシフィック・メタルズ,NYSE,その�
 NEXA,NEXA RESOURCES,ネクサ・リソーシズ,NYSE,その他,○
 NEXN,NEXXEN INTER,ネクセン・インターナショナル,NASDAQ,その他,○
 NEXT,NEXTDECADE CORP,ネクストデケード,NASDAQ,ガス・パイプライン,○
-NFE,NEW FORTRSS ENGY,ニュー・フォートレス・エナジー,NASDAQ,電力,○
 NFG,NATIONAL FUELGAS,ナショナル・フューエル・ガス,NYSE,ガス・パイプライン,○
 NFGC,NEW FOUND GOLD,ニュー・ファウンド・ゴールド,NYSE,その他,○
 NFLX,NETFLIX INC.,ネットフリックス,NASDAQ,エンターテイメント,○
