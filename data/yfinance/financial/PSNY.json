@@ -475,7 +475,7 @@
     },
     "2026-03-31": {
         "Tax Effect Of Unusual Items": 0.0,
-        "Tax Rate For Calcs": 0.4,
+        "Tax Rate For Calcs": 0.25,
         "Net Income From Continuing Operation Net Minority Interest": -383000000.0,
         "Reconciled Cost Of Revenue": 653000000.0,
         "Normalized Income": -383000000.0,
@@ -541,7 +541,7 @@
     },
     "2026-06-30": {
         "Tax Effect Of Unusual Items": 0.0,
-        "Tax Rate For Calcs": 0.4,
+        "Tax Rate For Calcs": 0.25,
         "Net Income From Continuing Operation Net Minority Interest": 382157552.0,
         "Reconciled Cost Of Revenue": -651525099.0,
         "Normalized Income": 382157552.0,
