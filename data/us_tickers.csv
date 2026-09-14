@@ -952,7 +952,6 @@ CPHC,CANTERBURY PARK,カンタベリー・パーク・ホールディング,NASD
 CPIX,CUMBERLAND PHARM,カンバーランド・ファーマシューティカルズ,NASDAQ,医薬品,○
 CPK,CHESAPEAKE UTIL,チェサピーク・ユーティリティーズ,NYSE,ガス・パイプライン,○
 CPNG,COUPANG INC,クーパン,NYSE,ソフトウェア・サービス,○
-CPOP,POP CULTURE GR,ポップ・カルチャー・グループ,NASDAQ,エンターテイメント,○
 CPRI,CAPRI HOLDINGS,カプリ・ホールディングス,NYSE,その他製造,○
 CPRT,COPART INC,コパート,NASDAQ,小売,○
 CPS,COOPER-STANDARD,クーパー-スタンダード・ホールディングス,NYSE,自動車,○
@@ -1775,6 +1774,7 @@ GOLF,ACUSHNET HLD,アクシネット・ホールディングス,NYSE,その他�
 GOOG,ALPHABET INC-C,アルファベット クラスC,NASDAQ,ソフトウェア・サービス,○
 GOOGL,ALPHABET INC-A,アルファベット クラスA,NASDAQ,ソフトウェア・サービス,○
 GOOS,CANADA GOOSE HD,カナダ・グース・ホールディングス,NYSE,小売,○
+GOSS,GOSSAMER BIO INC,ゴッサマー・バイオ,NASDAQ,医薬品（バイオテクノロジー）,○
 GOTU,GAOTU TECHEDU,ガオトゥ・テックエデュ,NYSE,ソフトウェア・サービス,○
 GOU,GNS 2XLONG GOOGL,GraniteShares2倍ロングGOOGLデイリーETF,NASDAQ,その他,○
 GOVX,GEOVAX LABS INC,ジオバックス・ラブズ,NASDAQ,医薬品（バイオテクノロジー）,○
@@ -2256,7 +2256,7 @@ KFY,KORN FERRY,コーン・フェリー,NYSE,ソフトウェア・サービス,�
 KG,KESTREL GROUP,ケストレル・グループ,NASDAQ,金融(保険),○
 KGC,KINROSS GOLD,キンロス・ゴールド,NYSE,その他,○
 KGS,KODIAK GAS SERVI,コディアック・ガス・サービシズ,NYSE,石油,○
-KHC,KRAFT HEINZ CO,クラフト・ハインツ,NASDAQ,食品,○
+KHC,KRAFT HEINZ CO,クラフト・ハインツ,NYSE,食品,○
 KIDS,ORTHOPEDIATRICS,オーソピディアトリックス,NASDAQ,ヘルスケア,○
 KINS,KINGSTONE COS,キングストーン・カンパニーズ,NASDAQ,金融(保険),○
 KITT,NAUTICUS ROBOTIC,ノーティカス・ロボティクス,NASDAQ,その他製造,○
@@ -2853,7 +2853,6 @@ NRG,NRG ENERGY INC.,NRGエナジー,NYSE,電力,○
 NRGV,ENERGY VAULT,エナジー・ボールト・ホールディングス,NYSE,その他製造,○
 NRIM,NORTHRIM BANC,ノースリム・バンコープ,NASDAQ,金融（銀行）,○
 NRIX,NURIX THERAPEU,ニューリックス・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
-NRSN,NEUROSENSE THER,ニューロセンス・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 NRXP,NRX PHARMACEU,NRXファーマシューティカルズ,NASDAQ,医薬品（バイオテクノロジー）,○
 NSC,NORFOLK SOUTHERN,ノーフォーク・サザン,NYSE,運輸,○
 NSIT,INSIGHT ENTER,インサイト・エンタープライジズ,NASDAQ,ソフトウェア・サービス,○
@@ -2929,7 +2928,6 @@ NXPL,NEXTPLAT CORP,ネクストプラット,NASDAQ,通信機器,○
 NXST,NEXSTAR MEDIA,ネクスター・メディア・グループ,NASDAQ,その他,○
 NXT,NEXTPOWER,ネクストパワー,NASDAQ,電力,○
 NXTG,FT INDXX NEXTG,ファーストトラスト Indxx ネクストG ETF,NASDAQ,その他,○
-NXXT,NEXTNRG INC,ネクストNRG,NASDAQ,石油,○
 NYT,NEW YORK TIMES,ニューヨーク・タイムズ,NYSE,その他,○
 NYXH,NYXOAH SA,ニクソア,NASDAQ,ヘルスケア,○
 OABI,OMNIAB,オムニアエービー,NASDAQ,医薬品（バイオテクノロジー）,○
@@ -3939,7 +3937,6 @@ TEN,TSAKOS ENRG NAVG,ツァコス・エナジー・ナビゲーション,NYSE,�
 TENB,TENABLE HLD,テナブル・ホールディングス,NASDAQ,ソフトウェア・サービス,○
 TEO,TELECOM ARGENTIN,テレコム・アルゼンティーナ,NYSE,通信サービス,○
 TER,TERADYNE INC,テラダイン,NASDAQ,半導体,○
-TEVA,TEVA PHARM. IND.,テバ・ファーマスーティカル・インダストリーズ,NYSE,医薬品,○
 TEX,TEREX CORP,テレックス,NYSE,機械,○
 TFC,TRUIST FINANCIAL,トゥルーイスト・ファイナンシャル,NYSE,金融（銀行）,○
 TFII,TFI INTERNATIONL,TFIインターナショナル,NYSE,運輸,○
