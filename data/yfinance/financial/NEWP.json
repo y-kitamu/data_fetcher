@@ -610,7 +610,7 @@
         "Minority Interests": 0.0,
         "Net Income Including Noncontrolling Interests": -874886.0,
         "Net Income Continuous Operations": -874886.0,
-        "Pretax Income": -874886.0,
+        "Pretax Income": NaN,
         "Other Income Expense": 415623.0,
         "Special Income Charges": -21431.0,
         "Gain On Sale Of Ppe": -21431.0,

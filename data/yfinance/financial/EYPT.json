@@ -1170,7 +1170,7 @@
         "Interest Income Non Operating": 2344000.0,
         "Operating Income": -87226000.0,
         "Operating Expense": 87394000.0,
-        "Research And Development": 72148000.0,
+        "Research And Development": NaN,
         "Selling General And Administration": 15246000.0,
         "Selling And Marketing Expense": 3000.0,
         "General And Administrative Expense": 15243000.0,

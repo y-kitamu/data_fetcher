@@ -1101,7 +1101,7 @@
         "Net Interest Income": -497000.0,
         "Interest Expense": 1089000.0,
         "Interest Income": 592000.0,
-        "Normalized Income": 4791000.0,
+        "Normalized Income": NaN,
         "Net Income From Continuing And Discontinued Operation": 4791000.0,
         "Total Expenses": 53817000.0,
         "Total Operating Income As Reported": 6313000.0,
@@ -1130,7 +1130,7 @@
         "Amortization Of Intangibles Income Statement": 1059000.0,
         "Research And Development": 18328000.0,
         "Selling General And Administration": 17492000.0,
-        "Gross Profit": 43192000.0,
+        "Gross Profit": NaN,
         "Cost Of Revenue": 16938000.0,
         "Total Revenue": 60130000.0,
         "Operating Revenue": 60130000.0

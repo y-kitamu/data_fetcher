@@ -690,7 +690,7 @@
         "Tax Effect Of Unusual Items": -1697200.0,
         "Tax Rate For Calcs": 0.4,
         "Normalized EBITDA": 30874000.0,
-        "Total Unusual Items": -4243000.0,
+        "Total Unusual Items": NaN,
         "Total Unusual Items Excluding Goodwill": -4243000.0,
         "Net Income From Continuing Operation Net Minority Interest": -17420000.0,
         "Reconciled Depreciation": 18397000.0,

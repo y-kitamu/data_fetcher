@@ -1177,7 +1177,7 @@
     "2026-03-31": {
         "Tax Effect Of Unusual Items": 1687719.298246,
         "Tax Rate For Calcs": 0.22807,
-        "Normalized EBITDA": 34300000.0,
+        "Normalized EBITDA": NaN,
         "Total Unusual Items": 7400000.0,
         "Total Unusual Items Excluding Goodwill": 7400000.0,
         "Net Income From Continuing Operation Net Minority Interest": 30400000.0,
@@ -1197,7 +1197,7 @@
         "Basic EPS": 1.23,
         "Diluted NI Availto Com Stockholders": 30400000.0,
         "Net Income Common Stockholders": 30400000.0,
-        "Net Income": 30400000.0,
+        "Net Income": NaN,
         "Minority Interests": -400000.0,
         "Net Income Including Noncontrolling Interests": 30800000.0,
         "Net Income Continuous Operations": 30800000.0,
