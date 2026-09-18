@@ -80,9 +80,12 @@ SOURCE_RULES: dict[str, SourceRule] = {
         enabled=False,  # taisyaku/zandaka の銘柄別過去データのため一回のみ取得実行
     ),
     "taisyaku/zandaka": SourceRule(pattern="per_date", cadence="weekday"),
-    "jpx_stats/investor_type": SourceRule(pattern="per_date", cadence="weekly"),
+    # JPXの公開自体が不定期(投資部門別は公開ラグが変動、信用日々公表銘柄は
+    # 規制対象銘柄がある時しか更新されない)なため、weekly/weekday閾値だと
+    # 誤検知(全体停止扱い)になりやすい。irregularで緩めに監視する。
+    "jpx_stats/investor_type": SourceRule(pattern="per_date", cadence="irregular"),
     "jpx_stats/margin_daily_disclosure": SourceRule(
-        pattern="per_date", cadence="weekday"
+        pattern="per_date", cadence="irregular"
     ),
     "jp_ticker_themes": SourceRule(pattern="per_date", cadence="daily"),
     "histdata/tick": SourceRule(pattern="per_date", cadence="monthly"),
