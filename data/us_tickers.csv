@@ -1659,7 +1659,7 @@ FVCB,FVCBANKCORP INC,FVCバンクコープ,NASDAQ,金融（銀行）,○
 FVD,FT VAL LINE DIVD,ファーストトラスト バリューライン 配当指数ファンド,NYSE,その他,○
 FVRR,FIVERR INTL,ファイバー・インターナショナル,NYSE,ソフトウェア・サービス,○
 FWDI,FORWARD INDUSTRI,フォワード・インダストリーズ,NASDAQ,ソフトウェア・サービス,○
-FWONA,LIBERTY MEDIA,リバティ・メディア・コーポレーション・フォーミュラ・ワン,NASDAQ,エンターテイメント,○
+FWONA,LIBERTY MEDIA,リバティ・メディア・コーポレーション,NASDAQ,エンターテイメント,○
 FWRD,FORWARD AIR CORP,フォワード・エアー,NASDAQ,運輸,○
 FWRG,1ST WATCH RESTRN,ファースト・ウォッチ・レストラン・グループ,NASDAQ,外食,○
 FXH,FT HEALTH CARE,ファーストトラスト ヘルスケア AlphaDEXファンド,NYSE,その他,○
@@ -2175,6 +2175,7 @@ IYRI,NEOS EST H INCM,NEOS 不動産ハイ・インカムETF,Cboe,その他,○
 IZEA,IZEA WORLDWIDE,IZEAワールドワイド,NASDAQ,通信サービス,○
 J,JACOBS SOLUTIONS,ジェイコブズ・ソリューション,NYSE,その他,○
 JACK,JACK IN THE BOX,ジャック・イン・ザ・ボックス,NASDAQ,外食,○
+JAGX,JAGUAR HEALTH,ジャガー・ヘルス,NASDAQ,医薬品,○
 JAKK,JAKKS PACIFIC,ジャックス・パシフィック,NASDAQ,その他製造,○
 JANX,JANUX THERAPE,ジャナックス・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 JAVA,JPM ACT VAL ETF,JPモルガン・米国バリュー株式・アクティブETF,NYSE,その他,○
@@ -3048,7 +3049,6 @@ OXM,OXFORD INDUSTRY,オックスフォード・インダストリーズ,NYSE,そ
 OXY,OCCIDENTAL PETRO,オキシデンタル・ペトロリアム,NYSE,石油,○
 OZK,BANK OZK,バンクOZK,NASDAQ,金融（銀行）,○
 P,EVERPURE,エバーピュア,NYSE,ソフトウェア・サービス,○
-PAAI,PARADIUM AI,パラディウム・エーアイ,NYSE,情報処理サービス,○
 PAAS,PAN AMERICAN,パン・アメリカン・シルバー,NYSE,その他,○
 PAC,GR AERO PACIFICO,グルポ・アエロポルチュアリオ・デル・パシフィコ,NYSE,その他製造,○
 PACB,PACIFIC BIO CALI,パシフィック・バイオサイエンシズ・オブ・カリフォルニア,NASDAQ,ヘルスケア,○
@@ -3734,7 +3734,6 @@ SON,SONOCO PRODUCTS,ソノコ･プロダクツ,NYSE,その他製造,○
 SONM,DNA X,ディーエヌエー・エックス,NASDAQ,通信サービス,○
 SONO,SONOS INC,ソノス,NASDAQ,その他製造,○
 SOPH,SOPHIA GENETICS,ソフィア・ジェネティクス,NASDAQ,ソフトウェア・サービス,○
-SOS,SOS LTD,SOS LTD,NYSE,ソフトウェア・サービス,○
 SOTK,SONOTEK CORP,ソノテック,NASDAQ,その他製造,○
 SOUN,SOUNDHOUND AI,サウンドハウンド・エーアイ,NASDAQ,ソフトウェア・サービス,○
 SOXL,DRX SEMICON BL3X,Direxion デイリー 半導体株 ブル 3倍 ETF,NYSE,その他,○
