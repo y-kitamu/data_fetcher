@@ -11,8 +11,11 @@ from loguru import logger
 
 from .constants import PROJECT_ROOT
 
+US_TICKERS_CSV_PATH = PROJECT_ROOT / "data/us_tickers.csv"
+JP_TICKERS_CSV_PATH = PROJECT_ROOT / "data/jp_tickers.csv"
 
-def update_us_ticker_list(output_path: Path = PROJECT_ROOT / "data" / "us_tickers.csv"):
+
+def update_us_ticker_list(output_path: Path = US_TICKERS_CSV_PATH):
     ua = UserAgent()
     headers = {"User-Agent": str(ua.chrome)}
 
@@ -27,8 +30,13 @@ def update_us_ticker_list(output_path: Path = PROJECT_ROOT / "data" / "us_ticker
     return df
 
 
+def get_us_ticker_list(us_tickers_csv_path: Path = US_TICKERS_CSV_PATH) -> list[str]:
+    us_tickers_df = pl.read_csv(us_tickers_csv_path)
+    return [code for code in us_tickers_df["symbol"].to_list() if code]
+
+
 def update_jp_ticker_list(
-    output_path: Path = PROJECT_ROOT / "data" / "jp_tickers.csv",
+    output_path: Path = JP_TICKERS_CSV_PATH,
 ):
     source_url: str = "https://www.jpx.co.jp/markets/statistics-equities/misc/tvdivq0000001vg2-att/data_j.xlsx"
     res = requests.get(source_url)
@@ -45,7 +53,7 @@ def update_jp_ticker_list(
 
 
 def get_jp_ticker_df(include_etf: bool = False) -> pl.DataFrame:
-    code_csv_path = PROJECT_ROOT / "data/jp_tickers.csv"
+    code_csv_path = JP_TICKERS_CSV_PATH
     code_df = pl.read_csv(code_csv_path)
     if not include_etf:
         code_df = code_df.filter(pl.col("市場・商品区分").str.contains("内国株式"))

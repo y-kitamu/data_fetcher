@@ -18,6 +18,7 @@ from .selenium_options import get_driver
 from .session import get_session
 from .ticker_list import (
     get_jp_ticker_list,
+    get_us_ticker_list,
     update_jp_ticker_list,
     update_us_ticker_list,
 )

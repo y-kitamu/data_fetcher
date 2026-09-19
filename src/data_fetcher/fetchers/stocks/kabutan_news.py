@@ -1,6 +1,8 @@
 """kabutan_news.py - Kabutan market news fetcher (date-based)."""
 
 import datetime
+import json
+import re
 import time
 import urllib.parse
 
@@ -164,11 +166,15 @@ class KabutanNewsFetcher(BaseNewsFetcher):
             for row in rows
             if row["url"] and "/disclosures/pdf/" not in row["url"]
         )
+        pattern = re.compile(r"<([\d\w]+)>")
         logger.info(f"Kabutan: extracting bodies for {article_count}/{total} articles…")
         for date, rows in tqdm.tqdm(pending.items(), desc="Kabutan news (body)"):
             for row in tqdm.tqdm(rows, desc=f"Processing {date}", leave=False):
                 if row["url"] and "/disclosures/pdf/" not in row["url"]:
                     row["body"] = self._extract_body(row["url"])
+                    row["symbol"] = json.dumps(
+                        sorted(set(pattern.findall(row["body"])))
+                    )
         logger.info("Kabutan: body extraction complete.")
 
         # ── Phase 3: persist to CSV ──────────────────────────────────────────

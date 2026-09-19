@@ -65,7 +65,7 @@ markers = [
 ]
 
 [tool.pyright]
-include = ["src"]  # 対象とするフォルダ
+include = ["src", "scripts", "notebooks"]  # 対象とするフォルダ
 exclude = [
     "**/.*/**",
     "**/.git/**",
