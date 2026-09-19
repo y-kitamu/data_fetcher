@@ -38,6 +38,7 @@ __all__ = [
     "JP_TICKERS_PATH",
     "US_TICKERS_PATH",
     "get_jp_ticker_list",
+    "get_us_ticker_list",
     "update_jp_ticker_list",
     "update_us_ticker_list",
     "notify_to_line",
