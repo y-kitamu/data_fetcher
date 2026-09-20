@@ -33,6 +33,7 @@ def _parse_zip_filename_date(zip_filepath: Path) -> datetime.datetime:
 def _search_document_datetime(
     session: requests.Session, zip_filepath: Path, ixbrl: IXBRL
 ) -> datetime.datetime | None:
+    headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"}
     base_url = "https://kabutan.jp/stock/news?code={code}&nmode=3&date={yearmonth}00"
     code = zip_filepath.parent.name
     ymd = zip_filepath.name.split("_")[1]
@@ -41,7 +42,7 @@ def _search_document_datetime(
     url = base_url.format(code=code, yearmonth=yearmonth)
 
     try:
-        res = session.get(url)
+        res = session.get(url, headers=headers)
         if res.status_code != 200:
             logger.warning(f"kabutan returned status {res.status_code} for {url}")
             return None
