@@ -19,7 +19,7 @@ class Document(BaseModel):
     doc_type: list[DocumentType]
     security_code: str
     filing_date: datetime.datetime
-    fiscal_year_end: datetime.date
+    fiscal_year_end: datetime.date | None
     # ファイル名からparseした文字列
     period: str = Field(description="報告の期間")  # one of `periods`
     consolidated: str = Field(description="連結/非連結")  # one of `consolidated_types`
@@ -46,8 +46,10 @@ class NumericData(BaseModel):
     period: str
     quarter: str
     consolidated: str
+    previous_current: str
     forecast: str
-    value: float
+    is_nil: bool = False
+    value: float | None
 
 
 class NonNumericData(BaseModel):
@@ -61,5 +63,7 @@ class NonNumericData(BaseModel):
     period: str
     quarter: str
     consolidated: str
+    previous_current: str
     forecast: str
+    is_nil: bool = False
     value: str | bool

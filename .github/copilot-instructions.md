@@ -79,7 +79,8 @@ print("Fetching data...")
 
 - すべての Reader は `BaseReader` を継承し、`read_ohlc_impl()`(または該当する `read_ticker`/`read_financial` など)を実装し、`SOURCE_NAME` クラス属性を設定する。
 - OHLC データは `pl.DataFrame` を返す(カラム: `datetime`, `open`, `high`, `low`, `close`, `volume`)。
-- 個々のReaderクラスを呼び出し側コードから直接使うのではなく、**`gateway.py` の `get_*` 関数(`get_ohlc`, `get_tick`, `get_financials` など)にシンボルを渡すだけで、どのソースが持っているかを自動解決させる**。`gateway.py` の `_CATALOG` に kind(データ種別)ごとの優先順位付きReaderリストを登録しており、`symbol in reader.available_tickers` で解決する。戻り値には常に `source` 列が付与される。
+- 個々のReaderクラスを呼び出し側コードから直接使うのではなく、**`gateway.py` の `get_*` 関数(`get_ohlc`, `get_tick`, `get_financials` など)にシンボルを渡すだけで、どのソースが持っているかを自動解決させる**。`gateway.py` の `_CATALOG` に kind(データ種別)ごとの優先順位付きReaderリストを登録しており、`symbol in reader.available_tickers` で解決する。
+- `get_*` の戻り値は常に `dict[str, pl.DataFrame]`(キー = `source` 名)。複数ソースが同じシンボルのデータを持っていれば全ソース分のエントリが入り、`source=` を明示指定した場合も1件のdictを返す(呼び出し側の分岐が発生しないよう型を統一している)。各DataFrame自身にも `source` 列が付与される。
 
 ### 定数・パス
 

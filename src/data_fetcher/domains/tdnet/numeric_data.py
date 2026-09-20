@@ -1,188 +1,185 @@
 """報告書の数値データを取得する"""
 
 import datetime
-import re
 
-from ixbrlparse import IXBRL, ixbrlContext
+from ixbrlparse import ixbrlContext
 from loguru import logger
 
 from .constants.schema import Document, NonNumericData, NumericData, TaxonomyElement
+from .context import ContextAxes, parse_context_id
+from .ixbrl_io import open_ixbrl
 from .taxonomy_element import collect_all_taxonomies
-
-context_ids = [
-    "CurrentYear",
-    "CurrentQuarter",
-    "CurrentAccumulatedQ1",
-    "CurrentAccumulatedQ2",
-    "CurrentAccumulatedQ3",
-    "NextYear",
-    "Next1Year",
-    "Next2Year",
-    "NextAccumulatedQ1",
-    "NextAccumulatedQ2",
-    "NextAccumulatedQ3",
-    "PriorYear",
-    "Prior1Year",
-    "Prior2Year",
-    "PriorAccumulatedQ1",
-    "PriorAccumulatedQ2",
-    "PriorAccumulatedQ3",
-    "CurrentYTD",
-    "PriorYTD",
-    "Prior1YTD",
-    "Prior2YTD",
-    "Interim",
-    "Prior1Interim",
-    "Prior2Interim",
-]
-AnnualDividendPaymentScheduleAxi = [
-    "FirstQuarterMember",
-    "SecondQuarterMember",
-    "ThirdQuarterMember",
-    "YearEndMember",
-    "AnnualMember",
-]
-ConsolidatedNonconsolidatedAxis = [
-    "ConsolidatedMember",
-    "NonConsolidatedMember",
-]
-PreviousCurrentAxis = [
-    "PreviousMember",
-    "CurrentMember",
-]
-ResultForecastAxis = [
-    "ResultMember",
-    "ForecastMember",
-    "UpperMember",
-    "LowerMember",
-]
-
-
-def extract_context(context_id: str):
-    regex = re.compile(
-        "({})(Instant|Duration)({})({})({})({})(_.*Member|)".format(
-            "|".join(context_ids),
-            "|".join(["_" + txt for txt in AnnualDividendPaymentScheduleAxi] + [""]),
-            "|".join(["_" + txt for txt in ConsolidatedNonconsolidatedAxis] + [""]),
-            "|".join(["_" + txt for txt in PreviousCurrentAxis] + [""]),
-            "|".join(["_" + txt for txt in ResultForecastAxis] + [""]),
-        )
-    )
-    res = regex.search(context_id)
-    if res is None:
-        raise ValueError(f"Invalid context_id: {context_id}")
-
-    return res
+from .taxonomy_index import Ambiguous, Found, TaxonomyIndex
 
 
 def collect_numeric_datas(
     documents: list[Document],
-    taxonomy_elems: list[TaxonomyElement] | None = None,
+    taxonomy_index: TaxonomyIndex | None = None,
 ) -> list[NumericData]:
     """報告書一覧から数値データを収集する"""
-    if taxonomy_elems is None:
-        taxonomy_elems = collect_all_taxonomies()
+    if taxonomy_index is None:
+        taxonomy_index = TaxonomyIndex.from_elements(collect_all_taxonomies())
 
     all_data = []
     for document in documents:
-        numerics, nonnumerics = collect_data_from_document(document, taxonomy_elems)
+        numerics, _ = collect_data_from_document(document, taxonomy_index)
         all_data += numerics
     return all_data
 
 
 def collect_data_from_document(
     document: Document,
-    taxonomy_elems: list[TaxonomyElement],
+    taxonomy_index: TaxonomyIndex,
 ) -> tuple[list[NumericData], list[NonNumericData]]:
-    with open(document.filepath, "r") as f:
-        x = IXBRL(f, raise_on_error=False)
-    if len(x.errors) > 0:
-        logger.warning(f"IXBRL parsing errors in {document.filepath.name}")
+    x = open_ixbrl(document.filepath)
 
-    numerics = _collect_data_impl(document, taxonomy_elems, x.numeric, NumericData)
-    nonnumerics = _collect_data_impl(
-        document, taxonomy_elems, x.nonnumeric, NonNumericData
-    )
+    numerics = [
+        fact
+        for numeric in x.numeric
+        if (fact := _build_numeric_fact(document, taxonomy_index, numeric)) is not None
+    ]
+    nonnumerics = [
+        fact
+        for nonnumeric in x.nonnumeric
+        if (fact := _build_nonnumeric_fact(document, taxonomy_index, nonnumeric))
+        is not None
+    ]
     return numerics, nonnumerics
 
 
-def _collect_data_impl(
+def _convert_date(date_value: datetime.date | str | None) -> datetime.date | None:
+    if date_value is None:
+        return None
+    if isinstance(date_value, datetime.date):
+        return date_value
+    return datetime.datetime.strptime(date_value, "%Y-%m-%d").date()
+
+
+def _resolve_context(
+    fact, document: Document
+) -> tuple[
+    str,
+    datetime.date | None,
+    datetime.date | None,
+    datetime.date | None,
+    list[str],
+    ContextAxes | None,
+]:
+    if isinstance(fact.context, ixbrlContext):
+        context_id = fact.context.id
+        start_date = _convert_date(fact.context.startdate)
+        end_date = _convert_date(fact.context.enddate)
+        instant_date = _convert_date(fact.context.instant)
+        segments = fact.context.segments or []
+    else:
+        context_id = fact.context
+        start_date = None
+        end_date = None
+        instant_date = None
+        segments = []
+
+    try:
+        axes = parse_context_id(context_id)
+    except ValueError:
+        if context_id != "FilingDateInstant":
+            logger.warning(
+                f"Error parsing context: {fact.context} in {document.filepath.name}"
+            )
+        return context_id, start_date, end_date, instant_date, segments, None
+
+    if not segments and axes.segment is not None and axes.segment.endswith("SegmentsMember"):
+        segments = [axes.segment]
+
+    return context_id, start_date, end_date, instant_date, segments, axes
+
+
+def _lookup_element(
+    taxonomy_index: TaxonomyIndex,
+    schema: str,
+    name: str,
     document: Document,
-    taxonomy_elems: list[TaxonomyElement],
-    financial_data: list,
-    data_type,
-):
-    """単一の報告書から数値データを収集する"""
-
-    def convert_dt(date_str: datetime.date | str | None) -> datetime.date | None:
-        if date_str is None:
-            return None
-        if isinstance(date_str, datetime.date):
-            return date_str
-        return datetime.datetime.strptime(date_str, "%Y-%m-%d").date()
-
-    data = []
-    for numeric in financial_data:
-        if isinstance(numeric.context, ixbrlContext):
-            context_id = numeric.context.id
-            start_date = convert_dt(numeric.context.startdate)
-            end_date = convert_dt(numeric.context.enddate)
-            instant_date = convert_dt(numeric.context.instant)
-            segments = numeric.context.segments
-        else:
-            context_id = numeric.context
-            start_date = None
-            end_date = None
-            instant_date = None
-            segments = []
-
-        try:
-            res = extract_context(context_id)
-            if segments is None or len(segments) == 0:
-                if res.group(7) is not None and res.group(7).endswith("SegmentsMember"):
-                    segments = [res.group(7)[1:]]
-                else:
-                    segments = []
-
-        except Exception:
-            if context_id != "FilingDateInstant":
-                logger.info(
-                    f"Error parsing context: {numeric.context} in {document.filepath.name}"
-                )
-            continue
-
-        elem_name = numeric.name
-        element = [
-            e for e in taxonomy_elems if e.element_id == f"{numeric.schema}:{elem_name}"
-        ]
-        if len(element) == 0:
-            if not numeric.schema.startswith("tse-"):
-                logger.debug(
-                    f"Element not found: {elem_name}, {numeric.name}, {numeric.context}, {numeric.schema}, {[d.name for d in document.doc_type]}"
-                )
-            continue
-        elif len(element) > 1:
-            logger.debug(
-                f"Multiple elements found: {elem_name}, {numeric.name}, {numeric.context}, {numeric.schema}"
-            )
-            continue
-        else:
-            element = element[0]
-
-        data.append(
-            data_type(
-                document=document,
-                element=element,
-                context_id=context_id,
-                start_date=start_date,
-                end_date=end_date,
-                instant_date=instant_date,
-                segments=segments,
-                period=res.group(1),
-                quarter=res.group(3)[1:],
-                consolidated=res.group(4)[1:],
-                forecast=res.group(6)[1:],
-                value=numeric.value,
-            )
+    context,
+) -> TaxonomyElement | None:
+    result = taxonomy_index.lookup(schema, name)
+    if isinstance(result, Found):
+        return result.element
+    if isinstance(result, Ambiguous):
+        logger.debug(f"Multiple elements found: {name}, {context}, {schema}")
+        return None
+    if not schema.startswith("tse-"):
+        logger.debug(
+            f"Element not found: {name}, {context}, {schema}, {[d.name for d in document.doc_type]}"
         )
-    return data
+    return None
+
+
+def _build_numeric_fact(
+    document: Document, taxonomy_index: TaxonomyIndex, numeric
+) -> NumericData | None:
+    context_id, start_date, end_date, instant_date, segments, axes = _resolve_context(
+        numeric, document
+    )
+    if axes is None:
+        return None
+
+    element = _lookup_element(
+        taxonomy_index, numeric.schema, numeric.name, document, numeric.context
+    )
+    if element is None:
+        return None
+
+    is_nil = numeric.soup_tag is not None and numeric.soup_tag.get("xsi:nil") == "true"
+
+    return NumericData(
+        document=document,
+        element=element,
+        context_id=context_id,
+        start_date=start_date,
+        end_date=end_date,
+        instant_date=instant_date,
+        segments=segments,
+        period=axes.period,
+        quarter=axes.dividend_schedule,
+        consolidated=axes.consolidated,
+        previous_current=axes.previous_current,
+        forecast=axes.forecast,
+        is_nil=is_nil,
+        value=None if is_nil else numeric.value,
+    )
+
+
+def _build_nonnumeric_fact(
+    document: Document, taxonomy_index: TaxonomyIndex, nonnumeric
+) -> NonNumericData | None:
+    context_id, start_date, end_date, instant_date, segments, axes = _resolve_context(
+        nonnumeric, document
+    )
+    if axes is None:
+        return None
+
+    element = _lookup_element(
+        taxonomy_index, nonnumeric.schema, nonnumeric.name, document, nonnumeric.context
+    )
+    if element is None:
+        return None
+
+    is_nil = (
+        nonnumeric.soup_tag is not None and nonnumeric.soup_tag.get("xsi:nil") == "true"
+    )
+
+    return NonNumericData(
+        document=document,
+        element=element,
+        context_id=context_id,
+        start_date=start_date,
+        end_date=end_date,
+        instant_date=instant_date,
+        segments=segments,
+        period=axes.period,
+        quarter=axes.dividend_schedule,
+        consolidated=axes.consolidated,
+        previous_current=axes.previous_current,
+        forecast=axes.forecast,
+        is_nil=is_nil,
+        value=nonnumeric.value,
+    )

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:ix="http://www.xbrl.org/2008/inlineXBRL" xmlns:ixt="http://www.xbrl.org/inlineXBRL/transformation/2011-07-31" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:test-cor="http://example.com/test-cor">
+<head><title>minimal_edjp_ixbrl</title></head>
+<body>
+<ix:header>
+<ix:hidden></ix:hidden>
+<ix:references></ix:references>
+<ix:resources>
+<xbrli:context id="CurrentYearInstant">
+<xbrli:entity><xbrli:identifier scheme="http://www.tse.or.jp/sicc">00000</xbrli:identifier></xbrli:entity>
+<xbrli:period><xbrli:instant>2024-03-31</xbrli:instant></xbrli:period>
+</xbrli:context>
+<xbrli:context id="CurrentYearDuration_ConsolidatedMember">
+<xbrli:entity><xbrli:identifier scheme="http://www.tse.or.jp/sicc">00000</xbrli:identifier></xbrli:entity>
+<xbrli:period><xbrli:startDate>2023-04-01</xbrli:startDate><xbrli:endDate>2024-03-31</xbrli:endDate></xbrli:period>
+</xbrli:context>
+<xbrli:unit id="JPY"><xbrli:measure>iso4217:JPY</xbrli:measure></xbrli:unit>
+</ix:resources>
+</ix:header>
+<div>
+<ix:nonNumeric contextRef="CurrentYearInstant" name="test-cor:FiscalYearEnd">2024-03-31</ix:nonNumeric>
+<ix:nonNumeric contextRef="CurrentYearInstant" name="test-cor:DocumentName">決算短信〔日本基準〕(連結)</ix:nonNumeric>
+<ix:nonFraction contextRef="CurrentYearDuration_ConsolidatedMember" decimals="-6" format="ixt:numdotdecimal" name="test-cor:NetSales" scale="6" unitRef="JPY">117,340</ix:nonFraction>
+</div>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:ix="http://www.xbrl.org/2008/inlineXBRL" xmlns:ixt="http://www.xbrl.org/inlineXBRL/transformation/2011-07-31" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:test-cor="http://example.com/test-cor">
+<head><title>minimal_nil_fact_ixbrl</title></head>
+<body>
+<ix:header>
+<ix:hidden></ix:hidden>
+<ix:references></ix:references>
+<ix:resources>
+<xbrli:context id="NextYearDuration_NonConsolidatedMember_PreviousMember_LowerMember">
+<xbrli:entity><xbrli:identifier scheme="http://www.tse.or.jp/sicc">00000</xbrli:identifier></xbrli:entity>
+<xbrli:period><xbrli:startDate>2024-04-01</xbrli:startDate><xbrli:endDate>2025-03-31</xbrli:endDate></xbrli:period>
+<xbrli:scenario>
+<xbrldi:explicitMember dimension="test-cor:ConsolidatedNonconsolidatedAxis">test-cor:NonConsolidatedMember</xbrldi:explicitMember>
+<xbrldi:explicitMember dimension="test-cor:PreviousCurrentAxis">test-cor:PreviousMember</xbrldi:explicitMember>
+<xbrldi:explicitMember dimension="test-cor:ResultForecastAxis">test-cor:LowerMember</xbrldi:explicitMember>
+</xbrli:scenario>
+</xbrli:context>
+<xbrli:unit id="JPY"><xbrli:measure>iso4217:JPY</xbrli:measure></xbrli:unit>
+</ix:resources>
+</ix:header>
+<div>
+<ix:nonFraction contextRef="NextYearDuration_NonConsolidatedMember_PreviousMember_LowerMember" name="test-cor:OperatingRevenues" unitRef="JPY" xsi:nil="true"/>
+</div>
+</body>
+</html>
