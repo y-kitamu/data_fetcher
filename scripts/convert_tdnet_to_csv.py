@@ -2,10 +2,9 @@
 data/tdnet/raw/{code}/*.zip に保存済みのTDnet決算短信iXBRLアーカイブを解析し、
 data/tdnet/csv/{code}.csv に1事実=1行のロング形式で書き出す。
 
-決算短信1件の中には同じ財務項目でも「連結/単体」「当期/前期」「実績/予想」といった
-複数のcontextの値が存在するため、集計・選択はせず全context・数値/非数値をそのまま
-保持する（src/data_fetcher/db/financial.py::upsert_from_zip がDuckDB向けに行っている
-分解と同じ粒度）。
+取得直後の変換は scripts/fetch_data_from_tdnet.py が行うため、本スクリプトは主に
+過去に貯まった未変換分のバックフィル用。変換の実体は
+data_fetcher.domains.tdnet.csv_export.append_zip_to_csv を両スクリプトで共有している。
 
 提出日時の解決 (resolve_filing_datetime) がzipファイルごとにkabutan.jpへアクセスする
 ため、全銘柄(data/tdnet/raw配下 約4000銘柄・約19万zip)をまとめて変換すると数時間規模の
@@ -15,51 +14,18 @@ data/tdnet/csv/{code}.csv に1事実=1行のロング形式で書き出す。
 """
 
 import argparse
-import shutil
 from pathlib import Path
 
-import polars as pl
 import tqdm
 from requests import Session
 
 import data_fetcher
 from data_fetcher.domains.tdnet.constants import zip_root_dir
-from data_fetcher.domains.tdnet.constants.schema import NonNumericData, NumericData
-from data_fetcher.domains.tdnet.document import collect_documents
-from data_fetcher.domains.tdnet.numeric_data import collect_data_from_document
+from data_fetcher.domains.tdnet.csv_export import OUTPUT_DIR, append_zip_to_csv
 from data_fetcher.domains.tdnet.taxonomy_element import collect_all_taxonomies
 from data_fetcher.domains.tdnet.taxonomy_index import TaxonomyIndex
 
-OUTPUT_DIR = data_fetcher.constants.PROJECT_ROOT / "data/tdnet/csv"
 WORK_DIR = data_fetcher.constants.PROJECT_ROOT / "data/tdnet/tmp_convert"
-
-# 型混在によるpolarsの推論エラーを避けるため、DataFrame構築時に明示する。
-_ROW_SCHEMA = {
-    "code": pl.Utf8,
-    "filing_date": pl.Utf8,
-    "filing_datetime": pl.Utf8,
-    "fiscal_year_end": pl.Utf8,
-    "doc_period": pl.Utf8,
-    "doc_consolidated": pl.Utf8,
-    "doc_style": pl.Utf8,
-    "source_file": pl.Utf8,
-    "element_id": pl.Utf8,
-    "japanese_label": pl.Utf8,
-    "english_label": pl.Utf8,
-    "context_id": pl.Utf8,
-    "start_date": pl.Utf8,
-    "end_date": pl.Utf8,
-    "instant_date": pl.Utf8,
-    "segments": pl.Utf8,
-    "period": pl.Utf8,
-    "quarter": pl.Utf8,
-    "consolidated": pl.Utf8,
-    "previous_current": pl.Utf8,
-    "forecast": pl.Utf8,
-    "is_nil": pl.Boolean,
-    "value": pl.Float64,
-    "text": pl.Utf8,
-}
 
 
 def parse_args():
@@ -71,53 +37,6 @@ def parse_args():
         help="対象の証券コード（省略時はdata/tdnet/raw配下の全銘柄）",
     )
     return parser.parse_args()
-
-
-def _fact_row(fact: NumericData | NonNumericData, source_file: str) -> dict:
-    doc = fact.document
-    is_numeric = isinstance(fact, NumericData)
-    return {
-        "code": doc.security_code,
-        "filing_date": doc.filing_date.date().isoformat(),
-        "filing_datetime": doc.filing_date.isoformat(),
-        "fiscal_year_end": doc.fiscal_year_end.isoformat() if doc.fiscal_year_end else None,
-        "doc_period": doc.period,
-        "doc_consolidated": doc.consolidated,
-        "doc_style": doc.style,
-        "source_file": source_file,
-        "element_id": fact.element.element_id,
-        "japanese_label": fact.element.japanese_label,
-        "english_label": fact.element.english_label,
-        "context_id": fact.context_id,
-        "start_date": fact.start_date.isoformat() if fact.start_date else None,
-        "end_date": fact.end_date.isoformat() if fact.end_date else None,
-        "instant_date": fact.instant_date.isoformat() if fact.instant_date else None,
-        "segments": ",".join(fact.segments),
-        "period": fact.period,
-        "quarter": fact.quarter,
-        "consolidated": fact.consolidated,
-        "previous_current": fact.previous_current,
-        "forecast": fact.forecast,
-        "is_nil": fact.is_nil,
-        "value": fact.value if is_numeric else None,
-        "text": None if is_numeric else str(fact.value),
-    }
-
-
-def build_fact_rows(
-    numerics: list[NumericData],
-    nonnumerics: list[NonNumericData],
-    zip_file: Path,
-) -> list[dict]:
-    source_file = zip_file.name
-    return [_fact_row(fact, source_file) for fact in [*numerics, *nonnumerics]]
-
-
-def _read_processed_source_files(output_path: Path) -> set[str]:
-    if not output_path.exists():
-        return set()
-    existing = pl.read_csv(output_path, columns=["source_file"], infer_schema_length=0)
-    return set(existing["source_file"].to_list())
 
 
 def convert_code(
@@ -132,33 +51,8 @@ def convert_code(
         data_fetcher.logger.warning(f"No zip files found for {code}")
         return
 
-    output_path = output_dir / f"{code}.csv"
-    processed = _read_processed_source_files(output_path)
-    pending = [z for z in zip_files if z.name not in processed]
-    if not pending:
-        return
-
-    for zip_file in pending:
-        if work_dir.exists():
-            shutil.rmtree(work_dir)
-        work_dir.mkdir(parents=True, exist_ok=True)
-        shutil.unpack_archive(zip_file, extract_dir=work_dir)
-
-        documents = collect_documents(work_dir, zip_file, session)
-        rows = []
-        for document in documents:
-            numerics, nonnumerics = collect_data_from_document(document, taxonomy_index)
-            rows += build_fact_rows(numerics, nonnumerics, zip_file)
-
-        if rows:
-            data_fetcher.append_and_save_csv(
-                pl.DataFrame(rows, schema=_ROW_SCHEMA), output_path, sort_col="filing_date"
-            )
-        else:
-            data_fetcher.logger.warning(f"No data extracted from {zip_file.name}")
-
-    if work_dir.exists():
-        shutil.rmtree(work_dir)
+    for zip_file in zip_files:
+        append_zip_to_csv(zip_file, session, taxonomy_index, work_dir, output_dir)
 
 
 def main():
