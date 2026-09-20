@@ -1,11 +1,4 @@
-"""Reader for TDnet extracted financial numeric data (data/tdnet/csv).
-
-NOTE: as of this writing, data/tdnet/csv has not been refreshed since ~2025-09
-even though the raw XBRL downloads under data/tdnet/raw keep growing daily —
-the numeric-extraction step of the pipeline has stalled. This reader serves
-whatever is in the (frozen) csv store; resuming extraction is a separate,
-pre-existing follow-up outside this reader's scope.
-"""
+"""Reader for TDnet extracted financial numeric data (data/tdnet/csv)."""
 
 import datetime
 from pathlib import Path

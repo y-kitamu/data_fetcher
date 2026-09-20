@@ -1,7 +1,6 @@
 """Tests for TdnetReader.
 
-Note: the real data/tdnet/csv store is stale (see readers/tdnet.py docstring),
-so these tests use fixture files and do not assert anything about freshness.
+Uses fixture files rather than the real data/tdnet/csv store.
 """
 
 import datetime
