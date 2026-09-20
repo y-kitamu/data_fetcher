@@ -11,6 +11,7 @@ from .crypto_book_base import BaseCryptoBookReader
 GMO_DATA_DIR = PROJECT_ROOT / "data" / "gmo" / "tick"
 
 class GMOReader(BaseReader):
+    SOURCE_NAME = "gmo"
     _API_ENDPOINT = "https://api.coin.z.com"
 
     def __init__(self, data_dir: Path = GMO_DATA_DIR):
@@ -126,5 +127,7 @@ class GMOReader(BaseReader):
 GMO_BOOK_DATA_DIR = PROJECT_ROOT / "data" / "gmo" / "book"
 
 class GMOBookReader(BaseCryptoBookReader):
+    SOURCE_NAME = "gmo_book"
+
     def __init__(self, data_dir: Path = GMO_BOOK_DATA_DIR):
         super().__init__(data_dir=data_dir, timestamp_col="timestamp")

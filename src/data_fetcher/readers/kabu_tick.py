@@ -23,6 +23,8 @@ _NOOP_STATUS = "0000"
 class KabuTickReader(BaseReader):
     """Reader for kabu STATION push-payload tick logs (stock/logs/ticks/*.jsonl[.gz])."""
 
+    SOURCE_NAME = "kabu_tick"
+
     def __init__(self, data_dir: Path = KABU_TICK_DATA_DIR):
         self.data_dir = data_dir
         self._available_tickers: list[str] = []

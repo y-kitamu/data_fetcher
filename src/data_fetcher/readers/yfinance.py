@@ -1,4 +1,5 @@
 import datetime
+import json
 
 import polars as pl
 
@@ -7,9 +8,12 @@ from ..core.base_reader import BaseReader
 from ..core.constants import PROJECT_ROOT
 
 DATA_DIR = PROJECT_ROOT / "data" / "yfinance" / "minutes"
+FINANCIAL_DATA_DIR = PROJECT_ROOT / "data" / "yfinance" / "financial"
 
 
 class YFinanceReader(BaseReader):
+    SOURCE_NAME = "yfinance"
+
     def __init__(self):
         self._available_tickers = []
 
@@ -91,3 +95,55 @@ class YFinanceReader(BaseReader):
             pl.col("volume").sum(),
         )
         return df
+
+
+class YFinanceFinancialReader(BaseReader):
+    """Reader for yfinance fundamentals JSON (data/yfinance/financial), keyed by
+    US ticker. Separate from YFinanceReader: unrelated symbol universe
+    (US stocks) and storage layout (per-ticker JSON of {period_end: {metric: value}})."""
+
+    SOURCE_NAME = "yfinance_financial"
+
+    def __init__(self, data_dir=FINANCIAL_DATA_DIR):
+        self.data_dir = data_dir
+        self._available_tickers: list[str] = []
+
+    @property
+    def available_tickers(self) -> list[str]:
+        if len(self._available_tickers) == 0:
+            self._available_tickers = sorted(
+                path.stem for path in self.data_dir.glob("*.json")
+            )
+        return self._available_tickers
+
+    def read_financial(
+        self,
+        symbol: str,
+        start_date: datetime.datetime | None = None,
+        end_date: datetime.datetime | None = None,
+    ) -> pl.DataFrame:
+        json_path = self.data_dir / f"{symbol}.json"
+        if not json_path.exists():
+            return pl.DataFrame()
+
+        with open(json_path, encoding="utf-8") as f:
+            raw: dict[str, dict[str, float]] = json.load(f)
+
+        rows = [
+            {"period_end": period_end, "metric": metric, "value": value}
+            for period_end, metrics in raw.items()
+            for metric, value in metrics.items()
+        ]
+        if len(rows) == 0:
+            return pl.DataFrame()
+
+        df = pl.DataFrame(rows).with_columns(
+            pl.col("period_end").str.to_date("%Y-%m-%d")
+        )
+        if start_date is not None:
+            start = start_date.date() if isinstance(start_date, datetime.datetime) else start_date
+            df = df.filter(pl.col("period_end") >= start)
+        if end_date is not None:
+            end = end_date.date() if isinstance(end_date, datetime.datetime) else end_date
+            df = df.filter(pl.col("period_end") <= end)
+        return df.sort("period_end")

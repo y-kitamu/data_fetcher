@@ -11,6 +11,11 @@ class BaseReader:
 
     rows = ["datetime", "open", "high", "low", "close", "volume"]
 
+    #: Short source identifier used by the gateway to tag rows with their
+    #: provenance (see src/data_fetcher/gateway.py). Every concrete reader
+    #: participating in the gateway catalog must override this.
+    SOURCE_NAME: str
+
     @property
     def available_tickers(self) -> list[str]:
         """Get list of available ticker symbols.
@@ -111,4 +116,9 @@ class BaseReader:
         Returns:
             pl.DataFrame: Tick data
         """
+        raise NotImplementedError
+
+    def read_financial(
+        self, symbol: str, start_date: datetime.datetime, end_date: datetime.datetime
+    ) -> pl.DataFrame:
         raise NotImplementedError

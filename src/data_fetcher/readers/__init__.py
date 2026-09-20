@@ -1,58 +1,43 @@
 from ..core.base_reader import BaseReader
 from .binance import BinanceReader
-from .bitflyer import BitflyerBookReader
+from .bitflyer import BitflyerBookReader, BitflyerReader
+from .edinet import EdinetFinancialReader, EdinetLargeShareholdingReader
 from .gmo import GMOReader, GMOBookReader
+from .google_trends import GoogleTrendsReader
 from .histdata import HistDataReader
+from .jp_ticker_themes import JpTickerThemesReader
+from .jpx_stats import JpxInvestorTypeReader, JpxMarginDisclosureReader
 from .kabu_tick import KabuTickReader
 from .kabutan import KabutanReader
 from .news import JpNewsReader
 from .rakuten import RakutenReader
 from .sbi import SBIReader
-from .yfinance import YFinanceReader
+from .taisyaku import TaisyakuHistoryReader, TaisyakuZandakaReader
+from .tdnet import TdnetReader
+from .yfinance import YFinanceFinancialReader, YFinanceReader
 
 __all__ = [
     "BaseReader",
-    "HistDataReader",
-    "JpNewsReader",
-    "KabuTickReader",
-    "KabutanReader",
-    "YFinanceReader",
+    "BinanceReader",
+    "BitflyerBookReader",
+    "BitflyerReader",
+    "EdinetFinancialReader",
+    "EdinetLargeShareholdingReader",
     "GMOReader",
     "GMOBookReader",
+    "GoogleTrendsReader",
+    "HistDataReader",
+    "JpNewsReader",
+    "JpTickerThemesReader",
+    "JpxInvestorTypeReader",
+    "JpxMarginDisclosureReader",
+    "KabuTickReader",
+    "KabutanReader",
     "RakutenReader",
-    "BinanceReader",
     "SBIReader",
-    "BitflyerBookReader",
+    "TaisyakuHistoryReader",
+    "TaisyakuZandakaReader",
+    "TdnetReader",
+    "YFinanceFinancialReader",
+    "YFinanceReader",
 ]
-
-
-def get_reader(source: str) -> BaseReader:
-    """Get a reader instance for the specified data source.
-
-    Args:
-        source: Data source name (histdata, yfinance, kabutan, sbi, etc.)
-
-    Returns:
-        BaseReader: Reader instance for the specified source
-
-    Raises:
-        ValueError: If the source is unknown
-    """
-    readers = {
-        "histdata": HistDataReader,
-        "yfinance": YFinanceReader,
-        "kabutan": KabutanReader,
-        "kabu_tick": KabuTickReader,
-        "gmo": GMOReader,
-        "gmo_book": GMOBookReader,
-        "binance": BinanceReader,
-        "sbi": SBIReader,
-        "bitflyer_book": BitflyerBookReader,
-    }
-
-    if source not in readers:
-        raise ValueError(
-            f"Unknown source: {source}. Available sources: {list(readers.keys())}"
-        )
-
-    return readers[source]()

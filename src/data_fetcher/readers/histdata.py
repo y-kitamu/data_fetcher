@@ -11,6 +11,8 @@ DATA_DIR = PROJECT_ROOT / "data" / "histdata" / "tick"
 
 
 class HistDataReader(BaseReader):
+    SOURCE_NAME = "histdata"
+
     def __init__(self, data_dir: Path = DATA_DIR):
         self.data_dir = data_dir
         self._available_tickers = []

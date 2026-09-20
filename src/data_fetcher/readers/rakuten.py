@@ -11,6 +11,8 @@ RAKUTEN_DATA_DIR = PROJECT_ROOT / "../fxea/data"
 
 
 class RakutenReader(BaseReader):
+    SOURCE_NAME = "rakuten"
+
     def __init__(self, data_dir: Path = RAKUTEN_DATA_DIR):
         self.data_dir = data_dir
         self._available_tickers = self.get_available_tickers()
@@ -108,7 +110,12 @@ class RakutenReader(BaseReader):
             raise ValueError(f"{symbol} is not available")
 
         df = self.read_ticker(symbol, start_date, end_date)
-        df.group_by_dynamic("datetime", every=convert_timedelta_to_str(interval)).agg(
+        if len(df) == 0:
+            return pl.DataFrame()
+
+        ohlc = df.group_by_dynamic(
+            "datetime", every=convert_timedelta_to_str(interval)
+        ).agg(
             pl.col("price").first().alias("open"),
             pl.col("price").max().alias("high"),
             pl.col("price").min().alias("low"),
@@ -116,6 +123,7 @@ class RakutenReader(BaseReader):
             pl.col("size").sum().alias("volume"),
             pl.col("spread").max().alias("max_spread"),
         )
+        return ohlc
 
     def fetch_volume_bar(
         self,

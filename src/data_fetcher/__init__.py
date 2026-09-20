@@ -11,7 +11,7 @@ from loguru import logger
 
 # Import core modules
 # Import utility modules (kept for backward compatibility)
-from . import core, db, domains, fetchers, processors, readers
+from . import core, db, domains, fetchers, gateway, processors, readers
 
 # Import commonly used functions and classes
 from .core import (
@@ -26,15 +26,13 @@ from .core import (
     notify_to_line,
     retry_with_backoff,
 )
-from .fetchers import get_available_sources as get_available_fetcher_sources
-from .fetchers import get_fetcher
-from .readers import get_reader
 
 __all__ = [
     # Core modules
     "core",
     "domains",
     "fetchers",
+    "gateway",
     "processors",
     "readers",
     # Core classes and functions
@@ -44,9 +42,6 @@ __all__ = [
     "get_session",
     "constants",
     "debug",
-    "get_fetcher",
-    "get_reader",
-    "get_available_fetcher_sources",
     "notify_to_line",
     "notify_to_gmail",
     "retry_with_backoff",

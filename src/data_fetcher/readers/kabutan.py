@@ -12,6 +12,8 @@ from ..core.constants import PROJECT_ROOT
 class KabutanReader(BaseReader):
     """Reader for Kabutan stored stock data."""
 
+    SOURCE_NAME = "kabutan"
+
     def __init__(self):
         self.daily_data_dir = PROJECT_ROOT / "data/kabutan/daily"
         self.financial_data_dir = PROJECT_ROOT / "data/kabutan/financial"
@@ -109,7 +111,12 @@ class KabutanReader(BaseReader):
         )
         return df
 
-    def read_financial(self, symbol: str) -> pl.DataFrame:
+    def read_financial(
+        self,
+        symbol: str,
+        start_date: datetime.datetime | None = None,
+        end_date: datetime.datetime | None = None,
+    ) -> pl.DataFrame:
         """Read financial data for a symbol."""
         csv_path = self.financial_data_dir / f"{symbol}.csv"
         if not csv_path.exists():
@@ -118,9 +125,14 @@ class KabutanReader(BaseReader):
         df = pl.read_csv(csv_path)
         if len(df) == 0:
             return df
-        return df.with_columns(
+        df = df.with_columns(
             pl.col("annoounce_date").str.strptime(pl.Date, format="%y/%m/%d"),
         )
+        if start_date is not None:
+            df = df.filter(pl.col("annoounce_date") >= start_date.date())
+        if end_date is not None:
+            df = df.filter(pl.col("annoounce_date") <= end_date.date())
+        return df
 
     def get_ticker_symbol_name(self, ticker: str) -> str:
         """Get symbol name for a ticker."""

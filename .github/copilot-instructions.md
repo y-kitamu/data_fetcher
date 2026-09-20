@@ -55,14 +55,15 @@ print("Fetching data...")
 │   │   ├── session.py          # get_session()
 │   │   ├── ticker_list.py      # get_jp_ticker_list() など
 │   │   └── volume_bar.py       # convert_ticker_to_volume_bar()
-│   ├── fetchers/           # データ取得クラス
+│   ├── fetchers/           # データ取得クラス(ライブAPI/スクレイピング → ローカル保存)
 │   │   ├── crypto/         # 暗号資産関連
 │   │   ├── stocks/         # 日本株関連
 │   │   ├── forex/          # 外国為替関連
 │   │   ├── disclosure/     # 開示情報関連
-│   │   └── __init__.py     # get_fetcher(source), get_available_sources()
+│   │   └── __init__.py
 │   ├── readers/            # 保存済みデータ読み込みクラス
-│   │   └── __init__.py     # get_reader(source)
+│   │   └── __init__.py
+│   ├── gateway.py          # 統一読み込みゲートウェイ: get_ohlc/get_tick/get_financials など
 │   ├── processors/         # データ変換
 │       └── __init__.py
 ├───scripts/                # データ取得スクリプト
@@ -72,13 +73,13 @@ print("Fetching data...")
 
 - すべての Fetcher は `BaseFetcher` を継承する。
 - WebSocket を使うものは `BaseWebsocketFetcher` を継承する。
-- `fetchers/__init__.py` の `get_fetcher(source)` ファクトリで登録する。
+- ライブAPI/スクレイピングでデータを取得し、ローカルの `data/<source>/...` に保存する専用クラス。読み込み側から直接呼ばない(呼び出し元は `scripts/fetch_data_from_<source>.py` などの定期実行スクリプト)。
 
 ### Reader パターン
 
-- すべての Reader は `BaseReader` を継承し、`read_ohlc_impl()` を実装する。
-- `readers/__init__.py` の `get_reader(source)` ファクトリで登録する。
-- OHLC データは `pl.DataFrame` を返す（カラム: `datetime`, `open`, `high`, `low`, `close`, `volume`）。
+- すべての Reader は `BaseReader` を継承し、`read_ohlc_impl()`(または該当する `read_ticker`/`read_financial` など)を実装し、`SOURCE_NAME` クラス属性を設定する。
+- OHLC データは `pl.DataFrame` を返す(カラム: `datetime`, `open`, `high`, `low`, `close`, `volume`)。
+- 個々のReaderクラスを呼び出し側コードから直接使うのではなく、**`gateway.py` の `get_*` 関数(`get_ohlc`, `get_tick`, `get_financials` など)にシンボルを渡すだけで、どのソースが持っているかを自動解決させる**。`gateway.py` の `_CATALOG` に kind(データ種別)ごとの優先順位付きReaderリストを登録しており、`symbol in reader.available_tickers` で解決する。戻り値には常に `source` 列が付与される。
 
 ### 定数・パス
 
@@ -97,13 +98,13 @@ print("Fetching data...")
 
 1. `src/data_fetcher/fetchers/<カテゴリ>/` に新ファイルを作成し `BaseFetcher` を継承
 2. カテゴリの `__init__.py` でエクスポート
-3. `fetchers/__init__.py` の `get_fetcher()` ファクトリに登録
-4. 必要に応じて `scripts/fetch_data_from_<source>.py` を追加
+3. 必要に応じて `scripts/fetch_data_from_<source>.py` を追加
 
 ### Reader の追加
 
-1. `src/data_fetcher/readers/` に新ファイルを作成し `BaseReader` を継承し `read_ohlc_impl()` を実装
-2. `readers/__init__.py` の `get_reader()` ファクトリに登録
+1. `src/data_fetcher/readers/` に新ファイルを作成し `BaseReader` を継承し、`SOURCE_NAME` と該当メソッド(`read_ohlc_impl`/`read_ticker`/`read_financial` など)を実装
+2. `readers/__init__.py` でエクスポート
+3. 既存の kind(`ohlc`/`tick`/`financials` など)に新ソースを追加する場合は `gateway.py` の `_CATALOG` の該当リストにクラスを1行追加(優先順位を意識した位置に)。新しい kind を追加する場合は `_CATALOG`(または銘柄軸のない `_MARKET_WIDE` 系)に新エントリを追加し、対応する `get_*` 関数を1つ追加する。
 
 ## ビルド・テスト・CI
 

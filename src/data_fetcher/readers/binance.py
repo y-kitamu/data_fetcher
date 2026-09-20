@@ -3,11 +3,14 @@ from pathlib import Path
 
 import polars as pl
 
+from ..core import convert_timedelta_to_str
 from ..core.base_reader import BaseReader
 from ..core.constants import PROJECT_ROOT
 
 
 class BinanceReader(BaseReader):
+    SOURCE_NAME = "binance"
+
     def __init__(self, data_dir: Path = PROJECT_ROOT / "data/binance"):
         self.data_dir = data_dir
 
@@ -47,7 +50,7 @@ class BinanceReader(BaseReader):
             raise ValueError(f"No data for {symbol}")
         return datetime.datetime.strptime(ticker_file_list[-1].parent.name, "%Y%m%d")
 
-    def fetch_ticker(
+    def read_ticker(
         self,
         symbol: str,
         start_date: datetime.datetime | None = None,
@@ -105,23 +108,26 @@ class BinanceReader(BaseReader):
         )
         return df
 
-    def fetch_ohlc(
+    def read_ohlc_impl(
         self,
         symbol: str,
         interval: datetime.timedelta,
         start_date: datetime.datetime | None = None,
         end_date: datetime.datetime | None = None,
-        fill_missing_date: bool = False,
-        fetch_interval: datetime.timedelta | None = datetime.timedelta(days=10),
     ) -> pl.DataFrame:
         if symbol not in self.available_tickers:
             raise ValueError(f"{symbol} is not available")
 
-        return super().fetch_ohlc(
-            symbol,
-            interval,
-            start_date,
-            end_date,
-            fill_missing_date,
-            fetch_interval=fetch_interval,
+        df = self.read_ticker(symbol, start_date, end_date)
+        if len(df) == 0:
+            return pl.DataFrame()
+
+        return df.group_by_dynamic(
+            "datetime", every=convert_timedelta_to_str(interval)
+        ).agg(
+            pl.col("price").first().alias("open"),
+            pl.col("price").max().alias("high"),
+            pl.col("price").min().alias("low"),
+            pl.col("price").last().alias("close"),
+            pl.col("size").sum().alias("volume"),
         )

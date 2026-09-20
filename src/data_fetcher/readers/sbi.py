@@ -13,6 +13,8 @@ from ..core.constants import PROJECT_ROOT
 class SBIReader(BaseReader):
     """Reader for SBI stored tick data."""
 
+    SOURCE_NAME = "sbi"
+
     def __init__(self):
         self.data_dir = PROJECT_ROOT / "data/sbi/tick"
         self._available_tickers = []

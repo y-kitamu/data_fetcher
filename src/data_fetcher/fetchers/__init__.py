@@ -1,9 +1,9 @@
-"""Fetchers module - unified data fetching interface.
+"""Fetchers module - live-API/scrape fetchers that write local data stores.
 
-Provides factory functions to get fetchers for various data sources.
+Read access to what these write is provided by src/data_fetcher/gateway.py
+and src/data_fetcher/readers/*.py, not by this module.
 """
 
-from ..core.base_fetcher import BaseFetcher
 from .crypto import (
     BinanceFetcher,
     BitflyerBookFetcher,
@@ -26,8 +26,6 @@ from .stocks import (
 )
 
 __all__ = [
-    "get_fetcher",
-    "get_available_sources",
     "BinanceFetcher",
     "BitflyerBookFetcher",
     "BitflyerFetcher",
@@ -43,57 +41,3 @@ __all__ = [
     "RakutenFetcher",
     "YfinanceNewsFetcher",
 ]
-
-
-def get_fetcher(source: str) -> BaseFetcher:
-    """Get a fetcher instance for the specified data source.
-
-    Args:
-        source: Data source name (binance, gmo, bitflyer, histdata, kabutan, rakuten)
-
-    Returns:
-        BaseFetcher: Fetcher instance for the specified source
-
-    Raises:
-        ValueError: If the source is unknown
-    """
-    fetchers = {
-        "binance": BinanceFetcher,
-        "gmo": GMOFetcher,
-        "gmo_fx": GMOFetcherFX,
-        "gmo_fx_with_timestamp": GMOFetcherFXWithTimestamp,
-        "bitflyer": BitflyerFetcher,
-        "bitflyer_book": BitflyerBookFetcher,
-        "forex_factory": ForexFactoryFetcher,
-        "histdata": HistDataFetcher,
-        "kabutan": KabutanFetcher,
-        "kabutan_news": KabutanNewsFetcher,
-        "gnews": GNewsFetcher,
-        "rakuten": RakutenFetcher,
-        "yfinance_news": YfinanceNewsFetcher,
-    }
-
-    if source not in fetchers:
-        raise ValueError(
-            f"Unknown source: {source}. Available sources: {list(fetchers.keys())}"
-        )
-
-    return fetchers[source]()
-
-
-def get_available_sources() -> list[str]:
-    """Get list of all available data sources.
-
-    Returns:
-        list[str]: List of available source names
-    """
-    return [
-        "binance",
-        "gmo",
-        "bitflyer",
-        "bitflyer_book",
-        "forex_factory",
-        "histdata",
-        "kabutan",
-        "rakuten",
-    ]
