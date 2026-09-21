@@ -21,6 +21,7 @@ Adding a new source for an existing kind is: write one Reader-shaped class
 """
 
 import datetime
+from collections.abc import Sequence
 
 import polars as pl
 
@@ -234,14 +235,21 @@ def get_margin_balance(
     start_date: datetime.datetime = datetime.datetime(1970, 1, 1),
     end_date: datetime.datetime = datetime.datetime.now(),
     source: str | None = None,
+    market: str | Sequence[str] | None = None,
 ) -> dict[str, pl.DataFrame]:
     readers = _resolve_symbol_readers("margin_balance", symbol, source)
-    return {
-        reader.SOURCE_NAME: _attach_source(
-            reader.read_ticker(symbol, start_date, end_date), reader
+    result = {}
+    for reader in readers:
+        # Only taisyaku readers know about exchange (東証/名証/...); others
+        # (e.g. JpxMarginDisclosureReader) have no such concept, so market is
+        # forwarded only when the reader opts in and the caller asked for it.
+        kwargs = {}
+        if market is not None and getattr(reader, "SUPPORTS_MARKET_FILTER", False):
+            kwargs["market"] = market
+        result[reader.SOURCE_NAME] = _attach_source(
+            reader.read_ticker(symbol, start_date, end_date, **kwargs), reader
         )
-        for reader in readers
-    }
+    return result
 
 
 def get_search_trend(

@@ -52,6 +52,33 @@ class _FakeTickReaderOnlyOther(BaseReader):
         return pl.DataFrame({"price": [3.0]})
 
 
+class _FakeMarketAwareMarginReader(BaseReader):
+    """Mimics TaisyakuHistoryReader/TaisyakuZandakaReader's market kwarg support."""
+
+    SOURCE_NAME = "fake_market_aware"
+    SUPPORTS_MARKET_FILTER = True
+
+    @property
+    def available_tickers(self):
+        return ["DUP"]
+
+    def read_ticker(self, symbol, start_date=None, end_date=None, market=None):
+        return pl.DataFrame({"market": [market]})
+
+
+class _FakeMarketUnawareMarginReader(BaseReader):
+    """Mimics JpxMarginDisclosureReader: no market concept, no market kwarg."""
+
+    SOURCE_NAME = "fake_market_unaware"
+
+    @property
+    def available_tickers(self):
+        return ["DUP"]
+
+    def read_ticker(self, symbol, start_date=None, end_date=None):
+        return pl.DataFrame({"price": [4.0]})
+
+
 @pytest.fixture
 def dup_tick_catalog(monkeypatch):
     monkeypatch.setitem(
@@ -60,6 +87,17 @@ def dup_tick_catalog(monkeypatch):
         [_FakeTickReaderA, _FakeTickReaderB, _FakeTickReaderOnlyOther],
     )
     yield
+
+
+@pytest.fixture
+def mixed_margin_catalog(monkeypatch):
+    monkeypatch.setitem(
+        gateway._CATALOG,
+        "margin_balance",
+        [_FakeMarketAwareMarginReader, _FakeMarketUnawareMarginReader],
+    )
+    yield
+
 
 
 def test_catalog_source_names_are_unique_and_set_per_kind():
@@ -161,3 +199,16 @@ def test_get_news_splits_by_source():
     for name, df in result.items():
         if len(df) > 0:
             assert df["source"].unique().to_list() == [name]
+
+
+def test_get_margin_balance_forwards_market_only_to_supporting_readers(mixed_margin_catalog):
+    result = gateway.get_margin_balance("DUP", market="東証")
+    assert result["fake_market_aware"]["market"].to_list() == ["東証"]
+    assert result["fake_market_unaware"]["price"].to_list() == [4.0]
+
+
+def test_get_margin_balance_without_market_does_not_forward_kwarg(mixed_margin_catalog):
+    result = gateway.get_margin_balance("DUP")
+    assert result["fake_market_aware"]["market"].to_list() == [None]
+    assert result["fake_market_unaware"]["price"].to_list() == [4.0]
+
