@@ -69,7 +69,7 @@ def _save_investor_type(val_content: bytes, vol_content: bytes) -> bool:
 
 
 def update_investor_type() -> None:
-    session = data_fetcher.get_session(max_requests_per_second=1)
+    session = data_fetcher.get_session(max_requests_per_second=1, cache_file=None)
     urls = jpx_stats_api.get_latest_investor_type_urls(session)
     val_content = jpx_stats_api.download(session, urls["value_url"])
     vol_content = jpx_stats_api.download(session, urls["volume_url"])
@@ -82,7 +82,7 @@ def backfill_investor_type_history() -> None:
     処理済みのvalue_urlを `_downloaded_urls.txt` に記録し、再実行時は未取得分のみ処理する
     （長時間かかる処理のため、中断・再開が安全にできるようにしている）。
     """
-    session = data_fetcher.get_session(max_requests_per_second=1)
+    session = data_fetcher.get_session(max_requests_per_second=1, cache_file=None)
     downloaded = _load_downloaded_investor_type_urls()
 
     all_pairs: list[dict[str, str]] = []
@@ -111,7 +111,7 @@ def backfill_investor_type_history() -> None:
 
 
 def update_margin() -> None:
-    session = data_fetcher.get_session(max_requests_per_second=1)
+    session = data_fetcher.get_session(max_requests_per_second=1, cache_file=None)
     url = jpx_stats_api.get_latest_margin_url(session)
     content = jpx_stats_api.download(session, url)
     df = jpx_stats_parser.parse_margin_workbook(content)
