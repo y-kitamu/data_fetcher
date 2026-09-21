@@ -593,3 +593,10 @@ taxonomy_groups = {
         ),
     ],
 }
+
+# CSV の `element_id` 列（"namespace:element_id" 形式）をキーとした正規化概念名へのマッピング。
+ELEMENT_TO_CONCEPT: dict[str, str] = {
+    f"{element.namespace}:{element.element_id}": concept_name
+    for concept_name, elements in taxonomy_groups.items()
+    for element in elements
+}

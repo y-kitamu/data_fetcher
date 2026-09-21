@@ -7,6 +7,7 @@ import polars as pl
 
 from ..core.base_reader import BaseReader
 from ..core.constants import PROJECT_ROOT
+from ..domains.tdnet.constants.taxonomy_group import ELEMENT_TO_CONCEPT
 
 DATA_DIR = PROJECT_ROOT / "data" / "tdnet" / "csv"
 
@@ -37,7 +38,10 @@ class TdnetReader(BaseReader):
             return pl.DataFrame()
 
         df = pl.read_csv(csv_path, schema_overrides={"code": pl.Utf8}).with_columns(
-            pl.col("filing_date").str.to_date("%Y-%m-%d")
+            pl.col("filing_date").str.to_date("%Y-%m-%d"),
+            pl.col("element_id")
+            .replace_strict(ELEMENT_TO_CONCEPT, default=None, return_dtype=pl.Utf8)
+            .alias("concept"),
         )
         if start_date is not None:
             df = df.filter(pl.col("filing_date") >= start_date.date())
