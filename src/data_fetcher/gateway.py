@@ -69,9 +69,9 @@ _CATALOG: dict[str, list[type[BaseReader]]] = {
         YFinanceFinancialReader,
     ],
     "margin_balance": [
-        JpxMarginDisclosureReader,
-        TaisyakuZandakaReader,
         TaisyakuHistoryReader,
+        TaisyakuZandakaReader,
+        JpxMarginDisclosureReader,
     ],
     "search_trend": [GoogleTrendsReader],
 }
