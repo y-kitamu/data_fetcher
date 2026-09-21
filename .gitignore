@@ -37,3 +37,5 @@ uv.lock
 token.json
 *.duckdb
 *.wal
+/sandbox/
+sandbox.py
