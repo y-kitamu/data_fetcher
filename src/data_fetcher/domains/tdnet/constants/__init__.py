@@ -39,7 +39,11 @@ report_styles = [
 ]
 
 periods = ["a", "s", "q"]  # a: 年次, s: 半期, q: 四半期
-consolidated_types = ["c", "n"]  # c: 連結, n: 非連結
+consolidated_types = [
+    "c",
+    "n",
+    "r",
+]  # c: 連結, n: 非連結, r: REIT（投資法人、連結区分なし）
 
 document_types = [
     DocumentType(
@@ -66,6 +70,11 @@ document_types = [
         name="キャッシュ・フロー計算書",
         aliases=["キャッシュ・フロー計算書"],
         ident_categories=["cf"],
+    ),
+    DocumentType(
+        name="金銭の分配に係る計算書",
+        aliases=["金銭の分配に係る計算書", "分配計算書"],
+        ident_categories=["ds"],
     ),
     DocumentType(
         name="賃借対照表関係注記",

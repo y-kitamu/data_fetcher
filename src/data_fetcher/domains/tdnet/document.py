@@ -28,7 +28,13 @@ def collect_documents(
             logger.warning(f"Cannot parse: {xbrl_file.name}")
             continue
 
-        x = open_ixbrl(xbrl_file)
+        try:
+            x = open_ixbrl(xbrl_file)
+        except Exception as e:
+            logger.warning(
+                f"Failed to open {xbrl_file.name} while collecting documents: {e}"
+            )
+            continue
         for nonnumeric in x.nonnumeric:
             if nonnumeric.name == "FiscalYearEnd":
                 fiscal_year_end = datetime.datetime.strptime(
