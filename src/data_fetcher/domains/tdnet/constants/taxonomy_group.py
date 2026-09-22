@@ -684,6 +684,73 @@ taxonomy_groups = {
             element_id="BasicEarningsPerShareIFRS",
             period_type="duration",
         ),
+        TmpTaxonomy(
+            japanese_label="基本的1株当たり当期利益（IFRS）",
+            english_label="Basic earnings (loss) per share (IFRS)",
+            namespace="jpigp_cor",
+            element_id="BasicEarningsLossPerShareIFRS",
+            period_type="duration",
+        ),
+        TmpTaxonomy(
+            japanese_label="基本的及び希薄化後１株当たり当期利益（△損失）（IFRS）",
+            english_label="Basic and diluted earnings (loss) per share (IFRS)",
+            namespace="jpigp_cor",
+            element_id="BasicAndDilutedEarningsLossPerShareIFRS",
+            period_type="duration",
+        ),
+        TmpTaxonomy(
+            japanese_label="1株当たり当期純利益、米国基準",
+            english_label="Basic net income per share-US",
+            namespace="tse-ed-t",
+            element_id="BasicNetIncomePerShareUS",
+            period_type="duration",
+        ),
+    ],
+    "bps": [
+        TmpTaxonomy(
+            japanese_label="1株当たり純資産額",
+            english_label="Net assets per share",
+            namespace="tse-ed-t",
+            element_id="NetAssetsPerShare",
+            period_type="instant",
+        ),
+        TmpTaxonomy(
+            japanese_label="1株当たり親会社所有者帰属持分（IFRS）",
+            english_label="Equity attributable to owners of parent per share (IFRS)",
+            namespace="tse-ed-t",
+            element_id="EquityAttributableToOwnersOfParentPerShareIFRS",
+            period_type="instant",
+        ),
+        TmpTaxonomy(
+            japanese_label="1株当たり純資産額、米国基準",
+            english_label="Shareholders' equity per share-US",
+            namespace="tse-ed-t",
+            element_id="ShareholdersEquityPerShareUS",
+            period_type="instant",
+        ),
+    ],
+    "roe": [
+        TmpTaxonomy(
+            japanese_label="自己資本利益率",
+            english_label="Net income to shareholders' equity ratio",
+            namespace="tse-ed-t",
+            element_id="NetIncomeToShareholdersEquityRatio",
+            period_type="duration",
+        ),
+        TmpTaxonomy(
+            japanese_label="自己資本利益率、米国基準",
+            english_label="Net income to shareholders' equity ratio-US",
+            namespace="tse-ed-t",
+            element_id="NetIncomeToShareholdersEquityRatioUS",
+            period_type="duration",
+        ),
+        TmpTaxonomy(
+            japanese_label="少数株主損益調整前当期純利益に対する連結自己資本比率、米国基準",
+            english_label="Income before minority interest to consolidated equity ratio-US",
+            namespace="tse-ed-t",
+            element_id="IncomeBeforeMinorityInterestToConsolidatedEquityRatioUS",
+            period_type="duration",
+        ),
     ],
     "dividend_per_share": [
         TmpTaxonomy(
