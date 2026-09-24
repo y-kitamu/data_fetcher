@@ -85,3 +85,10 @@ def test_convert_tick_to_ohlc():
     assert result["open"][1] == 102.0  # Second bar open
     assert result["close"][1] == 103.0  # Second bar close
     assert result["volume"][1] == 5.5  # Second bar volume
+
+
+def test_core_all_exports_us_ticker_list():
+    """Test get_us_ticker_list is part of the public core exports"""
+    from data_fetcher import core
+
+    assert "get_us_ticker_list" in core.__all__
