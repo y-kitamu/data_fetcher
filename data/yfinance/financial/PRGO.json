@@ -1024,8 +1024,8 @@
         "Operating Revenue": NaN
     },
     "2025-06-30": {
-        "Tax Effect Of Unusual Items": -2142000.0,
-        "Tax Rate For Calcs": 0.21,
+        "Tax Effect Of Unusual Items": -2608140.0,
+        "Tax Rate For Calcs": 0.2557,
         "Normalized EBITDA": 139300000.0,
         "Total Unusual Items": -10200000.0,
         "Total Unusual Items Excluding Goodwill": -10200000.0,
@@ -1036,7 +1036,7 @@
         "EBIT": 42800000.0,
         "Net Interest Income": -39600000.0,
         "Interest Expense": 39600000.0,
-        "Normalized Income": 7558000.0,
+        "Normalized Income": 7091860.0,
         "Net Income From Continuing And Discontinued Operation": -8400000.0,
         "Total Expenses": 1000700000.0,
         "Total Operating Income As Reported": 45400000.0,
@@ -1074,8 +1074,8 @@
         "Operating Revenue": 1056300000.0
     },
     "2025-09-30": {
-        "Tax Effect Of Unusual Items": -4368000.0,
-        "Tax Rate For Calcs": 0.21,
+        "Tax Effect Of Unusual Items": -5318560.0,
+        "Tax Rate For Calcs": 0.2557,
         "Normalized EBITDA": 169200000.0,
         "Total Unusual Items": -20800000.0,
         "Total Unusual Items Excluding Goodwill": -20800000.0,
@@ -1086,7 +1086,7 @@
         "EBIT": 63000000.0,
         "Net Interest Income": -40600000.0,
         "Interest Expense": 40600000.0,
-        "Normalized Income": 29132000.0,
+        "Normalized Income": 28181440.0,
         "Net Income From Continuing And Discontinued Operation": 7500000.0,
         "Total Expenses": 949900000.0,
         "Total Operating Income As Reported": 72600000.0,
@@ -1124,8 +1124,8 @@
         "Operating Revenue": 1043300000.0
     },
     "2025-12-31": {
-        "Tax Effect Of Unusual Items": -288015000.0,
-        "Tax Rate For Calcs": 0.21,
+        "Tax Effect Of Unusual Items": -350692550.0,
+        "Tax Rate For Calcs": 0.2557,
         "Normalized EBITDA": 169000000.0,
         "Total Unusual Items": -1371500000.0,
         "Total Unusual Items Excluding Goodwill": -1371500000.0,
@@ -1136,7 +1136,7 @@
         "EBIT": -1288400000.0,
         "Net Interest Income": -43300000.0,
         "Interest Expense": 43300000.0,
-        "Normalized Income": -331115000.0,
+        "Normalized Income": -393792550.0,
         "Net Income From Continuing And Discontinued Operation": -1418100000.0,
         "Total Expenses": 1025200000.0,
         "Total Operating Income As Reported": -1287100000.0,

@@ -1181,7 +1181,6 @@ DOGG,FT V DJIA 10DOG,ファーストトラスト Vest ダウの犬10 ターゲ�
 DOGZ,DOGNESS INTL CO,ドッグネス・インターナショナル,NASDAQ,小売,○
 DOLE,DOLE PLC,ドール,NYSE,飲料,○
 DOMH,DOMINARI HOLDING,ドミナリ・ホールディングス,NASDAQ,ヘルスケア,○
-DOMO,DOMO INC,ドーモ,NASDAQ,ソフトウェア・サービス,○
 DON,WM M-CAP DIVIDEN,ウィズダムツリー　米国中型株配当ファンド,NYSE,その他,○
 DOO,BRP INC,BRP,NASDAQ,その他製造,○
 DORM,DORMAN PRODUCTS,ドーマン・プロダクツ,NASDAQ,その他製造,○
@@ -1789,7 +1788,6 @@ GPRE,GREEN PLAINS INC,グリーン・プレインズ,NASDAQ,その他,○
 GPRK,GEOPARK LIMITED,ジオパーク,NYSE,石油,○
 GPRO,GOPRO,ゴープロ,NASDAQ,その他製造,○
 GRAB,GRAB HOLDINGS,グラブ・ホールディングス,NASDAQ,ソフトウェア・サービス,○
-GRAL,GRAIL INC,グレイル・インク,NASDAQ,医薬品（バイオテクノロジー）,○
 GRBK,GREEN BRICK PART,グリーンブリック・パートナーズ,NYSE,その他製造,○
 GRC,THE GORMAN RUPP,ゴーマンラップ,NYSE,その他製造,○
 GRID,FT NQ SMART INFR,ファーストトラスト ナスダック クリーンエッジ スマートグリッド インフラ指数ファンド,NASDAQ,その他,○
@@ -1952,6 +1950,7 @@ HTZ,HERTZ GLOBAL HLD,ハーツ・グローバル・ホールディングス,NASD
 HUBB,HUBBELL INC,ハベル,NYSE,その他製造,○
 HUBG,HUB GROUP INC,ハブ・グループ,NASDAQ,運輸,○
 HUBS,HUBSPOT INC,ハブスポット,NYSE,ソフトウェア・サービス,○
+HUCK,HUCKLEBERRY AI,ハックルベリー・エーアイ,NASDAQ,ソフトウェア・サービス,○
 HUDI,HUADI INTERNATNL,フアディ・インターナショナル・グループ,NASDAQ,その他製造,○
 HUIZ,HUIZE HOLDING,フイゼ・ホールディング,NASDAQ,金融(保険),○
 HUM,HUMANA INC,ヒューマナ,NYSE,医療サービス,○
@@ -2105,7 +2104,7 @@ INTU,INTUIT INC.,インテュイット,NASDAQ,ソフトウェア・サービス,
 INTW,GNS 2X LONG INTC,GraniteShares2倍ロングINTCデイリーETF,NASDAQ,その他,○
 INTZ,INTRUSION INC,イントゥルージョン,NASDAQ,ネットワークセキュリティー,○
 INVA,INNOVIVA INC,イノヴィヴァ,NASDAQ,ヘルスケア,○
-INVE,IDENTIV INC,アイデンティブ,NASDAQ,ネットワークセキュリティー,○
+INVE,INVE TECH INC,インヴ・テクノロジー,NASDAQ,ネットワークセキュリティー,○
 INVX,INNOVEX INTNTNL,イノベックス・インターナショナル,NYSE,その他製造,○
 INVZ,INNOVIZ TECHNO,イノヴィズ・テクノロジーズ,NASDAQ,半導体製造,○
 IONL,GNS 2X LONG IONQ,GraniteShares2倍ロングIONQデイリーETF,NASDAQ,その他,○
@@ -3900,7 +3899,6 @@ TBBK,THE BANCORP INC,バンコープ,NASDAQ,金融（銀行）,○
 TBCH,TURTLE BEACH,タートル・ビーチ,NASDAQ,周辺機器,○
 TBI,TRUEBLUE INC,トゥルーブルー,NYSE,ソフトウェア・サービス,○
 TBLA,TABOOLA COM LTD,タブーラ・ドットコム,NASDAQ,ソフトウェア・サービス,○
-TBPH,THERAVANCE BIO,テラバンス・バイオファーマ,NASDAQ,医薬品（バイオテクノロジー）,○
 TC,TOKEN CAT,トークン・キャット,NASDAQ,ソフトウェア・サービス,○
 TCBI,TEXAS CAPITAL BA,テキサス・キャピタル・バンクシェアズ,NASDAQ,金融（銀行）,○
 TCBK,TRICO BANCSHARES,トリコ・バンクシェアーズ,NASDAQ,金融（銀行）,○
@@ -4516,7 +4514,6 @@ XRTX,XORTX THERAPEUT,XORTXセラピューティクス,NASDAQ,医薬品（バイ�
 XRX,XEROX CORP.,ゼロックス,NASDAQ,その他製造,○
 XSOE,WT EM EX STATE,ウィズダムツリー新興国株ニューエコノミーファンド,NYSE,その他,○
 XTIA,XTI AEROSPACE,XTIエアロスペース,NASDAQ,ソフトウェア・サービス,○
-XTKG,X3 HOLDINGS,X3ホールディングス,NASDAQ,ソフトウェア・サービス,○
 XWEL,XWELL,エクスウェル,NASDAQ,ソフトウェア・サービス,○
 XXII,22ND CENTURY GR,22ndセンチュリー・グループ,NASDAQ,食品・タバコ,○
 XYF,X FINANCIAL,エックス・ファイナンシャル,NYSE,金融（銀行）,○
