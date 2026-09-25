@@ -1,6 +1,6 @@
 """fetch_data_from_jpx_stats.py
 JPX統計情報ページ（登録不要）から、投資部門別売買状況・個別銘柄信用取引残高表
-（日々公表銘柄）を取得する。
+（日々公表銘柄）・裁定取引の状況を取得する。
 
 - 投資部門別売買状況: 週次更新。市場区分(プライム/スタンダード/グロース/二市場)ごとに
   金額(value)・株数(volume)の2ファイルが公開される。2022年4月4日の東証市場区分再編前後で
@@ -10,6 +10,8 @@ JPX統計情報ページ（登録不要）から、投資部門別売買状況�
 - 個別銘柄信用取引残高表（日々公表銘柄）: 日次更新。ただし信用規制等により日々の開示が
   義務付けられた銘柄のみのサブセットであり、全銘柄の週末残高ではない
   （全銘柄分は fetch_data_from_taisyaku.py が既に取得している）
+- 裁定取引の状況（日別）: 日次更新。一覧ページには直近10営業日分のリンクしか掲載されず、
+  アーカイブページも存在しないため、毎回掲載中の全件を確認し未取得分だけ取り込む。
 
 一覧ページのダウンロードリンクはハッシュ付きディレクトリ配下にあり、URLを日付から
 直接組み立てることができないため、毎回一覧ページをスクレイピングして最新リンクを特定する。
@@ -25,9 +27,12 @@ JPX_STATS_DATA_DIR = data_fetcher.constants.PROJECT_ROOT / "data/jpx_stats"
 INVESTOR_TYPE_DOWNLOADED_LOG_PATH = (
     JPX_STATS_DATA_DIR / "investor_type/_downloaded_urls.txt"
 )
+ARBITRAGE_STATUS_DIR = JPX_STATS_DATA_DIR / "arbitrage_status"
+ARBITRAGE_PARTICIPANT_DIR = JPX_STATS_DATA_DIR / "arbitrage_by_participant"
 
 MIN_EXPECTED_INVESTOR_TYPE_ROWS = 150  # 15カテゴリ x 3項目 x 4市場 = 180行が正常値
 MIN_EXPECTED_MARGIN_ROWS = 50
+MIN_EXPECTED_ARBITRAGE_PARTICIPANT_ROWS = 2  # 上位１５社計・全社合計の最低2行
 
 
 def _load_downloaded_investor_type_urls() -> set[str]:
@@ -131,6 +136,51 @@ def update_margin() -> None:
     )
 
 
+def _save_arbitrage(trade_date: str, status_df, participant_df) -> bool:
+    """裁定取引の状況を2ファイルに分けて保存する。保存できた場合 True を返す。"""
+    if participant_df.height < MIN_EXPECTED_ARBITRAGE_PARTICIPANT_ROWS:
+        data_fetcher.logger.warning(
+            f"Unexpected arbitrage participant row count ({participant_df.height}). "
+            f"Skip saving trade_date={trade_date}."
+        )
+        return False
+
+    status_path = ARBITRAGE_STATUS_DIR / f"{trade_date.replace('-', '')}.csv"
+    participant_path = ARBITRAGE_PARTICIPANT_DIR / f"{trade_date.replace('-', '')}.csv"
+    status_path.parent.mkdir(parents=True, exist_ok=True)
+    participant_path.parent.mkdir(parents=True, exist_ok=True)
+    status_df.write_csv(status_path)
+    participant_df.write_csv(participant_path)
+    data_fetcher.logger.info(f"Saved {status_path} and {participant_path}")
+    return True
+
+
+def update_arbitrage() -> None:
+    """裁定取引の状況（日別）を取得する。一覧ページに掲載中の全件をスキャンし、
+    対応するCSVがまだ無い日付だけダウンロード・保存する（cronの実行漏れに対して
+    自己修復的に振る舞う）。
+    """
+    session = data_fetcher.get_session(max_requests_per_second=1, cache_file=None)
+    entries = jpx_stats_api.get_arbitrage_urls_from_page(
+        session, jpx_stats_api.ARBITRAGE_INDEX_URL
+    )
+
+    for entry in entries:
+        date_str = entry["date"].strftime("%Y%m%d")
+        status_path = ARBITRAGE_STATUS_DIR / f"{date_str}.csv"
+        participant_path = ARBITRAGE_PARTICIPANT_DIR / f"{date_str}.csv"
+        if status_path.exists() and participant_path.exists():
+            continue
+        try:
+            content = jpx_stats_api.download(session, entry["url"])
+            status_df, participant_df = jpx_stats_parser.parse_arbitrage_workbook(content)
+            trade_date = status_df["trade_date"][0]
+            _save_arbitrage(trade_date, status_df, participant_df)
+        except Exception as e:
+            data_fetcher.logger.error(f"Failed to fetch/parse {entry['url']}: {e}")
+            continue
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument(
@@ -146,6 +196,7 @@ def main():
 
     update_investor_type()
     update_margin()
+    update_arbitrage()
 
 
 if __name__ == "__main__":

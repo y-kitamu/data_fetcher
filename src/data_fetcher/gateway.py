@@ -38,6 +38,8 @@ from .readers import (
     HistDataReader,
     JpNewsReader,
     JpTickerThemesReader,
+    JpxArbitrageByParticipantReader,
+    JpxArbitrageStatusReader,
     JpxInvestorTypeReader,
     JpxMarginDisclosureReader,
     KabutanReader,
@@ -82,9 +84,19 @@ _investor_type_reader = JpxInvestorTypeReader()
 _large_shareholding_reader = EdinetLargeShareholdingReader()
 _ticker_themes_reader = JpTickerThemesReader()
 _news_reader = JpNewsReader()
+_arbitrage_status_reader = JpxArbitrageStatusReader()
+_arbitrage_by_participant_reader = JpxArbitrageByParticipantReader()
 
 KINDS: list[str] = sorted(
-    [*_CATALOG.keys(), "investor_flow", "large_shareholding", "ticker_theme", "news"]
+    [
+        *_CATALOG.keys(),
+        "investor_flow",
+        "large_shareholding",
+        "ticker_theme",
+        "news",
+        "arbitrage_status",
+        "arbitrage_by_participant",
+    ]
 )
 
 _instances: dict[type, BaseReader] = {}
@@ -277,6 +289,31 @@ def get_investor_flow(
     )
     return {
         _investor_type_reader.SOURCE_NAME: _attach_source(df, _investor_type_reader)
+    }
+
+
+def get_arbitrage_status(
+    start_date: datetime.date | None = None,
+    end_date: datetime.date | None = None,
+) -> dict[str, pl.DataFrame]:
+    df = _arbitrage_status_reader.read(start_date=start_date, end_date=end_date)
+    return {
+        _arbitrage_status_reader.SOURCE_NAME: _attach_source(df, _arbitrage_status_reader)
+    }
+
+
+def get_arbitrage_by_participant(
+    start_date: datetime.date | None = None,
+    end_date: datetime.date | None = None,
+    broker: str | None = None,
+) -> dict[str, pl.DataFrame]:
+    df = _arbitrage_by_participant_reader.read(
+        start_date=start_date, end_date=end_date, broker=broker
+    )
+    return {
+        _arbitrage_by_participant_reader.SOURCE_NAME: _attach_source(
+            df, _arbitrage_by_participant_reader
+        )
     }
 
 

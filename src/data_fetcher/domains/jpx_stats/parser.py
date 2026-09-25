@@ -55,6 +55,7 @@ _INVESTOR_TYPE_CATEGORY_ROWS = [
 ]
 
 _WEEK_LABEL_RE = re.compile(r"(\d{4})年.*?\(\s*(\d{1,2})/(\d{1,2})\s*[-〜]\s*(\d{1,2})/(\d{1,2})\s*\)")
+_TRADE_DATE_RE = re.compile(r"(\d{4})年(\d{1,2})月(\d{1,2})日")
 
 
 def _to_float(value) -> float | None:
@@ -82,6 +83,15 @@ def parse_week_label(label: str) -> tuple[str, str]:
     # 週をまたいで月が変わる場合（例: 1/29-2/2）は終了日の月を使う
     week_end = f"{year}-{int(end_month):02d}-{int(end_day):02d}"
     return week_start, week_end
+
+
+def parse_trade_date(label: str) -> str:
+    """「2026年9月17日」形式のラベルからYYYY-MM-DD文字列を抽出する。"""
+    match = _TRADE_DATE_RE.search(label)
+    if match is None:
+        raise ValueError(f"Could not parse trade date: {label!r}")
+    year, month, day = match.groups()
+    return f"{year}-{int(month):02d}-{int(day):02d}"
 
 
 def parse_investor_type_sheet(
@@ -182,3 +192,77 @@ def parse_margin_workbook(content: bytes) -> pl.DataFrame:
             record[col_name] = _to_float(value) if is_numeric else value
         records.append(record)
     return pl.from_dicts(records)
+
+
+# 「取引参加者別裁定取引の状況」上位15取引参加者の枠は常に15行固定で、実データが無い
+# 枠は列0が "-" で埋められる（実データ確認済み: 260917.xls では3行のみ実データ、残り12行が "-"）。
+_ARBITRAGE_PARTICIPANT_FIRST_ROW = 35
+_ARBITRAGE_PARTICIPANT_SLOT_COUNT = 15
+_ARBITRAGE_PARTICIPANT_TOTAL_ROWS = [
+    (50, "上位１５社計"),
+    (51, "全社合計"),
+]
+
+
+def parse_arbitrage_workbook(content: bytes) -> tuple[pl.DataFrame, pl.DataFrame]:
+    """裁定取引の状況（日別）ワークブックを (status_df, participant_df) に変換する。
+
+    status_df: 当日売買高・現物ポジションの1行サマリー。
+    participant_df: 取引参加者別（上位15社＋上位15社計＋全社合計）の複数行データ。
+    """
+    # drop_empty_rows=False: このワークブックは表と表の間に全列Noneの行を複数含むため、
+    # デフォルト（自動削除）だと以降の行位置が崩れる。行位置決め打ちのため無効化必須。
+    raw = pl.read_excel(
+        io.BytesIO(content), has_header=False, drop_empty_rows=False, drop_empty_cols=False
+    )
+    trade_date = parse_trade_date(str(raw.row(31)[0]))
+
+    trade_row = raw.row(5)
+    position_row = raw.row(10)
+    position_change_row = raw.row(11)
+    status_df = pl.from_dicts(
+        [
+            {
+                "trade_date": trade_date,
+                "sell_volume": _to_float(trade_row[2]),
+                "buy_volume": _to_float(trade_row[7]),
+                "position_sell_current": _to_float(position_row[2]),
+                "position_sell_next": _to_float(position_row[3]),
+                "position_sell_total": _to_float(position_row[5]),
+                "position_sell_current_change": _to_float(position_change_row[2]),
+                "position_sell_next_change": _to_float(position_change_row[3]),
+                "position_sell_total_change": _to_float(position_change_row[5]),
+                "position_buy_current": _to_float(position_row[7]),
+                "position_buy_next": _to_float(position_row[9]),
+                "position_buy_total": _to_float(position_row[11]),
+                "position_buy_current_change": _to_float(position_change_row[7]),
+                "position_buy_next_change": _to_float(position_change_row[9]),
+                "position_buy_total_change": _to_float(position_change_row[11]),
+            }
+        ]
+    )
+
+    def _participant_record(row, rank: int | None) -> dict:
+        return {
+            "trade_date": trade_date,
+            "rank": rank,
+            "broker_name": row[0],
+            "sell_volume": _to_float(row[4]),
+            "sell_ratio_pct": _to_float(row[5]),
+            "buy_volume": _to_float(row[6]),
+            "buy_ratio_pct": _to_float(row[8]),
+            "total_volume": _to_float(row[10]),
+            "total_ratio_pct": _to_float(row[12]),
+        }
+
+    records = []
+    for offset in range(_ARBITRAGE_PARTICIPANT_SLOT_COUNT):
+        row = raw.row(_ARBITRAGE_PARTICIPANT_FIRST_ROW + offset)
+        if row[0] in (None, "-"):
+            continue
+        records.append(_participant_record(row, rank=offset + 1))
+    for row_idx, _label in _ARBITRAGE_PARTICIPANT_TOTAL_ROWS:
+        records.append(_participant_record(raw.row(row_idx), rank=None))
+    participant_df = pl.from_dicts(records)
+
+    return status_df, participant_df

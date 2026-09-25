@@ -10,6 +10,8 @@ from ..core.constants import PROJECT_ROOT
 
 INVESTOR_TYPE_DIR = PROJECT_ROOT / "data" / "jpx_stats" / "investor_type"
 MARGIN_DIR = PROJECT_ROOT / "data" / "jpx_stats" / "margin_daily_disclosure"
+ARBITRAGE_STATUS_DIR = PROJECT_ROOT / "data" / "jpx_stats" / "arbitrage_status"
+ARBITRAGE_PARTICIPANT_DIR = PROJECT_ROOT / "data" / "jpx_stats" / "arbitrage_by_participant"
 
 
 class JpxInvestorTypeReader(BaseReader):
@@ -111,3 +113,77 @@ class JpxMarginDisclosureReader(BaseReader):
             return pl.DataFrame()
 
         return pl.concat(dfs, how="diagonal_relaxed").sort("datetime")
+
+
+class JpxArbitrageStatusReader(BaseReader):
+    """Reader for data/jpx_stats/arbitrage_status/{YYYYMMDD}.csv.
+
+    Market-wide daily arbitrage trading volume/position summary; there is no
+    ticker column, so this does not implement BaseReader's symbol-scoped contract.
+    """
+
+    SOURCE_NAME = "jpx_arbitrage_status"
+
+    def __init__(self, data_dir: Path = ARBITRAGE_STATUS_DIR):
+        self.data_dir = data_dir
+
+    def read(
+        self,
+        start_date: datetime.date | None = None,
+        end_date: datetime.date | None = None,
+    ) -> pl.DataFrame:
+        dfs = []
+        for path in sorted(self.data_dir.glob("*.csv")):
+            try:
+                trade_date = datetime.datetime.strptime(path.stem, "%Y%m%d").date()
+            except ValueError:
+                continue
+            if start_date is not None and trade_date < start_date:
+                continue
+            if end_date is not None and trade_date > end_date:
+                continue
+            dfs.append(pl.read_csv(path, try_parse_dates=True))
+
+        if len(dfs) == 0:
+            return pl.DataFrame()
+
+        return pl.concat(dfs, how="diagonal_relaxed").sort("trade_date")
+
+
+class JpxArbitrageByParticipantReader(BaseReader):
+    """Reader for data/jpx_stats/arbitrage_by_participant/{YYYYMMDD}.csv.
+
+    Market-wide daily per-broker arbitrage ranking; there is no ticker column,
+    so this does not implement BaseReader's symbol-scoped contract.
+    """
+
+    SOURCE_NAME = "jpx_arbitrage_by_participant"
+
+    def __init__(self, data_dir: Path = ARBITRAGE_PARTICIPANT_DIR):
+        self.data_dir = data_dir
+
+    def read(
+        self,
+        start_date: datetime.date | None = None,
+        end_date: datetime.date | None = None,
+        broker: str | None = None,
+    ) -> pl.DataFrame:
+        dfs = []
+        for path in sorted(self.data_dir.glob("*.csv")):
+            try:
+                trade_date = datetime.datetime.strptime(path.stem, "%Y%m%d").date()
+            except ValueError:
+                continue
+            if start_date is not None and trade_date < start_date:
+                continue
+            if end_date is not None and trade_date > end_date:
+                continue
+            dfs.append(pl.read_csv(path, try_parse_dates=True))
+
+        if len(dfs) == 0:
+            return pl.DataFrame()
+
+        df = pl.concat(dfs, how="diagonal_relaxed").sort("trade_date")
+        if broker is not None:
+            df = df.filter(pl.col("broker_name") == broker)
+        return df

@@ -6,7 +6,12 @@ from .gmo import GMOReader, GMOBookReader
 from .google_trends import GoogleTrendsReader
 from .histdata import HistDataReader
 from .jp_ticker_themes import JpTickerThemesReader
-from .jpx_stats import JpxInvestorTypeReader, JpxMarginDisclosureReader
+from .jpx_stats import (
+    JpxArbitrageByParticipantReader,
+    JpxArbitrageStatusReader,
+    JpxInvestorTypeReader,
+    JpxMarginDisclosureReader,
+)
 from .kabu_tick import KabuTickReader
 from .kabutan import KabutanReader
 from .news import JpNewsReader
@@ -29,6 +34,8 @@ __all__ = [
     "HistDataReader",
     "JpNewsReader",
     "JpTickerThemesReader",
+    "JpxArbitrageByParticipantReader",
+    "JpxArbitrageStatusReader",
     "JpxInvestorTypeReader",
     "JpxMarginDisclosureReader",
     "KabuTickReader",

@@ -1,7 +1,7 @@
 """api.py - JPX統計情報ページ（登録不要）のダウンローダー
 
-投資部門別売買状況・個別銘柄信用取引残高表（日々公表銘柄）を、JPXサイトの
-一覧ページから直接ダウンロードする。
+投資部門別売買状況・個別銘柄信用取引残高表（日々公表銘柄）・裁定取引の状況を、
+JPXサイトの一覧ページから直接ダウンロードする。
 
 ダウンロードリンクは `<ハッシュ>-att/<ファイル名>` の形式で、ハッシュ部分は
 週・日ごとに変わり予測できない。そのため必ず一覧ページ(index.html)をスクレイピングし、
@@ -11,8 +11,13 @@
 このページの「個別銘柄信用取引残高表」は信用規制等により日々の開示が義務付けられた
 銘柄のみを含むサブセットであり、全銘柄の週末信用残高ではない。全銘柄分は
 `domains.taisyaku`（日証金 taisyaku.jp）で既に取得している。
+
+注意（裁定取引の状況について）:
+一覧ページには直近10営業日分のリンクしか掲載されず、アーカイブページは存在しない。
+そのため呼び出し側は毎回掲載中の全件を確認し、未取得分だけを取り込む必要がある。
 """
 
+import datetime
 import re
 
 import requests
@@ -37,10 +42,12 @@ INVESTOR_TYPE_ARCHIVE_URL_TEMPLATE = (
 )
 INVESTOR_TYPE_ARCHIVE_YEAR_COUNT = 11  # 当年 + 過去10年分
 MARGIN_INDEX_URL = f"{BASE_URL}/markets/statistics-equities/margin/index.html"
+ARBITRAGE_INDEX_URL = f"{BASE_URL}/markets/statistics-equities/program/index.html"
 
 _VAL_LINK_RE = re.compile(r"stock_val_1_\d{6}\.xls$")
 _MARGIN_LINK_RE = re.compile(r"mtdailyk\d{10}\.xls$")
 _DATE_SUFFIX_RE = re.compile(r"(\d{6,10})\.xls$")
+_ARBITRAGE_LINK_RE = re.compile(r"/program/[^/]+-att/(\d{6})\.xls$")
 
 
 @retry_with_backoff(max_retries=4, base_delay=3.0, exceptions=(requests.exceptions.RequestException,))
@@ -97,6 +104,24 @@ def get_latest_margin_url(session: requests.Session) -> str:
             "ページ構造が変更された可能性があります。"
         )
     return BASE_URL + links[0]["href"]
+
+
+def get_arbitrage_urls_from_page(session: requests.Session, page_url: str) -> list[dict]:
+    """裁定取引の状況（日別）一覧ページに掲載中の全件の日付・ファイルURLを返す。
+
+    一覧ページには直近10営業日分のみが掲載され、アーカイブページは存在しないため、
+    呼び出し側で既に保存済みの日付をフィルタする必要がある。
+    """
+    soup = _get_soup(session, page_url)
+    entries = []
+    for a in soup.find_all("a", href=_ARBITRAGE_LINK_RE):
+        href = a["href"]
+        yy_mm_dd = _ARBITRAGE_LINK_RE.search(href).group(1)
+        year = 2000 + int(yy_mm_dd[0:2])
+        month = int(yy_mm_dd[2:4])
+        day = int(yy_mm_dd[4:6])
+        entries.append({"date": datetime.date(year, month, day), "url": BASE_URL + href})
+    return entries
 
 
 @retry_with_backoff(max_retries=4, base_delay=3.0, exceptions=(requests.exceptions.RequestException,))

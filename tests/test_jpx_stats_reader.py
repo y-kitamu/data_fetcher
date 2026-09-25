@@ -1,8 +1,13 @@
-"""Tests for JpxInvestorTypeReader / JpxMarginDisclosureReader."""
+"""Tests for JpxInvestorTypeReader / JpxMarginDisclosureReader / JpxArbitrage*Reader."""
 
 import datetime
 
-from data_fetcher.readers.jpx_stats import JpxInvestorTypeReader, JpxMarginDisclosureReader
+from data_fetcher.readers.jpx_stats import (
+    JpxArbitrageByParticipantReader,
+    JpxArbitrageStatusReader,
+    JpxInvestorTypeReader,
+    JpxMarginDisclosureReader,
+)
 
 
 def test_investor_type_reader_filters_by_week_range(tmp_path):
@@ -49,3 +54,45 @@ def test_margin_disclosure_reader_normalizes_5digit_code(tmp_path):
     assert df["sell_outstanding"].to_list() == [100, 150]
 
     assert len(reader.read_ticker("0000")) == 0
+
+
+def test_arbitrage_status_reader_filters_by_date_range(tmp_path):
+    d = tmp_path / "arbitrage_status"
+    d.mkdir()
+    header = "trade_date,sell_volume,buy_volume\n"
+    (d / "20260916.csv").write_text(header + "2026-09-16,1000.0,2000.0\n")
+    (d / "20260917.csv").write_text(header + "2026-09-17,4581.0,29096.0\n")
+
+    reader = JpxArbitrageStatusReader(data_dir=d)
+
+    df_all = reader.read()
+    assert len(df_all) == 2
+
+    df_ranged = reader.read(start_date=datetime.date(2026, 9, 17))
+    assert len(df_ranged) == 1
+    assert df_ranged["buy_volume"].to_list() == [29096.0]
+
+
+def test_arbitrage_by_participant_reader_filters_by_date_and_broker(tmp_path):
+    d = tmp_path / "arbitrage_by_participant"
+    d.mkdir()
+    header = "trade_date,rank,broker_name,sell_volume,buy_volume,total_volume\n"
+    (d / "20260916.csv").write_text(
+        header + "2026-09-16,1,ブローカーA,100.0,200.0,300.0\n"
+    )
+    (d / "20260917.csv").write_text(
+        header
+        + "2026-09-17,1,ブローカーA,0.0,22639.0,22639.0\n"
+        + "2026-09-17,2,ブローカーB,4581.0,3059.0,7640.0\n"
+    )
+
+    reader = JpxArbitrageByParticipantReader(data_dir=d)
+
+    df_all = reader.read()
+    assert len(df_all) == 3
+
+    df_ranged = reader.read(start_date=datetime.date(2026, 9, 17))
+    assert len(df_ranged) == 2
+
+    df_broker = reader.read(broker="ブローカーB")
+    assert df_broker["total_volume"].to_list() == [7640.0]
