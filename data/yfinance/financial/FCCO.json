@@ -1063,7 +1063,7 @@
         "Net Income Continuous Operations": 5498000.0,
         "Tax Provision": 437000.0,
         "Pretax Income": 5935000.0,
-        "Special Income Charges": -1581000.0,
+        "Special Income Charges": NaN,
         "Other Special Charges": NaN,
         "Restructuring And Mergern Acquisition": 1581000.0,
         "Gain On Sale Of Security": NaN,

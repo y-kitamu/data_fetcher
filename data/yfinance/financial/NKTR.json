@@ -1199,7 +1199,7 @@
         "Operating Income": -38258000.0,
         "Operating Expense": 49119000.0,
         "Research And Development": 35680000.0,
-        "Selling General And Administration": 13439000.0,
+        "Selling General And Administration": NaN,
         "General And Administrative Expense": 13439000.0,
         "Other Gand A": 13439000.0,
         "Gross Profit": NaN,
