@@ -94,6 +94,12 @@ def test_shape_financial_periods_assembles_actual_and_forecast_for_settlement() 
     assert item.eps.actual == 10.0
 
 
+def test_shape_financial_periods_skips_filing_with_missing_fiscal_year_end() -> None:
+    row = _row("net_sales", "CurrentYear", 100.0)
+    row["fiscal_year_end"] = None
+    assert shape_financial_periods(_df([row])) == []
+
+
 def test_shape_financial_periods_builds_revision_item_with_pl_forecast_fields() -> None:
     # Regression test for the 9984 bug: a forecast-revision notice used to
     # only extract net_income/eps forecasts. total_revenue/operating_income/

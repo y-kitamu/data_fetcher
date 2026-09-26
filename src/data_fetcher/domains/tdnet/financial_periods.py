@@ -136,6 +136,8 @@ def shape_financial_periods(df: pl.DataFrame) -> list[FinancialPeriod]:
 
 
 def _build_period(filing_df: pl.DataFrame) -> FinancialPeriod | None:
+    if filing_df["fiscal_year_end"][0] is None:
+        return None
     is_revision = filing_df["doc_style"][0] in _FORECAST_REVISION_DOC_STYLES
     doc_period = "a" if is_revision else filing_df["doc_period"][0]
     window = _detect_window(filing_df, doc_period, "ConsolidatedMember")
@@ -183,7 +185,9 @@ def _build_period(filing_df: pl.DataFrame) -> FinancialPeriod | None:
         for spec in FIELD_SPECS
     }
 
-    category, period_label = _category_and_period_label(filing_df, doc_period, quarter_number)
+    category, period_label = _category_and_period_label(
+        filing_df, doc_period, quarter_number
+    )
     submitted_at = dt.datetime.fromisoformat(filing_df["filing_datetime"][0])
     if submitted_at.tzinfo is None:
         submitted_at = submitted_at.replace(tzinfo=_JST)
@@ -259,7 +263,9 @@ def _pick_total_value(rows: pl.DataFrame) -> float | None:
         + (pl.col("consolidated") != "").cast(pl.Int32)
         + (pl.col("forecast") != "").cast(pl.Int32)
     )
-    totals = rows.filter((pl.col("context_id").str.count_matches("_") + 1) == expected_segments)
+    totals = rows.filter(
+        (pl.col("context_id").str.count_matches("_") + 1) == expected_segments
+    )
     target = totals if totals.height > 0 else rows
     value = target["value"][0]
     return float(value) if value is not None else None

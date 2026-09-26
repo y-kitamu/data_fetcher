@@ -1,0 +1,137 @@
+# TDnet開示のタイトルキーワードによる分類辞書。
+#
+# categories の各エントリは上から順に評価され、keywords のいずれかを含み、
+# かつ exclude のいずれも含まない場合に最初に一致したカテゴリを採用する
+# (disclosure_classifier.classify を参照)。
+#
+# 実データ(cache/requests.cacheに保存済みのTDnet日次一覧HTML)から収集した
+# 実際のタイトル文字列を参考に選定しているが、キーワード一致による軽量分類
+# であり、完全な精度は目指さない(未分類は正常な結果として扱う)。
+categories:
+  T1:
+    label: "決算短信（通期）"
+    keywords: ["決算短信"]
+    exclude: ["四半期", "中間", "第１四半期", "第１四半期", "第２四半期", "第２四半期", "第３四半期"]
+  T2:
+    label: "四半期決算短信"
+    keywords: ["四半期決算短信", "中間決算短信", "四半期報告"]
+  T3:
+    label: "継続企業の前提に関する注記"
+    keywords: ["継続企業の前提"]
+  T4:
+    label: "業績予想の修正"
+    keywords: ["業績予想の修正", "業績予想に関するお知らせ", "業績の予想と実績の差異"]
+  T5:
+    label: "配当予想の修正・剰余金の配当"
+    keywords: ["配当予想の修正", "配当予想に関するお知らせ", "剰余金の配当", "配当（予定）"]
+  T6:
+    label: "決算期変更"
+    keywords: ["決算期変更", "決算期の変更"]
+  T7:
+    label: "決算発表予定日"
+    keywords: ["決算発表日", "決算発表予定日"]
+  T9:
+    label: "自己株式取得の決定"
+    keywords: ["自己株式の取得に係る事項の決定", "自己株式取得に係る事項の決定"]
+  T10:
+    label: "自己株式取得状況"
+    keywords: ["自己株式の取得状況", "自己株式取得状況", "自己株式の取得結果", "自己株式取得の終了"]
+  T11:
+    label: "自己株式の消却"
+    keywords: ["自己株式の消却"]
+  T12:
+    label: "自己株式の処分"
+    keywords: ["自己株式の処分"]
+  T13:
+    label: "新株式発行・株式売出し"
+    keywords: ["新株式発行", "株式の発行", "株式の売出し", "株式売出し", "第三者割当"]
+    exclude: ["新株予約権"]
+  T14:
+    label: "新株予約権の発行"
+    keywords: ["新株予約権の発行"]
+  T15:
+    label: "転換社債型新株予約権付社債"
+    keywords: ["転換社債型新株予約権付社債"]
+  T16:
+    label: "新株予約権の行使状況"
+    keywords: ["新株予約権の行使状況", "新株予約権の月間行使状況"]
+  T17:
+    label: "株式分割・株式併合"
+    keywords: ["株式分割", "株式併合"]
+  T18:
+    label: "配当方針の変更"
+    keywords: ["配当政策の変更", "配当方針の変更", "株主還元方針"]
+  T19:
+    label: "資本コストや株価を意識した経営"
+    keywords: ["資本コストや株価を意識した経営"]
+  T20:
+    label: "特別損失の計上"
+    keywords: ["特別損失", "減損損失の計上"]
+  T21:
+    label: "繰延税金資産の取崩し"
+    keywords: ["繰延税金資産の取崩"]
+  T22:
+    label: "借入・コミットメントライン"
+    keywords: ["資金の借入", "コミットメントライン"]
+  T23:
+    label: "財務制限条項抵触"
+    keywords: ["財務制限条項"]
+  T24:
+    label: "社債の発行"
+    keywords: ["社債発行", "社債の発行"]
+  T25:
+    label: "事業再編"
+    keywords: ["事業譲渡", "事業撤退", "工場閉鎖", "希望退職"]
+  T26:
+    label: "M&Aその他企業結合"
+    keywords:
+      - "株式交換"
+      - "子会社化"
+      - "吸収合併"
+      - "株式取得"
+      - "株式の取得"
+      - "持分取得"
+      - "完全子会社"
+      - "経営統合"
+  T27:
+    label: "中期経営計画"
+    keywords: ["中期経営計画"]
+  T28:
+    label: "月次売上・受注"
+    keywords: ["月次", "受注"]
+  T29:
+    label: "主要株主異動"
+    keywords: ["主要株主", "親会社の異動", "支配株主"]
+  T30:
+    label: "TOB・MBO"
+    keywords: ["公開買付", "TOB", "MBO"]
+  T31:
+    label: "代表取締役の異動"
+    keywords: ["代表取締役の異動", "代表取締役の交代"]
+  T32:
+    label: "監理・整理・特別注意銘柄・上場廃止"
+    keywords: ["監理銘柄", "整理銘柄", "特設注意市場", "上場廃止"]
+  T33:
+    label: "決算説明資料"
+    keywords: ["決算説明資料", "決算補足説明資料", "投資家向け説明会"]
+  T34:
+    label: "受注・大型契約"
+    keywords: ["大型契約", "大型受注"]
+
+# 上記カテゴリのうち、訂正であれば T8 として扱う対象(§5.2 T8)。
+# is_correction=True かつ category_code がここに含まれる場合、
+# snapshot_builder 側で disclosures[].code を "T8" として出力する。
+correction_keywords: ["の一部訂正", "の訂正", "訂正のお知らせ", "訂正について", "訂正に関するお知らせ"]
+correction_applies_to: [T1, T2, T4, T5, T6]
+
+# shareholders.capital_actions[].type の語彙へのマッピング(指示書§6)。
+# 該当しないカテゴリはcapital_actionsに含めない。
+capital_action_type_by_category:
+  T9: buyback_decision
+  T10: buyback_done
+  T11: cancellation
+  T12: disposal
+  T13: equity_issue
+  T14: msc_warrant
+  T15: cb
+  T17: split  # extract_split_ratio() の結果が負の比率(併合)ならreverse_splitに読み替える

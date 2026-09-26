@@ -68,6 +68,74 @@ def market_cap(price: float | None, number_of_shares: float | None) -> float | N
     return price * number_of_shares if price and number_of_shares else None
 
 
+def per_forecast(market_cap_value: float | None, forecast_net_income: float | None) -> float | None:
+    """Approximate PER: market_cap / company-forecast net income (section 7.3)."""
+    return market_cap_value / forecast_net_income if market_cap_value and forecast_net_income else None
+
+
+def per_trailing(market_cap_value: float | None, ttm_net_income: float | None) -> float | None:
+    """PER (TTM): market_cap / trailing-twelve-months net income."""
+    return market_cap_value / ttm_net_income if market_cap_value and ttm_net_income else None
+
+
+def per_normalized(market_cap_value: float | None, normalized_net_income: float | None) -> float | None:
+    """PER against normalized (cycle-median-margin, after-tax) earnings."""
+    return (
+        market_cap_value / normalized_net_income if market_cap_value and normalized_net_income else None
+    )
+
+
+def pcfr(market_cap_value: float | None, net_income: float | None, depreciation: float | None) -> float | None:
+    """Price-to-cash-flow ratio: market_cap / (net_income + depreciation)."""
+    if not market_cap_value or net_income is None or depreciation is None:
+        return None
+    denom = net_income + depreciation
+    return market_cap_value / denom if denom else None
+
+
+def psr(market_cap_value: float | None, revenue: float | None) -> float | None:
+    """Price-to-sales ratio: market_cap / revenue."""
+    return market_cap_value / revenue if market_cap_value and revenue else None
+
+
+def earnings_yield(per_forecast_value: float | None) -> float | None:
+    """予想収益率 = 1 / per_forecast."""
+    return 1 / per_forecast_value if per_forecast_value else None
+
+
+def per_x_pbr(per_forecast_value: float | None, pbr_value: float | None) -> float | None:
+    if per_forecast_value is None or pbr_value is None:
+        return None
+    return per_forecast_value * pbr_value
+
+
+def ev(
+    market_cap_value: float | None,
+    interest_bearing_debt: float | None,
+    cash: float | None,
+    securities_current: float | None,
+) -> float | None:
+    """Enterprise value: market_cap + interest-bearing debt - cash - current securities."""
+    if market_cap_value is None or interest_bearing_debt is None or cash is None:
+        return None
+    return market_cap_value + interest_bearing_debt - cash - (securities_current or 0)
+
+
+def ev_ebitda(ev_value: float | None, ebitda_value: float | None) -> float | None:
+    if not ev_value or not ebitda_value:
+        return None
+    return ev_value / ebitda_value
+
+
+def accruals_to_assets(
+    net_income: float | None, operating_cf: float | None, total_assets: float | None
+) -> float | None:
+    """(net_income - operating_cf) / total_assets (直近年度)."""
+    if net_income is None or operating_cf is None or not total_assets:
+        return None
+    return (net_income - operating_cf) / total_assets
+
+
 class ValuationRatios(BaseModel):
     per: ActualForecast
     pbr: ActualForecast
