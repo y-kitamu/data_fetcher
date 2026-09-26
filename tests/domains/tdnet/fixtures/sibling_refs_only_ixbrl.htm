@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:ix="http://www.xbrl.org/2008/inlineXBRL" xmlns:ixt="http://www.xbrl.org/inlineXBRL/transformation/2011-07-31" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:test-cor="http://example.com/test-cor" xmlns:jpcrp_cor="http://disclosure.edinet-fsa.go.jp/taxonomy/jpcrp/2023-12-01/jpcrp_cor">
+<head><title>sibling_refs_only</title></head>
+<body>
+<!-- このファイル自体は<ix:resources>/contextを持たず、兄弟ファイル(sibling_with_contexts_ixbrl.htm)
+     で定義されたcontext_idを参照するのみ。実際のTDnet決算短信の添付ファイル構成(セグメント情報等が
+     単独のcontext定義を持たない)を再現するfixture。 -->
+<div>
+<ix:nonFraction contextRef="CurrentYearDuration_test-cor-00000FooReportableSegmentsMember" decimals="-6" format="ixt:numdotdecimal" name="jpcrp_cor:RevenuesFromExternalCustomers" scale="6" unitRef="JPY">80,000</ix:nonFraction>
+<ix:nonFraction contextRef="CurrentYearDuration_ReconcilingItemsMember" decimals="-6" format="ixt:numdotdecimal" name="jpcrp_cor:RevenuesFromExternalCustomers" scale="6" unitRef="JPY">-5,000</ix:nonFraction>
+<ix:nonFraction contextRef="CurrentYearDuration_TreasuryStockMember" decimals="-6" format="ixt:numdotdecimal" name="test-cor:NetAssets" scale="6" unitRef="JPY">1,000</ix:nonFraction>
+</div>
+</body>
+</html>

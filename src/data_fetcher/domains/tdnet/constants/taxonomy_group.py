@@ -60,6 +60,22 @@ taxonomy_groups = {
             period_type="instant",
         ),
     ],
+    "securities_current": [
+        TmpTaxonomy(
+            japanese_label="有価証券",
+            english_label="Securities",
+            namespace="jppfs_cor",
+            element_id="ShortTermInvestmentSecurities",
+            period_type="instant",
+        ),
+        TmpTaxonomy(
+            japanese_label="有価証券、流動資産（IFRS）",
+            english_label="Marketable securities - CA (IFRS)",
+            namespace="jpigp_cor",
+            element_id="MarketableSecuritiesCAIFRS",
+            period_type="instant",
+        ),
+    ],
     "inventory": [
         TmpTaxonomy(
             japanese_label="棚卸資産、流動資産（IFRS）",
@@ -73,6 +89,22 @@ taxonomy_groups = {
             english_label="Inventories",
             namespace="jppfs_cor",
             element_id="Inventories",
+            period_type="instant",
+        ),
+    ],
+    "current_assets_other": [
+        TmpTaxonomy(
+            japanese_label="その他、流動資産",
+            english_label="Other-CA",
+            namespace="jppfs_cor",
+            element_id="OtherCA",
+            period_type="instant",
+        ),
+        TmpTaxonomy(
+            japanese_label="その他の流動資産（IFRS）",
+            english_label="Other current assets - CA (IFRS)",
+            namespace="jpigp_cor",
+            element_id="OtherCurrentAssetsCAIFRS",
             period_type="instant",
         ),
     ],
@@ -140,6 +172,22 @@ taxonomy_groups = {
             period_type="instant",
         ),
     ],
+    "investments_other": [
+        TmpTaxonomy(
+            japanese_label="その他、投資その他の資産",
+            english_label="Other-IOA",
+            namespace="jppfs_cor",
+            element_id="OtherIOA",
+            period_type="instant",
+        ),
+        TmpTaxonomy(
+            japanese_label="その他の非流動資産（IFRS）",
+            english_label="Other non-current assets - NCA (IFRS)",
+            namespace="jpigp_cor",
+            element_id="OtherNonCurrentAssetsNCAIFRS",
+            period_type="instant",
+        ),
+    ],
     "non_current_assets": [
         TmpTaxonomy(
             japanese_label="固定資産",
@@ -204,10 +252,106 @@ taxonomy_groups = {
             period_type="instant",
         ),
         TmpTaxonomy(
+            japanese_label="借入金、流動負債（IFRS）",
+            english_label="Borrowings - CL (IFRS)",
+            namespace="jpigp_cor",
+            element_id="BorrowingsCLIFRS",
+            period_type="instant",
+        ),
+    ],
+    "current_portion_long_term_debt": [
+        TmpTaxonomy(
+            japanese_label="１年内返済予定の長期借入金",
+            english_label="Current portion of long-term loans payable",
+            namespace="jppfs_cor",
+            element_id="CurrentPortionOfLongTermLoansPayable",
+            period_type="instant",
+        ),
+        TmpTaxonomy(
             japanese_label="１年内返済予定の長期借入金（IFRS）",
             english_label="Current portion of long-term borrowings - CL (IFRS)",
             namespace="jpigp_cor",
             element_id="CurrentPortionOfLongTermBorrowingsCLIFRS",
+            period_type="instant",
+        ),
+    ],
+    "current_portion_bonds": [
+        TmpTaxonomy(
+            japanese_label="１年内償還予定の社債",
+            english_label="Current portion of bonds",
+            namespace="jppfs_cor",
+            element_id="CurrentPortionOfBonds",
+            period_type="instant",
+        ),
+        TmpTaxonomy(
+            japanese_label="１年内償還予定の転換社債",
+            english_label="Current portion of convertible bonds",
+            namespace="jppfs_cor",
+            element_id="CurrentPortionOfConvertibleBonds",
+            period_type="instant",
+        ),
+        TmpTaxonomy(
+            japanese_label="１年内償還予定の新株予約権付社債",
+            english_label="Current portion of bonds with subscription rights to shares",
+            namespace="jppfs_cor",
+            element_id="CurrentPortionOfBondsWithSubscriptionRightsToShares",
+            period_type="instant",
+        ),
+        TmpTaxonomy(
+            japanese_label="社債、流動負債（IFRS）",
+            english_label="Bonds payable - CL (IFRS)",
+            namespace="jpigp_cor",
+            element_id="BondsPayableCLIFRS",
+            period_type="instant",
+        ),
+    ],
+    "short_term_bonds": [
+        TmpTaxonomy(
+            japanese_label="短期社債",
+            english_label="Short-term bonds payable",
+            namespace="jppfs_cor",
+            element_id="ShortTermBondsPayable",
+            period_type="instant",
+        ),
+    ],
+    "bonds_and_borrowings_current": [
+        TmpTaxonomy(
+            japanese_label="社債及び借入金、流動負債（IFRS）",
+            english_label="Bonds and borrowings - CL (IFRS)",
+            namespace="jpigp_cor",
+            element_id="BondsAndBorrowingsCLIFRS",
+            period_type="instant",
+        ),
+    ],
+    "current_liabilities_other": [
+        TmpTaxonomy(
+            japanese_label="その他、流動負債",
+            english_label="Other-CL",
+            namespace="jppfs_cor",
+            element_id="OtherCL",
+            period_type="instant",
+        ),
+        TmpTaxonomy(
+            japanese_label="その他の流動負債（IFRS）",
+            english_label="Other current liabilities - CL (IFRS)",
+            namespace="jpigp_cor",
+            element_id="OtherCurrentLiabilitiesCLIFRS",
+            period_type="instant",
+        ),
+    ],
+    "lease_obligations_current": [
+        TmpTaxonomy(
+            japanese_label="リース債務、流動負債",
+            english_label="Lease obligations - CL",
+            namespace="jppfs_cor",
+            element_id="LeaseObligationsCL",
+            period_type="instant",
+        ),
+        TmpTaxonomy(
+            japanese_label="リース負債、流動負債（IFRS）",
+            english_label="Lease liabilities - CL (IFRS)",
+            namespace="jpigp_cor",
+            element_id="LeaseLiabilitiesCLIFRS",
             period_type="instant",
         ),
     ],
@@ -240,6 +384,91 @@ taxonomy_groups = {
             english_label="Long-term debt - NCL (IFRS)",
             namespace="jpigp_cor",
             element_id="LongTermDebtNCLIFRS",
+            period_type="instant",
+        ),
+        TmpTaxonomy(
+            japanese_label="借入金、非流動負債（IFRS）",
+            english_label="Borrowings - NCL (IFRS)",
+            namespace="jpigp_cor",
+            element_id="BorrowingsNCLIFRS",
+            period_type="instant",
+        ),
+    ],
+    "bonds": [
+        TmpTaxonomy(
+            japanese_label="社債",
+            english_label="Bonds payable",
+            namespace="jppfs_cor",
+            element_id="BondsPayable",
+            period_type="instant",
+        ),
+        TmpTaxonomy(
+            japanese_label="転換社債",
+            english_label="Convertible bonds",
+            namespace="jppfs_cor",
+            element_id="ConvertibleBonds",
+            period_type="instant",
+        ),
+        TmpTaxonomy(
+            japanese_label="転換社債型新株予約権付社債",
+            english_label="Convertible bond-type bonds with subscription rights to shares",
+            namespace="jppfs_cor",
+            element_id="ConvertibleBondTypeBondsWithSubscriptionRightsToShares",
+            period_type="instant",
+        ),
+        TmpTaxonomy(
+            japanese_label="新株予約権付社債、固定負債",
+            english_label="Bonds with subscription rights to shares - NCL",
+            namespace="jppfs_cor",
+            element_id="BondsWithSubscriptionRightsToSharesNCL",
+            period_type="instant",
+        ),
+        TmpTaxonomy(
+            japanese_label="社債、非流動負債（IFRS）",
+            english_label="Bonds payable - NCL (IFRS)",
+            namespace="jpigp_cor",
+            element_id="BondsPayableNCLIFRS",
+            period_type="instant",
+        ),
+    ],
+    "bonds_and_borrowings_noncurrent": [
+        TmpTaxonomy(
+            japanese_label="社債及び借入金、非流動負債（IFRS）",
+            english_label="Bonds and borrowings - NCL (IFRS)",
+            namespace="jpigp_cor",
+            element_id="BondsAndBorrowingsNCLIFRS",
+            period_type="instant",
+        ),
+    ],
+    "noncurrent_liabilities_other": [
+        TmpTaxonomy(
+            japanese_label="その他、固定負債",
+            english_label="Other-NCL",
+            namespace="jppfs_cor",
+            element_id="OtherNCL",
+            period_type="instant",
+        ),
+        TmpTaxonomy(
+            japanese_label="その他の非流動負債（IFRS）",
+            english_label="Other non-current liabilities - NCL (IFRS)",
+            namespace="jpigp_cor",
+            element_id="OtherNonCurrentLiabilitiesNCLIFRS",
+            period_type="instant",
+        ),
+    ],
+    "lease_obligations_noncurrent": [
+        TmpTaxonomy(
+            japanese_label="リース債務、固定負債",
+            english_label="Lease obligations - NCL",
+            namespace="jppfs_cor",
+            element_id="LeaseObligationsNCL",
+            period_type="instant",
+        ),
+        TmpTaxonomy(
+            japanese_label="リース負債、非流動負債（IFRS）",
+            english_label="Lease liabilities - NCL (IFRS)",
+            namespace="jpigp_cor",
+            element_id="LeaseLiabilitiesNCLIFRS",
             period_type="instant",
         ),
     ],
@@ -662,6 +891,24 @@ taxonomy_groups = {
             period_type="instant",
         ),
     ],
+    "treasury_shares": [
+        TmpTaxonomy(
+            japanese_label="期末自己株式数",
+            english_label="Number of treasury stock at the end of fiscal year",
+            namespace="tse-ed-t",
+            element_id="NumberOfTreasuryStockAtTheEndOfFiscalYear",
+            period_type="instant",
+        ),
+    ],
+    "average_shares": [
+        TmpTaxonomy(
+            japanese_label="期中平均株式数",
+            english_label="Average number of shares",
+            namespace="tse-ed-t",
+            element_id="AverageNumberOfShares",
+            period_type="duration",
+        ),
+    ],
     "eps": [
         TmpTaxonomy(
             japanese_label="1株当たり当期純利益",
@@ -864,6 +1111,26 @@ taxonomy_groups = {
             english_label="Change in net income-US",
             namespace="tse-ed-t",
             element_id="ChangeInNetIncomeUS",
+            period_type="duration",
+        ),
+    ],
+    "segment_revenue": [
+        TmpTaxonomy(
+            japanese_label="外部顧客への売上高",
+            english_label="Revenues from external customers",
+            namespace="jpcrp_cor",
+            element_id="RevenuesFromExternalCustomers",
+            period_type="duration",
+        ),
+    ],
+    "segment_operating_income": [
+        # JGAAPにはセグメント利益を数値タグ化した勘定科目が存在しない(テキストブロック開示のみ)。
+        # IFRS開示企業のみ取得可能。
+        TmpTaxonomy(
+            japanese_label="セグメント利益又は損失（IFRS）",
+            english_label="Segment profit (loss) (IFRS)",
+            namespace="jpigp_cor",
+            element_id="SegmentProfitLossIFRS",
             period_type="duration",
         ),
     ],

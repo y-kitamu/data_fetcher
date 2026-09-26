@@ -2,7 +2,10 @@ import datetime
 from pathlib import Path
 
 from data_fetcher.domains.tdnet.constants.schema import Document, DocumentType, TaxonomyElement
-from data_fetcher.domains.tdnet.numeric_data import collect_data_from_document
+from data_fetcher.domains.tdnet.numeric_data import (
+    collect_data_from_document,
+    collect_shared_context_data,
+)
 from data_fetcher.domains.tdnet.taxonomy_index import TaxonomyIndex
 
 FIXTURES_DIR = Path(__file__).parent / "fixtures"
@@ -56,6 +59,46 @@ def test_reit_prior_quarter_fact_is_collected():
     periods = {fact.period for fact in numerics}
     assert "CurrentQuarter" in periods
     assert "Prior1Quarter" in periods
+
+
+def test_sibling_document_without_own_contexts_resolves_dates_via_shared_registry():
+    """decision短信のセグメント情報等の添付ファイルは自身のix:resourcesを持たず、
+    兄弟ファイル(貸借対照表等)で定義されたcontext_idを参照するのみのことがある。
+    documents全体でcontextをマージしなければ、参照専用ファイルのfactは日付を失う。"""
+    index = TaxonomyIndex.from_elements(
+        [_elem("jpcrp_cor:RevenuesFromExternalCustomers"), _elem("test-cor:NetAssets")]
+    )
+    doc_with_contexts = _document("sibling_with_contexts_ixbrl.htm")
+    doc_refs_only = _document("sibling_refs_only_ixbrl.htm")
+    documents = [doc_with_contexts, doc_refs_only]
+
+    shared_contexts, shared_segment_axes = collect_shared_context_data(documents)
+    numerics, _ = collect_data_from_document(
+        doc_refs_only, index, shared_contexts, shared_segment_axes
+    )
+
+    by_value = {fact.value: fact for fact in numerics}
+    segment_fact = by_value[80000000000.0]
+    assert segment_fact.start_date is not None
+    assert segment_fact.end_date is not None
+    assert segment_fact.segments == ["test-cor:FooReportableSegmentsMember"]
+
+    reconciling_fact = by_value[-5000000000.0]
+    assert reconciling_fact.segments == ["jpcrp_cor:ReconcilingItemsMember"]
+
+    equity_fact = by_value[1000000000.0]
+    assert equity_fact.segments == []
+
+
+def test_collect_data_from_document_without_shared_registry_falls_back_to_own_file():
+    """shared_contexts未指定時は自ファイル内のcontextのみで解決する(後方互換)。"""
+    index = TaxonomyIndex.from_elements([_elem("test-cor:NetSales")])
+    document = _document("minimal_edjp_ixbrl.htm")
+
+    numerics, _ = collect_data_from_document(document, index)
+
+    assert len(numerics) == 1
+    assert numerics[0].start_date is not None
 
 
 def test_nil_fact_becomes_none_not_zero():

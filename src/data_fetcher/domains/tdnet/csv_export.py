@@ -18,7 +18,7 @@ from ...core.constants import PROJECT_ROOT
 from ...core.csv_store import append_and_save_csv
 from .constants.schema import NonNumericData, NumericData
 from .document import collect_documents
-from .numeric_data import collect_data_from_document
+from .numeric_data import collect_data_from_document, collect_shared_context_data
 from .taxonomy_index import TaxonomyIndex
 
 OUTPUT_DIR = PROJECT_ROOT / "data/tdnet/csv"
@@ -123,9 +123,12 @@ def append_zip_to_csv(
         shutil.unpack_archive(zip_file, extract_dir=work_dir)
 
         documents = collect_documents(work_dir, zip_file, session)
+        shared_contexts, shared_segment_axes = collect_shared_context_data(documents)
         rows = []
         for document in documents:
-            numerics, nonnumerics = collect_data_from_document(document, taxonomy_index)
+            numerics, nonnumerics = collect_data_from_document(
+                document, taxonomy_index, shared_contexts, shared_segment_axes
+            )
             rows += build_fact_rows(numerics, nonnumerics, zip_file)
     finally:
         if work_dir.exists():
