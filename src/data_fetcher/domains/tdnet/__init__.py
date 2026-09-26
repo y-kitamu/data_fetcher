@@ -9,6 +9,7 @@ import requests
 from . import fetcher
 from .constants import zip_root_dir
 from .document import collect_documents
+from .financial_periods import FinancialPeriod, get_financial_periods, shape_financial_periods
 from .numeric_data import collect_numeric_datas
 from .taxonomy_element import collect_all_taxonomies
 from .taxonomy_index import TaxonomyIndex
@@ -20,6 +21,9 @@ __all__ = [
     "collect_numeric_datas",
     "collect_all_taxonomies",
     "get_all_data",
+    "FinancialPeriod",
+    "get_financial_periods",
+    "shape_financial_periods",
 ]
 
 
