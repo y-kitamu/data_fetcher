@@ -1,7 +1,10 @@
 from ..core.base_reader import BaseReader
 from .binance import BinanceReader
 from .bitflyer import BitflyerBookReader, BitflyerReader
+from .boj_stats import BojStatsReader
 from .edinet import EdinetFinancialReader, EdinetLargeShareholdingReader
+from .estat import EstatReader
+from .fred import FredReader
 from .gmo import GMOReader, GMOBookReader
 from .google_trends import GoogleTrendsReader
 from .histdata import HistDataReader
@@ -15,6 +18,7 @@ from .jpx_stats import (
 from .kabu_tick import KabuTickReader
 from .kabutan import KabutanReader
 from .news import JpNewsReader
+from .oecd import OecdReader
 from .rakuten import RakutenReader
 from .sbi import SBIReader
 from .taisyaku import TaisyakuHistoryReader, TaisyakuZandakaReader
@@ -26,8 +30,11 @@ __all__ = [
     "BinanceReader",
     "BitflyerBookReader",
     "BitflyerReader",
+    "BojStatsReader",
     "EdinetFinancialReader",
     "EdinetLargeShareholdingReader",
+    "EstatReader",
+    "FredReader",
     "GMOReader",
     "GMOBookReader",
     "GoogleTrendsReader",
@@ -40,6 +47,7 @@ __all__ = [
     "JpxMarginDisclosureReader",
     "KabuTickReader",
     "KabutanReader",
+    "OecdReader",
     "RakutenReader",
     "SBIReader",
     "TaisyakuHistoryReader",

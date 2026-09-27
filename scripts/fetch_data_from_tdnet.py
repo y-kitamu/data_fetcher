@@ -6,7 +6,16 @@ from requests import Session
 
 import data_fetcher
 from data_fetcher.core.session import get_session
+from data_fetcher.domains.tdnet.capital_action_extraction import (
+    append_capital_actions_to_csv,
+    build_capital_action_record,
+)
 from data_fetcher.domains.tdnet.csv_export import append_zip_to_csv
+from data_fetcher.domains.tdnet.disclosure_classifier import classify
+from data_fetcher.domains.tdnet.disclosure_list import (
+    append_disclosures_to_csv,
+    parse_disclosure_rows,
+)
 from data_fetcher.domains.tdnet.taxonomy_element import collect_all_taxonomies
 from data_fetcher.domains.tdnet.taxonomy_index import TaxonomyIndex
 
@@ -22,6 +31,21 @@ def download_page_data(
     if table is None:
         print(f"No data found for the given date. {date}")
         return []
+
+    # 全行のメタデータ(XBRL添付の有無に関わらず日時・タイトル・PDF URL・
+    # 開示種別)を保存する。既存のzipダウンロード処理(XBRL添付がある行のみ)
+    # とは独立に動かす。
+    disclosure_rows = parse_disclosure_rows(table, date)
+    append_disclosures_to_csv(disclosure_rows)
+    capital_action_records = []
+    for disclosure_row in disclosure_rows:
+        category_code = classify(disclosure_row.title).category_code
+        if category_code is None:
+            continue
+        record = build_capital_action_record(disclosure_row, category_code)
+        if record is not None:
+            capital_action_records.append(record)
+    append_capital_actions_to_csv(capital_action_records)
 
     saved_files = []
     for row in table.find_all("tr"):
@@ -75,7 +99,11 @@ def collect_daily_data(
         res = session.get(url)
         if res.status_code == 404:
             break
-        soup = BeautifulSoup(res.text)
+        # TDnetの一覧ページはContent-TypeにcharsetがないためRequestsの自動
+        # エンコーディング判定がLatin-1に誤判定し、`res.text`だと日本語タイトルが
+        # 文字化けする。生バイト列をBeautifulSoupに渡し、ページ内のmetaタグから
+        # 判定させる。
+        soup = BeautifulSoup(res.content, "html.parser")
         saved_files += download_page_data(soup, output_dir, date_str, taxonomy_index)
         idx += 1
     return saved_files

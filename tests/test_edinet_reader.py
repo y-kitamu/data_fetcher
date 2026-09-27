@@ -4,25 +4,27 @@ import datetime
 
 from data_fetcher.readers.edinet import EdinetFinancialReader, EdinetLargeShareholdingReader
 
-_FINANCIAL_HEADER = "key,start_date,end_date,edinet_key,period,value,announce_date\n"
 _SHAREHOLDING_HEADER = (
     "doc_id,issuer_name,issuer_sec_code,filing_date,holding_ratio,shares_held,holder_name\n"
 )
 
 
-def test_financial_reader_truncates_stem_for_available_tickers(tmp_path):
-    d = tmp_path / "financial"
+def test_financial_reader_reads_tidy_csv(tmp_path):
+    d = tmp_path / "csv"
     d.mkdir()
-    (d / "13010.csv").write_text(
-        _FINANCIAL_HEADER + "net_sales,2010-04-01,2011-03-31,jpcrp_cor:X,P,162731000000,201506241620\n"
+    (d / "1301.csv").write_text(
+        "code,filing_date,element_id,value\n"
+        "1301,2025-06-25,jppfs_cor:NetSales,302681000000.0\n"
+        "1301,2015-06-24,jppfs_cor:NetSales,218350000000.0\n"
     )
 
     reader = EdinetFinancialReader(data_dir=d)
     assert reader.available_tickers == ["1301"]
 
-    df = reader.read_financial("1301")
-    assert df["value"].to_list() == [162731000000]
-    assert df["announce_date"].to_list() == [datetime.datetime(2015, 6, 24, 16, 20)]
+    df = reader.read_financial("1301", start_date=datetime.datetime(2016, 1, 1))
+    assert df["code"].to_list() == ["1301"]
+    assert df["filing_date"].to_list() == [datetime.date(2025, 6, 25)]
+    assert df["concept"].to_list() == ["net_sales"]
 
     assert len(reader.read_financial("9999")) == 0
 

@@ -12,6 +12,28 @@ from ..domains.tdnet.constants.taxonomy_group import ELEMENT_TO_CONCEPT
 DATA_DIR = PROJECT_ROOT / "data" / "tdnet" / "csv"
 
 
+def read_tidy_financial_csv(
+    csv_path: Path,
+    start_date: datetime.datetime | None = None,
+    end_date: datetime.datetime | None = None,
+) -> pl.DataFrame:
+    """1事実=1行のロング形式CSV(data/tdnet/csv, data/edinet/csv共通)を読み込む。"""
+    if not csv_path.exists():
+        return pl.DataFrame()
+
+    df = pl.read_csv(csv_path, schema_overrides={"code": pl.Utf8}).with_columns(
+        pl.col("filing_date").str.to_date("%Y-%m-%d"),
+        pl.col("element_id")
+        .replace_strict(ELEMENT_TO_CONCEPT, default=None, return_dtype=pl.Utf8)
+        .alias("concept"),
+    )
+    if start_date is not None:
+        df = df.filter(pl.col("filing_date") >= start_date.date())
+    if end_date is not None:
+        df = df.filter(pl.col("filing_date") <= end_date.date())
+    return df.sort("filing_date")
+
+
 class TdnetReader(BaseReader):
     SOURCE_NAME = "tdnet"
 
@@ -33,18 +55,6 @@ class TdnetReader(BaseReader):
         start_date: datetime.datetime | None = None,
         end_date: datetime.datetime | None = None,
     ) -> pl.DataFrame:
-        csv_path = self.data_dir / f"{symbol}.csv"
-        if not csv_path.exists():
-            return pl.DataFrame()
-
-        df = pl.read_csv(csv_path, schema_overrides={"code": pl.Utf8}).with_columns(
-            pl.col("filing_date").str.to_date("%Y-%m-%d"),
-            pl.col("element_id")
-            .replace_strict(ELEMENT_TO_CONCEPT, default=None, return_dtype=pl.Utf8)
-            .alias("concept"),
+        return read_tidy_financial_csv(
+            self.data_dir / f"{symbol}.csv", start_date, end_date
         )
-        if start_date is not None:
-            df = df.filter(pl.col("filing_date") >= start_date.date())
-        if end_date is not None:
-            df = df.filter(pl.col("filing_date") <= end_date.date())
-        return df.sort("filing_date")

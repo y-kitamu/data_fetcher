@@ -95,7 +95,7 @@ SOURCE_RULES: dict[str, SourceRule] = {
     "tdnet": SourceRule(
         pattern="per_ticker", cadence="irregular", ticker_universe="jp_stock"
     ),
-    "edinet/financial": SourceRule(
+    "edinet/csv": SourceRule(
         pattern="per_ticker",
         cadence="irregular",
         ticker_universe="jp_stock",
@@ -110,6 +110,14 @@ SOURCE_RULES: dict[str, SourceRule] = {
     ),
     "fxea/data": SourceRule(pattern="per_date", cadence="daily", enabled=False),
     "kabus": SourceRule(pattern="per_date", cadence="weekday"),
+    # マクロ経済指標。boj_statsは「1データセット=1ファイル」(cgpi.csv/tankan.csv)
+    # のみなので実質2ファイルの鮮度監視になる。
+    "boj_stats": SourceRule(pattern="per_ticker", cadence="irregular"),
+    # FRED/OECDは毎回全カタログが揃って更新されるため、monthlyで部分遅延も検知できる。
+    "fred": SourceRule(pattern="per_ticker", cadence="monthly"),
+    "oecd": SourceRule(pattern="per_ticker", cadence="monthly"),
+    # e-Statはテーブル改廃・基準年改定でシリーズ単位の陳腐化が起きやすいためirregular。
+    "estat": SourceRule(pattern="per_ticker", cadence="irregular"),
 }
 
 

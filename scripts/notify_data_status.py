@@ -30,6 +30,10 @@ data_type = {
     "jp_ticker_themes": "Japan stock",
     "edinet": "Japan stock",
     "google_trends": "Japan stock",
+    "boj_stats": "Macro",
+    "fred": "Macro",
+    "oecd": "Macro",
+    "estat": "Macro",
 }
 
 _DATA_FILE_PATTERNS = ("*.csv*", "*.json*")

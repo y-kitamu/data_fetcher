@@ -6,23 +6,31 @@ specialized data processing pipelines and extensive internal dependencies.
 """
 
 from . import (
+    boj_stats,
     edinet,
+    estat,
+    fred,
     google_trends,
     jp_stocks,
     jpx_stats,
     jquants,
     kabutan,
+    oecd,
     taisyaku,
     tdnet,
 )
 
 __all__ = [
+    "boj_stats",
     "edinet",
+    "estat",
+    "fred",
     "google_trends",
     "jp_stocks",
     "jpx_stats",
     "jquants",
     "kabutan",
+    "oecd",
     "taisyaku",
     "tdnet",
 ]

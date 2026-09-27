@@ -30,8 +30,11 @@ from .readers import (
     BinanceReader,
     BitflyerBookReader,
     BitflyerReader,
+    BojStatsReader,
     EdinetFinancialReader,
     EdinetLargeShareholdingReader,
+    EstatReader,
+    FredReader,
     GMOBookReader,
     GMOReader,
     GoogleTrendsReader,
@@ -44,6 +47,7 @@ from .readers import (
     JpxMarginDisclosureReader,
     KabutanReader,
     KabuTickReader,
+    OecdReader,
     SBIReader,
     TaisyakuHistoryReader,
     TaisyakuZandakaReader,
@@ -76,6 +80,8 @@ _CATALOG: dict[str, list[type[BaseReader]]] = {
         JpxMarginDisclosureReader,
     ],
     "search_trend": [GoogleTrendsReader],
+    # マクロ経済指標: series_idをsymbolとみなして横断読み出しする。
+    "macro_series": [FredReader, EstatReader, BojStatsReader, OecdReader],
 }
 
 # Market-wide / no-symbol kinds: a single reader each, exposing a plain
@@ -271,6 +277,21 @@ def get_search_trend(
     source: str | None = None,
 ) -> dict[str, pl.DataFrame]:
     readers = _resolve_symbol_readers("search_trend", symbol, source)
+    return {
+        reader.SOURCE_NAME: _attach_source(
+            reader.read_ticker(symbol, start_date, end_date), reader
+        )
+        for reader in readers
+    }
+
+
+def get_macro_series(
+    symbol: str,
+    start_date: datetime.datetime = datetime.datetime(1970, 1, 1),
+    end_date: datetime.datetime = datetime.datetime.now(),
+    source: str | None = None,
+) -> dict[str, pl.DataFrame]:
+    readers = _resolve_symbol_readers("macro_series", symbol, source)
     return {
         reader.SOURCE_NAME: _attach_source(
             reader.read_ticker(symbol, start_date, end_date), reader

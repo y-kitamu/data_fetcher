@@ -7,13 +7,14 @@ import polars as pl
 
 from ..core.base_reader import BaseReader
 from ..core.constants import PROJECT_ROOT
+from .tdnet import read_tidy_financial_csv
 
-FINANCIAL_DIR = PROJECT_ROOT / "data" / "edinet" / "financial"
+FINANCIAL_DIR = PROJECT_ROOT / "data" / "edinet" / "csv"
 LARGE_SHAREHOLDING_DIR = PROJECT_ROOT / "data" / "edinet" / "large_shareholding"
 
 
 class EdinetFinancialReader(BaseReader):
-    """Reader for data/edinet/financial/{code}0.csv (e.g. 13010.csv = code 1301)."""
+    """Reader for data/edinet/csv/{code}.csv (same long format as data/tdnet/csv)."""
 
     SOURCE_NAME = "edinet_financial"
 
@@ -25,13 +26,9 @@ class EdinetFinancialReader(BaseReader):
     def available_tickers(self) -> list[str]:
         if len(self._available_tickers) == 0:
             self._available_tickers = sorted(
-                {path.stem[:4] for path in self.data_dir.glob("*.csv")}
+                path.stem for path in self.data_dir.glob("*.csv")
             )
         return self._available_tickers
-
-    def _path_for(self, symbol: str) -> Path | None:
-        matches = sorted(self.data_dir.glob(f"{symbol}*.csv"))
-        return matches[0] if matches else None
 
     def read_financial(
         self,
@@ -39,18 +36,9 @@ class EdinetFinancialReader(BaseReader):
         start_date: datetime.datetime | None = None,
         end_date: datetime.datetime | None = None,
     ) -> pl.DataFrame:
-        csv_path = self._path_for(symbol)
-        if csv_path is None:
-            return pl.DataFrame()
-
-        df = pl.read_csv(csv_path).with_columns(
-            pl.col("announce_date").cast(pl.Utf8).str.to_datetime("%Y%m%d%H%M")
+        return read_tidy_financial_csv(
+            self.data_dir / f"{symbol}.csv", start_date, end_date
         )
-        if start_date is not None:
-            df = df.filter(pl.col("announce_date") >= start_date)
-        if end_date is not None:
-            df = df.filter(pl.col("announce_date") <= end_date)
-        return df.sort("announce_date")
 
 
 class EdinetLargeShareholdingReader(BaseReader):
