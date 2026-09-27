@@ -2,8 +2,8 @@ name: Update Japanese Stock Data
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "0 8 * * *"
+  # schedule:
+  #   - cron: "0 8 * * *"
 
 # env:
 #   AWS_ACCESS_KEY_ID: ${{secrets.AWS_ACCESS_KEY_ID}}
