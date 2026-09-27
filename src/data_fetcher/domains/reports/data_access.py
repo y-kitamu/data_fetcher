@@ -17,7 +17,6 @@ from ..tdnet.disclosure_list import DISCLOSURES_DIR
 from ..tdnet.financial_periods import FinancialPeriod, shape_financial_periods
 from ..tdnet.statement_periods import (
     StatementPeriod,
-    shape_edinet_statement_periods,
     shape_statement_periods,
 )
 from .pit import filter_available, is_available_at
@@ -41,15 +40,15 @@ def get_statement_periods(
     ticker: str, as_of: dt.date
 ) -> tuple[list[StatementPeriod], list[StatementPeriod]]:
     """TDnet(第1ソース)とEDINET(補完ソース)のas_of時点PITフィルタ済み
-    StatementPeriodを返す(section 5.1)。
+    StatementPeriodを返す。
     """
     tdnet_periods = shape_statement_periods(_get_financials_or_empty(ticker, "tdnet"))
     tdnet_periods = filter_available(
         tdnet_periods, as_of, disclosed_at=lambda p: p.submitted_at
     )
 
-    edinet_periods = shape_edinet_statement_periods(
-        _get_financials_or_empty(ticker, "edinet")
+    edinet_periods = shape_statement_periods(
+        _get_financials_or_empty(ticker, "edinet_financial"), source="edinet"
     )
     edinet_periods = filter_available(
         edinet_periods, as_of, disclosed_at=lambda p: p.submitted_at
@@ -61,8 +60,8 @@ def get_statement_periods(
 def resolve_shares_outstanding(
     tdnet_periods: list[StatementPeriod],
 ) -> tuple[float | None, float | None, float | None]:
-    """as_of時点で最新の開示から発行済株式数・自己株式数を解決する(section
-    7.1)。`tdnet_periods`はPIT済み・submitted_at降順ソート済みであること
+    """as_of時点で最新の開示から発行済株式数・自己株式数を解決する。
+    `tdnet_periods`はPIT済み・submitted_at降順ソート済みであること
     (get_statement_periodsの戻り値がそのままこの前提を満たす)。
 
     Returns: (shares_issued, treasury_shares, shares_outstanding)
@@ -118,19 +117,17 @@ def get_price_history(ticker: str, as_of: dt.date) -> pl.DataFrame:
     end = dt.datetime.combine(as_of, dt.time(23, 59, 59))
     try:
         dfs = gateway.get_ohlc(ticker, interval=dt.timedelta(days=1), end_date=end)
-    except ValueError:
-        return pl.DataFrame({"date": [], "close": []})
     except Exception as exc:
         logger.warning(f"Failed to read OHLC for {ticker}: {exc}")
         return pl.DataFrame({"date": [], "close": []})
-    if not dfs:
-        return pl.DataFrame({"date": [], "close": []})
-    df = next(iter(dfs.values()))
-    if df.height == 0:
-        return pl.DataFrame({"date": [], "close": []})
-    return df.select(
-        pl.col("datetime").dt.date().alias("date"), pl.col("close")
-    ).drop_nulls("close")
+
+    for df in dfs.values():
+        df = next(iter(dfs.values()))
+        if df.height > 0:
+            return df.select(
+                pl.col("datetime").dt.date().alias("date"), pl.col("close")
+            ).drop_nulls("close")
+    return pl.DataFrame({"date": [], "close": []})
 
 
 def compute_peak_price(
@@ -146,9 +143,7 @@ def compute_peak_price(
     if window.height == 0:
         return None, None
     peak_row = window.sort("close", descending=True).head(1)
-    peak_price = float(peak_row["close"][0])
-    peak_date = peak_row["date"][0]
-    return peak_price, peak_date.isoformat()
+    return float(peak_row["close"][0]), peak_row["date"][0].isoformat()
 
 
 def get_financial_periods_summary(ticker: str, as_of: dt.date) -> list[FinancialPeriod]:

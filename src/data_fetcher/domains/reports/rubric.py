@@ -21,8 +21,8 @@ from dataclasses import dataclass
 from pathlib import Path
 from typing import Union
 
-import yaml
 from pydantic import BaseModel
+from ruamel.yaml import YAML
 
 OPERATORS: dict[str, Callable[[float, float], bool]] = {
     "<": lambda a, b: a < b,
@@ -152,9 +152,20 @@ def evaluate_condition(node: _ConditionNode, metrics: dict) -> bool | None:
     return None if any(r is None for r in results) else False
 
 
-def evaluate_bins(value: float | None, bins: list[float], order: str) -> str | None:
+def evaluate_bins(
+    value: float | None,
+    bins: list[float],
+    order: str,
+    nonpositive: str | None = None,
+) -> str | None:
+    """Grade value against bins. nonpositive, if given, is returned for
+    value <= 0 before the bins are consulted: for ratios like PER a negative
+    value means a loss, not "cheaper than any threshold".
+    """
     if value is None:
         return None
+    if nonpositive is not None and value <= 0:
+        return nonpositive
     if order == "asc":
         for grade, threshold in zip(_GRADES, bins):
             if value <= threshold:
@@ -244,8 +255,14 @@ def compute_auto_ratings(config: dict, metrics: dict) -> AutoRatingsResult:
             continue
         metric_name = item_config["metric"]
         value = metrics.get(metric_name)
-        ratings[item] = evaluate_bins(value, item_config["bins"], item_config["order"])
-        details[item] = AutoRatingDetail(metric=value, points=None, note=metric_name)
+        nonpositive = item_config.get("nonpositive")
+        ratings[item] = evaluate_bins(
+            value, item_config["bins"], item_config["order"], nonpositive
+        )
+        note = metric_name
+        if nonpositive is not None and value is not None and value <= 0:
+            note = f"{metric_name} (nonpositive)"
+        details[item] = AutoRatingDetail(metric=value, points=None, note=note)
 
     fh_config = config.get("financial_health")
     if fh_config is not None:
@@ -284,7 +301,7 @@ def compute_auto_ratings(config: dict, metrics: dict) -> AutoRatingsResult:
 
 def load_rubric_config(path: Path, expected_version: int | None = None) -> dict:
     with path.open(encoding="utf-8") as f:
-        config = yaml.safe_load(f)
+        config = YAML(typ="safe").load(f)
     if (
         expected_version is not None
         and config.get("rubric_version") != expected_version

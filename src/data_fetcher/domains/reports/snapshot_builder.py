@@ -37,7 +37,6 @@ from .snapshot_schema import (
     CapitalAction,
     CapitalCostDisclosure,
     CompanyInfo,
-    CostStructureData,
     CycleData,
     DisclosureItem,
     ForecastInfo,
@@ -178,11 +177,10 @@ def build_snapshot(
         is_latest.get("operating_income"), cf_latest.get("depreciation")
     )
 
-    cost_structure_result = cost_structure_module.fit_cost_structure(
+    cost_structure_data = cost_structure_module.fit_cost_structure(
         annual.income_statement.get("revenue", []),
         annual.income_statement.get("operating_income", []),
     )
-    cost_structure_data = CostStructureData(**cost_structure_result.model_dump())
 
     liquidation_result = liquidation_module.compute_liquidation_value(
         bs_latest, shares_outstanding
@@ -855,8 +853,8 @@ def _build_rubric_metrics(
     if (
         market_cap is not None
         and liquidation_result.value_total
-        and liquidation_result.value_total > 0
     ):
+        # 清算価値が負なら負の比率になり、rubricのnonpositive: Eで評価される
         market_cap_to_liquidation = market_cap / liquidation_result.value_total
 
     return {

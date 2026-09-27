@@ -67,16 +67,19 @@ class StatementPeriod(BaseModel):
         return f"{self.fiscal_year_end.year:04d}-{self.fiscal_year_end.month:02d}"
 
 
-def shape_statement_periods(df: pl.DataFrame) -> list[StatementPeriod]:
-    """Shape one symbol's tidy TDnet facts into per-filing StatementPeriod
-    records (original settlements only - standalone forecast-revision
-    notices never carry a financial statement).
+def shape_statement_periods(
+    df: pl.DataFrame, source: str = "tdnet"
+) -> list[StatementPeriod]:
+    """Shape one symbol's tidy TDnet (or EDINET, which is saved in the same
+    long format) facts into per-filing StatementPeriod records (original
+    settlements only - standalone forecast-revision notices never carry a
+    financial statement).
     """
     if df.height == 0:
         return []
     settlements_df = df.filter(pl.col("doc_style").is_in(_ORIGINAL_DOC_STYLES))
     periods = [
-        _build_statement_period(filing_df)
+        _build_statement_period(filing_df, source)
         for _, filing_df in settlements_df.group_by("source_file", maintain_order=True)
     ]
     return sorted(
@@ -86,7 +89,9 @@ def shape_statement_periods(df: pl.DataFrame) -> list[StatementPeriod]:
     )
 
 
-def _build_statement_period(filing_df: pl.DataFrame) -> StatementPeriod | None:
+def _build_statement_period(
+    filing_df: pl.DataFrame, source: str
+) -> StatementPeriod | None:
     if filing_df["fiscal_year_end"][0] is None:
         # collect_documents() couldn't find a FiscalYearEnd tag for this zip
         # (logs a warning at ingestion time) - without it we can't label the
@@ -106,6 +111,11 @@ def _build_statement_period(filing_df: pl.DataFrame) -> StatementPeriod | None:
         "",
     ]
     forecasts = ["ResultMember", ""]
+    if source == "edinet":
+        # EDINETは全行に連結区分が明示されるため、_extractの「連結区分が一致する行が
+        # 無ければ全行から探す」フォールバックで個別の値を連結として拾わないよう絞り込む
+        # (IFRS等で連結科目が提出者独自の要素のみの場合に起きる)。
+        filing_df = filing_df.filter(pl.col("consolidated").is_in(consolidateds))
 
     balance_sheet = _resolve_balance_sheet(
         filing_df, window_periods, consolidateds, forecasts
@@ -148,6 +158,7 @@ def _build_statement_period(filing_df: pl.DataFrame) -> StatementPeriod | None:
         submitted_at = submitted_at.replace(tzinfo=_JST)
 
     return StatementPeriod(
+        source=source,
         fiscal_year_end=fiscal_year_end,
         doc_period=doc_period,
         quarter_number=quarter_number,
@@ -241,54 +252,3 @@ def _segment_values(
         if value is not None and member not in result:
             result[member] = float(value)
     return result
-
-
-def shape_edinet_statement_periods(df: pl.DataFrame) -> list[StatementPeriod]:
-    """Shape EDINET's flat summary CSV into StatementPeriod records.
-
-    Only revenue/cost_of_sales/operating_income/ordinary_income/net_income
-    (income_statement) and total_assets/net_assets (balance_sheet) are ever
-    populated; cash_flow and segments are always empty. `CurrentYear`,
-    `Prior1Year`, ... all describe the same real fiscal year (identified by
-    `end_date`) as seen from different filings, so rows are grouped directly
-    by end_date rather than by that relative label.
-    """
-    if df.height == 0:
-        return []
-    consolidated = df.filter(
-        ~pl.col("period").str.contains("NonConsolidatedMember")
-    ).with_columns(pl.col("value").cast(pl.Float64, strict=False))
-    periods: list[StatementPeriod] = []
-    for (end_date,), group in consolidated.group_by(["end_date"]):
-        values: dict[str, float] = {}
-        for key, value in zip(group["key"].to_list(), group["value"].to_list()):
-            if value is not None and key not in values:
-                values[key] = value
-        submitted_at = group["announce_date"].min()
-        if submitted_at.tzinfo is None:
-            submitted_at = submitted_at.replace(tzinfo=_JST)
-        periods.append(
-            StatementPeriod(
-                source="edinet",
-                fiscal_year_end=dt.date.fromisoformat(end_date),
-                doc_period="a",
-                quarter_number=0,
-                submitted_at=submitted_at,
-                is_consolidated=True,
-                balance_sheet={
-                    "total_assets": values.get("total_asset"),
-                    "net_assets": values.get("net_asset"),
-                },
-                income_statement={
-                    "revenue": values.get("net_sales"),
-                    "cost_of_sales": values.get("cost_of_sales"),
-                    "sga": None,
-                    "operating_income": values.get("operating_income"),
-                    "ordinary_income": values.get("ordinary_income"),
-                    "net_income": values.get("net_income"),
-                },
-                cash_flow={},
-                segments=[],
-            )
-        )
-    return sorted(periods, key=lambda p: p.submitted_at, reverse=True)

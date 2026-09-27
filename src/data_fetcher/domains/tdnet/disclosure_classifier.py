@@ -11,8 +11,8 @@ from __future__ import annotations
 from dataclasses import dataclass
 from pathlib import Path
 
-import yaml
 from pydantic import BaseModel
+from ruamel.yaml import YAML
 
 _CONFIG_PATH = Path(__file__).parent / "constants" / "disclosure_categories.yaml"
 
@@ -33,7 +33,7 @@ class _CategoryRule:
 
 def load_config(path: Path = _CONFIG_PATH) -> dict:
     with path.open(encoding="utf-8") as f:
-        return yaml.safe_load(f)
+        return YAML(typ="safe").load(f)
 
 
 def _build_rules(config: dict) -> list[_CategoryRule]:

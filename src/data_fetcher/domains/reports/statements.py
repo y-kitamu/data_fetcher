@@ -131,7 +131,11 @@ def build_annual_statements(
                     value = value / YEN_TO_MILLION
                 target[key].append(value)
                 if used != "missing":
-                    by_series_acc[section_name][used].append(fy)
+                    # One entry per fiscal year (not per key); fiscal_years is
+                    # sorted, so the tail check is enough to dedupe.
+                    fys = by_series_acc[section_name][used]
+                    if not fys or fys[-1] != fy:
+                        fys.append(fy)
 
     return AnnualStatementsResult(
         fiscal_years=fiscal_years,

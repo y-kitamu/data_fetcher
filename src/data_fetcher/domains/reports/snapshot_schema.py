@@ -11,6 +11,7 @@ from typing import Literal
 
 from pydantic import BaseModel, Field
 
+from ..jp_stocks.cost_structure import CostStructure
 from ..jp_stocks.dcf import DcfResult
 from ..jp_stocks.liquidation import LiquidationValue
 from ..jp_stocks.normalized_value import NormalizedValue
@@ -110,16 +111,6 @@ class ValuationMetrics(BaseModel):
     drawdown_from_peak: float | None = None
 
 
-class CostStructureData(BaseModel):
-    fixed_cost: float | None = None
-    variable_cost_ratio: float | None = None
-    r2: float | None = None
-    n_years: int = 0
-    breakeven_revenue: float | None = None
-    latest_revenue: float | None = None
-    gap_to_breakeven_pct: float | None = None
-
-
 class SnapshotDcf(DcfResult):
     fcf_base_year: str | None = None
 
@@ -212,14 +203,18 @@ class CapitalCostDisclosure(BaseModel):
 
 class ShareholdersData(BaseModel):
     top10: list[ShareholderTop10] = Field(default_factory=list)
-    large_shareholding_reports: list[LargeShareholdingReport] = Field(default_factory=list)
+    large_shareholding_reports: list[LargeShareholdingReport] = Field(
+        default_factory=list
+    )
     payout_ratio: list[float | None] = Field(default_factory=list)
     dividend_per_share: list[float | None] = Field(default_factory=list)
     capital_actions: list[CapitalAction] = Field(default_factory=list)
     shareholder_return_policy: ShareholderReturnPolicy = Field(
         default_factory=ShareholderReturnPolicy
     )
-    capital_cost_disclosure: CapitalCostDisclosure = Field(default_factory=CapitalCostDisclosure)
+    capital_cost_disclosure: CapitalCostDisclosure = Field(
+        default_factory=CapitalCostDisclosure
+    )
 
 
 class DisclosureItem(BaseModel):
@@ -295,7 +290,7 @@ class Snapshot(BaseModel):
 
     ratios: RatiosData = Field(default_factory=RatiosData)
     valuation_metrics: ValuationMetrics = Field(default_factory=ValuationMetrics)
-    cost_structure: CostStructureData = Field(default_factory=CostStructureData)
+    cost_structure: CostStructure = Field(default_factory=CostStructure)
     liquidation_value: LiquidationValue | None = None
     dcf: SnapshotDcf | None = None
     normalized_value: NormalizedValue | None = None

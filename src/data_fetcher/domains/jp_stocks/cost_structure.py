@@ -13,13 +13,13 @@ _WINDOW_YEARS = 10
 
 
 class CostStructure(BaseModel):
-    fixed_cost: float | None
-    variable_cost_ratio: float | None
-    r2: float | None
-    n_years: int
-    breakeven_revenue: float | None
-    latest_revenue: float | None
-    gap_to_breakeven_pct: float | None
+    fixed_cost: float | None = None
+    variable_cost_ratio: float | None = None
+    r2: float | None = None
+    n_years: int = 0
+    breakeven_revenue: float | None = None
+    latest_revenue: float | None = None
+    gap_to_breakeven_pct: float | None = None
 
 
 def fit_cost_structure(

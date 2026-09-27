@@ -48,6 +48,25 @@ def test_evaluate_bins_asc_and_desc_boundaries():
     assert evaluate_bins(0.01, [0.12, 0.08, 0.05, 0.02], "desc") == "E"
 
 
+def test_evaluate_bins_nonpositive_overrides_asc_bins():
+    # 負値PER(赤字)が「最も割安」のAになってはいけない
+    assert evaluate_bins(-5.0, [6, 9, 12, 18], "asc", nonpositive="E") == "E"
+    assert evaluate_bins(0.0, [6, 9, 12, 18], "asc", nonpositive="E") == "E"
+    assert evaluate_bins(5.0, [6, 9, 12, 18], "asc", nonpositive="E") == "A"
+    assert evaluate_bins(None, [6, 9, 12, 18], "asc", nonpositive="E") is None
+    # 未指定なら従来通り
+    assert evaluate_bins(-5.0, [6, 9, 12, 18], "asc") == "A"
+
+
+def test_compute_auto_ratings_negative_per_is_e():
+    rubric = {
+        "earnings_value": {"metric": "per_normalized", "bins": [6, 9, 12, 18], "order": "asc", "nonpositive": "E"},
+    }
+    result = compute_auto_ratings(rubric, {"per_normalized": -3.2})
+    assert result.ratings["earnings_value"] == "E"
+    assert result.details["earnings_value"].note == "per_normalized (nonpositive)"
+
+
 def test_evaluate_condition_and_or_kleene_logic():
     cond = parse_condition("a >= 0.6 and b <= 3")
     assert evaluate_condition(cond, {"a": 0.7, "b": 2}) is True

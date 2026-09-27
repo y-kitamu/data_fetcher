@@ -1,0 +1,36 @@
+# A〜E評価基準(rubric)の閾値。仮置き(人向けの説明はreports/rubric.mdを参照)。
+# 変更したらrubric_versionを上げ、reports/rubric.mdの変更履歴にも追記すること。
+rubric_version: 1
+
+asset_value: { metric: market_cap_to_liquidation, bins: [0.7, 1.0, 1.5, 2.5], order: asc, nonpositive: E }
+earnings_value: { metric: per_normalized, bins: [6, 9, 12, 18], order: asc, nonpositive: E }
+profitability: { metric: median_operating_margin, bins: [0.12, 0.08, 0.05, 0.02], order: desc }
+growth: { metric: peak_to_peak_revenue_cagr, bins: [0.10, 0.05, 0.02, 0.0], order: desc }
+
+financial_health:
+  components:
+    equity_ratio: { points: [[0.60, 2], [0.40, 1]], else: 0 }
+    net_cash_to_mcap: { points: [[0.50, 2], [0.0, 1]], else: 0 }
+    runway_months: { points: [[36, 2], [18, 1]], else: 0, null_if_ocf_positive: 2 }
+  grade_by_total: { A: [6], B: [5], C: [3, 4], D: [2], E: [0, 1] }
+
+survival:
+  rules:
+    - { if: "going_concern_note or exchange_designation or covenant_breach", grade: E }
+    - { if: "ocf_positive and debt_due_to_cash < 0.5", grade: A }
+    - { if: "runway_months >= 36", grade: A }
+    - { if: "runway_months >= 24", grade: B }
+    - { if: "runway_months >= 12", grade: C }
+    - { if: "runway_months >= 6", grade: D }
+    - { else: E }
+
+cyclicality:
+  rules:
+    - { if: "peer_margin_deterioration_share >= 0.6 and industry_margin_half_life_years <= 3", grade: A }
+    - { if: "peer_margin_deterioration_share >= 0.6", grade: B }
+    - { if: "peer_margin_deterioration_share >= 0.3", grade: C }
+    - { else: D }
+
+reversal:
+  score_items: [loss_narrowing_qoq, loss_narrowing_yoy, upward_revision_last_6m, "industry_capex_to_depreciation < 1.0"]
+  grade_by_count: { A: [4], B: [3], C: [2], D: [1], E: [0] }

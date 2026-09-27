@@ -1,0 +1,157 @@
+{
+  "_comment": "スナップショットの形の例。数値はすべて架空（サンプル造船 9999）。サイトの「auto:xxx」ブロックはこのファイルから描画する。単位: 金額は百万円、1株あたりは円。",
+  "schema_version": 1,
+  "ticker": "9999",
+  "company_name": "サンプル造船",
+  "as_of": "2026-10-01",
+  "generated_at": "2026-10-01T20:15:00+09:00",
+  "sources": {
+    "edinet_financial": "2026-09-20T13:04:12+09:00",
+    "kabutan_ohlc": "2026-10-01T15:30:00+09:00",
+    "edinet_large_shareholding": "2026-09-06T11:33:19+09:00"
+  },
+  "market": {
+    "price": 1234,
+    "shares_outstanding": 30000000,
+    "treasury_shares": 500000,
+    "market_cap": 36403,
+    "peak_price": 4600,
+    "peak_date": "2021-11-08",
+    "drawdown_from_peak": -0.732
+  },
+  "fiscal_years": ["2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024", "2025", "2026"],
+  "balance_sheet": {
+    "cash": [],
+    "receivables": [],
+    "inventory": [],
+    "current_assets_other": [],
+    "current_assets_total": [],
+    "ppe": [],
+    "intangibles": [],
+    "investment_securities": [],
+    "investments_other": [],
+    "total_assets": [],
+    "payables": [],
+    "short_term_debt": [],
+    "current_liabilities_other": [],
+    "current_liabilities_total": [],
+    "long_term_debt": [],
+    "noncurrent_liabilities_other": [],
+    "noncurrent_liabilities_total": [],
+    "total_liabilities": [],
+    "net_assets": []
+  },
+  "income_statement": {
+    "revenue": [],
+    "cost_of_sales_ratio": [],
+    "sga_ratio": [],
+    "operating_income": [],
+    "ordinary_income": [],
+    "net_income": []
+  },
+  "cash_flow": {
+    "operating_cf": [],
+    "investing_cf": [],
+    "capex": [],
+    "financing_cf": [],
+    "fcf": []
+  },
+  "segments": [
+    { "name": "造船", "revenue": [], "operating_income": [] },
+    { "name": "修繕・その他", "revenue": [], "operating_income": [] }
+  ],
+  "ratios": {
+    "equity_ratio": [],
+    "current_ratio": [],
+    "net_cash": [],
+    "debt_to_ebitda": [],
+    "operating_margin": [],
+    "roe": [],
+    "roa": [],
+    "roic": [],
+    "revenue_growth": [],
+    "operating_income_growth": [],
+    "operating_margin_cycle_median": 0.061,
+    "operating_margin_percentile_now": 0.05,
+    "consecutive_loss_years": 2
+  },
+  "valuation_metrics": {
+    "per_trailing": null,
+    "per_normalized": 7.4,
+    "pcfr": null,
+    "psr": 0.30,
+    "pbr": 0.45,
+    "earnings_yield": null,
+    "per_x_pbr": null,
+    "ev_ebitda": null,
+    "accruals_to_assets": -0.021
+  },
+  "liquidation_value": {
+    "haircuts": {
+      "cash": 1.0, "receivables": 0.85, "securities": 1.0, "inventory": 0.5,
+      "current_assets_other": 0.0, "ppe": 0.5, "intangibles": 0.0, "investments_other": 0.5
+    },
+    "adjusted_assets": 0,
+    "total_liabilities": 0,
+    "value_total": 0,
+    "value_per_share": 900
+  },
+  "dcf": {
+    "discount_rate": 0.10,
+    "net_cash": 0,
+    "fcf_base": -1200,
+    "bear_per_share": null,
+    "bull_growth_rate": 0.20,
+    "bull_growth_years": 5,
+    "bull_per_share": null,
+    "_note": "FCF がマイナスのときは null にし、normalized_value を参照させる"
+  },
+  "normalized_value": {
+    "method": "直近売上 × 過去10年営業利益率の中央値",
+    "normalized_operating_income": 0,
+    "normalized_fcf": 0,
+    "value_per_share": 2400,
+    "peak_operating_margin": 0.118,
+    "peak_value_per_share": 3800
+  },
+  "value_range": {
+    "liquidation": 900,
+    "price": 1234,
+    "normalized": 2400,
+    "peak": 3800,
+    "risk_reward": 3.49
+  },
+  "cycle": {
+    "peer_tickers": ["9998", "9997", "9996"],
+    "peer_margin_deterioration_share": 0.75,
+    "industry_margin_half_life_years": 2.1,
+    "leading_indicators": [
+      { "name": "新造船価指数", "latest": null, "yoy": null }
+    ]
+  },
+  "survival": {
+    "runway_months": 28,
+    "debt_due_within_1y": 0,
+    "going_concern_note": false,
+    "commitment_line": null
+  },
+  "shareholders": {
+    "top10": [],
+    "large_shareholding_reports": [],
+    "payout_ratio": [],
+    "capital_actions": [
+      { "date": "YYYY-MM-DD", "type": "buyback | cancellation | equity_issue | cb", "detail": "" }
+    ]
+  },
+  "auto_ratings": {
+    "asset_value": "B",
+    "earnings_value": "B",
+    "financial_health": "C",
+    "profitability": "C",
+    "growth": "D",
+    "cyclicality": "A",
+    "survival": "B",
+    "reversal": null
+  },
+  "rubric_version": 1
+}

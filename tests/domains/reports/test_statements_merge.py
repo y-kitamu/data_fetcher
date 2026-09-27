@@ -53,6 +53,31 @@ def test_build_annual_statements_prefers_tdnet_and_fills_gap_from_edinet():
     assert result.by_series["income_statement"]["edinet"] == ["2012-03"]
 
 
+def test_build_annual_statements_by_series_lists_each_fiscal_year_once():
+    tdnet = [
+        _period(
+            "2024-03-31",
+            income_statement={"revenue": 1000.0 * YEN, "operating_income": 100.0 * YEN},
+        ),
+        _period(
+            "2025-03-31",
+            income_statement={"revenue": 1100.0 * YEN, "operating_income": 110.0 * YEN},
+        ),
+    ]
+    edinet = [
+        _period(
+            "2025-03-31",
+            source="edinet",
+            income_statement={"net_income": 70.0 * YEN},
+        ),
+    ]
+    result = build_annual_statements(tdnet, edinet)
+
+    assert result.by_series["income_statement"]["tdnet"] == ["2024-03", "2025-03"]
+    # A year where EDINET filled only some keys is listed under both sources.
+    assert result.by_series["income_statement"]["edinet"] == ["2025-03"]
+
+
 def test_build_annual_statements_records_source_mismatch_but_keeps_tdnet_value():
     tdnet = [_period("2024-03-31", income_statement={"revenue": 1000.0 * YEN})]
     edinet = [_period("2024-03-31", source="edinet", income_statement={"revenue": 1500.0 * YEN})]
