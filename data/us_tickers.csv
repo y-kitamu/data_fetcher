@@ -644,7 +644,6 @@ BTE,BAYTEX ENERGY,ベイテックス・エナジー,NYSE,石油,○
 BTG,B2GOLD CORP,B2ゴールド,NYSE,その他,○
 BTGO,BITGO HOLDINGS,ビットゴー,NYSE,その他,○
 BTI,BRITISH AMERICAN,ブリティッシュ・アメリカン・タバコ,NYSE,食品・タバコ,○
-BTLN,BRIGHTLINE INT,ブライトライン・インタラクティブ,NASDAQ,ソフトウェア・サービス,○
 BTMD,BIOTE CORP,ビオテ,NASDAQ,医薬品,○
 BTSG,BRIGHTSPG HEALTH,ブライトスプリング・ヘルス・サービシズ,NASDAQ,ヘルスケア,○
 BTTC,BLACK TITAN CORP,ブラック・タイタン・コーポレーション,NASDAQ,医薬品（バイオテクノロジー）,○
@@ -1754,7 +1753,6 @@ GMAB,GENMAB,ジェンマブ,NASDAQ,医薬品（バイオテクノロジー）,�
 GME,GAMESTOP CORP,ゲームストップ,NYSE,コンピュータ,○
 GMED,GLOBUS MEDICAL,グローバス・メディカル,NYSE,ヘルスケア,○
 GMEU,REX 2X LONG GME,T-REX 2X・ロング・ゲームストップ・デイリーターゲット　ETF,Cboe,その他,○
-GMEX,GMEX ROBOTICS,ジーメックス・ロボティクス,NASDAQ,小売,○
 GMF,SPDR SP EMG ASIA,State Street SPDR　S&P　アジア・パシフィック新興国株式ETF,NYSE,その他,○
 GMRS,GMR SOLUTIONS, GMRソリューションズ,NYSE,ソフトウェア・サービス,○
 GNE,GENIE ENERGY LTD,ジニー・エナジー,NYSE,電力,○
@@ -2258,6 +2256,7 @@ KGS,KODIAK GAS SERVI,コディアック・ガス・サービシズ,NYSE,石油,�
 KHC,KRAFT HEINZ CO,クラフト・ハインツ,NYSE,食品,○
 KIDS,ORTHOPEDIATRICS,オーソピディアトリックス,NASDAQ,ヘルスケア,○
 KINS,KINGSTONE COS,キングストーン・カンパニーズ,NASDAQ,金融(保険),○
+KITT,NAUTICUS ROBOTIC,ノーティカス・ロボティクス,NASDAQ,その他製造,○
 KLAC,KLA CORPORATION,KLAコーポレーション,NASDAQ,半導体,○
 KLAR,KLARNA GROUP,クラーナ・グループ,NYSE,ソフトウェア・サービス,○
 KLIC,KULICKE SOFFA,キューリッキ・ソファ・インダストリーズ,NASDAQ,半導体,○
@@ -3390,6 +3389,7 @@ RELX,RELX PLC,レレックス,NYSE,ソフトウェア・サービス,○
 RELY,REMITLY GLOBAL,レミトリー・グローバル,NASDAQ,金融コングロマリット,○
 REM,ISRS MORTGAGE RE,iシェアーズ　米国モーゲージ不動産 ETF,Cboe,その他,○
 REMX,V R EARTH SM ETF,ヴァンエック・レアアース・アンド・戦略的金属ETF,NYSE,その他,○
+RENT,RENT THE RUNWAY,レント・ザ・ランウェイ,NASDAQ,ソフトウェア・サービス,○
 RENX,RENX ENTERPRISES,RenX エンタープライズ,NASDAQ,その他製造,○
 REPL,REPLIMUNE GROUP,レプリミューン,NASDAQ,医薬品（バイオテクノロジー）,○
 REPX,RILEY EXPLRTION,ライリー・エクスプロレーション・パーミアン,NYSE,石油,○
