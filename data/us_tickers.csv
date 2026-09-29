@@ -644,6 +644,7 @@ BTE,BAYTEX ENERGY,ベイテックス・エナジー,NYSE,石油,○
 BTG,B2GOLD CORP,B2ゴールド,NYSE,その他,○
 BTGO,BITGO HOLDINGS,ビットゴー,NYSE,その他,○
 BTI,BRITISH AMERICAN,ブリティッシュ・アメリカン・タバコ,NYSE,食品・タバコ,○
+BTLN,BRIGHTLINE INT,ブライトライン・インタラクティブ,NASDAQ,ソフトウェア・サービス,○
 BTMD,BIOTE CORP,ビオテ,NASDAQ,医薬品,○
 BTSG,BRIGHTSPG HEALTH,ブライトスプリング・ヘルス・サービシズ,NASDAQ,ヘルスケア,○
 BTTC,BLACK TITAN CORP,ブラック・タイタン・コーポレーション,NASDAQ,医薬品（バイオテクノロジー）,○
@@ -1104,7 +1105,6 @@ DDD,3D SYSTEMS CORP,スリーディー・システムズ,NYSE,コンピュータ
 DDI,DOUBLEDOWN INTRC,ダブルダウン・インタラクティブ,NASDAQ,エンターテイメント,○
 DDL,DINGDONG CAYMAN,ディンドン・ケイマン,NYSE,ソフトウェア・サービス,○
 DDOG,DATADOG INC,データドッグ,NASDAQ,ソフトウェア・サービス,○
-DDS,DILLARDS INC CL,ディラーズ,NYSE,百貨店,○
 DE,DEERE,ディアー,NYSE,機械,○
 DEC,DIVERSIFIED ENE,ダイバーシファイド・エナジー,NYSE,石油,○
 DECK,DECKERS OUTDOOR,デッカーズ・アウトドア,NYSE,その他製造,○
@@ -1676,7 +1676,6 @@ GASS,STEALTHGAS INC,ステルスガス,NASDAQ,運輸,○
 GATX,GATX CORPORATION,ガテックス,NYSE,その他,○
 GAU,GALIANO GOLD,ガリアーノ・ゴールド,NYSE,その他,○
 GBCI,GLACIER BANCORP,グレーシャー・バンコープ,NYSE,金融（銀行）,○
-GBTG,GLBL BSNSS TRAVL,グローバル・ビジネス・トラベル・グループ,NYSE,その他,○
 GBX,GREENBRIER CMPNS,グリーンブライアー・カンパニーズ,NYSE,その他製造,○
 GCBC,GREENE COUNTY BC,グリーン・カウンティ・バンコープ,NASDAQ,金融（銀行）,○
 GCMG,GCM GROSVENOR,GCMグロブナー,NASDAQ,金融（証券）,○
@@ -1703,7 +1702,6 @@ GENI,GENIUS SPORTS,ジニアス・スポーツ,NYSE,エンターテイメント,
 GEO,THE GEO GROUP,ゲオ・グループ,NYSE,その他,○
 GEOS,GEOSPACE TECHNO,ジオスペース・テクノロジーズ,NASDAQ,石油,○
 GERN,GERON CORP,ジェロン,NASDAQ,医薬品,○
-GETY,GETTY IMAGES,GETゲッティ・イメージズ・ホールディングス,NYSE,その他,○
 GEV,GE VERNOVA INC,GEベルノバ,NYSE,電力,○
 GEVG,LVS 2X LONG GEV,LeverageShares 2x ロング GEV デイリー ETF,NASDAQ,その他,○
 GEVO,GEVO INC,ジーボ,NASDAQ,化学,○
@@ -1753,6 +1751,7 @@ GMAB,GENMAB,ジェンマブ,NASDAQ,医薬品（バイオテクノロジー）,�
 GME,GAMESTOP CORP,ゲームストップ,NYSE,コンピュータ,○
 GMED,GLOBUS MEDICAL,グローバス・メディカル,NYSE,ヘルスケア,○
 GMEU,REX 2X LONG GME,T-REX 2X・ロング・ゲームストップ・デイリーターゲット　ETF,Cboe,その他,○
+GMEX,GMEX ROBOTICS,ジーメックス・ロボティクス,NASDAQ,小売,○
 GMF,SPDR SP EMG ASIA,State Street SPDR　S&P　アジア・パシフィック新興国株式ETF,NYSE,その他,○
 GMRS,GMR SOLUTIONS, GMRソリューションズ,NYSE,ソフトウェア・サービス,○
 GNE,GENIE ENERGY LTD,ジニー・エナジー,NYSE,電力,○
@@ -2564,6 +2563,7 @@ MESO,MESOBLAST LMITED,メソブラスト,NASDAQ,医薬品（バイオテクノ�
 MET,METLIFE INC,メットライフ,NYSE,金融(保険),○
 META,META PLATFORMS,メタ・プラットフォームズ,NASDAQ,ソフトウェア・サービス,○
 METC,RAMACO RESOURCES,ラマコ・リソーシズ,NASDAQ,その他,○
+METCB,RAMACO RESOUR-B,ラマコ・リソーシズ・クラスB,NASDAQ,その他,○
 METD,DRX META BR1X,Direxion デイリー META  ベア 1 倍 ETF,NASDAQ,その他,○
 METU,DRX META BL2X,Direxion デイリー META ブル 2 倍 ETF,NASDAQ,その他,○
 MFC,MANULIFE FIN,マニュライフ・ファイナンシャル,NYSE,金融(保険),○
@@ -4310,7 +4310,6 @@ VRA,VERA BRADLEY INC,ヴェラ・ブラッドリー,NASDAQ,その他製造,○
 VRAX,VIRAX BIOLABS GP,ヴィラックス・バイオラボ,NASDAQ,医薬品（バイオテクノロジー）,○
 VRDN,VIRIDIAN THERAPE,ビリジアン・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 VREX,VAREX IMAGING,バレックス・イメージング,NASDAQ,その他製造,○
-VRME,VERIFYME INC,ベリファイミー,NASDAQ,ソフトウェア・サービス,○
 VRNS,VARONIS SYSTEMS,バロニス・システムズ,NASDAQ,ソフトウェア・サービス,○
 VRRM,VERRA MOBILITY,ヴェラ・モビリティー,NASDAQ,ソフトウェア・サービス,○
 VRSK,VERISK ANALYTICS,ベリスク・アナリティックス,NASDAQ,金融コングロマリット,○

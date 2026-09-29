@@ -1241,7 +1241,7 @@
         "Net Income Common Stockholders": -11700000.0,
         "Otherunder Preferred Stock Dividend": NaN,
         "Net Income": -11700000.0,
-        "Net Income Including Noncontrolling Interests": -11700000.0,
+        "Net Income Including Noncontrolling Interests": NaN,
         "Net Income Discontinuous Operations": NaN,
         "Net Income Continuous Operations": -11700000.0,
         "Tax Provision": 3000000.0,
