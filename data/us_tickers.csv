@@ -33,6 +33,7 @@ ACAD,ACADIA PHARMA,アカディア・ファーマシューティカルズ,NASDAQ
 ACB,AURORA CANNABIS,オーロラ・カンナビス,NASDAQ,医薬品,○
 ACCO,ACCO BRANDS CORP,エッコー・ブランズ,NYSE,専門店,○
 ACCS,ACCESS NEWSWIRE,アクセス・ニュースワイヤー,NYSE,情報処理サービス,○
+ACCV,ACCELEVATION HLD,アクセレベーション・ホールディングス,NASDAQ,その他製造,○
 ACDC,PROFRAC HLD,プロフラック,NASDAQ,石油,○
 ACEL,ACCEL ENTMT INC,アクセル・エンターテインメント,NYSE,エンターテイメント,○
 ACET,ADICET BIO INC,アディセット・バイオ,NASDAQ,医薬品（バイオテクノロジー）,○
@@ -2733,7 +2734,6 @@ MYE,MYERS INDUSTRIES,マイヤーズ・インダストリーズ,NYSE,その他�
 MYFW,FIRST WEST FINL,ファースト・ウエスタン・ファイナンシャル,NASDAQ,その他,○
 MYGN,MYRIAD GENETICS,ミリアド・ジェネティックス,NASDAQ,医薬品,○
 MYO,MYOMO INC,マイオモ,NYSE,医療サービス,○
-MYPS,PLAYSTUDIOS,プレイスタジオズ,NASDAQ,エンターテイメント,○
 MYRG,MYR GROUP INC,MYRグループ,NASDAQ,その他製造,○
 MYSE,MYSEUM AI INC,マイジアム・エーアイ,NASDAQ,ソフトウェア・サービス,○
 MZTI,MARZETTI COMPANY,マルゼッティ・カンパニー,NASDAQ,食品,○
@@ -2998,6 +2998,7 @@ OPFI,OPPFI,オプフィ,NYSE,金融（銀行）,○
 OPHC,OPTIMUMBANK HLD,オプティマムバンク・ホールディングス,NYSE,金融（銀行）,○
 OPK,OPKO HEALTH INC,オプコ・ヘルス,NASDAQ,医薬品（バイオテクノロジー）,○
 OPLN,OPENLANE,オープンレーン,NYSE,小売,○
+OPNW,OPENWORLD,オープンワールド,NASDAQ,ソフトウェア・サービス,○
 OPPJ,WT JP OPPOTUNITI,ウィズダムツリー　日本株　オポチュニティーズ,NASDAQ,その他,○
 OPRA,OPERA LTD,オペラ,NASDAQ,ソフトウェア・サービス,○
 OPRT,OPORTUN FINANCL,オポーチュン・ファイナンシャル,NASDAQ,その他,○
@@ -3387,7 +3388,6 @@ RELX,RELX PLC,レレックス,NYSE,ソフトウェア・サービス,○
 RELY,REMITLY GLOBAL,レミトリー・グローバル,NASDAQ,金融コングロマリット,○
 REM,ISRS MORTGAGE RE,iシェアーズ　米国モーゲージ不動産 ETF,Cboe,その他,○
 REMX,V R EARTH SM ETF,ヴァンエック・レアアース・アンド・戦略的金属ETF,NYSE,その他,○
-RENT,RENT THE RUNWAY,レント・ザ・ランウェイ,NASDAQ,ソフトウェア・サービス,○
 RENX,RENX ENTERPRISES,RenX エンタープライズ,NASDAQ,その他製造,○
 REPL,REPLIMUNE GROUP,レプリミューン,NASDAQ,医薬品（バイオテクノロジー）,○
 REPX,RILEY EXPLRTION,ライリー・エクスプロレーション・パーミアン,NYSE,石油,○
@@ -4307,7 +4307,6 @@ VRA,VERA BRADLEY INC,ヴェラ・ブラッドリー,NASDAQ,その他製造,○
 VRAX,VIRAX BIOLABS GP,ヴィラックス・バイオラボ,NASDAQ,医薬品（バイオテクノロジー）,○
 VRDN,VIRIDIAN THERAPE,ビリジアン・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 VREX,VAREX IMAGING,バレックス・イメージング,NASDAQ,その他製造,○
-VRME,VERIFYME INC,ベリファイミー,NASDAQ,ソフトウェア・サービス,○
 VRNS,VARONIS SYSTEMS,バロニス・システムズ,NASDAQ,ソフトウェア・サービス,○
 VRRM,VERRA MOBILITY,ヴェラ・モビリティー,NASDAQ,ソフトウェア・サービス,○
 VRSK,VERISK ANALYTICS,ベリスク・アナリティックス,NASDAQ,金融コングロマリット,○
