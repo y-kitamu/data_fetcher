@@ -18,6 +18,10 @@
 /data/jquants/
 /data/jpx_stats/
 /data/google_trends/
+/data/boj_stats/
+/data/fred/
+/data/oecd/
+/data/estat/
 /cert/
 __pycache__/
 *.pyc
