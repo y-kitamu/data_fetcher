@@ -374,14 +374,11 @@
         "Amortization": 84000.0,
         "Amortization Of Intangibles Income Statement": 84000.0,
         "Selling General And Administration": NaN,
-        "Selling And Marketing Expense": NaN,
         "General And Administrative Expense": NaN,
-        "Insurance And Claims": NaN,
         "Salaries And Wages": NaN,
         "Total Revenue": NaN,
         "Operating Revenue": NaN,
         "Occupancy And Equipment": NaN,
-        "Professional Expense And Contract Services Expense": NaN,
         "Other Non Interest Expense": NaN
     },
     "2025-06-30": {
@@ -412,14 +409,11 @@
         "Amortization": 84000.0,
         "Amortization Of Intangibles Income Statement": 84000.0,
         "Selling General And Administration": 33530000.0,
-        "Selling And Marketing Expense": NaN,
         "General And Administrative Expense": 33530000.0,
-        "Insurance And Claims": NaN,
         "Salaries And Wages": 33530000.0,
         "Total Revenue": 82642000.0,
         "Operating Revenue": 82642000.0,
         "Occupancy And Equipment": 5177000.0,
-        "Professional Expense And Contract Services Expense": NaN,
         "Other Non Interest Expense": 12916000.0
     },
     "2025-09-30": {
@@ -450,14 +444,11 @@
         "Amortization": 97000.0,
         "Amortization Of Intangibles Income Statement": 97000.0,
         "Selling General And Administration": 33654000.0,
-        "Selling And Marketing Expense": NaN,
         "General And Administrative Expense": 33654000.0,
-        "Insurance And Claims": NaN,
         "Salaries And Wages": 33654000.0,
         "Total Revenue": 87442000.0,
         "Operating Revenue": 87442000.0,
         "Occupancy And Equipment": 4998000.0,
-        "Professional Expense And Contract Services Expense": NaN,
         "Other Non Interest Expense": 15098000.0
     },
     "2025-12-31": {
@@ -488,14 +479,11 @@
         "Amortization": 27000.0,
         "Amortization Of Intangibles Income Statement": 27000.0,
         "Selling General And Administration": 47030000.0,
-        "Selling And Marketing Expense": NaN,
         "General And Administrative Expense": 42050000.0,
-        "Insurance And Claims": NaN,
         "Salaries And Wages": 36272000.0,
         "Total Revenue": 2297000.0,
         "Operating Revenue": 2297000.0,
         "Occupancy And Equipment": 4897000.0,
-        "Professional Expense And Contract Services Expense": NaN,
         "Other Non Interest Expense": -13214000.0
     },
     "2026-03-31": {
@@ -526,14 +514,11 @@
         "Amortization": NaN,
         "Amortization Of Intangibles Income Statement": NaN,
         "Selling General And Administration": 28755000.0,
-        "Selling And Marketing Expense": NaN,
         "General And Administrative Expense": 28755000.0,
-        "Insurance And Claims": NaN,
         "Salaries And Wages": 28755000.0,
         "Total Revenue": 83695000.0,
         "Operating Revenue": 83695000.0,
         "Occupancy And Equipment": 5482000.0,
-        "Professional Expense And Contract Services Expense": NaN,
         "Other Non Interest Expense": 13489000.0
     },
     "2026-06-30": {
@@ -564,14 +549,11 @@
         "Amortization": NaN,
         "Amortization Of Intangibles Income Statement": NaN,
         "Selling General And Administration": 28830000.0,
-        "Selling And Marketing Expense": NaN,
         "General And Administrative Expense": 28830000.0,
-        "Insurance And Claims": NaN,
         "Salaries And Wages": 28830000.0,
         "Total Revenue": 87117000.0,
         "Operating Revenue": 87117000.0,
         "Occupancy And Equipment": 5321000.0,
-        "Professional Expense And Contract Services Expense": NaN,
         "Other Non Interest Expense": 12915000.0
     }
 }

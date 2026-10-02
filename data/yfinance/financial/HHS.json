@@ -1215,7 +1215,7 @@
         "Salaries And Wages": 19810000.0,
         "Gross Profit": 25925000.0,
         "Cost Of Revenue": 11339000.0,
-        "Total Revenue": 37264000.0,
+        "Total Revenue": NaN,
         "Operating Revenue": 37264000.0
     },
     "2026-06-30": {

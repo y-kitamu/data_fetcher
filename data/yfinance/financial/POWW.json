@@ -825,7 +825,6 @@
         "Gross Profit": 10334978.0,
         "Cost Of Revenue": 1522398.0,
         "Total Revenue": 11857376.0,
-        "Excise Taxes": NaN,
         "Operating Revenue": 11857376.0
     },
     "2025-09-30": {
@@ -876,7 +875,6 @@
         "Gross Profit": 10441079.0,
         "Cost Of Revenue": 1543235.0,
         "Total Revenue": 11984314.0,
-        "Excise Taxes": NaN,
         "Operating Revenue": 11984314.0
     },
     "2025-12-31": {
@@ -927,7 +925,6 @@
         "Gross Profit": 11663710.0,
         "Cost Of Revenue": 1730755.0,
         "Total Revenue": 13394465.0,
-        "Excise Taxes": NaN,
         "Operating Revenue": 13394465.0
     },
     "2026-03-31": {
@@ -978,7 +975,6 @@
         "Gross Profit": 12161194.0,
         "Cost Of Revenue": 1728199.0,
         "Total Revenue": 13889393.0,
-        "Excise Taxes": NaN,
         "Operating Revenue": 13889393.0
     },
     "2026-06-30": {
@@ -1029,7 +1025,6 @@
         "Gross Profit": 12242826.0,
         "Cost Of Revenue": 2237828.0,
         "Total Revenue": 14480654.0,
-        "Excise Taxes": NaN,
         "Operating Revenue": 14480654.0
     }
 }

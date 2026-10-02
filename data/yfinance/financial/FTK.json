@@ -1025,7 +1025,6 @@
         "Diluted EPS": 0.05,
         "Basic EPS": 0.05,
         "Diluted NI Availto Com Stockholders": 1768000.0,
-        "Average Dilution Earnings": NaN,
         "Net Income Common Stockholders": 1768000.0,
         "Net Income": 1768000.0,
         "Net Income Including Noncontrolling Interests": 1768000.0,
@@ -1073,7 +1072,6 @@
         "Diluted EPS": 0.53,
         "Basic EPS": 0.57,
         "Diluted NI Availto Com Stockholders": 20355000.0,
-        "Average Dilution Earnings": NaN,
         "Net Income Common Stockholders": 20355000.0,
         "Net Income": 20355000.0,
         "Net Income Including Noncontrolling Interests": 20355000.0,
@@ -1121,7 +1119,6 @@
         "Diluted EPS": 0.08,
         "Basic EPS": 0.08,
         "Diluted NI Availto Com Stockholders": 3025000.0,
-        "Average Dilution Earnings": NaN,
         "Net Income Common Stockholders": 3025000.0,
         "Net Income": 3025000.0,
         "Net Income Including Noncontrolling Interests": 3025000.0,
@@ -1169,7 +1166,6 @@
         "Diluted EPS": 0.12,
         "Basic EPS": 0.13,
         "Diluted NI Availto Com Stockholders": 4664000.0,
-        "Average Dilution Earnings": NaN,
         "Net Income Common Stockholders": 4664000.0,
         "Net Income": 4664000.0,
         "Net Income Including Noncontrolling Interests": 4664000.0,
@@ -1193,7 +1189,7 @@
         "Gross Profit": 15541000.0,
         "Cost Of Revenue": 54510000.0,
         "Total Revenue": 70051000.0,
-        "Operating Revenue": 70051000.0
+        "Operating Revenue": NaN
     },
     "2026-06-30": {
         "Tax Effect Of Unusual Items": 0.0,
@@ -1217,7 +1213,6 @@
         "Diluted EPS": 0.26,
         "Basic EPS": 0.28,
         "Diluted NI Availto Com Stockholders": 9953000.0,
-        "Average Dilution Earnings": NaN,
         "Net Income Common Stockholders": 9953000.0,
         "Net Income": 9953000.0,
         "Net Income Including Noncontrolling Interests": 9953000.0,

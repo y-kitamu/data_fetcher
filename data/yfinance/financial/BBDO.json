@@ -828,7 +828,6 @@
         "Salaries And Wages": NaN,
         "Total Revenue": NaN,
         "Operating Revenue": NaN,
-        "Professional Expense And Contract Services Expense": NaN,
         "Other Non Interest Expense": NaN
     },
     "2025-06-30": {
@@ -874,7 +873,6 @@
         "Salaries And Wages": 5948873000.0,
         "Total Revenue": 30305722000.0,
         "Operating Revenue": 30305722000.0,
-        "Professional Expense And Contract Services Expense": NaN,
         "Other Non Interest Expense": 2181016000.0
     },
     "2025-09-30": {
@@ -920,7 +918,6 @@
         "Salaries And Wages": 6183717000.0,
         "Total Revenue": 27979078000.0,
         "Operating Revenue": 27979078000.0,
-        "Professional Expense And Contract Services Expense": NaN,
         "Other Non Interest Expense": 1836784000.0
     },
     "2025-12-31": {
@@ -966,7 +963,6 @@
         "Salaries And Wages": 6437964000.0,
         "Total Revenue": 29711247000.0,
         "Operating Revenue": 29711247000.0,
-        "Professional Expense And Contract Services Expense": NaN,
         "Other Non Interest Expense": 2341558000.0
     },
     "2026-03-31": {
@@ -1012,7 +1008,6 @@
         "Salaries And Wages": 6113346000.0,
         "Total Revenue": 32927975000.0,
         "Operating Revenue": 32927975000.0,
-        "Professional Expense And Contract Services Expense": NaN,
         "Other Non Interest Expense": 2136394000.0
     },
     "2026-06-30": {
@@ -1058,7 +1053,6 @@
         "Salaries And Wages": 6206877000.0,
         "Total Revenue": 32134677000.0,
         "Operating Revenue": 32134677000.0,
-        "Professional Expense And Contract Services Expense": NaN,
         "Other Non Interest Expense": 2290225000.0
     }
 }
