@@ -1817,7 +1817,6 @@ GTM,ZOOMINFO TECHNO,ズームインフォ・テクノロジーズ,NASDAQ,ソフ�
 GTN,GRAY MEDIA,グレイ・メディア,NYSE,エンターテイメント,○
 GUSH,DRX OIL GAS BL2X,Direxion デイリー S&P 石油 ・ガス採掘・生産 ブル2倍 ETF,NYSE,その他,○
 GVA,GRANITE CONSTRUC,グラナイト・コンストラクション,NYSE,その他,○
-GWH,ESS TECH INC,ESSテック,NYSE,その他製造,○
 GWRE,GUIDEWIRE SOFT,ガイドワイア・ソフトウェア,NYSE,ソフトウェア・サービス,○
 GWRS,GLOB WATER RSCES,グローバル・ウォーター・リソーシズ,NASDAQ,その他,○
 GWW,WW GRAINGER INC,W・W・グレインジャー,NYSE,機械,○
@@ -2635,7 +2634,6 @@ MNY,MONEYHERO,マネーヒーロー,NASDAQ,その他,○
 MO,ALTRIA GROUP INC,アルトリア・グループ,NYSE,食品・タバコ,○
 MOAT,V WIDE MOAT,ヴァンエック・モーニングスター・ワイド・モートETF,Cboe,その他,○
 MOBI,MOBIA MEDICAL,モビア・メディカル,NASDAQ,医療サービス,○
-MOD,MODINE MANUFACTR,モーディン・マニュファクチャリング,NYSE,その他製造,○
 MOGU,MOGU INC,モグ,NYSE,小売,○
 MOH,MOLINA HEALTH,モリナ・ヘルスケア,NYSE,ヘルスケア,○
 MOMO,HELLO GROUP,ハロー・グループ,NASDAQ,ソフトウェア・サービス,○
@@ -2734,6 +2732,7 @@ MYE,MYERS INDUSTRIES,マイヤーズ・インダストリーズ,NYSE,その他�
 MYFW,FIRST WEST FINL,ファースト・ウエスタン・ファイナンシャル,NASDAQ,その他,○
 MYGN,MYRIAD GENETICS,ミリアド・ジェネティックス,NASDAQ,医薬品,○
 MYO,MYOMO INC,マイオモ,NYSE,医療サービス,○
+MYPS,PLAYSTUDIOS,プレイスタジオズ,NASDAQ,エンターテイメント,○
 MYRG,MYR GROUP INC,MYRグループ,NASDAQ,その他製造,○
 MYSE,MYSEUM AI INC,マイジアム・エーアイ,NASDAQ,ソフトウェア・サービス,○
 MZTI,MARZETTI COMPANY,マルゼッティ・カンパニー,NASDAQ,食品,○
@@ -3393,7 +3392,6 @@ REPL,REPLIMUNE GROUP,レプリミューン,NASDAQ,医薬品（バイオテクノ
 REPX,RILEY EXPLRTION,ライリー・エクスプロレーション・パーミアン,NYSE,石油,○
 RERE,ATRENEW INC,ATリニュー,NYSE,その他,○
 RES,RPC INC,RPC,NYSE,石油,○
-RETO,RETO ECOSOLUTION,レト・エコソリューションズ,NASDAQ,その他製造,○
 REX,REX AMCAN RES CO,REXアメリカン・リソーシズ,NYSE,その他,○
 REYN,REYNOLDS CONSUMR,レイノルズ・コンシューマー・プロダクツ,NASDAQ,その他製造,○
 REZI,RESIDEO TECH,レジデオ・テクノロジーズ,NYSE,その他製造,○
@@ -4195,7 +4193,6 @@ UUUU,ENERGY FUELS INC,エナジー・フューエルズ,NYSE,その他,○
 UVE,UNIVERSL INSURNC,ユニバーサル・インシュランス・ホールディングス,NYSE,金融(保険),○
 UVSP,UNIVEST FIN CORP,ユニベスト・ファイナンシャル,NASDAQ,金融（銀行）,○
 UVV,UNIVERSAL CORP,ユニバーサル,NYSE,食品・タバコ,○
-UWMC,UWM HOLDINGS,UWMホールディングス,NYSE,金融（銀行）,○
 UXIN,UXIN LTD,ユウシン,NASDAQ,小売,○
 V,VISA INC,ビザ,NYSE,金融(カード),○
 VABK,VIRG NATION BANK,バージニア・ナショナル・バンクシェアズ,NASDAQ,金融（銀行）,○
