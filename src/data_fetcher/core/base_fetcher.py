@@ -43,17 +43,29 @@ class BaseWebsocketFetcher(BaseFetcher):
         self.target_tickers = target_tickers or self.available_tickers
         self.max_retry = 20
         self.current_retry = 0
+        self._reconnect_delay: float | None = None
 
     def start_websocket(self):
-        self.close_websocket()
-        self.ws = websocket.WebSocketApp(
-            f"{self.api_endpoint}",
-            on_open=self._on_open,
-            on_message=self._on_message,
-            on_error=self._on_error,
-            on_close=self._on_close,
-        )
-        self.ws.run_forever()
+        # on_error/on_close are invoked by websocket-client from inside run_forever().
+        # They used to call start_websocket() directly, nesting a new run_forever()
+        # inside the callback's own call stack on every reconnect; a run of
+        # back-to-back failures eventually exceeded Python's recursion limit
+        # (see gmo.log "maximum recursion depth exceeded"). Loop here instead so each
+        # reconnect attempt returns to this frame rather than stacking a new one.
+        while True:
+            self.close_websocket()
+            self.ws = websocket.WebSocketApp(
+                f"{self.api_endpoint}",
+                on_open=self._on_open,
+                on_message=self._on_message,
+                on_error=self._on_error,
+                on_close=self._on_close,
+            )
+            self._reconnect_delay = None
+            self.ws.run_forever()
+            if self._reconnect_delay is None:
+                break
+            time.sleep(self._reconnect_delay)
 
     def close_websocket(self):
         if self.ws is not None:
@@ -76,18 +88,14 @@ class BaseWebsocketFetcher(BaseFetcher):
             f"Websocket closed. status_code: {close_status_code}, msg: {close_msg}"
         )
         if close_status_code == 1012:  # scheduled maintanance
-            time.sleep(60)
-            self.start_websocket()
+            self._reconnect_delay = 60
         else:
-            time.sleep(600)
             self.current_retry += 1
-            if self.current_retry <= self.max_retry:
-                self.start_websocket()
+            self._reconnect_delay = 600 if self.current_retry <= self.max_retry else None
 
     def _on_error(self, ws, error):
         logger.error(error)
-        time.sleep(30)
-        self.start_websocket()
+        self._reconnect_delay = 30
 
     def _on_message(self, ws, message):
         raise NotImplementedError
