@@ -738,7 +738,7 @@
         "Operating Revenue": 74736000.0
     },
     "2026-03-31": {
-        "Tax Effect Of Unusual Items": NaN,
+        "Tax Effect Of Unusual Items": 1336869.834408,
         "Tax Rate For Calcs": 0.307115,
         "Normalized EBITDA": 26590000.0,
         "Total Unusual Items": 4353000.0,
