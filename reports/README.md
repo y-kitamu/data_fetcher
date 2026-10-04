@@ -18,11 +18,15 @@ uv run python scripts/new_report.py exit 7014 [--as-of YYYY-MM-DD] [--dry-run]
 
 # JSON を標準出力に出すだけ（ファイルは書かない。動作確認用）
 uv run python scripts/new_report.py snapshot 7014 [--as-of YYYY-MM-DD] [--peers ...]
+
+# 既存の snapshot.json から表の Markdown（*_tables.md）を再生成する（--as-of 省略時はその銘柄の全スナップショット）
+uv run python scripts/new_report.py tables 7014 [--as-of YYYY-MM-DD]
 ```
 
 - `--as-of` を省略すると当日を使う。ただし当日の株価終値がまだなければ直近の営業日を使い、その旨を表示する。
 - 保存先はデフォルトで `reports/`。環境変数 `REPORTS_DIR` で変更できる（レポートを別リポジトリで管理する場合）。
 - 同名の `snapshot.json` / `*.md` が既に存在する場合はどちらも書かずにエラーで終了する（上書き禁止）。
+- `initial` / `review` / `exit` は、スナップショットの表を Markdown にした `YYYY-MM-DD_tables.md` も書き出す。stock-viewer を開かずにエディタで数値を確認するためのファイルで、`snapshot.json` から導出するだけなので手で編集しない（`tables` で再生成すると上書きされる）。人が後から書き換える frontmatter に依存する表（予測・最終評価・売買計画など）とグラフは含まない。
 
 ## ディレクトリ構成
 
@@ -37,6 +41,7 @@ reports/
   <ticker>/
     YYYY-MM-DD_initial.md
     YYYY-MM-DD_snapshot.json
+    YYYY-MM-DD_tables.md      # snapshot.json の表（自動生成。手で編集しない）
     YYYY-MM-DD_review.md
     YYYY-MM-DD_exit.md
     trades.csv                # 売買記録（人が記入）: date,side,qty,price,fee

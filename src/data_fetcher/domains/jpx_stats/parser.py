@@ -34,6 +34,7 @@ def detect_market_sheet_names(available_sheet_names: list[str]) -> list[str]:
         f"投資部門別売買状況ワークブックのシート名を認識できません: {available_sheet_names}"
     )
 
+
 # 投資部門別売買状況シートの (データ開始行, 投資部門名) 一覧。
 # 各カテゴリは3行（売り／買い／合計）で構成される。
 _INVESTOR_TYPE_CATEGORY_ROWS = [
@@ -54,7 +55,9 @@ _INVESTOR_TYPE_CATEGORY_ROWS = [
     (55, "その他金融機関"),
 ]
 
-_WEEK_LABEL_RE = re.compile(r"(\d{4})年.*?\(\s*(\d{1,2})/(\d{1,2})\s*[-〜]\s*(\d{1,2})/(\d{1,2})\s*\)")
+_WEEK_LABEL_RE = re.compile(
+    r"(\d{4})年.*?\(\s*(\d{1,2})/(\d{1,2})\s*[-〜]\s*(\d{1,2})/(\d{1,2})\s*\)"
+)
 _TRADE_DATE_RE = re.compile(r"(\d{4})年(\d{1,2})月(\d{1,2})日")
 
 
@@ -172,6 +175,17 @@ _MARGIN_COLUMN_MAP: list[tuple[int, str, bool]] = [
 ]
 
 
+_MARGIN_REPORT_DATE_RE = re.compile(r"^(\d{4})[/-](\d{1,2})[/-](\d{1,2})")
+
+
+def _normalize_margin_report_date(cell_value: str) -> str:
+    """セルの日付表記（"2026-09-24 00:00:00" や "2026/10/1" 等）を
+    ゼロ詰めの "YYYY-MM-DD" に統一する。"""
+    m = _MARGIN_REPORT_DATE_RE.match(cell_value)
+    year, month, day = m.groups()
+    return f"{int(year):04d}-{int(month):02d}-{int(day):02d}"
+
+
 def parse_margin_workbook(content: bytes) -> pl.DataFrame:
     """個別銘柄信用取引残高表（日々公表銘柄）を長形式に変換する。
 
@@ -179,10 +193,16 @@ def parse_margin_workbook(content: bytes) -> pl.DataFrame:
     サブセットであり、全銘柄の週末残高ではない（全銘柄分は domains.taisyaku を使う）。
     """
     raw = pl.read_excel(io.BytesIO(content), has_header=False)
-    report_date = str(raw.row(2)[1]).split(" ")[0]
+    report_date = next(
+        _normalize_margin_report_date(str(raw.row(i)[1]))
+        for i in range(raw.height)
+        if raw.row(i)[1] is not None
+        and _MARGIN_REPORT_DATE_RE.match(str(raw.row(i)[1]))
+    )
+    header_row_idx = next(i for i in range(raw.height) if raw.row(i)[6] == "コード")
 
     records = []
-    for i in range(7, raw.height):
+    for i in range(header_row_idx + 2, raw.height):
         row = raw.row(i)
         if row[6] is None:  # コード列が空 = データ行でない
             continue
@@ -213,7 +233,10 @@ def parse_arbitrage_workbook(content: bytes) -> tuple[pl.DataFrame, pl.DataFrame
     # drop_empty_rows=False: このワークブックは表と表の間に全列Noneの行を複数含むため、
     # デフォルト（自動削除）だと以降の行位置が崩れる。行位置決め打ちのため無効化必須。
     raw = pl.read_excel(
-        io.BytesIO(content), has_header=False, drop_empty_rows=False, drop_empty_cols=False
+        io.BytesIO(content),
+        has_header=False,
+        drop_empty_rows=False,
+        drop_empty_cols=False,
     )
     trade_date = parse_trade_date(str(raw.row(31)[0]))
 

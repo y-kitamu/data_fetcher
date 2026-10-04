@@ -45,7 +45,7 @@ MARGIN_INDEX_URL = f"{BASE_URL}/markets/statistics-equities/margin/index.html"
 ARBITRAGE_INDEX_URL = f"{BASE_URL}/markets/statistics-equities/program/index.html"
 
 _VAL_LINK_RE = re.compile(r"stock_val_1_\d{6}\.xls$")
-_MARGIN_LINK_RE = re.compile(r"mtdailyk\d{10}\.xls$")
+_MARGIN_LINK_RE = re.compile(r"(mtdailyk\d{10}\.xls|\d{8}_mtdaily\.xlsx)$")
 _DATE_SUFFIX_RE = re.compile(r"(\d{6,10})\.xls$")
 _ARBITRAGE_LINK_RE = re.compile(r"/program/[^/]+-att/(\d{6})\.xls$")
 

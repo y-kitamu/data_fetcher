@@ -5,6 +5,7 @@
     uv run python scripts/new_report.py review  <ticker> [--as-of YYYY-MM-DD] [--trigger earnings|disclosure|price_move|scheduled] [--dry-run]
     uv run python scripts/new_report.py exit    <ticker> [--as-of YYYY-MM-DD] [--dry-run]
     uv run python scripts/new_report.py snapshot <ticker> [--as-of YYYY-MM-DD] [--peers ...]
+    uv run python scripts/new_report.py tables  <ticker> [--as-of YYYY-MM-DD]
 """
 
 from __future__ import annotations
@@ -22,6 +23,8 @@ import data_fetcher
 from data_fetcher.domains.reports import data_access
 from data_fetcher.domains.reports.rubric import load_rubric_config
 from data_fetcher.domains.reports.snapshot_builder import build_snapshot
+from data_fetcher.domains.reports.snapshot_schema import Snapshot
+from data_fetcher.domains.reports.tables import render_tables_markdown
 from data_fetcher.domains.reports.trades import read_trades_csv, remaining_shares
 from data_fetcher.domains.reports.writer import (
     check_not_exists,
@@ -78,6 +81,47 @@ def _dump_snapshot_json(snapshot) -> str:
     return json.dumps(snapshot.model_dump(mode="json"), ensure_ascii=False, indent=2)
 
 
+def _tables_path(snapshot_path: Path) -> Path:
+    return snapshot_path.with_name(
+        snapshot_path.name.replace("_snapshot.json", "_tables.md")
+    )
+
+
+def _write_tables(snapshot: Snapshot, snapshot_path: Path) -> None:
+    """snapshot.json の表をMarkdown(_tables.md)に書き出す。snapshot.json から
+    導出するだけのファイルなので、上書き禁止の対象にはせず再生成で上書きする。
+    """
+    previous_path = (
+        snapshot_path.with_name(snapshot.previous_snapshot)
+        if snapshot.previous_snapshot
+        else None
+    )
+    previous_snapshot_data = (
+        json.loads(previous_path.read_text(encoding="utf-8"))
+        if previous_path is not None and previous_path.exists()
+        else None
+    )
+    tables_path = _tables_path(snapshot_path)
+    tables_path.write_text(
+        render_tables_markdown(snapshot, previous_snapshot_data), encoding="utf-8"
+    )
+    print(f"書き出しました: {tables_path}")
+
+
+def _run_tables(args, ticker_dir: Path) -> int:
+    pattern = f"{args.as_of}_snapshot.json" if args.as_of else "*_snapshot.json"
+    snapshot_paths = sorted(ticker_dir.glob(pattern)) if ticker_dir.exists() else []
+    if not snapshot_paths:
+        print(f"エラー: {ticker_dir} に {pattern} が見つかりません。")
+        return 1
+    for snapshot_path in snapshot_paths:
+        snapshot = Snapshot.model_validate_json(
+            snapshot_path.read_text(encoding="utf-8")
+        )
+        _write_tables(snapshot, snapshot_path)
+    return 0
+
+
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(prog="new_report", description=__doc__)
     sub = parser.add_subparsers(dest="command", required=True)
@@ -106,12 +150,19 @@ def build_parser() -> argparse.ArgumentParser:
     add_common(p_snapshot)
     p_snapshot.add_argument("--peers", default=None)
 
+    p_tables = sub.add_parser("tables")
+    p_tables.add_argument("ticker")
+    p_tables.add_argument("--as-of", dest="as_of", default=None)
+
     return parser
 
 
 def main(argv: list[str] | None = None) -> int:
     args = build_parser().parse_args(argv)
     reports_dir = _reports_dir()
+    if args.command == "tables":
+        return _run_tables(args, reports_dir / args.ticker)
+
     as_of = _resolve_as_of(args.as_of, args.ticker)
     peer_tickers = args.peers.split(",") if getattr(args, "peers", None) else None
 
@@ -238,6 +289,7 @@ def _run_initial(
     if args.dry_run:
         print(f"[dry-run] 作成予定: {snapshot_path}")
         print(f"[dry-run] 作成予定: {md_path}")
+        print(f"[dry-run] 作成予定: {_tables_path(snapshot_path)}")
         print(render_summary_table(snapshot))
         return 0
 
@@ -246,6 +298,7 @@ def _run_initial(
     write_new_file(md_path, final_md)
     print(f"作成しました: {snapshot_path}")
     print(f"作成しました: {md_path}")
+    _write_tables(snapshot, snapshot_path)
     print(f"warnings: {len(snapshot.warnings)}件")
     return 0
 
@@ -311,6 +364,7 @@ def _run_review(
     if args.dry_run:
         print(f"[dry-run] 作成予定: {snapshot_path}")
         print(f"[dry-run] 作成予定: {md_path}")
+        print(f"[dry-run] 作成予定: {_tables_path(snapshot_path)}")
         print(render_summary_table(snapshot, previous_snapshot_data))
         return 0
 
@@ -319,6 +373,7 @@ def _run_review(
     write_new_file(md_path, final_md)
     print(f"作成しました: {snapshot_path}")
     print(f"作成しました: {md_path}")
+    _write_tables(snapshot, snapshot_path)
     print(f"warnings: {len(snapshot.warnings)}件")
     return 0
 
@@ -391,6 +446,7 @@ def _run_exit(
     if args.dry_run:
         print(f"[dry-run] 作成予定: {snapshot_path}")
         print(f"[dry-run] 作成予定: {md_path}")
+        print(f"[dry-run] 作成予定: {_tables_path(snapshot_path)}")
         return 0
 
     check_not_exists(snapshot_path, md_path)
@@ -398,6 +454,7 @@ def _run_exit(
     write_new_file(md_path, final_md)
     print(f"作成しました: {snapshot_path}")
     print(f"作成しました: {md_path}")
+    _write_tables(snapshot, snapshot_path)
     print(f"warnings: {len(snapshot.warnings)}件")
     return 0
 

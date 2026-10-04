@@ -3,12 +3,15 @@
 
 Previously broadcast to LINE (hence the still-named `cron_notify_to_line.sh`
 wrapper); now delivered by email through `data_fetcher.notify_to_gmail`.
+The digest is prefixed with a Claude Code review of the collection status and
+cron logs (`data_fetcher.core.ai_review`); if that fails the digest is sent
+without it.
 """
 
 import datetime
 
 import data_fetcher
-from data_fetcher.core import data_health
+from data_fetcher.core import ai_review, data_health
 
 data_type = {
     "yfinance/minutes": "US stock",
@@ -140,11 +143,19 @@ def get_news_number() -> dict[str, str]:
     return results
 
 
-def build_status_text() -> str:
+def collect_data_nums() -> dict[str, tuple[str, int]]:
     data_nums = get_latest_dates_data_number()
     data_nums.update(get_news_number())
     data_nums["fxea/data"] = get_fxea_data_number()
     data_nums["kabus"] = get_kabus_data_number()
+    return data_nums
+
+
+def build_status_text(
+    data_nums: dict[str, tuple[str, int]],
+    anomaly_items: list[data_health.AnomalyItem],
+    review_html: str = "",
+) -> str:
     # grouped by source, sorted by source name
     grouped_data_nums: dict[str, list[tuple[str, str]]] = {}
     for key in sorted(data_nums.keys()):
@@ -163,7 +174,6 @@ def build_status_text() -> str:
             rows.append(f"<tr><td>{key}</td><td>{date}</td><td>{val}</td></tr>")
 
     rows_html = "\n".join(rows)
-    anomaly_items = data_health.build_anomaly_items(data_nums, datetime.date.today())
     anomaly_html = data_health.render_anomaly_table_html(anomaly_items)
     text = f"""<html>
 <head>
@@ -182,6 +192,7 @@ th, td {{
 </style>
 </head>
 <body>
+{review_html}
 <table>
   <thead>
     <tr><th>Source</th><th>Date</th><th>Data</th></tr>
@@ -201,9 +212,19 @@ th, td {{
 
 
 if __name__ == "__main__":
-    today = datetime.date.today().strftime("%Y%m%d")
+    today = datetime.date.today()
+    data_nums = collect_data_nums()
+    anomaly_items = data_health.build_anomaly_items(data_nums, today)
+    review = ai_review.run_review(data_nums, anomaly_items, today)
+    if review.error is not None:
+        print(f"AI review failed: {review.error}")
     data_fetcher.notify_to_gmail(
-        build_status_text(),
-        subject=f"[data_fetcher] データ収集状況 {today}",
+        build_status_text(
+            data_nums, anomaly_items, ai_review.render_review_html(review)
+        ),
+        subject=(
+            f"{ai_review.subject_prefix(review)}"
+            f"[data_fetcher] データ収集状況 {today:%Y%m%d}"
+        ),
         is_html=True,
     )
