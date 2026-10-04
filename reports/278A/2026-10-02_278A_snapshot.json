@@ -1,0 +1,810 @@
+{
+  "schema_version": 1,
+  "ticker": "278A",
+  "company_name": "Ｔｅｒｒａ　Ｄｒｏｎｅ",
+  "as_of": "2026-10-02",
+  "generated_at": "2026-10-04T13:18:01.835114+09:00",
+  "report_type": "initial",
+  "rubric_version": 1,
+  "sources": {
+    "last_ingested": {
+      "tdnet": "2026-09-14T15:45:00+09:00",
+      "edinet": "2026-09-07T16:02:00+09:00"
+    },
+    "by_series": {
+      "balance_sheet": {
+        "tdnet": [
+          "2025-01",
+          "2026-01"
+        ]
+      },
+      "income_statement": {
+        "tdnet": [
+          "2025-01",
+          "2026-01"
+        ]
+      },
+      "cash_flow": {
+        "tdnet": [
+          "2025-01",
+          "2026-01"
+        ]
+      }
+    }
+  },
+  "warnings": [
+    {
+      "code": "SOURCE_MISMATCH",
+      "field": "balance_sheet.current_assets_other",
+      "message": "2025-01: tdnet=785934000.0 edinet=625911000.0"
+    },
+    {
+      "code": "SOURCE_MISMATCH",
+      "field": "balance_sheet.investments_other",
+      "message": "2025-01: tdnet=45863000.0 edinet=147623000.0"
+    },
+    {
+      "code": "SOURCE_MISMATCH",
+      "field": "balance_sheet.current_portion_long_term_debt",
+      "message": "2025-01: tdnet=6927000.0 edinet=129946000.0"
+    },
+    {
+      "code": "SOURCE_MISMATCH",
+      "field": "balance_sheet.current_liabilities_other",
+      "message": "2025-01: tdnet=389821000.0 edinet=288782000.0"
+    },
+    {
+      "code": "SOURCE_MISMATCH",
+      "field": "balance_sheet.current_liabilities_total",
+      "message": "2025-01: tdnet=1049912000.0 edinet=1175228000.0"
+    },
+    {
+      "code": "SOURCE_MISMATCH",
+      "field": "balance_sheet.noncurrent_liabilities_total",
+      "message": "2025-01: tdnet=735769000.0 edinet=610453000.0"
+    },
+    {
+      "code": "SOURCE_MISMATCH",
+      "field": "balance_sheet.lease_obligations",
+      "message": "2025-01: tdnet=98765000.0 edinet=199804000.0"
+    },
+    {
+      "code": "SOURCE_MISMATCH",
+      "field": "balance_sheet.long_term_debt",
+      "message": "2025-01: tdnet=553585000.0 edinet=430566000.0"
+    },
+    {
+      "code": "SOURCE_MISMATCH",
+      "field": "balance_sheet.current_assets_other",
+      "message": "2026-01: tdnet=525062000.0 edinet=533622000.0"
+    },
+    {
+      "code": "SOURCE_MISMATCH",
+      "field": "balance_sheet.ppe",
+      "message": "2026-01: tdnet=924624000.0 edinet=744787000.0"
+    },
+    {
+      "code": "SOURCE_MISMATCH",
+      "field": "balance_sheet.noncurrent_assets_total",
+      "message": "2026-01: tdnet=2489004000.0 edinet=2309175000.0"
+    },
+    {
+      "code": "SOURCE_MISMATCH",
+      "field": "balance_sheet.total_assets",
+      "message": "2026-01: tdnet=7106237000.0 edinet=6934968000.0"
+    },
+    {
+      "code": "SOURCE_MISMATCH",
+      "field": "balance_sheet.current_liabilities_other",
+      "message": "2026-01: tdnet=597903000.0 edinet=522070000.0"
+    },
+    {
+      "code": "SOURCE_MISMATCH",
+      "field": "balance_sheet.current_liabilities_total",
+      "message": "2026-01: tdnet=1626415000.0 edinet=1691374000.0"
+    },
+    {
+      "code": "SOURCE_MISMATCH",
+      "field": "balance_sheet.noncurrent_liabilities_other",
+      "message": "2026-01: tdnet=80935000.0 edinet=71830000.0"
+    },
+    {
+      "code": "SOURCE_MISMATCH",
+      "field": "balance_sheet.noncurrent_liabilities_total",
+      "message": "2026-01: tdnet=300705000.0 edinet=234971000.0"
+    },
+    {
+      "code": "SOURCE_MISMATCH",
+      "field": "balance_sheet.shareholders_equity",
+      "message": "2026-01: tdnet=4807948000.0 edinet=4637356000.0"
+    },
+    {
+      "code": "SOURCE_MISMATCH",
+      "field": "balance_sheet.net_assets",
+      "message": "2026-01: tdnet=5179116000.0 edinet=5008622000.0"
+    },
+    {
+      "code": "SOURCE_MISMATCH",
+      "field": "balance_sheet.lease_obligations",
+      "message": "2026-01: tdnet=141930000.0 edinet=217763000.0"
+    },
+    {
+      "code": "SOURCE_MISMATCH",
+      "field": "income_statement.net_income",
+      "message": "2026-01: tdnet=-2672092000.0 edinet=-2842693000.0"
+    },
+    {
+      "code": "SOURCE_MISMATCH",
+      "field": "cash_flow.operating_cf",
+      "message": "2026-01: tdnet=-746000000.0 edinet=-716459000.0"
+    },
+    {
+      "code": "SOURCE_MISMATCH",
+      "field": "cash_flow.depreciation",
+      "message": "2026-01: tdnet=494733000.0 edinet=527293000.0"
+    },
+    {
+      "code": "SOURCE_MISMATCH",
+      "field": "cash_flow.financing_cf",
+      "message": "2026-01: tdnet=4484000.0 edinet=4549000.0"
+    }
+  ],
+  "company": {
+    "sector33_code": "3750",
+    "sector33_name": "精密機器",
+    "market": "グロース（内国株式）",
+    "fiscal_year_end_month": 1,
+    "consolidated": true
+  },
+  "market": {
+    "price": 9080.0,
+    "price_date": "2026-10-02",
+    "shares_issued": 10397100.0,
+    "treasury_shares": 0.0,
+    "shares_outstanding": 10397100.0,
+    "market_cap": 94405.668,
+    "peak_price": 19530.0,
+    "peak_date": "2026-09-28",
+    "drawdown_from_peak": -0.5350742447516641
+  },
+  "fiscal_years": [
+    "2025-01",
+    "2026-01"
+  ],
+  "balance_sheet": {
+    "cash": [
+      4145.0,
+      2019.003
+    ],
+    "receivables": [
+      null,
+      null
+    ],
+    "securities_current": [
+      null,
+      null
+    ],
+    "inventory": [
+      null,
+      null
+    ],
+    "current_assets_other": [
+      785.934,
+      525.062
+    ],
+    "current_assets_total": [
+      6185.537,
+      4617.233
+    ],
+    "ppe": [
+      937.184,
+      924.624
+    ],
+    "intangibles": [
+      446.991,
+      499.329
+    ],
+    "investment_securities": [
+      1243.062,
+      807.361
+    ],
+    "investments_other": [
+      45.863,
+      126.354
+    ],
+    "noncurrent_assets_total": [
+      2745.125,
+      2489.004
+    ],
+    "total_assets": [
+      8930.662,
+      7106.237
+    ],
+    "payables": [
+      null,
+      null
+    ],
+    "current_portion_long_term_debt": [
+      6.927,
+      null
+    ],
+    "current_liabilities_other": [
+      389.821,
+      597.903
+    ],
+    "current_liabilities_total": [
+      1049.912,
+      1626.415
+    ],
+    "noncurrent_liabilities_other": [
+      54.16,
+      80.935
+    ],
+    "noncurrent_liabilities_total": [
+      735.769,
+      300.705
+    ],
+    "total_liabilities": [
+      1785.682,
+      1927.12
+    ],
+    "bonds": [
+      null,
+      null
+    ],
+    "shareholders_equity": [
+      6515.555,
+      4807.948
+    ],
+    "net_assets": [
+      7144.98,
+      5179.116
+    ],
+    "current_portion_bonds": [
+      null,
+      null
+    ],
+    "lease_obligations": [
+      98.765,
+      141.93
+    ],
+    "short_term_debt": [
+      10.0,
+      null
+    ],
+    "long_term_debt": [
+      553.585,
+      null
+    ]
+  },
+  "income_statement": {
+    "revenue": [
+      4435.568,
+      4782.584
+    ],
+    "cost_of_sales": [
+      2143.965,
+      2469.676
+    ],
+    "sga": [
+      2918.762,
+      3456.657
+    ],
+    "operating_income": [
+      -627.0,
+      -1143.749
+    ],
+    "ordinary_income": [
+      -606.0,
+      -1284.0
+    ],
+    "net_income": [
+      -636.612,
+      -2672.092
+    ]
+  },
+  "cash_flow": {
+    "operating_cf": [
+      -927.897,
+      -746.0
+    ],
+    "investing_cf": [
+      -2128.515,
+      -1706.0
+    ],
+    "capex": [
+      -678.72,
+      -877.879
+    ],
+    "depreciation": [
+      330.113,
+      494.733
+    ],
+    "financing_cf": [
+      2131.415,
+      4.484
+    ]
+  },
+  "quarterly": {
+    "periods": [
+      "2025-01-Q3",
+      "2025-01-Q4",
+      "2026-01-Q1",
+      "2026-01-Q2",
+      "2026-01-Q3",
+      "2026-01-Q4",
+      "2027-01-Q2"
+    ],
+    "revenue": [
+      null,
+      1317.405,
+      948.0,
+      995.017,
+      1229.153,
+      1610.414,
+      null
+    ],
+    "operating_income": [
+      null,
+      -222.0,
+      -283.349,
+      -383.026,
+      -223.502,
+      -253.872,
+      null
+    ],
+    "net_income": [
+      null,
+      -364.612,
+      -200.168,
+      -193.832,
+      -91.0,
+      -2187.092,
+      null
+    ],
+    "operating_margin": [
+      null,
+      -0.16851309961629113,
+      -0.29889135021097046,
+      -0.3849441768331596,
+      -0.1818341573424952,
+      -0.1576439350378226,
+      null
+    ]
+  },
+  "segments": [],
+  "forecast": {
+    "fiscal_year": null,
+    "disclosed_at": "2026-09-14T15:45:00+09:00",
+    "revenue": 5073.0,
+    "operating_income": -1658.0,
+    "ordinary_income": -1419.0,
+    "net_income": -1266.0,
+    "eps": -131.88,
+    "dividend_per_share": 0.0,
+    "revisions": []
+  },
+  "ratios": {
+    "equity_ratio": [
+      0.7295713352492794,
+      0.6765814312131724
+    ],
+    "current_ratio": [
+      5.891481381296718,
+      2.8389021252263413
+    ],
+    "net_cash": [
+      3475.723,
+      1877.0729999999999
+    ],
+    "debt_to_ebitda": [
+      null,
+      null
+    ],
+    "operating_margin": [
+      -0.1413573188371816,
+      -0.2391487530590158
+    ],
+    "roe": [
+      -0.09770648854932541,
+      -0.47195501250805516
+    ],
+    "roa": [
+      -0.07128385331344977,
+      -0.3332429792068903
+    ],
+    "roic": [
+      -0.05616656836344133,
+      -0.1504637058202466
+    ],
+    "revenue_growth": [
+      null,
+      0.07823485064370551
+    ],
+    "operating_income_growth": [
+      null,
+      null
+    ],
+    "cycle_stats": {
+      "operating_margin": {
+        "median_10y": -0.19025303594809873,
+        "latest": -0.2391487530590158,
+        "percentile_latest": 0.5
+      },
+      "roe": {
+        "median_10y": -0.2848307505286903,
+        "latest": -0.47195501250805516,
+        "percentile_latest": 0.5
+      },
+      "roic": {
+        "median_10y": -0.10331513709184396,
+        "latest": -0.1504637058202466,
+        "percentile_latest": 0.5
+      },
+      "equity_ratio": {
+        "median_10y": 0.7030763832312259,
+        "latest": 0.6765814312131724,
+        "percentile_latest": 0.5
+      }
+    },
+    "consecutive_loss_years": {
+      "operating": 2,
+      "net": 2
+    }
+  },
+  "valuation_metrics": {
+    "per_forecast": -74.57003791469195,
+    "per_trailing": null,
+    "per_normalized": -148.21966496599802,
+    "pcfr": -43.35787897172676,
+    "psr": 19.73946887289382,
+    "pbr": 19.63533465836153,
+    "earnings_yield": -0.013410211768217136,
+    "per_x_pbr": -1464.2076499416842,
+    "ev": 92528.595,
+    "ev_ebitda": -142.56750989189788,
+    "roic": -0.1504637058202466,
+    "accruals_to_assets": -0.2710424659352059,
+    "market_cap": 94405.668,
+    "drawdown_from_peak": -0.5350742447516641
+  },
+  "cost_structure": {
+    "fixed_cost": null,
+    "variable_cost_ratio": null,
+    "r2": null,
+    "n_years": 2,
+    "breakeven_revenue": null,
+    "latest_revenue": 4782.584,
+    "gap_to_breakeven_pct": null
+  },
+  "liquidation_value": {
+    "haircuts": {
+      "cash": 1.0,
+      "receivables": 0.85,
+      "securities_current": 1.0,
+      "inventory": 0.5,
+      "current_assets_other": 0.0,
+      "ppe": 0.5,
+      "intangibles": 0.0,
+      "investments": 0.5
+    },
+    "components": {
+      "cash": {
+        "book": 2019.003,
+        "haircut": 1.0,
+        "adjusted": 2019.003
+      },
+      "current_assets_other": {
+        "book": 525.062,
+        "haircut": 0.0,
+        "adjusted": 0.0
+      },
+      "ppe": {
+        "book": 924.624,
+        "haircut": 0.5,
+        "adjusted": 462.312
+      },
+      "intangibles": {
+        "book": 499.329,
+        "haircut": 0.0,
+        "adjusted": 0.0
+      },
+      "investments": {
+        "book": 933.715,
+        "haircut": 0.5,
+        "adjusted": 466.8575
+      }
+    },
+    "adjusted_assets": 2948.1725,
+    "total_liabilities": 1927.12,
+    "value_total": 1021.0525000000002,
+    "value_per_share": 98.20550922853491
+  },
+  "dcf": {
+    "discount_rate": 0.1,
+    "net_cash": 1877.0729999999999,
+    "fcf_base": 131.87900000000002,
+    "bear_total": 3195.8630000000003,
+    "bear_per_share": 307.38023102595923,
+    "bull_growth_rate": 0.2,
+    "bull_growth_years": 5,
+    "bull_total": 4777.240023290758,
+    "bull_per_share": 459.47812594769283,
+    "fcf_base_year": "2026-01"
+  },
+  "normalized_value": {
+    "method": "latest_revenue_x_median_margin_10y",
+    "median_operating_margin": -0.19025303594809873,
+    "normalized_operating_income": -909.9011256768017,
+    "tax_rate": 0.3,
+    "normalized_fcf": 593.2546615659594,
+    "value_per_share": 751.1344139865535,
+    "peak_operating_margin": -0.1413573188371816,
+    "peak_fcf": 756.9481735921983,
+    "peak_value_per_share": 908.5759236635198
+  },
+  "value_range": {
+    "liquidation": 98.20550922853491,
+    "price": 9080.0,
+    "normalized": 751.1344139865535,
+    "peak": 908.5759236635198,
+    "risk_reward": -0.9273052945679302
+  },
+  "cycle": {
+    "peer_tickers": [],
+    "peer_selection": "auto",
+    "peers": [],
+    "industry_median_operating_margin": [
+      -0.1413573188371816,
+      -0.2391487530590158
+    ],
+    "peer_margin_deterioration_share": null,
+    "industry_margin_ar1_phi": null,
+    "industry_margin_half_life_years": null,
+    "leading_indicators": []
+  },
+  "survival": {
+    "runway_months": 32.477260053619304,
+    "runway_basis": "annual_ocf",
+    "ocf_positive": false,
+    "debt_due_within_1y": null,
+    "debt_due_to_cash": null,
+    "going_concern_note": false,
+    "going_concern_events": false,
+    "covenant_breach": false,
+    "commitment_line": null,
+    "exchange_designation": null
+  },
+  "reversal_signals": {
+    "loss_narrowing_qoq": null,
+    "loss_narrowing_yoy": null,
+    "upward_revision_last_6m": false,
+    "industry_capex_to_depreciation": -1.7744500568993782,
+    "restructuring_last_12m": []
+  },
+  "shareholders": {
+    "top10": [],
+    "large_shareholding_reports": [
+      {
+        "filer": "德重　徹",
+        "ratio": 0.1722,
+        "change_pt": 0.0,
+        "date": "2026-08-20"
+      },
+      {
+        "filer": "德重　徹",
+        "ratio": 0.1722,
+        "change_pt": -0.008500000000000008,
+        "date": "2026-08-20"
+      },
+      {
+        "filer": "みずほ証券 株式会社",
+        "ratio": 0.0473,
+        "change_pt": -0.0138,
+        "date": "2026-08-07"
+      },
+      {
+        "filer": "德重　徹",
+        "ratio": 0.1722,
+        "change_pt": -0.008500000000000008,
+        "date": "2026-07-29"
+      },
+      {
+        "filer": "德重　徹",
+        "ratio": 0.1809,
+        "change_pt": 0.00020000000000000573,
+        "date": "2026-07-29"
+      },
+      {
+        "filer": "みずほ証券 株式会社",
+        "ratio": 0.0611,
+        "change_pt": null,
+        "date": "2026-07-23"
+      },
+      {
+        "filer": "Ｓａｕｄｉ　Ａｒａｍｃｏ　Ｅｎｔｒｅｐｒｅｎｅｕｒｓｈｉｐ　Ｖｅｎｔｕｒｅｓ　Ｃｏｍｐａｎｙ　Ｌｉｍｉｔｅｄ",
+        "ratio": 0.0344,
+        "change_pt": -0.0175,
+        "date": "2026-04-22"
+      },
+      {
+        "filer": "ＳＢＩインベストメント株式会社",
+        "ratio": 0.0229,
+        "change_pt": -0.015700000000000002,
+        "date": "2026-04-09"
+      },
+      {
+        "filer": "ＳＢＩインベストメント株式会社",
+        "ratio": 0.0386,
+        "change_pt": -0.002700000000000001,
+        "date": "2026-03-18"
+      },
+      {
+        "filer": "ＳＢＩインベストメント株式会社",
+        "ratio": 0.0413,
+        "change_pt": null,
+        "date": "2026-01-20"
+      },
+      {
+        "filer": "德重　徹",
+        "ratio": 0.1807,
+        "change_pt": -0.007300000000000001,
+        "date": "2026-01-09"
+      },
+      {
+        "filer": "ＳＢＩインベストメント株式会社",
+        "ratio": 0.0414,
+        "change_pt": -0.007600000000000003,
+        "date": "2026-01-09"
+      },
+      {
+        "filer": "德重　徹",
+        "ratio": 0.1807,
+        "change_pt": 0.0,
+        "date": "2026-01-09"
+      },
+      {
+        "filer": "德重　徹",
+        "ratio": 0.1807,
+        "change_pt": 0.0,
+        "date": "2026-01-09"
+      },
+      {
+        "filer": "德重　徹",
+        "ratio": 0.188,
+        "change_pt": 0.0,
+        "date": "2025-07-11"
+      },
+      {
+        "filer": "德重　徹",
+        "ratio": 0.188,
+        "change_pt": 0.0,
+        "date": "2025-06-27"
+      },
+      {
+        "filer": "德重　徹",
+        "ratio": 0.188,
+        "change_pt": null,
+        "date": "2025-06-27"
+      },
+      {
+        "filer": "德重　徹",
+        "ratio": 0.188,
+        "change_pt": 0.0,
+        "date": "2025-03-28"
+      },
+      {
+        "filer": "德重　徹",
+        "ratio": 0.188,
+        "change_pt": null,
+        "date": "2025-03-28"
+      },
+      {
+        "filer": "德重　徹",
+        "ratio": 0.188,
+        "change_pt": null,
+        "date": "2025-02-03"
+      }
+    ],
+    "payout_ratio": [],
+    "dividend_per_share": [],
+    "capital_actions": [
+      {
+        "date": "2026-08-27",
+        "type": "split",
+        "detail": "株式分割及び定款の一部変更並びに新株予約権の行使価額等の調整に関するお知らせ",
+        "dilution_ratio": null,
+        "url": "https://www.release.tdnet.info/inbs/140120260826526462.pdf"
+      }
+    ],
+    "shareholder_return_policy": {
+      "disclosed_at": null,
+      "text": null
+    },
+    "capital_cost_disclosure": {
+      "disclosed_at": null,
+      "url": null
+    }
+  },
+  "disclosures": [
+    {
+      "code": "T16",
+      "disclosed_at": "2026-10-01T15:30:00+09:00",
+      "title": "行使価額修正条項付新株予約権の月間行使状況に関するお知らせ",
+      "url": "https://www.release.tdnet.info/inbs/140120260930543716.pdf"
+    },
+    {
+      "code": "T20",
+      "disclosed_at": "2026-09-14T15:45:00+09:00",
+      "title": "営業外収益および特別損失の計上に関するお知らせ",
+      "url": "https://www.release.tdnet.info/inbs/140120260911535207.pdf"
+    },
+    {
+      "code": "T33",
+      "disclosed_at": "2026-09-14T15:45:00+09:00",
+      "title": "2027年１月期 第２四半期 決算説明資料",
+      "url": "https://www.release.tdnet.info/inbs/140120260911535208.pdf"
+    },
+    {
+      "code": "T16",
+      "disclosed_at": "2026-09-01T15:30:00+09:00",
+      "title": "行使価額修正条項付新株予約権の月間行使状況に関するお知らせ",
+      "url": "https://www.release.tdnet.info/inbs/140120260831529040.pdf"
+    },
+    {
+      "code": "T17",
+      "disclosed_at": "2026-08-27T08:00:00+09:00",
+      "title": "株式分割及び定款の一部変更並びに新株予約権の行使価額等の調整に関するお知らせ",
+      "url": "https://www.release.tdnet.info/inbs/140120260826526462.pdf"
+    }
+  ],
+  "auto_ratings": {
+    "asset_value": "E",
+    "earnings_value": "E",
+    "financial_health": "C",
+    "profitability": "E",
+    "growth": null,
+    "cyclicality": "D",
+    "survival": "B",
+    "reversal": "D",
+    "business_quality": null,
+    "shareholder_policy": null,
+    "details": {
+      "asset_value": {
+        "metric": 92.45917129628495,
+        "points": null,
+        "note": "market_cap_to_liquidation"
+      },
+      "earnings_value": {
+        "metric": -148.21966496599802,
+        "points": null,
+        "note": "per_normalized (nonpositive)"
+      },
+      "profitability": {
+        "metric": -0.19025303594809873,
+        "points": null,
+        "note": "median_operating_margin"
+      },
+      "growth": {
+        "metric": null,
+        "points": null,
+        "note": "peak_to_peak_revenue_cagr"
+      },
+      "financial_health": {
+        "metric": 4,
+        "points": 4,
+        "note": "{'equity_ratio': 2, 'net_cash_to_mcap': 1, 'runway_months': 1}"
+      },
+      "reversal": {
+        "metric": 1,
+        "points": 1,
+        "note": null
+      }
+    }
+  },
+  "next_earnings_date": null,
+  "previous_snapshot": null,
+  "kill_criteria_check": [],
+  "trades": [],
+  "result": null
+}

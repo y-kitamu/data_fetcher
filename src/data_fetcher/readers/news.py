@@ -58,23 +58,23 @@ class JpNewsReader:
             pl.concat(frames, how="diagonal_relaxed")
             .unique(subset=["url"], keep="first")
             .with_columns(
-                pl.col("published_at")
-                .str.to_datetime(format=None, strict=False)
-                .alias("published_at")
+                pl.coalesce(
+                    pl.col("published_at")
+                    .str.to_datetime(format=None, strict=False, time_zone="UTC")
+                    .dt.convert_time_zone("Asia/Tokyo")
+                    .dt.replace_time_zone(None),
+                    pl.col("published_at").str.to_datetime(format=None, strict=False),
+                ).alias("published_at")
             )
             .filter(pl.col("published_at").is_not_null())
             .sort("published_at")
         )
 
         if start_date is not None:
-            cutoff = datetime.datetime.combine(
-                start_date, datetime.time.min, tzinfo=datetime.timezone.utc
-            )
+            cutoff = datetime.datetime.combine(start_date, datetime.time.min)
             df = df.filter(pl.col("published_at") >= cutoff)
         if end_date is not None:
-            cutoff = datetime.datetime.combine(
-                end_date, datetime.time.max, tzinfo=datetime.timezone.utc
-            )
+            cutoff = datetime.datetime.combine(end_date, datetime.time.max)
             df = df.filter(pl.col("published_at") <= cutoff)
         if symbols is not None:
             df = df.filter(pl.col("symbol").is_in(symbols))

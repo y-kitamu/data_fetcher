@@ -1,3 +1,4 @@
+import argparse
 import datetime
 from pathlib import Path
 
@@ -109,19 +110,32 @@ def collect_daily_data(
     return saved_files
 
 
-def main():
+def main(target_zips: list[Path]):
     output_zip_dir = data_fetcher.constants.PROJECT_ROOT / "data" / "tdnet" / "raw"
     output_zip_dir.mkdir(exist_ok=True)
 
     taxonomy_index = TaxonomyIndex.from_elements(collect_all_taxonomies())
 
-    end_date = datetime.datetime.now().date()
-    date = end_date - datetime.timedelta(days=30)
+    if target_zips:
+        for zip_path in target_zips:
+            append_zip_to_csv(zip_path, session, taxonomy_index, work_dir)
+    else:
+        end_date = datetime.datetime.now().date()
+        date = end_date - datetime.timedelta(days=30)
 
-    while date <= end_date:
-        collect_daily_data(date, output_zip_dir, taxonomy_index)
-        date = datetime.timedelta(days=1) + date
+        while date <= end_date:
+            collect_daily_data(date, output_zip_dir, taxonomy_index)
+            date = datetime.timedelta(days=1) + date
 
 
 if __name__ == "__main__":
-    data_fetcher.debug.run_debug(main)
+    parser = argparse.ArgumentParser(description="Fetch data from TDnet.")
+    parser.add_argument(
+        "--zippath",
+        nargs="+",
+        type=Path,
+        help="Target zip file to convert to csv.",
+    )
+    args = parser.parse_args()
+
+    data_fetcher.debug.run_debug(main, args.zippath)
