@@ -248,8 +248,8 @@ def _run_initial(
         leading_indicators_config=leading_indicators_config,
     )
 
-    snapshot_path = ticker_dir / f"{date_str}_snapshot.json"
-    md_path = ticker_dir / f"{date_str}_initial.md"
+    snapshot_path = ticker_dir / f"{date_str}_{args.ticker}_snapshot.json"
+    md_path = ticker_dir / f"{date_str}_{args.ticker}_initial.md"
     template_text = (reports_dir / "_templates" / "initial.md").read_text(
         encoding="utf-8"
     )
@@ -339,8 +339,8 @@ def _run_review(
         kill_criteria=parent_data.get("kill_criteria", []),
     )
 
-    snapshot_path = ticker_dir / f"{date_str}_snapshot.json"
-    md_path = ticker_dir / f"{date_str}_review.md"
+    snapshot_path = ticker_dir / f"{date_str}_{args.ticker}_snapshot.json"
+    md_path = ticker_dir / f"{date_str}_{args.ticker}_review.md"
     template_text = (reports_dir / "_templates" / "review.md").read_text(
         encoding="utf-8"
     )
@@ -419,8 +419,8 @@ def _run_exit(
         trades_df=trades_df,
     )
 
-    snapshot_path = ticker_dir / f"{date_str}_snapshot.json"
-    md_path = ticker_dir / f"{date_str}_exit.md"
+    snapshot_path = ticker_dir / f"{date_str}_{args.ticker}_snapshot.json"
+    md_path = ticker_dir / f"{date_str}_{args.ticker}_exit.md"
     template_text = (reports_dir / "_templates" / "exit.md").read_text(encoding="utf-8")
 
     updates: dict[str, object] = {
