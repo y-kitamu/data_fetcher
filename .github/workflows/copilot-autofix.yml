@@ -1,6 +1,7 @@
 name: Auto-fix Failed Workflow with Copilot
 
 on:
+  workflow_dispatch:
   # workflow_run:
   #   workflows: [] #["Update Stock Data", "Update Japanese Stock Data", "Run Tests"]
   #   types: [completed]
