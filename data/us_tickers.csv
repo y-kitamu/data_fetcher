@@ -3249,7 +3249,6 @@ PRVA,PRIVIA HEALTH GP,プリビア・ヘルス・グループ,NASDAQ,ソフト�
 PSFE,PAYSAFE LTD,ペイセーフ,NYSE,その他,○
 PSIX,POWER SOLUTIONS,パワーソリューションズ・インターナショナル,NASDAQ,機械,○
 PSK,SPDR ICE PRF SEC,State Street SPDR ICE優先証券ETF,NYSE,その他,○
-PSKY,PARAMNT SKYDANCE,パラマウント・スカイダンス,NASDAQ,エンターテイメント,○
 PSMT,PRICESMART INC,プライススマート,NASDAQ,小売,○
 PSN,PARSONS CORP,パーソンズ,NYSE,ソフトウェア・サービス,○
 PSNL,PERSONALIS INC,パーソナリス,NASDAQ,ヘルスケア,○
@@ -3314,7 +3313,6 @@ QQQS,INV NS FG200 ETF,インベスコ NASDAQ フューチャー200 ETF,NASDAQ,�
 QQQU,DRX M7 BL2X,Direxion デイリー マグニフィセント 7 ブル 2 倍 ETF,NYSE,その他,○
 QRHC,QUEST RESOURCE,クエスト・リソース・ホールディング,NASDAQ,その他,○
 QRMI,GLBLX NDX R MNGD,グローバルX NASDAQ100・リスク管理・インカム ETF,NASDAQ,その他,○
-QRVO,QORVO INC,クォルボ,NASDAQ,半導体製造,○
 QS,QUANTUMSCAPE CO,クアンタムスケープ,NASDAQ,その他製造,○
 QSI,QUANTUM SI INC,クアンタム・シイ,NASDAQ,その他製造,○
 QSR,RESTAURANT BRAND,レストラン・ブランズ・インターナショナル,NYSE,外食,○
@@ -3392,6 +3390,7 @@ REPL,REPLIMUNE GROUP,レプリミューン,NASDAQ,医薬品（バイオテクノ
 REPX,RILEY EXPLRTION,ライリー・エクスプロレーション・パーミアン,NYSE,石油,○
 RERE,ATRENEW INC,ATリニュー,NYSE,その他,○
 RES,RPC INC,RPC,NYSE,石油,○
+RETO,RETO ECOSOLUTION,レト・エコソリューションズ,NASDAQ,その他製造,○
 REX,REX AMCAN RES CO,REXアメリカン・リソーシズ,NYSE,その他,○
 REYN,REYNOLDS CONSUMR,レイノルズ・コンシューマー・プロダクツ,NASDAQ,その他製造,○
 REZI,RESIDEO TECH,レジデオ・テクノロジーズ,NYSE,その他製造,○
@@ -3545,7 +3544,6 @@ SCHW,CHARLES SCHWAB,チャールズ・シュワブ,NYSE,金融（証券）,○
 SCI,SERVICE CORP INT,サービス・コーポレーション・インターナショナル,NYSE,その他,○
 SCKT,SOCKET MOBILE,ソケット･モバイル,NASDAQ,コンピュータ,○
 SCL,STEPAN COMPANY,ステパン,NYSE,化学,○
-SCNX,SCIENTURE HOLDIN,サイエンチャー・ホールディングス,NASDAQ,コンピュータ,○
 SCOR,COMSCORE INC,コムスコア,NASDAQ,ソフトウェア・サービス,○
 SCSC,SCANSOURCE INC,スキャンソース,NASDAQ,コンピュータ,○
 SCYX,SCYNEXIS INC,サイネクシス,NASDAQ,医薬品（バイオテクノロジー）,○
@@ -4261,7 +4259,6 @@ VISN,VISTANCE NETWORK,ビスタンス・ネットワークス,NASDAQ,通信機�
 VIST,VISTA ENERGY,ビスタ・エナジー,NYSE,石油,○
 VITL,VITAL FARMS INC,バイタル・ファームズ,NASDAQ,食品,○
 VIV,TELEFONCA BRASIL,テレフォニカ・ブラジル,NYSE,通信サービス,○
-VIVK,VIVAKOR INC,ビバコール,NASDAQ,その他,○
 VIVO,VIVOPOWER,ビボパワー,NASDAQ,電力,○
 VIVS,VIVOSIM LABS INC,ビーボシム・ラブス,NASDAQ,医薬品（バイオテクノロジー）,○
 VKTX,VIKING THERAPEUT,バイキング・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
@@ -4360,7 +4357,6 @@ WABC,WESTAMERICA BANC,ウエストアメリカ・バンコープ,NASDAQ,金融�
 WAFD,WAFD INC,ワフド,NASDAQ,金融（銀行）,○
 WAFU,WAH FU EDUCATION,ワー・フー・エデュケーション・グループ,NASDAQ,ソフトウェア・サービス,○
 WAL,WESTERN ALLIANCE,ウェスタン・アライアンス・バンコープ,NYSE,金融（銀行）,○
-WALD,WALDENCAST PLC,ウォルデンキャスト,NASDAQ,その他,○
 WASH,WASHINGTON TRUST,ワシントン・トラスト・バンコープ,NASDAQ,金融（銀行）,○
 WAT,WATERS CORP,ウォーターズ,NYSE,化学,○
 WAVE,ECO WAVE POWER,エコ・ウェーブ・パワー・グローバル,NASDAQ,電力,○
@@ -4409,7 +4405,6 @@ WIT,WIPRO LTD ADR,ウィプロ,NYSE,ソフトウェア・サービス,○
 WIX,WIX.COM LTD,Wix.com,NASDAQ,ソフトウェア・サービス,○
 WK,WORKIVA INC,ワーキバ,NYSE,ソフトウェア・サービス,○
 WKC,WORLD KINECT,ワールド・キネクト,NYSE,航空,○
-WKEY,WISEKEY INTL HLD,ワイズキー・インターナショナル・ホールディングス,NASDAQ,ネットワークセキュリティー,○
 WKHS,WORKHORSE GROUP,ワークホース・グループ,NASDAQ,自動車,○
 WKSP,WORKSPORT LTD,ワークスポート,NASDAQ,自動車,○
 WLDN,WILLDAN GROUP,ウィルダン・グループ,NASDAQ,その他製造,○
