@@ -1194,7 +1194,7 @@
         "Gain On Sale Of Business": 0.0,
         "Impairment Of Capital Assets": NaN,
         "Net Non Operating Interest Income Expense": -208849000.0,
-        "Interest Expense Non Operating": 242369000.0,
+        "Interest Expense Non Operating": NaN,
         "Interest Income Non Operating": 33520000.0,
         "Operating Income": -15646000.0,
         "Operating Expense": 1711714000.0,
