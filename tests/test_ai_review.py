@@ -36,6 +36,13 @@ def _fake_run(stdout: str = "", returncode: int = 0, stderr: str = ""):
     return run
 
 
+@pytest.fixture(autouse=True)
+def review_dir(monkeypatch: pytest.MonkeyPatch, tmp_path):
+    path = tmp_path / "ai_review"
+    monkeypatch.setattr(ai_review, "REVIEW_DIR", path)
+    return path
+
+
 @pytest.fixture
 def claude_on_path(monkeypatch: pytest.MonkeyPatch) -> None:
     monkeypatch.setattr(ai_review.shutil, "which", lambda _: "/usr/bin/claude")
@@ -242,3 +249,106 @@ def test_build_prompt_forbids_crontab_and_other_repos() -> None:
     prompt = ai_review.build_prompt({}, [], [], TODAY)
     assert "crontab の変更" in prompt
     assert "src/ と scripts/ のみ" in prompt
+
+
+# --- persistence ----------------------------------------------------------------
+
+
+def _review(summary: str = "s") -> ai_review.ReviewResult:
+    return ai_review.ReviewResult(
+        status="warning",
+        summary=summary,
+        findings=[ai_review.Finding("warning", "fred", "停止", "log", "確認", False)],
+        fixes=[ai_review.Fix("gmo", "p", "c", "f", "v", True)],
+    )
+
+
+def test_save_and_load_previous_review_round_trip(review_dir) -> None:
+    ai_review.save_review(_review(), TODAY - datetime.timedelta(days=1))
+
+    loaded = ai_review.load_previous_review(TODAY)
+
+    assert loaded == (TODAY - datetime.timedelta(days=1), _review())
+
+
+def test_load_previous_review_skips_today_errors_and_broken_files(
+    review_dir,
+) -> None:
+    ai_review.save_review(_review("old"), TODAY - datetime.timedelta(days=3))
+    ai_review.save_review(
+        ai_review.ReviewResult(error="timeout"), TODAY - datetime.timedelta(days=2)
+    )
+    (review_dir / f"{TODAY - datetime.timedelta(days=1):%Y%m%d}.json").write_text("{")
+    ai_review.save_review(_review("today"), TODAY)
+
+    date, result = ai_review.load_previous_review(TODAY)
+
+    assert date == TODAY - datetime.timedelta(days=3)
+    assert result.summary == "old"
+
+
+def test_load_previous_review_without_saved_results() -> None:
+    assert ai_review.load_previous_review(TODAY) is None
+
+
+def test_save_review_drops_files_past_retention(review_dir) -> None:
+    old_day = TODAY - datetime.timedelta(days=ai_review.RETENTION_DAYS + 1)
+    kept_day = TODAY - datetime.timedelta(days=ai_review.RETENTION_DAYS)
+    ai_review.save_review(_review(), old_day)
+    ai_review.save_review(_review(), kept_day)
+    ai_review.save_review(_review(), TODAY)
+
+    assert sorted(p.name for p in review_dir.glob("*.json")) == [
+        f"{kept_day:%Y%m%d}.json",
+        f"{TODAY:%Y%m%d}.json",
+    ]
+
+
+def test_build_prompt_includes_previous_review() -> None:
+    prompt = ai_review.build_prompt(
+        {}, [], [], TODAY, (TODAY - datetime.timedelta(days=1), _review("昨日の要約"))
+    )
+    assert "## 前回のレビュー結果 (2026-10-01)" in prompt
+    assert "昨日の要約" in prompt
+    assert "[warning] fred: 停止" in prompt
+    assert "gmo: p -> c" in prompt
+    assert "前回の findings が解消したか" in prompt
+
+
+def test_build_prompt_without_previous_review() -> None:
+    prompt = ai_review.build_prompt({}, [], [], TODAY)
+    assert "保存された前回結果なし" in prompt
+
+
+def test_run_review_passes_previous_review_to_prompt(
+    monkeypatch: pytest.MonkeyPatch, claude_on_path: None
+) -> None:
+    ai_review.save_review(_review("昨日の要約"), TODAY - datetime.timedelta(days=1))
+    fake = _fake_run(
+        _envelope({"status": "ok", "summary": "x", "findings": [], "fixes": []})
+    )
+    monkeypatch.setattr(ai_review.subprocess, "run", fake)
+
+    ai_review.run_review({}, [], TODAY)
+
+    assert "昨日の要約" in fake.cmd[fake.cmd.index("-p") + 1]
+
+
+def test_finding_without_is_new_defaults_to_new(
+    monkeypatch: pytest.MonkeyPatch, claude_on_path: None
+) -> None:
+    finding = {
+        "severity": "warning",
+        "source": "fred",
+        "issue": "i",
+        "evidence": "e",
+        "action": "a",
+    }
+    payload = {"status": "warning", "summary": "x", "findings": [finding], "fixes": []}
+    monkeypatch.setattr(ai_review.subprocess, "run", _fake_run(_envelope(payload)))
+
+    result = ai_review.run_review({}, [], TODAY)
+
+    assert result.findings[0].is_new is True
+    assert "新規" in ai_review.render_review_html(result)
+    assert "継続" in ai_review.render_review_html(_review())

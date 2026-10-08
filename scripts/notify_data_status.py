@@ -218,6 +218,10 @@ if __name__ == "__main__":
     review = ai_review.run_review(data_nums, anomaly_items, today)
     if review.error is not None:
         print(f"AI review failed: {review.error}")
+    try:
+        ai_review.save_review(review, today)
+    except OSError as e:
+        print(f"Failed to save AI review: {e}")
     data_fetcher.notify_to_gmail(
         build_status_text(
             data_nums, anomaly_items, ai_review.render_review_html(review)

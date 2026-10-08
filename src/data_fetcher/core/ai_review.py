@@ -7,11 +7,14 @@ user to review. crontab, other repositories and anything needing a human
 decision are only reported.
 
 Used by scripts/notify_data_status.py to prepend an "AI チェック" section to
-the daily digest email. Best-effort like `notify_to_gmail`: any failure
+the daily digest email. Each day's result is saved under logs/ai_review/ and
+the latest earlier successful one is passed to the next review so recurring
+problems are tracked instead of being reported as new every day. Best-effort like `notify_to_gmail`: any failure
 (CLI missing, timeout, non-zero exit, unparsable output) returns a
 `ReviewResult` with `error` set so the digest is still sent without it.
 """
 
+import dataclasses
 import datetime
 import html
 import json
@@ -37,6 +40,8 @@ EXTERNAL_LOG_FILES = tuple(
 # Logs untouched for this long belong to retired/one-off jobs (cron_gcp.txt,
 # *_backfill_*.log) and would only distract the review.
 STALE_LOG_DAYS = 7
+REVIEW_DIR = PROJECT_ROOT / "logs" / "ai_review"
+RETENTION_DAYS = 30
 
 _STATUS_LABEL: dict[Status, str] = {
     "ok": "問題なし",
@@ -72,8 +77,16 @@ OUTPUT_SCHEMA = {
                     "issue": {"type": "string"},
                     "evidence": {"type": "string"},
                     "action": {"type": "string"},
+                    "is_new": {"type": "boolean"},
                 },
-                "required": ["severity", "source", "issue", "evidence", "action"],
+                "required": [
+                    "severity",
+                    "source",
+                    "issue",
+                    "evidence",
+                    "action",
+                    "is_new",
+                ],
             },
         },
         "fixes": {
@@ -110,6 +123,7 @@ class Finding:
     issue: str
     evidence: str
     action: str
+    is_new: bool = True
 
 
 @dataclass
@@ -156,11 +170,89 @@ def _describe_log_files(paths: list[Path]) -> str:
     return "\n".join(lines) if lines else "- (対象ログなし)"
 
 
+def _result_from_payload(payload: dict) -> ReviewResult:
+    status = payload["status"]
+    if status not in _STATUS_LABEL:
+        raise ValueError(f"unknown status: {status}")
+    return ReviewResult(
+        status=status,
+        summary=payload["summary"],
+        findings=[Finding(**f) for f in payload.get("findings", [])],
+        fixes=[Fix(**f) for f in payload.get("fixes", [])],
+    )
+
+
+def save_review(result: ReviewResult, today: datetime.date) -> Path:
+    """Write today's result (errors included, for the record) and drop files
+    older than RETENTION_DAYS."""
+    REVIEW_DIR.mkdir(parents=True, exist_ok=True)
+    path = REVIEW_DIR / f"{today:%Y%m%d}.json"
+    path.write_text(
+        json.dumps(
+            {"date": today.isoformat()} | dataclasses.asdict(result),
+            ensure_ascii=False,
+            indent=2,
+        )
+    )
+    threshold = today - datetime.timedelta(days=RETENTION_DAYS)
+    for old in REVIEW_DIR.glob("*.json"):
+        try:
+            date = datetime.datetime.strptime(old.stem, "%Y%m%d").date()
+        except ValueError:
+            continue
+        if date < threshold:
+            old.unlink()
+    return path
+
+
+def load_previous_review(
+    today: datetime.date,
+) -> tuple[datetime.date, ReviewResult] | None:
+    """Latest successful review saved before `today`, skipping failed days and
+    unreadable files."""
+    if not REVIEW_DIR.exists():
+        return None
+    for path in sorted(REVIEW_DIR.glob("*.json"), reverse=True):
+        try:
+            date = datetime.datetime.strptime(path.stem, "%Y%m%d").date()
+            if date >= today:
+                continue
+            payload = json.loads(path.read_text())
+            if payload.get("error") is not None:
+                continue
+            return date, _result_from_payload(payload)
+        except (OSError, ValueError, KeyError, TypeError):
+            continue
+    return None
+
+
+def _describe_previous(previous: tuple[datetime.date, ReviewResult]) -> str:
+    date, result = previous
+    lines = [
+        f"## 前回のレビュー結果 ({date.isoformat()})",
+        f"status: {result.status}",
+        f"summary: {result.summary}",
+        "findings:",
+    ]
+    lines += [
+        f"- [{f.severity}] {f.source}: {f.issue} (根拠: {f.evidence})"
+        for f in result.findings
+    ] or ["- (なし)"]
+    lines.append("fixes:")
+    lines += [
+        f"- {f.source}: {f.problem} -> {f.change} ({f.files}, "
+        f"再収集{'確認済み' if f.verified else '未確認'})"
+        for f in result.fixes
+    ] or ["- (なし)"]
+    return "\n".join(lines)
+
+
 def build_prompt(
     data_nums: dict[str, tuple[str, int]],
     anomaly_items: list[AnomalyItem],
     log_files: list[Path],
     today: datetime.date,
+    previous: tuple[datetime.date, ReviewResult] | None = None,
 ) -> str:
     status_lines = "\n".join(
         f"- {key}: latest={date}, count={count}"
@@ -173,6 +265,11 @@ def build_prompt(
             for item in anomaly_items
         )
         or "- (なし)"
+    )
+    previous_section = (
+        _describe_previous(previous)
+        if previous is not None
+        else "## 前回のレビュー結果\n- (保存された前回結果なし)"
     )
     return f"""本日は {today.isoformat()} ({today:%a}) です。
 data_fetcher リポジトリ ({PROJECT_ROOT}) は cron で各種データを定期収集しています。
@@ -188,6 +285,8 @@ data_fetcher リポジトリ ({PROJECT_ROOT}) は cron で各種データを定�
 ## 対象ログ
 {_describe_log_files(log_files)}
 
+{previous_section}
+
 ## 調査手順
 1. `crontab -l` と scripts/cron_*.sh で各収集ジョブのスケジュールと出力先ログを把握する。
 2. 各ログの直近の実行分を確認し、例外・Traceback・HTTP エラー・認証エラー・
@@ -199,6 +298,8 @@ data_fetcher リポジトリ ({PROJECT_ROOT}) は cron で各種データを定�
 4. 必要に応じて取得元のウェブページ (JPX・日銀・FRED・OECD・e-Stat・TDnet など) を
    確認し、公開済みの最新データが取得できているかを確かめる。
 5. ルールベースの異常検知結果が誤検知か、本当の問題かを判断する。
+6. 前回のレビュー結果がある場合、前回の findings が解消したか、前回の fixes が
+   効いて今回の収集で取得できているかを確認する。
 
 ## 修正と再収集
 見つけた問題が「簡単に直せる」場合は修正し、該当する取得スクリプトを再実行して
@@ -238,7 +339,8 @@ data_fetcher リポジトリ ({PROJECT_ROOT}) は cron で各種データを定�
 - summary: 全体の要約 (2〜4 文)
 - findings: 修正していない (またはできなかった) 問題点。問題がなければ空配列。
   evidence にはログの該当行やファイルパスなど根拠を、action にはユーザーに求める
-  確認・推奨対応を書くこと
+  確認・推奨対応を書くこと。is_new は前回の findings に同じ問題がなければ true、
+  前回から継続している問題なら false とすること
 - fixes: 自動で行った修正。修正していなければ空配列。
   change に修正内容、files に変更したファイル、verification に再収集・テストの
   実行コマンドと結果、verified に再収集で取得を確認できたかを書くこと
@@ -252,15 +354,7 @@ def _parse_output(stdout: str) -> ReviewResult:
     payload = envelope.get("structured_output")
     if payload is None:
         payload = json.loads(envelope.get("result", ""))
-    status = payload["status"]
-    if status not in _STATUS_LABEL:
-        raise ValueError(f"unknown status: {status}")
-    return ReviewResult(
-        status=status,
-        summary=payload["summary"],
-        findings=[Finding(**f) for f in payload.get("findings", [])],
-        fixes=[Fix(**f) for f in payload.get("fixes", [])],
-    )
+    return _result_from_payload(payload)
 
 
 def run_review(
@@ -273,7 +367,13 @@ def run_review(
     if claude_path is None:
         return ReviewResult(error="claude コマンドが見つかりません")
 
-    prompt = build_prompt(data_nums, anomaly_items, list_log_files(today), today)
+    prompt = build_prompt(
+        data_nums,
+        anomaly_items,
+        list_log_files(today),
+        today,
+        load_previous_review(today),
+    )
     cmd = [
         claude_path,
         "-p",
@@ -325,13 +425,14 @@ def render_review_html(result: ReviewResult) -> str:
     if result.findings:
         rows = "\n".join(
             f"<tr class='{_SEVERITY_CLASS.get(f.severity, 'alert-info')}'>"
-            f"<td>{esc(f.severity)}</td><td>{esc(f.source)}</td><td>{esc(f.issue)}</td>"
+            f"<td>{esc(f.severity)}</td><td>{'新規' if f.is_new else '継続'}</td>"
+            f"<td>{esc(f.source)}</td><td>{esc(f.issue)}</td>"
             f"<td>{esc(f.evidence)}</td><td>{esc(f.action)}</td></tr>"
             for f in result.findings
         )
         table = f"""<table>
   <thead>
-    <tr><th>重要度</th><th>Source</th><th>問題</th><th>根拠</th><th>推奨対応</th></tr>
+    <tr><th>重要度</th><th>前回比</th><th>Source</th><th>問題</th><th>根拠</th><th>推奨対応</th></tr>
   </thead>
   <tbody>
 {rows}

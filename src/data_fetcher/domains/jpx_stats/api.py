@@ -46,6 +46,8 @@ ARBITRAGE_INDEX_URL = f"{BASE_URL}/markets/statistics-equities/program/index.htm
 
 _VAL_LINK_RE = re.compile(r"stock_val_1_\d{6}\.xls$")
 _MARGIN_LINK_RE = re.compile(r"(mtdailyk\d{10}\.xls|\d{8}_mtdaily\.xlsx)$")
+# 2026年9月第3週分から投資部門別売買状況は金額・株数同居の1ファイルに様式変更された
+_WEEKLY_LINK_RE = re.compile(r"/investor-type/[^/]+-att/stock_1_w_(\d{8})_(\d{8})\.xlsx$")
 _DATE_SUFFIX_RE = re.compile(r"(\d{6,10})\.xls$")
 _ARBITRAGE_LINK_RE = re.compile(r"/program/[^/]+-att/(\d{6})\.xls$")
 
@@ -92,6 +94,24 @@ def get_latest_investor_type_urls(session: requests.Session) -> dict[str, str]:
             "ページ構造が変更された可能性があります。"
         )
     return max(pairs, key=lambda p: _DATE_SUFFIX_RE.search(p["value_url"]).group(1))
+
+
+def get_weekly_investor_type_entries(session: requests.Session) -> list[dict[str, str]]:
+    """一覧ページに掲載中の新様式(stock_1_w_YYYYMMDD_YYYYMMDD.xlsx)の週次ファイルを全件返す。
+
+    ファイル名の `YYYYMMDD_YYYYMMDD` が当該週の開始日・終了日。雛形ファイル
+    (`stock_1_w_YYYYMMDD_YYYYMMDD.xlsx`、数字ではない)は正規表現で除外される。
+    """
+    soup = _get_soup(session, INVESTOR_TYPE_INDEX_URL)
+    entries = {}
+    for a in soup.find_all("a", href=_WEEKLY_LINK_RE):
+        start, end = _WEEKLY_LINK_RE.search(a["href"]).groups()
+        entries[(start, end)] = {
+            "url": BASE_URL + a["href"],
+            "week_start": f"{start[:4]}-{start[4:6]}-{start[6:]}",
+            "week_end": f"{end[:4]}-{end[4:6]}-{end[6:]}",
+        }
+    return [entries[k] for k in sorted(entries)]
 
 
 def get_latest_margin_url(session: requests.Session) -> str:

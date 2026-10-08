@@ -38,6 +38,10 @@ reports/
   _config/
     rubric_v1.yaml            # 評価基準の閾値（機械向け）
     leading_indicators.yaml   # 業種ごとの先行指標の登録（値は未実装、名前のみ）
+    watchlist.yaml            # ウォッチリスト（active な銘柄のみ。エディタで編集）
+    watchlist.schema.json     # 上記の JSON Schema（new_watch.py schema で生成。手で編集しない）
+    watchlist_archive/
+      YYYY.yaml               # 外した銘柄の履歴（外した年ごと。new_watch.py remove が追記）
   <ticker>/
     YYYY-MM-DD_initial.md
     YYYY-MM-DD_snapshot.json
@@ -68,6 +72,23 @@ reports/
 | `value_range.risk_reward` | リスクリワード比（`"price_below_liquidation"` の場合は数値比較できず `hit: null` になる） |
 
 値が取得できない（`null`）指標を条件にした場合は `hit: null` になります。文字列だけの `kill_criteria`（オブジェクト形式でないもの）は自動判定されず、人が判断してください。
+
+## ウォッチリスト
+
+設計は [`docs/20261004_watchlist.md`](../docs/20261004_watchlist.md)。`_config/watchlist.yaml` を直接エディタで編集し、追加・削除は次のコマンドで行う。
+
+```bash
+uv run python scripts/new_watch.py add 7014                      # 雛形を末尾に追記（過去のウォッチ回数も表示）
+uv run python scripts/new_watch.py remove 7014 --reason "..."    # removed / removed_reason を付けて archive へ移す
+uv run python scripts/new_watch.py sync [--dry-run]              # status=watch で未登録なら追加、sold/rejected なら archive へ移す
+uv run python scripts/new_watch.py check [--list-metrics]        # 書式検証・status との不整合の警告・metric 一覧
+uv run python scripts/new_watch.py schema                        # watchlist.schema.json を再生成（metric を追加したとき）
+```
+
+- status はウォッチリストに持たず、各銘柄の最新レポート（initial / review / exit をファイル名の日付順に並べた最後）の frontmatter から導出する。レポートが無い銘柄は「候補」として `buy_conditions` を評価する。
+- 条件は `{text, metric, op, value}`（kill_criteria と同じ形式）で、リスト内は AND。`sell_conditions` は hold のときだけ評価する。
+- ticker は文字列で書く（`"7014"`, `"278A"`）。エントリは行頭の `- ticker:` で始める（remove はこれを区切りにテキストを切り取るため、コメントは保持される）。
+- `watchlist.yaml` 先頭の `# yaml-language-server: $schema=...` により、VS Code の YAML 拡張でキー・`op`・`metric` の補完と検証が効く。
 
 ## 既知の制約
 

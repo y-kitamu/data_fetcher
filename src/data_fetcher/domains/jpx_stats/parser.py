@@ -145,6 +145,114 @@ def parse_investor_type_workbook(content: bytes, metric: str) -> pl.DataFrame:
     return pl.concat(sheets)
 
 
+# 2026年9月第3週分から投資部門別売買状況の配信様式が変わった
+# （stock_1_w_YYYYMMDD_YYYYMMDD.xlsx。金額・株数が1ファイル1シートに同居し、
+# 市場区分は行方向(株数/金額の2行ずつ)、投資部門は列方向(売/買/差引/合計の4列ずつ)に並ぶ）。
+# 新様式には 自己計・委託計・総計・法人・金融機関 の合計列と比率が無いため、
+# 旧様式と同じ長形式にそろえるためにここで合算・算出する。
+# 各投資部門ブロックの先頭列(0始まり)。ブロックは (売, 買, 差引, 合計) の4列。
+_WEEKLY_BLOCK_START_COLS = {
+    "自己現金": 3,
+    "自己信用": 7,
+    "個人現金": 11,
+    "個人信用": 15,
+    "海外法人": 19,
+    "海外個人": 23,
+    "証券会社": 27,
+    "投資信託": 31,
+    "事業法人": 35,
+    "その他法人等": 39,
+    "生保・損保": 43,
+    "都銀・地銀等": 47,
+    "信託銀行": 51,
+    "その他金融機関": 55,
+}
+_WEEKLY_MARKETS = [
+    ("Prime", "TSE Prime"),
+    ("Standard", "TSE Standard"),
+    ("Growth", "TSE Growth"),
+    ("Tokyo & Nagoya", "Tokyo & Nagoya"),
+]
+_FINANCIAL_BLOCKS = ["生保・損保", "都銀・地銀等", "信託銀行", "その他金融機関"]
+_WEEKLY_CATEGORIES: list[tuple[str, list[str]]] = [
+    ("自己計", ["自己現金", "自己信用"]),
+    (
+        "委託計",
+        ["個人現金", "個人信用", "海外法人", "海外個人", "証券会社", "投資信託",
+         "事業法人", "その他法人等", *_FINANCIAL_BLOCKS],
+    ),
+    (
+        "総計",
+        ["自己現金", "自己信用", "個人現金", "個人信用", "海外法人", "海外個人",
+         "証券会社", "投資信託", "事業法人", "その他法人等", *_FINANCIAL_BLOCKS],
+    ),
+    ("法人", ["投資信託", "事業法人", "その他法人等", *_FINANCIAL_BLOCKS]),
+    ("個人", ["個人現金", "個人信用"]),
+    ("海外投資家", ["海外法人", "海外個人"]),
+    ("証券会社", ["証券会社"]),
+    ("投資信託", ["投資信託"]),
+    ("事業法人", ["事業法人"]),
+    ("その他法人等", ["その他法人等"]),
+    ("金融機関", _FINANCIAL_BLOCKS),
+    ("生保・損保", ["生保・損保"]),
+    ("都銀・地銀等", ["都銀・地銀等"]),
+    ("信託銀行", ["信託銀行"]),
+    ("その他金融機関", ["その他金融機関"]),
+]
+# ブロック内の (売, 買, 合計) 列オフセット
+_WEEKLY_ITEM_OFFSETS = (("sell", 0), ("buy", 1), ("total", 3))
+
+
+def parse_investor_type_weekly_workbook(
+    content: bytes, week_start: str, week_end: str
+) -> pl.DataFrame:
+    """新様式(2026年9月第3週〜)の投資部門別売買状況ワークブックを、
+    旧様式と同じ長形式 (metric = value / volume の両方) に変換する。
+
+    Args:
+        week_start, week_end: 当該週の開始日・終了日 (YYYY-MM-DD)。ファイル名から得る。
+    """
+    raw = pl.read_excel(io.BytesIO(content), has_header=False)
+    # 空行の読み飛ばしで行位置が変わるため、最初の「株数」行をデータ開始行とする
+    first_data_row = next(
+        i for i in range(raw.height) if str(raw.row(i)[2]).startswith("株数 Shares")
+    )
+    records = []
+    for i, (name_key, market) in enumerate(_WEEKLY_MARKETS):
+        market_label = str(raw.row(first_data_row + 2 * i)[1])
+        if name_key not in market_label:
+            raise ValueError(f"Unexpected market label: {market_label!r}")
+        for metric, row_idx in (
+            ("volume", first_data_row + 2 * i),
+            ("value", first_data_row + 2 * i + 1),
+        ):
+            row = raw.row(row_idx)
+            totals: dict[tuple[str, str], float] = {}
+            for category, blocks in _WEEKLY_CATEGORIES:
+                for item, offset in _WEEKLY_ITEM_OFFSETS:
+                    values = [
+                        _to_float(row[_WEEKLY_BLOCK_START_COLS[b] + offset]) for b in blocks
+                    ]
+                    totals[(category, item)] = sum(v for v in values if v is not None)
+            for category, _ in _WEEKLY_CATEGORIES:
+                for item, _offset in _WEEKLY_ITEM_OFFSETS:
+                    value = totals[(category, item)]
+                    grand = totals[("総計", item)]
+                    records.append(
+                        {
+                            "market": market,
+                            "metric": metric,
+                            "week_start": week_start,
+                            "week_end": week_end,
+                            "category": category,
+                            "item": item,
+                            "value": value,
+                            "ratio_pct": round(value / grand * 100, 1) if grand else None,
+                        }
+                    )
+    return pl.from_dicts(records)
+
+
 # (列インデックス, カラム名, 数値変換するか) の一覧。
 # 規制フラグ（規/日/監/株/喚/○）は列1・列2のどちらに入るか銘柄によって異なる
 # （複数フラグを持つ銘柄用に2枠用意されている）ため、両方とも別カラムとして残す。

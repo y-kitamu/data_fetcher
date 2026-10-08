@@ -1,0 +1,114 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "watchlist",
+  "description": "ウォッチリスト（docs/20261004_watchlist.md）。new_watch.py schema で生成。手で編集しない",
+  "type": [
+    "array",
+    "null"
+  ],
+  "items": {
+    "$ref": "#/definitions/entry"
+  },
+  "definitions": {
+    "entry": {
+      "type": "object",
+      "required": [
+        "ticker",
+        "added"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "ticker": {
+          "type": "string",
+          "pattern": "^[0-9][0-9A-Z]{3}$",
+          "description": "証券コード。文字列で書く（\"7014\", \"278A\"）"
+        },
+        "added": {
+          "type": "string",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}$",
+          "description": "追加日"
+        },
+        "scenario": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "想定シナリオ・買い条件の要約（2〜3行）。詳しい根拠はレポートに書く"
+        },
+        "buy_conditions": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "#/definitions/condition"
+          },
+          "description": "レポートなし / watch のとき評価する。全て満たしたら成立（AND）"
+        },
+        "sell_conditions": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "#/definitions/condition"
+          },
+          "description": "hold のときだけ評価する。全て満たしたら成立（AND）"
+        },
+        "removed": {
+          "type": "string",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}$",
+          "description": "外した日（archive のみ。remove が付ける）"
+        },
+        "removed_reason": {
+          "type": "string",
+          "description": "外した理由（archive のみ。remove が付ける）"
+        }
+      }
+    },
+    "condition": {
+      "type": "object",
+      "required": [
+        "text",
+        "metric",
+        "op",
+        "value"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "text": {
+          "type": "string",
+          "description": "条件の説明（通知に表示する）"
+        },
+        "metric": {
+          "enum": [
+            "price.close",
+            "price.vs_ma25",
+            "price.vs_ma75",
+            "price.vs_ma200",
+            "price.return_1w",
+            "price.return_1m",
+            "price.return_3m",
+            "price.drawdown_from_peak",
+            "price.drawdown_from_52w_high",
+            "position.return_from_cost"
+          ],
+          "markdownDescription": "- `price.close`: 終値（円）\n- `price.vs_ma25`: 25日移動平均からの乖離率（0.05 = +5%）\n- `price.vs_ma75`: 75日移動平均からの乖離率\n- `price.vs_ma200`: 200日移動平均からの乖離率\n- `price.return_1w`: 1週間の騰落率\n- `price.return_1m`: 1か月の騰落率\n- `price.return_3m`: 3か月の騰落率\n- `price.drawdown_from_peak`: 直近高値からの下落率（-0.15 = -15%）\n- `price.drawdown_from_52w_high`: 52週高値からの下落率\n- `position.return_from_cost`: 取得単価からの損益率（trades.csv から算出。hold のみ）"
+        },
+        "op": {
+          "enum": [
+            "<",
+            "<=",
+            ">",
+            ">=",
+            "==",
+            "!="
+          ]
+        },
+        "value": {
+          "type": "number"
+        }
+      }
+    }
+  }
+}

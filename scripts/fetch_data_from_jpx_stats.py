@@ -73,8 +73,42 @@ def _save_investor_type(val_content: bytes, vol_content: bytes) -> bool:
     return True
 
 
+def _update_investor_type_weekly(session) -> bool:
+    """新様式の週次ファイルのうち未保存の週を取得する。掲載が1件も無ければ False を返す。"""
+    entries = jpx_stats_api.get_weekly_investor_type_entries(session)
+    for entry in entries:
+        week_start = entry["week_start"].replace("-", "")
+        week_end = entry["week_end"].replace("-", "")
+        output_path = JPX_STATS_DATA_DIR / f"investor_type/{week_start}_{week_end}.csv"
+        if output_path.exists():
+            continue
+        try:
+            content = jpx_stats_api.download(session, entry["url"])
+            df = jpx_stats_parser.parse_investor_type_weekly_workbook(
+                content, entry["week_start"], entry["week_end"]
+            )
+        except Exception as e:
+            data_fetcher.logger.error(f"Failed to fetch/parse {entry['url']}: {e}")
+            continue
+        if df.height < MIN_EXPECTED_INVESTOR_TYPE_ROWS:
+            data_fetcher.logger.warning(
+                f"Unexpected investor_type row count ({df.height}). Skip saving."
+            )
+            continue
+        output_path.parent.mkdir(parents=True, exist_ok=True)
+        df.write_csv(output_path)
+        data_fetcher.logger.info(
+            f"Saved {output_path} ({df.height} rows, "
+            f"week={entry['week_start']}~{entry['week_end']})"
+        )
+    return len(entries) > 0
+
+
 def update_investor_type() -> None:
     session = data_fetcher.get_session(max_requests_per_second=1, cache_file=None)
+    # 新様式(週次1ファイル)を優先し、掲載が無い場合のみ旧様式(最新週のval/vol)を試す
+    if _update_investor_type_weekly(session):
+        return
     urls = jpx_stats_api.get_latest_investor_type_urls(session)
     val_content = jpx_stats_api.download(session, urls["value_url"])
     vol_content = jpx_stats_api.download(session, urls["volume_url"])
