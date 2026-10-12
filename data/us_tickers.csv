@@ -1117,7 +1117,6 @@ DFEN,DRX AERO DF BL3X,Direxion デイリー エアロスペース・アンド・
 DFH,DREAM FIND HOME,ドリーム・ファインダーズ・ホームズ,NYSE,その他製造,○
 DFIN,DONNELLEY FINCL,ドネリー・ファイナンシャル・ソリューションズ,NYSE,ソフトウェア・サービス,○
 DFJ,WM JP S-CAP DVD,ウィズダムツリー  日本小型株配当ファンド,NYSE,その他,○
-DFLI,DRAGONFLY ENERGY,ドラゴンフライ・エナジー・ホールディングス,NASDAQ,その他製造,○
 DFNS,T3 DEFENSE,T3・ディフェンス,NASDAQ,その他,○
 DFTX,DEFINIUM THERAPE,デフィニウム・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 DG,DOLLAR GENERAL C,ダラー・ゼネラル,NYSE,小売,○
@@ -2126,6 +2125,7 @@ IRDM,IRIDIUM COMMUNIC,イリジウム・コミュニケーションズ,NASDAQ,�
 IREG,LVS 2X LONG IREN,LeverageShares 2x ロング IREN デイリー ETF,NASDAQ,その他,○
 IREN,IREN LTD,IREN,NASDAQ,電力,○
 IRIX,IRIDEX CORP,イリデックス,NASDAQ,ヘルスケア,○
+IRLA,IRULYA THERAPEUT,イルリア・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 IRMD,IRADIMED CORP,アイラディメド,NASDAQ,ヘルスケア,○
 IRON,DISC MEDICINE,ディスク・メディシン,NASDAQ,医薬品（バイオテクノロジー）,○
 IRS,IRSA INVERSIONES,IRSAインベストメンツ・アンド・リプレゼンテーションズ,NYSE,その他,○
@@ -2914,7 +2914,6 @@ NWSA,NEWS CORP A,ニューズ・コーポレーション　クラスA,NASDAQ,エ
 NX,QUANEX BLD PRDCT,クアネクス・ビルディング・プロダクツ,NYSE,その他製造,○
 NXDR,NEXTDOOR HLD,ネクストドア・ホールディングス,NYSE,ネットワーク,○
 NXE,NEXGEN ENERGY,ネクスジェン・エナジー,NYSE,専門店,○
-NXGL,NEXGEL INC,ネクスジェル,NASDAQ,医薬品,○
 NXH,NEIGHBORHOOD INT,ネイバーフッド・インテリジェンス,NASDAQ,小売,○
 NXPI,NXP SEMICON,NXPセミコンダクターズ,NASDAQ,半導体,○
 NXPL,NEXTPLAT CORP,ネクストプラット,NASDAQ,通信機器,○
@@ -3294,7 +3293,6 @@ QH,QUHUO LTD,チューフオ,NASDAQ,ソフトウェア・サービス,○
 QID,PROS QQQ -2X,プロシェアーズ・ウルトラショートQQQ,NYSE,その他,○
 QLD,PROS QQQ 2X,プロシェアーズ・ウルトラQQQ,NYSE,その他,○
 QLYS,QUALYS INC,クォリス,NASDAQ,ネットワークセキュリティー,○
-QNCX,QUINCE THERA,クインス・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 QNRX,QUOIN PHARMAC,クオイン・ファーマシューティカルズ,NASDAQ,医薬品（バイオテクノロジー）,○
 QNST,QUINSTREET INC,クインストリート,NASDAQ,ソフトウェア・サービス,○
 QNT,QUANTINUUM INC,クオンティニュアム,NASDAQ,ソフトウェア・サービス,○
@@ -4353,7 +4351,7 @@ W,WAYFAIR INC,ウェイフェア,NYSE,小売,○
 WAB,WABTEC CORP,ワブテック,NYSE,その他製造,○
 WABC,WESTAMERICA BANC,ウエストアメリカ・バンコープ,NASDAQ,金融（銀行）,○
 WAFD,WAFD INC,ワフド,NASDAQ,金融（銀行）,○
-WAFU,WAH FU EDUCATION,ワー・フー・エデュケーション・グループ,NASDAQ,ソフトウェア・サービス,○
+WAFU,WAH FU EDUCATION,ワー・フー・エデュケーション・アンド・テクノロジー・グループ,NASDAQ,ソフトウェア・サービス,○
 WAL,WESTERN ALLIANCE,ウェスタン・アライアンス・バンコープ,NYSE,金融（銀行）,○
 WASH,WASHINGTON TRUST,ワシントン・トラスト・バンコープ,NASDAQ,金融（銀行）,○
 WAT,WATERS CORP,ウォーターズ,NYSE,化学,○
