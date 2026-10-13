@@ -810,6 +810,7 @@ CHMG,CHEMUNG FINANCL,シェマング・ファイナンシャル,NASDAQ,金融（
 CHPT,CHARGEPOINT,チャージポイント,NYSE,電力,○
 CHR,CHEER HOLDING,チア・ホールディング,NASDAQ,エンターテイメント,○
 CHRD,CHORD ENERGY,コード・エネルギー,NASDAQ,石油,○
+CHRS,COHERUS ONCOLOG,コヘラス・オンコロジー,NASDAQ,医薬品（バイオテクノロジー）,○
 CHRW,CH ROBINSON WORL,シー･エッチ・ロビンソン・ワールドワイド,NASDAQ,運輸,○
 CHT,CHUNGHWA LTD,チョンホア・テレコム (中華電信),NYSE,通信サービス,○
 CHTR,CHARTER COMMUNIC,チャーター・コミュニケーションズ,NASDAQ,通信サービス,○
@@ -1117,6 +1118,7 @@ DFEN,DRX AERO DF BL3X,Direxion デイリー エアロスペース・アンド・
 DFH,DREAM FIND HOME,ドリーム・ファインダーズ・ホームズ,NYSE,その他製造,○
 DFIN,DONNELLEY FINCL,ドネリー・ファイナンシャル・ソリューションズ,NYSE,ソフトウェア・サービス,○
 DFJ,WM JP S-CAP DVD,ウィズダムツリー  日本小型株配当ファンド,NYSE,その他,○
+DFLI,DRAGONFLY ENERGY,ドラゴンフライ・エナジー・ホールディングス,NASDAQ,その他製造,○
 DFNS,T3 DEFENSE,T3・ディフェンス,NASDAQ,その他,○
 DFTX,DEFINIUM THERAPE,デフィニウム・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 DG,DOLLAR GENERAL C,ダラー・ゼネラル,NYSE,小売,○
@@ -2166,7 +2168,6 @@ IYRI,NEOS EST H INCM,NEOS 不動産ハイ・インカムETF,Cboe,その他,○
 IZEA,IZEA WORLDWIDE,IZEAワールドワイド,NASDAQ,通信サービス,○
 J,JACOBS SOLUTIONS,ジェイコブズ・ソリューション,NYSE,その他,○
 JACK,JACK IN THE BOX,ジャック・イン・ザ・ボックス,NASDAQ,外食,○
-JAGX,JAGUAR HEALTH,ジャガー・ヘルス,NASDAQ,医薬品,○
 JAKK,JAKKS PACIFIC,ジャックス・パシフィック,NASDAQ,その他製造,○
 JANX,JANUX THERAPE,ジャナックス・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 JAVA,JPM ACT VAL ETF,JPモルガン・米国バリュー株式・アクティブETF,NYSE,その他,○
@@ -2914,6 +2915,7 @@ NWSA,NEWS CORP A,ニューズ・コーポレーション　クラスA,NASDAQ,エ
 NX,QUANEX BLD PRDCT,クアネクス・ビルディング・プロダクツ,NYSE,その他製造,○
 NXDR,NEXTDOOR HLD,ネクストドア・ホールディングス,NYSE,ネットワーク,○
 NXE,NEXGEN ENERGY,ネクスジェン・エナジー,NYSE,専門店,○
+NXGL,NEXGEL INC,ネクスジェル,NASDAQ,医薬品,○
 NXH,NEIGHBORHOOD INT,ネイバーフッド・インテリジェンス,NASDAQ,小売,○
 NXPI,NXP SEMICON,NXPセミコンダクターズ,NASDAQ,半導体,○
 NXPL,NEXTPLAT CORP,ネクストプラット,NASDAQ,通信機器,○
@@ -4521,7 +4523,6 @@ YORW,THE YORK WATER,ヨーク・ウォーター,NASDAQ,その他,○
 YOU,CLEAR SECURE INC,クリア・セキュア,NYSE,ソフトウェア・サービス,○
 YPF,YPF SOCIEDAD ANO,YPF,NYSE,石油,○
 YQ,17 EDUCTION TECH,17エデュケーション・アンド・テクノロジー・グループ,NASDAQ,ソフトウェア・サービス,○
-YRD,YIREN DIGITAL,イレン・デジタル,NYSE,金融（銀行）,○
 YSG,YATSEN HOLDING,ヤッセン・ホールディングス,NYSE,小売,○
 YSPY,GNS YLDBST SPY,グラナイトシェアーズ イールドブースト SPY ETF,NASDAQ,その他,○
 YSWY,YESWAY,イエスウェイ,NASDAQ,小売,○
