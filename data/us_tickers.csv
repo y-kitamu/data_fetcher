@@ -752,7 +752,6 @@ CCL,CARNIVAL CORP,カーニバル,NYSE,運輸,○
 CCLD,CARE CLOUD INC,ケア・クラウド,NASDAQ,ソフトウェア・サービス,○
 CCM,CONCORD MED SRV,コンコード・メディカル・サービシズ・ホールディ,NYSE,医薬品,○
 CCNE,CNB FINANCIAL CO,CNBファイナンシャル,NASDAQ,金融（銀行）,○
-CCO,CLEAR CHANNEL,クリア・チャネル・アウトドア・ホールディングス,NYSE,その他,○
 CCOI,COGENT COMMUNI,コジェント・コミュニケーションズ・ホールディングス,NASDAQ,通信サービス,○
 CCS,CENTURY COMMUNIT,センチュリー・コミュニティーズ,NYSE,その他製造,○
 CCSI,CONSENSUS CLD SL,コンセンサス・クラウド・ソリューションズ,NASDAQ,ソフトウェア・サービス,○
@@ -2342,7 +2341,7 @@ LAUR,LAUREATE EDUCATN,ロレッテ・エデュケーション,NASDAQ,ソフト�
 LAW,CS DISCO INC,CSディスコ,NYSE,ソフトウェア・サービス,○
 LAZ,LAZARD INC,ラザード・インク,NYSE,金融（証券）,○
 LAZR,TEMA PHOTON&OPT,Tema フォトニクス＆オプティカルETF,NYSE,その他,○
-LB,LANDBRIDGE CO,ランドブリッジ,NYSE,石油,○
+LB,LANDBRIDGE CORP,ランドブリッジ,NYSE,石油,○
 LBRT,LIBERTY ENERGY,リバティー・エナジー,NYSE,石油,○
 LBTYA,LIBERTY GLB CL-A,リバティ ・グローバル　クラスA,NASDAQ,通信サービス,○
 LBTYK,LIBERTY GLOBAL,リバティ・グローバル,NASDAQ,通信サービス,○
@@ -2913,7 +2912,7 @@ NWPX,NWPX INFRASTRUCT,NWPX インフラストラクチャー,NASDAQ,その他製
 NWS,NEWS CORP CL-B,ニューズ・コーポレーション,NASDAQ,その他,○
 NWSA,NEWS CORP A,ニューズ・コーポレーション　クラスA,NASDAQ,エンターテイメント,○
 NX,QUANEX BLD PRDCT,クアネクス・ビルディング・プロダクツ,NYSE,その他製造,○
-NXDR,NEXTDOOR HLD,ネクストドア・ホールディングス,NYSE,ネットワーク,○
+NXDR,NEXTDOOR HLD,ネクストドア・ホールディングス,NASDAQ,ネットワーク,○
 NXE,NEXGEN ENERGY,ネクスジェン・エナジー,NYSE,専門店,○
 NXGL,NEXGEL INC,ネクスジェル,NASDAQ,医薬品,○
 NXH,NEIGHBORHOOD INT,ネイバーフッド・インテリジェンス,NASDAQ,小売,○
@@ -3635,12 +3634,10 @@ SKHX,LVS 2X LONG SYHY,Leverage Shares 2x ロング SK Hynix デイリー ETF,Cbo
 SKHY,SK HYNIX,SKハイニックス,NASDAQ,半導体,○
 SKHZ,LVS 1X SHRT SKHY,Leverage Shares 1x ショート SK Hynix デイリー ETF,Cboe,その他,○
 SKIL,SKILLSOFT CORP,スキルソフト,NYSE,ソフトウェア・サービス,○
-SKIN,SKINHEALTH INC,スキンヘルス・システム,NASDAQ,ヘルスケア,○
 SKM,SK TELECOM CO,SKテレコム,NYSE,通信サービス,○
 SKUU,GNS 2X LONG SKHY,GraniteShares2倍ロングSK HynixデイリーETF,NASDAQ,その他,○
 SKWD,SKYWARD SPECIAL,スカイワード・スペシャルティ・インシュアランス・グループ,NASDAQ,金融(保険),○
 SKY,CHAMPION HOMES,チャンピオン・ホームズ,NYSE,その他製造,○
-SKYD,SKYDANCE CORP,スカイダンス・コーポレーション,NYSE,エンターテイメント,○
 SKYH,SKY HARBOUR GRP,スカイ・ハーバー・グループ,NYSE,航空,○
 SKYW,SKYWEST INC,スカイウエスト,NASDAQ,航空,○
 SKYX,SKYX PLATFORMS,SKYXプラットフォームズ,NASDAQ,その他製造,○
@@ -4523,6 +4520,7 @@ YORW,THE YORK WATER,ヨーク・ウォーター,NASDAQ,その他,○
 YOU,CLEAR SECURE INC,クリア・セキュア,NYSE,ソフトウェア・サービス,○
 YPF,YPF SOCIEDAD ANO,YPF,NYSE,石油,○
 YQ,17 EDUCTION TECH,17エデュケーション・アンド・テクノロジー・グループ,NASDAQ,ソフトウェア・サービス,○
+YRD,YIREN DIGITAL,イレン・デジタル,NYSE,金融（銀行）,○
 YSG,YATSEN HOLDING,ヤッセン・ホールディングス,NYSE,小売,○
 YSPY,GNS YLDBST SPY,グラナイトシェアーズ イールドブースト SPY ETF,NASDAQ,その他,○
 YSWY,YESWAY,イエスウェイ,NASDAQ,小売,○
