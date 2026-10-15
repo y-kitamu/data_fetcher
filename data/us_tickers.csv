@@ -132,6 +132,7 @@ AIFC,AI FINANCIAL CO,AIファイナンシャル・コーポレーション,NASDA
 AIG,AMERICAN INTER,AIG,NYSE,金融(保険),○
 AII,AME INTEG INSURA,アメリカン・インテグリティ・インシュアランス・グループ,NYSE,金融(保険),○
 AIN,ALBANY INTL,アルバニー・インターナショナル,NYSE,機械,○
+AIOK,AI OKITO,エーアイ・オクト,NASDAQ,ソフトウェア・サービス,○
 AIOS,AIOS TECH,アイオス・テック,NASDAQ,その他製造,○
 AIOT,POWERFLEET INC,パワーフリート,NASDAQ,通信機器,○
 AIP,ARTERIS INC,アルテリス,NASDAQ,半導体,○
@@ -2167,6 +2168,7 @@ IYRI,NEOS EST H INCM,NEOS 不動産ハイ・インカムETF,Cboe,その他,○
 IZEA,IZEA WORLDWIDE,IZEAワールドワイド,NASDAQ,通信サービス,○
 J,JACOBS SOLUTIONS,ジェイコブズ・ソリューション,NYSE,その他,○
 JACK,JACK IN THE BOX,ジャック・イン・ザ・ボックス,NASDAQ,外食,○
+JAGX,JAGUAR HEALTH,ジャガー・ヘルス,NASDAQ,医薬品,○
 JAKK,JAKKS PACIFIC,ジャックス・パシフィック,NASDAQ,その他製造,○
 JANX,JANUX THERAPE,ジャナックス・セラピューティクス,NASDAQ,医薬品（バイオテクノロジー）,○
 JAVA,JPM ACT VAL ETF,JPモルガン・米国バリュー株式・アクティブETF,NYSE,その他,○
@@ -3380,6 +3382,7 @@ RELX,RELX PLC,レレックス,NYSE,ソフトウェア・サービス,○
 RELY,REMITLY GLOBAL,レミトリー・グローバル,NASDAQ,金融コングロマリット,○
 REM,ISRS MORTGAGE RE,iシェアーズ　米国モーゲージ不動産 ETF,Cboe,その他,○
 REMX,V R EARTH SM ETF,ヴァンエック・レアアース・アンド・戦略的金属ETF,NYSE,その他,○
+RENT,RENT THE RUNWAY,レント・ザ・ランウェイ,NASDAQ,ソフトウェア・サービス,○
 RENX,RENX ENTERPRISES,RenX エンタープライズ,NASDAQ,その他製造,○
 REPL,REPLIMUNE GROUP,レプリミューン,NASDAQ,医薬品（バイオテクノロジー）,○
 REPX,RILEY EXPLRTION,ライリー・エクスプロレーション・パーミアン,NYSE,石油,○
@@ -3634,10 +3637,12 @@ SKHX,LVS 2X LONG SYHY,Leverage Shares 2x ロング SK Hynix デイリー ETF,Cbo
 SKHY,SK HYNIX,SKハイニックス,NASDAQ,半導体,○
 SKHZ,LVS 1X SHRT SKHY,Leverage Shares 1x ショート SK Hynix デイリー ETF,Cboe,その他,○
 SKIL,SKILLSOFT CORP,スキルソフト,NYSE,ソフトウェア・サービス,○
+SKIN,SKINHEALTH INC,スキンヘルス・システム,NASDAQ,ヘルスケア,○
 SKM,SK TELECOM CO,SKテレコム,NYSE,通信サービス,○
 SKUU,GNS 2X LONG SKHY,GraniteShares2倍ロングSK HynixデイリーETF,NASDAQ,その他,○
 SKWD,SKYWARD SPECIAL,スカイワード・スペシャルティ・インシュアランス・グループ,NASDAQ,金融(保険),○
 SKY,CHAMPION HOMES,チャンピオン・ホームズ,NYSE,その他製造,○
+SKYD,SKYDANCE CORP,スカイダンス・コーポレーション,NYSE,エンターテイメント,○
 SKYH,SKY HARBOUR GRP,スカイ・ハーバー・グループ,NYSE,航空,○
 SKYW,SKYWEST INC,スカイウエスト,NASDAQ,航空,○
 SKYX,SKYX PLATFORMS,SKYXプラットフォームズ,NASDAQ,その他製造,○
@@ -4184,6 +4189,7 @@ UUUU,ENERGY FUELS INC,エナジー・フューエルズ,NYSE,その他,○
 UVE,UNIVERSL INSURNC,ユニバーサル・インシュランス・ホールディングス,NYSE,金融(保険),○
 UVSP,UNIVEST FIN CORP,ユニベスト・ファイナンシャル,NASDAQ,金融（銀行）,○
 UVV,UNIVERSAL CORP,ユニバーサル,NYSE,食品・タバコ,○
+UWMC,UWM HOLDINGS,UWMホールディングス,NYSE,金融（銀行）,○
 UXIN,UXIN LTD,ユウシン,NASDAQ,小売,○
 V,VISA INC,ビザ,NYSE,金融(カード),○
 VABK,VIRG NATION BANK,バージニア・ナショナル・バンクシェアズ,NASDAQ,金融（銀行）,○

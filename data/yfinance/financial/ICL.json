@@ -1004,7 +1004,7 @@
         "Basic EPS": 0.1,
         "Diluted NI Availto Com Stockholders": 126000000.0,
         "Net Income Common Stockholders": 126000000.0,
-        "Net Income": 126000000.0,
+        "Net Income": NaN,
         "Minority Interests": -14000000.0,
         "Net Income Including Noncontrolling Interests": 140000000.0,
         "Net Income Continuous Operations": 140000000.0,

@@ -1057,7 +1057,7 @@
         "Tax Effect Of Unusual Items": -135677.888294,
         "Tax Rate For Calcs": 0.24185,
         "Total Unusual Items": -561000.0,
-        "Total Unusual Items Excluding Goodwill": -561000.0,
+        "Total Unusual Items Excluding Goodwill": NaN,
         "Net Income From Continuing Operation Net Minority Interest": 50536000.0,
         "Reconciled Depreciation": -1346000.0,
         "Net Interest Income": 141714000.0,
