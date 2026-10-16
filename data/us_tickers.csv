@@ -59,6 +59,8 @@ ACTG,ACACIA RESEARCH,アカシア・リサーチ,NASDAQ,その他,○
 ACU,ACME UNITED CORP,アクメ・ユナイテッド,NYSE,その他製造,○
 ACVA,ACV AUCTIONS INC,ACVオークションズ,NYSE,ソフトウェア・サービス,○
 ACWI,ISHARES ACWI,iシェアーズ MSCI ACWI ETF,NASDAQ,その他,○
+ACYN,FT VST LDR AUTO,FT Vest ラダー・オートコーラブル・バリア＆インカムETF,NYSE,その他,○
+ACYQ,FT VST AUTO HIGH,FT Vest オートコーラブル・バリア＆ハイインカムETF,NYSE,その他,○
 AD,ARRAY DIGITAL,アレイ・デジタル・インフラストラクチャー,NYSE,通信サービス,○
 ADAG,ADAGENE INC,アダジェン,NASDAQ,医薬品（バイオテクノロジー）,○
 ADBE,ADOBE INC,アドビ,NASDAQ,ソフトウェア・サービス,○
@@ -2270,7 +2272,6 @@ KMT,KENNAMETAL INC,ケナメタル,NYSE,その他製造,○
 KMTS,KESTRA MEDICAL,ケストラ・メディカル・テクノロジーズ,NASDAQ,医療サービス,○
 KMX,CARMAX INC,カーマックス,NYSE,小売,○
 KN,KNOWLES CORP,クノールズ,NYSE,通信機器,○
-KNDI,KANDI TECHNOLOGS,カンディ・テクノロジーズ・グループ,NASDAQ,その他製造,○
 KNF,KNIFE RIVER,ナイフ・リバー・コーポレーション,NYSE,その他,○
 KNG,FT SP500 DIV ARI,ファーストトラスト Vest SP 500 配当貴族 ターゲットインカムETF,Cboe,その他,○
 KNSA,KINIKSA PMTL ITN,キニクサ・ファーマシューティカルズ・インターナショナル,NASDAQ,医薬品（バイオテクノロジー）,○
@@ -3296,6 +3297,7 @@ QH,QUHUO LTD,チューフオ,NASDAQ,ソフトウェア・サービス,○
 QID,PROS QQQ -2X,プロシェアーズ・ウルトラショートQQQ,NYSE,その他,○
 QLD,PROS QQQ 2X,プロシェアーズ・ウルトラQQQ,NYSE,その他,○
 QLYS,QUALYS INC,クォリス,NASDAQ,ネットワークセキュリティー,○
+QNDX,SPDR NASDAQ100,State StreetR SPDRRポートフォリオ・ナスダックR 100 ETF,NASDAQ,その他,○
 QNRX,QUOIN PHARMAC,クオイン・ファーマシューティカルズ,NASDAQ,医薬品（バイオテクノロジー）,○
 QNST,QUINSTREET INC,クインストリート,NASDAQ,ソフトウェア・サービス,○
 QNT,QUANTINUUM INC,クオンティニュアム,NASDAQ,ソフトウェア・サービス,○
