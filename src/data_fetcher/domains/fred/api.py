@@ -20,6 +20,10 @@ class FredApiError(RuntimeError):
     """FRED APIがエラーを返した場合に送出される。"""
 
 
+class FredTransientError(FredApiError):
+    """HTTP 429/5xxなど、再試行で回復しうるFRED APIエラー。"""
+
+
 def load_api_key(path: Path = API_KEY_PATH) -> str:
     """cert/fred_api_key.txt からAPIキーを読み込む。"""
     if not path.exists():
@@ -32,7 +36,9 @@ def load_api_key(path: Path = API_KEY_PATH) -> str:
 
 
 @retry_with_backoff(
-    max_retries=4, base_delay=3.0, exceptions=(requests.exceptions.RequestException,)
+    max_retries=4,
+    base_delay=3.0,
+    exceptions=(requests.exceptions.RequestException, FredTransientError),
 )
 def get_series_observations(
     session: requests.Session,
@@ -57,7 +63,12 @@ def get_series_observations(
 
     res = session.get(f"{BASE_URL}/series/observations", params=params, timeout=TIMEOUT)
     if res.status_code != 200:
-        raise FredApiError(
+        error_cls = (
+            FredTransientError
+            if res.status_code == 429 or res.status_code >= 500
+            else FredApiError
+        )
+        raise error_cls(
             f"FRED API error for series_id={series_id}: HTTP {res.status_code} {res.text}"
         )
     payload = res.json()
