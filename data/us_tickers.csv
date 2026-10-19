@@ -57,7 +57,6 @@ ACRV,ACRIVON THERAP,アクリボン・セラピューティクス,NASDAQ,医薬�
 ACT,ENACT HOLDINGS,エナクト・ホールディングス,NASDAQ,金融(保険),○
 ACTG,ACACIA RESEARCH,アカシア・リサーチ,NASDAQ,その他,○
 ACU,ACME UNITED CORP,アクメ・ユナイテッド,NYSE,その他製造,○
-ACVA,ACV AUCTIONS INC,ACVオークションズ,NYSE,ソフトウェア・サービス,○
 ACWI,ISHARES ACWI,iシェアーズ MSCI ACWI ETF,NASDAQ,その他,○
 ACYN,FT VST LDR AUTO,FT Vest ラダー・オートコーラブル・バリア＆インカムETF,NYSE,その他,○
 ACYQ,FT VST AUTO HIGH,FT Vest オートコーラブル・バリア＆ハイインカムETF,NYSE,その他,○
@@ -351,7 +350,6 @@ ATER,ATERIAN INC,アテリアン,NASDAQ,情報処理サービス,○
 ATEX,ANTERIX INC,アンテリックス,NASDAQ,通信機器,○
 ATHM,AUTOHOME INC,オートホーム,NYSE,小売,○
 ATI,ATI INC,エー・ティー・アイ,NYSE,その他製造,○
-ATKR,ATKORE INC,アトコア,NYSE,その他製造,○
 ATLC,ATLANTICUS HLD,アトランティクス・ホールディングス,NASDAQ,金融（銀行）,○
 ATLO,AMES NTNL CORP,エイムズ・ナショナル,NASDAQ,金融（銀行）,○
 ATNI,ATN INTRNATIONAL,ATNインターナショナル,NASDAQ,通信サービス,○
@@ -2272,6 +2270,7 @@ KMT,KENNAMETAL INC,ケナメタル,NYSE,その他製造,○
 KMTS,KESTRA MEDICAL,ケストラ・メディカル・テクノロジーズ,NASDAQ,医療サービス,○
 KMX,CARMAX INC,カーマックス,NYSE,小売,○
 KN,KNOWLES CORP,クノールズ,NYSE,通信機器,○
+KNDI,KANDI TECHNOLOGS,カンディ・テクノロジーズ・グループ,NASDAQ,その他製造,○
 KNF,KNIFE RIVER,ナイフ・リバー・コーポレーション,NYSE,その他,○
 KNG,FT SP500 DIV ARI,ファーストトラスト Vest SP 500 配当貴族 ターゲットインカムETF,Cboe,その他,○
 KNSA,KINIKSA PMTL ITN,キニクサ・ファーマシューティカルズ・インターナショナル,NASDAQ,医薬品（バイオテクノロジー）,○

@@ -1232,7 +1232,7 @@
         "Interest Income Non Operating": 3100000.0,
         "Operating Income": 86100000.0,
         "Operating Expense": 32700000.0,
-        "Other Operating Expenses": 6900000.0,
+        "Other Operating Expenses": NaN,
         "Selling General And Administration": 25800000.0,
         "Gross Profit": 118800000.0,
         "Cost Of Revenue": 530400000.0,
