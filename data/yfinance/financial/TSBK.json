@@ -1060,7 +1060,7 @@
         "Insurance And Claims": 228000.0,
         "Salaries And Wages": 6469000.0,
         "Total Revenue": 20079000.0,
-        "Operating Revenue": 20079000.0,
+        "Operating Revenue": NaN,
         "Occupancy And Equipment": 1116000.0,
         "Professional Expense And Contract Services Expense": 325000.0,
         "Other Non Interest Expense": 2330000.0

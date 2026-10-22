@@ -982,7 +982,7 @@
         "Other Income Expense": -159000.0,
         "Other Non Operating Income Expenses": -159000.0,
         "Operating Income": 1098000.0,
-        "Operating Expense": 6168000.0,
+        "Operating Expense": NaN,
         "Research And Development": 915000.0,
         "Selling General And Administration": 5253000.0,
         "Gross Profit": 7266000.0,
