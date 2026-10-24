@@ -1155,7 +1155,7 @@
         "Interest Expense": NaN,
         "Normalized Income": 1365000.0,
         "Net Income From Continuing And Discontinued Operation": 1365000.0,
-        "Total Expenses": 13783000.0,
+        "Total Expenses": 13784000.0,
         "Total Operating Income As Reported": 1070000.0,
         "Diluted Average Shares": 7194000.0,
         "Basic Average Shares": 7050000.0,
@@ -1175,15 +1175,15 @@
         "Total Other Finance Cost": -295000.0,
         "Interest Expense Non Operating": NaN,
         "Operating Income": 1070000.0,
-        "Operating Expense": 2339000.0,
+        "Operating Expense": 2340000.0,
         "Research And Development": 54000.0,
-        "Selling General And Administration": 2285000.0,
+        "Selling General And Administration": 2286000.0,
         "Selling And Marketing Expense": 1627000.0,
-        "General And Administrative Expense": 658000.0,
-        "Other Gand A": 658000.0,
-        "Gross Profit": 3409000.0,
+        "General And Administrative Expense": 659000.0,
+        "Other Gand A": 659000.0,
+        "Gross Profit": 3410000.0,
         "Cost Of Revenue": 11444000.0,
-        "Total Revenue": 14853000.0,
-        "Operating Revenue": 14853000.0
+        "Total Revenue": 14854000.0,
+        "Operating Revenue": 14854000.0
     }
 }
